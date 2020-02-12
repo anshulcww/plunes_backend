@@ -1,0 +1,311 @@
+,"1","X RAY CHEST PA","350/-",,
+,"2","X RAY CHEST AP","350/-",,
+,"3","X RAY AP & LAT","700/-",,
+,"4","X RAY PER VIEW","350/-",,
+,"5","USG KUB","1800/-",,
+,"6","USG DOPPLER","2500/-",,
+,"7","USG LOWER ABD","1800/-",,
+,"8","USG PELVIS","1800/-",,
+,"9","USG BREAST","2500/-",,
+,"10","RENAL DOPPLER","5000/-",,
+,"11","USG TVS","1800/-",,
+,"12","USG UPPER ABD","1800/-",,
+,"13","ECG ","300/-",,
+,"14","2D ECHO","3000/-",,
+,"1","CBC ","300/-",,
+,"2","LFT","700/-",,
+,"3","KFT","700/-",,
+,"4","LIPID PROFILE","700/-",,
+,"5","HBAIC","500/-",,
+,"6","MP ANTIGEN ","500/-",,
+,"7","TYPHIDOT","700/-",,
+,"8","WIDAL","200/-",,
+,"9","ESR","100/-",,
+,"10","BLOOD GROUP","150/-",,
+,"11","URINE ROUTINE ","100/-",,
+,"12","URINE  CULTURE & SENSITIVITY","600/-",,
+,"13","BLOOD SUGAR FASTING","100/-",,
+,"14","BLOOD CULTURE","1000/-",,
+,"15","LH ","450/-",,
+,"16","FSH","450/-",,
+,"17","PROLACTIN","500/-",,
+,"18","TSH","400/-",,
+,"19","THYROID PROFILE  TOTAL","600/-",,
+,"20","THYROID PROFILE   FREE","1000/-",,
+,"21","E2","800/-",,
+,"22","SERUM  PROGESTRONE","700/-",,
+,"23","AMH ","1800/-",,
+,"24","AMYLASE","500/-",,
+,"25","LIPASE","600/-",,
+,"26","RA FACTOR","350/-",,
+,"27","CRP","350/-",,
+,"28","CRP QUANTITATIVE","500/-",,
+,"29","DENGUE SEROLOGY","1200/-",,
+,"30","DENGUE  NS1","600/-",,
+,"31","CHICKENGUNIYA IGM ","600/-",,
+,"32","CHICKENGUNIYA  PCR","1000/-",,
+,"33","HIV I & II  RAPID CARD","600/-",,
+,"34","HBSAG RAPID CARD ","600/-",,
+,"35","HCV RAPID CARD","500/-",,
+,"36","VDRL","450/-",,
+,"37","TROP T","1500/-",,
+,"38","VITAMIN B12","1000/-",,
+,"39","VITAMIN D3 & 25","1570/-",,
+,"40","PSA TOTAL ","600/-",,
+,"41","PSA FREE","900/-",,
+,"42","TESTOSTERONE TOTAL","800/-",,
+,"43","TESTOSTERONE  FREE","1450/-",,
+,"44","BETA HCG","700/-",,
+,"45","PT INR","500/-",,
+,"46","APTT","600/-",,
+,"47","COOMB TEST DIRECT ( DCT )","450/-",,
+,"48","COOMB TEST INDIRECT ( ICT )","500/-",,
+,"49","CORTISOL MORNING (7 TO 9 AM)","500/-",,
+,"50","CORTISOL EVENING (3 TO 5 PM)","500/-",,
+,"51","GCT AFTER 2HRS.","100/-",,
+,"52","HAEMOGLOBIN","100/-",,
+,"53","HPLC","1000/-",,
+,"54","INSULIN FASTING ","700/-",,
+,"55","INSULIN RANDOM &EVENING","700/-",,
+,"56","LUPUS ANTI COAGULENT","1600/-",,
+,"57","RUBELLA VIRUS IGG","500/-",,
+,"58","RUBELLA VIRUS IGM","500/-",,
+,"59","TB GOLD (QUANTIFERON)","2600/-",,
+,"60","URINE KETONE","150/-",,
+,"61","STOOL ROUTINE","150/-",,
+,"62","STOOL HANGING DROP","100/-",,
+,"63","TOTAL IGE LEVEL","700/-",,
+,"64","HOMOCYSTEINE LEVEL","1200/-",,
+,"65","DOUBLE MARKER","1850/-",,
+,"66","TRIPLE MARKER ","2200/-",,
+,"67","QUADRUPLE MARKER","3965/-",,
+,"68","HLA B27 FLOW CYTOMETRY","1900/-",,
+,"69","HLA B27 (PCR )","2600/-",,
+,"70","SMALL  BIOPSY HISTOPATHOLOGY ","850/-",,
+,"71","MEDIUM BIOPSY HISTOPATHOLOGY","1200/-",,
+,"72","LARGE BIOPSY HISTOPATHOLOGY","2000/-",,
+,"73","ACE ","1300/-",,
+,"74","AEC","250/-",,
+,"75","BLOOD SUGAR FASTING","100/-",,
+,"76","BLOOD SUGAR PP","100/-",,
+,"77","BLOOD SUGAR RANDOM","100/-",,
+,"78","SGPT","150/-",,
+,"79","SERUM CREATININE","150/-",,
+,"80","SGOT","150/-",,
+,"81","BLOOD UREA","150/-",,
+,"82","TORCH PROFILE IGG & IGM  10 PARAMETER","3000/-",,
+,"83","PAP SMEAR","650/-",,
+,"84","LBC PAP SMEAR ","1200/-",,
+,"85","LBC PAP SMEAR WITH HPV DETECTION ","3000/-",,
+,"86","FT3","300/-",,
+,"87","FT4","300/-",,
+,"88","X RAY CHEST PA","350/-",,
+,"89","X RAY CHEST AP","350/-",,
+,"90","X RAY AP & LAT","700/-",,
+,"91","X RAY PER VIEW","350/-",,
+,"92","USG KUB","1800/-",,
+,"93","USG DOPPLER","2500/-",,
+,"94","USG LOWER ABD","1800/-",,
+,"95","USG PELVIS","1800/-",,
+,"96","USG BREAST","2500/-",,
+,"97","RENAL DOPPLER","5000/-",,
+,"98","USG TVS","1800/-",,
+,"99","USG UPPER ABD","1800/-",,
+,"100","ECG ","300/-",,
+,"101","2D ECHO","3000/-",,
+,,,,,
+,,,,,
+,"Surgical Procedure","Stay","Shared AC Accommodation","Single AC Room","Deluxe Room"
+,"FESS","2","36616","45770"," 54924"
+,"Inferior Turbinectomy","2","32752","40940"," 49128"
+,"Mastoidectomy","2","50048","62560"," 75072"
+,"Microlaryngeal Surgeries","2","36616","45770"," 54924"
+,"Myringoplasty","2","36616","45770"," 54924"
+,"Pre- auricular Sinus Excision","1","21344","26680"," 32016"
+,"Septoplasty","1","24656","30820"," 36984"
+,"Stapedectomy","2","48208","60260"," 72312"
+,"Tonsillectomy","1","23552","29440"," 35328"
+,"Tracheostomy","1","24656","30820"," 36984"
+,"Tympanoplasty","2","42872","53590"," 64308"
+,"Endoscopy UGI","OPD","3220","4025"," 4830"
+,"Endoscopy LGI","OPD","5520","6900","8280"
+,"Appendisectomy Lap","2","34960","43700"," 52440"
+,"Appendisectomy Open","2","31280","39100"," 46920"
+,"Emergency  Appendisectomy","2","36800","46000","55200"
+,"Breast Fibroadenoma - Excision ","1","23552","29440"," 35328"
+,"Cholecystectomy Lap","2","43240","54050"," 64860"
+,"Cholecystectomy Lap Emergency","3","47840","59800","71760"
+,"Cholecystectomy open","3","36800","46000"," 55200"
+,"Cholecystectomy open Emergency","3","41400","51750","62100"
+,"Excision of Ganglions","2","23920","29900"," 35880 "
+,"Excision of Pilonidal Sinus","1","20240","25300"," 30360"
+,"Fissure - Dilatation","1","17480","21850"," 26220"
+,,,,,
+,"Fissurectomy","2","36800","46000"," 55200"
+,"Fistula - High","2","36800","46000"," 55200"
+,"Fistula - Low","1","29440","36800"," 44160"
+,"Foreign body removal","1","14720","18400"," 22080"
+,"Heamoroidectomy ( Stapler Extra) ","2","34960","43700","52440"
+,"Haemorrhoidectomy - Routine","2","23920","29900","35880"
+,"Herniorraphy- Umblical","2","32240","40300"," 48360"
+,"Herniorraphy- inguinal- Unilateral","2","32240","40300","48360"
+,"Herniorraphy- inguinal- Bilateral","3","41440","51800","62160"
+,"Hydrocele/Varicocele","1","20240","25300","30360"
+,"Intestinal Resection and Anastomosis & laparotomy","3","64400","80500"," 96600"
+,"L N Biopsy - GA","1","14720","18400"," 22080"
+,"L N Biopsy - LA","1","11960","14950"," 17940"
+,"Lap Hernioplasty - Bilateral ","2","46000","57500"," 69000"
+,"Lap Hernioplasty - Unilateral ","2","43320","52900"," 63480"
+,"Mastectomy Radical","2","43320","52900"," 63480"
+,"Mastectomy Simple","1","33120","41400"," 49680"
+,"Sinus Excision","2","34960","43700"," 52440"
+,"Splenectomy","3","58800","73600"," 88320"
+,"Splenectomy Laparoscopic ","3","69920","87400","104880"
+,"Thyroidectomy - Hemi","2","40480","50600","60720"
+,"Thyroidectomy - Total","3","47840","59800","71760"
+,"Colectomy/APR","3","71760","89700","107640"
+,"Tumor Excision","1","38640","48300","57960"
+,"Burr Hole Surgery","5","92000","115000","138000"
+,"Decompression surgery","5","119600","149500","179400"
+,"Nerve Repair with Grafting","3","84640","105800","126960"
+,"Caeserian Section","3","43240","54050","64860"
+,"Ectopic Pregnancy - LAP","2","41400","51750","62100"
+,"Ectopic Pregnancy - Open","2","39560","49450","59340"
+,"Forceps/Vaccum Delivery","2","33120","41400","49680"
+,"Hysterectomy - Vaginal ","3","46000","57500","69000"
+,"Hysterectomy Abdominal","2","44160","55200","66240"
+,"Hysterectomy with Salphingoopherectomy ","3","49680","62100","74520"
+,"Lap Hysterectomy","3","52440","65550","78660"
+,"Lap. Ovarian Cystectomy","2","42320","52900","63480"
+,"Lap.Tubal Ligation","1","20240","25300","30360"
+,"Laproscopic Assisted Vaginal Hysterectomy","3","49680","62100","74520"
+,"MTP/ D & C","1","11040","13800","16560"
+,"Myomectomy - LAP","3","46000","57500","69000"
+,"Myomectomy - Open","3","44160","55200","66240"
+,"Normal Delivery","2","33152","41400","49680"
+,"Ovarain Cyst / Tumor - Open","2","44160","55200","66240"
+,"Diagnostic Arthroscopy","3","38640","48300","57960"
+,"ACL Repair","3","66240","82800","99360"
+,"Discectomy","5","92000","115000","138000"
+,"Open Reduction & Internal Fixation of Fingers & Toes","3","49680","62100","74520"
+,"Open Reduction of Dislocations Deep","3","58880","73600","88320"
+,"Open Reduction of Dislocations Superficial","3","49680","62100","74520"
+,"Open Reduction of Fracture Dislocation & Internal Fixations","3","66240","82800","99360"
+,"Open Reduction of Fracture Neck Femur Muscle Pedical Graft & Internal Fixations","3","66240","82800"," 99360"
+,"Open Reduction of Long Bones of Upper & Lower Limb","3","58880","73600"," 88320"
+,"PCL Repair","3","66240","82800"," 99360"
+,"Reduction of Compound Fractures with External Fixation","5","73600","92000"," 110400"
+,"TKR - Bilateral","5","312800","391000"," 469200"
+,"TKR – Unilateral","5","184000","230000"," 276000"
+,"Circumcision","1","14720","18400"," 22080"
+,"Cystoscopic Basketing of Stones","2","44160","55200"," 66240"
+,"Cystoscopy","1","16560","20700"," 24840"
+,"Dilatation of Stricture Urethra","1","20240","25300"," 30360"
+,"DJ Stent Removal","1","17480","21850"," 26220"
+,"DJ Stenting (with stent cost)-Bi-lateral","1","38640","48300"," 57960"
+,"DJ Stenting (with stent cost)-Unilateral","1","31280","39100"," 46920"
+,"Nephrectomy","3","58880","73600"," 88320"
+,"Laparoscopic  Nephrectomy","3","69920","87400","104880"
+,"Operaton for Torsion of Testis","3","44160","55200"," 66240"
+,"PCNL","3","55200","69000"," 82800"
+,"TURP","3","55200","69000"," 82800"
+,"Mastoidectomy+ Tympanoplasty- including Meatoplasty","3","66240","82800","99360"
+,"Septoplasty with Turbinoplasty for Inferior & Middle Turbinates","2","42320","52900","63480"
+,"Tonsillectomy & Adenoidectomy","3","42320","52900","63480"
+,"Adenoidectomy","2","23552","29440","35328"
+,"Adenoidectomy with Grommet","2","29440","36800","44160"
+,"Microlaryngeal excision of Nodule/Polyp/Cysts/Biopsy","1","27600","34500","41400"
+,"Minor Amputation","2","31348","36685","44022"
+,"Major Amputation","3","64952","81190","97428"
+,"Guillotine Amputation","3","64952","81190","97428"
+,"HernioPlasty - Femoral/ Inguinal / Umblical - Excluding Cost of Mesh","2","36800","46000","55200"
+,"Hernioplasty - Femoral/ Inguinal / Bilateral - Excluding Cost of Mesh","3","51520","64400","77280"
+,"Hernioplasty - Incisional - Excluding Cost of Mesh","3","46000","57500","69000"
+,"Laparoscopic Hernioplasty - inguinal - Umblical - Excluding Cost of Mesh","2","46000","57500","69000"
+,"Laparoscopic Hernioplasty - Incisional/ Ventral","3","70000","87500","105000"
+,"Emergency Laparotomy (Open / Laparoscopy) - Clouser of Gastro Intestinal Perforation","3","70000","87500","105000"
+,"Emergency Laparotomy (Open / Laparoscopy) - Intestinal Bypass","3","73600","92000","110400"
+,"Emergency Laparotomy (Open / Laparoscopy) - Resection and Anastomosis","3","82800","103500","124200"
+,"Elective Laparotomy (Open / Laparoscopy) - Lymph Node Biopsy","3","55200","69000","82800"
+,"Elective Laparotomy (Open / Laparoscopy) - Intestinal Bypass","3","70000","87500","105000"
+,"Elective Laparotomy","3","73600","92000","110400"
+,"(Open/Laparoscop) - Resection and Anastomos",,,,
+,"Lipoma GA","2","16560","20700","24840"
+,"Lymph Node Biopsy (Cervical / Axillary / Inguinal) - Under GA","2","16560","20700","24840"
+,"Perianal Abscess","2","20240","25300","30360"
+,"Breast Lumpectomy – Under GA","2","33120","41400","49680"
+,"Surgery for Varicose Veins Saphenofemoral Ligation and Stripping / Sclerotherapy - Unilateral/ Bilateral","3","45000","57500","69000"
+,"varicose Veins - Radiofrequency ablation, endovenous laser treatment","4","92000","115000","138000"
+,"Laparoscopic Fundoplication","4","115000","143750","172500"
+,"Operation for Intestinal Obstructions","3","73600","92000","110400"
+,"Colonic Resection for Malignacy ","4","128800","161000","193200"
+,"Anterior Resection for Colorectal Cancer","4","165600","207000","248000"
+,"Abdominoperineal Resection","4","165600","207000","248000"
+,"Hysterectomy - Abdominal - with or without BSO","5","54280","67850","81420"
+,"Hysterectomy - Abdominal - with or without BSO - Laparoscopic","4","56580","70725","84870"
+,"Hysterectomy - Vaginal - with or without Pelvic Floor Repair","3","45000","57500","69000"
+,"D & C with Hysteroscopy","2","27600","34500","41400"
+,"Open - Wertheims Operation","3","73600","92000","110400"
+,"Laparoscopic - Wertheims Operation","3","87400","109250","131100"
+,"ACL/PCL/MCL Reconstruction - Excluding Cost of Implant","2","82800","103500","124500"
+,"Menisectomy ","3","42780","53475","64170"
+,"Closed Reduction - Dislocation - Minor","1","9660","12075","14490"
+,"Closed Reduction - Dislocation - Major","2","23000","28750","34500"
+,"Implant Removal - Minor","1","21160","26450","31740"
+,"Implant Removal – Major","2","29440","36800","44160"
+,"Open Reduction – Dislocation- Minor","3","49680","62100","74520"
+,"Open Reduction – Dislocation- Major","3","58880","73600","88320"
+,"ORIF of Fracture - K wire - Including Cost of Implant","2","44160","55200","66240"
+,"ORIF of Fracture - Plating - Excluding Cost of Implant","3","51520","64400","77280"
+,"Nailing - Interlocking - Excluding Cost of Impant","3","60720","75900","91080"
+,"# Neck Femur - Excluding Cost of Implant","4","69000","86250","103500"
+,"Laminectomy / Discectomy","4","82800","103500","124200"
+,"Spinal Fusion - Where implant is not going to be used","5","110400","138000","165600"
+,"Spinal Fusion - Where implant is not going to be used - Excluding Cost of Implant","5","126960","158700","190440"
+,"Closed Reduction of Fracture Under GA","2","18400","23000","27600"
+,"ORIF (Long Bones)","4","52440","65550","82080"
+,"ORIF (Small Bones)","3","52440","65550","82080"
+,"Arthoscopy of Knee (Diagnostic)","2","27600","34500","41400"
+,"Percutaneous Fixation – Long Bones","3","28240","35300","42360"
+,"Interlocking Nailing – Long Bones","3","60720","75900","91080"
+,"Removal of Forearm Nail, Screw, Wires","3","31740","39675","47610"
+,"Shoulder Dislocation – Knee Dislocation","3","39860","49825","59790"
+,"Femoral – Neck Fracture","5","69000","86250","103500"
+,"Hemiarthroplasty - Excluding Cost of Implant","5","76360","95450","114540"
+,"Total Hip Replacement - Excluding Cost of Implant U/L","5","124200","155250","186300"
+,"Dynamic Hip Screw - Excluding Cost of Implant","5","62560","78200","93840"
+,"Operation for Osteomyelitis","5","49680","62100","74520"
+,"Arthrotomy and Drainage (Arthroscopic","5","51520","64400","77280"
+,"A V Fistula for Dialysis","2","23000","28750","34500"
+,"Hydrocelectomy Unilateral","2","20240","25300","30360"
+,"Hydrocelectomy Bilateral","2","27600","34500","41400"
+,"Varicocelectomy","2","20240","25300","30360"
+,"URS Lithotripsy - Including DJ Stent","2","36800","46000","55200"
+,"Endoscopy with Visual Internal Urethrotomy (Optical Urethrotomy)","2","32200","40250","48300"
+,"Hypospadias Stage 2","2","50320","62900","75480"
+,"Hypospadias Single Stage ","3","64952","81190","97428"
+,"Cystoscopy - with / without Biopsy","1","16560","20700","24840"
+,"Cystoscopy & TURBT","2","55200","69000","82800"
+,"Cystoscopy & DJ Stent Removal","1","17480","21850","26220"
+,"Cystolithotomy","2","36800","46000","55200"
+,"Orchidectomy - Unilateral","2","16560","20700","24840"
+,"Orchidectomy - Bilateral","2","23000","28750","34500"
+,"Pyeloplasty","3","66952","81190","97428"
+,"Pyelolithotomy","3","66952","81190","97428"
+,"Nephrolithotomy","3","66952","81190","97428"
+,"DJ Stent Insertion","1","23000","28750","34500"
+,"Amputation of Penis","2","50320","62900","75480"
+,"Ureteroscopy","2","33120","41400","49680"
+,"Cystoscopy URS with DJ Stenting - Unilateral","2","33120","41400","49680"
+,"Anatrophic Nephrolithotomy for Staghorn Calculus","3","66952","81190","97428"
+,"Radical Nephrectomy","3","79120","98900","118680"
+,"Operation for Torsion of Tests","2","32200","40250","48300"
+,"Meningomyelocele","3","75440","94300","113160"
+,"Ventriculo - Peritoneal Shunt","3","75440","94300","113160"
+,"Meningomyelocele Excision and Repair","3","85920","107400","128880"
+,"Prolapse Uterus/Rectocele/Ureterocele","3","55200","69000","82800"
+,"Dilatation of Stricture Urethra-under GA","1","13800","17250","20700"
+,"Cystoscopy with Retrograde Cathetersiation Bilateral","3","45000","57500","69000"
+,"Endoscopic Removal of Stone in Bladder","2","32200","40250","48300"
+,"Resection Bladder Neck Endoscopic","3","55200","69000","82800"
+,"Transurethral Resection Bladder Tumour(TURBT)","3","55200","69000","82800"

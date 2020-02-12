@@ -1,0 +1,8759 @@
+[{
+	"_id": {
+		"$oid": "5db97437a7f9bebc82d629cf"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "03:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "03:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "03:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "03:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "03:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "03:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d19b9aa99aa1b0bdbc99a9b",
+	"createdDate": {
+		"$date": "2019-10-30T11:29:59.390Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97437a7f9bebc82d629d0"
+	},
+	"monday": {
+		"slot1": {
+			"from": "12:30 PM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "06:35 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "12:30 PM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "06:35 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "12:30 PM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "06:35 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "12:30 PM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "06:35 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "12:30 PM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "06:35 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "12:30 PM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "06:35 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5131df8f22247bbfcd1004",
+	"createdDate": {
+		"$date": "2019-10-30T11:29:59.493Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97437a7f9bebc82d629d1"
+	},
+	"monday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d52bc0c5297ae171014659c",
+	"createdDate": {
+		"$date": "2019-10-30T11:29:59.592Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97437a7f9bebc82d629d2"
+	},
+	"monday": {
+		"slot1": {
+			"from": "11:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "07:45 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "11:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "07:45 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "11:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "07:45 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "11:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "07:45 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "11:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "07:45 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "11:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "07:45 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4410e85297ae1710146592",
+	"createdDate": {
+		"$date": "2019-10-30T11:29:59.693Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97437a7f9bebc82d629d3"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4bcd0a8f22247bbfcd0fdd",
+	"createdDate": {
+		"$date": "2019-10-30T11:29:59.797Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97437a7f9bebc82d629d4"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d28524099aa1b0bdbc99b1c",
+	"createdDate": {
+		"$date": "2019-10-30T11:29:59.896Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97437a7f9bebc82d629d5"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d3ecf698f22247bbfcd0f80",
+	"createdDate": {
+		"$date": "2019-10-30T11:29:59.994Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629d6"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d19ff5599aa1b0bdbc99a9f",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.095Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629d7"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d3166718f22247bbfcd0f25",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.192Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629d8"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d19b93f99aa1b0bdbc99a99",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.289Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629d9"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d319f1a8f22247bbfcd0f31",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.387Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629da"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d15f00f99aa1b0bdbc99a6f",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.488Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629db"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:15 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:15 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:15 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:15 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:15 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:15 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d28808799aa1b0bdbc99b28",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.585Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629dc"
+	},
+	"monday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "05:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "05:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "05:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "05:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "05:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "05:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d36f92c8f22247bbfcd0f46",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.683Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629dd"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d39af868f22247bbfcd0f5e",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.782Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629de"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "03:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "03:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "03:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "03:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "03:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d317c738f22247bbfcd0f2c",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.880Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97438a7f9bebc82d629df"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d25934b99aa1b0bdbc99af7",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:00.979Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e0"
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d316e068f22247bbfcd0f27",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.077Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e1"
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d42cdf45297ae171014658f",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.175Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e2"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4d181d8f22247bbfcd0ff0",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.273Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e3"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d26d8fd99aa1b0bdbc99afd",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.371Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e4"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d26f19599aa1b0bdbc99b05",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.469Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e5"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "05:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d42828a8f22247bbfcd0fad",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.568Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e6"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d3812878f22247bbfcd0f4e",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.666Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e7"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d41417b8f22247bbfcd0fa1",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.763Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e8"
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4156f38f22247bbfcd0fa3",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.861Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97439a7f9bebc82d629e9"
+	},
+	"monday": {
+		"slot1": {
+			"from": "12:05 PM",
+			"to": "11:55 PM"
+		},
+		"slot2": {
+			"from": "12:05 PM",
+			"to": "11:55 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "12:05 PM",
+			"to": "11:55 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "12:05 PM",
+			"to": "11:55 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "12:05 PM",
+			"to": "11:55 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "12:05 PM",
+			"to": "11:55 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "12:05 PM",
+			"to": "11:55 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d415b8f8f22247bbfcd0fa5",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:01.958Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629ea"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d3ff9238f22247bbfcd0f88",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.054Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629eb"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d54085d5297ae17101465a2",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.154Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629ec"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "03:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d0e219d465f507d6775c244",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.252Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629ed"
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5406b25297ae171014659f",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.350Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629ef"
+	},
+	"monday": {
+		"slot1": {
+			"from": "03:30 PM",
+			"to": "05:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "03:30 PM",
+			"to": "05:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "03:30 PM",
+			"to": "05:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "03:30 PM",
+			"to": "05:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "03:30 PM",
+			"to": "05:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "05:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d287bd799aa1b0bdbc99b24",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.545Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629f0"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5db929565ea63a232301a771",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.642Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629f1"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4bcd0a8f22247bbfcd0fdd",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.737Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629f2"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d2ed0b1f5226d51c0159c45",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.834Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743aa7f9bebc82d629f3"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d19a9eb99aa1b0bdbc99a88",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:02.932Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629f4"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5694518f22247bbfcd101f",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.028Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629f5"
+	},
+	"monday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5e27425297ae17101465af",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.124Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629f6"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d6f716d8f22247bbfcd1090",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.221Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629f7"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5e2d145297ae17101465b1",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.319Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629f8"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": ""
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d6e69828f22247bbfcd1089",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.416Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629fa"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d3ef6778f22247bbfcd0f84",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.611Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629fb"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d36a32e8f22247bbfcd0f3e",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.709Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629fc"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5db2f08642bf671e58c3142d",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.807Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ba7f9bebc82d629fd"
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d2f06c58f22247bbfcd0f17",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:03.905Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d629ff"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:30 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5db9329f5ea63a232301ae6d",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.108Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a00"
+	},
+	"monday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5e52208f22247bbfcd104f",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.206Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a01"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5f79005297ae17101465c0",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.306Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a02"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:30 AM"
+		},
+		"slot2": {
+			"from": "01:15 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:30 AM"
+		},
+		"slot2": {
+			"from": "01:15 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:30 AM"
+		},
+		"slot2": {
+			"from": "01:15 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:30 AM"
+		},
+		"slot2": {
+			"from": "01:15 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:30 AM"
+		},
+		"slot2": {
+			"from": "01:15 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:30 AM"
+		},
+		"slot2": {
+			"from": "01:15 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "10:30 AM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d413d098f22247bbfcd0f9c",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.403Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a03"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:45 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:45 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:45 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:45 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:45 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:45 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:45 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:45 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:45 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:45 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:45 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "06:45 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:30 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d67bb9e5297ae17101465ca",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.502Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a04"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d70ce535297ae17101465d9",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.600Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a05"
+	},
+	"monday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d43df428f22247bbfcd0fc3",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.697Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a06"
+	},
+	"monday": {
+		"slot1": {
+			"from": "03:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "03:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "01:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5ba25c8f22247bbfcd1035",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.793Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a07"
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d662b788f22247bbfcd106b",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.890Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ca7f9bebc82d62a08"
+	},
+	"monday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "02:30 PM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d67c06d5297ae17101465cc",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:04.986Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a09"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "05:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "05:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "07:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "05:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d70d0555297ae17101465da",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.084Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a0a"
+	},
+	"monday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d53de618f22247bbfcd1011",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.181Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a0b"
+	},
+	"monday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d67bdb55297ae17101465cb",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.280Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a0c"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "10:00 AM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d67c1a35297ae17101465cd",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.376Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a0d"
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "02:00 PM",
+			"to": "05:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "02:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "02:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5a41d75297ae17101465a6",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.473Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a0e"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5be5275297ae17101465aa",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.570Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a0f"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d19ab5e99aa1b0bdbc99a8a",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.669Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a10"
+	},
+	"monday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "06:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4d1b5b8f22247bbfcd0ff3",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.767Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a11"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d26dffb99aa1b0bdbc99b01",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.865Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743da7f9bebc82d62a12"
+	},
+	"monday": {
+		"slot1": {
+			"from": "01:15 PM",
+			"to": "01:45 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "01:15 PM",
+			"to": "01:45 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "01:15 PM",
+			"to": "01:45 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "01:15 PM",
+			"to": "01:45 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "01:15 PM",
+			"to": "01:45 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5a47a55297ae17101465a9",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:05.962Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a13"
+	},
+	"monday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "06:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5e2e135297ae17101465b2",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.060Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a14"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "06:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d67b83e5297ae17101465c9",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.158Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a15"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "02:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "02:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "02:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "02:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "02:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "02:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "02:15 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d428bd28f22247bbfcd0faf",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.257Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a16"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4137af8f22247bbfcd0f98",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.356Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a17"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d42d10a5297ae1710146590",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.455Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a18"
+	},
+	"monday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d271a1399aa1b0bdbc99b0b",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.554Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a1a"
+	},
+	"monday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d3ae5ec5297ae1710146587",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.749Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a1b"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d3aab2e8f22247bbfcd0f60",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.847Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743ea7f9bebc82d62a1c"
+	},
+	"monday": {
+		"slot1": {
+			"from": "04:30 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "05:30 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "05:30 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d67c37d8f22247bbfcd1071",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:06.945Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a1d"
+	},
+	"monday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "08:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d52bc0c5297ae171014659c",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.043Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a1e"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4c19238f22247bbfcd0feb",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.141Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a1f"
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d1f492999aa1b0bdbc99ad3",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.242Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a20"
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "06:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d53df2e8f22247bbfcd1014",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.340Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a21"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d71f27e8f22247bbfcd10a3",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.437Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a22"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d70adeb8f22247bbfcd109b",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.535Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a24"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d6f89258f22247bbfcd1095",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.731Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a25"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d6e2a0f5297ae17101465d3",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.829Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db9743fa7f9bebc82d62a26"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d64cc608f22247bbfcd105d",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:07.926Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a27"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5a44065297ae17101465a7",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.023Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a28"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "12:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5ce8448f22247bbfcd103c",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.122Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a29"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d5660598f22247bbfcd101e",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.219Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a2a"
+	},
+	"monday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:15 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:15 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:15 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:15 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:15 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:15 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "01:15 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d10d651465f507d6775c258",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.318Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a2b"
+	},
+	"monday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d16073899aa1b0bdbc99a74",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.417Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a2c"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d45185a8f22247bbfcd0fcc",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.515Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a2d"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d1f097a99aa1b0bdbc99acb",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.612Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a2e"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "03:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "03:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "03:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "03:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "03:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "03:30 PM",
+			"to": "07:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d1c556699aa1b0bdbc99ab0",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.710Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a2f"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d1b30b999aa1b0bdbc99aac",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.809Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97440a7f9bebc82d62a30"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "01:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d11ade4465f507d6775c25d",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:08.907Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a32"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "05:00 PM",
+			"to": ""
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d0e0940465f507d6775c242",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.104Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a33"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d1354bb465f507d6775c275",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.202Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a34"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d10bee3465f507d6775c256",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.300Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a35"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "09:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d1c9c3e99aa1b0bdbc99ab5",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.398Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a36"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "01:00 PM"
+		},
+		"slot2": {
+			"from": "05:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d16061899aa1b0bdbc99a71",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.495Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a37"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "02:30 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:30 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d23241799aa1b0bdbc99ade",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.593Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a38"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d31a8ae8f22247bbfcd0f35",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.691Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db97441a7f9bebc82d62a39"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d4140fa8f22247bbfcd0f9f",
+	"createdDate": {
+		"$date": "2019-10-30T11:30:09.789Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "5db980d05ea63a232301c052"
+	},
+	"monday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572009371",
+	"user_id": "5db822b75ea63a2323019dda",
+	"createdDate": {
+		"$date": "2019-10-30T12:23:44.899Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db986a95ea63a232301c172"
+	},
+	"monday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "6:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572009371",
+	"user_id": "5db981c95ea63a232301c153",
+	"createdDate": {
+		"$date": "2019-10-30T12:48:41.114Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbaaf66ea5bb214340d2b85"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "9:00 PM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "9:00 PM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "9:00 PM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "9:00 PM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "9:00 PM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "9:00 PM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "9:00 PM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"user_id": "5d1316a5465f507d6775c26e",
+	"createdDate": {
+		"$date": "2019-10-31T09:54:46.054Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbace3fba857b3d3ee184e7"
+	},
+	"monday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "8:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "8:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "8:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "8:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "8:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "8:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "8:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572522967",
+	"user_id": "5dbab5235ea63a232301ccfe",
+	"createdDate": {
+		"$date": "2019-10-31T12:06:23.161Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbd4600d0c005648296282f"
+	},
+	"monday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572616270",
+	"user_id": "5dbd2853d0c0056482962706",
+	"createdDate": {
+		"$date": "2019-11-02T09:01:52.769Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbfcdc2d0c005648296350d"
+	},
+	"monday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": true
+	},
+	"sunday": {
+		"slot1": {
+			"from": "7:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": true
+	},
+	"validity": "ALL",
+	"epoch_time": "1572616270",
+	"user_id": "5dbfbed5d0c0056482962a3c",
+	"createdDate": {
+		"$date": "2019-11-04T07:05:38.209Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc1241e6f3e64475d0aba36"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:30 AM",
+			"to": "01:30 PM"
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "",
+			"to": ""
+		},
+		"slot2": {
+			"from": "04:30 PM",
+			"to": "08:00 PM"
+		},
+		"check": true
+	},
+	"validity": "ALL",
+	"epoch_time": "1572936936",
+	"user_id": "5d120ed4465f507d6775c268",
+	"createdDate": {
+		"$date": "2019-11-05T07:26:22.932Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc15a29ea5bb214340d2cec"
+	},
+	"monday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"slot2": {
+			"from": "00:00 AM",
+			"to": "00:00 AM"
+		},
+		"check": false
+	},
+	"validity": "WEEK",
+	"user_id": "5d85ca221fde72494183dc8e",
+	"createdDate": {
+		"$date": "2019-11-05T11:16:57.460Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc1637f8d87110ce3186729"
+	},
+	"monday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572942113",
+	"user_id": "5d32c2f18f22247bbfcd0f38",
+	"createdDate": {
+		"$date": "2019-11-05T08:33:39.331Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc1696c8d87110ce318672a"
+	},
+	"monday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "8:00 AM",
+			"to": "12:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572942113",
+	"user_id": "5d32c2f18f22247bbfcd0f38",
+	"createdDate": {
+		"$date": "2019-11-05T08:33:39.331Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc16f7a8d87110ce318672b"
+	},
+	"monday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572942113",
+	"user_id": "5dab0731b702db0efa045b78",
+	"createdDate": {
+		"$date": "2019-11-05T08:33:39.331Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc172eb8d87110ce318672c"
+	},
+	"monday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572942113",
+	"user_id": "5dab0731b702db0efa045b78",
+	"createdDate": {
+		"$date": "2019-11-05T08:33:39.331Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc176ca625440579bef8513"
+	},
+	"monday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "09:00 AM",
+			"to": "02:00 PM"
+		},
+		"slot2": {
+			"from": "04:00 PM",
+			"to": "08:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572955492",
+	"user_id": "5d6fa2148f22247bbfcd1099",
+	"createdDate": {
+		"$date": "2019-11-05T13:19:06.379Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc2a504625440579bef9d65"
+	},
+	"monday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "12:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572955492",
+	"user_id": "5dc004cbd0c0056482963fef",
+	"createdDate": {
+		"$date": "2019-11-06T10:48:36.375Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcba24f08a58172567c8448"
+	},
+	"monday": {
+		"slot1": {
+			"from": "1:00 AM",
+			"to": "5:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 AM",
+			"to": "11:00 AM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "1:00 AM",
+			"to": "5:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 AM",
+			"to": "11:00 AM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "1:00 AM",
+			"to": "5:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 AM",
+			"to": "11:00 AM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "1:00 AM",
+			"to": "5:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 AM",
+			"to": "11:00 AM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "1:00 AM",
+			"to": "5:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 AM",
+			"to": "11:00 AM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "1:00 AM",
+			"to": "5:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 AM",
+			"to": "11:00 AM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "1:00 AM",
+			"to": "5:00 AM"
+		},
+		"slot2": {
+			"from": "7:00 AM",
+			"to": "11:00 AM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1573538082",
+	"user_id": "5dc12b90f8e1974a6eff8ab0",
+	"createdDate": {
+		"$date": "2019-11-13T06:27:27.172Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcbdf775ee3341a5e325a19"
+	},
+	"monday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1573630354",
+	"user_id": "5dca44268c39b95fc9831f0e",
+	"createdDate": {
+		"$date": "2019-11-13T10:48:23.602Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcce771cf9138358d0736cd"
+	},
+	"monday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1573709337",
+	"user_id": "5dcce718cf9138358d0736b4",
+	"createdDate": {
+		"$date": "2019-11-14T05:34:41.931Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dccf1afcf9138358d073830"
+	},
+	"monday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "9:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1573709337",
+	"user_id": "5dccee57cf9138358d0737c2",
+	"createdDate": {
+		"$date": "2019-11-14T06:18:23.540Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcd1be36bf6434202e0de73"
+	},
+	"monday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "10:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1573720234",
+	"user_id": "5dcd105acf9138358d073b15",
+	"createdDate": {
+		"$date": "2019-11-14T09:18:27.427Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcd4c6acb86a50f1411ed39"
+	},
+	"monday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "2:00 PM",
+			"to": "9:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "10:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "10:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "10:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "10:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "10:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "6:00 AM",
+			"to": "11:00 AM"
+		},
+		"slot2": {
+			"from": "1:00 PM",
+			"to": "10:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1573730518",
+	"user_id": "5dcd3114b0a4970d0486e6f3",
+	"createdDate": {
+		"$date": "2019-11-14T12:45:30.498Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dce8340e9aa3a1741f93de5"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "6:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "6:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "6:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "6:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "6:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "6:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "2:00 PM"
+		},
+		"slot2": {
+			"from": "4:00 PM",
+			"to": "6:30 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1573739070",
+	"user_id": "5dce8247e9aa3a1741f93dcb",
+	"createdDate": {
+		"$date": "2019-11-15T10:51:44.592Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dd35f27394c3640f1386a8e"
+	},
+	"monday": {
+		"slot1": {
+			"from": "9:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "9:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "9:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "9:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "9:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "9:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "9:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "3:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": true
+	},
+	"validity": "ALL",
+	"epoch_time": "1573817353",
+	"user_id": "5d07443ee9a605b00900ba58",
+	"createdDate": {
+		"$date": "2019-11-19T03:19:03.347Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dd4e18346cefa12db37c74d"
+	},
+	"monday": {
+		"slot1": {
+			"from": "9:30 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "0:00 AM",
+			"to": "0:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "9:30 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "0:00 AM",
+			"to": "0:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "9:30 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "9:30 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "5:00 PM",
+			"to": "8:00 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "11:00 AM",
+			"to": "1:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572942113",
+	"user_id": "5dc146d0a7243c4cb9cf0bb5",
+	"createdDate": {
+		"$date": "2019-11-05T08:33:39.331Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dd538a946cefa12db37c74e"
+	},
+	"monday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "5:00 PM",
+			"to": "7:30 PM"
+		},
+		"check": false
+	},
+	"tuesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "5:00 PM",
+			"to": "7:30 PM"
+		},
+		"check": false
+	},
+	"wednesday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "5:00 PM",
+			"to": "7:30 PM"
+		},
+		"check": false
+	},
+	"thursday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "5:00 PM",
+			"to": "7:30 PM"
+		},
+		"check": false
+	},
+	"friday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "5:00 PM",
+			"to": "7:30 PM"
+		},
+		"check": false
+	},
+	"saturday": {
+		"slot1": {
+			"from": "10:00 AM",
+			"to": "1:30 PM"
+		},
+		"slot2": {
+			"from": "5:00 PM",
+			"to": "7:30 PM"
+		},
+		"check": false
+	},
+	"sunday": {
+		"slot1": {
+			"from": "00:00 AM",
+			"to": "0:00 PM"
+		},
+		"slot2": {
+			"from": "0:00 PM",
+			"to": "0:00 PM"
+		},
+		"check": false
+	},
+	"validity": "ALL",
+	"epoch_time": "1572942113",
+	"user_id": "5d4a96e28f22247bbfcd0fd9",
+	"createdDate": {
+		"$date": "2019-11-05T08:33:39.331Z"
+	},
+	"__v": 0
+}]
+

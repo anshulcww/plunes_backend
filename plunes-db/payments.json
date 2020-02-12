@@ -1,0 +1,3377 @@
+[{
+	"_id": {
+		"$oid": "5da6c37cfdcae60f946df0a6"
+	},
+	"updatedAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"email": "manav@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "473",
+	"userId": "5da6bf5a2dcd8214ce6ae810",
+	"professionalId": "5da6bb2a2dcd8214ce6ae538",
+	"biddingId": "5da6bfcb2dcd8214ce6ae822",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-16T07:15:08.412Z"
+	},
+	"bid_id": "5da6bfcc2dcd8214ce6ae82c",
+	"createdTime": 1.571210108412e+12,
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da6c427fdcae60f946df0a7"
+	},
+	"updatedAt": {
+		"$date": "2019-10-16T07:23:42.675Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"email": "manav@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "473",
+	"userId": "5da6bf5a2dcd8214ce6ae810",
+	"professionalId": "5da6bb2a2dcd8214ce6ae538",
+	"biddingId": "5da6bfcb2dcd8214ce6ae822",
+	"paymentStatus": "Failed",
+	"paymentTime": {
+		"$date": "2019-10-16T07:17:59.994Z"
+	},
+	"bid_id": "5da6bfcc2dcd8214ce6ae82c",
+	"createdTime": 1.571210279994e+12,
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da6c652fdcae60f946df0a8"
+	},
+	"updatedAt": {
+		"$date": "2019-10-16T07:32:29.024Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"email": "manav@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "473",
+	"userId": "5da6bf5a2dcd8214ce6ae810",
+	"professionalId": "5da6bb2a2dcd8214ce6ae538",
+	"biddingId": "5da6bfcb2dcd8214ce6ae822",
+	"paymentStatus": "Failed",
+	"paymentTime": {
+		"$date": "2019-10-16T07:27:14.628Z"
+	},
+	"bid_id": "5da6bfcc2dcd8214ce6ae82c",
+	"createdTime": 1.571210834628e+12,
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da6ca95fdcae60f946df0a9"
+	},
+	"updatedAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"email": "manav@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "2",
+	"userId": "5da6bf5a2dcd8214ce6ae810",
+	"professionalId": "5da6bb2a2dcd8214ce6ae538",
+	"biddingId": "5da6ca1b2dcd8214ce6aeaa7",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-16T07:45:25.347Z"
+	},
+	"bid_id": "5da6ca1c2dcd8214ce6aeaab",
+	"createdTime": 1.571211925347e+12,
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da6cb0bfdcae60f946df0aa"
+	},
+	"updatedAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"email": "manav@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "2",
+	"userId": "5da6bf5a2dcd8214ce6ae810",
+	"professionalId": "5da6bb2a2dcd8214ce6ae538",
+	"biddingId": "5da6ca1b2dcd8214ce6aeaa7",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-16T07:47:23.262Z"
+	},
+	"bid_id": "5da6ca1c2dcd8214ce6aeaab",
+	"createdTime": 1.571212043262e+12,
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da6cb6cfdcae60f946df0ab"
+	},
+	"updatedAt": {
+		"$date": "2019-10-16T07:51:04.919Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"email": "manav@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "2",
+	"userId": "5da6bf5a2dcd8214ce6ae810",
+	"professionalId": "5da6bb2a2dcd8214ce6ae538",
+	"biddingId": "5da6ca1b2dcd8214ce6aeaa7",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-16T07:49:00.547Z"
+	},
+	"bid_id": "5da6ca1c2dcd8214ce6aeaab",
+	"createdTime": 1.571212140547e+12,
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DUfJJRf0Xzg3Ci"
+},
+{
+	"_id": {
+		"$oid": "5da6cd06fdcae60f946df0b1"
+	},
+	"updatedAt": {
+		"$date": "2019-10-16T07:57:26.414Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.697Z"
+	},
+	"email": "manav@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "2",
+	"userId": "5da6bf5a2dcd8214ce6ae810",
+	"professionalId": "5da6bb2a2dcd8214ce6ae538",
+	"biddingId": "5da6bfca2dcd8214ce6ae819",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-16T07:55:50.071Z"
+	},
+	"bid_id": "5da6bfcb2dcd8214ce6ae81e",
+	"createdTime": 1.571212550071e+12,
+	"booking_time": "17 Oct 2019 (Thu) 1:00 PM-4:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DUfQEyt6jUwqWG"
+},
+{
+	"_id": {
+		"$oid": "5da9855af7a40a7f916b52e3"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "sonasingh12@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "18",
+	"userId": "5da702c52dcd8214ce6af328",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5da9838e9bc5b70611eef0fe",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-18T09:26:50.181Z"
+	},
+	"bid_id": "5da983909bc5b70611eef10c",
+	"createdTime": 1.571390810181e+12,
+	"booking_time": "20 Oct 2019 (Sun) 1:00 PM-5:00 PM",
+	"booking_hour": "3:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da9ec02f7a40a7f916b52e4"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "Chander.verma076@gmail.com",
+	"phone_number": "9816199453",
+	"paymentAmount": "1000",
+	"userId": "5d15db6d99aa1b0bdbc99a68",
+	"professionalId": "5d16061899aa1b0bdbc99a71",
+	"biddingId": "5da9eba6b702db0efa041f89",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-18T16:44:50.928Z"
+	},
+	"bid_id": "5da9eba8b702db0efa041f92",
+	"createdTime": 1.571417090928e+12,
+	"booking_time": "19 Oct 2019 (Sat) 8:00 AM-10:00 AM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5daae351f7a40a7f916b52e5"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "56",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5daae200b702db0efa0439c9",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-19T10:20:01.041Z"
+	},
+	"bid_id": "5daae202b702db0efa0439d0",
+	"createdTime": 1.571480401041e+12,
+	"booking_time": "19 Oct 2019 (Sat) 3:00 PM-6:00 PM",
+	"booking_hour": "4:20 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5daae524f7a40a7f916b52e6"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "56",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5daae200b702db0efa0439c9",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-19T10:27:48.354Z"
+	},
+	"bid_id": "5daae202b702db0efa0439d0",
+	"createdTime": 1.571480868354e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:10 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5daae5e4f7a40a7f916b52e7"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "56",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5daae200b702db0efa0439c9",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-19T10:31:00.289Z"
+	},
+	"bid_id": "5daae202b702db0efa0439d0",
+	"createdTime": 1.571481060289e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:11 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5daae692f7a40a7f916b52e8"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T10:36:05.524Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "56",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5daae200b702db0efa0439c9",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T10:33:54.533Z"
+	},
+	"bid_id": "5daae202b702db0efa0439d0",
+	"createdTime": 1.571481234533e+12,
+	"booking_time": "21 Oct 2019 (Mon) 7:00 AM-11:00 AM",
+	"booking_hour": "8:42 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVtjQFRJaFLXOm"
+},
+{
+	"_id": {
+		"$oid": "5dab0402f7a40a7f916b52f1"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "10",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5daafa9cb702db0efa044ec8",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-19T12:39:30.006Z"
+	},
+	"bid_id": "5daafa9eb702db0efa044ed5",
+	"createdTime": 1.571488770006e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "1:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0448f7a40a7f916b52f2"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T12:44:14.383Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "10",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5daafa9cb702db0efa044ec8",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T12:40:40.674Z"
+	},
+	"bid_id": "5daafa9eb702db0efa044ed5",
+	"createdTime": 1.571488840674e+12,
+	"booking_time": "20 Oct 2019 (Sun) 8:00 AM-10:00 AM",
+	"booking_hour": "9:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVvufH62IBz4UH"
+},
+{
+	"_id": {
+		"$oid": "5dab0638f7a40a7f916b52f7"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T12:50:12.802Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "6",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5daafaa3b702db0efa044ef6",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T12:48:56.279Z"
+	},
+	"bid_id": "5daafaa4b702db0efa044eff",
+	"createdTime": 1.571489336279e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVw1CwW3YsQh4D"
+},
+{
+	"_id": {
+		"$oid": "5dab082bf7a40a7f916b5300"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "csrijeeta@gmail.com",
+	"phone_number": "9831263664",
+	"paymentAmount": "56",
+	"userId": "5d316fcf8f22247bbfcd0f29",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5dab07d5b702db0efa045b7b",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-19T12:57:15.548Z"
+	},
+	"bid_id": "5dab07d7b702db0efa045b82",
+	"createdTime": 1.571489835548e+12,
+	"booking_time": "20 Oct 2019 (Sun) 8:00 AM-10:00 AM",
+	"booking_hour": "09:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab084df7a40a7f916b5301"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "csrijeeta@gmail.com",
+	"phone_number": "9831263664",
+	"paymentAmount": "56",
+	"userId": "5d316fcf8f22247bbfcd0f29",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5dab07d5b702db0efa045b7b",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-19T12:57:49.138Z"
+	},
+	"bid_id": "5dab07d7b702db0efa045b82",
+	"createdTime": 1.571489869138e+12,
+	"booking_time": "20 Oct 2019 (Sun) 8:00 AM-10:00 AM",
+	"booking_hour": "09:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab099df7a40a7f916b5302"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:04:36.018Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.091Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "4",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5dab0958b702db0efa045cb4",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T13:03:25.182Z"
+	},
+	"bid_id": "5dab095ab702db0efa045cbd",
+	"createdTime": 1.571490205182e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVwGNYLQKQK7gq"
+},
+{
+	"_id": {
+		"$oid": "5dab0b63fa6bd4314e14fbf8"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:07:28.733Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:07:28.733Z"
+	},
+	"email": "csrijeeta@gmail.com",
+	"phone_number": "9831263664",
+	"paymentAmount": "5.8",
+	"userId": "5d316fcf8f22247bbfcd0f29",
+	"professionalId": "5da997049bc5b70611ef06f1",
+	"biddingId": "5dab086cb702db0efa045c65",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-19T13:10:59.083Z"
+	},
+	"bid_id": "5dab086db702db0efa045c73",
+	"createdTime": 1.571490659083e+12,
+	"booking_time": "24 Oct 2019 (Thu) 8:00 AM-10:00 AM",
+	"booking_hour": "09:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0c35fa6bd4314e14fbf9"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:15:37.316Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:07:28.733Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "1",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5dab0b9fb702db0efa045f74",
+	"paymentStatus": "Failed",
+	"paymentTime": {
+		"$date": "2019-10-19T13:14:29.689Z"
+	},
+	"bid_id": "5dab0ba1b702db0efa045f84",
+	"createdTime": 1.571490869689e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0c38fa6bd4314e14fbfa"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:16:11.253Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:07:28.733Z"
+	},
+	"email": "csrijeeta@gmail.com",
+	"phone_number": "9831263664",
+	"paymentAmount": "5.8",
+	"userId": "5d316fcf8f22247bbfcd0f29",
+	"professionalId": "5da997049bc5b70611ef06f1",
+	"biddingId": "5dab086cb702db0efa045c65",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T13:14:32.970Z"
+	},
+	"bid_id": "5dab086db702db0efa045c73",
+	"createdTime": 1.57149087297e+12,
+	"booking_time": "23 Oct 2019 (Wed) 7:00 AM-11:00 AM",
+	"booking_hour": "08:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVwRuDr7ZRcGqe"
+},
+{
+	"_id": {
+		"$oid": "5dab0c99fa6bd4314e14fbfb"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:17:23.190Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:07:28.733Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "1",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5dab0b9fb702db0efa045f74",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T13:16:09.111Z"
+	},
+	"bid_id": "5dab0ba1b702db0efa045f84",
+	"createdTime": 1.571490969111e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVwTrWO3KEovDr"
+},
+{
+	"_id": {
+		"$oid": "5dab12fa8213a5319d2c4580"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:45:45.497Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "5.6",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5dab1239b702db0efa046089",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T13:43:22.233Z"
+	},
+	"bid_id": "5dab123ab702db0efa046091",
+	"createdTime": 1.571492602233e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVwwxCpy5FRhtR"
+},
+{
+	"_id": {
+		"$oid": "5dab176f8213a5319d2c4585"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T14:04:24.080Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "demo@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "8",
+	"userId": "5daad776b702db0efa0438ae",
+	"professionalId": "5da9808a9bc5b70611eef0d9",
+	"biddingId": "5dab1234b702db0efa046066",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-19T14:02:23.110Z"
+	},
+	"bid_id": "5dab1236b702db0efa046074",
+	"createdTime": 1.57149374311e+12,
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DVxHDQo0xMT7d9"
+},
+{
+	"_id": {
+		"$oid": "5db005168213a5319d2c458c"
+	},
+	"updatedAt": {
+		"$date": "2019-10-23T07:47:57.547Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "ranjeet98@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "84.6",
+	"userId": "5daff8b1e4e53b686b4c473f",
+	"professionalId": "5da997049bc5b70611ef06f1",
+	"biddingId": "5daff927e4e53b686b4c475b",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-10-23T07:45:26.976Z"
+	},
+	"bid_id": "5daff929e4e53b686b4c4761",
+	"createdTime": 1.571816726976e+12,
+	"booking_time": "23 Oct 2019 (Wed) 3:00 PM-6:00 PM",
+	"booking_hour": "4:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5db1772c8213a5319d2c458d"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "4",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T10:04:28.069Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.571911468069e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "7:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db177678213a5319d2c458e"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T10:05:27.783Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.571911527783e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db177ab8213a5319d2c458f"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "10",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T10:06:35.746Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.571911595746e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db178218213a5319d2c4590"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T10:08:33.230Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.57191171323e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db1794f8213a5319d2c4591"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T10:13:35.083Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.571912015083e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db179838213a5319d2c4592"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T10:14:27.750Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.57191206775e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db17a908213a5319d2c4593"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T10:19:51.302Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-10-24T10:18:56.009Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.571912336009e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5db17ad98213a5319d2c4594"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T10:22:37.883Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "10",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db1739f6ff81c232b700064",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-24T10:20:09.036Z"
+	},
+	"bid_id": "5db173a06ff81c232b700076",
+	"createdTime": 1.571912409036e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DXsAVcSHGwN9C6"
+},
+{
+	"_id": {
+		"$oid": "5db181378213a5319d2c459b"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "10",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db180f86ff81c232b700636",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T10:47:19.687Z"
+	},
+	"bid_id": "5db180f96ff81c232b70063d",
+	"createdTime": 1.571914039687e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "7:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db182278213a5319d2c459c"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T10:54:30.214Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "santosh@gmail.com",
+	"phone_number": "8826417738",
+	"paymentAmount": "10",
+	"userId": "5db173416ff81c232b700062",
+	"professionalId": "5db173416ff81c232b700060",
+	"biddingId": "5db180f86ff81c232b700636",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-24T10:51:19.147Z"
+	},
+	"bid_id": "5db180f96ff81c232b70063d",
+	"createdTime": 1.571914279147e+12,
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DXsiVJAed2PL2N"
+},
+{
+	"_id": {
+		"$oid": "5db18c628213a5319d2c45a3"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T11:37:33.021Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.886Z"
+	},
+	"email": "test261@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "4",
+	"userId": "5db189606ff81c232b700aa6",
+	"professionalId": "5db185156ff81c232b7009c3",
+	"biddingId": "5db18a666ff81c232b7015d7",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-24T11:34:58.991Z"
+	},
+	"bid_id": "5db18a666ff81c232b7015e3",
+	"createdTime": 1.571916898991e+12,
+	"booking_time": "24 Oct 2019 (Thu) 2:00 PM-6:00 PM",
+	"booking_hour": "5:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DXtRlskfPCsm5k"
+},
+{
+	"_id": {
+		"$oid": "5db1b71fbb534836588f90b0"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T14:43:47.935Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-24T13:29:45.875Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "4",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db1b44524ca243670418cfe",
+	"paymentStatus": "Failed",
+	"paymentTime": {
+		"$date": "2019-10-24T14:37:19.229Z"
+	},
+	"bid_id": "5db1b44624ca243670418d08",
+	"createdTime": 1.571927839229e+12,
+	"booking_time": "24 Oct 2019 (Thu) 8:00 PM-10:00 PM",
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db1b9ebbb534836588f90b1"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T13:29:45.875Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-24T13:29:45.875Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24.6",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db1b46924ca243670418d09",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-24T14:49:15.592Z"
+	},
+	"bid_id": "5db1b46a24ca243670418d0b",
+	"createdTime": 1.571928555592e+12,
+	"booking_time": "24 Oct 2019 (Thu) 8:00 PM-10:00 PM",
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2b6af8ec98d121d57b50d"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T08:37:06.482Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T08:37:06.482Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "30",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db2b54bd3bc5911f7831299",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-25T08:47:43.613Z"
+	},
+	"bid_id": "5db2b54cd3bc5911f78312a9",
+	"createdTime": 1.571993263613e+12,
+	"booking_time": "25 Oct 2019 (Fri) 8:00 PM-10:00 PM",
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2b75f8ec98d121d57b50e"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T08:52:41.374Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T08:37:06.482Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "6",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db2b54bd3bc5911f7831299",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-25T08:50:39.403Z"
+	},
+	"bid_id": "5db2b54cd3bc5911f78312a9",
+	"createdTime": 1.571993439403e+12,
+	"booking_time": "25 Oct 2019 (Fri) 8:00 PM-10:00 PM",
+	"booking_hour": "9:02 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DYFAvO4vvp5Zzz"
+},
+{
+	"_id": {
+		"$oid": "5db2c4208ec98d121d57b517"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T09:48:24.542Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T08:37:06.482Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db2c344d3bc5911f78314ff",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-25T09:45:04.998Z"
+	},
+	"bid_id": "5db2c345d3bc5911f7831508",
+	"createdTime": 1.571996704998e+12,
+	"booking_time": "25 Oct 2019 (Fri) 8:00 PM-10:00 PM",
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DYG7awsYjuRzF2"
+},
+{
+	"_id": {
+		"$oid": "5db2d1a8550a9a17bd7128b9"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T10:46:27.651Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T09:59:45.674Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db2c8c7d3bc5911f78317b9",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-25T10:42:48.940Z"
+	},
+	"bid_id": "5db2c8c8d3bc5911f78317c2",
+	"createdTime": 1.57200016894e+12,
+	"booking_time": "25 Oct 2019 (Fri) 8:00 PM-10:00 PM",
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DYH6M47dKpFYAA"
+},
+{
+	"_id": {
+		"$oid": "5db2de53550a9a17bd7128c0"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T09:59:45.674Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T09:59:45.674Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "4",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db2dd3837ba541b6f6166bb",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-25T11:36:51.403Z"
+	},
+	"bid_id": "5db2dd3937ba541b6f6166c4",
+	"createdTime": 1.572003411403e+12,
+	"booking_time": "25 Oct 2019 (Fri) 4:00 PM-10:00 PM",
+	"booking_hour": "5:09 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2f151550a9a17bd7128c1"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T12:59:41.024Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T09:59:45.674Z"
+	},
+	"email": "test123@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "12",
+	"userId": "5db1ada124ca243670418c4a",
+	"professionalId": "5db1aeaf24ca243670418c51",
+	"biddingId": "5db2f09b42bf671e58c314a3",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-25T12:57:53.498Z"
+	},
+	"bid_id": "5db2f09c42bf671e58c314ac",
+	"createdTime": 1.572008273498e+12,
+	"booking_time": "25 Oct 2019 (Fri) 4:00 PM-10:00 PM",
+	"booking_hour": "6:29 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DYJO1oU6yTOjcM"
+},
+{
+	"_id": {
+		"$oid": "5db2f506550a9a17bd7128c6"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T09:59:45.674Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T09:59:45.674Z"
+	},
+	"email": "1994.prateek@gmail.com",
+	"phone_number": "9810277263",
+	"paymentAmount": "32.4",
+	"userId": "5d78b6848f22247bbfcd10bc",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5db2f4e132e161230a0b6f6f",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-25T13:13:42.499Z"
+	},
+	"bid_id": "5db2f4e232e161230a0b6f7e",
+	"createdTime": 1.572009222499e+12,
+	"booking_time": "30 Oct 2019 (Wed) 1:00 PM-5:00 PM",
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db82a811c43007a67e2e8ec"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T12:04:53.921Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24.6",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db824b05ea63a2323019dde",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-29T12:03:13.773Z"
+	},
+	"bid_id": "5db824b05ea63a2323019de0",
+	"createdTime": 1.572350593773e+12,
+	"booking_time": "29 Oct 2019 (Tue) 3:00 PM-6:00 PM",
+	"booking_hour": "5:33 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DZsaLzSyE7FuRh"
+},
+{
+	"_id": {
+		"$oid": "5db82ee21c43007a67e2e8f4"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24.8",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db82e645ea63a232301a0d4",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-29T12:21:54.834Z"
+	},
+	"bid_id": "5db82e645ea63a232301a0d6",
+	"createdTime": 1.572351714834e+12,
+	"booking_time": "29 Oct 2019 (Tue) 3:00 PM-6:00 PM",
+	"booking_hour": "5:55 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db82fa71c43007a67e2e8f5"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24.8",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db82e645ea63a232301a0d4",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-29T12:25:11.449Z"
+	},
+	"bid_id": "5db82e645ea63a232301a0d6",
+	"createdTime": 1.572351911449e+12,
+	"booking_time": "30 Oct 2019 (Wed) 7:00 AM-9:00 AM",
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db830f51c43007a67e2e8f6"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T12:32:14.928Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "10",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db8300a5ea63a232301a386",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-29T12:30:45.446Z"
+	},
+	"bid_id": "5db8300a5ea63a232301a388",
+	"createdTime": 1.572352245446e+12,
+	"booking_time": "30 Oct 2019 (Wed) 7:00 AM-9:00 AM",
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DZt32s54jevKUu"
+},
+{
+	"_id": {
+		"$oid": "5db849921c43007a67e2e8fd"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:16:01.483Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "10",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db8491c5ea63a232301a629",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-10-29T14:15:46.916Z"
+	},
+	"bid_id": "5db8491d5ea63a232301a62b",
+	"createdTime": 1.572358546916e+12,
+	"booking_time": "30 Oct 2019 (Wed) 7:00 AM-9:00 AM",
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5db84b981c43007a67e2e8fe"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.444Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "123.2",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db84b3f5ea63a232301a6a0",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-29T14:24:24.811Z"
+	},
+	"bid_id": "5db84b3f5ea63a232301a6a2",
+	"createdTime": 1.572359064811e+12,
+	"booking_time": "30 Oct 2019 (Wed) 7:00 AM-9:00 AM",
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db92db16aba5d04b3f94be8"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "10",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db92d285ea63a232301a935",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-30T06:29:05.515Z"
+	},
+	"bid_id": "5db92d285ea63a232301a937",
+	"createdTime": 1.572416945515e+12,
+	"booking_time": "30 Oct 2019 (Wed) 3:00 PM-6:00 PM",
+	"booking_hour": "3:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db9498b6aba5d04b3f94be9"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "1994.prateek@gmail.com",
+	"phone_number": "9810277263",
+	"paymentAmount": "124",
+	"userId": "5d78b6848f22247bbfcd10bc",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db949405ea63a232301b539",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-30T08:27:55.925Z"
+	},
+	"bid_id": "5db949405ea63a232301b53b",
+	"createdTime": 1.572424075925e+12,
+	"booking_time": "31 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db949ad6aba5d04b3f94bea"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "1994.prateek@gmail.com",
+	"phone_number": "9810277263",
+	"paymentAmount": "24.8",
+	"userId": "5d78b6848f22247bbfcd10bc",
+	"professionalId": "5db822b75ea63a2323019dda",
+	"biddingId": "5db949405ea63a232301b539",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-30T08:28:29.943Z"
+	},
+	"bid_id": "5db949405ea63a232301b53b",
+	"createdTime": 1.572424109943e+12,
+	"booking_time": "31 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db982186aba5d04b3f94beb"
+	},
+	"updatedAt": {
+		"$date": "2019-10-30T12:34:24.965Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "preksha4work@gmail.com",
+	"phone_number": "9999791406",
+	"paymentAmount": "600",
+	"userId": "5d888ad05b77ff71178f0ec3",
+	"professionalId": "5d4a96e28f22247bbfcd0fd9",
+	"biddingId": "5db97a8b5ea63a232301bad8",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-30T12:29:12.402Z"
+	},
+	"bid_id": "5db97a8b5ea63a232301badc",
+	"createdTime": 1.572438552402e+12,
+	"booking_time": "04 Nov 2019 (Mon) 10:00 AM-01:30 PM",
+	"booking_hour": "12:05",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DaHchOmZ8VrN73"
+},
+{
+	"_id": {
+		"$oid": "5db988696aba5d04b3f94bf0"
+	},
+	"updatedAt": {
+		"$date": "2019-10-30T12:58:52.899Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24.6",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5db981c95ea63a232301c153",
+	"biddingId": "5db987cd5ea63a232301c174",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-10-30T12:56:09.517Z"
+	},
+	"bid_id": "5db987cd5ea63a232301c176",
+	"createdTime": 1.572440169517e+12,
+	"booking_time": "31 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DaI2jwqEkYQ2el"
+},
+{
+	"_id": {
+		"$oid": "5dbaa74d6aba5d04b3f94bf8"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "manvendra.singh@plunes.com",
+	"phone_number": "9971528606",
+	"paymentAmount": "60",
+	"userId": "5dba72825ea63a232301c4f5",
+	"professionalId": "5d10d651465f507d6775c258",
+	"biddingId": "5dbaa6945ea63a232301ca0b",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-31T09:20:13.415Z"
+	},
+	"bid_id": "5dbaa6955ea63a232301ca17",
+	"createdTime": 1.572513613415e+12,
+	"booking_time": "31 Oct 2019 (Thu) 05:00 PM-08:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbaa7bf6aba5d04b3f94bf9"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "manvendra.singh@plunes.com",
+	"phone_number": "9971528606",
+	"paymentAmount": "60",
+	"userId": "5dba72825ea63a232301c4f5",
+	"professionalId": "5d10d651465f507d6775c258",
+	"biddingId": "5dbaa6945ea63a232301ca0b",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-31T09:22:07.761Z"
+	},
+	"bid_id": "5dbaa6955ea63a232301ca17",
+	"createdTime": 1.572513727761e+12,
+	"booking_time": "31 Oct 2019 (Thu) 05:00 PM-08:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbaa7fc6aba5d04b3f94bfa"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "manvendra.singh@plunes.com",
+	"phone_number": "9971528606",
+	"paymentAmount": "60",
+	"userId": "5dba72825ea63a232301c4f5",
+	"professionalId": "5d10d651465f507d6775c258",
+	"biddingId": "5dbaa6945ea63a232301ca0b",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-31T09:23:08.670Z"
+	},
+	"bid_id": "5dbaa6955ea63a232301ca17",
+	"createdTime": 1.57251378867e+12,
+	"booking_time": "31 Oct 2019 (Thu) 05:00 PM-08:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbaa9b16aba5d04b3f94bfb"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "manvendra.singh@plunes.com",
+	"phone_number": "9971528606",
+	"paymentAmount": "200",
+	"userId": "5dba72825ea63a232301c4f5",
+	"professionalId": "5d16061899aa1b0bdbc99a71",
+	"biddingId": "5dbaa6945ea63a232301ca0b",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-31T09:30:25.811Z"
+	},
+	"bid_id": "5dbaa6955ea63a232301ca16",
+	"createdTime": 1.572514225811e+12,
+	"booking_time": "31 Oct 2019 (Thu) 05:00 PM-08:00 PM",
+	"booking_hour": "5:29 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbacb6d6aba5d04b3f94bfc"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "test127@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "60",
+	"userId": "5db821495ea63a2323019dd8",
+	"professionalId": "5d5e27425297ae17101465af",
+	"biddingId": "5dbac53a5ea63a232301da20",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-31T11:54:21.469Z"
+	},
+	"bid_id": "5dbac53a5ea63a232301da22",
+	"createdTime": 1.572522861469e+12,
+	"booking_time": "01 Nov 2019 (Fri) 06:00 PM-08:00 PM",
+	"booking_hour": "7:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbacd726aba5d04b3f94bfd"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "24.6",
+	"userId": "5da16fd45b77ff71178f1cd8",
+	"professionalId": "5dbab5235ea63a232301ccfe",
+	"biddingId": "5dbacca5ba857b3d3ee18072",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-10-31T12:02:58.473Z"
+	},
+	"bid_id": "5dbacca6ba857b3d3ee18080",
+	"createdTime": 1.572523378473e+12,
+	"booking_time": "02 Nov 2019 (Sat) 7:00 PM-8:00 PM",
+	"booking_hour": "19:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbace656aba5d04b3f94bfe"
+	},
+	"updatedAt": {
+		"$date": "2019-10-31T12:07:06.454Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "0.2",
+	"userId": "5da16fd45b77ff71178f1cd8",
+	"professionalId": "5dbab5235ea63a232301ccfe",
+	"biddingId": "5dbacca5ba857b3d3ee18072",
+	"paymentStatus": "Failed",
+	"paymentTime": {
+		"$date": "2019-10-31T12:07:01.987Z"
+	},
+	"bid_id": "5dbacca6ba857b3d3ee18080",
+	"createdTime": 1.572523621987e+12,
+	"booking_time": "31 Oct 2019 (Thu) 7:00 PM-8:00 PM",
+	"booking_hour": "19:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbb93e06aba5d04b3f94bff"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.thakur0990@gmail.com",
+	"phone_number": "8527965410",
+	"paymentAmount": "24.6",
+	"userId": "5dbb92e7f874a0419562e7ef",
+	"professionalId": "5dbab5235ea63a232301ccfe",
+	"biddingId": "5dbb92fbf874a0419562e7f1",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-01T02:09:36.683Z"
+	},
+	"bid_id": "5dbb92fcf874a0419562e803",
+	"createdTime": 1.572574176683e+12,
+	"booking_time": "01 Nov 2019 (Fri) 6:00 AM-8:00 AM",
+	"booking_hour": "06:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbbe1c86aba5d04b3f94c00"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "Chander.verma076@gmail.com",
+	"phone_number": "9816199453",
+	"paymentAmount": "123",
+	"userId": "5d15db6d99aa1b0bdbc99a68",
+	"professionalId": "5dbab5235ea63a232301ccfe",
+	"biddingId": "5dbbe169f874a0419562edd9",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-01T07:42:00.722Z"
+	},
+	"bid_id": "5dbbe16af874a0419562eddf",
+	"createdTime": 1.572594120722e+12,
+	"booking_time": "01 Nov 2019 (Fri) 7:00 PM-8:00 PM",
+	"booking_hour": "7:21 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbbe1e06aba5d04b3f94c01"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "Chander.verma076@gmail.com",
+	"phone_number": "9816199453",
+	"paymentAmount": "24.6",
+	"userId": "5d15db6d99aa1b0bdbc99a68",
+	"professionalId": "5dbab5235ea63a232301ccfe",
+	"biddingId": "5dbbe169f874a0419562edd9",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-01T07:42:24.885Z"
+	},
+	"bid_id": "5dbbe16af874a0419562eddf",
+	"createdTime": 1.572594144885e+12,
+	"booking_time": "01 Nov 2019 (Fri) 7:00 PM-8:00 PM",
+	"booking_hour": "7:31 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dbfca2f6aba5d04b3f94c02"
+	},
+	"updatedAt": {
+		"$date": "2019-11-04T07:05:47.721Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "24.8",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5dbfbed5d0c0056482962a3c",
+	"biddingId": "5dbfca15d0c00564829633dd",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-04T06:50:23.580Z"
+	},
+	"bid_id": "5dbfca16d0c00564829633df",
+	"createdTime": 1.57285022358e+12,
+	"booking_time": "04 Nov 2019 (Mon) 3:00 PM-8:00 PM",
+	"booking_hour": "4:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dbfcfe96aba5d04b3f94c03"
+	},
+	"updatedAt": {
+		"$date": "2019-11-04T07:15:45.504Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "45",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d10d651465f507d6775c258",
+	"biddingId": "5dbfce3cd0c0056482963901",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-04T07:14:49.650Z"
+	},
+	"bid_id": "5dbfce40d0c0056482963911",
+	"createdTime": 1.57285168965e+12,
+	"booking_time": "04 Nov 2019 (Mon) 11:00 AM-01:15 PM",
+	"booking_hour": "12:45 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dbfd0966aba5d04b3f94c04"
+	},
+	"updatedAt": {
+		"$date": "2019-11-04T07:19:05.242Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "35.2",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dbfce3cd0c0056482963901",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-04T07:17:42.118Z"
+	},
+	"bid_id": "5dbfce40d0c0056482963913",
+	"createdTime": 1.572851862118e+12,
+	"booking_time": "04 Dec 2019 (Wed) 10:00 AM-08:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dbfd1876aba5d04b3f94c05"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "35.2",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dbfce3cd0c0056482963901",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-04T07:21:43.390Z"
+	},
+	"bid_id": "5dbfce40d0c0056482963913",
+	"createdTime": 1.57285210339e+12,
+	"booking_time": "07 Nov 2019 (Thu) 10:00 AM-08:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc003786aba5d04b3f94c06"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "119.8",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5db929565ea63a232301a771",
+	"biddingId": "5dbffeb2d0c0056482963ea4",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-04T10:54:48.020Z"
+	},
+	"bid_id": "5dbffeb3d0c0056482963ea6",
+	"createdTime": 1.57286488802e+12,
+	"booking_time": "04 Nov 2019 (Mon) 10:00 AM-07:00 PM",
+	"booking_hour": "5:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc11f5c6aba5d04b3f94c07"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "3900",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d11ade4465f507d6775c25d",
+	"biddingId": "5dc11ed66f3e64475d0ab6a8",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T07:06:04.257Z"
+	},
+	"bid_id": "5dc11eda6f3e64475d0ab6cf",
+	"createdTime": 1.572937564257e+12,
+	"booking_time": "05 Nov 2019 (Tue) 09:00 AM-01:30 PM",
+	"booking_hour": "12:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc147c66aba5d04b3f94c08"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "ranjeetdewas@gmail.com",
+	"phone_number": "7303830763",
+	"paymentAmount": "240",
+	"userId": "5dc004cbd0c0056482963fef",
+	"professionalId": "5d11ade4465f507d6775c25d",
+	"biddingId": "5dc14785a7243c4cb9cf0bb8",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T09:58:30.938Z"
+	},
+	"bid_id": "5dc14789a7243c4cb9cf0bf3",
+	"createdTime": 1.572947910938e+12,
+	"booking_time": "05 Nov 2019 (Tue) 05:00 PM-08:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc153ae6aba5d04b3f94c09"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "240",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dc146cca7243c4cb9cf0b8e",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T10:49:18.945Z"
+	},
+	"bid_id": "5dc146cfa7243c4cb9cf0bb1",
+	"createdTime": 1.572950958945e+12,
+	"booking_time": "12 Feb 2020 (Wed) 10:00 AM-08:00 PM",
+	"booking_hour": "11:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc15a186aba5d04b3f94c0a"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "geetika33328@gmail.com",
+	"phone_number": "9205174128",
+	"paymentAmount": "200",
+	"userId": "5d9ec90a5b77ff71178f1cbf",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc156aaa7243c4cb9cf5655",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T11:16:40.789Z"
+	},
+	"bid_id": "5dc156aaa7243c4cb9cf565e",
+	"createdTime": 1.572952600789e+12,
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_hour": "5:17 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc15a366aba5d04b3f94c0b"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "geetika33328@gmail.com",
+	"phone_number": "9205174128",
+	"paymentAmount": "200",
+	"userId": "5d9ec90a5b77ff71178f1cbf",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc156aaa7243c4cb9cf5655",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T11:17:10.071Z"
+	},
+	"bid_id": "5dc156aaa7243c4cb9cf565e",
+	"createdTime": 1.572952630071e+12,
+	"booking_time": "05 Nov 2019 (Tue) 05:00 PM-07:00 PM",
+	"booking_hour": "5:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc15ac36aba5d04b3f94c0c"
+	},
+	"updatedAt": {
+		"$date": "2019-11-05T11:20:55.639Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "geetika33328@gmail.com",
+	"phone_number": "9205174128",
+	"paymentAmount": "200",
+	"userId": "5d9ec90a5b77ff71178f1cbf",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc156aaa7243c4cb9cf5655",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-05T11:19:31.210Z"
+	},
+	"bid_id": "5dc156aaa7243c4cb9cf565e",
+	"createdTime": 1.57295277121e+12,
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_hour": "5:05 PM",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_Dcda7Tt3b5UjW9"
+},
+{
+	"_id": {
+		"$oid": "5dc167766aba5d04b3f94c11"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "hshsh@gmail.com",
+	"phone_number": "9711485445",
+	"paymentAmount": "40",
+	"userId": "5dbfd9ced0c0056482963e7e",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc1661a625440579bef7e70",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T12:13:42.545Z"
+	},
+	"bid_id": "5dc1661b625440579bef7e79",
+	"createdTime": 1.572956022545e+12,
+	"booking_time": "06 Nov 2019 (Wed) 10:00 AM-12:00 PM",
+	"booking_hour": "11:10 AM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc16b626aba5d04b3f94c12"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "hshsh@gmail.com",
+	"phone_number": "9711485445",
+	"paymentAmount": "200",
+	"userId": "5dbfd9ced0c0056482963e7e",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc1661a625440579bef7e70",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T12:30:26.630Z"
+	},
+	"bid_id": "5dc1661b625440579bef7e79",
+	"createdTime": 1.57295702663e+12,
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_hour": "5:30 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc16d466aba5d04b3f94c13"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "30.8",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dc16ce1625440579bef80f7",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T12:38:30.918Z"
+	},
+	"bid_id": "5dc16ce5625440579bef812f",
+	"createdTime": 1.572957510918e+12,
+	"booking_time": "08 Nov 2019 (Fri) 10:00 AM-08:00 PM",
+	"booking_hour": "19:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc16d906aba5d04b3f94c14"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "65",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d1c556699aa1b0bdbc99ab0",
+	"biddingId": "5dc16ce1625440579bef80f7",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T12:39:44.636Z"
+	},
+	"bid_id": "5dc16ce5625440579bef812e",
+	"createdTime": 1.572957584636e+12,
+	"booking_time": "06 Nov 2019 (Wed) 09:30 AM-01:30 PM",
+	"booking_hour": "11:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc16e346aba5d04b3f94c15"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "30.8",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dc16ce1625440579bef80f7",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T12:42:28.554Z"
+	},
+	"bid_id": "5dc16ce5625440579bef812f",
+	"createdTime": 1.572957748554e+12,
+	"booking_time": "10 Nov 2019 (Sun) 10:00 AM-08:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc174fc6aba5d04b3f94c16"
+	},
+	"updatedAt": {
+		"$date": "2019-11-05T13:13:09.212Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "csrijeeta@gmail.com",
+	"phone_number": "9831263664",
+	"paymentAmount": "200",
+	"userId": "5d316fcf8f22247bbfcd0f29",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc17469625440579bef8320",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-05T13:11:24.178Z"
+	},
+	"bid_id": "5dc17469625440579bef8329",
+	"createdTime": 1.572959484178e+12,
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_hour": "17:30",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DcfTNGpej4yBLA"
+},
+{
+	"_id": {
+		"$oid": "5dc17be36aba5d04b3f94c1b"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "arpitadhingra1990@gmail.com",
+	"phone_number": "8319234528",
+	"paymentAmount": "380",
+	"userId": "5d1474cd465f507d6775c298",
+	"professionalId": "5dab0731b702db0efa045b78",
+	"biddingId": "5dc16776625440579bef7f39",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-05T13:40:51.736Z"
+	},
+	"bid_id": "5dc16777625440579bef7f3d",
+	"createdTime": 1.572961251736e+12,
+	"booking_time": "07 Nov 2019 (Thu) 5:00 PM-8:00 PM",
+	"booking_hour": "17:30",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc18b856aba5d04b3f94c1c"
+	},
+	"updatedAt": {
+		"$date": "2019-11-05T14:49:38.849Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "arpitadhingra1990@gmail.com",
+	"phone_number": "8319234528",
+	"paymentAmount": "350",
+	"userId": "5d1474cd465f507d6775c298",
+	"professionalId": "5dab0731b702db0efa045b78",
+	"biddingId": "5dc18af6625440579bef876d",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-05T14:47:33.658Z"
+	},
+	"bid_id": "5dc18af6625440579bef8771",
+	"createdTime": 1.572965253658e+12,
+	"booking_time": "07 Nov 2019 (Thu) 5:00 PM-8:00 PM",
+	"booking_hour": "17:30",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_Dch7CsfWfVvqc2"
+},
+{
+	"_id": {
+		"$oid": "5dc2580e6aba5d04b3f94c21"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "40.8",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d28524099aa1b0bdbc99b1c",
+	"biddingId": "5dc257de625440579bef8a7a",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-06T05:20:14.029Z"
+	},
+	"bid_id": "5dc257e2625440579bef8ab0",
+	"createdTime": 1.573017614029e+12,
+	"booking_time": "10 Nov 2019 (Sun) 11:00 AM-08:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc258316aba5d04b3f94c22"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "40.8",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d28524099aa1b0bdbc99b1c",
+	"biddingId": "5dc257de625440579bef8a7a",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-06T05:20:49.487Z"
+	},
+	"bid_id": "5dc257e2625440579bef8ab0",
+	"createdTime": 1.573017649487e+12,
+	"booking_time": "10 Nov 2019 (Sun) 11:00 AM-08:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc25b916aba5d04b3f94c23"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T05:35:22.558Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "hshsh@gmail.com",
+	"phone_number": "9711485445",
+	"paymentAmount": "200",
+	"userId": "5dbfd9ced0c0056482963e7e",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc24fee625440579bef88c7",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-06T05:35:13.912Z"
+	},
+	"bid_id": "5dc24fee625440579bef88d0",
+	"createdTime": 1.573018513912e+12,
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_hour": "6:01 PM",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dc25bb26aba5d04b3f94c24"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "hshsh@gmail.com",
+	"phone_number": "9711485445",
+	"paymentAmount": "200",
+	"userId": "5dbfd9ced0c0056482963e7e",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc24fee625440579bef88c7",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-06T05:35:46.071Z"
+	},
+	"bid_id": "5dc24fee625440579bef88d0",
+	"createdTime": 1.573018546071e+12,
+	"booking_time": "06 Nov 2019 (Wed) 10:00 AM-12:00 PM",
+	"booking_hour": "6:30 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc25c0f6aba5d04b3f94c25"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "hshsh@gmail.com",
+	"phone_number": "9711485445",
+	"paymentAmount": "200",
+	"userId": "5dbfd9ced0c0056482963e7e",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc24fee625440579bef88c7",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-06T05:37:19.390Z"
+	},
+	"bid_id": "5dc24fee625440579bef88d0",
+	"createdTime": 1.57301863939e+12,
+	"booking_time": "06 Nov 2019 (Wed) 10:00 AM-12:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc25c776aba5d04b3f94c26"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T05:40:14.410Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "hshsh@gmail.com",
+	"phone_number": "9711485445",
+	"paymentAmount": "200",
+	"userId": "5dbfd9ced0c0056482963e7e",
+	"professionalId": "5d71f9158f22247bbfcd10a7",
+	"biddingId": "5dc24fee625440579bef88c7",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-06T05:39:03.036Z"
+	},
+	"bid_id": "5dc24fee625440579bef88d0",
+	"createdTime": 1.573018743036e+12,
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_hour": "6:15 PM",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DcwJ3YPExSzHdZ"
+},
+{
+	"_id": {
+		"$oid": "5dc266d46aba5d04b3f94c2b"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T06:24:43.997Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "31.2",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dc265eb625440579bef8e13",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-06T06:23:16.946Z"
+	},
+	"bid_id": "5dc265ef625440579bef8e4b",
+	"createdTime": 1.573021396946e+12,
+	"booking_time": "10 Nov 2019 (Sun) 10:00 AM-08:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dc267526aba5d04b3f94c2c"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T06:26:22.107Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "31.2",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dc265eb625440579bef8e13",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-06T06:25:22.315Z"
+	},
+	"bid_id": "5dc265ef625440579bef8e4b",
+	"createdTime": 1.573021522315e+12,
+	"booking_time": "10 Nov 2019 (Sun) 10:00 AM-08:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dc2679c6aba5d04b3f94c2d"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T06:28:02.300Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "amit.singh9889@gmail.com",
+	"phone_number": "7905500434",
+	"paymentAmount": "31.2",
+	"userId": "5dc1622fa7243c4cb9cf5f0f",
+	"professionalId": "5d15f00f99aa1b0bdbc99a6f",
+	"biddingId": "5dc265eb625440579bef8e13",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-06T06:26:36.773Z"
+	},
+	"bid_id": "5dc265ef625440579bef8e4b",
+	"createdTime": 1.573021596773e+12,
+	"booking_time": "10 Nov 2019 (Sun) 10:00 AM-08:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_Dcx6xjRLX8RIAp"
+},
+{
+	"_id": {
+		"$oid": "5dc270766aba5d04b3f94c32"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T07:04:32.757Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "40",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d6fa2148f22247bbfcd1099",
+	"biddingId": "5dc26f84625440579bef99b1",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-06T07:04:22.447Z"
+	},
+	"bid_id": "5dc26f87625440579bef99e0",
+	"createdTime": 1.573023862447e+12,
+	"booking_time": "09 Nov 2019 (Sat) 09:00 AM-02:00 PM",
+	"booking_hour": "12:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dc270c76aba5d04b3f94c33"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "60",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d10d651465f507d6775c258",
+	"biddingId": "5dc26f80625440579bef998e",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-06T07:05:43.835Z"
+	},
+	"bid_id": "5dc26f84625440579bef99af",
+	"createdTime": 1.573023943835e+12,
+	"booking_time": "07 Nov 2019 (Thu) 11:00 AM-01:15 PM",
+	"booking_hour": "12:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc270e16aba5d04b3f94c34"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T07:06:15.985Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.861Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "76",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5d41417b8f22247bbfcd0fa1",
+	"biddingId": "5dc26f80625440579bef998e",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-06T07:06:09.776Z"
+	},
+	"bid_id": "5dc26f84625440579bef99ab",
+	"createdTime": 1.573023969776e+12,
+	"booking_time": "11 Nov 2019 (Mon) 10:00 AM-08:00 PM",
+	"booking_hour": "1:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dcb95d323175a56e6862440"
+	},
+	"updatedAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "24.6",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcb951808a58172567c8063",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-13T05:34:11.299Z"
+	},
+	"bid_id": "5dcb951808a58172567c806d",
+	"createdTime": 1.573623251299e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "14:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcb967423175a56e6862441"
+	},
+	"updatedAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "24.6",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcb951808a58172567c8063",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-13T05:36:52.464Z"
+	},
+	"bid_id": "5dcb951808a58172567c806d",
+	"createdTime": 1.573623412464e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "14:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcb969423175a56e6862442"
+	},
+	"updatedAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "24.6",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcb951808a58172567c8063",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-13T05:37:24.037Z"
+	},
+	"bid_id": "5dcb951808a58172567c806d",
+	"createdTime": 1.573623444037e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "14:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcb96d723175a56e6862443"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T05:39:29.125Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "24.6",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcb951808a58172567c8063",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-13T05:38:31.920Z"
+	},
+	"bid_id": "5dcb951808a58172567c806d",
+	"createdTime": 1.57362351192e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "14:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dcb972e23175a56e6862444"
+	},
+	"updatedAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "24.6",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcb951808a58172567c8063",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-13T05:39:58.953Z"
+	},
+	"bid_id": "5dcb951808a58172567c806d",
+	"createdTime": 1.573623598953e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "14:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcb974823175a56e6862445"
+	},
+	"updatedAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "24.6",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcb951808a58172567c8063",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-13T05:40:24.057Z"
+	},
+	"bid_id": "5dcb951808a58172567c806d",
+	"createdTime": 1.573623624057e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "14:00",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcb999623175a56e6862446"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T05:51:39.989Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-11T10:19:53.397Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "24.6",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcb951808a58172567c8063",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-13T05:50:14.585Z"
+	},
+	"bid_id": "5dcb951808a58172567c806d",
+	"createdTime": 1.573624214585e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "14:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DfiEwyc17eMqLf"
+},
+{
+	"_id": {
+		"$oid": "5dcba25f18985d157d63bca4"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T06:42:56.028Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T05:51:40.792Z"
+	},
+	"email": "hdhd@hdjd.ddd",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db92f2d5ea63a232301ac18",
+	"professionalId": "5dc12b90f8e1974a6eff8ab0",
+	"biddingId": "5dcba1e608a58172567c842b",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-13T06:27:43.080Z"
+	},
+	"bid_id": "5dcba1e608a58172567c842f",
+	"createdTime": 1.57362646308e+12,
+	"booking_time": "14 Nov 2019 (Thu) 1:00 AM-5:00 AM",
+	"booking_hour": "2:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_Dfj65zmquIXwB7"
+},
+{
+	"_id": {
+		"$oid": "5dcbaad7ee87e6189870308f"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T07:05:28.243Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:03:19.703Z"
+	},
+	"email": "hdhd@hdjd.ddd",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db92f2d5ea63a232301ac18",
+	"professionalId": "5dc12b90f8e1974a6eff8ab0",
+	"biddingId": "5dcba1e608a58172567c842b",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-13T07:03:51.478Z"
+	},
+	"bid_id": "5dcba1e608a58172567c842f",
+	"createdTime": 1.573628631478e+12,
+	"booking_time": "14 Nov 2019 (Thu) 1:00 AM-5:00 AM",
+	"booking_hour": "2:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DfjUO2S3HqjGxG"
+},
+{
+	"_id": {
+		"$oid": "5dcbab8d598c6818e46d86d0"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T07:08:14.223Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:06:38.110Z"
+	},
+	"email": "hdhd@hdjd.ddd",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db92f2d5ea63a232301ac18",
+	"professionalId": "5dc12b90f8e1974a6eff8ab0",
+	"biddingId": "5dcba1e608a58172567c842b",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-13T07:06:53.251Z"
+	},
+	"bid_id": "5dcba1e608a58172567c842f",
+	"createdTime": 1.573628813251e+12,
+	"booking_time": "14 Nov 2019 (Thu) 1:00 AM-5:00 AM",
+	"booking_hour": "1:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DfjXXedQDp35RO"
+},
+{
+	"_id": {
+		"$oid": "5dcbad1e54bd2e199eae065b"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T07:15:11.382Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:13:08.192Z"
+	},
+	"email": "hdhd@hdjd.ddd",
+	"phone_number": "8826417738",
+	"paymentAmount": "2",
+	"userId": "5db92f2d5ea63a232301ac18",
+	"professionalId": "5dc12b90f8e1974a6eff8ab0",
+	"biddingId": "5dcba1e608a58172567c842b",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-13T07:13:34.961Z"
+	},
+	"bid_id": "5dcba1e608a58172567c842f",
+	"createdTime": 1.573629214961e+12,
+	"booking_time": "14 Nov 2019 (Thu) 1:00 AM-5:00 AM",
+	"booking_hour": "1:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DfjeWDweuTSNVg"
+},
+{
+	"_id": {
+		"$oid": "5dcbaf4ad6c62719bb7687dd"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T07:51:24.660Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:15:11.892Z"
+	},
+	"email": "hdhd@hdjd.ddd",
+	"phone_number": "8826417738",
+	"paymentAmount": "4",
+	"userId": "5db92f2d5ea63a232301ac18",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcbaeec54b5b015fbe2214f",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-13T07:22:50.567Z"
+	},
+	"bid_id": "5dcbaeec54b5b015fbe22159",
+	"createdTime": 1.573629770567e+12,
+	"booking_time": "14 Nov 2019 (Thu) 6:00 AM-9:00 AM",
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User",
+	"razorpay_payment_id": "pay_DfkH1sXwpfOKxM"
+},
+{
+	"_id": {
+		"$oid": "5dcbe38517878d1d7af5bad7"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T11:07:00.455Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:51:25.148Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "4",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcbe2875ee3341a5e325a1a",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-13T11:05:41.091Z"
+	},
+	"bid_id": "5dcbe2875ee3341a5e325a24",
+	"createdTime": 1.573643141091e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dcbe3e317878d1d7af5bad8"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T11:21:30.175Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:51:25.148Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "4",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5dca44268c39b95fc9831f0e",
+	"biddingId": "5dcbe2875ee3341a5e325a1a",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-13T11:07:15.358Z"
+	},
+	"bid_id": "5dcbe2875ee3341a5e325a24",
+	"createdTime": 1.573643235358e+12,
+	"booking_time": "13 Nov 2019 (Wed) 2:00 PM-8:00 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_Dfnqhp20e0tXKO"
+},
+{
+	"_id": {
+		"$oid": "5dcce7b029271621bb34f493"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T05:36:14.443Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T11:21:30.666Z"
+	},
+	"email": "anshulverma96@gmail.com",
+	"phone_number": "7340448459",
+	"paymentAmount": "24.6",
+	"userId": "5dcce72acf9138358d0736b6",
+	"professionalId": "5dcce718cf9138358d0736b4",
+	"biddingId": "5dcce782cf9138358d0736ce",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-14T05:35:44.131Z"
+	},
+	"bid_id": "5dcce786cf9138358d0736ff",
+	"createdTime": 1.573709744131e+12,
+	"booking_time": "14 Nov 2019 (Thu) 2:00 PM-8:00 PM",
+	"booking_hour": "4:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dcce7d929271621bb34f494"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T05:36:32.786Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T11:21:30.666Z"
+	},
+	"email": "anshulverma96@gmail.com",
+	"phone_number": "7340448459",
+	"paymentAmount": "1104.4",
+	"userId": "5dcce72acf9138358d0736b6",
+	"professionalId": "5dcce718cf9138358d0736b4",
+	"biddingId": "5dcce782cf9138358d0736ce",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-14T05:36:25.871Z"
+	},
+	"bid_id": "5dcce786cf9138358d0736ff",
+	"createdTime": 1.573709785871e+12,
+	"booking_time": "14 Nov 2019 (Thu) 2:00 PM-8:00 PM",
+	"booking_hour": "4:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dcce82e29271621bb34f495"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T05:51:49.749Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T11:21:30.666Z"
+	},
+	"email": "anshulverma96@gmail.com",
+	"phone_number": "7340448459",
+	"paymentAmount": "10",
+	"userId": "5dcce72acf9138358d0736b6",
+	"professionalId": "5dcce718cf9138358d0736b4",
+	"biddingId": "5dcce782cf9138358d0736ce",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-14T05:37:50.717Z"
+	},
+	"bid_id": "5dcce786cf9138358d0736ff",
+	"createdTime": 1.573709870717e+12,
+	"booking_time": "14 Nov 2019 (Thu) 2:00 PM-8:00 PM",
+	"booking_hour": "4:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_Dg6lihTFfVChE2"
+},
+{
+	"_id": {
+		"$oid": "5dccf2286532953b6f1e92e7"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T06:13:52.430Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T06:13:52.430Z"
+	},
+	"email": "anshul4677@gmail.com",
+	"phone_number": "7340448459",
+	"paymentAmount": "14",
+	"userId": "5dccf109cf9138358d0737c4",
+	"professionalId": "5dccee57cf9138358d0737c2",
+	"biddingId": "5dccf1b6cf9138358d073831",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-14T06:20:24.299Z"
+	},
+	"bid_id": "5dccf1bacf9138358d07384d",
+	"createdTime": 1.573712424299e+12,
+	"booking_time": "14 Nov 2019 (Thu) 1:00 PM-8:00 PM",
+	"booking_hour": "1:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcd3bde170ea30fe55d37e1"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T11:36:22.970Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:30:56.554Z"
+	},
+	"email": "anshul4677@gmail.com",
+	"phone_number": "7340448459",
+	"paymentAmount": "4",
+	"userId": "5dccf109cf9138358d0737c4",
+	"professionalId": "5dcd3114b0a4970d0486e6f3",
+	"biddingId": "5dcd3b60cb86a50f1411e980",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-14T11:34:54.823Z"
+	},
+	"bid_id": "5dcd3b64cb86a50f1411e9b1",
+	"createdTime": 1.573731294823e+12,
+	"booking_time": "14 Nov 2019 (Thu) 1:00 PM-10:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DgCe90CMEZHFxp"
+},
+{
+	"_id": {
+		"$oid": "5dcd3e4987f4da1092c81d86"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T11:46:21.136Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:44:33.737Z"
+	},
+	"email": "anshul4677@gmail.com",
+	"phone_number": "7340448459",
+	"paymentAmount": "4",
+	"userId": "5dccf109cf9138358d0737c4",
+	"professionalId": "5dcd3114b0a4970d0486e6f3",
+	"biddingId": "5dcd3b60cb86a50f1411e980",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-14T11:45:13.426Z"
+	},
+	"bid_id": "5dcd3b64cb86a50f1411e9b1",
+	"createdTime": 1.573731913426e+12,
+	"booking_time": "14 Nov 2019 (Thu) 1:00 PM-10:00 PM",
+	"booking_hour": "6:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DgCosNo1MHilKj"
+},
+{
+	"_id": {
+		"$oid": "5dce4c21f69a4210b6a21f04"
+	},
+	"updatedAt": {
+		"$date": "2019-11-15T06:57:08.726Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.515Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "12",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5dcd3114b0a4970d0486e6f3",
+	"biddingId": "5dce4aa9e9aa3a1741f93a9b",
+	"paymentStatus": "Cancelled",
+	"paymentTime": {
+		"$date": "2019-11-15T06:56:33.497Z"
+	},
+	"bid_id": "5dce4aade9aa3a1741f93acc",
+	"createdTime": 1.573800993497e+12,
+	"booking_time": "15 Nov 2019 (Fri) 1:00 PM-10:00 PM",
+	"booking_hour": "1:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"error": "Cancelled By User"
+},
+{
+	"_id": {
+		"$oid": "5dce4c6df69a4210b6a21f05"
+	},
+	"updatedAt": {
+		"$date": "2019-11-15T07:00:17.036Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.515Z"
+	},
+	"email": "demo78@gmail.com",
+	"phone_number": "8471040953",
+	"paymentAmount": "12",
+	"userId": "5dbfbf32d0c0056482962a3e",
+	"professionalId": "5dcd3114b0a4970d0486e6f3",
+	"biddingId": "5dce4aa9e9aa3a1741f93a9b",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-15T06:57:49.060Z"
+	},
+	"bid_id": "5dce4aade9aa3a1741f93acc",
+	"createdTime": 1.57380106906e+12,
+	"booking_time": "15 Nov 2019 (Fri) 1:00 PM-10:00 PM",
+	"booking_hour": "1:00 PM",
+	"paymentamountpercent": 20,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DgWTS9aJYNV0Ad"
+},
+{
+	"_id": {
+		"$oid": "5dd53b9ef69a4210b6a21f0c"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T11:48:21.515Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.515Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "600",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5d4a96e28f22247bbfcd0fd9",
+	"biddingId": "5dd538d9394c3640f13871f1",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-20T13:11:58.796Z"
+	},
+	"bid_id": "5dd538d9394c3640f13871f9",
+	"createdTime": 1.574255518796e+12,
+	"booking_time": "22 Nov 2019 (Fri) 5:00 PM-7:30 PM",
+	"booking_hour": "17:30",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dd53bcaf69a4210b6a21f0d"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T11:48:21.515Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.515Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "600",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5d4a96e28f22247bbfcd0fd9",
+	"biddingId": "5dd538d9394c3640f13871f1",
+	"paymentStatus": "Initiated",
+	"paymentTime": {
+		"$date": "2019-11-20T13:12:42.031Z"
+	},
+	"bid_id": "5dd538d9394c3640f13871f9",
+	"createdTime": 1.574255562031e+12,
+	"booking_time": "22 Nov 2019 (Fri) 5:00 PM-7:30 PM",
+	"booking_hour": "17:30",
+	"paymentamountpercent": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dd614cdf69a4210b6a21f0e"
+	},
+	"updatedAt": {
+		"$date": "2019-11-21T04:40:30.531Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.515Z"
+	},
+	"email": "sonika.singh8@gmail.com",
+	"phone_number": "9999397726",
+	"paymentAmount": "600",
+	"userId": "5dc92f770d0fc1507a845e70",
+	"professionalId": "5d4a96e28f22247bbfcd0fd9",
+	"biddingId": "5dd6123f394c3640f13873a8",
+	"paymentStatus": "Successful",
+	"paymentTime": {
+		"$date": "2019-11-21T04:38:37.747Z"
+	},
+	"bid_id": "5dd6123f394c3640f13873b0",
+	"createdTime": 1.574311117747e+12,
+	"booking_time": "22 Nov 2019 (Fri) 5:00 PM-7:30 PM",
+	"booking_hour": "18:00",
+	"paymentamountpercent": 100,
+	"__v": 0,
+	"razorpay_payment_id": "pay_DirINi83llmi0Q"
+}]
+

@@ -1,0 +1,41 @@
+
+**********************************************************
+	Date/Time           :14/09/18 02:19:16 PM
+	Serial No           :WD-WXE906199268
+	Capacity            :60 GB
+	Input File          :bpat.txt
+**********************************************************
+
+ 14/09/18 02:19:16 PM
+ Cmd:1 WR_RD_CMP,start=0
+ WR  mem cmp  fail 25832448 
+ WR  cmp RD fail err:1 on 25832448 
+ WR  mem cmp  fail 25833472 
+ WR  cmp RD fail err:1 on 25833472 
+ WR  mem cmp  fail 25834496 
+ WR  cmp RD fail err:1 on 25834496 
+ WR  mem cmp  fail 25835520 
+ WR  cmp RD fail err:1 on 25835520 
+ WR  mem cmp  fail 25836544 
+ WR  cmp RD fail err:1 on 25836544 
+ WR  mem cmp  fail 25837568 
+ WR  cmp RD fail err:1 on 25837568 
+ WR  mem cmp  fail 25838592 
+ WR  cmp RD fail err:1 on 25838592 
+ WR  mem cmp  fail 25839616 
+ WR  cmp RD fail err:1 on 25839616 
+ WR  mem cmp  fail 25840640 
+ WR  cmp RD fail err:1 on 25840640 
+ WR  cmp RD fail err:11 on 25841664 Aborted Command Drive 1 seek:25841664 reset required max_aborted:256
+
+	Result:FAIL 	Exec Time:0h:21m:48s
+
+
+**********************************************************
+ Summary at:14/09/18 02:41:04 PM
+	Tot commands Executed    :1 
+	Passed                   :0 
+	Failed                   :1 
+	Tot Exec Time            :0h:21m:48s
+
+**********************************************************

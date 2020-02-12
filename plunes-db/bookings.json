@@ -1,0 +1,1190 @@
+[{
+	"_id": {
+		"$oid": "5da6cbe8fdcae60f946df0ac"
+	},
+	"updatedAt": {
+		"$date": "2019-10-16T07:52:29.371Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.701Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5da6cb6cfdcae60f946df0ab"
+	},
+	"paymentAmount": 2,
+	"professional_id": {
+		"$oid": "5da6bb2a2dcd8214ce6ae538"
+	},
+	"bidding_id": {
+		"$oid": "5da6ca1b2dcd8214ce6aeaa7"
+	},
+	"booking_id": "ORD191010001",
+	"bid_id": {
+		"$oid": "5da6ca1c2dcd8214ce6aeaab"
+	},
+	"user_id": {
+		"$oid": "5da6bf5a2dcd8214ce6ae810"
+	},
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-16T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-17T03:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da6cd66fdcae60f946df0b2"
+	},
+	"updatedAt": {
+		"$date": "2019-10-16T08:06:57.235Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-14T11:57:46.701Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5da6cd06fdcae60f946df0b1"
+	},
+	"paymentAmount": 2,
+	"professional_id": {
+		"$oid": "5da6bb2a2dcd8214ce6ae538"
+	},
+	"bidding_id": {
+		"$oid": "5da6bfca2dcd8214ce6ae819"
+	},
+	"booking_id": "ORD19101001",
+	"bid_id": {
+		"$oid": "5da6bfcb2dcd8214ce6ae81e"
+	},
+	"user_id": {
+		"$oid": "5da6bf5a2dcd8214ce6ae810"
+	},
+	"booking_hour": "9:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-16T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "17 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-17T09:00:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5daae715f7a40a7f916b52e9"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T10:42:38.864Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.095Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5daae692f7a40a7f916b52e8"
+	},
+	"paymentAmount": 56,
+	"professional_id": {
+		"$oid": "5da9808a9bc5b70611eef0d9"
+	},
+	"bidding_id": {
+		"$oid": "5daae200b702db0efa0439c9"
+	},
+	"booking_id": "ORD19101002",
+	"bid_id": {
+		"$oid": "5daae202b702db0efa0439d0"
+	},
+	"user_id": {
+		"$oid": "5daad776b702db0efa0438ae"
+	},
+	"booking_hour": "9:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "24 Oct 2019 (Thu) 8:00 AM-10:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-24T10:00:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab051ef7a40a7f916b52f3"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T12:51:04.307Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.095Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dab0448f7a40a7f916b52f2"
+	},
+	"paymentAmount": 10,
+	"professional_id": {
+		"$oid": "5da9808a9bc5b70611eef0d9"
+	},
+	"bidding_id": {
+		"$oid": "5daafa9cb702db0efa044ec8"
+	},
+	"booking_id": "ORD19101003",
+	"bid_id": {
+		"$oid": "5daafa9eb702db0efa044ed5"
+	},
+	"user_id": {
+		"$oid": "5daad776b702db0efa0438ae"
+	},
+	"booking_hour": "9:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "20 Oct 2019 (Sun) 8:00 AM-10:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-20T04:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0684f7a40a7f916b52f8"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T12:50:50.562Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.095Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dab0638f7a40a7f916b52f7"
+	},
+	"paymentAmount": 6,
+	"professional_id": {
+		"$oid": "5da9808a9bc5b70611eef0d9"
+	},
+	"bidding_id": {
+		"$oid": "5daafaa3b702db0efa044ef6"
+	},
+	"booking_id": "ORD19101004",
+	"bid_id": {
+		"$oid": "5daafaa4b702db0efa044eff"
+	},
+	"user_id": {
+		"$oid": "5daad776b702db0efa0438ae"
+	},
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-19T09:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab09e4f7a40a7f916b5303"
+	},
+	"updatedAt": {
+		"$date": "2019-10-18T07:43:58.095Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-18T07:43:58.095Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dab099df7a40a7f916b5302"
+	},
+	"paymentAmount": 4,
+	"professional_id": {
+		"$oid": "5da9808a9bc5b70611eef0d9"
+	},
+	"bidding_id": {
+		"$oid": "5dab0958b702db0efa045cb4"
+	},
+	"booking_id": "ORD19101005",
+	"bid_id": {
+		"$oid": "5dab095ab702db0efa045cbd"
+	},
+	"user_id": {
+		"$oid": "5daad776b702db0efa0438ae"
+	},
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-19T09:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0c9bfa6bd4314e14fbfc"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:07:28.737Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:07:28.737Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dab0c38fa6bd4314e14fbfa"
+	},
+	"paymentAmount": 5.8,
+	"professional_id": {
+		"$oid": "5da997049bc5b70611ef06f1"
+	},
+	"bidding_id": {
+		"$oid": "5dab086cb702db0efa045c65"
+	},
+	"booking_id": "ORD19101006",
+	"bid_id": {
+		"$oid": "5dab086db702db0efa045c73"
+	},
+	"user_id": {
+		"$oid": "5d316fcf8f22247bbfcd0f29"
+	},
+	"booking_hour": "08:00",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "23 Oct 2019 (Wed) 7:00 AM-11:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-23T05:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0ce3fa6bd4314e14fc00"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:07:28.737Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:07:28.737Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dab0c99fa6bd4314e14fbfb"
+	},
+	"paymentAmount": 1,
+	"professional_id": {
+		"$oid": "5da9808a9bc5b70611eef0d9"
+	},
+	"bidding_id": {
+		"$oid": "5dab0b9fb702db0efa045f74"
+	},
+	"booking_id": "ORD19101007",
+	"bid_id": {
+		"$oid": "5dab0ba1b702db0efa045f84"
+	},
+	"user_id": {
+		"$oid": "5daad776b702db0efa0438ae"
+	},
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-19T09:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab13898213a5319d2c4581"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:23:23.891Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.891Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dab12fa8213a5319d2c4580"
+	},
+	"paymentAmount": 5.6,
+	"professional_id": {
+		"$oid": "5da9808a9bc5b70611eef0d9"
+	},
+	"bidding_id": {
+		"$oid": "5dab1239b702db0efa046089"
+	},
+	"booking_id": "ORD19101008",
+	"bid_id": {
+		"$oid": "5dab123ab702db0efa046091"
+	},
+	"user_id": {
+		"$oid": "5daad776b702db0efa0438ae"
+	},
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-19T09:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab17e88213a5319d2c4586"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T14:06:17.789Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.891Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dab176f8213a5319d2c4585"
+	},
+	"paymentAmount": 8,
+	"professional_id": {
+		"$oid": "5da9808a9bc5b70611eef0d9"
+	},
+	"bidding_id": {
+		"$oid": "5dab1234b702db0efa046066"
+	},
+	"booking_id": "ORD19101009",
+	"bid_id": {
+		"$oid": "5dab1236b702db0efa046074"
+	},
+	"user_id": {
+		"$oid": "5daad776b702db0efa0438ae"
+	},
+	"booking_hour": "2:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-19T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "19 Oct 2019 (Sat) 1:00 PM-3:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-19T09:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db17b6d8213a5319d2c4595"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T10:44:31.167Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.891Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5db17ad98213a5319d2c4594"
+	},
+	"paymentAmount": 10,
+	"professional_id": {
+		"$oid": "5db173416ff81c232b700060"
+	},
+	"bidding_id": {
+		"$oid": "5db1739f6ff81c232b700064"
+	},
+	"booking_id": "ORD19101010",
+	"bid_id": {
+		"$oid": "5db173a06ff81c232b700076"
+	},
+	"user_id": {
+		"$oid": "5db173416ff81c232b700062"
+	},
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-10-24T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Cancelled By User",
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-24T16:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db182e68213a5319d2c459d"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T10:55:02.452Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.891Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5db182278213a5319d2c459c"
+	},
+	"paymentAmount": 10,
+	"professional_id": {
+		"$oid": "5db173416ff81c232b700060"
+	},
+	"bidding_id": {
+		"$oid": "5db180f86ff81c232b700636"
+	},
+	"booking_id": "ORD19101011",
+	"bid_id": {
+		"$oid": "5db180f96ff81c232b70063d"
+	},
+	"user_id": {
+		"$oid": "5db173416ff81c232b700062"
+	},
+	"booking_hour": "8:00 PM",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-10-24T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "24 Oct 2019 (Thu) 6:00 PM-10:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-24T16:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db18cfd8213a5319d2c45a4"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T12:51:08.047Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.891Z"
+	},
+	"redeemed_by_doctor": true,
+	"payment_id": {
+		"$oid": "5db18c628213a5319d2c45a3"
+	},
+	"paymentAmount": 4,
+	"professional_id": {
+		"$oid": "5db185156ff81c232b7009c3"
+	},
+	"bidding_id": {
+		"$oid": "5db18a666ff81c232b7015d7"
+	},
+	"booking_id": "ORD19101012",
+	"bid_id": {
+		"$oid": "5db18a666ff81c232b7015e3"
+	},
+	"user_id": {
+		"$oid": "5db189606ff81c232b700aa6"
+	},
+	"booking_hour": "5:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-24T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Cancelled By User",
+	"booking_time": "24 Oct 2019 (Thu) 2:00 PM-6:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-24T12:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2b7d98ec98d121d57b50f"
+	},
+	"updatedAt": {
+		"$date": "2019-10-26T06:04:25.921Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T08:37:06.486Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5db2b75f8ec98d121d57b50e"
+	},
+	"paymentAmount": 6,
+	"professional_id": {
+		"$oid": "5db1aeaf24ca243670418c51"
+	},
+	"bidding_id": {
+		"$oid": "5db2b54bd3bc5911f7831299"
+	},
+	"booking_id": "ORD19101013",
+	"bid_id": {
+		"$oid": "5db2b54cd3bc5911f78312a9"
+	},
+	"user_id": {
+		"$oid": "5db1ada124ca243670418c4a"
+	},
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-25T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Cancelled By User",
+	"booking_time": "26 Oct 2019 (Sat) 7:00 AM-9:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-26T09:00:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2c4e88ec98d121d57b518"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T08:29:26.502Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T08:37:06.486Z"
+	},
+	"redeemed_by_doctor": true,
+	"payment_id": {
+		"$oid": "5db2c4208ec98d121d57b517"
+	},
+	"paymentAmount": 24,
+	"professional_id": {
+		"$oid": "5db1aeaf24ca243670418c51"
+	},
+	"bidding_id": {
+		"$oid": "5db2c344d3bc5911f78314ff"
+	},
+	"booking_id": "ORD19101014",
+	"bid_id": {
+		"$oid": "5db2c345d3bc5911f7831508"
+	},
+	"user_id": {
+		"$oid": "5db1ada124ca243670418c4a"
+	},
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-25T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "25 Oct 2019 (Fri) 8:00 PM-10:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-25T16:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2d283550a9a17bd7128ba"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T08:29:26.504Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T09:59:45.679Z"
+	},
+	"redeemed_by_doctor": true,
+	"payment_id": {
+		"$oid": "5db2d1a8550a9a17bd7128b9"
+	},
+	"paymentAmount": 24,
+	"professional_id": {
+		"$oid": "5db1aeaf24ca243670418c51"
+	},
+	"bidding_id": {
+		"$oid": "5db2c8c7d3bc5911f78317b9"
+	},
+	"booking_id": "ORD19101015",
+	"bid_id": {
+		"$oid": "5db2c8c8d3bc5911f78317c2"
+	},
+	"user_id": {
+		"$oid": "5db1ada124ca243670418c4a"
+	},
+	"booking_hour": "9:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-25T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "25 Oct 2019 (Fri) 8:00 PM-10:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-25T16:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2f1bd550a9a17bd7128c2"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T08:29:26.507Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T09:59:45.679Z"
+	},
+	"redeemed_by_doctor": true,
+	"payment_id": {
+		"$oid": "5db2f151550a9a17bd7128c1"
+	},
+	"paymentAmount": 12,
+	"professional_id": {
+		"$oid": "5db1aeaf24ca243670418c51"
+	},
+	"bidding_id": {
+		"$oid": "5db2f09b42bf671e58c314a3"
+	},
+	"booking_id": "ORD19101016",
+	"bid_id": {
+		"$oid": "5db2f09c42bf671e58c314ac"
+	},
+	"user_id": {
+		"$oid": "5db1ada124ca243670418c4a"
+	},
+	"booking_hour": "6:29 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-25T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "25 Oct 2019 (Fri) 4:00 PM-10:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-25T16:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db82ae51c43007a67e2e8ed"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:32:08.567Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.448Z"
+	},
+	"redeemed_by_doctor": true,
+	"payment_id": {
+		"$oid": "5db82a811c43007a67e2e8ec"
+	},
+	"paymentAmount": 24.6,
+	"professional_id": {
+		"$oid": "5db822b75ea63a2323019dda"
+	},
+	"bidding_id": {
+		"$oid": "5db824b05ea63a2323019dde"
+	},
+	"booking_id": "ORD19101017",
+	"bid_id": {
+		"$oid": "5db824b05ea63a2323019de0"
+	},
+	"user_id": {
+		"$oid": "5db821495ea63a2323019dd8"
+	},
+	"booking_hour": "5:33 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-29T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "29 Oct 2019 (Tue) 3:00 PM-6:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-10-29T12:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db8314e1c43007a67e2e8f7"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T12:33:41.140Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.448Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5db830f51c43007a67e2e8f6"
+	},
+	"paymentAmount": 10,
+	"professional_id": {
+		"$oid": "5db822b75ea63a2323019dda"
+	},
+	"bidding_id": {
+		"$oid": "5db8300a5ea63a232301a386"
+	},
+	"booking_id": "ORD19101018",
+	"bid_id": {
+		"$oid": "5db8300a5ea63a232301a388"
+	},
+	"user_id": {
+		"$oid": "5db821495ea63a2323019dd8"
+	},
+	"booking_hour": "8:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-29T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "30 Oct 2019 (Wed) 7:00 AM-9:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-30T09:00:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db983506aba5d04b3f94bec"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5db982186aba5d04b3f94beb"
+	},
+	"paymentAmount": 600,
+	"professional_id": {
+		"$oid": "5d4a96e28f22247bbfcd0fd9"
+	},
+	"bidding_id": {
+		"$oid": "5db97a8b5ea63a232301bad8"
+	},
+	"booking_id": "ORD19101019",
+	"bid_id": {
+		"$oid": "5db97a8b5ea63a232301badc"
+	},
+	"user_id": {
+		"$oid": "5d888ad05b77ff71178f0ec3"
+	},
+	"booking_hour": "12:05",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-10-30T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "04 Nov 2019 (Mon) 10:00 AM-01:30 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-04T08:00:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db9890c6aba5d04b3f94bf2"
+	},
+	"updatedAt": {
+		"$date": "2019-10-30T12:59:21.126Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5db988696aba5d04b3f94bf0"
+	},
+	"paymentAmount": 24.6,
+	"professional_id": {
+		"$oid": "5db981c95ea63a232301c153"
+	},
+	"bidding_id": {
+		"$oid": "5db987cd5ea63a232301c174"
+	},
+	"booking_id": "ORD19101020",
+	"bid_id": {
+		"$oid": "5db987cd5ea63a232301c176"
+	},
+	"user_id": {
+		"$oid": "5db821495ea63a2323019dd8"
+	},
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-10-30T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "31 Oct 2019 (Thu) 7:00 AM-9:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-10-31T03:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc15b176aba5d04b3f94c0d"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dc15ac36aba5d04b3f94c0c"
+	},
+	"paymentAmount": 200,
+	"professional_id": {
+		"$oid": "5d71f9158f22247bbfcd10a7"
+	},
+	"bidding_id": {
+		"$oid": "5dc156aaa7243c4cb9cf5655"
+	},
+	"booking_id": "ORD19111021",
+	"bid_id": {
+		"$oid": "5dc156aaa7243c4cb9cf565e"
+	},
+	"user_id": {
+		"$oid": "5d9ec90a5b77ff71178f1cbf"
+	},
+	"booking_hour": "5:05 PM",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-11-05T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-07T13:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc175656aba5d04b3f94c17"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dc174fc6aba5d04b3f94c16"
+	},
+	"paymentAmount": 200,
+	"professional_id": {
+		"$oid": "5d71f9158f22247bbfcd10a7"
+	},
+	"bidding_id": {
+		"$oid": "5dc17469625440579bef8320"
+	},
+	"booking_id": "ORD191111022",
+	"bid_id": {
+		"$oid": "5dc17469625440579bef8329"
+	},
+	"user_id": {
+		"$oid": "5d316fcf8f22247bbfcd0f29"
+	},
+	"booking_hour": "17:30",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-11-05T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-07T13:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc18c026aba5d04b3f94c1d"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dc18b856aba5d04b3f94c1c"
+	},
+	"paymentAmount": 350,
+	"professional_id": {
+		"$oid": "5dab0731b702db0efa045b78"
+	},
+	"bidding_id": {
+		"$oid": "5dc18af6625440579bef876d"
+	},
+	"booking_id": "ORD191111103",
+	"bid_id": {
+		"$oid": "5dc18af6625440579bef8771"
+	},
+	"user_id": {
+		"$oid": "5d1474cd465f507d6775c298"
+	},
+	"booking_hour": "17:30",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-11-05T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "07 Nov 2019 (Thu) 5:00 PM-8:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-07T14:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc25cbe6aba5d04b3f94c27"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.864Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dc25c776aba5d04b3f94c26"
+	},
+	"paymentAmount": 200,
+	"professional_id": {
+		"$oid": "5d71f9158f22247bbfcd10a7"
+	},
+	"bidding_id": {
+		"$oid": "5dc24fee625440579bef88c7"
+	},
+	"booking_id": "ORD191111111",
+	"bid_id": {
+		"$oid": "5dc24fee625440579bef88d0"
+	},
+	"user_id": {
+		"$oid": "5dbfd9ced0c0056482963e7e"
+	},
+	"booking_hour": "6:15 PM",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-11-06T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Successful",
+	"booking_time": "07 Nov 2019 (Thu) 05:00 PM-07:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-07T13:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcbb1bbecdffa19f8829ece"
+	},
+	"updatedAt": {
+		"$date": "2019-11-13T09:47:14.891Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:24:56.961Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dcbaf4ad6c62719bb7687dd"
+	},
+	"paymentAmount": 4,
+	"professional_id": {
+		"$oid": "5dca44268c39b95fc9831f0e"
+	},
+	"bidding_id": {
+		"$oid": "5dcbaeec54b5b015fbe2214f"
+	},
+	"booking_id": "ORD191111112",
+	"bid_id": {
+		"$oid": "5dcbaeec54b5b015fbe22159"
+	},
+	"user_id": {
+		"$oid": "5db92f2d5ea63a232301ac18"
+	},
+	"booking_hour": "7:00 AM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-11-13T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "14 Nov 2019 (Thu) 6:00 AM-9:00 AM",
+	"booking_time_epoch": {
+		"$date": "2019-11-14T03:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcd3e8d87f4da1092c81d87"
+	},
+	"updatedAt": {
+		"$date": "2019-11-15T07:04:51.391Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:44:33.741Z"
+	},
+	"redeemed_by_doctor": true,
+	"payment_id": {
+		"$oid": "5dcd3e4987f4da1092c81d86"
+	},
+	"paymentAmount": 4,
+	"professional_id": {
+		"$oid": "5dcd3114b0a4970d0486e6f3"
+	},
+	"bidding_id": {
+		"$oid": "5dcd3b60cb86a50f1411e980"
+	},
+	"booking_id": "ORD1573731981134",
+	"bid_id": {
+		"$oid": "5dcd3b64cb86a50f1411e9b1"
+	},
+	"user_id": {
+		"$oid": "5dccf109cf9138358d0737c4"
+	},
+	"booking_hour": "6:29 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-11-14T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "14 Nov 2019 (Thu) 1:00 PM-10:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-14T22:00:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dce4d01f69a4210b6a21f06"
+	},
+	"updatedAt": {
+		"$date": "2019-11-15T07:02:28.107Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.518Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dce4c6df69a4210b6a21f05"
+	},
+	"paymentAmount": 12,
+	"professional_id": {
+		"$oid": "5dcd3114b0a4970d0486e6f3"
+	},
+	"bidding_id": {
+		"$oid": "5dce4aa9e9aa3a1741f93a9b"
+	},
+	"booking_id": "ORD1573801217035",
+	"bid_id": {
+		"$oid": "5dce4aade9aa3a1741f93acc"
+	},
+	"user_id": {
+		"$oid": "5dbfbf32d0c0056482962a3e"
+	},
+	"booking_hour": "1:00 PM",
+	"paymentamountpercent": 20,
+	"booking_date": {
+		"$date": "2019-11-15T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "15 Nov 2019 (Fri) 1:00 PM-10:00 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-15T16:30:00.000Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dd6153ef69a4210b6a21f0f"
+	},
+	"updatedAt": {
+		"$date": "2019-11-22T12:34:12.048Z"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.518Z"
+	},
+	"redeemed_by_doctor": false,
+	"payment_id": {
+		"$oid": "5dd614cdf69a4210b6a21f0e"
+	},
+	"paymentAmount": 600,
+	"professional_id": {
+		"$oid": "5d4a96e28f22247bbfcd0fd9"
+	},
+	"bidding_id": {
+		"$oid": "5dd6123f394c3640f13873a8"
+	},
+	"booking_id": "ORD1574311230530",
+	"bid_id": {
+		"$oid": "5dd6123f394c3640f13873b0"
+	},
+	"user_id": {
+		"$oid": "5dc92f770d0fc1507a845e70"
+	},
+	"booking_hour": "18:00",
+	"paymentamountpercent": 100,
+	"booking_date": {
+		"$date": "2019-11-21T00:00:00.000Z"
+	},
+	"paymentStatus": "Successful",
+	"booking_status": "Confirmed By Doctor",
+	"booking_time": "22 Nov 2019 (Fri) 5:00 PM-7:30 PM",
+	"booking_time_epoch": {
+		"$date": "2019-11-22T14:00:00.000Z"
+	},
+	"__v": 0
+}]
+

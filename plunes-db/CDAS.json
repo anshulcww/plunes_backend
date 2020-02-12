@@ -1,0 +1,362 @@
+[
+  {
+    "PROCEDURE": "A Scan Biometry (One Eye)",
+    "PRICE": 770,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Visual Field Analysis (Perimetry) (Both Eyes)",
+    "PRICE": 2200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "B Scan",
+    "PRICE": 1430,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Clinical Photograph (Both Eyes)",
+    "PRICE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Clinical Photograph (One Eye)",
+    "PRICE": 770,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pachymetry (Both Eyes)",
+    "PRICE": 660,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Topography",
+    "PRICE": 1210,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Examination under anaesthesia (EUA) (including GA Charges)",
+    "PRICE": 6050,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fundus Fluorescein Angiography (FFA)(Both eyes)",
+    "PRICE": 3300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gonioscopy (Both Eyes)",
+    "PRICE": 880,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Master (Ak + Non Contact Biometry- Both Eyes",
+    "PRICE": 660,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "O.C.T First Scan (Macula)-Both Eyes",
+    "PRICE": 3850,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pentacam (Both Eyes)",
+    "PRICE": 3630,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Schirmers (Both Eyes)",
+    "PRICE": 220,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "ARC",
+    "PRICE": 6050,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Inj. Lucentis (Single Patient)",
+    "PRICE": 38500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chalazion Multiple",
+    "PRICE": 6600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Expression of Concretions",
+    "PRICE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Foreign Body Removal",
+    "PRICE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Repair Of Corneal Scleral Tear & Lid",
+    "PRICE": 22000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dacrosystorhinostomy (DCR)",
+    "PRICE": 33000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Electrolysis",
+    "PRICE": 1210,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Entropion Correction (One Eye)",
+    "PRICE": 19250,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Focal Laser Photocoagulation",
+    "PRICE": 3300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ahmed Glaucoma valve surgery",
+    "PRICE": 54450,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "ICL-Spherical (Swiss)",
+    "PRICE": 114950,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "IVTA",
+    "PRICE": 3630,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Laser OFC",
+    "PRICE": 6050,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Laser charges Per sitting for one eye",
+    "PRICE": 3300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lensectomy",
+    "PRICE": 33000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Green Laser Trabeculoplasty ( Per Eye)",
+    "PRICE": 6050,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Prophylactic Laser (Both eyes) per sitting",
+    "PRICE": 12100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Prophylactic Laser (One Eye) per Sitting",
+    "PRICE": 9130,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pan Retinal Photocoagulation for Diabetic Retinopathy Package Laser (B/E 3 Sitting)",
+    "PRICE": 22000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pan Retinal Photocoagulation for Diabetic Retinopathy (per eye per sitting)",
+    "PRICE": 3850,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing & probing under G. A",
+    "PRICE": 3850,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pterygium Excision + Conjunctival Autograft (With Glue)",
+    "PRICE": 35200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pterygium Excision +Conjunctival Autograft (Without Glue)",
+    "PRICE": 33000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "PTK",
+    "PRICE": 24200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ptosis surgery",
+    "PRICE": 48400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Punctum Plugs",
+    "PRICE": 6050,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Detachment ( Buckling)",
+    "PRICE": 55000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "ROP Screening (Both Eyes) (GA and Medicine extra)",
+    "PRICE": 2420,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Correction",
+    "PRICE": 60500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint (1 or 2 muscles) under GA (G.A included)",
+    "PRICE": 33000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Subconjunctival Injection",
+    "PRICE": 880,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing (Lacrimal)-Both Eye",
+    "PRICE": 3300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "ICL-Toric (Swiss)",
+    "PRICE": 151250,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Trabeculectomy With Mitomycin C",
+    "PRICE": 30250,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "vitrectomy Surgery",
+    "PRICE": 60500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Vitrectomy with SOI",
+    "PRICE": 38500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Vitrectomy without SOI (Laser+Buckle+Membrane peeling additional)",
+    "PRICE": 82500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Yag Laser Capsulotomy per eye",
+    "PRICE": 3300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "YAG peripheral iridotomy",
+    "PRICE": 4950,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Acceralated C3R (Corneal Collagen Cross Linking with Riboflavin (Both Eyes)",
+    "PRICE": 88000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Acceralated C3R (Corneal Collagen Cross Linking with Riboflavin (One Eye)",
+    "PRICE": 49500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Rop Laser (One Eye)",
+    "PRICE": 49500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Endolaser",
+    "PRICE": 16500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Scleral Tear Repair.",
+    "PRICE": 36300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract Appa Lense Package Worth Int",
+    "PRICE": 13199,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ultima Lens IOL",
+    "PRICE": 21999,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "AMO Sansar -1 IOL",
+    "PRICE": 32999,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) B & L Akreos",
+    "PRICE": 43999,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "B & L Akreos AO",
+    "PRICE": 43999,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Amo Tecnis Ak",
+    "PRICE": 43999,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Hoya Yellow",
+    "PRICE": 51699,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Toric IOL",
+    "PRICE": 71500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Alcon Multifocal Restore",
+    "PRICE": 88000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Supervised Convergence Exercises (7Sitting of 15Minutes Each)",
+    "PRICE": 2200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Diurnal variation of IOP",
+    "PRICE": 5500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Diurnal variation of IOP (Room Charge)",
+    "PRICE": 0,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "B & L Akreos Adapt / Acrylic Plain / HOYA Isert with Cornea- protective Viscoelastic",
+    "PRICE": 44438,
+    "VARIANCE": "25%"
+  }
+]

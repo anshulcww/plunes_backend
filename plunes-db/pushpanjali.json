@@ -1,0 +1,412 @@
+[
+  {
+    "PROCEDURE": "Ophthalmologist Consultation",
+    "PRICE": 500,
+    "VARIANCE": ""
+  },
+  {
+    "PROCEDURE": "Field Charting by Goldman\nPerimeter",
+    "PRICE": "",
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Field Charting by\nComputerised",
+    "PRICE": "",
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint & Orthoptics",
+    "PRICE": "",
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing (Lacrimal)-Both Eye",
+    "PRICE": 250,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "3 Mirror Examination-One Eye",
+    "PRICE": 650,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Schrimer’s Test PH",
+    "PRICE": 250,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Foreign Body Removal",
+    "PRICE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Suture Removal",
+    "PRICE": 550,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Subconjunctival Injection",
+    "PRICE": 250,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gonioscopy",
+    "PRICE": 650,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Optical biometry (Lenstar)",
+    "PRICE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Water Drinking Test",
+    "PRICE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Diurnal Variation",
+    "PRICE": 2700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Electrolysis",
+    "PRICE": 1300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pterygium Surgery",
+    "PRICE": 2700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsorrhaphy",
+    "PRICE": 3100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Symblepharon Release",
+    "PRICE": 2700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cyclocryotherapy",
+    "PRICE": 3200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing & probing under G. A",
+    "PRICE": 2700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Single Chalazion I & C per eye",
+    "PRICE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pterygium Excision + Conjunctival Autograft (With Glue)",
+    "PRICE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Wart Excision",
+    "PRICE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Stye",
+    "PRICE": 950,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Epicanthoplasty",
+    "PRICE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cauterization",
+    "PRICE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Peritomy",
+    "PRICE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctival Flapping",
+    "PRICE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Scraping",
+    "PRICE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Artificial Eye",
+    "PRICE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Biopsy",
+    "PRICE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Expression of Concretions",
+    "PRICE": 950,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Limbal stem cell transplantation (LSCT)",
+    "PRICE": 1300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Abscess I and D",
+    "PRICE": 2400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctival Flapping",
+    "PRICE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lid Coloboma Repair",
+    "PRICE": 3500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "I.O. (Indirect Ophthalmoscopy)-One Eye",
+    "PRICE": 500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fluorescein Angiography -Both Eyes",
+    "PRICE": 2400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Yag Laser Capsulotomy per eye",
+    "PRICE": 3800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "YAG peripheral iridotomy",
+    "PRICE": 4500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Laser photocoagulation",
+    "PRICE": 3800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "PRP LaserPhotocoagulation per sitting",
+    "PRICE": 11000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Laser Prophylaxsis",
+    "PRICE": 8700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Endolaser",
+    "PRICE": 5500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Funds Photo",
+    "PRICE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Laser Suturolysis",
+    "PRICE": 1000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "I.P.D.",
+    "PRICE": "",
+    "VARIANCE": ""
+  },
+  {
+    "PROCEDURE": "Evisceration under G.A",
+    "PRICE": 2050,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lateral canthotomy",
+    "PRICE": 1000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Paracentesis - Cs",
+    "PRICE": 2050,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Air Injection & resuturing",
+    "PRICE": 2800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Alcon Iq",
+    "PRICE": 12600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol Amo Multifocal Ak",
+    "PRICE": 22000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Intra Viteral Injection (One Eye)",
+    "PRICE": 4000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Grafting",
+    "PRICE": 15750,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Major Reconstructive Surgery",
+    "PRICE": 18900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Detachment ( Buckling)",
+    "PRICE": 15750,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbitotomy",
+    "PRICE": 15750,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Correction",
+    "PRICE": 15000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Canalicular DCR",
+    "PRICE": 18100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ptosis surgery",
+    "PRICE": 15000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Enucleation",
+    "PRICE": 10250,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lensectomy",
+    "PRICE": 11800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Intraocular Foreign Body Removal",
+    "PRICE": "",
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Perforating Injuries",
+    "PRICE": "",
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Glaucoma Surgery",
+    "PRICE": 13400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Prolapsed orbital fat removal",
+    "PRICE": 7100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Socket Reconstruction",
+    "PRICE": 12600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Limbal Dermoid Excision",
+    "PRICE": 7900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lid Tumour surgery",
+    "PRICE": 7900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Capsulotomy",
+    "PRICE": 5500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "AC Wash",
+    "PRICE": 6300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Membranectomy",
+    "PRICE": 7900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dacryocystectomy",
+    "PRICE": 8700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cryoretinopexy",
+    "PRICE": 7900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Entropion",
+    "PRICE": 7900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Evisceration",
+    "PRICE": 7900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chalazion Operation",
+    "PRICE": 2900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Canalicular Repair",
+    "PRICE": 8650,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Scleral Fixated IOL (SFIOL) with suture",
+    "PRICE": 14200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Foreign body removal from anterior chamber",
+    "PRICE": 9450,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Symblepharon Release With Grafting",
+    "PRICE": 12600,
+    "VARIANCE": "25%"
+  }
+]

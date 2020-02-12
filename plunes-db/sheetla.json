@@ -1,0 +1,1234 @@
+[
+  {
+    "tests": "Absolute Eosinophil Count (AEC) Test",
+    "price": 100
+  },
+  {
+    "tests": "Absolute Lymphocyte Count (ALC) Test",
+    "price": ""
+  },
+  {
+    "tests": "Absolute Neutrophil Count (ANC) Test",
+    "price": ""
+  },
+  {
+    "tests": "Albumin Test",
+    "price": ""
+  },
+  {
+    "tests": "Albumin - Cerebrospinal Fluid Test",
+    "price": ""
+  },
+  {
+    "tests": "Alkaline Phosphate (ALP) Test",
+    "price": 150
+  },
+  {
+    "tests": "Ammonia Blood Test",
+    "price": ""
+  },
+  {
+    "tests": "Amoebic Serology Test",
+    "price": ""
+  },
+  {
+    "tests": "Anti-cyclic citrullinated peptide (Anti CCP) Test",
+    "price": ""
+  },
+  {
+    "tests": "Anti Double Stranded DNA Antibody (anti-dsDNA) Test",
+    "price": ""
+  },
+  {
+    "tests": "Acquired Immunodefiency Virus (HIV) Test",
+    "price": 500
+  },
+  {
+    "tests": "Acid-Fast Bacilli (AFB) Stain Test",
+    "price": ""
+  },
+  {
+    "tests": "Adenosine Deaminase (ADA) Test",
+    "price": ""
+  },
+  {
+    "tests": "All Body Fluid Rapid Test",
+    "price": ""
+  },
+  {
+    "tests": "Amylase Test",
+    "price": 500
+  },
+  {
+    "tests": "Anti Thyroglobulin Anti Body Test",
+    "price": 1800
+  },
+  {
+    "tests": "Antistreptolysin O (A.S.O.) Titer Test",
+    "price": ""
+  },
+  {
+    "tests": "Bilirubin Direct Test",
+    "price": ""
+  },
+  {
+    "tests": "Blood Group  (A, B, C) & Rhesus (RH) Test",
+    "price": ""
+  },
+  {
+    "tests": "Blood Pherpherial Smear (PIS) Test",
+    "price": ""
+  },
+  {
+    "tests": "PBF for Microfilaria",
+    "price": ""
+  },
+  {
+    "tests": "PBF for MP",
+    "price": ""
+  },
+  {
+    "tests": "Malaria Parasite (MP) ANTIGEN",
+    "price": 500
+  },
+  {
+    "tests": "Blood Sugar (Fasting) Test",
+    "price": 50
+  },
+  {
+    "tests": "Blood Urea Test",
+    "price": 100
+  },
+  {
+    "tests": "Blood Culture Test",
+    "price": ""
+  },
+  {
+    "tests": "Beta Human Chorionic Gonadotropin (HCG) Test",
+    "price": 700
+  },
+  {
+    "tests": "Bleeding Time (BT) Test",
+    "price": 100
+  },
+  {
+    "tests": "Clotting Time (CT) Test",
+    "price": 100
+  },
+  {
+    "tests": "C-Peptide Test",
+    "price": ""
+  },
+  {
+    "tests": "Malaria Serology Test",
+    "price": ""
+  },
+  {
+    "tests": "Mantaux Test",
+    "price": ""
+  },
+  {
+    "tests": "Occult Blood (Stool ) Examination",
+    "price": 200
+  },
+  {
+    "tests": "Parathyroid Hormone (PTH) Test",
+    "price": ""
+  },
+  {
+    "tests": "Platelet Count (PLT) Test",
+    "price": 100
+  },
+  {
+    "tests": "Potassium (K+) Test",
+    "price": ""
+  },
+  {
+    "tests": "Progesterone (P4) Test",
+    "price": 800
+  },
+  {
+    "tests": "Prolactin (PRL) Test",
+    "price": 600
+  },
+  {
+    "tests": "Pregnancy Test",
+    "price": 100
+  },
+  {
+    "tests": "Protein Test",
+    "price": ""
+  },
+  {
+    "tests": "Protein Electrophoresis Test",
+    "price": ""
+  },
+  {
+    "tests": "Prostate Specific Antigen (PSA) Test",
+    "price": 800
+  },
+  {
+    "tests": "Partial thromboplastin time (PTT) Test",
+    "price": ""
+  },
+  {
+    "tests": "Papanicolaou (PAP) Smear Test",
+    "price": ""
+  },
+  {
+    "tests": "Rheumatoid Arthritis (R A) Factor Test",
+    "price": ""
+  },
+  {
+    "tests": "Red Blood Cell (RBC) Count Test",
+    "price": ""
+  },
+  {
+    "tests": "Rubella Immunoglobulin G (IgG) Test",
+    "price": ""
+  },
+  {
+    "tests": "Rubella IgM Test",
+    "price": ""
+  },
+  {
+    "tests": "Reticulocyte Count Test",
+    "price": ""
+  },
+  {
+    "tests": "Semen Analysis (Report & Test)",
+    "price": ""
+  },
+  {
+    "tests": "Semen Carcinoma In-situ (CIS) Test",
+    "price": ""
+  },
+  {
+    "tests": "Serum Glutamic-Oxaloacetic Transaminase (SGOT) Test",
+    "price": 150
+  },
+  {
+    "tests": "Serum Glutamic Pyruvic Transaminase (SGPT) Test",
+    "price": 150
+  },
+  {
+    "tests": "Sodium ( NA +) Test",
+    "price": 150
+  },
+  {
+    "tests": "Stool Examination Test",
+    "price": ""
+  },
+  {
+    "tests": "Triiodothyronine (T3) Test",
+    "price": ""
+  },
+  {
+    "tests": "Thyroxin (T4) Test",
+    "price": ""
+  },
+  {
+    "tests": "Thyroid Stimulating Hormone (TSH) Test",
+    "price": 300
+  },
+  {
+    "tests": "Testosterone Test",
+    "price": 800
+  },
+  {
+    "tests": "Free Testosterone Test",
+    "price": ""
+  },
+  {
+    "tests": "C-Reactive Protein (CRP) Test",
+    "price": 350
+  },
+  {
+    "tests": "Cancer Antigen (CA) -125 Ovarian Test",
+    "price": 1500
+  },
+  {
+    "tests": "Cancer Antigen (CA) -15.3 Breast Cancer Marker Test",
+    "price": ""
+  },
+  {
+    "tests": "Cancer Antigen (CA) - 19.9 Pancreatic Test",
+    "price": ""
+  },
+  {
+    "tests": "Cancer Antigen (CA) -72.4 Castric Cancer Test",
+    "price": ""
+  },
+  {
+    "tests": "Carbamazepine (CMP) Test",
+    "price": ""
+  },
+  {
+    "tests": "Carcino Embryonic Antigen (CEA) Test",
+    "price": ""
+  },
+  {
+    "tests": "Creatinine Kinase (CK) Test",
+    "price": ""
+  },
+  {
+    "tests": "Dengue (Ns-1 Antigen) Test",
+    "price": 600
+  },
+  {
+    "tests": "Dengue (IgG & 'gm) Test",
+    "price": 1200
+  },
+  {
+    "tests": "Electrolyte Test",
+    "price": ""
+  },
+  {
+    "tests": "Erythrocyte Sedimentation Rate (ESR)",
+    "price": 100
+  },
+  {
+    "tests": "Estradiol (E2) Test",
+    "price": 800
+  },
+  {
+    "tests": "Folic Acid Test",
+    "price": ""
+  },
+  {
+    "tests": "Ferritin Test",
+    "price": ""
+  },
+  {
+    "tests": "Follicle - Stimulating Hormone (FSH) Test",
+    "price": 500
+  },
+  {
+    "tests": "Fine Needle Aspiration Cytology  (F.N.A.C) Test",
+    "price": ""
+  },
+  {
+    "tests": "Gamma-Glutamyl Transferase (GGT) Test",
+    "price": ""
+  },
+  {
+    "tests": "Gram Stain Test",
+    "price": ""
+  },
+  {
+    "tests": "Growth Hormone Test",
+    "price": ""
+  },
+  {
+    "tests": "Heamogram Test",
+    "price": ""
+  },
+  {
+    "tests": "Hepatitis-B Virus Surface Antigen (HbsAg) Rapid Test",
+    "price": ""
+  },
+  {
+    "tests": "Hepatitis-B Virus Surface Antigen (HbsAg) Elisa Test",
+    "price": ""
+  },
+  {
+    "tests": "Hepatitis C-Virus (HCV) Rapid Test",
+    "price": 500
+  },
+  {
+    "tests": "Hepatitis C-Virus (HCV) Elisa Test",
+    "price": ""
+  },
+  {
+    "tests": "Human Immuno Virus (HIV -1) Test",
+    "price": ""
+  },
+  {
+    "tests": "Human Immuno Virus (HIV-2) Test",
+    "price": ""
+  },
+  {
+    "tests": "Hemoglobin (Hb) Test",
+    "price": 100
+  },
+  {
+    "tests": "Hemoglobin (Hb) A1C Test",
+    "price": ""
+  },
+  {
+    "tests": "Immunoglobin E (IgE) Total",
+    "price": ""
+  },
+  {
+    "tests": "Immunoglobin IgA Test",
+    "price": ""
+  },
+  {
+    "tests": "Immunoglobin IgG Test",
+    "price": ""
+  },
+  {
+    "tests": "Immunoglobin IgM Test",
+    "price": ""
+  },
+  {
+    "tests": "Immunoglobulin (IgG & Igm) Test",
+    "price": ""
+  },
+  {
+    "tests": "Insulin (F) Test",
+    "price": ""
+  },
+  {
+    "tests": "Insulin (R) Test",
+    "price": ""
+  },
+  {
+    "tests": "Iron + Total iron-binding capacity (TIBC) Test",
+    "price": ""
+  },
+  {
+    "tests": "Kidney Function (K.F.T) Test",
+    "price": 500
+  },
+  {
+    "tests": "Urinalysis KFT Test",
+    "price": ""
+  },
+  {
+    "tests": "Serum Creatinine KFT Test",
+    "price": ""
+  },
+  {
+    "tests": "Blood Urea Nitrogen (BUN) KFT Test",
+    "price": ""
+  },
+  {
+    "tests": "Estimated Glomerular Filtration Rate (GFR) KFT Test",
+    "price": ""
+  },
+  {
+    "tests": "Liver Function Test (LFT)",
+    "price": 500
+  },
+  {
+    "tests": "LIPID Profile Examination",
+    "price": ""
+  },
+  {
+    "tests": "Low Density Lipoprotein (LDL) Test",
+    "price": ""
+  },
+  {
+    "tests": "Lactate Dehydrogenase (LDH) Test",
+    "price": ""
+  },
+  {
+    "tests": "Lipase Test",
+    "price": ""
+  },
+  {
+    "tests": "Lactate Test",
+    "price": ""
+  },
+  {
+    "tests": "Magnesium Test",
+    "price": ""
+  },
+  {
+    "tests": "Triglyceride (TG) Test",
+    "price": 150
+  },
+  {
+    "tests": "Total Leucocyte Count (T.L.C) Test",
+    "price": ""
+  },
+  {
+    "tests": "Triple Test",
+    "price": ""
+  },
+  {
+    "tests": "Troponin Test",
+    "price": 800
+  },
+  {
+    "tests": "Urine Microalbumin Test",
+    "price": ""
+  },
+  {
+    "tests": "Uric Acid Test",
+    "price": 150
+  },
+  {
+    "tests": "Urine Sodium Test",
+    "price": ""
+  },
+  {
+    "tests": "Urine Potassium Test",
+    "price": 100
+  },
+  {
+    "tests": "Venereal Disease Research Laboratory (VDRL) Test",
+    "price": 300
+  },
+  {
+    "tests": "Vitamin B-12 Test",
+    "price": 1100
+  },
+  {
+    "tests": "Complete Haemogram",
+    "price": 400
+  },
+  {
+    "tests": "Complete Blood Count (CBC)",
+    "price": 300
+  },
+  {
+    "tests": "Packed Cell Volume",
+    "price": ""
+  },
+  {
+    "tests": "Peripheral Smear",
+    "price": ""
+  },
+  {
+    "tests": "Malaria Antigen",
+    "price": ""
+  },
+  {
+    "tests": "Malaria Antibody",
+    "price": ""
+  },
+  {
+    "tests": "Widal Test",
+    "price": 150
+  },
+  {
+    "tests": "Typhidot IgG & IgM",
+    "price": ""
+  },
+  {
+    "tests": "C - reactive protein",
+    "price": ""
+  },
+  {
+    "tests": "Indirect Coombs Test",
+    "price": ""
+  },
+  {
+    "tests": "High Density Lipoprotein (HDL) Test",
+    "price": ""
+  },
+  {
+    "tests": "Thyroid Profile",
+    "price": ""
+  },
+  {
+    "tests": "Free Thyroxine 3 (ft3)",
+    "price": ""
+  },
+  {
+    "tests": "Free Thyroxine (ft4)",
+    "price": ""
+  },
+  {
+    "tests": "Blood Sugar Post Prandian",
+    "price": 50
+  },
+  {
+    "tests": "Differential Leucocyte Count (DLC)",
+    "price": ""
+  },
+  {
+    "tests": "Total Eosinophine Count (TEC)",
+    "price": ""
+  },
+  {
+    "tests": "Mean Corpuscular Volume (MCV)",
+    "price": ""
+  },
+  {
+    "tests": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+    "price": ""
+  },
+  {
+    "tests": "Cloot Reaction Time",
+    "price": ""
+  },
+  {
+    "tests": "ABO Group",
+    "price": 100
+  },
+  {
+    "tests": "RH type",
+    "price": ""
+  },
+  {
+    "tests": "Direct Coombs Test",
+    "price": ""
+  },
+  {
+    "tests": "Prothrombin time",
+    "price": 550
+  },
+  {
+    "tests": "Activated Partial Thromboplastin Time (APTT)",
+    "price": 650
+  },
+  {
+    "tests": "RH Antibody Titer Test",
+    "price": ""
+  },
+  {
+    "tests": "Glucose 6 Phosphate Dehydrogenase Deficiency (G6PD) Qualitative",
+    "price": 600
+  },
+  {
+    "tests": "Glucose 6 Phosphate Dehydrogenase Deficiency (G6PD) Quantitative",
+    "price": 800
+  },
+  {
+    "tests": "Serum Test",
+    "price": ""
+  },
+  {
+    "tests": "Serum Urice acid",
+    "price": ""
+  },
+  {
+    "tests": "serum acid phosphate",
+    "price": ""
+  },
+  {
+    "tests": "serum amalase",
+    "price": ""
+  },
+  {
+    "tests": "serum lipase",
+    "price": 600
+  },
+  {
+    "tests": "Glycosylated Haemoglobin (HBA1C)",
+    "price": 500
+  },
+  {
+    "tests": "Blood Sugar Random",
+    "price": 50
+  },
+  {
+    "tests": "Total Bilirubin",
+    "price": ""
+  },
+  {
+    "tests": "Total Protein Test",
+    "price": ""
+  },
+  {
+    "tests": "A/G Ratio",
+    "price": ""
+  },
+  {
+    "tests": "Creatinine Clearence Test",
+    "price": ""
+  },
+  {
+    "tests": "Glucose Tolerance Test (GTT)",
+    "price": 400
+  },
+  {
+    "tests": "Gas Chromatography Test (GCT)",
+    "price": 250
+  },
+  {
+    "tests": "CPK",
+    "price": ""
+  },
+  {
+    "tests": "Gamma-glutamyl Transferase (GGT)",
+    "price": ""
+  },
+  {
+    "tests": "Creatine Kinase Myocardial Band (CPK MB)",
+    "price": ""
+  },
+  {
+    "tests": "Very Low Density Lipoprotein (VLDL)",
+    "price": ""
+  },
+  {
+    "tests": "Luteinizing Hormone (LH) Test",
+    "price": 500
+  },
+  {
+    "tests": "Prolactine Test",
+    "price": ""
+  },
+  {
+    "tests": "Dehydroepiandrosterone Sulfate (DHEAS) Test",
+    "price": ""
+  },
+  {
+    "tests": "Estradiol Uncongugated",
+    "price": ""
+  },
+  {
+    "tests": "Cortisol Test",
+    "price": 650
+  },
+  {
+    "tests": "Adrenocorticotropic Hormone (ACTH)",
+    "price": ""
+  },
+  {
+    "tests": "Phenytoy Test",
+    "price": ""
+  },
+  {
+    "tests": "Cearbamazepine Test",
+    "price": ""
+  },
+  {
+    "tests": "Lithium Test",
+    "price": ""
+  },
+  {
+    "tests": "Antistreptolysin O Titer (ASO Titre) Test",
+    "price": 550
+  },
+  {
+    "tests": "RA Factor",
+    "price": 300
+  },
+  {
+    "tests": "Typhidot Test",
+    "price": ""
+  },
+  {
+    "tests": "Widal Test (Tube)",
+    "price": ""
+  },
+  {
+    "tests": "Widal Test (Slide)",
+    "price": ""
+  },
+  {
+    "tests": "Treponema Pallidum Antibodies",
+    "price": ""
+  },
+  {
+    "tests": "Torch Profile IgG",
+    "price": 1800
+  },
+  {
+    "tests": "Torch Profile IgM",
+    "price": 1800
+  },
+  {
+    "tests": "Torch Profile (IgG & IgM)",
+    "price": 3600
+  },
+  {
+    "tests": "Rubella Virus (IgM/IgG antibody)",
+    "price": ""
+  },
+  {
+    "tests": "Herpes - II IgM",
+    "price": ""
+  },
+  {
+    "tests": "Tb ELISA Test (IgG, IgA, IgM)",
+    "price": ""
+  },
+  {
+    "tests": "Tb ELISA Test IgG",
+    "price": ""
+  },
+  {
+    "tests": "Tb ELISA Test IgA",
+    "price": ""
+  },
+  {
+    "tests": "Tb ELISA Test IgM",
+    "price": ""
+  },
+  {
+    "tests": "Alpha Feto Protein",
+    "price": 800
+  },
+  {
+    "tests": "Anti nuclear antibody",
+    "price": ""
+  },
+  {
+    "tests": "Aspergilluns antibody",
+    "price": ""
+  },
+  {
+    "tests": "Carcinoembryonic Antigen (CEA) Test",
+    "price": ""
+  },
+  {
+    "tests": "Measles IgG & IgM",
+    "price": ""
+  },
+  {
+    "tests": "Cardiolipin AB",
+    "price": ""
+  },
+  {
+    "tests": "AFB Culture Test",
+    "price": ""
+  },
+  {
+    "tests": "Scraping For Fungus",
+    "price": ""
+  },
+  {
+    "tests": "AFB Stain Test",
+    "price": ""
+  },
+  {
+    "tests": "Urine R/M",
+    "price": 150
+  },
+  {
+    "tests": "Bile Salt & Bile Pigment",
+    "price": ""
+  },
+  {
+    "tests": "Urobiliongen",
+    "price": ""
+  },
+  {
+    "tests": "Acetone/ Ketone Bodies",
+    "price": ""
+  },
+  {
+    "tests": "Michroalbumin Test",
+    "price": ""
+  },
+  {
+    "tests": "Bence Jones Proteins",
+    "price": ""
+  },
+  {
+    "tests": "Elisa Test for pregnancy",
+    "price": ""
+  },
+  {
+    "tests": "Urinary Urea Test",
+    "price": ""
+  },
+  {
+    "tests": "Urine For Chyluria",
+    "price": ""
+  },
+  {
+    "tests": "Urine for Cytology",
+    "price": ""
+  },
+  {
+    "tests": "Haemoglobuinuri Test",
+    "price": ""
+  },
+  {
+    "tests": "Urine Ph",
+    "price": ""
+  },
+  {
+    "tests": "Urine Sugar",
+    "price": 50
+  },
+  {
+    "tests": "Stool R/M",
+    "price": ""
+  },
+  {
+    "tests": "Antenatal Panel",
+    "price": 1500
+  },
+  {
+    "tests": "Fever Profile 3",
+    "price": ""
+  },
+  {
+    "tests": "Fever Profile 2",
+    "price": ""
+  },
+  {
+    "tests": "Fever Profile 1",
+    "price": 500
+  },
+  {
+    "tests": "Small Biopsy",
+    "price": ""
+  },
+  {
+    "tests": "Medium Biopsy",
+    "price": ""
+  },
+  {
+    "tests": "Large Biopsy",
+    "price": ""
+  },
+  {
+    "tests": "Cerebrospinal fluid test (CSF)",
+    "price": ""
+  },
+  {
+    "tests": "Prostetic fluid examination",
+    "price": ""
+  },
+  {
+    "tests": "Stone Analysis",
+    "price": ""
+  },
+  {
+    "tests": "Vomitus Analysis",
+    "price": ""
+  },
+  {
+    "tests": "Anti ccp",
+    "price": ""
+  },
+  {
+    "tests": "Bacterial Memingitis Screen",
+    "price": ""
+  },
+  {
+    "tests": "Homocystin",
+    "price": 1450
+  },
+  {
+    "tests": "High Sensitivity C-Reactive Protein (HSCRP)",
+    "price": 1200
+  },
+  {
+    "tests": "Lipoprotein (A)",
+    "price": ""
+  },
+  {
+    "tests": "Anti-TTG (IgA)",
+    "price": 1100
+  },
+  {
+    "tests": "Antibodies to Tissue Transglutaminase (Anti TPO)",
+    "price": ""
+  },
+  {
+    "tests": "Menstruational Blood Test",
+    "price": ""
+  },
+  {
+    "tests": "Sodium Blood Test",
+    "price": ""
+  },
+  {
+    "tests": "Potassium Blood Test",
+    "price": 150
+  },
+  {
+    "tests": "LDL Cholestrol",
+    "price": 150
+  },
+  {
+    "tests": "Sodium Test",
+    "price": ""
+  },
+  {
+    "tests": "Calcium Total",
+    "price": 150
+  },
+  {
+    "tests": "Calcium Ionised",
+    "price": ""
+  },
+  {
+    "tests": "Calcium total & ionised",
+    "price": ""
+  },
+  {
+    "tests": "phosporous test",
+    "price": ""
+  },
+  {
+    "tests": "S Lithium",
+    "price": 800
+  },
+  {
+    "tests": "S Magnesium",
+    "price": 650
+  },
+  {
+    "tests": "Toxoplasma IgM Antibody Titer Test",
+    "price": ""
+  },
+  {
+    "tests": "Cancer Antigen 125",
+    "price": ""
+  },
+  {
+    "tests": "Cancer Antigen 15.9",
+    "price": ""
+  },
+  {
+    "tests": "Cancer Antigen 19.9",
+    "price": ""
+  },
+  {
+    "tests": "IgG, IgM, IgA quantitative",
+    "price": ""
+  },
+  {
+    "tests": "Total IgE",
+    "price": 1100
+  },
+  {
+    "tests": "PSA free",
+    "price": ""
+  },
+  {
+    "tests": "Anti Cardioliping Antibody (IgM)",
+    "price": ""
+  },
+  {
+    "tests": "Anti Phospholipid",
+    "price": ""
+  },
+  {
+    "tests": "Urine/ Stool/ Sputum Test",
+    "price": 200
+  },
+  {
+    "tests": "Urinary Amalase",
+    "price": ""
+  },
+  {
+    "tests": "Sputum For AFB",
+    "price": 200
+  },
+  {
+    "tests": "Sputum Gran & AFB Stain",
+    "price": ""
+  },
+  {
+    "tests": "Histo pathology - large specimen",
+    "price": ""
+  },
+  {
+    "tests": "Fluid",
+    "price": ""
+  },
+  {
+    "tests": "Hplc (HB Electrophorosys)",
+    "price": 1200
+  },
+  {
+    "tests": "Hematology",
+    "price": ""
+  },
+  {
+    "tests": "H.TD.E",
+    "price": ""
+  },
+  {
+    "tests": "T.D.E",
+    "price": ""
+  },
+  {
+    "tests": "H.T.D",
+    "price": ""
+  },
+  {
+    "tests": "Coagulation Profile",
+    "price": 1800
+  },
+  {
+    "tests": "TLC.DLC",
+    "price": ""
+  },
+  {
+    "tests": "Anaemia Screening",
+    "price": ""
+  },
+  {
+    "tests": "Biochemistry Test",
+    "price": ""
+  },
+  {
+    "tests": "Kleihauer",
+    "price": ""
+  },
+  {
+    "tests": "Cardiac Profile",
+    "price": ""
+  },
+  {
+    "tests": "Lipid Profile",
+    "price": 500
+  },
+  {
+    "tests": "Arthritis Profile",
+    "price": ""
+  },
+  {
+    "tests": "Advanced Lipid Profile",
+    "price": ""
+  },
+  {
+    "tests": "Iron Profile",
+    "price": ""
+  },
+  {
+    "tests": "Double Marker",
+    "price": ""
+  },
+  {
+    "tests": "MALE FERTILITY",
+    "price": ""
+  },
+  {
+    "tests": "Female FERTILITY",
+    "price": ""
+  },
+  {
+    "tests": "Thellasemia",
+    "price": ""
+  },
+  {
+    "tests": "Diabetic Profile",
+    "price": ""
+  },
+  {
+    "tests": "Urine Profile",
+    "price": ""
+  },
+  {
+    "tests": "Urine Examination",
+    "price": ""
+  },
+  {
+    "tests": "HB HEMOGLOBIN",
+    "price": ""
+  },
+  {
+    "tests": "TLC (Total Leucocyte Count )",
+    "price": 100
+  },
+  {
+    "tests": "DLC (Differential Leucocyte Count)",
+    "price": 100
+  },
+  {
+    "tests": "MP",
+    "price": 150
+  },
+  {
+    "tests": "Serum Ferritin",
+    "price": 650
+  },
+  {
+    "tests": "RDW",
+    "price": ""
+  },
+  {
+    "tests": "PDW",
+    "price": ""
+  },
+  {
+    "tests": "ANC",
+    "price": ""
+  },
+  {
+    "tests": "IC 7",
+    "price": ""
+  },
+  {
+    "tests": "DCT",
+    "price": 500
+  },
+  {
+    "tests": "MCHC",
+    "price": ""
+  },
+  {
+    "tests": "MCH",
+    "price": ""
+  },
+  {
+    "tests": "HEMATOCRIT ( PCV)",
+    "price": ""
+  },
+  {
+    "tests": "LE Cell Phomenon",
+    "price": ""
+  },
+  {
+    "tests": "APTT",
+    "price": ""
+  },
+  {
+    "tests": "Serum Pholate",
+    "price": ""
+  },
+  {
+    "tests": "Serum Vitamin B12",
+    "price": 1100
+  },
+  {
+    "tests": "FDP",
+    "price": ""
+  },
+  {
+    "tests": "CHOLIRIDE",
+    "price": ""
+  },
+  {
+    "tests": "TRIPLE MARKER",
+    "price": ""
+  },
+  {
+    "tests": "Hb electrophoresis",
+    "price": ""
+  },
+  {
+    "tests": "",
+    "price": ""
+  },
+  {
+    "tests": "URINE CULTURE",
+    "price": ""
+  },
+  {
+    "tests": "SPUTUM CULTURE",
+    "price": ""
+  },
+  {
+    "tests": "STOOL CULTURE",
+    "price": ""
+  },
+  {
+    "tests": "SEMEN CULTURE",
+    "price": ""
+  },
+  {
+    "tests": "PUS CULTURE",
+    "price": ""
+  },
+  {
+    "tests": "THROAT CULTURE",
+    "price": ""
+  },
+  {
+    "tests": "FNAC",
+    "price": ""
+  },
+  {
+    "tests": "CHIKUNGUNIYA (CHKV)",
+    "price": 600
+  },
+  {
+    "tests": "AMH",
+    "price": 1800
+  }
+]

@@ -1,0 +1,721 @@
+[{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e197f"
+	},
+	"Specialty": "Oncology (cancer) treatments",
+	"Procedure": "Chemotherapy (per cycle)",
+	"Cost Range in India (USD)*": "1000-3000",
+	"Cost Range in India (INR)": "63500 - 190500",
+	"Estimated Hospitalisation Duration": "Multiple cycles, 15 day interval"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e1983"
+	},
+	"Specialty": "Weight loss / bariatric surgeries",
+	"Procedure": "Gastric bypass",
+	"Cost Range in India (USD)*": "4500 - 9000",
+	"Cost Range in India (INR)": "285750 - 571500",
+	"Estimated Hospitalisation Duration": "4-5 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e1986"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Rhinoplasty (Nose)",
+	"Cost Range in India (USD)*": "1500 - 5000",
+	"Cost Range in India (INR)": "95250 - 317500",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e1988"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Breast Lift",
+	"Cost Range in India (USD)*": "2900 - 6500",
+	"Cost Range in India (INR)": "184150 - 412750",
+	"Estimated Hospitalisation Duration": "1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e198a"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Breast Augmentation (with implants)",
+	"Cost Range in India (USD)*": "2500 - 6500",
+	"Cost Range in India (INR)": "158750 - 412750",
+	"Estimated Hospitalisation Duration": "1 - 2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e198c"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Face lift (Face and neck)",
+	"Cost Range in India (USD)*": "3000 - 5000",
+	"Cost Range in India (INR)": "190500 - 317500",
+	"Estimated Hospitalisation Duration": "1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e198d"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Cheiloplasty (Lip Reduction)",
+	"Cost Range in India (USD)*": "800-1000",
+	"Cost Range in India (INR)": "50800 - 63500",
+	"Estimated Hospitalisation Duration": "Day care"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e198e"
+	},
+	"Specialty": "Dental",
+	"Procedure": "Dental implant - Each",
+	"Cost Range in India (USD)*": "1000 - 2000",
+	"Cost Range in India (INR)": "63500 - 127000",
+	"Estimated Hospitalisation Duration": "As out patient / 2 stages over 3 months"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e198f"
+	},
+	"Specialty": "Dental",
+	"Procedure": "CROWN full ceramic",
+	"Cost Range in India (USD)*": "140 - 240",
+	"Cost Range in India (INR)": "8890 - 15240",
+	"Estimated Hospitalisation Duration": "As out patient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e1992"
+	},
+	"Specialty": "Eye",
+	"Procedure": "Cataract surgery with lens",
+	"Cost Range in India (USD)*": "800 - 2000",
+	"Cost Range in India (INR)": "50800 - 127000",
+	"Estimated Hospitalisation Duration": "Day care / 1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e1994"
+	},
+	"Specialty": "Eye",
+	"Procedure": "Glaucoma",
+	"Cost Range in India (USD)*": "600 - 2000",
+	"Cost Range in India (INR)": "38100 - 127000",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e1996"
+	},
+	"Specialty": "Eye",
+	"Procedure": "Vitrectomy",
+	"Cost Range in India (USD)*": "1100 - 2000",
+	"Cost Range in India (INR)": "69850 - 127000",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e1997"
+	},
+	"Specialty": "Infertility",
+	"Procedure": "IVF Package",
+	"Cost Range in India (USD)*": "1800 - 5000",
+	"Cost Range in India (INR)": "114300 - 317500",
+	"Estimated Hospitalisation Duration": "As out patient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e199b"
+	},
+	"Specialty": "Bone and spine",
+	"Procedure": "Laminectomy",
+	"Cost Range in India (USD)*": "2000 - 6500",
+	"Cost Range in India (INR)": "127000 - 412750",
+	"Estimated Hospitalisation Duration": "6 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e199c"
+	},
+	"Specialty": "Gynecology",
+	"Procedure": "Lap Hysterectomy",
+	"Cost Range in India (USD)*": "1500 - 6000",
+	"Cost Range in India (INR)": "95250 - 381000",
+	"Estimated Hospitalisation Duration": "3-4 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e199d"
+	},
+	"Specialty": "Gynecology",
+	"Procedure": "Myomectomy-hysteroscopic",
+	"Cost Range in India (USD)*": "1000 - 7200",
+	"Cost Range in India (INR)": "63500 - 457200",
+	"Estimated Hospitalisation Duration": "3-4 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e199e"
+	},
+	"Specialty": "Urology",
+	"Procedure": "TURP (Transurethral resection of the prostate)",
+	"Cost Range in India (USD)*": "700 - 5000",
+	"Cost Range in India (INR)": "44450 - 317500",
+	"Estimated Hospitalisation Duration": "4 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e19a0"
+	},
+	"Specialty": "General surgery",
+	"Procedure": "Cholecystectomy-Laparoscopic",
+	"Cost Range in India (USD)*": "1500 - 3000",
+	"Cost Range in India (INR)": "95250 - 190500",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e19a2"
+	},
+	"Specialty": "General surgery",
+	"Procedure": "Appendectomy-Laparoscopic",
+	"Cost Range in India (USD)*": "1200 - 2800",
+	"Cost Range in India (INR)": "76200 - 177800",
+	"Estimated Hospitalisation Duration": "3 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e19a3"
+	},
+	"Specialty": "ENT",
+	"Procedure": "Cochlear implant",
+	"Cost Range in India (USD)*": "13000 - 23000",
+	"Cost Range in India (INR)": "825500 - 1460500",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e19a7"
+	},
+	"Specialty": "Nephro",
+	"Procedure": "Nephrectomy (removal of kidney)",
+	"Cost Range in India (USD)*": "1500 - 2000",
+	"Cost Range in India (INR)": "95250 - 127000",
+	"Estimated Hospitalisation Duration": "4 - 6 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e19a9"
+	},
+	"Specialty": "Tests",
+	"Procedure": "Colonoscopy",
+	"Cost Range in India (USD)*": "150 - 350",
+	"Cost Range in India (INR)": "9525 - 22225",
+	"Estimated Hospitalisation Duration": "As out patient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bc31358aba56959e19ac"
+	},
+	"Specialty": "Therapy",
+	"Procedure": "HBO therapy (Hyperbaric Oxygen)",
+	"Cost Range in India (USD)*": "2400 - 3500",
+	"Cost Range in India (INR)": "152400 - 222250",
+	"Estimated Hospitalisation Duration": "As out patient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19b7"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Coronary Angiogram",
+	"Cost Range in India (USD)*": "250 - 1000",
+	"Cost Range in India (INR)": "15875 - 63500",
+	"Estimated Hospitalisation Duration": "1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19b8"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Angioplasty (one stent)",
+	"Cost Range in India (USD)*": "3000 - 6500",
+	"Cost Range in India (INR)": "190500 - 412750",
+	"Estimated Hospitalisation Duration": "1 - 2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19b9"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Bypass Surgery (CABG -coronary artery bypass graft)",
+	"Cost Range in India (USD)*": "3000 - 9500",
+	"Cost Range in India (INR)": "190500 - 603250",
+	"Estimated Hospitalisation Duration": "4 - 6 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19ba"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Congenital heart defects - ASD/VSD Closure",
+	"Cost Range in India (USD)*": "3000 - 10000",
+	"Cost Range in India (INR)": "190500 - 635000",
+	"Estimated Hospitalisation Duration": "2 - 5 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19bb"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Valve replacement - AVR/MVR (including valves)",
+	"Cost Range in India (USD)*": "6000 - 12000",
+	"Cost Range in India (INR)": "381000 - 762000",
+	"Estimated Hospitalisation Duration": "2 - 5 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19bc"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Double valve replacement (DVR, including two valves)",
+	"Cost Range in India (USD)*": "4800 - 12500",
+	"Cost Range in India (INR)": "304800 - 793750",
+	"Estimated Hospitalisation Duration": "10 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19bd"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Valve replacement (Avr/Mvr - Minimal Invasive procedure)",
+	"Cost Range in India (USD)*": "7800 - 8200",
+	"Cost Range in India (INR)": "495300 - 520700",
+	"Estimated Hospitalisation Duration": "2 - 8 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19be"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Bentall's Surgery",
+	"Cost Range in India (USD)*": "6000 - 12000",
+	"Cost Range in India (INR)": "381000 - 762000",
+	"Estimated Hospitalisation Duration": "2 - 5 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c0"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Permanent Pacemaker Implant (Single Chamber) - with device",
+	"Cost Range in India (USD)*": "2500 - 4500",
+	"Cost Range in India (INR)": "158750 - 285750",
+	"Estimated Hospitalisation Duration": "2-3 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c1"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Permanent Pacemaker Implant (Double Chamber)",
+	"Cost Range in India (USD)*": "1800 - 5000",
+	"Cost Range in India (INR)": "114300 - 317500",
+	"Estimated Hospitalisation Duration": "2-3 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c2"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Radio frequency (RF) Ablation-heart rhythm correction",
+	"Cost Range in India (USD)*": "1000 - 5000",
+	"Cost Range in India (INR)": "63500 - 317500",
+	"Estimated Hospitalisation Duration": "2-3 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c3"
+	},
+	"Specialty": "Cardiology / Cardiothoracic surgery",
+	"Procedure": "Abdominal aortic aneurysm (AAA)",
+	"Cost Range in India (USD)*": "6500 - 8000",
+	"Cost Range in India (INR)": "412750 - 508000",
+	"Estimated Hospitalisation Duration": "5 - 10 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c4"
+	},
+	"Specialty": "Transplants",
+	"Procedure": "Liver transplant",
+	"Cost Range in India (USD)*": "40000 - 56000",
+	"Cost Range in India (INR)": "2540000- 3556000",
+	"Estimated Hospitalisation Duration": "28 - 30 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c5"
+	},
+	"Specialty": "Transplants",
+	"Procedure": "Kidney transplant",
+	"Cost Range in India (USD)*": "5000 - 22000",
+	"Cost Range in India (INR)": "317500 - 1397000",
+	"Estimated Hospitalisation Duration": "7 - 9 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c6"
+	},
+	"Specialty": "Transplants",
+	"Procedure": "Bone marrow transplant: allogenic",
+	"Cost Range in India (USD)*": "29000 - 33000",
+	"Cost Range in India (INR)": "1841500- 2095500",
+	"Estimated Hospitalisation Duration": "40 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c7"
+	},
+	"Specialty": "Transplants",
+	"Procedure": "Bone marrow transplant: autologous",
+	"Cost Range in India (USD)*": "16000 - 28000",
+	"Cost Range in India (INR)": "1016000- 1778000",
+	"Estimated Hospitalisation Duration": "25 - 30 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c8"
+	},
+	"Specialty": "Transplants",
+	"Procedure": "Lung transplant",
+	"Cost Range in India (USD)*": "22000 - 25000",
+	"Cost Range in India (INR)": "1397000- 1587500",
+	"Estimated Hospitalisation Duration": "10 - 20 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19c9"
+	},
+	"Specialty": "Transplants",
+	"Procedure": "Heart transplant",
+	"Cost Range in India (USD)*": "23000 - 40000",
+	"Cost Range in India (INR)": "1460500- 2540000",
+	"Estimated Hospitalisation Duration": "10 - 20 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19ca"
+	},
+	"Specialty": "Joint replacement",
+	"Procedure": "Knee Replacement (Single) - with implants",
+	"Cost Range in India (USD)*": "3500 - 8500",
+	"Cost Range in India (INR)": "222250 - 539750",
+	"Estimated Hospitalisation Duration": "5 - 7 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19cb"
+	},
+	"Specialty": "Joint replacement",
+	"Procedure": "Knee Replacement (Double) - with implants",
+	"Cost Range in India (USD)*": "6000 - 14500",
+	"Cost Range in India (INR)": "381000 - 920750",
+	"Estimated Hospitalisation Duration": "7 - 9 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19cc"
+	},
+	"Specialty": "Joint replacement",
+	"Procedure": "Hip Replacement (Single) - with implant",
+	"Cost Range in India (USD)*": "6000 - 10000",
+	"Cost Range in India (INR)": "381000 - 635000",
+	"Estimated Hospitalisation Duration": "5 - 7 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19cd"
+	},
+	"Specialty": "Joint replacement",
+	"Procedure": "Hip Replacement (Double) - with implants",
+	"Cost Range in India (USD)*": "8000 - 14700",
+	"Cost Range in India (INR)": "508000 - 933450",
+	"Estimated Hospitalisation Duration": "7 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19ce"
+	},
+	"Specialty": "Joint replacement",
+	"Procedure": "ACL Reconstruction",
+	"Cost Range in India (USD)*": "3000 - 4500",
+	"Cost Range in India (INR)": "190500 - 285750",
+	"Estimated Hospitalisation Duration": "3 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19cf"
+	},
+	"Specialty": "Oncology (cancer) treatments",
+	"Procedure": "Image Guided Radiation Therapy (IGRT)",
+	"Cost Range in India (USD)*": "5000 - 7500",
+	"Cost Range in India (INR)": "317500 - 476250",
+	"Estimated Hospitalisation Duration": "As outpatient - 1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19d0"
+	},
+	"Specialty": "Oncology (cancer) treatments",
+	"Procedure": "Intensity-modulated radiation therapy (IMRT)",
+	"Cost Range in India (USD)*": "3500 - 6000",
+	"Cost Range in India (INR)": "222250 - 381000",
+	"Estimated Hospitalisation Duration": "As outpatient - 1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19d1"
+	},
+	"Specialty": "Oncology (cancer) treatments",
+	"Procedure": "SRS - Stereotactic Radiosurgery(SRS)",
+	"Cost Range in India (USD)*": "3500 - 10000",
+	"Cost Range in India (INR)": "222250 - 635000",
+	"Estimated Hospitalisation Duration": "As outpatient - 1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19d3"
+	},
+	"Specialty": "Oncology (cancer) treatments",
+	"Procedure": "PET-CT Scan",
+	"Cost Range in India (USD)*": "300 - 450",
+	"Cost Range in India (INR)": "19050 - 28575",
+	"Estimated Hospitalisation Duration": "As outpatient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19d4"
+	},
+	"Specialty": "Oncology (cancer) treatments",
+	"Procedure": "Breast Cancer Surgery",
+	"Cost Range in India (USD)*": "3000 - 6700",
+	"Cost Range in India (INR)": "190500 - 425450",
+	"Estimated Hospitalisation Duration": "3-4 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19d5"
+	},
+	"Specialty": "Oncology (cancer) treatments",
+	"Procedure": "Prostrate Cancer Surgery",
+	"Cost Range in India (USD)*": "5500 - 10000",
+	"Cost Range in India (INR)": "349250 - 635000",
+	"Estimated Hospitalisation Duration": "6-8 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19d7"
+	},
+	"Specialty": "Weight loss / bariatric surgeries",
+	"Procedure": "Gastric banding",
+	"Cost Range in India (USD)*": "5800 - 8500",
+	"Cost Range in India (INR)": "368300 - 539750",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19d8"
+	},
+	"Specialty": "Weight loss / bariatric surgeries",
+	"Procedure": "Sleeve Gastrectomy",
+	"Cost Range in India (USD)*": "4500 - 9500",
+	"Cost Range in India (INR)": "285750 - 603250",
+	"Estimated Hospitalisation Duration": "4 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19da"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Abdominoplasty (Tummy Tuck)",
+	"Cost Range in India (USD)*": "2000 - 6000",
+	"Cost Range in India (INR)": "127000 - 381000",
+	"Estimated Hospitalisation Duration": "1 - 4 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19dc"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Breast Reduction",
+	"Cost Range in India (USD)*": "1500 - 7000",
+	"Cost Range in India (INR)": "95250 - 444500",
+	"Estimated Hospitalisation Duration": "1 - 2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19de"
+	},
+	"Specialty": "Cosmetic",
+	"Procedure": "Face lift - Face, neck and upper and lower eyelids",
+	"Cost Range in India (USD)*": "6000 - 8000",
+	"Cost Range in India (INR)": "381000 - 508000",
+	"Estimated Hospitalisation Duration": "Day care/ 1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19e3"
+	},
+	"Specialty": "Dental",
+	"Procedure": "Root Canal treatment",
+	"Cost Range in India (USD)*": "120 - 200",
+	"Cost Range in India (INR)": "7620 - 12700",
+	"Estimated Hospitalisation Duration": "As out patient/ 3- 4 sittings"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19e4"
+	},
+	"Specialty": "Dental",
+	"Procedure": "Facial cosmetic restoration",
+	"Cost Range in India (USD)*": "1500 - 6000",
+	"Cost Range in India (INR)": "95250 - 381000",
+	"Estimated Hospitalisation Duration": "As out patient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19e6"
+	},
+	"Specialty": "Eye",
+	"Procedure": "Retinal detachment",
+	"Cost Range in India (USD)*": "1500 - 4000",
+	"Cost Range in India (INR)": "95250 - 254000",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19e8"
+	},
+	"Specialty": "Eye",
+	"Procedure": "Corneal transplant",
+	"Cost Range in India (USD)*": "800 - 1200",
+	"Cost Range in India (INR)": "50800 - 76200",
+	"Estimated Hospitalisation Duration": "Day care / 1 day"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19eb"
+	},
+	"Specialty": "Neurosciences",
+	"Procedure": "Deep Brain Stimulation for Parkinsons",
+	"Cost Range in India (USD)*": "20000 - 23000",
+	"Cost Range in India (INR)": "1270000- 1460500",
+	"Estimated Hospitalisation Duration": "7 - 10 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19ec"
+	},
+	"Specialty": "Neurosciences",
+	"Procedure": "Peripheral Nerve Surgery",
+	"Cost Range in India (USD)*": "4000 - 6500",
+	"Cost Range in India (INR)": "254000 - 412750",
+	"Estimated Hospitalisation Duration": "3 - 4 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19ed"
+	},
+	"Specialty": "Bone and spine",
+	"Procedure": "Spinal fusion",
+	"Cost Range in India (USD)*": "6000 - 13000",
+	"Cost Range in India (INR)": "381000 - 825500",
+	"Estimated Hospitalisation Duration": "5 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19f2"
+	},
+	"Specialty": "Urology",
+	"Procedure": "BNI (Bladder Neck Incision)",
+	"Cost Range in India (USD)*": "2500 - 3500",
+	"Cost Range in India (INR)": "158750 - 222250",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19f4"
+	},
+	"Specialty": "General surgery",
+	"Procedure": "Inguinal Hernioplasty",
+	"Cost Range in India (USD)*": "900 - 3000",
+	"Cost Range in India (INR)": "57150 - 190500",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19f7"
+	},
+	"Specialty": "ENT",
+	"Procedure": "Laryngectomy (removal of the larynx)",
+	"Cost Range in India (USD)*": "4500 - 9000",
+	"Cost Range in India (INR)": "285750 - 571500",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19f8"
+	},
+	"Specialty": "ENT",
+	"Procedure": "FESS (Sinus)",
+	"Cost Range in India (USD)*": "1800 - 3500",
+	"Cost Range in India (INR)": "114300 - 222250",
+	"Estimated Hospitalisation Duration": "2 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19f9"
+	},
+	"Specialty": "ENT",
+	"Procedure": "Tympanoplasty (reconstruction of the eardrum)",
+	"Cost Range in India (USD)*": "1200 - 3500",
+	"Cost Range in India (INR)": "76200 - 222250",
+	"Estimated Hospitalisation Duration": "2 - 3 days"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19fb"
+	},
+	"Specialty": "Health check-up",
+	"Procedure": "Master Health check up",
+	"Cost Range in India (USD)*": "100 - 200",
+	"Cost Range in India (INR)": "6350 - 12700",
+	"Estimated Hospitalisation Duration": "As out patient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19fd"
+	},
+	"Specialty": "Tests",
+	"Procedure": "Endoscopy",
+	"Cost Range in India (USD)*": "600 - 2000",
+	"Cost Range in India (INR)": "38100 - 127000",
+	"Estimated Hospitalisation Duration": "As out patient"
+},
+{
+	"_id": {
+		"$oid": "5cf4bca5358aba56959e19fe"
+	},
+	"Specialty": "Tests",
+	"Procedure": "Capsule Endoscopy",
+	"Cost Range in India (USD)*": "1000 - 2000",
+	"Cost Range in India (INR)": "63500 - 127000",
+	"Estimated Hospitalisation Duration": "As out patient or 1 day"
+}]
+

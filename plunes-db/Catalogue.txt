@@ -1,0 +1,1459 @@
+Speciality|Service
+Dentist|Dentist Consultation + Xray (Single Film)
+Dentist|Dentist Consultation + Xray (Full Mouth)
+Dentist|Amalgam Fillings
+Dentist|Composite Fillings
+Dentist|Procelian / Ceramic Fillings
+Dentist|Gold Fillings
+Dentist|Glass Ionomer
+Dentist|ROOT CANAL TREATMENT
+Dentist|WISDOM TEETH REMOVAL / IMPACTION
+Dentist|Metal Conventional Braces
+Dentist|Metal Self Ligating Braces
+Dentist|Ceramic Conventional Braces
+Dentist|Lingual Braces
+Dentist|Aligners
+Dentist|Endosteal Implants
+Dentist|Subperiosteal Implant
+Dentist|Porcelain dentures
+Dentist|Acrylic resin dentures
+Dentist|Metal Crown
+Dentist|Zirconia Crown
+Dentist|Porcelain fused to metal (PFM)
+Dentist|Porcelain fused to zirconia
+Dentist|Ceramic Crown
+Dentist|Traditional bridges
+Dentist|Cantilever bridges
+Dentist|Maryland bonded bridges
+Dentist|SMILE MAKEOVER
+Dentist|Veneers
+Dentist|Teeth Whitening
+Dentist|Composite Bonding
+Dentist|Dental Implants
+Dentist|Flap Surgery
+Dentist|Bone Graft
+Dentist|Soft Tissue Graft
+Dentist|Guided Tissue Regeneration
+Dentist|Pit and fissure sealants
+Dentist|Fluoride application
+Dentist|Enameloplasty
+Dentist|Oral prophylaxis
+Dentist|SCALING & POLISHING
+Dentist|TOOTH EXTRACTION
+Psychologist|undefined
+Psychologist|Intellectual Assessment
+Psychologist|Learning disabilities Assessment
+Psychologist|Autism Assessment
+Psychologist|Attention Deficit/Hyperactivity Disorder
+Psychologist|Personality Assessment
+Psychologist|Neuropsychological Assessment
+Psychologist|Psychotherapy
+Psychologist|Stress Management
+Psychologist|Asperger’s Syndrome
+Psychologist|Conduct Disorder
+Psychologist|Dermatoglyphics Multiple Intelligence Test (DMIT)
+Psychologist|Psychometric Tests
+Psychologist|Personality Tests
+Psychologist|Aptitude Tests
+Psychologist|Intelligence (IQ) Tests
+Psychologist|Brain Wave Therapy
+Psychologist|Hypnotism
+Psychologist|Sleep Induction
+Psychologist|Adult Counseling
+Psychologist|Student Counseling
+Psychologist|Adolescent Counseling
+Psychologist|Pre-Marital Counseling
+Psychologist|Marriage Counseling
+Psychologist|Divorce Counseling
+Psychologist|Family Counseling
+Gynaecologist|Gynaecologist Consultation
+Gynaecologist|Bartholins Cyst / Abscess Surgery
+Gynaecologist|Separation Of Labial Fusion
+Gynaecologist|Fenton's Procedure
+Gynaecologist|Simple Excision Vulvar Lesion
+Gynaecologist|Vulva - Radical Excision
+Gynaecologist|Cautery or Laser Destruction of Vulvar Warts
+Gynaecologist|Vulvar Biopsy
+Gynaecologist|Episiotomy Scar Repair
+Gynaecologist|Anterior Colporrhaphy
+Gynaecologist|Posterior Colporrhaphy
+Gynaecologist|Repair of Enterocele
+Gynaecologist|Repair of Vaginal Vault
+Gynaecologist|Sacrocolpopexy
+Gynaecologist|Trans abdominal repair
+Gynaecologist|Vesicovaginal fistula repair
+Gynaecologist|Excision Of Vaginal Lesion
+Gynaecologist|Laparoscopic colposuspension
+Gynaecologist|Vaginal reconstruction
+Gynaecologist|Cervical amputation
+Gynaecologist|Vaginal hysterectomy
+Gynaecologist|Cervical Biopsy
+Gynaecologist|Cervix Cauterization
+Gynaecologist|Cervical polypectomy
+Gynaecologist|Large loop excision of the transformation zone
+Gynaecologist|Cone Biopsy
+Gynaecologist|Laser Ablation
+Gynaecologist|Dilation and curettage (D and C)
+Gynaecologist|Endometrial Biopsy
+Gynaecologist|Laparoscopic uterine nerve ablation
+Gynaecologist|Intrauterine Device (IUD)
+Gynaecologist|Abdominal Hysterectomy
+Gynaecologist|Abdominal myomectomy
+Gynaecologist|Laparoscopic myomectomy
+Gynaecologist|Hysteroscopy myomectomy
+Gynaecologist|Laparoscopic Sterilization
+Gynaecologist|Essure sterilization
+Gynaecologist|Hysteroscopy Sterilization
+Gynaecologist|Laparotomy
+Gynaecologist|Ovarian cyst removal
+Gynaecologist|Unilateral Laparoscopic Oophorectomy
+Gynaecologist|Bilateral Laparoscopic Oophorectomy
+Gynaecologist|Laparoscopic Ovarian Drilling (Ovarian Diathermy) for PCOS
+Gynaecologist|Salpingostomy
+Gynaecologist|Imperforate Hymen Treatment
+Gynaecologist|Adhesiolysis
+Gynaecologist|Cesarean / C Section
+Dermatologist|Dermatologist Consultation
+Dermatologist|Platelet-Rich Plasma (PRP)
+Dermatologist|Laser hair reduction
+Dermatologist|Radiofrequency
+Dermatologist|Botox
+Dermatologist|Dermabrasion
+Dermatologist|Atopic Dermatitis Treatment
+Dermatologist|Dermaroller
+Dermatologist|Anti Aging Treatment
+Dermatologist|Pediatric Dermatology
+Dermatologist|Aqua Therapies
+Dermatologist|Skin Boosters and Fillers
+Dermatologist|Q Switch Laser
+Dermatologist|Fractional Laser
+Dermatologist|Dermaroller
+Dermatologist|Facial Rejuvenation Treatment
+Dermatologist|Medi-facial
+Dermatologist|vitiligo surgery
+Dermatologist|Thread Lift
+Dermatologist|Laser therapy
+Dermatologist|Microdermabrasion
+Dermatologist|Wrinkle Treatment
+Dermatologist|Skin Rash Treatment
+Dermatologist|Acne Treatment
+Dermatologist|Pigmentation
+Dermatologist|Wart Removal
+Dermatologist|Light Chemical Peels
+Dermatologist|Medium Chemical Peels
+Dermatologist|Deep Chemical Peels
+Dermatologist|Glycolic Peel
+Dermatologist|Lactic Peel
+Dermatologist|TCA Peel
+Dermatologist|Salicylic Peel
+Dermatologist|Jessner Peel
+Dermatologist|Nomelan Peel
+Dermatologist|Cauterization
+Dermatologist|Cryosurgery
+Dermatologist|Ligation
+Dermatologist|Excision
+Dermatologist|Hair Fall Treatment
+Dermatologist|Laser Hair Removal Bikini area
+Dermatologist|Laser Hair Removal back(Male)
+Dermatologist|Laser Hair Removal Full Body
+Dermatologist|Laser Hair Removal Full Face
+Dermatologist|Laser Hair Removal Upper Lip
+Dermatologist|Laser Hair Removal Under Arms
+Dermatologist|Laser Hair Removal Full Legs
+Dermatologist|Laser hair removal Upper Lips
+Dermatologist|Mole removal
+Dermatologist|Surgical excision
+Dermatologist|Surgical shave
+Dermatologist|Skin grafting
+Dermatologist|Blister grafting.
+Dermatologist|Tattooing (micropigmentation).
+Dermatologist|Dermaroller
+Dermatologist|Dermabrasion
+Dermatologist|Botox
+Dermatologist|Soft-tissue fillers
+Dermatologist|Dermal fillers
+Dermatologist|Psoriasis
+Dermatologist|Phototherapy
+Dermatologist|Light Therapy
+Dermatologist|Acne Scar Treatment
+Dermatologist|Infini Microneedling
+Dermatologist|Bellafill
+Dermatologist|Fractionated Laser Skin Resurfacing
+Dermatologist|Dermabrasion
+Dermatologist|Micro-dermabrasion
+Dermatologist|Chemical peels
+Dermatologist|Eczema Treatment/Atopic Dermatitis
+Pediatrician|Pediatric Consultation
+Pediatrician|Nursemaid’s Elbow
+Pediatrician|Bladder Catheterization
+Pediatrician|Giving Immunizations
+Pediatrician|Incision and Drainage of Abscess
+Pediatrician|Lumbar Puncture (Cerebrospinal Fluid Collection)
+Pediatrician|Simple Laceration Repair
+Pediatrician|Removal of a Foreign Body
+Pediatrician|Temporary Splinting of a Fracture
+Pediatrician|Physical Examinations
+Pediatrician|Cover Test for Strabismus
+Pediatrician|Heart Murmur Treatment
+Pediatrician|Hip Examination
+Pediatrician|Ortolani
+Pediatrician|pGALS
+Pediatrician|Reduction of Simple Dislocation in infants
+Pediatrician|Reduction of elbow dislocation in infants
+Pediatrician|Pediatric Resuscitation
+Pediatrician|Neonatal Endotracheal Intubation
+Pediatrician|Bag-Mask Ventilation
+Pediatrician|Umbilical Catheterization
+Pediatrician|Vascular(Venous) Access in Children
+Pediatrician|Intravenous Access
+Pediatrician|Venipuncture
+Cardiologist|Cardiologist Consultation
+Cardiologist|Electrocardiogram
+Cardiologist|Echocardiogram
+Cardiologist|Transthoracic echocardiogram
+Cardiologist|Transesophageal echocardiogram
+Cardiologist|Doppler echocardiogram
+Cardiologist|Stress echocardiogram
+Cardiologist|Cardiovascular magnetic resonance
+Cardiologist|Cardiac catheterization
+Cardiologist|Dobutamine nuclear imaging
+Cardiologist|Rotational atherectomy
+Cardiologist|Cather Ablation
+Cardiologist|Radiofrequency ablation
+Cardiologist|Cryoablation
+Cardiologist|Aortic aneurysm
+Cardiologist|Open abdominal or open chest repair
+Cardiologist|Endovascular repair
+Cardiologist|Aortic Valve Surgery
+Cardiologist|Mechanical valves
+Cardiologist|Biological valves
+Cardiologist|Homograft valve (also called allograft)
+Cardiologist|Pacemakers
+Cardiologist|Single Chamber Pacemakers
+Cardiologist|Dual chamber pacemakers
+Cardiologist|Biventricular pacemaker
+Cardiologist|Implantable Cardioverter Defibrillator
+Cardiologist|Angioplasty
+Cardiologist|Coronary Angioplasty
+Cardiologist|Peripheral Angioplasty
+Cardiologist|Carotid Angioplasty
+Cardiologist|Renal Artery Angioplasty
+Cardiologist|Venous Angioplasty
+Cardiologist|Percutaneous transluminal coronary angioplasty
+Cardiologist|Stent
+Cardiologist|Balloon Angioplasty
+Cardiologist|Coronary Angiography
+Cardiologist|Ballooning
+Cardiologist|Transcatheter aortic valve replacement
+Cardiologist|MitraClip
+Cardiologist|Atrial septal defect (ASD) Closure
+Cardiologist|Patent ductus arteriosus (PDA) closure
+Cardiologist|Pericardiocentesis
+Cardiologist|Thallium scan
+Cardiologist|Positron emission tomography (PET) scan
+Cardiologist|Holter
+IVF|Infertility & Artificial Insemination
+IVF|Hysteroscopic IVF (In Vitro Fertilization)
+IVF|Laparoscopic IVF (In Vitro Fertilization)
+IVF|Laparotomy IVF (In Vitro Fertilization)
+IVF|Ovarian Reserve Assessment
+IVF|Hysterosalpinogram (HSG)
+IVF|Saline Infusion Sonohysterogram
+IVF|Office Hysteroscopy
+IVF|Follicular Dynamic Ultrasound (FD)
+IVF|Semen Analysis
+IVF|Egg Retrieval
+IVF|Varicocelectomy
+IVF|Vasectomy Reversal (Vasovasotomy/ Vasoepididymostomy)
+IVF|Sperm Retrieval (Epididymal Aspiration)
+IVF|Intrauterine Insemination Treatment (IUI)
+IVF|Elective Single Embryo Transfer (eSET)
+IVF|Cryopreservation (Egg Freezing)
+IVF|Ovarian Suppression
+IVF|Laser Assisted Hatching
+IVF|Blastocyst Culture & Transfer
+IVF|Frozen Embryo Transfer
+IVF|T.E.S.A (Testicular Sperm Aspiration)
+IVF|IVF (In Vitro Fertilization)
+Pathologists|Absolute Eosinophil Count (AEC) Test
+Pathologists|Absolute Lymphocyte Count (ALC) Test
+Pathologists|Absolute Neutrophil Count (ANC) Test
+Pathologists|Albumin Test
+Pathologists|Albumin - Cerebrospinal Fluid Test
+Pathologists|Alkaline Phosphate (ALP) Test
+Pathologists|Ammonia Blood Test
+Pathologists|Amoebic Serology Test
+Pathologists|Anti-cyclic citrullinated peptide (Anti CCP) Test
+Pathologists|Anti Double Stranded DNA Antibody (anti-dsDNA) Test
+Pathologists|Acquired Immunodefiency Virus (HIV) Test
+Pathologists|Acid-Fast Bacilli (AFB) Stain Test
+Pathologists|Adenosine Deaminase (ADA) Test
+Pathologists|All Body Fluid Rapid Test
+Pathologists|Amylase Test
+Pathologists|Anti Thyroglobulin Anti Body Test
+Pathologists|Antistreptolysin O (A.S.O.) Titer Test
+Pathologists|Bilirubin Direct Test
+Pathologists|Blood Group  (A, B, C) & Rhesus (RH) Test
+Pathologists|Blood Pherpherial Smear (PIS) Test
+Pathologists|Malaria Parasite (MP) Test
+Pathologists|Blood Sugar (Fasting) Test
+Pathologists|Blood Urea Test
+Pathologists|Blood Culture Test
+Pathologists|Beta Human Chorionic Gonadotropin (HCG) Test
+Pathologists|Bleeding Time (BT) Test
+Pathologists|Clotting Time (CT) Test
+Pathologists|C-Peptide Test
+Pathologists|Malaria Serology Test
+Pathologists|Mantaux Test
+Pathologists|Occult Blood (Stool ) Examination
+Pathologists|Parathyroid Hormone (PTH) Test
+Pathologists|Platelet Count (PLT) Test
+Pathologists|Potassium (K+) Test
+Pathologists|Progesterone (P4) Test
+Pathologists|Prolactin (PRL) Test
+Pathologists|Pregnancy Test
+Pathologists|Protein Test
+Pathologists|Protein Electrophoresis Test
+Pathologists|Prostate Specific Antigen (PSA) Test
+Pathologists|Partial thromboplastin time (PTT) Test
+Pathologists|Papanicolaou (PAP) Smear Test
+Pathologists|Rheumatoid Arthritis (R A) Factor Test
+Pathologists|Red Blood Cell (RBC) Count Test
+Pathologists|Rubella Immunoglobulin G (IgG) Test
+Pathologists|Rubella IV Test
+Pathologists|Reticulocyte Count Test
+Pathologists|Semen Analysis (Report & Test)
+Pathologists|Semen Carcinoma In-situ (CIS) Test
+Pathologists|Serum Glutamic-Oxaloacetic Transaminase (SGOT) Test
+Pathologists|Serum Glutamic Pyruvic Transaminase (SGPT) Test
+Pathologists|Sodium ( NA +) Test
+Pathologists|Stool Examination Test
+Pathologists|Triiodothyronine (T3) Test
+Pathologists|Thyroxin (T4) Test
+Pathologists|Thyroid Stimulating Hormone (TSH) Test
+Pathologists|Testosterone Test
+Pathologists|Free Testosterone Test
+Pathologists|C-Reactive Protein (CRP) Test
+Pathologists|Cancer Antigen (CA) -125 Ovarian Test
+Pathologists|Cancer Antigen (CA) -15.3 Breast Cancer Marker Test
+Pathologists|Cancer Antigen (CA) - 19.9 Pancreatic Test
+Pathologists|Cancer Antigen (CA) -72.4 Castric Cancer Test
+Pathologists|Carbamazepine (CMP) Test
+Pathologists|Carcino Embryonic Antigen (CEA) Test
+Pathologists|Creatinine Kinase (CK) Test
+Pathologists|Dengue (Ns-1 Antigen) Test
+Pathologists|Dengue (IgG & 'gm) Test
+Pathologists|Electrolyte Test
+Pathologists|Erythrocyte Sedimentation Rate (ESR)
+Pathologists|Estradiol (E2) Test
+Pathologists|Folic Acid Test
+Pathologists|Ferritin Test
+Pathologists|Follicle - Stimulating Hormone (FSH) Test
+Pathologists|Fine Needle Aspiration Cytology  (F.N.A.C) Test
+Pathologists|Gamma-Glutamyl Transferase (GGT) Test
+Pathologists|Gram Stain Test
+Pathologists|Growth Hormone Test
+Pathologists|Heamogram Test
+Pathologists|Hepatitis-B Virus Surface Antigen (HbsAg) Rapid Test
+Pathologists|Hepatitis-B Virus Surface Antigen (HbsAg) Elisa Test
+Pathologists|Hepatitis C-Virus (HCV) Rapid Test
+Pathologists|Hepatitis C-Virus (HCV) Elisa Test
+Pathologists|Human Immuno Virus (HIV -1) Test
+Pathologists|Human Immuno Virus (HIV-2) Test
+Pathologists|Hemoglobin (Hb) Test
+Pathologists|Hemoglobin (Hb) A1C Test
+Pathologists|Immunoglobin E (IgE) Total
+Pathologists|Immunoglobin IgA Test
+Pathologists|Immunoglobin IgG Test
+Pathologists|Immunoglobin IgM Test
+Pathologists|Immunoglobulin (IgG & Igm) Test
+Pathologists|Insulin (F) Test
+Pathologists|Insulin (P.P.) Test
+Pathologists|Iron + Total iron-binding capacity (TIBC) Test
+Pathologists|Kidney Function (K.F.T) Test
+Pathologists|Urinalysis KFT Test
+Pathologists|Serum Creatinine KFT Test
+Pathologists|Blood Urea Nitrogen (BUN) KFT Test
+Pathologists|Estimated Glomerular Filtration Rate (GFR) KFT Test
+Pathologists|Liver Function Test (LFT)
+Pathologists|LIPID Profile Examination
+Pathologists|Low Density Lipoprotein (LDL) Test
+Pathologists|Lactate Dehydrogenase (LDH) Test
+Pathologists|Lipase Test
+Pathologists|Lactate Test
+Pathologists|Magnesium Test
+Pathologists|Triglyceride (TG) Test
+Pathologists|Total Leucocyte Count (T.L.C) Test
+Pathologists|Triple Test
+Pathologists|Troponin Test
+Pathologists|Urine Microalbumin Test
+Pathologists|Uric Acid Test
+Pathologists|Urine Sodium Test
+Pathologists|Urine Potassium Test
+Pathologists|Venereal Disease Research Laboratory (VDRL) Test
+Pathologists|Vitamin B-12 Test
+Pathologists|Complete Blood Count
+Pathologists|Packed Cell Volume
+Pathologists|Peripheral Smear
+Pathologists|Malaria Antigen
+Pathologists|Malaria Antibody
+Pathologists|Widal Test
+Pathologists|Typhidot IgG & IgM
+Pathologists|C - reactive protein
+Pathologists|Indirect Coombs Test
+Pathologists|High Density Lipoprotein (HDL) Test
+Pathologists|Thyroid Profile
+Pathologists|Free Thyroxine 3 (ft3)
+Pathologists|Free Thyroxine (ft4)
+Pathologists|Blood Sugar Post Prandian
+Pathologists|Differential Leucocyte Count (DLC)
+Pathologists|Total Eosinophine Count (TEC)
+Pathologists|Mean Corpuscular Volume (MCV)
+Pathologists|Mean Corpuscular Hemoglobin Concentration (MCHC)
+Pathologists|Cloot Reaction Time
+Pathologists|ABO Group
+Pathologists|RH type
+Pathologists|Direct Coombs Test
+Pathologists|Prothrombin time
+Pathologists|Activated Partial Thromboplastin Time (APTT)
+Pathologists|RH Antibody Titer Test
+Pathologists|Glucose 6 Phosphate Dehydrogenase Deficiency (G6PD) Qualitative
+Pathologists|Glucose 6 Phosphate Dehydrogenase Deficiency (G6PD) Quantitative
+Pathologists|Serum Test
+Pathologists|Serum Urice acid
+Pathologists|serum acid phosphate
+Pathologists|serum amalase
+Pathologists|serum lipase
+Pathologists|Glycosylated Haemoglobin (HBA1C)
+Pathologists|Blood Sugar Random
+Pathologists|Total Bilirubin
+Pathologists|Total Protein Test
+Pathologists|Creatinine Clearence Test
+Pathologists|Glucose Tolerance Test (GTT)
+Pathologists|Gas Chromatography Test (GCT)
+Pathologists|Gamma-glutamyl Transferase (GGT)
+Pathologists|Creatine Kinase Myocardial Band (CPK MB)
+Pathologists|Very Low Density Lipoprotein (VLDL)
+Pathologists|Luteinizing Hormone (LH) Test
+Pathologists|Prolactine Test
+Pathologists|Dehydroepiandrosterone Sulfate (DHEAS) Test
+Pathologists|Estradiol Uncongugated
+Pathologists|Cortisol Test
+Pathologists|Adrenocorticotropic Hormone (ACTH)
+Pathologists|Phenytoy Test
+Pathologists|Cearbamazepine Test
+Pathologists|Lithium Test
+Pathologists|Antistreptolysin O Titer (ASO Titre) Test
+Pathologists|RA Factor
+Pathologists|Typhidot Test
+Pathologists|Widal Test (Tube)
+Pathologists|Widal Test (Slide)
+Pathologists|Treponema Pallidum Antibodies
+Pathologists|Torch Profile IgG
+Pathologists|Torch Profile IgM
+Pathologists|Torch Profile (IgG & IgM)
+Pathologists|Rubella Virus (IgM/IgG antibody)
+Pathologists|Herpes - II IgM
+Pathologists|Tb ELISA Test (IgG, IgA, IgM)
+Pathologists|Tb ELISA Test IgG
+Pathologists|Tb ELISA Test IgA
+Pathologists|Tb ELISA Test IgM
+Pathologists|Alpha Feto Protein
+Pathologists|Anti nuclear antibody
+Pathologists|Aspergilluns antibody
+Pathologists|Carcinoembryonic Antigen (CEA) Test
+Pathologists|Measles IgG & IgM
+Pathologists|Cardiolipin AB
+Pathologists|AFB Culture Test
+Pathologists|Scraping For Fungus
+Pathologists|AFB Stain Test
+Pathologists|Urine R/M
+Pathologists|Bile Salt & Bile Pigment
+Pathologists|Urobiliongen
+Pathologists|Acetone/ Ketone Bodies
+Pathologists|Michroalbumin Test
+Pathologists|Bence Jones Proteins
+Pathologists|Elisa Test for pregnancy
+Pathologists|Urinary Urea Test
+Pathologists|Urine For Chyluria
+Pathologists|Urine for Cytology
+Pathologists|Haemoglobuinuri Test
+Pathologists|Urine Ph
+Pathologists|Urine Sugar
+Pathologists|Stool R/M
+Pathologists|Antenatal Panel
+Pathologists|Fever Profile
+Pathologists|Small Biopsy
+Pathologists|Medium Biopsy
+Pathologists|Large Biopsy
+Pathologists|Cerebrospinal fluid test (CSF)
+Pathologists|Prostetic fluid examination
+Pathologists|Stone Analysis
+Pathologists|Vomitus Analysis
+Pathologists|Anti ccp
+Pathologists|Bacterial Memingitis Screen
+Pathologists|Homocystin
+Pathologists|High Sensitivity C-Reactive Protein (HSCRP)
+Pathologists|Lipoprotein (A)
+Pathologists|Anti-TTG (IgA)
+Pathologists|Antibodies to Tissue Transglutaminase (Anti TPO)
+Pathologists|Menstruational Blood Test
+Pathologists|Sodium Blood Test
+Pathologists|Potassium Blood Test
+Pathologists|LDL Cholestrol
+Pathologists|Sodium Test
+Pathologists|Calcium Total
+Pathologists|Calcium Ionised
+Pathologists|Calcium total & ionised
+Pathologists|phosporous test
+Pathologists|S Lithium
+Pathologists|S Magnesium
+Pathologists|Toxoplasma IgM Antibody Titer Test
+Pathologists|Cancer Antigen 125
+Pathologists|Cancer Antigen 15.9
+Pathologists|Cancer Antigen 19.9
+Pathologists|IgG, IgM, IgA quantitative
+Pathologists|Total IgE
+Pathologists|PSA free
+Pathologists|Anti Cardioliping Antibody (IgM)
+Pathologists|Anti Phospholipid
+Pathologists|Urine/ Stool/ Sputum Test
+Pathologists|Urinary Amalase
+Pathologists|Sputum For AFB
+Pathologists|Sputum Gran & AFB Stain
+Pathologists|Hplc (HB Electrophorosys)
+Pathologists|Hematology
+Pathologists|Coagulation Profile
+Pathologists|Anaemia Screening
+Pathologists|Biochemistry Test
+Pathologists|Kleihauer
+Pathologists|Cardiac Profile
+Pathologists|Extended Lipid Profile
+Pathologists|Arthritis Profile
+Pathologists|Advanced Lipid Profile
+Pathologists|Iron Profile
+Pathologists|Double Marker
+Pathologists|Thalassemia
+Pathologists|Diabetic Profile
+Pathologists|Urine Profile
+Pathologists|Urine Examination
+Physiotherapist|Consultation Physiotherapist
+Physiotherapist|ELECTROTHERAPY
+Physiotherapist|Transcutaneous Electrical Nerve Stimulation (TENS)
+Physiotherapist|Interferential Therapy
+Physiotherapist|Percutaneous electrical nerve stimulation (PENS)
+Physiotherapist|rTMS (Repetitive transcranial magnetic stimulation)
+Physiotherapist|LASER THERAPY
+Physiotherapist|Low level laser therapy
+Physiotherapist|High power laser therapy
+Physiotherapist|PARAFFIN WAX THERAPY
+Physiotherapist|Direct Pouring
+Physiotherapist|Toweling / Bandaging Method
+Physiotherapist|Brushing / Painting Method
+Physiotherapist|Dip and Wrap / Glove Method
+Physiotherapist|DIATHERMY
+Physiotherapist|Shortwave diathermy
+Physiotherapist|Microwave diathermy
+Physiotherapist|Ultrasound diathermy
+Physiotherapist|Manual spinal traction
+Physiotherapist|Mechanical spinal traction
+Physiotherapist|Fitting Of Orthosis
+Physiotherapist|Moist heat packs
+Physiotherapist|Lumbago/Lower Back Pain Treatment
+Physiotherapist|Skeletal Muscle Therapy
+Physiotherapist|Dry Needling Therapy
+Physiotherapist|Muscle Stimulation Therapy
+Physiotherapist|Sciatica Pain Treatment
+Physiotherapist|Gait Analysis
+Ophthalmologist|Ophthalmologist Consultation
+Ophthalmologist|Small Incision Lenticular Extraction (SMILE)
+Ophthalmologist|Laser-Assisted In Situ Keratomileusis (LASIK)
+Ophthalmologist|Cataract Eye Surgery
+Ophthalmologist|Hypertensive retinopathy
+Ophthalmologist|Laser photocoagulation
+Ophthalmologist|Argon Laser Trabeculoplasty (ALT)
+Ophthalmologist|Selective Laser Trabeculoplasty (SLT)
+Ophthalmologist|Squint & Orthoptics
+Ophthalmologist|Low vision aids
+Ophthalmologist|Corneal Transplant(keratoplasty)
+Ophthalmologist|Limbal stem cell transplantation (LSCT)
+Ophthalmologist|Corneal tear repair
+Ophthalmologist|Stitch-less Pterygium surgery with graft
+Ophthalmologist|Collagen Cross Linking (C3R) Surgery
+Ophthalmologist|Amniotic membrane grafting
+Ophthalmologist|Oculoplasty
+Ophthalmologist|Prosthetic eye
+Ophthalmologist|Ptosis surgery
+Ophthalmologist|Blepharoplasty
+Ophthalmologist|East Asian blepharoplasty
+Ophthalmologist|Levator resection
+Ophthalmologist|Müller muscle resection
+Ophthalmologist|Frontalis sling operation
+Ophthalmologist|Canthectomy
+Ophthalmologist|Lateral canthotomy
+Ophthalmologist|Lateral canthopexy
+Ophthalmologist|Canthorrhaphy
+Ophthalmologist|Epicanthoplasty
+Ophthalmologist|Tarsorrhaphy
+Ophthalmologist|The Hughes procedure
+Ophthalmologist|Enucleation
+Ophthalmologist|Evisceration
+Ophthalmologist|Exenteration
+Ophthalmologist|Orbital Tumor Removal
+Ophthalmologist|Optical Coherence Tomography
+Ophthalmologist|Visual Fields / Perimetry
+Ophthalmologist|Ultrasound A Scan
+Ophthalmologist|Fundus Photo
+Ophthalmologist|Gonioscopy
+Ophthalmologist|Corneal Pachymetry
+Ophthalmologist|Trabeculotomy
+Ophthalmologist|Capsulotomy
+Ophthalmologist|YAG peripheral iridotomy
+Ophthalmologist|Micro incision surgery
+Ophthalmologist|Phaco surgery
+Ophthalmologist|vitrectomy Surgery
+Ophthalmologist|Silicone Oil Removal
+Ophthalmologist|Nystagmus Surgery
+Ophthalmologist|Optic Nerve Sheath Fenestration (ONSF)
+Ophthalmologist|Glaucoma Surgery
+Ophthalmologist|Avastin Injection
+Ophthalmologist|Lucentis Injection
+Ophthalmologist|Intravitreal Ozurdex
+Ophthalmologist|Lensectomy
+Ophthalmologist|Chalazion Treatment
+Ophthalmologist|Pterygium Surgery
+Ophthalmologist|Enucleation/ Evisceration
+Ophthalmologist|Dacrosystorhinostomy (DCR)
+Ophthalmologist|Collagen Cross Linking
+Ophthalmologist|Scleral Fixation Of  Intraocular Lens
+Ophthalmologist|EyePCL
+Ophthalmologist|OPD Consultation
+Ophthalmologist|Emergency visit
+Ophthalmologist|OT Charges
+Ophthalmologist|Anaesthetist Stand by Fee
+Ophthalmologist|Anaesthetist Fee for short G.A (less than 45 min)
+Ophthalmologist|Anaesthetist Fee for long G.A (more than 45 min)
+Ophthalmologist|GA Consumables and Gases - short case (less than 45 min.)
+Ophthalmologist|GA Consumables and Gases - long case (more than 45 min.)
+Ophthalmologist|Cardiologist standby
+Ophthalmologist|Semi Private Room AC
+Ophthalmologist|Private Room AC
+Ophthalmologist|Viral Markers Positive Cases - add on for all surgical procedure (HIV/HCV/HbSAg)
+Ophthalmologist|Ocuflex
+Ophthalmologist|Aurovue
+Ophthalmologist|Acrysof SP
+Ophthalmologist|Acrysof MP(Expand)
+Ophthalmologist|Biotech Toric
+Ophthalmologist|Biotech Multifocal
+Ophthalmologist|Micro Incision Cataract Surgery – MICS
+Ophthalmologist|Acrysof IQ (Alcon)(+ 6 to + 30)
+Ophthalmologist|Preloaded Ultrasert IQ (Alcon)
+Ophthalmologist|Preloaded Hoya Vivinex
+Ophthalmologist|Tecnis-1
+Ophthalmologist|Acrysof Toric
+Ophthalmologist|Tecnis Toric
+Ophthalmologist|Zeiss Toric
+Ophthalmologist|MICS with MULTIFOCAL IOL
+Ophthalmologist|Zeiss MF
+Ophthalmologist|Restor MF
+Ophthalmologist|Symfony Bifocal (Multifocal)
+Ophthalmologist|Pan Optix Trifocal  ( Ist Option )
+Ophthalmologist|Pan Optix Trifocal Toric
+Ophthalmologist|Zeiss Trifocal (Multifocal)
+Ophthalmologist|Zeiss Multifocal Toric
+Ophthalmologist|Restor Multifocal Toric
+Ophthalmologist|SymfonyMultifocal Toric
+Ophthalmologist|Zeiss Trifocal Toric
+Ophthalmologist|PC Rent with Anterior Chamber IOL(Kelman)
+Ophthalmologist|PC Rent with Posterior Chamber IOL (Acrysof IQ)
+Ophthalmologist|PC Rent with Sulcus Supported IOL (Acrysof MP)
+Ophthalmologist|ECCE with Non-Foldable PMMA IOL
+Ophthalmologist|Paediatric Cataract without IOL under G.A. (G.A included)
+Ophthalmologist|Paediatric Cataract with Acrysof IQ IOL under G.A.(G.A included)
+Ophthalmologist|Secondary IOL (Acrysof MP)
+Ophthalmologist|IOL Exchange with Acrysof MP (operated elsewhere)
+Ophthalmologist|Scleral Fixated IOL (SFIOL) with suture
+Ophthalmologist|Glued IOL (SFIOL) with Fibrin Glue
+Ophthalmologist|MICS in Subluxated Cataract
+Ophthalmologist|Cataract with Aniridic IOL
+Ophthalmologist|Piggy Back IOL (+5 to -5) (Rayner Sulcoflex)
+Ophthalmologist|Piggy Back Toric IOL (-3D to + 3D Sph with upto 2D cyl)(RaynerSulcoflex)
+Ophthalmologist|Standard Lasik
+Ophthalmologist|C Lasik Aspheric
+Ophthalmologist|PRK/E – Lasik
+Ophthalmologist|SBK
+Ophthalmologist|Advanced Surface Ablation (ASA)—Aspheric
+Ophthalmologist|SBK Custom-Q
+Ophthalmologist|Bladeless Femto Custom Q
+Ophthalmologist|Bladeless Contoura Vision
+Ophthalmologist|Epi- Contoura
+Ophthalmologist|ICL-Spherical (Swiss)
+Ophthalmologist|ICL-Toric (Swiss)
+Ophthalmologist|Refractive Lens Exchange with SP lens (Both Eyes)
+Ophthalmologist|Refractive Lens Exchange with IQ lens (Both Eyes)
+Ophthalmologist|Refractive Lens Exchange with Trifocal Panoptix lens (Both Eyes)
+Ophthalmologist|RLE with Multifocal IOL Zeiss
+Ophthalmologist|Collagen Cross linking (C3R)
+Ophthalmologist|Pterygium Excision with conjunctival autograft with Suture
+Ophthalmologist|Pterygium Excision with conjunctival autograft with Glue
+Ophthalmologist|Amniotic Membrane Transplant (AMT) with Glue
+Ophthalmologist|Limbal Dermoid Excision
+Ophthalmologist|Limbal Autograft (Stem Cell) with BCL with Glue
+Ophthalmologist|Corneal Tear Repair with AC Formation
+Ophthalmologist|Corneo-Scleral Tear Repair with AC Formation
+Ophthalmologist|Corneo-Scleral Tear repair with primary Lid Repair
+Ophthalmologist|Corneo-Scleral Tear Repair with iris repair(Iridodialysis)
+Ophthalmologist|Symblepharon Release
+Ophthalmologist|Symblepharon Release + AMG with Glue
+Ophthalmologist|Symblepharon Release with MMG
+Ophthalmologist|Foreign body removal from anterior chamber
+Ophthalmologist|Foreign body removal from cornea
+Ophthalmologist|C3F8 GasInjection in anterior chamber
+Ophthalmologist|Corneal Tattooing – Surface
+Ophthalmologist|Corneal Tattooing Lamellar
+Ophthalmologist|Anterior Stromal Puncture with BCL
+Ophthalmologist|Tissue Adhesive with BCL (TABCL)
+Ophthalmologist|EDTA Chelation
+Ophthalmologist|Injection Intracameral/Intrastromal (excluding cost of Inj.)
+Ophthalmologist|Supratarsal Injection (excluding cost of Injection)
+Ophthalmologist|Punctal Cautery
+Ophthalmologist|Punctal Plugs
+Ophthalmologist|Trabeculectomy (Trab)
+Ophthalmologist|MP3 Laser for Glaucoma
+Ophthalmologist|Filtering Surgery with Ologen
+Ophthalmologist|Ahmed Glaucoma valve surgery
+Ophthalmologist|Glaucoma filtration device (Express) Implantation
+Ophthalmologist|Trabeculectomy with Trabeculotomy under GA
+Ophthalmologist|Phacotrabeculectomy with AcrySP IOL
+Ophthalmologist|Phacotrabeculectomy with AcrysofIQ IOL
+Ophthalmologist|Cyclocryotherapy
+Ophthalmologist|Examination under anaesthesia (EUA) (including GA Charges)
+Ophthalmologist|Pars Plana Vitrectomy with MIVS (23/25G)
+Ophthalmologist|Pars Plana Vitrectomy with MIVS (23/25G)+FGE
+Ophthalmologist|Pars Plana Vitrectomy with MIVS (23/25G)+FGE+ERM Peeling
+Ophthalmologist|Pars Plana Vitrectomy with MIVS (23/25G)+FGE+ERM Peeling+ILM peeling
+Ophthalmologist|Pars Plana Vitrectomy with MIVS (23/25G)+FGE+ERM Peeling+ILM peeling+Scleral Buckle+ Cryo
+Ophthalmologist|Pars Plana Vitrectomy with MIVS (23g or 25 gPPV)+FGE+ ERM peeling+ILM peeling+Choroidal Drainage
+Ophthalmologist|Silicon Oil Removal
+Ophthalmologist|Silicon Oil Removal+ERM PEELING
+Ophthalmologist|Silicon Oil Removal+ ERM Peeling +C3F8
+Ophthalmologist|Scleral Buckle Removal
+Ophthalmologist|Scleral Buckle placement
+Ophthalmologist|Pneumoretinopexy
+Ophthalmologist|Membrane Surgery
+Ophthalmologist|Removal of IOL
+Ophthalmologist|Phacofragmentation (Dropped Nucleus)
+Ophthalmologist|Endolaser
+Ophthalmologist|Cryoretinopexy
+Ophthalmologist|Inj.Intravitreal(excluding cost of Inj.)
+Ophthalmologist|Silicon Oil Injection
+Ophthalmologist|SubretinalInjection
+Ophthalmologist|IOFB Removal
+Ophthalmologist|Removal of sub-retinal gliosis band
+Ophthalmologist|Sub-retinal Hemorrhage Removal
+Ophthalmologist|Membranectomy
+Ophthalmologist|Fluid Gas Exchange(FGE)
+Ophthalmologist|Retinectomy
+Ophthalmologist|Supra Choroidal Drainage
+Ophthalmologist|Vitreous Biopsy
+Ophthalmologist|AC Wash
+Ophthalmologist|Belt Buckle
+Ophthalmologist|Gas Injection (Retina)
+Ophthalmologist|Squint (1 or 2 muscles) under LA
+Ophthalmologist|Squint (3 muscles) under LA
+Ophthalmologist|Squint (4 muscles) under LA
+Ophthalmologist|Squint (1 or 2 muscles) under GA (G.A included)
+Ophthalmologist|Squint (3 muscles) under GA (G.A included)
+Ophthalmologist|Squint (4 muscles) under GA (G.A included)
+Ophthalmologist|Single Chalazion I & C per eye
+Ophthalmologist|Multiple chalazia one lid/per eye I & C
+Ophthalmologist|Multiple Chalazia in both upper & lower lid/ per eye
+Ophthalmologist|Intralesional Steriod
+Ophthalmologist|Lazy-T Procedure under L.A
+Ophthalmologist|Ectropion
+Ophthalmologist|Ptosis surgery with Aurosling
+Ophthalmologist|Ptosis surgery with BD sling
+Ophthalmologist|Ptosis surgery with LPS resection
+Ophthalmologist|Ptosis surgery with FasanellaServat
+Ophthalmologist|Ptosis Surgery LPS Plication
+Ophthalmologist|Lid Retraction surgery (LPS Recession)
+Ophthalmologist|Mullerectomy
+Ophthalmologist|Syringing & probing under G. A
+Ophthalmologist|Enucleation
+Ophthalmologist|Enucleation with Implant
+Ophthalmologist|Enucleation Dermis Fat Graft+ FFS
+Ophthalmologist|Enucleation with Porous Implant
+Ophthalmologist|Enucleation with Silicone Implant
+Ophthalmologist|Secondary Post Enucleation Implant
+Ophthalmologist|Socket Reconstruction
+Ophthalmologist|Exenteration
+Ophthalmologist|Exenteration with skin graft
+Ophthalmologist|Evisceration
+Ophthalmologist|Evisceration under G.A
+Ophthalmologist|Evisceration with Implant
+Ophthalmologist|Dacryocystorhinostomy (DCR)
+Ophthalmologist|DCR with Intubation
+Ophthalmologist|Canalicular DCR
+Ophthalmologist|DCR with Jones Tube
+Ophthalmologist|Fistulectomy
+Ophthalmologist|DCR-Paediatric under G. A (including GA charges)
+Ophthalmologist|DCT (Dacryocystectomy)
+Ophthalmologist|Sebaceous Cyst excision biopsy
+Ophthalmologist|Dermoid Cyst (Orbital) excision biopsy
+Ophthalmologist|Conjunctival Cyst removal -Minor
+Ophthalmologist|Conjunctival Cyst removal -Major
+Ophthalmologist|Excision Biopsy (< 15 Min)
+Ophthalmologist|Excision Biopsy (> 15 Min)
+Ophthalmologist|FNAC-Fine Needle Aspiration Biopsy
+Ophthalmologist|Incisional Biopsy
+Ophthalmologist|Mass Excision
+Ophthalmologist|XanthelasmaExcision
+Ophthalmologist|Wart Excision
+Ophthalmologist|Wart Excision Multiple
+Ophthalmologist|Skin Mole Removal
+Ophthalmologist|Abscess Drainage(< 15Min Procedure)
+Ophthalmologist|Abscess Drainage(>15 Min Procedure)
+Ophthalmologist|Orbital Abscess I and D
+Ophthalmologist|Tarsorrhaphy - Permanent
+Ophthalmologist|Tarsorrhaphy - Temporary
+Ophthalmologist|Tarsorrhaphy Release
+Ophthalmologist|Lateral Tarsal Sling/ Strip
+Ophthalmologist|Medical Canthoplasty
+Ophthalmologist|Lateral Canthoplasty
+Ophthalmologist|Telecanthus Correction
+Ophthalmologist|Cantholysis And Canthotomy
+Ophthalmologist|Blepharoplasty Upper Eye Lid
+Ophthalmologist|Blepharoplasty Lower Eye Lid
+Ophthalmologist|Eyelid Reconstruction – 15 minutes
+Ophthalmologist|Eyelid Reconstruction- 30 minutes
+Ophthalmologist|Eye Lid Reconstruction & Scar Revision
+Ophthalmologist|Eye Lid Reconstruction with Z plasty
+Ophthalmologist|Bucket Handle Procedure/Cutler Beard Stage I &I1
+Ophthalmologist|Cheek Rotation Flap
+Ophthalmologist|Orbicularis Myectomy
+Ophthalmologist|Scleral Graft for Lid reconstruction
+Ophthalmologist|Cartilage Graft for Lid reconstruction
+Ophthalmologist|Lid Tumour surgery
+Ophthalmologist|Lid Tear Repair (anterior lamella only)
+Ophthalmologist|Lid Tear Repair (anterior + posterior lamella)
+Ophthalmologist|Fornix Formation
+Ophthalmologist|Lid Coloboma Repair
+Ophthalmologist|Gunderson Flap
+Ophthalmologist|Skin Grafting
+Ophthalmologist|Dermolipoma Excision
+Ophthalmologist|Prolapsed orbital fat removal
+Ophthalmologist|Conjunctival Tumour Excision + Cryo
+Ophthalmologist|Conjunctival Tumour Excision + Cryo + AMG
+Ophthalmologist|Tumour Debulking
+Ophthalmologist|Lateral Orbitotomy
+Ophthalmologist|Orbital Decompression Cyst Excision
+Ophthalmologist|Orbital Decompression (Medial + Lateral)
+Ophthalmologist|Orbital Decompression (medial+ Lateral + Floor)
+Ophthalmologist|Orbital Surgery- Fracture Repair + Implant
+Ophthalmologist|Orbital Surgery- Secondary Implant/ Exchange
+Ophthalmologist|Punctoplasty (Per Eye)
+Ophthalmologist|Epilation Manual
+Ophthalmologist|Electrolysis (Electroepilation/ Radioablation) Per Sitting
+Ophthalmologist|Electrolysis (Electroepilation/ Radioablation) both eye
+Ophthalmologist|Inj. Botox
+Ophthalmologist|Three Snip
+Ophthalmologist|Canalicular Repair
+Ophthalmologist|Canalicular Repair with Mini Monoka
+Ophthalmologist|Browpexy (Per Eye)
+Ophthalmologist|Brow Ptosis repair
+Ophthalmologist|Artifical eye/ Ocular Prosthesis
+Ophthalmologist|Suture removal(surgery done elsewhere)
+Ophthalmologist|AC wash (surgery done elsewhere)
+Ophthalmologist|Surgical peripheral Iridectomy
+Ophthalmologist|Pupilloplasty
+Ophthalmologist|Aniridia Ring Implant per eye
+Ophthalmologist|Yag Laser Capsulotomy per eye
+Ophthalmologist|Ultrasound A-Scan
+Ophthalmologist|Optical biometry (Lenstar)
+Ophthalmologist|Yag –Peripheral Iridotomy (Yag PI)per eye
+Ophthalmologist|Visual Field Analysis (Perimetry) (Both Eyes)
+Ophthalmologist|Diurnal Variation (Both Eyes)
+Ophthalmologist|Applanation Tonometry(Both Eyes)
+Ophthalmologist|Pachymetry (Both Eyes)
+Ophthalmologist|Gonioscopy (Both Eyes)
+Ophthalmologist|OCT (RNFL) (Both Eyes)
+Ophthalmologist|Inj. Mannitol 20%
+Ophthalmologist|Glaucoma Investigation Package (VFA+OCT+Gonio+Pachy+AT) (7350-1350)
+Ophthalmologist|Funds Photo
+Ophthalmologist|Optical Coherence Tomography (OCT) (Both eyes)
+Ophthalmologist|( Disc )
+Ophthalmologist|( Macula)
+Ophthalmologist|Combined Optical Coherence Tomography (OCT) (Both eyes)   (Macula & Disc)
+Ophthalmologist|Angiography & OCT
+Ophthalmologist|Fundus Fluorescein Angiography (FFA)(Both eyes)
+Ophthalmologist|Ultrasound (B-Scan) per eye
+Ophthalmologist|Scatter Laser
+Ophthalmologist|Retina Laser Photocoagulation 1 quadrant
+Ophthalmologist|Retina Laser Photocoagulation 2 quadrant
+Ophthalmologist|Retina Laser Photocoagulation 3 quadrant
+Ophthalmologist|Retina Laser Photocoagulation 4 quadrant
+Ophthalmologist|PRP LaserPhotocoagulation per sitting
+Ophthalmologist|PRP Laser (3-4 Sitting Package) Photocoagulation
+Ophthalmologist|Focal Laser Photocoagulation
+Ophthalmologist|Grid Laser Photocoagulation
+Ophthalmologist|Barrage Laser Photocoagulation/ Laser Prophylaxis 1 quadrant
+Ophthalmologist|Barrage Laser Photocoagulation/ Laser Prophylaxis 2 quadrant
+Ophthalmologist|Barrage Laser Photocoagulation/ Laser Prophylaxis 3 quadrant
+Ophthalmologist|Barrage Laser Photocoagulation/ Laser Prophylaxis 4 quadrant
+Ophthalmologist|Eye Exercise synaptophore
+Ophthalmologist|Pleoptics/Haidinger Brushes
+Ayurveda|Consultation Ayurveda
+Ayurveda|PIZHICHIL
+Ayurveda|NAVARAKIZHI
+Ayurveda|DHARA
+Ayurveda|DASHAMOOLA KSHEERA DHARA Treatment
+Ayurveda|SARVANGA KASHAYA DHARA
+Ayurveda|VASTHI
+Ayurveda|SIROVASTHI
+Ayurveda|UDVARTHANAM
+Ayurveda|ABHYANGAM
+Ayurveda|NASYAM
+Ayurveda|SNEHAPANAM
+Ayurveda|KIZHI
+Ayurveda|DHANYAMLA DHARA
+Ayurveda|YONI PRAKSHALANAM
+Ayurveda|KATIVASTHI
+Ayurveda|UROVASTHI
+Ayurveda|KSHEERADHOOMAM
+Ayurveda|THALAM
+Ayurveda|LEPANAM
+Ayurveda|MARMA Massage
+Ayurveda|LEKHANEEYAM
+Ayurveda|KARNAPOORNAM
+Ayurveda|THARPANAM
+Ayurveda|MUKHALEPAM
+Ayurveda|Medicated Steam Bath
+Ayurveda|Panchkarma
+ENT Specialist|ENT Consultation
+ENT Specialist|Nasal Endoscopy
+ENT Specialist|Ear Micro Surgery
+ENT Specialist|Tympanoplasty
+ENT Specialist|Mastoidectomy
+ENT Specialist|Stapedotomy for otosclerosis.
+ENT Specialist|Excision of osteoma ear canal
+ENT Specialist|Debridement for impacted wax and keratosis obturans.
+ENT Specialist|Canaloplasty
+ENT Specialist|Endoscopic Sinus Surgery
+ENT Specialist|Snoring Surgery
+ENT Specialist|Continuous positive airway pressure (CPAP)
+ENT Specialist|Somnoplasty
+ENT Specialist|Tonsillectomy and adenoidectomy
+ENT Specialist|Palate surgery
+ENT Specialist|Upper airway stimulator
+ENT Specialist|Voice Surgery
+ENT Specialist|Hemi thyroidectomy, or lobectomy.
+ENT Specialist|Isthmusectomy
+ENT Specialist|Total thyroidectomy
+ENT Specialist|Salivary Gland Surgery
+ENT Specialist|Parotidectomy
+ENT Specialist|Submandibular Gland Excision
+ENT Specialist|Sublingual Gland Excision
+ENT Specialist|Minor Salivary Gland Cancer Surgery
+ENT Specialist|Lymph Node Removal
+ENT Specialist|Recovery from Salivary Gland Surgery
+ENT Specialist|Neck Tumor
+ENT Specialist|Ear Drum Repair
+ENT Specialist|Myringoplasty
+ENT Specialist|Tympanoplasty
+ENT Specialist|Ossiculoplasty
+ENT Specialist|Vocal Cord Treatment
+ENT Specialist|Laryngoscopy
+ENT Specialist|Laryngeal electromyography
+ENT Specialist|Blood tests and scans
+ENT Specialist|Bulk injection
+ENT Specialist|Structural implants
+ENT Specialist|Vocal cord repositioning
+ENT Specialist|Replacing the damaged nerve (innervation)
+ENT Specialist|Tracheotomy
+ENT Specialist|Ear Reconstructive Treatment
+ENT Specialist|Ear Lobe Correction
+ENT Specialist|split earlobe repair
+ENT Specialist|stretched earlobe repair
+ENT Specialist|Reconstructive Middle Ear Surgery
+ENT Specialist|Congenital Ear Problem Treatment
+ENT Specialist|Eardrum Rupture Treatment
+ENT Specialist|Nosebleed Treatment
+ENT Specialist|Septoplasty
+ENT Specialist|Nasal Septum Surgery
+ENT Specialist|Orbital & Optic Nerve Decompression
+ENT Specialist|Surgery Of The Facial Nerve
+ENT Specialist|Sinusitis Treatment
+ENT Specialist|Frontal Sinus Surgery
+ENT Specialist|Sino nasal Malignancies
+ENT Specialist|Functional Endoscopic Sinus Surgery - FESS
+ENT Specialist|Tongue Tie Release Surgery
+ENT Specialist|Rehabilitation labyrinthine
+ENT Specialist|Fracture Nasal Bone Correction
+ENT Specialist|Vertigo Treatment
+ENT Specialist|Cochlear Implants
+ENT Specialist|Immunotherapy
+ENT Specialist|Foreign Body Removal Ear
+ENT Specialist|Foreign Body Removal Nose
+Gastroenterologist|Barium Swallow
+Gastroenterologist|barium enema
+Gastroenterologist|upper gastrointestinal series
+Gastroenterologist|upper GI endoscopy
+Gastroenterologist|Endoscopic retrograde cholangiopancreatography (ERCP)
+Gastroenterologist|pancreas scan
+Gastroenterologist|liver scan
+Gastroenterologist|liver biopsy
+Gastroenterologist|Colonoscopy
+Gastroenterologist|percutaneous endoscopic gastrostomy (PEG)
+Gastroenterologist|sigmoidoscopy
+Gastroenterologist|abdominal X-ray
+Gastroenterologist|computed tomography (CT)
+Gastroenterologist|CT SCAN
+Gastroenterologist|liver and biliary tract
+Gastroenterologist|abdomen
+Gastroenterologist|Pancreas
+Gastroenterologist|Laparoscopy
+Gastroenterologist|colonoscopy
+Gastroenterologist|colectomy
+Gastroenterologist|Proctectomy
+Gastroenterologist|Bileduct Stone Removal
+Gastroenterologist|Stenting
+Gastroenterologist|Oseudocyst Drainage
+Gastroenterologist|Oesophageal Dilatations
+Gastroenterologist|Acalasia Dilatation
+Gastroenterologist|Colonic Polypectomies
+Gastroenterologist|Variceal Sclerotherapy
+Orthopedist|Consultation Orthopedic
+Orthopedist|Laminectomy
+Orthopedist|Spinal Fusion
+Orthopedist|Anterior cruciate ligament reconstruction
+Orthopedist|Arthroplasty
+Orthopedist|Internal fixation
+Orthopedist|Bone grafting
+Orthopedist|Allograft
+Orthopedist|Tendon Transfer
+Orthopedist|Tendon repair surgery
+Orthopedist|Arthrodesis(Joint Fusion Surgery)
+Orthopedist|Shoulder Replacement
+Orthopedist|Reduction
+Orthopedist|Synovectomy
+Orthopedist|Vertebral augmentation
+Orthopedist|Ankle Replacement / Ankle arthoplasty
+Orthopedist|Foraminotomy
+Orthopedist|Unicompartmental knee arthroplasty
+Orthopedist|Triple arthrodesis
+Orthopedist|External fixation
+Orthopedist|Corpectomy /   Vertebrectomy
+Orthopedist|Autotransplantation
+Orthopedist|Ostectomy
+Orthopedist|Distraction osteogenesis
+Orthopedist|Laminotomy
+Orthopedist|Brunelli procedure
+Orthopedist|Epiphysiodesis
+Orthopedist|Brostrom procedure
+Orthopedist|Bursectomy
+Orthopedist|Ponseti method
+Orthopedist|Autograft
+Orthopedist|Achilles tendon lengthening (ATL)
+Orthopedist|Tenotomy
+Orthopedist|Osteotomy
+Orthopedist|Fracture Fixation Hand
+Orthopedist|Fracture Fixation Legs
+Orthopedist|Fracture Fixations shoulders
+Orthopedist|Epidural & caudal spinal injections
+Orthopedist|Intra articular injections
+Orthopedist|Nerve Graft
+Orthopedist|Plaster cast
+Orthopedist|Synthetic cast
+Orthopedist|Cast brace
+Orthopedist|Splint (also called a half cast)
+Orthopedist|Acute osteomyelitis treatment
+Orthopedist|Surgery for an infected bursa
+Orthopedist|Surgery for the noninfected bursa
+Orthopedist|Fasciotomy
+Orthopedist|Limb salvage surgery
+Orthopedist|Hip Arthroscopy
+Orthopedist|Hip resurfacing procedure
+Orthopedist|Knee Arthroscopy
+Orthopedist|Hip Arthroscopy
+Orthopedist|Shoulder Arthroscopy
+Orthopedist|Wrist Arthroscopy
+Orthopedist|Spine Arthroscopy
+Orthopedist|knee replacement surgery
+Aesthetics|Aesthetics consultation
+Aesthetics|Hair Transplant
+Aesthetics|FUT (Follicular Unit Transplant)
+Aesthetics|DHI(Direct Hair Implantation)
+Aesthetics|Follicular unit extraction (FUE).
+Aesthetics|Body Contouring
+Aesthetics|Arm Lift
+Aesthetics|Breast Lift
+Aesthetics|Body Lifts
+Aesthetics|Thigh Lift
+Aesthetics|Tummy tuck
+Aesthetics|Breast Implants
+Aesthetics|Saline breast implants
+Aesthetics|Structured saline breast implants
+Aesthetics|Silicone breast implants
+Aesthetics|Gummy bear breast implants
+Aesthetics|Round breast implants
+Aesthetics|Smooth breast implants
+Aesthetics|Textured breast implants
+Aesthetics|Female Genital Rejuvenation
+Aesthetics|Labiaplasty
+Aesthetics|Clitoral hood reduction
+Aesthetics|Labia majoraplasty
+Aesthetics|Monsplasty
+Aesthetics|Vaginoplasty
+Aesthetics|Face Rejuvenation
+Aesthetics|Botox
+Aesthetics|Fillers
+Aesthetics|Nose Reshaping
+Aesthetics|Chin, cheek, or jaw reshaping
+Aesthetics|Forehead Lift
+Aesthetics|Facelift
+Aesthetics|Blepharoplasty
+Aesthetics|Liposuction
+Aesthetics|Buttock Lift
+Aesthetics|Dermabrasion/Dermaplaning
+Aesthetics|Skin Chemical Peel
+Aesthetics|Glycolic Peel
+Aesthetics|Lactic Peel
+Aesthetics|TCA Peel
+Aesthetics|Salicylic Peel
+Aesthetics|Jessner’s Peel
+Radiologists|X RAY ABDOMEN ERECT
+Radiologists|X RAY ABDOMEN SUPINE
+Radiologists|X RAY ABDOMEN SUPINE & ERECT
+Radiologists|X RAY ANKLE AP (ANTEROPOSTERIOR)
+Radiologists|X RAY ANKLE AP (ANTEROPOSTERIOR) & LATERAL
+Radiologists|X RAY ANKLE LATERAL
+Radiologists|X RAY ANKLE MORTISE
+Radiologists|X RAY BASE OF SKULL
+Radiologists|X RAY BOTH ANKLE AP & LATERAL VIEWS
+Radiologists|X RAY BOTH ANKLE AP VIEW
+Radiologists|X RAY BOTH ANKLE LATERAL VIEW
+Radiologists|X RAY BOTH ANKLE MORTISE
+Radiologists|X RAY BOTH FOOT AP & LATERAL
+Radiologists|X RAY BOTH FOREARM AP
+Radiologists|X RAY BOTH FOREARM AP & LATERAL
+Radiologists|X RAY BOTH HAND AP
+Radiologists|X RAY BOTH HEEL AXIAL & LATERAL
+Radiologists|X RAY BOTH HEEL-LAT VIEW
+Radiologists|X RAY BOTH HIP AP
+Radiologists|X RAY BOTH HIP FROG LEG POSITION
+Radiologists|X RAY BOTH KNEE A.P. STANDING VIEW
+Radiologists|X RAY BOTH KNEE JOINT A.P. / LATERAL VIEWS
+Radiologists|X RAY BOTH LEGS AP
+Radiologists|X RAY BOTH LEG AP & LATERAL
+Radiologists|X RAY BOTH LEG AP & LATERAL (ONLY FOR CHILD)
+Radiologists|X RAY BOTH MASTOID LATERAL OBLIQUE
+Radiologists|X RAY BOTH NASAL BONE LATERAL
+Radiologists|X RAY BOTH S.I. JOINT AP
+Radiologists|X RAY BOTH S.I. JOINT OBLIQUE
+Radiologists|X RAY BOTH S.I. JOINT PA VIEW
+Radiologists|X RAY BOTH SHOULDER AP & AXIAL
+Radiologists|X RAY BOTH TM JOINTS CLOSE MOUTH
+Radiologists|X RAY BOTH TM JOINTS OPEN MOUTH
+Radiologists|X RAY BOTH WRIST AP VIEW
+Radiologists|X RAY CERVICAL SPINE  LATERAL
+Radiologists|X RAY CERVICAL SPINE  OBLIQUE
+Radiologists|X RAY CERVICAL SPINE AP
+Radiologists|X RAY CERVICAL SPINE AP & LATERAL
+Radiologists|X RAY CERVICAL SPINE AP LATERAL FLEXION & EXTENSION
+Radiologists|X RAY CERVICAL SPINE OPEN MOUTH
+Radiologists|X RAY CERVICO - DORSAL SPINE AP
+Radiologists|X RAY CERVICO - DORSAL SPINE AP & LATERAL
+Radiologists|X RAY CERVICO - DORSAL SPINE LATERAL
+Radiologists|X RAY CHEST  DECUBITUS
+Radiologists|X RAY CHEST  LATERAL
+Radiologists|X RAY CHEST  OBLIQUE
+Radiologists|X RAY CHEST AP
+Radiologists|X RAY CHEST AP & OBLIQUE
+Radiologists|X RAY CHEST APICOGRAM
+Radiologists|X RAY CHEST PA & LATERAL
+Radiologists|X RAY CHEST PA VIEW
+Radiologists|X RAY COCCYX AP
+Radiologists|X RAY COCCYX AP & LATERAL
+Radiologists|X RAY COCCYX LATERAL
+Radiologists|X RAY DORSAL SPINE  LATERAL
+Radiologists|X RAY DORSAL SPINE AP
+Radiologists|X RAY DORSAL SPINE AP & LATERAL
+Radiologists|X RAY DORSAL SPINE FLEXION & EXTENSION
+Radiologists|X RAY DORSAL SPINE NEUTRAL FLEXION AND EXTENSION
+Radiologists|X RAY DORSO - LUMBAR SPINE  LATERAL
+Radiologists|X RAY DORSO - LUMBAR SPINE  OBLIQUE
+Radiologists|X RAY DORSO - LUMBAR SPINE AP
+Radiologists|X RAY DORSO - LUMBAR SPINE AP & LATERAL
+Radiologists|X RAY DORSO - LUMBAR SPINE FLEXION & EXTENSION
+Radiologists|X RAY HEEL AXIAL / LATERAL
+Radiologists|X RAY IVP
+Radiologists|X RAY KUB
+Radiologists|X RAY LEFT  FOOT LATERAL
+Radiologists|X RAY LEFT ARM AP
+Radiologists|X RAY LEFT ARM LATERAL
+Radiologists|X RAY LEFT ELBOW AP
+Radiologists|X RAY LEFT ELBOW AP & LATERAL
+Radiologists|X RAY LEFT ELBOW LATERAL
+Radiologists|X RAY MCU
+Radiologists|X RAY NON-MAGNIFICATION AP & LATERAL VIEW
+Radiologists|X RAY ORBIT PA VIEW
+Radiologists|X RAY PELVIS WITH BOTH HIP A.P
+Radiologists|X RAY PNS WATERS VIEW
+Radiologists|X RAY RGU
+Radiologists|X RAY RGU + MCU
+Radiologists|X RAY RIGHT  ZANCA VIEW
+Radiologists|X RAY RIGHT TM JOINT OPEN & CLOSE MOUTH
+Radiologists|X RAY RIGHT WRIST  OBLIQUE
+Radiologists|X RAY RIGHT WRIST AP
+Radiologists|X RAY RIGHT WRIST AP & LATERAL
+Radiologists|X RAY RIGHT WRIST AP LATERAL & OBLIQUE
+Radiologists|X RAY RIGHT WRIST LATERAL
+Radiologists|X RAY SCANOGRAM BOTH LIMBS
+Radiologists|X RAY SELLA TURCICA LATERAL
+Radiologists|X RAY SKULL  LATERAL
+Radiologists|X RAY SKULL AP
+Radiologists|X RAY SKULL AP & LAT
+Radiologists|X RAY SOFT TISSUE NECK AP
+Radiologists|X RAY SOFT TISSUE NECK AP &LATERAL
+Radiologists|X RAY SOFT TISSUE NECK LATERAL
+Radiologists|X RAY STERNUM  LATERAL
+Radiologists|X RAY STERNUM AP
+Radiologists|X RAY STERNUM LATERAL & OBLIQUE
+Radiologists|X RAY STERNUM OBLIQUE
+Radiologists|X RAY T-TUBE CHOLANGIOGRAM
+Radiologists|X RAY THIGH AP & LATERAL
+Radiologists|X RAY TOWNES VIEW
+Radiologists|X RAY WHOLE SPINE  LATERAL
+Radiologists|X RAY WHOLE SPINE AP
+Radiologists|X RAY WHOLE SPINE AP AND LATERAL
+Radiologists|X RAY WHOLE SPINE LATERAL EXTENSION
+Radiologists|X RAY WHOLE SPINE LATERAL FLEXION
+Radiologists|X RAY WHOLE SPINE LATERAL FLEXION & EXTENSION
+Radiologists|X RAY WHOLE SPINE RIGHT & LEFT BENDING
+Radiologists|X-RAY LEFT ACROMIOCLAVICULAR JOINT
+Radiologists|X-RAY LONG BONE
+Radiologists|DOPPLER ABDOMINAL
+Radiologists|DOPPLER ARTERIAL - ONE LIMB
+Radiologists|DOPPLER ARTERIAL / VENOUS - ONE LIMB
+Radiologists|DOPPLER BOTH LIMBS ARTERIAL
+Radiologists|DOPPLER BOTH LIMBS VENOUS
+Radiologists|DOPPLER BOTH LIMS ARTERIAL/VENOUS (ONE STUDY)
+Radiologists|DOPPLER BOTH LOWER LIMBS ARTERIAL & VENOUS
+Radiologists|DOPPLER BOTH UPPER LIMBS ARTERIAL & VENOUS
+Radiologists|DOPPLER CAROTID
+Radiologists|DOPPLER OBSTETRIC
+Radiologists|DOPPLER OBSTETRIC WITH BPP
+Radiologists|DOPPLER PELVIC
+Radiologists|DOPPLER PENILE
+Radiologists|DOPPLER PERIPHERAL ARTERIAL
+Radiologists|DOPPLER PERIPHERAL VENOUS
+Radiologists|DOPPLER RENAL
+Radiologists|DOPPLER SCROTAL
+Radiologists|DOPPLER SINGLE LIMB ARTERIAL & VENOUS
+Radiologists|DOPPLER SMALL PARTS
+Radiologists|Doppler TVS (Trans Vaginal SonogrAPhy)
+Radiologists|MRI ABDOMEN - CONTRAST
+Radiologists|MRI ABDOMEN - W/O CONTRAST
+Radiologists|MRI Acromioclavicular joint
+Radiologists|MRI ANGIOGRAPHY BOTH LOWER LIMB
+Radiologists|MRI ANGIOGRAPHY BOTH LOWER LIMB WITH CONTRAST
+Radiologists|MRI ANGIOGRAPHY - CONTRAST
+Radiologists|MRI ANGIOGRAPHY - W/O CONTRAST
+Radiologists|MRI ANGIOGRAPHY BOTH LIMBS
+Radiologists|MRI ANGIOGRAPHY BRAIN
+Radiologists|MRI ANGIOGRAPHY BRAIN + NECK
+Radiologists|MRI ANGIOGRAPHY BRAIN WITH CONTRAST
+Radiologists|MRI ANGIOGRAPHY FOR THORAX WITH CONTRAST
+Radiologists|MRI ANGIOGRAPHY NECK VESSELS
+Radiologists|MRI ANGIOGRAPHY NECK VESSELS WITH CONTRAST
+Radiologists|MRI ANKEL BOTH JOINTS - CONTRAST
+Radiologists|MRI ANKEL BOTH JOINTS - W/O CONTRAST
+Radiologists|MRI ANKLE JOINT
+Radiologists|MRI ANKLE SINGLE JOINT - CONTRAST
+Radiologists|MRI ANKLE SINGLE JOINT - W/O CONTRAST
+Radiologists|MRI ARTHROGRAM
+Radiologists|MRI BILATERAL T. M. JOINT
+Radiologists|MRI BOTH HIP
+Radiologists|MRI BOTH KNEE CARTIGRAM
+Radiologists|MRI BOTH S. I. JOINTS
+Radiologists|MRI BRACHIAL PLEXUS
+Radiologists|MRI BRAIN / HEAD
+Radiologists|MRI BRAIN AND FACE
+Radiologists|MRI BRAIN WITH CISS SEQUENCE
+Radiologists|MRI BRAIN WITH CISTERNOGRAPHY
+Radiologists|MRI BRAIN WITH CP ANGLE
+Radiologists|MRI BRAIN WITH CSF FLOW STUDY
+Radiologists|MRI BRAIN WITH DIFFUSION
+Radiologists|MRI BRAIN WITH EPILEPSY PROTOCOL
+Radiologists|MRI BRAIN WITH INNER EAR (3D COCHLEA)
+Radiologists|MRI BRAIN WITH ORBIT
+Radiologists|MRI BRAIN WITH PERFUSION WITH CONTRAST
+Radiologists|MRI BRAIN WITH PITUTARY WITH CONTRAST
+Radiologists|MRI BRAIN WITH SPECTROSCOPY
+Radiologists|MRI BRAIN WITH VENOGRAPHY
+Radiologists|MRI BREAST - CONTRAST
+Radiologists|MRI BREAST - W/O CONTRAST
+Radiologists|MRI CERVICAL SPINE
+Radiologists|MRI CERVICAL SPINE - CONTRAST
+Radiologists|MRI CERVICO & DORSAL SPINE
+Radiologists|MRI CHEST
+Radiologists|MRI CISTERNOGRPAHY
+Radiologists|MRI CV JUNCTION
+Radiologists|MRI DORSAL SPINE
+Radiologists|MRI DORSAL SPINE - CONTRAST
+Radiologists|MRI DORSAL SPINE - W/O CONTRAST
+Radiologists|MRI DORSO LUMBER SPINE W/O CONTRAST
+Radiologists|MRI DORSO-LUMBER SPINE
+Radiologists|MRI DYNAMIC CONTRAST STUDY LIVER / PANCREAS WITH CONTRAST
+Radiologists|MRI DYNAMIC CONTRAST STUDY PITUTARY WITH CONTRAST
+Radiologists|MRI ELBOW JOINT
+Radiologists|MRI ENTEROCLYSIS
+Radiologists|MRI ENTEROCLYSIS (TUBE LESS) WITH CONTRAST
+Radiologists|MRI FACE WITH NECK
+Radiologists|MRI FETAL
+Radiologists|MRI FINGER
+Radiologists|MRI FISTULOGRAM / SINOGRAM
+Radiologists|MRI FOOT JOINT
+Radiologists|MRI FOR FACE
+Radiologists|MRI FOR LOWER ABDOMEN
+Radiologists|MRI FOREARM LEFT
+Radiologists|MRI FOREARM RIGHT
+Radiologists|MRI HAND
+Radiologists|MRI HEAD - CONTRAST
+Radiologists|MRI HEAD - W/O CONTRAST
+Radiologists|MRI HIP - CONTRAST
+Radiologists|MRI HIP - W/O CONTRAST
+Radiologists|MRI HIP JOINT
+Radiologists|MRI INNER EAR 3D
+Radiologists|MRI JOINT WITH ARTHOGRAM
+Radiologists|MRI KNEE BOTH JOINTS - CONTRAST
+Radiologists|MRI KNEE BOTH JOINTS - W/O CONTRAST
+Radiologists|MRI KNEE CARTIGRAM
+Radiologists|MRI KNEE JOINT
+Radiologists|MRI KNEE SINGLE - CONTRAST
+Radiologists|MRI KNEE SINGLE - W/O CONTRAST
+Radiologists|MRI LEFT  ACROMIOCLAVICULER JOINT
+Radiologists|MRI LEFT ANKLE JOINT
+Radiologists|MRI LEFT ARM
+Radiologists|MRI LEFT ELBOW JOINT
+Radiologists|MRI LEFT FINGER
+Radiologists|MRI LEFT KNEE JOINT
+Radiologists|MRI LEFT SHOULDER JOINT
+Radiologists|MRI LEFT STERNOCLAVICULAR JOINT
+Radiologists|MRI LEFT THIGH
+Radiologists|MRI LEFT THUMB
+Radiologists|MRI LEFT WRIST JOINT
+Radiologists|MRI LONG BONE
+Radiologists|MRI MAMMO PLAIN
+Radiologists|MRI MAMMOGRAPHY WITH CONTRAST
+Radiologists|MRI NECK
+Radiologists|MRI NECK - CONTRAST
+Radiologists|MRI NECK - W/O CONTRAST
+Radiologists|MRI NEUROGRAM
+Radiologists|MRI PELVIS
+Radiologists|MRI PELVIS - CONTRAST
+Radiologists|MRI PEVIC FLOOR DYNAMIC STUDY
+Radiologists|MRI PROSTATE PLAIN
+Radiologists|MRI PROSTATE SPECTROSCOPY
+Radiologists|MRI PROSTATE WITH DIFFUSION
+Radiologists|MRI UROGRAPHY
+Radiologists|MRI UROGRAPHY WITH CONTRAST
+Radiologists|USG WHOLE ABDOMEN
+Radiologists|USG UPPER ABDOMEN
+Radiologists|USG LOWER ABDOMEN
+Radiologists|USG FOLLICULLAR STUDY
+Radiologists|USG PELVIS -TRANSVAGINAL
+Radiologists|USG KUB (Kidney,Ureter,and Bladder)
+Radiologists|USG LEVEL-1 (NT/NB) ULTRASOUND
+Radiologists|USG LEVEL-2 ULTRASOUND
+Radiologists|USG OBS DOPPLER
+Radiologists|USG BIOPHYSICAL PROFILE
+Radiologists|OBS DOPPLER WITH BIPHYSICAL PROFILE
+Radiologists|USG NECK
+Radiologists|USG BREAST
+Radiologists|USG SCROTUM
+Radiologists|USG CHEST
+Radiologists|USG ANKLE JOINT
+Radiologists|USG CRANIAM
+Radiologists|USG KNEE JOINT
+Radiologists|USG LEFT WRIST
+Radiologists|USG MUSCULOSKELETAL
+Radiologists|USG RIGHT WRIST
+Radiologists|USG SHOULDER
+Radiologists|USG THYROID
+Radiologists|USG TOMOGRAPHIC IMAGING
+Radiologists|USG TWINS DOPPLER OBSTETRIC
+Radiologists|USG TWINS LEVEL I
+Radiologists|USG TWINS LEVEL II
+Radiologists|USG TWINS OBSTETRIC
+Radiologists|USG TWINS TVS OBSTETRIC
+Radiologists|USG TWINS UPPER ABDOMEN
+Radiologists|USG TWINS WHOLE ABDOMEN
+Radiologists|Fetal Echocardiography
+Radiologists|2D Echocardiography
+Radiologists|Stress Echocardiography
+Radiologists|Treadmill test (TMT) / Cardiac stress test
+Radiologists|Pulmonary function test Single (PFT)
+Radiologists|Pulmonary function test double (PFT)
+Radiologists|Holter test
+Radiologists|CT SCAN HEAD
+Radiologists|CT SCAN NECK
+Radiologists|CT SCAN CHEST
+Radiologists|HRCT CHEST (high-resolution computerized tomography)
+Radiologists|HRCT TEMPORAL BONE (high-resolution computerized tomography)
+Radiologists|CT UPPER ABDOMEN
+Radiologists|CT LOWER ABDOMEN
+Radiologists|CT ABDOMEN
+Radiologists|CT EXTRIMITIES WITH 3D
+Radiologists|CT JOINTS WITH 3D
+Radiologists|CT Para Nasal Sinuses
+Radiologists|CT Para Nasal Sinuses  SINGLE
+Radiologists|Whole Body PET CT Scan
+Radiologists|Prostate Specific Membrane Antigen (PSMA) Prostate PET CT Scan
+Radiologists|DOTA PET CT Scan
+Radiologists|Cardiac PET CT Scan
+Radiologists|F-DOPA PET CT Scan
+Neurosurgeon|Neurosurgeon Consultation
+Neurosurgeon|Suboccipital surgery for acoustic neuroma
+Neurosurgeon|Surgical Clipping
+Neurosurgeon|Endovascular coiling
+Neurosurgeon|Arteriovenous malformation surgery
+Neurosurgeon|Auditory brainstem implant
+Neurosurgeon|Gamma Knife radiosurgery
+Neurosurgeon|External Beam Radiation
+Neurosurgeon|Chemotherapy
+Neurosurgeon|Brain tumor Surgery
+Neurosurgeon|Carotid angioplast and stenting
+Neurosurgeon|Carotid endarterectomy
+Neurosurgeon|Chiari decompression surgery
+Neurosurgeon|Diaphragm pacing for spinal cord injury
+Neurosurgeon|Epilepsy surgery
+Neurosurgeon|Resective surgery
+Neurosurgeon|Laser interstitial thermal therapy (LITT)
+Neurosurgeon|Deep brain Stimulation
+Neurosurgeon|Corpus callosotomy
+Neurosurgeon|Hemispherectomy
+Neurosurgeon|Functional hemispherectomy
+Neurosurgeon|Functional electrical stimulation for spinal cord injury
+Neurosurgeon|Surgery for Hemifacial Spasm
+Neurosurgeon|Endoscopic thoracic sympathectomy (ETS)
+Neurosurgeon|Minimally invasive endovascular treatment
+Neurosurgeon|Stereotactic radiosurgery (SRS)
+Neurosurgeon|Encephaloduroarteriosynangiosis
+Neurosurgeon|Encephalomyosynangiosis (EMS)
+Neurosurgeon|Multiple burr holes procedure
+Neurosurgeon|STA-MCA procedure
+Pulmonologist|Argon plasma coagulation
+Pulmonologist|Balloon dilation
+Pulmonologist|Bronchoalveolar lavage
+Pulmonologist|Electromagnetic navigational bronchoscopy
+Pulmonologist|Endobronchial cryotherapy and biopsy
+Pulmonologist|Endobronchial laser treatment
+Pulmonologist|Endobronchial ultrasound biopsy
+Pulmonologist|Placement of stents in the airways
+Pulmonologist|Pleuroscopy
+Pulmonologist|Radial Endobronchial ultrasound biopsy
+Pulmonologist|Rigid bronchoscopy
+Pulmonologist|Thoracentesis
+Pulmonologist|Transbronchial cryobiopsy
+Pulmonologist|Bronchoscopy

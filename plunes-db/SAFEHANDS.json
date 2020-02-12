@@ -1,0 +1,18 @@
+[
+  {
+    "Procedure": "Syringing Of Lacrimal Sac",
+    "Price": 1000
+  },
+  {
+    "Procedure": "Foreign Body Removal from Eye",
+    "Price": 1500
+  },
+  {
+    "Procedure": "Chalazion Operation",
+    "Price": 3000
+  },
+  {
+    "Procedure": "Terizium Excision",
+    "Price": 3000
+  }
+]

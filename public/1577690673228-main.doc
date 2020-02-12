@@ -1,0 +1,154 @@
+package main
+
+import (
+	"bytes"
+	"encoding/json"
+	"flag"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"mime/multipart"
+	"net/http"
+	"os"
+	"os/signal"
+	"time"
+
+	"github.com/radovskyb/watcher"
+)
+
+func main() {
+	flag.Parse()
+	files := flag.Args()
+	if len(files) == 0 {
+		curDir, err := os.Getwd()
+		if err != nil {
+			log.Fatalln(err)
+		}
+		files = append(files, curDir)
+	}
+	w := watcher.New()
+	done := make(chan struct{})
+	go func() {
+		defer close(done)
+
+		for {
+			select {
+			case event := <-w.Event:
+				fmt.Println(event)
+				if !event.IsDir() && event.Op.String() == "CREATE" {
+					plunesUpload(event.Path)
+				}
+			case err := <-w.Error:
+				if err == watcher.ErrWatchedFileDeleted {
+					fmt.Println(err)
+					continue
+				}
+				log.Fatalln(err)
+			case <-w.Closed:
+				return
+			}
+		}
+	}()
+
+	for _, file := range files {
+		if err := w.Add(file); err != nil {
+			log.Fatalln(err)
+		}
+	}
+	fmt.Printf("Watching %d files\n", len(w.WatchedFiles()))
+
+	parsedInterval, err := time.ParseDuration("100ms")
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	closed := make(chan struct{})
+
+	c := make(chan os.Signal)
+	signal.Notify(c, os.Kill, os.Interrupt)
+	go func() {
+		<-c
+		w.Close()
+		<-done
+		fmt.Println("watcher closed")
+		close(closed)
+	}()
+
+	if err := w.Start(parsedInterval); err != nil {
+		log.Fatalln(err)
+	}
+
+	<-closed
+}
+
+func plunesUpload(file string) {
+	fmt.Printf("PlunesUpload: %s\n", file)
+	request, err := newFileUploadRequest("https://plunes.co/v4/upload", "file", file)
+	if err != nil {
+		log.Fatal(err)
+	}
+	client := &http.Client{}
+	resp, err := client.Do(request)
+	if err != nil {
+		log.Fatal(err)
+	} else {
+		var bodyContent []byte
+		var result map[string]interface{}
+		fmt.Println(resp.StatusCode)
+		fmt.Println(resp.Header)
+		resp.Body.Read(bodyContent)
+		resp.Body.Close()
+		fmt.Println(string(bodyContent))
+		json.Unmarshal(bodyContent, &result)
+		fmt.Println(result)
+		postReportUploadRequest("https://plunes.co/v4/report/upload", "000000000000000000", "testing")
+	}
+}
+
+func newFileUploadRequest(uri, paramName, path string) (*http.Request, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	fileContents, err := ioutil.ReadAll(file)
+	if err != nil {
+		return nil, err
+	}
+	fi, err := file.Stat()
+	if err != nil {
+		return nil, err
+	}
+	file.Close()
+
+	body := new(bytes.Buffer)
+	writer := multipart.NewWriter(body)
+	part, err := writer.CreateFormFile(paramName, fi.Name())
+	if err != nil {
+		return nil, err
+	}
+	part.Write(fileContents)
+
+	err = writer.Close()
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest("POST", uri, body)
+	req.Header.Set("Content-Type", writer.FormDataContentType())
+	return req, err
+}
+
+func postReportUploadRequest(uri, userID, reportURL string) {
+	values := map[string]interface{}{
+		"userId":    userID,
+		"self":      false,
+		"reportUrl": reportURL,
+	}
+	body, _ := json.Marshal(values)
+	resp, err := http.Post(uri, "application/json", bytes.NewBuffer(body))
+	if err != nil {
+		log.Println(err)
+	} else {
+		log.Println(resp)
+	}
+}

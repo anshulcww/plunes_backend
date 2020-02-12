@@ -1,0 +1,252 @@
+[
+		{
+			"name": "dental exanination",
+			"procedure_price": 500,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "dental filling",
+			"procedure_price": 1500,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "bridges/ crown",
+			"procedure_price": 15000,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "orthodontics treatment",
+			"procedure_price": 50000,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "gum treatment",
+			"procedure_price": 2000,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "cosmetic fillings",
+			"procedure_price": 3500,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "rct",
+			"procedure_price": 5000,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "surgeries of wisdom molar",
+			"procedure_price": 10000,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "Dentist Consultation + Xray (Single Film)",
+			"procedure_price": 500,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Dentist Consultation + Xray (Full Mouth)",
+			"procedure_price": 1000,
+			"procedure_variance": 45.0
+		},
+		{
+			"name": "Amalgam Fillings",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Composite Fillings",
+			"procedure_price": 1500,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Procelian / Ceramic Fillings",
+			"procedure_price": 1500,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Gold Fillings",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Glass Ionomer",
+			"procedure_price": 1200,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "ROOT CANAL TREATMENT",
+			"procedure_price": 4000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "WISDOM TEETH REMOVAL / IMPACTION",
+			"procedure_price": 5000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Metal Conventional Braces",
+			"procedure_price": 40000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Metal Self Ligating Braces",
+			"procedure_price": 50000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Ceramic Conventional Braces",
+			"procedure_price": 60000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Lingual Braces",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Aligners",
+			"procedure_price": 100000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Endosteal Implants",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Subperiosteal Implant",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Porcelain dentures",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Acrylic resin dentures",
+			"procedure_price": 30000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Metal Crown",
+			"procedure_price": 3500,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Zirconia Crown",
+			"procedure_price": 10000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Porcelain fused to metal (PFM)",
+			"procedure_price": 5000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Porcelain fused to zirconia",
+			"procedure_price": 10000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Ceramic Crown",
+			"procedure_price": 15000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Traditional bridges",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Cantilever bridges",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Maryland bonded bridges",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "TEETH WHITENING",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "SMILE MAKEOVER",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Veneers",
+			"procedure_price": 4000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Teeth Whitening",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Composite Bonding",
+			"procedure_price": 1500,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Dental Implants",
+			"procedure_price": 30000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Flap Surgery",
+			"procedure_price": 3000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Bone Graft",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Soft Tissue Graft",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Guided Tissue Regeneration",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Pit and fissure sealants",
+			"procedure_price": 1500,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Fluoride application",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "Enameloplasty",
+			"procedure_price": 5000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "Oral prophylaxis",
+			"procedure_price": 0,
+			"procedure_variance": 0
+		},
+		{
+			"name": "SCALING & POLISHING",
+			"procedure_price": 2000,
+			"procedure_variance": 35.0
+		},
+		{
+			"name": "TOOTH EXTRACTION",
+			"procedure_price": 1200,
+			"procedure_variance": 35.0
+		}
+	]

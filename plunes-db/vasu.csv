@@ -1,0 +1,309 @@
+"PROCEDURES/ TESTS","PRICE"
+"Absolute Eosinophil Count (AEC) Test","100"
+"Absolute Lymphocyte Count (ALC) Test",
+"Absolute Neutrophil Count (ANC) Test",
+"Albumin Test",
+"Albumin - Cerebrospinal Fluid Test",
+"Alkaline Phosphate (ALP) Test","150"
+"Ammonia Blood Test",
+"Amoebic Serology Test",
+"Anti-cyclic citrullinated peptide (Anti CCP) Test",
+"Anti Double Stranded DNA Antibody (anti-dsDNA) Test",
+"Acquired Immunodefiency Virus (HIV) Test","500"
+"Acid-Fast Bacilli (AFB) Stain Test",
+"Adenosine Deaminase (ADA) Test",
+"All Body Fluid Rapid Test",
+"Amylase Test","500"
+"Anti Thyroglobulin Anti Body Test","1800"
+"Antistreptolysin O (A.S.O.) Titer Test",
+"Bilirubin Direct Test",
+"Blood Group  (A, B, C) & Rhesus (RH) Test",
+"Blood Pherpherial Smear (PIS) Test",
+"PBF for Microfilaria",
+"PBF for MP",
+"Malaria Parasite (MP) ANTIGEN","500"
+"Blood Sugar (Fasting) Test","50"
+"Blood Urea Test","100"
+"Blood Culture Test",
+"Beta Human Chorionic Gonadotropin (HCG) Test","700"
+"Bleeding Time (BT) Test ","100"
+"Clotting Time (CT) Test","100"
+"C-Peptide Test",
+"Malaria Serology Test",
+"Mantaux Test",
+"Occult Blood (Stool ) Examination","200"
+"Parathyroid Hormone (PTH) Test",
+"Platelet Count (PLT) Test","100"
+"Potassium (K+) Test",
+"Progesterone (P4) Test","800"
+"Prolactin (PRL) Test","600"
+"Pregnancy Test","100"
+"Protein Test",
+"Protein Electrophoresis Test",
+"Prostate Specific Antigen (PSA) Test","800"
+"Partial thromboplastin time (PTT) Test",
+"Papanicolaou (PAP) Smear Test",
+"Rheumatoid Arthritis (R A) Factor Test",
+"Red Blood Cell (RBC) Count Test",
+"Rubella Immunoglobulin G (IgG) Test",
+"Rubella IgM Test",
+"Reticulocyte Count Test",
+"Semen Analysis (Report & Test)",
+"Semen Carcinoma In-situ (CIS) Test",
+"Serum Glutamic-Oxaloacetic Transaminase (SGOT) Test","150"
+"Serum Glutamic Pyruvic Transaminase (SGPT) Test","150"
+"Sodium ( NA +) Test","150"
+"Stool Examination Test",
+"Triiodothyronine (T3) Test",
+"Thyroxin (T4) Test",
+"Thyroid Stimulating Hormone (TSH) Test","300"
+"Testosterone Test","800"
+"Free Testosterone Test",
+"C-Reactive Protein (CRP) Test","350"
+"Cancer Antigen (CA) -125 Ovarian Test","1500"
+"Cancer Antigen (CA) -15.3 Breast Cancer Marker Test",
+"Cancer Antigen (CA) - 19.9 Pancreatic Test",
+"Cancer Antigen (CA) -72.4 Castric Cancer Test",
+"Carbamazepine (CMP) Test",
+"Carcino Embryonic Antigen (CEA) Test",
+"Creatinine Kinase (CK) Test",
+"Dengue (Ns-1 Antigen) Test","600"
+"Dengue (IgG & 'gm) Test","1200"
+"Electrolyte Test",
+"Erythrocyte Sedimentation Rate (ESR) ","100"
+"Estradiol (E2) Test","800"
+"Folic Acid Test",
+"Ferritin Test",
+"Follicle - Stimulating Hormone (FSH) Test","500"
+"Fine Needle Aspiration Cytology  (F.N.A.C) Test",
+"Gamma-Glutamyl Transferase (GGT) Test",
+"Gram Stain Test",
+"Growth Hormone Test",
+"Heamogram Test",
+"Hepatitis-B Virus Surface Antigen (HbsAg) Rapid Test",
+"Hepatitis-B Virus Surface Antigen (HbsAg) Elisa Test",
+"Hepatitis C-Virus (HCV) Rapid Test","500"
+"Hepatitis C-Virus (HCV) Elisa Test",
+"Human Immuno Virus (HIV -1) Test",
+"Human Immuno Virus (HIV-2) Test",
+"Hemoglobin (Hb) Test","100"
+"Hemoglobin (Hb) A1C Test",
+"Immunoglobin E (IgE) Total",
+"Immunoglobin IgA Test",
+"Immunoglobin IgG Test",
+"Immunoglobin IgM Test",
+"Immunoglobulin (IgG & Igm) Test",
+"Insulin (F) Test",
+"Insulin (R) Test",
+"Iron + Total iron-binding capacity (TIBC) Test",
+"Kidney Function (K.F.T) Test ","500"
+"Urinalysis KFT Test",
+"Serum Creatinine KFT Test",
+"Blood Urea Nitrogen (BUN) KFT Test",
+"Estimated Glomerular Filtration Rate (GFR) KFT Test",
+"Liver Function Test (LFT)","500"
+"LIPID Profile Examination",
+"Low Density Lipoprotein (LDL) Test",
+"Lactate Dehydrogenase (LDH) Test",
+"Lipase Test",
+"Lactate Test",
+"Magnesium Test",
+"Triglyceride (TG) Test","150"
+"Total Leucocyte Count (T.L.C) Test",
+"Triple Test",
+"Troponin Test","800"
+"Urine Microalbumin Test",
+"Uric Acid Test","150"
+"Urine Sodium Test ",
+"Urine Potassium Test","100"
+"Venereal Disease Research Laboratory (VDRL) Test","300"
+"Vitamin B-12 Test","1100"
+"Complete Haemogram","400"
+"Complete Blood Count (CBC)","300"
+"Packed Cell Volume",
+"Peripheral Smear",
+"Malaria Antigen",
+"Malaria Antibody",
+"Widal Test","150"
+"Typhidot IgG & IgM",
+"C - reactive protein",
+"Indirect Coombs Test",
+"High Density Lipoprotein (HDL) Test",
+"Thyroid Profile ",
+"Free Thyroxine 3 (ft3)",
+"Free Thyroxine (ft4)",
+"Blood Sugar Post Prandian","50"
+"Differential Leucocyte Count (DLC)",
+"Total Eosinophine Count (TEC)",
+"Mean Corpuscular Volume (MCV)",
+"Mean Corpuscular Hemoglobin Concentration (MCHC)",
+"Cloot Reaction Time",
+"ABO Group","100"
+"RH type",
+"Direct Coombs Test",
+"Prothrombin time","550"
+"Activated Partial Thromboplastin Time (APTT)","650"
+"RH Antibody Titer Test",
+"Glucose 6 Phosphate Dehydrogenase Deficiency (G6PD) Qualitative","600"
+"Glucose 6 Phosphate Dehydrogenase Deficiency (G6PD) Quantitative","800"
+"Serum Test",
+"Serum Urice acid",
+"serum acid phosphate",
+"serum amalase",
+"serum lipase","600"
+"Glycosylated Haemoglobin (HBA1C)","500"
+"Blood Sugar Random","50"
+"Total Bilirubin",
+"Total Protein Test",
+"A/G Ratio",
+"Creatinine Clearence Test",
+"Glucose Tolerance Test (GTT)","400"
+"Gas Chromatography Test (GCT)","250"
+"CPK",
+"Gamma-glutamyl Transferase (GGT)",
+"Creatine Kinase Myocardial Band (CPK MB)",
+"Very Low Density Lipoprotein (VLDL)",
+"Luteinizing Hormone (LH) Test","500"
+"Prolactine Test",
+"Dehydroepiandrosterone Sulfate (DHEAS) Test",
+"Estradiol Uncongugated",
+"Cortisol Test","650"
+"Adrenocorticotropic Hormone (ACTH)",
+"Phenytoy Test",
+"Cearbamazepine Test",
+"Lithium Test",
+"Antistreptolysin O Titer (ASO Titre) Test","550"
+"RA Factor","300"
+"Typhidot Test",
+"Widal Test (Tube)",
+"Widal Test (Slide)",
+"Treponema Pallidum Antibodies",
+"Torch Profile IgG","1800"
+"Torch Profile IgM","1800"
+"Torch Profile (IgG & IgM)","3600"
+"Rubella Virus (IgM/IgG antibody)",
+"Herpes - II IgM",
+"Tb ELISA Test (IgG, IgA, IgM)",
+"Tb ELISA Test IgG",
+"Tb ELISA Test IgA",
+"Tb ELISA Test IgM",
+"Alpha Feto Protein","800"
+"Anti nuclear antibody",
+"Aspergilluns antibody",
+"Carcinoembryonic Antigen (CEA) Test",
+"Measles IgG & IgM",
+"Cardiolipin AB",
+"AFB Culture Test",
+"Scraping For Fungus",
+"AFB Stain Test",
+"Urine R/M","150"
+"Bile Salt & Bile Pigment",
+"Urobiliongen ",
+"Acetone/ Ketone Bodies",
+"Michroalbumin Test",
+"Bence Jones Proteins",
+"Elisa Test for pregnancy",
+"Urinary Urea Test",
+"Urine For Chyluria",
+"Urine for Cytology",
+"Haemoglobuinuri Test",
+"Urine Ph",
+"Urine Sugar","50"
+"Stool R/M",
+"Antenatal Panel","1500"
+"Fever Profile 3",
+"Fever Profile 2",
+"Fever Profile 1","500"
+"Small Biopsy",
+"Medium Biopsy",
+"Large Biopsy",
+"Cerebrospinal fluid test (CSF)",
+"Prostetic fluid examination",
+"Stone Analysis",
+"Vomitus Analysis",
+"Anti ccp",
+"Bacterial Memingitis Screen",
+"Homocystin","1450"
+"High Sensitivity C-Reactive Protein (HSCRP)","1200"
+"Lipoprotein (A)",
+"Anti-TTG (IgA)","1100"
+"Antibodies to Tissue Transglutaminase (Anti TPO) ",
+"Menstruational Blood Test",
+"Sodium Blood Test",
+"Potassium Blood Test","150"
+"LDL Cholestrol","150"
+"Sodium Test",
+"Calcium Total","150"
+"Calcium Ionised",
+"Calcium total & ionised",
+"phosporous test",
+"S Lithium ","800"
+"S Magnesium","650"
+"Toxoplasma IgM Antibody Titer Test",
+"Cancer Antigen 125",
+"Cancer Antigen 15.9",
+"Cancer Antigen 19.9",
+"IgG, IgM, IgA quantitative",
+"Total IgE","1100"
+"PSA free",
+"Anti Cardioliping Antibody (IgM)",
+"Anti Phospholipid ",
+"Urine/ Stool/ Sputum Test","200"
+"Urinary Amalase",
+"Sputum For AFB","200"
+"Sputum Gran & AFB Stain",
+"Histo pathology - large specimen",
+"Fluid",
+"Hplc (HB Electrophorosys)","1200"
+"Hematology",
+"H.TD.E",
+"T.D.E",
+"H.T.D",
+"Coagulation Profile","1800"
+"TLC.DLC",
+"Anaemia Screening",
+"Biochemistry Test",
+"Kleihauer",
+"Cardiac Profile",
+" Lipid Profile","500"
+"Arthritis Profile",
+"Advanced Lipid Profile",
+"Iron Profile",
+"Double Marker",
+"MALE FERTILITY ",
+"Female FERTILITY",
+"Thellasemia",
+"Diabetic Profile",
+"Urine Profile",
+"Urine Examination",
+"HB HEMOGLOBIN",
+"TLC (Total Leucocyte Count )","100"
+"DLC (Differential Leucocyte Count)","100"
+"MP","150"
+"Serum Ferritin","650"
+"RDW",
+"PDW",
+"ANC",
+"IC 7",
+"DCT","500"
+"MCHC",
+"MCH",
+"HEMATOCRIT ( PCV) ",
+"LE Cell Phomenon",
+"APTT",
+"Serum Pholate ",
+"Serum Vitamin B12","1100"
+"FDP",
+"CHOLIRIDE",
+"TRIPLE MARKER",
+"Hb electrophoresis",
+,
+"URINE CULTURE",
+"SPUTUM CULTURE",
+"STOOL CULTURE",
+"SEMEN CULTURE",
+"PUS CULTURE",
+"THROAT CULTURE",
+"FNAC",
+"CHIKUNGUNIYA (CHKV)","600"
+"AMH","1800"

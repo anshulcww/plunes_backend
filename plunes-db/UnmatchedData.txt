@@ -1,0 +1,916 @@
+Dr. Nimisha Gupta|9711022407|Lumbago/Lower Back Pain|700|25
+Dr. Nimisha Gupta|9711022407|K Taping Therapy|300|25
+Dr. Nipun Chopra|9971966211|Root Canal Treatment|5500|35
+Dr. Nipun Chopra|9971966211|Tooth Coloured Fillings|1500|35
+Dr. Nipun Chopra|9971966211|Scaling- Cleaning|2500|35
+Dr. Arbab Ali|9760729651|Lumbago/Lower Back Pain|500|25
+Dr. Risha Yadav|8396083279|HEIGHT GAIN|12000|25
+Dr. Risha Yadav|8396083279|EYE SIGHT ENHANCEMENT|10000|25
+Dr. Risha Yadav|8396083279|CERVICAL PAIN|8000|25
+Dr. Risha Yadav|8396083279|STONES|8000|25
+Dr. Risha Yadav|8396083279|FEMALE ISSUES|6000|25
+Dr. Risha Yadav|8396083279|ALLERGIC COMPLAINTS|8000|25
+Dr. Himanshu Arora|9953076985|Root canal treatment|2800|25
+Dr. Himanshu Arora|9953076985|teeth whitening|6000|25
+Dr. Himanshu Arora|9953076985|dental crown|3000|25
+Dr. Himanshu Arora|9953076985|dental implants|25000|25
+Dr. Himanshu Arora|9953076985|composite fillings|1200|25
+Dr. Himanshu Arora|9953076985|zirconia crown|8000|25
+Dr. Himanshu Arora|9953076985|dentures|12000|25
+Dr. Himanshu Arora|9953076985|TEETH WHITENING|6000|25
+Dr. Vimanyu Kataria|9910195798|Dental implant|30000|25
+Dr. Vinod Goyal|9811238534|Regular Braces (Metal)|30000|0
+Dr. Vinod Goyal|9811238534|Regulat Braces (Ceramic)|35000|0
+Dr. Vinod Goyal|9811238534|Self Ligating Braces (Metal)|35000|0
+Dr. Vinod Goyal|9811238534|Self Ligating (Ceramic)|45000|0
+Dr. Vinod Goyal|9811238534|Invisible Braces|125000|0
+Dr. Vinod Goyal|9811238534|Implants|20000|0
+Dr. Vinod Goyal|9811238534|Implants + Cap|25000|0
+Dr. Vinod Goyal|9811238534|Cap|4000|0
+Dr. Vinod Goyal|9811238534|All Ceramic Cap|6500|0
+Dr. Vinod Goyal|9811238534|Root Canal Treatment (RCT)|5000|0
+Dr. Vinod Goyal|9811238534|Filling|1000|0
+Dr. Vinod Goyal|9811238534|Scaling Full Mouth|2000|0
+Dr. Vinod Goyal|9811238534|Dentures|25000|0
+Dr. Ishita Agarwal|9891459861|Scaling|3500|25
+Dr. Ishita Agarwal|9891459861|Wisdom Tooth Extraction|4000|25
+Dr. Ishita Agarwal|9891459861|1-7 Extraction|2000|25
+Dr. Ishita Agarwal|9891459861|Surgical Extraction|6500|25
+Dr. Ishita Agarwal|9891459861|Composite Filling IC|2000|25
+Dr. Ishita Agarwal|9891459861|Composite Filling 3M|2500|25
+Dr. Ishita Agarwal|9891459861|Esthetic Filling|2500|25
+Dr. Ishita Agarwal|9891459861|Filling GIC (Adults)|1500|25
+Dr. Ishita Agarwal|9891459861|Filling GIC (Kids)|1200|25
+Dr. Ishita Agarwal|9891459861|Filling GIC (Sandwich Tech)|3500|25
+Dr. Ishita Agarwal|9891459861|Prostho CD|30000|25
+Dr. Ishita Agarwal|9891459861|Prostho RPD per Plate|3500|25
+Dr. Ishita Agarwal|9891459861|Prostho RPD per tooth|1500|25
+Dr. Ishita Agarwal|9891459861|Porcelain-fused-to-metal (PFM) crowns per unit|8500|25
+Dr. Ishita Agarwal|9891459861|Metal Crown per unit|5000|25
+Dr. Ishita Agarwal|9891459861|Zirconia crown|13000|25
+Dr. Ishita Agarwal|9891459861|Post and Core Restoration|2500|25
+Dr. Ishita Agarwal|9891459861|Root Canal Treatment|6500|25
+Dr. Ishita Agarwal|9891459861|Braces Normal|40000|25
+Dr. Ishita Agarwal|9891459861|Braces Ceramic|65000|25
+Dr. Ishita Agarwal|9891459861|Invasalign Braces|160000|25
+Dr. Ishita Agarwal|9891459861|Adin Implant|35000|25
+Dr. Ishita Agarwal|9891459861|Osstem Implant|45000|25
+Dr. Ishita Agarwal|9891459861|megagen implant|50000|25
+Dr. Ishita Agarwal|9891459861|Nobel Biocare Dental Implants|60000|25
+Dr. Ishita Agarwal|9891459861|Night Guard Per Arch|4500|25
+Dr. Ishita Agarwal|9891459861|Bone Grafting per Arch|50000|25
+Dr. Ishita Agarwal|9891459861|TEETH WHITENING|8000|0
+Dr. Rana Saleem Ahmed|9911717491|consultation fee|200|25
+Dr. Rana Saleem Ahmed|9911717491|xray|200|0
+Dr. Rana Saleem Ahmed|9911717491|implants|25000|0
+Dr. Rana Saleem Ahmed|9911717491|orthodontics treatment|30000|0
+Dr. Rana Saleem Ahmed|9911717491|root canal treatment|2000|0
+Dr. Rana Saleem Ahmed|9911717491|RCT endomotor|3000|0
+Dr. Rana Saleem Ahmed|9911717491|single sitting rct|6000|0
+Dr. Rana Saleem Ahmed|9911717491|extraction normal|300|0
+Dr. Rana Saleem Ahmed|9911717491|surgical extraction|4000|0
+Dr. Rana Saleem Ahmed|9911717491|impaction|5000|0
+Dr. Rana Saleem Ahmed|9911717491|fracture treatment|10000|0
+Dr. Rana Saleem Ahmed|9911717491|fillings|600|0
+Dr. Rana Saleem Ahmed|9911717491|silver fillings|800|0
+Dr. Rana Saleem Ahmed|9911717491|composite laser fillings|1000|0
+Dr. Rana Saleem Ahmed|9911717491|removable denture|15000|0
+Dr. Rana Saleem Ahmed|9911717491|fixed denture|150000|0
+Dr. Rana Saleem Ahmed|9911717491|flexible removable dentist|50000|0
+Dr. Rana Saleem Ahmed|9911717491|bleaching|6000|0
+Dr. Rana Saleem Ahmed|9911717491|scaling|1200|0
+Dr. Rana Saleem Ahmed|9911717491|cosmetic surgery|5000|0
+Dr. Rana Saleem Ahmed|9911717491|pyorrhea and gum surgeries|6000|0
+Dr. Rana Saleem Ahmed|9911717491|dental jewels|5000|0
+Dr. Rana Saleem Ahmed|9911717491|TEETH WHITENING|2000|35
+Rabbpreet|8860229910|root canal treatment|4000|25
+Rabbpreet|8860229910|tooth colored fillings|1500|25
+Rabbpreet|8860229910|dental implants|30000|25
+Rabbpreet|8860229910|scaling and polishing|1500|25
+Rabbpreet|8860229910|extraction|1500|25
+Rabbpreet|8860229910|complete denturete|15000|25
+Rabbpreet|8860229910|removable partial denture/ fixed partial denture|12000|45
+Rabbpreet|8860229910|TEETH WHITENING|8000|45
+Rabbpreet|8860229910|Removable partial dentures|1500|45
+Rabbpreet|8860229910|Root canal treatment Kids|2000|45
+Rabbpreet|8860229910|Fillings Kids|800|45
+Rabbpreet|8860229910|Filling (GIC) kids|500|45
+Rabbpreet|8860229910|filling ( composite) kids|800|45
+Rabbpreet|8860229910|Extraction kids|500|45
+Dr.  Vikas|9467603995|TEETH WHITENING|6000|35
+Dr. Asheesh Mangla|9540177077|Root Canal Treatment|3500|25
+Dr. Asheesh Mangla|9540177077|TEETH WHITENING|7500|0
+Dr. Ranjana Sharma|9654801748|Root Canal Treatment|2500|25
+Dr. Ranjana Sharma|9654801748|composite restoration(min)|800|0
+Dr. Ranjana Sharma|9654801748|Normal extractions|800|0
+Dr. Ranjana Sharma|9654801748|wisdom tooth extraction|1500|0
+Dr. Ranjana Sharma|9654801748|Scaling(min)|800|0
+Dr. Ranjana Sharma|9654801748|zirconia cap (min)|6000|0
+Dr. Ranjana Sharma|9654801748|Ortho.treatment(min)|25000|0
+Dr. Ranjana Sharma|9654801748|Implants(min)|20000|25
+Dr. Raman Yadav|8800433046|caudal epidural injection|7000|0
+Dr. Raman Yadav|8800433046|intraarticular  /intralesional corticosteroid injection|1000|0
+Dr. Raman Yadav|8800433046|PRP injection|5000|0
+Dr. Raman Yadav|8800433046|viscosupplementation|20000|0
+Dr. Raman Yadav|8800433046|physiotherap session|200|0
+Dr. Raman Yadav|8800433046|Dental scaling|500|25
+Dr. Raman Yadav|8800433046|Cavity Filling|500|25
+Dr. Raman Yadav|8800433046|tooth extraction|500|25
+Dr. Raman Yadav|8800433046|erupted 3rd molar extraction|1000|25
+Dr. Raman Yadav|8800433046|impacted 3rd molar extraction|3000|25
+Dr. Raman Yadav|8800433046|PFM crown|2200|25
+Dr. Raman Yadav|8800433046|Zirconia crown|6000|25
+Dr. Raman Yadav|8800433046|Full mouth denture|12000|25
+Dr. Raman Yadav|8800433046|dental implant|15000|25
+Dr. Ankush Rani Sharma|9990393753|Root Canal Treatment|3500|25
+Dr. Anjali Aggarwal|9818345055|dental exanination|500|45
+Dr. Anjali Aggarwal|9818345055|dental filling|1500|45
+Dr. Anjali Aggarwal|9818345055|bridges/ crown|15000|45
+Dr. Anjali Aggarwal|9818345055|orthodontics treatment|50000|45
+Dr. Anjali Aggarwal|9818345055|gum treatment|2000|45
+Dr. Anjali Aggarwal|9818345055|cosmetic fillings|3500|45
+Dr. Anjali Aggarwal|9818345055|rct|5000|45
+Dr. Anjali Aggarwal|9818345055|surgeries of wisdom molar|10000|45
+Dr. Richi Khanduja|9582254646|Root Canal Treatment|2500|25
+Dr. Richi Khanduja|9582254646|Implant Single Tooth|20000|25
+Dr. Richi Khanduja|9582254646|Braces Ceremic|35000|25
+Dr. Richi Khanduja|9582254646|Laser Fillings|800|25
+Dr. Richi Khanduja|9582254646|Extraction Single Tooth|250|25
+Dr. Richi Khanduja|9582254646|dental crown / tooth|2000|0
+Dr. Richi Khanduja|9582254646|Full mouth scaling/ cleaning|1000|0
+Dr. Jitesh Sahgal|9871110128|Pit and Fissure Sealants|1500|0
+Dr. Jitesh Sahgal|9871110128|Temporary Cement Fillings|1000|0
+Dr. Jitesh Sahgal|9871110128|GIC Fillings|1200|0
+Dr. Jitesh Sahgal|9871110128|Composite Filling-Posterior|1500|0
+Dr. Jitesh Sahgal|9871110128|Rtc|1000|0
+Dr. Jitesh Sahgal|9871110128|Composite Filling-Anterior|3000|0
+Dr. Jitesh Sahgal|9871110128|Crown-Metal|8500|0
+Dr. Jitesh Sahgal|9871110128|Crown-Metal with Ceramic facing|8500|0
+Dr. Jitesh Sahgal|9871110128|Crown-Metal Ceramic|8500|0
+Dr. Jitesh Sahgal|9871110128|Crown- Zircon|18000|0
+Dr. Jitesh Sahgal|9871110128|Laminates(composites)|3000|0
+Dr. Jitesh Sahgal|9871110128|Laminates (Ceramic)|15000|0
+Dr. Jitesh Sahgal|9871110128|Complete Dentures|45000|0
+Dr. Jitesh Sahgal|9871110128|Implant Supported Over Dentures|300000|0
+Dr. Jitesh Sahgal|9871110128|Partial Denture Velplast|20000|0
+Dr. Jitesh Sahgal|9871110128|X-Ray IOPRA|500|0
+Dr. Jitesh Sahgal|9871110128|Cleaning & Polishing (full mouth)|3000|0
+Dr. Jitesh Sahgal|9871110128|Deep cleansing/Curettage(each quadrant)|2500|0
+Dr. Arun Khatkar|9650133244|TEETH WHITENING|5000|25
+Dr. Kamal Yadav|7042999854|TEETH WHITENING|12000|25
+Dr. Amit Chhillar|9873791714|Consultation|500|0
+Dr. Amit Chhillar|9873791714|Root canal treatment|4000|0
+Dr. Amit Chhillar|9873791714|Scaling|1500|0
+Dr. Amit Chhillar|9873791714|Root planing|2500|0
+Dr. Amit Chhillar|9873791714|Ceramic crown|7500|0
+Dr. Amit Chhillar|9873791714|Ceramic crown with warranty|10000|0
+Dr. Amit Chhillar|9873791714|Premium Ceramic crown|13000|0
+Dr. Amit Chhillar|9873791714|Dental implant|25000|0
+Dr. Amit Chhillar|9873791714|Premium Dental Implant|35000|0
+Dr. Amit Chhillar|9873791714|Metal ceramic crown|3500|0
+Dr. Amit Chhillar|9873791714|Premium Metal ceramic crown|5000|0
+Dr. Amit Chhillar|9873791714|Tooth extraction|2000|45
+Dr. Amit Chhillar|9873791714|Third molar/wisdom tooth extraction|3000|35
+Dr. Amit Chhillar|9873791714|Surgical extraction of impacted tooth|4000|35
+Dr. Amit Chhillar|9873791714|Flexible denture per arch|15000|25
+Dr. Amit Chhillar|9873791714|Acrylic complete denture per arch|13000|25
+Dr. Amit Chhillar|9873791714|Metal braces|30000|0
+Dr. Amit Chhillar|9873791714|Ceramic braces/ tooth color braces|45000|0
+Dr. Amit Chhillar|9873791714|Tooth jewelry|2500|35
+Dr. Amit Chhillar|9873791714|Root coverage procedure|5000|35
+Dr. Amit Chhillar|9873791714|Removal of soft tissue growth|4000|35
+Dr. Deepti Gupta|9958897456|Snehapanam|550|25
+Dr. Deepti Gupta|9958897456|Abhyangam|1500|25
+Dr. Deepti Gupta|9958897456|Swedan|300|25
+Dr. Deepti Gupta|9958897456|Vamanam Karma|8000|25
+Dr. Deepti Gupta|9958897456|Virechana Karma|7000|25
+Dr. Deepti Gupta|9958897456|Internal Basti Keshaya|1280|25
+Dr. Deepti Gupta|9958897456|Internal Basti Oil|1000|25
+Dr. Deepti Gupta|9958897456|Nasyam|1000|25
+Dr. Deepti Gupta|9958897456|Raktamokshanam|1000|25
+Dr. Deepti Gupta|9958897456|Yonidhawan|1500|25
+Dr. Deepti Gupta|9958897456|Yonidhoopam|800|25
+Dr. Deepti Gupta|9958897456|Uttarbasti|1500|25
+Dr. Deepti Gupta|9958897456|Yonipichu|700|25
+Dr. Deepti Gupta|9958897456|External Basti|1050|25
+Dr. Deepti Gupta|9958897456|Netra Tarpan|1000|25
+Dr. Deepti Gupta|9958897456|Karnapooranam|900|25
+Dr. Deepti Gupta|9958897456|Pichu|510|25
+Dr. Deepti Gupta|9958897456|Shirodhara|1500|45
+Dr. Deepti Gupta|9958897456|Shirobasti|2500|25
+Dr. Deepti Gupta|9958897456|Shirolepa|1400|25
+Dr. Deepti Gupta|9958897456|Patrapinda Sweden|1800|25
+Dr. Deepti Gupta|9958897456|patra Pinda Sweden local|900|25
+Dr. Deepti Gupta|9958897456|Shashti Shali Pinda Sweden|2500|25
+Dr. Deepti Gupta|9958897456|Udwartanam|1500|25
+Dr. Rahul Yadav|8447346784|Root canal|6500|25
+Dr. Zafar Iqbal|9810499395|Root Canal Therapy|3500|0
+Dr. Zafar Iqbal|9810499395|Scaling/Ultrasonic scaling|1200|0
+Dr. Zafar Iqbal|9810499395|X-Ray|150|0
+Dr. Zafar Iqbal|9810499395|Porclain caps|2500|0
+Dr. Zafar Iqbal|9810499395|Full denture|10000|0
+Dr. Zafar Iqbal|9810499395|Orthodontic Treatment( braces) metal|3500|0
+Dr. Zafar Iqbal|9810499395|Braces( cosmetic)|45000|0
+Dr. Zafar Iqbal|9810499395|Implants|25000|0
+Dr. Zafar Iqbal|9810499395|Fillings (composite)|1250|0
+Dr. Zafar Iqbal|9810499395|Removable Dentures(normal)|250|0
+Dr. Zafar Iqbal|9810499395|Removal Denture( flexible) per tooth|2500|0
+Dr. Prashant Dagar|9991022014|Dental Check Up|300|0
+Dr. Prashant Dagar|9991022014|X-ray|200|0
+Dr. Prashant Dagar|9991022014|Composite Filling|600|0
+Dr. Prashant Dagar|9991022014|GIC Filling|400|0
+Dr. Prashant Dagar|9991022014|Single Sitting Root Canal Treatment|5000|0
+Dr. Prashant Dagar|9991022014|Crown Metallic|1500|0
+Dr. Prashant Dagar|9991022014|Crown Ceramic|9500|0
+Dr. Prashant Dagar|9991022014|Crown Mettalic with Ceramic|6000|0
+Dr. Prashant Dagar|9991022014|Dental Implant|25000|0
+Dr. Prashant Dagar|9991022014|Complete Denture|15000|0
+Dr. Prashant Dagar|9991022014|Partial Denture|10000|0
+Dr. Prashant Dagar|9991022014|Metal Braces|25000|0
+Dr. Prashant Dagar|9991022014|Ceramic Braces|40000|0
+Dr. Prashant Dagar|9991022014|Tooth Extraction Normal|700|0
+Dr. Prashant Dagar|9991022014|Tooth Extraction Molar|800|0
+Dr. Prashant Dagar|9991022014|Tooth Extraction Non-Surgical |700|0
+Dr. Prashant Dagar|9991022014|Tooth Extraction Surgical|2200|0
+Dr. Prashant Dagar|9991022014|Pit and Fissure Sealants|500|0
+Dr. Prashant Dagar|9991022014|Tropical Fluoride Application|5000|0
+Dr. Prashant Dagar|9991022014|Composite Laminates|9000|0
+Dr. Prashant Dagar|9991022014|Ceramic Veneers|8500|0
+Dr. Prashant Dagar|9991022014|Laser Depigmentation|5000|0
+Dr. Prashant Dagar|9991022014|Teeth Cleaning / Scaling|600|0
+Dr. Shefali Jain Sood|7290073613|Root Canal Treatment|4000|25
+Dr. Shefali Jain Sood|7290073613|Cleaning and Polishing of teeth|1500|25
+Dr. Shefali Jain Sood|7290073613|Composite filling|1500|25
+Dr. Shefali Jain Sood|7290073613|Metal braces|30000|25
+Dr. Shefali Jain Sood|7290073613|TEETH WHITENING|10000|35
+Dr. Rohit Saini|9999103668|Root Canal Therapy|4000|0
+Dr. Rohit Saini|9999103668|Braces|35000|0
+Dr. Rohit Saini|9999103668|Implants low|18000|0
+Dr. Rohit Saini|9999103668|Implants Medium|24000|0
+Dr. Rohit Saini|9999103668|Implants Highest|40000|0
+Dr. Rohit Saini|9999103668|Tooth Cleaning and polishing|1500|0
+Dr. Rohit Saini|9999103668|Esthtic|1000|0
+Dr. Rohit Saini|9999103668|Surgical Extraction|5000|0
+Dr. Rohit Saini|9999103668|Teeth whitening|10000|0
+Dr. Rohit Saini|9999103668|TEETH WHITENING|12000|0
+Dr. Ranjit Kumar Chandra|8750407878|Consultation Visit|2000|25
+Dr. Ranjit Kumar Chandra|8750407878|Skin Prick Tests for Allergy|1500|25
+Dr. Ranjit Kumar Chandra|8750407878|Patch Tests|3000|25
+Dr. Ranjit Kumar Chandra|8750407878|Weekdays Visit|25000|25
+Dr. Puneet Sardana|9810897023|Root Canal Treatment|4000|35
+Dr. Puneet Sardana|9810897023|TEETH WHITENING|6000|35
+Dr. Prerna Deswal|9540098241|Root Canal Treament|5500|25
+Dr. Prerna Deswal|9540098241|Braces Metal|28000|25
+Dr. Prerna Deswal|9540098241|Braces Ceramic|38000|25
+Dr. Prerna Deswal|9540098241|Implant|25000|25
+Dr. Prerna Deswal|9540098241|Teeth Cleaning|1500|25
+Dr. Rahul S Kadian|7834883434|Root Canal Treatment|4000|25
+Dr. Rahul S Kadian|7834883434|Braces Metal|35000|25
+Dr. Rahul S Kadian|7834883434|Braces Ceramic|45000|25
+Dr. Rahul S Kadian|7834883434|Smile Designing|10000|25
+Dr. Himani Yadav|9001458838|Root Canal Treatment|2500|25
+Dr. Himani Yadav|9001458838|Extraction|1000|25
+Dr. Himani Yadav|9001458838|Implant|15000|25
+Dr. Himani Yadav|9001458838|Aesthetic Fillings|3000|25
+Dr. Himani Yadav|9001458838|Smile Design|3000|25
+Dr. Ruchika Tikoo|9891707774|NJAVARAKIZHI|2000|25
+Dr. Ruchika Tikoo|9891707774|DASHAMOOLA KSHEERA DHARA|2000|25
+Dr. Ruchika Tikoo|9891707774|MARMA MASSAGE|1500|25
+Dr. Ruchika Tikoo|9891707774|MEDICATED STEAM BATH|300|0
+Dr. Rajeev Ghai|7217768678|Eye Ultrasonography|1000|25
+Dr. Rajeev Ghai|7217768678|Thyroid Ultrasonography|900|25
+Dr. Rajeev Ghai|7217768678|Scrotum Ultrasonography|1100|25
+Dr. Rajeev Ghai|7217768678|Intracavitary Sonography|2500|25
+Dr. Rajeev Ghai|7217768678|Vascular Imaging|1000|25
+Dr. Rajeev Ghai|7217768678|Digital X-Ray|700|25
+Dr. Rajeev Ghai|7217768678|Echocardiography|800|25
+Dr. Rajeev Ghai|7217768678|ECG|2500|25
+Dr. Rajeev Ghai|7217768678|3D Ultrasound|2500|25
+Dr. Rajeev Ghai|7217768678|4D Ultrasound Imaging|3500|25
+Dr. Rajeev Ghai|7217768678|Tomographic Ultrasoung Imaging|4000|25
+Dr. Rahul Dangi|7827444022|Treatment|600|45
+Dr. Shobhit Agarwal|9717391252|TEETH WHITENING|12000|25
+Dr. Savita Chaudhary|9811093691|Nebulisation|200|45
+Dr. Savita Chaudhary|9811093691|Anticipatory guidance for Teenagers|1000|45
+Dr. Savita Chaudhary|9811093691|Parenting session|1200|45
+Dr. Savita Chaudhary|9811093691|Adolescent Counselling|1200|45
+Dr. Savita Chaudhary|9811093691|Life skills education|1200|45
+Dr. Savita Chaudhary|9811093691|vaccination for all age groups|600|45
+Dr. Savita Chaudhary|9811093691|Growth analysis|1000|45
+Dr. Hirdesh Kumar (pt)|9560867721|Lumbago/Lower Back Pain|400|35
+Dr. Hirdesh Kumar (pt)|9560867721|K Taping Therapy|500|35
+Dr. Rajat Dhania|9891273357|Root Canal Treatment|3500|45
+Dr. Rajat Dhania|9891273357|Braces|25000|45
+Dr. Rajat Dhania|9891273357|Dental Implant|20000|45
+Dr. Rajat Dhania|9891273357|Scaling|1000|45
+Dr. Rajat Dhania|9891273357|Filling|1000|45
+Dr. Renu Yadav|9990215366|Root Canal Treatment|3500|45
+Dr. Renu Yadav|9990215366|Braces|25000|45
+Dr. Renu Yadav|9990215366|Implants|20000|45
+Dr. Renu Yadav|9990215366|Filling|1000|45
+Dr. Renu Yadav|9990215366|Scaling|1500|45
+Dr. Renu Yadav|9990215366|TEETH WHITENING|10000|25
+Dr. (major) Ankit Gupta|8860574673|TEETH WHITENING|10000|25
+Dr. Anshu Jha|7042079539|Weight Loss/ Gain 1 Month (3 Visits)|4000|35
+Dr. Anshu Jha|7042079539|Weight Loss/ Gain 2 Month (6 Visits)|7000|35
+Dr. Anshu Jha|7042079539|Weight Loss/ Gain 3 Month (9 Visits)|9000|35
+Dr. Anshu Jha|7042079539|Weight Loss/ Gain 4 Month (12 Visits)|12000|35
+Dr. Anshu Jha|7042079539|Single Consultation|2500|35
+Dr. Anup Singh Sisodia|9999555779|Construction Fee|500|0
+Dr. Amit Kochar|9810149657|Consultation|400|45
+Dr. Jyoti Yadav|9911008875|scaling and polishing|1000|45
+Dr. Jyoti Yadav|9911008875|implants|20000|45
+Dr. Jyoti Yadav|9911008875|extraction|1000|45
+Dr. Jyoti Yadav|9911008875|dentures|8000|45
+Dr. Jyoti Yadav|9911008875|filling|500|45
+Dr. Jyoti Yadav|9911008875|crown and bridge|1000|45
+Dr. Jyoti Yadav|9911008875|rct|2000|45
+Dr. Anuj Gupta|9212041171|Consultation|200|45
+Dr. Anuj Gupta|9212041171|Abhyangan with swedan(panchakarma)|1200|45
+Dr. Anuj Gupta|9212041171|Routine Health Package|1200|45
+Dr. Anuj Gupta|9212041171|Advance Health Package|2500|45
+Dr. Anuj Gupta|9212041171|ECG|250|45
+Dr. Anuj Gupta|9212041171|Shiro Dhara|2200|45
+Dr. Anuj Gupta|9212041171|Pattr Potli màssage|2000|45
+Dr. Anuj Gupta|9212041171|Fever Panel|780|45
+Dr. Anveeta Agarwal|8826560804|TEETH WHITENING|7000|0
+Dr. Arjita Sood|9910004664|root Canal Treatment|4000|35
+Dr. Arjita Sood|9910004664|Metal Free Crown|10000|25
+Dr. Arjita Sood|9910004664|PFM Crown|6000|25
+Dr. Arjita Sood|9910004664|Filling|1000|45
+Dr. Arjita Sood|9910004664|Scaling|1200|45
+Dr. Arjita Sood|9910004664|Consultation|500|45
+Dr. Kelly Lhamo|7982799403|Lumbago/Lower Back Pain|700|0
+Dr. Kelly Lhamo|7982799403|Dry Needlinig Therapy|400|0
+Dr. Kelly Lhamo|7982799403|K Taping Therapy|250|0
+Dr. Kelly Lhamo|7982799403|electrotherapy|250|45
+Dr. Sachin Handa|9540033069|ENT CONSULT|800|45
+Dr. Shivani|8860793028|Lumbago/Lower Back Pain|700|25
+Dr. Shivani|8860793028|Dry Needlinig Therapy|700|25
+Dr. Ravi Wadhwa|9711096039|Lumbago/Lower Back Pain|500|25
+Dr. Ravi Wadhwa|9711096039|K Taping Therapy|700|25
+Dr. Indu Sharma|9312438109|ALB ( Albumin)|150|0
+Dr. Indu Sharma|9312438109|Blood Sugar (Fasting)|100|0
+Dr. Indu Sharma|9312438109|Blood Sugar (P.P.)|100|0
+Dr. Indu Sharma|9312438109|Blood Sugar (Random)|50|0
+Dr. Indu Sharma|9312438109|Blood Urea|200|0
+Dr. Indu Sharma|9312438109|Occult Blood (Stool )|150|0
+Dr. Indu Sharma|9312438109|Parathyroid Hormone (PTH)|1500|0
+Dr. Indu Sharma|9312438109|Prothmbin Time (PT INR)|350|0
+Dr. Indu Sharma|9312438109|Potasium (K+)|150|0
+Dr. Indu Sharma|9312438109|Prolactin (PRL)|500|0
+Dr. Indu Sharma|9312438109|Protein|200|0
+Dr. Indu Sharma|9312438109|Prostate Specific Antigen (PSA) Total|600|0
+Dr. Indu Sharma|9312438109|Prostate Specific Antigen (PSA) Free|1000|0
+Dr. Indu Sharma|9312438109|Rheumatoid Arthritis (R A) Factor Qualitative|300|0
+Dr. Indu Sharma|9312438109|Rubella ImmunoglobulinG (IgG)|550|0
+Dr. Indu Sharma|9312438109|Rubella IV|550|0
+Dr. Indu Sharma|9312438109|Semen R/E|200|0
+Dr. Indu Sharma|9312438109|Semen cis|200|0
+Dr. Indu Sharma|9312438109|Serum glutamic-oxaloacetic transaminase(SGOT)|120|0
+Dr. Indu Sharma|9312438109|Serum glutamic pyruvic transaminase(SGPT)|120|0
+Dr. Indu Sharma|9312438109|Sodium ( NA +)|150|0
+Dr. Indu Sharma|9312438109|Triiodothyronine (T3)|250|0
+Dr. Indu Sharma|9312438109|Free Triiodothyronine3 (FT3)|250|0
+Dr. Indu Sharma|9312438109|Thyroxine (T4)|250|0
+Dr. Indu Sharma|9312438109|Free Thyroxine (T4)|250|0
+Dr. Indu Sharma|9312438109|Thyroid Stimulating Hormone (TSH)|300|0
+Dr. Indu Sharma|9312438109|Testosterone (Total)|600|0
+Dr. Indu Sharma|9312438109|K.F.T. (kidney Function Test)|600|0
+Dr. Indu Sharma|9312438109|L.F.T. (liver Function Test)|600|0
+Dr. Indu Sharma|9312438109|Luteinizing Hormone (LH)|500|0
+Dr. Indu Sharma|9312438109|LITHIUM|650|0
+Dr. Indu Sharma|9312438109|Lipase|600|0
+Dr. Indu Sharma|9312438109|Magnesium|500|0
+Dr. Indu Sharma|9312438109|Testosterone (Free)|1250|0
+Dr. Indu Sharma|9312438109|Torch IgG & Igm|1200|0
+Dr. Indu Sharma|9312438109|Torch IgG|600|0
+Dr. Indu Sharma|9312438109|Torch 1gM|600|0
+Dr. Indu Sharma|9312438109|Tropinin 'T'|1500|0
+Dr. Anoop Jain|9811448365|Lumbago/Lower Back Pain|500|25
+Dr. Anoop Jain|9811448365|Dry Needlinig Therapy|600|25
+Dr. Anoop Jain|9811448365|K Taping Therapy|600|25
+Dr. Sanjeev Bisla|9990643330|cataract|10|0
+Dr. Shwetas Path Lab|8076112687|AEC (Absolute Eosinophil Count)|150|25
+Dr. Shwetas Path Lab|8076112687|ANC (Absolute Neutrophil Count)|150|25
+Dr. Shwetas Path Lab|8076112687|Hb (Hemoglobin)|300|0
+Dr. Shwetas Path Lab|8076112687|HbA1C|500|0
+Dr. Shwetas Path Lab|8076112687|K.F.T. (kidney Function Test)|700|0
+Dr. Shwetas Path Lab|8076112687|L.F.T. (liver Function Test)|700|0
+Dr. Shwetas Path Lab|8076112687|LlPID Profile|700|0
+Dr. Mehul Chawla|8527574544|Root Canal Treatment|5000|35
+Dr. Mehul Chawla|8527574544|TEETH WHITENING|8500|35
+Dr. Neha Ahlawat|9991112687|TEETH WHITENING|4500|35
+Dr. S P Gupta|9899785205|Emergency Consultation|300|0
+Dr. Neeti Kalra|9811812637|Filling|1|25
+Dr. Pinky Goswami|7607805161|Adult Counselling|1200|0
+Dr. Pinky Goswami|7607805161|Student Counselling|800|0
+Dr. Pinky Goswami|7607805161|Adolescent Counselling|1200|0
+Dr. Pinky Goswami|7607805161|Pre-Marital Counselling|1200|0
+Dr. Pinky Goswami|7607805161|Marriage Counselling|1200|0
+Dr. Pinky Goswami|7607805161|Divorce Counselling|1200|0
+Dr. Pinky Goswami|7607805161|Family Counselling|1200|0
+Dr. Parmod Kumar|9958530395|Consultation|400|45
+Dr. Parmod Kumar|9958530395|Grooming|800|45
+Dr. Parmod Kumar|9958530395|X ray|600|45
+Dr. Parmod Kumar|9958530395|Ultrasound|2000|45
+Dr. Rajesh Pal|9811265450|Dry Needlinig Therapy|1500|25
+Dr. Rajesh Pal|9811265450|K Taping Therapy|550|25
+Dr. A. K. Garg|9354959292|consultation|400|25
+Dr. A. K. Garg|9354959292|home visit|1200|25
+Dr. A. K. Garg|9354959292|hgm|350|45
+Dr. A. K. Garg|9354959292|KFT|700|45
+Dr. A. K. Garg|9354959292|LFT|675|45
+Dr. A. K. Garg|9354959292|full body check up|2500|45
+Dr. A. K. Garg|9354959292|thyroid prifile|480|45
+Dr. A. K. Garg|9354959292|typhoid|390|45
+Dr. A. K. Garg|9354959292|MPA|590|45
+Dr. A. K. Garg|9354959292|fever panel|550|45
+Dr. A. K. Garg|9354959292|hba1c|450|45
+Dr. Reenu Singh|9999653555|Scaling and polishing|1|0
+Dr. Mudit Sabharwal|9811255505|Diabetologist Consultation|800|25
+Dr. Mudit Sabharwal|9811255505|Flash Glucose Monitoring (AGP)|4600|25
+Dr. Mudit Sabharwal|9811255505|Biothesiometry (VPT) for Neuropathy|550|25
+Dr. Mudit Sabharwal|9811255505|HBA1C (On Spot Test)|450|25
+Dr. Mudit Sabharwal|9811255505|Uric Acid (on Spot test)|130|25
+Dr. Mudit Sabharwal|9811255505|Urine routine (POCT)|200|25
+Dr. Mudit Sabharwal|9811255505|Urine Albumin:Creatinine ratio (for diabetic kidney disease) (POCT)|450|25
+Dr. Mudit Sabharwal|9811255505|Diet/Lifestyle Consultation|450|25
+Dr. Sudhir Yadav|9810580837|Root canal Treatment|4|45
+Dr. Sudhir Yadav|9810580837|Implants|500|45
+Dr. Sudhir Yadav|9810580837|Scaling and polishing|17|45
+Dr. Ravi Sultania|8178528259|RTC|4500|45
+Dr. Ravi Sultania|8178528259|Fillings|750|45
+Dr. Ravi Sultania|8178528259|Tooth Cleaning|500|45
+Dr. Ravi Sultania|8178528259|Tooth Whitening|1200|45
+Dr. Rakesh Jain|7838371351|consultation|1000|45
+Dr. Amit Yadav|7011977624|consultation|500|25
+Dr. Amit Yadav|7011977624|RCT|3500|25
+Dr. Amit Yadav|7011977624|scaling|1500|25
+Dr. Amit Yadav|7011977624|light cure restoration|1500|25
+Dr. Amit Yadav|7011977624|extraction|500|25
+Dr. Amit Yadav|7011977624|Teeth whitening|8000|25
+Dr. Amit Yadav|7011977624|RVG|350|25
+Dr. Amit Yadav|7011977624|implant|18000|25
+Dr. Amit Yadav|7011977624|Denture|15000|25
+Dr. Rajiv Kumar|8383999688|Consultation|450|25
+Dr. Rajiv Kumar|8383999688|Skin Prick Tests|600|25
+Dr. (col) Rajesh Sharma|9312222533|Consultation|600|25
+Vasu Diagnostic Centre|9911438920|HSG / HYSTEROSALPINGOGRAM|3500|25
+Vasu Diagnostic Centre|9911438920|7USG ABDOMEN + Transvaginal ultrasound(TVS)|1500|45
+Vasu Diagnostic Centre|9911438920|USG FOETEL WELL BEING / USG ROUTINE OBS|2200|45
+Vasu Diagnostic Centre|9911438920|1USG OBS DOPPLER|3000|45
+Vasu Diagnostic Centre|9911438920|USG NECK / THYR1OD|1200|45
+Vasu Diagnostic Centre|9911438920|USG BREAST ONE SIDED /BOTH|1200|45
+Vasu Diagnostic Centre|9911438920|USG SMALL PART|300|0
+Vasu Diagnostic Centre|9911438920|(USG KUB) Kidney|400|0
+Vasu Diagnostic Centre|9911438920|and Bladder|600|0
+Vasu Diagnostic Centre|9911438920|Complete Hemogram|800|0
+Vasu Diagnostic Centre|9911438920|Liver Function Test|600|0
+Vasu Diagnostic Centre|9911438920|Lipid Profile|600|0
+Vasu Diagnostic Centre|9911438920|Thyroid Profile (T3, T4, TSH)|600|0
+Vasu Diagnostic Centre|9911438920|Thyroid Stimulating Harmone (TSH)|600|0
+Vasu Diagnostic Centre|9911438920|Fever Panel (CBC, MP, WIDAL)|500|0
+Vasu Diagnostic Centre|9911438920|Typhidot IGG & IGM|100|0
+Vasu Diagnostic Centre|9911438920|Dengue NS1 Antigen|600|0
+Vasu Diagnostic Centre|9911438920|Dengue IGG/IGM|1200|0
+Vasu Diagnostic Centre|9911438920|HIV 1&2|100|0
+Vasu Diagnostic Centre|9911438920|HCV (Hepatitis C)|200|0
+Vasu Diagnostic Centre|9911438920|VDRL (Sypilis Test)|400|0
+Vasu Diagnostic Centre|9911438920|HBA 1C|400|0
+Vasu Diagnostic Centre|9911438920|Blood Sugar Fasting|500|0
+Vasu Diagnostic Centre|9911438920|Blood Sugar PP|400|0
+Vasu Diagnostic Centre|9911438920|Stool Routine Exam|200|0
+Vasu Diagnostic Centre|9911438920|Urine Culture|2500|0
+Vasu Diagnostic Centre|9911438920|Blood Culture|3000|0
+Vasu Diagnostic Centre|9911438920|Blood Group|1000|0
+Vasu Diagnostic Centre|9911438920|Sputum for AFB|1000|0
+Vasu Diagnostic Centre|9911438920|Montox Test|200|0
+Vasu Diagnostic Centre|9911438920|CRP (Qualitative)|500|0
+Vasu Diagnostic Centre|9911438920|PT INR Test|500|0
+Vasu Diagnostic Centre|9911438920|APTT|500|0
+Vasu Diagnostic Centre|9911438920|ANC Profile|500|0
+Vasu Diagnostic Centre|9911438920|BT, CT|200|0
+Vasu Diagnostic Centre|9911438920|Tripple Marker|200|0
+Vasu Diagnostic Centre|9911438920|Quadripple Marker|1200|0
+Vasu Diagnostic Centre|9911438920|S Amylase|1200|0
+Vasu Diagnostic Centre|9911438920|S lipase|150|0
+Vasu Diagnostic Centre|9911438920|Testosterone Total|5000|0
+Vasu Diagnostic Centre|9911438920|Testosterone free|800|0
+Vasu Diagnostic Centre|9911438920|S. Prolactin|150|0
+Vasu Diagnostic Centre|9911438920|Luteinin hormone|100|0
+Vasu Diagnostic Centre|9911438920|Folicle Stimulating hormone|1200|0
+Vasu Diagnostic Centre|9911438920|Anti Mullerin Harmone|1200|0
+Vasu Diagnostic Centre|9911438920|Serum IGE Level|600|0
+Vasu Diagnostic Centre|9911438920|SEMEN Analysis|500|0
+Vasu Diagnostic Centre|9911438920|Vitamin D3 Level|500|0
+Vasu Diagnostic Centre|9911438920|Vitamin B12|800|0
+Vasu Diagnostic Centre|9911438920|Allergy Profile|600|0
+Vasu Diagnostic Centre|9911438920|Uric Acid|600|0
+Vasu Diagnostic Centre|9911438920|S Creatinine|300|0
+Vasu Diagnostic Centre|9911438920|HPLC ( HB Electrophrosis)|300|0
+Vasu Diagnostic Centre|9911438920|FNAC (USG Guided)|300|0
+Vasu Diagnostic Centre|9911438920|Anti CCP|300|0
+Vasu Diagnostic Centre|9911438920|ANA|300|0
+Vasu Diagnostic Centre|9911438920|ANA IFA|1000|0
+Vasu Diagnostic Centre|9911438920|Rubella IGG|1800|0
+Vasu Diagnostic Centre|9911438920|Rubella IGM|600|0
+Vasu Diagnostic Centre|9911438920|CA125|300|0
+Vasu Diagnostic Centre|9911438920|PAP Smear|500|0
+Vasu Diagnostic Centre|9911438920|PSA Total|300|0
+Vasu Diagnostic Centre|9911438920|PSA Free|300|0
+Vasu Diagnostic Centre|9911438920|X-RAY Chest posteroanterior|3000|0
+Vasu Diagnostic Centre|9911438920|X-RAY Lumber Spine anteroposterior Lateral|1200|0
+Vasu Diagnostic Centre|9911438920|X-RAY Elbow Joint anteroposterior/ Lateral|600|0
+Vasu Diagnostic Centre|9911438920|X-RAY Ankle Joint  anteroposterior/ Lateral|1200|0
+Vasu Diagnostic Centre|9911438920|X-RAY Wrist Joint anteroposterior Lateral|1000|0
+Vasu Diagnostic Centre|9911438920|X-RAY Knee Joint anteroposterior Lateral|1000|0
+Vasu Diagnostic Centre|9911438920|X-RAY Hand anteroposterior/Oblique|2200|0
+Vasu Diagnostic Centre|9911438920|X-RAY Cervical Spine anteroposterior/ Lateral|1200|0
+Vasu Diagnostic Centre|9911438920|X-RAY PNS|300|0
+Vasu Diagnostic Centre|9911438920|X-RAY Thoracic Spine|600|0
+Vasu Diagnostic Centre|9911438920|X-RAY Pelvis|1200|0
+Vasu Diagnostic Centre|9911438920|X-RAY Nasal Bone|1500|0
+Vasu Diagnostic Centre|9911438920|X-RAY Foot|2200|0
+Vasu Diagnostic Centre|9911438920|X-RAY Finger|2200|0
+Vasu Diagnostic Centre|9911438920|X-RAY Mastoid|1800|0
+Vasu Diagnostic Centre|9911438920|X-RAY Chest posteroanterior|300|0
+Vasu Diagnostic Centre|9911438920|X-RAY Lumber Spine anteroposterior Lateral|600|0
+Vasu Diagnostic Centre|9911438920|USG Whole Abdomen|2000|0
+Vasu Diagnostic Centre|9911438920|USG Upper Abdomen|1200|0
+Vasu Diagnostic Centre|9911438920|USG Lower Abdomen/ Pelvis|1200|0
+Vasu Diagnostic Centre|9911438920|USG Follicular Study|1200|0
+Vasu Diagnostic Centre|9911438920|USG Pelvis- Transvaginal|2200|0
+Vasu Diagnostic Centre|9911438920|USG KUB|4000|0
+Vasu Diagnostic Centre|9911438920|USG Abdomen + TVS|3500|0
+Vasu Diagnostic Centre|9911438920|USG Foetel well being/  USG Routine OBS|6500|0
+Vasu Diagnostic Centre|9911438920|USG Level - 1 (NT/NB) Ultrasound|4000|0
+Vasu Diagnostic Centre|9911438920|USG Level -2 Ultrasound|2200|0
+Vasu Diagnostic Centre|9911438920|USG OBS doppler|2700|0
+Vasu Diagnostic Centre|9911438920|USG Biophysical Profile|2500|0
+Vasu Diagnostic Centre|9911438920|OBS Doppler with biphysical profile|1800|0
+Vasu Diagnostic Centre|9911438920|USG Neck/Thyroid|2200|0
+Vasu Diagnostic Centre|9911438920|USG Breast One Sided/ Both|2200|0
+Vasu Diagnostic Centre|9911438920|USG Scrotum|2200|0
+Vasu Diagnostic Centre|9911438920|USG Chest|1500|0
+Vasu Diagnostic Centre|9911438920|Bleeding Time (BT)|500|0
+Vasu Diagnostic Centre|9911438920|Malaria Serology|1000|0
+Vasu Diagnostic Centre|9911438920|Prostate Specific Antigen (PSA) Total|150|0
+Vasu Diagnostic Centre|9911438920|Papanicolaou (PAP) Smear|250|0
+Vasu Diagnostic Centre|9911438920|Rheumatoid Arthritis (R A) Factor Qualitative|250|0
+Vasu Diagnostic Centre|9911438920|Rheumatoid Arthritis (R A) Factor Quantitative|250|0
+Vasu Diagnostic Centre|9911438920|Red Blood Cell (RBC) Count|250|0
+Vasu Diagnostic Centre|9911438920|HCV-G (Hepatitis C Virus IgG)|500|0
+Vasu Diagnostic Centre|9911438920|Immunoglobin IgA|650|0
+Vasu Diagnostic Centre|9911438920|INSULIN (F)|500|0
+Vasu Diagnostic Centre|9911438920|Insulin (P.P.)|1250|0
+Vasu Diagnostic Centre|9911438920|Fever Panel (CBC|50|0
+Vasu Diagnostic Centre|9911438920|MP|50|0
+Vasu Diagnostic Centre|9911438920|WIDAL)|50|0
+Vasu Diagnostic Centre|9911438920|BT|2000|0
+Vasu Diagnostic Centre|9911438920|CT|1200|0
+Dr. Abhinav Dixit|7428804189|TEETH WHITENING|2500|0
+Dr. Ketaki Toley|9911379399|Consultation|300|45
+Dr. Harikesh Yadav|9873759932|PTA|500|25
+Labomed Diagnostics|7838428005|AEC (Absolute Eosinophil Count)|160|25
+Labomed Diagnostics|7838428005|ALC(Absolute Lymphocyte Count)|145|25
+Labomed Diagnostics|7838428005|ANC (Absolute Neutrophil Count)|145|25
+Labomed Diagnostics|7838428005|ALB ( Albumin)|140|25
+Labomed Diagnostics|7838428005|Albumin - Cerebrospinal Fluid|130|25
+Labomed Diagnostics|7838428005|Acid-Fast Bacilli (AFB) Stain|2500|25
+Labomed Diagnostics|7838428005|Adenosine Deaminase (ADA)|660|25
+Labomed Diagnostics|7838428005|Bilirubin Direct|275|25
+Labomed Diagnostics|7838428005|Bilirubin Total|130|25
+Labomed Diagnostics|7838428005|Blood Urea|1000|25
+Labomed Diagnostics|7838428005|Blood Culture (BactlAlert)|1400|25
+Labomed Diagnostics|7838428005|Blood Urea Nitrogen (Bun)|130|25
+Labomed Diagnostics|7838428005|Beta HCG|550|25
+Labomed Diagnostics|7838428005|Beta HGC (Free)|920|25
+Labomed Diagnostics|7838428005|Bleeding Time (BT)|80|25
+Labomed Diagnostics|7838428005|Clotting Time (CT)|80|25
+Labomed Diagnostics|7838428005|Complete Blood Count (CBC)|290|25
+Labomed Diagnostics|7838428005|C-Peptide|1100|25
+Labomed Diagnostics|7838428005|Malaria Parasite (M.P)|130|25
+Labomed Diagnostics|7838428005|Montaux Test|100|25
+Labomed Diagnostics|7838428005|Occult Blood (Stool )|100|25
+Labomed Diagnostics|7838428005|Parathyroid Hormone (PTH)|1480|25
+Labomed Diagnostics|7838428005|Prothmbin Time (PT INR)|365|25
+Labomed Diagnostics|7838428005|Platelet Count (PLT)|140|25
+Labomed Diagnostics|7838428005|Potasium (K+)|170|25
+Labomed Diagnostics|7838428005|Progesterone (P4)|550|25
+Labomed Diagnostics|7838428005|Prolactin (PRL)|450|25
+Labomed Diagnostics|7838428005|Protein|200|25
+Labomed Diagnostics|7838428005|Prostate Specific Antigen (PSA) Total|700|25
+Labomed Diagnostics|7838428005|Prostate Specific Antigen (PSA) Free|1100|25
+Labomed Diagnostics|7838428005|Papanicolaou (PAP) Smear|960|25
+Labomed Diagnostics|7838428005|Rheumatoid Arthritis (R A) Factor Qualitative|290|25
+Labomed Diagnostics|7838428005|Rheumatoid Arthritis (R A) Factor Quantitative|450|25
+Labomed Diagnostics|7838428005|Red Blood Cell (RBC) Count|100|25
+Labomed Diagnostics|7838428005|Rubella ImmunoglobulinG (IgG)|500|25
+Labomed Diagnostics|7838428005|Reticulocyte Count|290|25
+Labomed Diagnostics|7838428005|Sodium ( NA +)|175|25
+Labomed Diagnostics|7838428005|Stool Exmination RIE|180|25
+Labomed Diagnostics|7838428005|Thyroxine (T4)|200|25
+Labomed Diagnostics|7838428005|Thyroid Stimulating Hormone (TSH)|480|25
+Labomed Diagnostics|7838428005|Creatinine Kinase/Creatine Phosphokinase(CK/CPK) Test|270|25
+Labomed Diagnostics|7838428005|Creatine Phosphokinase-MB (CK - MB)|390|25
+Labomed Diagnostics|7838428005|Chikungunya Igm|900|25
+Labomed Diagnostics|7838428005|CMV (Cyto Megalo Virus) IgG|590|25
+Labomed Diagnostics|7838428005|Coombs Test Direct ( DOT)|370|25
+Labomed Diagnostics|7838428005|Coombs Test Indirect ( ICT)|490|25
+Labomed Diagnostics|7838428005|Chloride (CL+)|220|25
+Labomed Diagnostics|7838428005|Cholesterol Total|135|25
+Labomed Diagnostics|7838428005|Cortisol (F)|495|25
+Labomed Diagnostics|7838428005|Creatinine|130|25
+Labomed Diagnostics|7838428005|Culture -Sputum|490|25
+Labomed Diagnostics|7838428005|Dengue (IgG & 'gm)|1100|25
+Labomed Diagnostics|7838428005|Dengue ( Ns-1 Antigen)|990|25
+Labomed Diagnostics|7838428005|Dehydroepiandrosterone (DHEA)|950|25
+Labomed Diagnostics|7838428005|Erythrocyte sedimentation rate (ESR)|100|25
+Labomed Diagnostics|7838428005|Estradiol (E2)|500|0
+Labomed Diagnostics|7838428005|Ferritin|690|25
+Labomed Diagnostics|7838428005|Gamma (GT) GGT|250|25
+Labomed Diagnostics|7838428005|Gram Stain|210|25
+Labomed Diagnostics|7838428005|Growth Hormone|710|25
+Labomed Diagnostics|7838428005|Homocysteine|1000|25
+Labomed Diagnostics|7838428005|IgE TOTAL (Immunoglobin Ige)|900|25
+Labomed Diagnostics|7838428005|Ionized Calcium (CA++)|500|0
+Labomed Diagnostics|7838428005|L.F.T. (liver Function Test)|675|25
+Labomed Diagnostics|7838428005|LlPID Profile|600|25
+Labomed Diagnostics|7838428005|Low Density Lipoprotein (LDL) CHOLESTEROL|280|25
+Labomed Diagnostics|7838428005|Lactate Dehydrogenase (LDH)|320|25
+Labomed Diagnostics|7838428005|LITHIUM|430|25
+Labomed Diagnostics|7838428005|Lipase|600|25
+Labomed Diagnostics|7838428005|LACTATE|960|25
+Labomed Diagnostics|7838428005|Magnesium|400|25
+Labomed Diagnostics|7838428005|Testosterone (Free)|1000|25
+Labomed Diagnostics|7838428005|Torch IgG & Igm|1900|25
+Labomed Diagnostics|7838428005|Torch IgG|1000|25
+Labomed Diagnostics|7838428005|Torch 1gM|1100|25
+Labomed Diagnostics|7838428005|Total Leucocyte Count (T.L.C)|210|25
+Labomed Diagnostics|7838428005|UREA|200|25
+Labomed Diagnostics|7838428005|UREA 24hrs URINE|200|25
+Labomed Diagnostics|7838428005|URIC ACID|210|25
+Labomed Diagnostics|7838428005|Vitamin B-12|825|25
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|ALB ( Albumin)|150|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Amoebic Serology|2500|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Antistreptolysin O (A.S.O.) Titer|400|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Blood Group (ABC & RH)|70|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Blood Sugar (Fasting)|100|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Blood Sugar (P.P.)|100|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Blood Sugar (Random)|50|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Blood Urea|200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Beta HCG|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Beta HGC (Free)|1200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Biopsy ( AFB Stain)|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Bleeding Time (BT)|200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Clotting Time (CT)|200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Complete Blood Count (CBC)|300|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Occult Blood (Stool )|150|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Parathyroid Hormone (PTH)|1500|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Prothmbin Time (PT INR)|350|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Potasium (K+)|150|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Prolactin (PRL)|500|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Protein|200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Prostate Specific Antigen (PSA) Total|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Prostate Specific Antigen (PSA) Free|1000|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Rheumatoid Arthritis (R A) Factor Qualitative|300|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Rubella ImmunoglobulinG (IgG)|550|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Rubella IV|550|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Semen R/E|200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Semen cis|200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Serum glutamic-oxaloacetic transaminase(SGOT)|120|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Serum glutamic pyruvic transaminase(SGPT)|120|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Sodium ( NA +)|150|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Triiodothyronine (T3)|250|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Free Triiodothyronine3 (FT3)|250|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Thyroxine (T4)|250|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Free Thyroxine (T4)|250|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Thyroid Stimulating Hormone (TSH)|300|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Testosterone (Total)|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|CA-125 0varian Cancer Marker|700|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|CA-15.3 Breast Cancer Marker|1100|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|CA19.9 Pan Creatic Cancer Marker|1100|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|CA-72.4 Castric Cancer Mark|1800|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Carcino Embryonic Antigen (CEA)|650|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Creatine Phosphokinase-MB (CK - MB)|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Coombs Test Direct ( DOT)|350|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Coombs Test Indirect ( ICT)|350|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Dengue (IgG & 'gm)|800|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Dengue ( Ns-1 Antigen)|700|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Dehydroepiandrosterone (DHEA)|2300|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Estradiol (E2)|520|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Folic Acid|1000|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Ferritin|700|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Follicle-stimulating hormone (FSH)|400|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|F.N. A. C.|800|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|K.F.T. (kidney Function Test)|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|L.F.T. (liver Function Test)|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Luteinizing Hormone (LH)|500|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|LITHIUM|650|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Lipase|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Magnesium|500|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Testosterone (Free)|1250|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Torch IgG & Igm|1200|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Torch IgG|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Torch 1gM|600|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|Tropinin 'T'|1500|0
+Gautam Diagnostic(unit of Gautam hospital)|9650085765|IgG|1000|0
+Yadav Diagnostics|9811961727|ANA LEVEL 3ML PLAIN|1250|25
+Yadav Diagnostics|9811961727|A.PHOSPHOLIPID A/B 3 ML PLAIN|750|25
+Yadav Diagnostics|9811961727|RUBELLA IGM|750|25
+Yadav Diagnostics|9811961727|AMH|2000|25
+Yadav Diagnostics|9811961727|S.HOMOCYSTINE|1500|25
+Yadav Diagnostics|9811961727|APA/ACA IgM|1500|25
+Yadav Diagnostics|9811961727|TORCH IgM|1500|25
+Yadav Diagnostics|9811961727|S.PROLECTIN|400|25
+Yadav Diagnostics|9811961727|FSH|450|25
+Yadav Diagnostics|9811961727|LH|400|25
+Yadav Diagnostics|9811961727|E2|850|25
+Yadav Diagnostics|9811961727|G6PD|650|25
+Yadav Diagnostics|9811961727|CA-125|1250|25
+Yadav Diagnostics|9811961727|CEA|750|25
+Yadav Diagnostics|9811961727|TB GOLD|2500|25
+Yadav Diagnostics|9811961727|LUPAS ANTI CONGULANT|1350|25
+Yadav Diagnostics|9811961727|VDRL TITER|650|25
+Yadav Diagnostics|9811961727|DOUBLE MARKER|2200|25
+Yadav Diagnostics|9811961727|QDUADERPAL MARKER|3200|25
+Yadav Diagnostics|9811961727|TRIPAL MARKER|2800|25
+Yadav Diagnostics|9811961727|Hb electrophorsis|950|25
+Yadav Diagnostics|9811961727|S.AMAYLASE|550|25
+Yadav Diagnostics|9811961727|S.LIPASE|500|25
+Yadav Diagnostics|9811961727|RETIC COUNT|250|25
+Yadav Diagnostics|9811961727|DHEAS|1200|25
+Yadav Diagnostics|9811961727|FERRITIN|850|25
+Yadav Diagnostics|9811961727|CORTISOL (MORNING)|650|25
+Yadav Diagnostics|9811961727|CORTISOL (MORNING)|650|25
+Yadav Diagnostics|9811961727|PROGESTERONE|1250|25
+Yadav Diagnostics|9811961727|TESTOSTERONE (TOTAL)|950|25
+Yadav Diagnostics|9811961727|TESTOSTERONE (FREE)|1250|25
+Yadav Diagnostics|9811961727|INSULIN FF|650|25
+Yadav Diagnostics|9811961727|INSULIN PP|650|25
+Yadav Diagnostics|9811961727|HERPES I & II IgG (HSV I&II )|1200|25
+Yadav Diagnostics|9811961727|TPO/TGA|1550|25
+Yadav Diagnostics|9811961727|CPK|550|25
+Yadav Diagnostics|9811961727|CPK MB|650|25
+Yadav Diagnostics|9811961727|blood culture|1250|25
+Yadav Diagnostics|9811961727|blood culture|1200|25
+Yadav Diagnostics|9811961727|IRON STUDES|1250|25
+Yadav Diagnostics|9811961727|URINE FOR AFB|350|25
+Yadav Diagnostics|9811961727|S.IGE LEVELS|900|25
+Yadav Diagnostics|9811961727|TROP-T|1500|25
+Yadav Diagnostics|9811961727|CBC|350|25
+Yadav Diagnostics|9811961727|HB|100|25
+Yadav Diagnostics|9811961727|PLATELET|100|25
+Yadav Diagnostics|9811961727|TLC|100|25
+Yadav Diagnostics|9811961727|DLC|100|25
+Yadav Diagnostics|9811961727|M.P|150|25
+Yadav Diagnostics|9811961727|M.P.ANTIGEN|350|25
+Yadav Diagnostics|9811961727|HBA1C|450|25
+Yadav Diagnostics|9811961727|HPLC|950|25
+Yadav Diagnostics|9811961727|G6PD|650|25
+Yadav Diagnostics|9811961727|DCT|650|25
+Yadav Diagnostics|9811961727|TROP-T|1200|25
+Yadav Diagnostics|9811961727|BLOOD GROUP|100|25
+Yadav Diagnostics|9811961727|ESR|100|25
+Yadav Diagnostics|9811961727|F.B.S|70|25
+Yadav Diagnostics|9811961727|PP.B.S|70|25
+Yadav Diagnostics|9811961727|R.B.S|70|25
+Yadav Diagnostics|9811961727|G.C.T|100|25
+Yadav Diagnostics|9811961727|G.T.T.C|100|25
+Yadav Diagnostics|9811961727|WIDAL|150|25
+Yadav Diagnostics|9811961727|TYAPHIDOT|550|25
+Yadav Diagnostics|9811961727|DENGUE NS1 Ag|600|25
+Yadav Diagnostics|9811961727|L.F.T|650|25
+Yadav Diagnostics|9811961727|SGOT|100|25
+Yadav Diagnostics|9811961727|SGPT|100|25
+Yadav Diagnostics|9811961727|ALKLINE|100|25
+Yadav Diagnostics|9811961727|BILIRUBIN TOTAL|100|25
+Yadav Diagnostics|9811961727|BILIRUBIN DIRECT|100|25
+Yadav Diagnostics|9811961727|T.PROTIN|100|25
+Yadav Diagnostics|9811961727|KFT|650|25
+Yadav Diagnostics|9811961727|BL.UREA|100|25
+Yadav Diagnostics|9811961727|S.CREATININE|100|25
+Yadav Diagnostics|9811961727|URIC ACID|100|25
+Yadav Diagnostics|9811961727|SODIUM|100|25
+Yadav Diagnostics|9811961727|POTASSIUM|100|25
+Yadav Diagnostics|9811961727|CALCIUM|100|25
+Yadav Diagnostics|9811961727|LIPID PROFILE|650|25
+Yadav Diagnostics|9811961727|T.CHOLESTEROL|150|25
+Yadav Diagnostics|9811961727|TRIGLYCERIDES|150|25
+Yadav Diagnostics|9811961727|HDL|150|25
+Yadav Diagnostics|9811961727|VITAMIN D3|1550|25
+Yadav Diagnostics|9811961727|VITAMIN B12|1250|25
+Yadav Diagnostics|9811961727|C.R.P|350|25
+Yadav Diagnostics|9811961727|R.A.FACTOR|250|25
+Dr. Renu Kundu|8307911285|TEETH WHITENING|20000|45
+Dr. Rajesh Yadav|9711680568|TEETH WHITENING|5000|0
+Dr. Reena Kawatra|9810027910|Consultation|600|0
+Dr. Deepika Sood|8285147100|Consultantion fees|600|45
+Dr. Anil K Sheorain|9999372044|consultantation|500|0
+Dr Rakesh kr panday|8860446066|TEETH WHITENING|5000|25
+Dr Rakesh kr panday|8860446066|Root canal treatment|3000|25
+Dr Rakesh kr panday|8860446066|Dental implant|25000|35
+Dr Rakesh kr panday|8860446066|Crown|3000|35
+OMC Premia Medicare Diagnostic Centre|9999928323|Prolactin (PRL)|500|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Prostate Specific Antigen (PSA) Free|1000|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Sodium ( NA +)|150|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Triiodothyronine (T3)|250|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Free Triiodothyronine3 (FT3)|250|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Thyroxine (T4)|250|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Free Thyroxine (T4)|250|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Luteinizing Hormone (LH)|500|0
+OMC Premia Medicare Diagnostic Centre|9999928323|LITHIUM|650|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Magnesium|500|0
+OMC Premia Medicare Diagnostic Centre|9999928323|Testosterone (Free)|1250|0
+Sheetla Diagnostic Point|9811541153|ALB ( Albumin)|150|0
+Sheetla Diagnostic Point|9811541153|Blood Sugar (Fasting)|100|0
+Sheetla Diagnostic Point|9811541153|Blood Sugar (P.P.)|100|0
+Sheetla Diagnostic Point|9811541153|Blood Sugar (Random)|50|0
+Sheetla Diagnostic Point|9811541153|Blood Urea|200|0
+Sheetla Diagnostic Point|9811541153|Occult Blood (Stool )|150|0
+Sheetla Diagnostic Point|9811541153|Parathyroid Hormone (PTH)|1500|0
+Sheetla Diagnostic Point|9811541153|Prothmbin Time (PT INR)|350|0
+Sheetla Diagnostic Point|9811541153|Potasium (K+)|150|0
+Sheetla Diagnostic Point|9811541153|Prolactin (PRL)|500|0
+Sheetla Diagnostic Point|9811541153|Protein|200|0
+Sheetla Diagnostic Point|9811541153|Prostate Specific Antigen (PSA) Total|600|0
+Sheetla Diagnostic Point|9811541153|Prostate Specific Antigen (PSA) Free|1000|0
+Sheetla Diagnostic Point|9811541153|Rheumatoid Arthritis (R A) Factor Qualitative|300|0
+Sheetla Diagnostic Point|9811541153|Rubella ImmunoglobulinG (IgG)|550|0
+Sheetla Diagnostic Point|9811541153|Rubella IV|550|0
+Sheetla Diagnostic Point|9811541153|Semen R/E|200|0
+Sheetla Diagnostic Point|9811541153|Semen cis|200|0
+Sheetla Diagnostic Point|9811541153|Serum glutamic-oxaloacetic transaminase(SGOT)|120|0
+Sheetla Diagnostic Point|9811541153|Serum glutamic pyruvic transaminase(SGPT)|120|0
+Sheetla Diagnostic Point|9811541153|Sodium ( NA +)|150|0
+Sheetla Diagnostic Point|9811541153|Triiodothyronine (T3)|250|0
+Sheetla Diagnostic Point|9811541153|Free Triiodothyronine3 (FT3)|250|0
+Sheetla Diagnostic Point|9811541153|Thyroxine (T4)|250|0
+Sheetla Diagnostic Point|9811541153|Free Thyroxine (T4)|250|0
+Sheetla Diagnostic Point|9811541153|Thyroid Stimulating Hormone (TSH)|300|0
+Sheetla Diagnostic Point|9811541153|Testosterone (Total)|600|0
+Sheetla Diagnostic Point|9811541153|K.F.T. (kidney Function Test)|600|0
+Sheetla Diagnostic Point|9811541153|L.F.T. (liver Function Test)|600|0
+Sheetla Diagnostic Point|9811541153|Luteinizing Hormone (LH)|500|0
+Sheetla Diagnostic Point|9811541153|LITHIUM|650|0
+Sheetla Diagnostic Point|9811541153|Lipase|600|0
+Sheetla Diagnostic Point|9811541153|Magnesium|500|0
+Sheetla Diagnostic Point|9811541153|Testosterone (Free)|1250|0
+Sheetla Diagnostic Point|9811541153|Torch IgG & Igm|1200|0
+Sheetla Diagnostic Point|9811541153|Torch IgG|600|0
+Sheetla Diagnostic Point|9811541153|Torch 1gM|600|0
+Sheetla Diagnostic Point|9811541153|Tropinin 'T'|1500|0
+Dr. Swati M Khanna|9560341249|Lumbago/Lower Back Pain|400|35
+Dr. Swati M Khanna|9560341249|K Taping Therapy|500|35
+Dr. Vikrant Deswal|9717300288|TEETH WHITENING|4500|0
+Dr. Diksha Ahuja|9310880404|TEETH WHITENING|6500|35
+Dr. Prashant Bhardwaj|9045321492|mastoidectomy|60000|25
+Dr. Prashant Bhardwaj|9045321492|Stapedotomy for otosclerosis|50000|25
+Dr. Prashant Bhardwaj|9045321492|Sinus Surgery|35000|25
+Dr. Prashant Bhardwaj|9045321492|Thyroid Surgery|60000|0
+Dr. Prashant Bhardwaj|9045321492|Diagnosis|2000|0
+Dr. Prashant Bhardwaj|9045321492|Replacing the damaged nerve (reinnervation)|20000|0
+Dr. Prashant Bhardwaj|9045321492|Ear Reconstructive Surgery|3000|0
+Dr. Prashant Bhardwaj|9045321492|Ear Lobe Correction / Repair|4000|0
+Dr. Prashant Bhardwaj|9045321492|Nosebleed (Epistaxis) Treatment|25000|0
+Dr. Prashant Bhardwaj|9045321492|Sinonasal Malignancies|50000|0
+Dr. Prashant Bhardwaj|9045321492|Hemithyroidectomy|50000|25
+Mercury Diagnostics|9650901714|ALB ( Albumin)|150|0
+Mercury Diagnostics|9650901714|Blood Sugar (Fasting)|100|0
+Mercury Diagnostics|9650901714|Blood Sugar (P.P.)|100|0
+Mercury Diagnostics|9650901714|Blood Sugar (Random)|50|0
+Mercury Diagnostics|9650901714|Blood Urea|200|0
+Mercury Diagnostics|9650901714|Occult Blood (Stool )|150|0
+Mercury Diagnostics|9650901714|Parathyroid Hormone (PTH)|1500|0
+Mercury Diagnostics|9650901714|Prothmbin Time (PT INR)|350|0
+Mercury Diagnostics|9650901714|Potasium (K+)|150|0
+Mercury Diagnostics|9650901714|Prolactin (PRL)|500|0
+Mercury Diagnostics|9650901714|Protein|200|0
+Mercury Diagnostics|9650901714|Prostate Specific Antigen (PSA) Total|600|0
+Mercury Diagnostics|9650901714|Prostate Specific Antigen (PSA) Free|1000|0
+Mercury Diagnostics|9650901714|Rheumatoid Arthritis (R A) Factor Qualitative|300|0
+Mercury Diagnostics|9650901714|Rubella ImmunoglobulinG (IgG)|550|0
+Mercury Diagnostics|9650901714|Rubella IV|550|0
+Mercury Diagnostics|9650901714|Semen R/E|200|0
+Mercury Diagnostics|9650901714|Semen cis|200|0
+Mercury Diagnostics|9650901714|Serum glutamic-oxaloacetic transaminase(SGOT)|120|0
+Mercury Diagnostics|9650901714|Serum glutamic pyruvic transaminase(SGPT)|120|0
+Mercury Diagnostics|9650901714|Sodium ( NA +)|150|0
+Mercury Diagnostics|9650901714|Triiodothyronine (T3)|250|0
+Mercury Diagnostics|9650901714|Free Triiodothyronine3 (FT3)|250|0
+Mercury Diagnostics|9650901714|Thyroxine (T4)|250|0
+Mercury Diagnostics|9650901714|Free Thyroxine (T4)|250|0
+Mercury Diagnostics|9650901714|Thyroid Stimulating Hormone (TSH)|300|0
+Mercury Diagnostics|9650901714|Testosterone (Total)|600|0
+Mercury Diagnostics|9650901714|K.F.T. (kidney Function Test)|600|0
+Mercury Diagnostics|9650901714|L.F.T. (liver Function Test)|600|0
+Mercury Diagnostics|9650901714|Luteinizing Hormone (LH)|500|0
+Mercury Diagnostics|9650901714|LITHIUM|650|0
+Mercury Diagnostics|9650901714|Lipase|600|0
+Mercury Diagnostics|9650901714|Magnesium|500|0
+Mercury Diagnostics|9650901714|Testosterone (Free)|1250|0
+Mercury Diagnostics|9650901714|Torch IgG & Igm|1200|0
+Mercury Diagnostics|9650901714|Torch IgG|600|0
+Mercury Diagnostics|9650901714|Torch 1gM|600|0
+Mercury Diagnostics|9650901714|Tropinin 'T'|1500|0

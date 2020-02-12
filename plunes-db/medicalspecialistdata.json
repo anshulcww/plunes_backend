@@ -1,0 +1,752 @@
+[{
+	"_id": {
+		"$oid": "5cfb4746c90fd1287fdf34c2"
+	},
+	"EXPERTISE": "Pediatrician",
+	"BIO": "specializes in children diseases and acute medical problems.",
+	"Symptoms": "Abdominal pain \nConstipation \nCough \nDiarrhea \nEar problems \nEarache \nEye discomfort and redness \nEye problems \nFever \nHeadaches \nJoint pain or muscle pain \nNasal congestion \nNausea or vomiting \nSkin rashes \nSore throat \nUrinary problems \nWheezing",
+	"COMMON DISEASE": "",
+	"Services": "Asthma care\nBehavior evaluations\nCircumcision for newborns\nDental services\nImmunizations\nScreenings: dental, hearing, lead, nutrition, tuberculosis, and vision\nSchool and sports physicals\nSick care and injuries\nTeen health\nTeen reproductive health\nWell child care\nCare of chronic disease",
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5cfb4746c90fd1287fdf34c3"
+	},
+	"EXPERTISE": "Physiatrist",
+	"BIO": "specializes in Physical Medicine and Rehabilitation (also called PM\u0026R physicians).",
+	"Symptoms": "",
+	"COMMON DISEASE": "Amputation,Brain Injury,Cancer,Cerebral Palsy,Dysphagia,Multiple Sclerosis and Other,Neurological Conditions,Muscular Dystrophy,Osteoarthritis",
+	"Services": "Physical medicine and rehabilitation",
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5cfb4746c90fd1287fdf34c4"
+	},
+	"EXPERTISE": "Physiologist",
+	"BIO": "Specializes in functions and activities of life or of living matter (such as organs, tissues, or cells) and of the physical and chemical phenomena involved",
+	"Symptoms": "",
+	"COMMON DISEASE": "Iron-Deficiency Anemia,Hemochromatosis,Iron-Reutilization Anemia,",
+	"Services": "Chronic diseases and conditions including, but not limited to, the following: ...\nMusculoskeletal and Neurological rehabilitation.\nLifestyle and behaviour change support including personal training.\nReturn to work, worker's compensation and injury treatment programs.\nLimited physical function and mobility",
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5cfb4746c90fd1287fdf34c5"
+	},
+	"EXPERTISE": "Physiotherapist",
+	"BIO": "Specializes in physical treatments such as massage, heat treatment, and exercise.",
+	"Symptoms": "Loss of balance \nRecurring Pain \nConstant Pain \nSlow Movement \nurination uncontrollably \nBent Bones",
+	"COMMON DISEASE": "deterioration of the joints, causing inflammation, pain, and restricted range of motion",
+	"Services": "Assessment, diagnosis and treatment services for movement issues\nDevelopment of treatment programs\nDevelopment of exercise programs\nInjury treatment\nManual therapy, such as massage and joint manipulation\nElectrotherapy, such as ultrasound and TENS (transcutaneous electrical nerve stimulation)\nTechnique correction\nTaping and splinting\nAdvice on mobility aids",
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5cfb4746c90fd1287fdf34c6"
+	},
+	"EXPERTISE": "Plastic Surgeon",
+	"BIO": "Specializes in surgery to reconstruct or repair parts of the body by the transfer of tissue.",
+	"Symptoms": "",
+	"COMMON DISEASE": "Liposuction\nBreast Augmentation\nBlepharoplasty,Abdominoplasty\nBreast Reduction,Rhinoplasty,Rhytidectomy,Breast Lift,Forehead Lift\nGynecomastia Treatment\nReconstructive Surgery\nFacialProcedures,Liposuction,TummyTuck(Abdominoplasty)Breast Surgery",
+	"Services": "abdominoplasty, or tummy tuck.\nblepharoplasty, or eyelid surgery.\nbotulinum toxin, or Botox® injections, and skin fillers, or Juvederm® injections, to smooth out wrinkles, crow's feet, and frown lines.\nbrachioplasty, or arm lift surgery.\nbreast augmentation using silicone or saline implants.breast lift\nbrow lift\nearlobe repair\nfacelift\nfacial implants\nfat injection\ngenioplasty, or chin reshaping\nlaser treatment for fine lines and blemishes\nliposuction\nmicroneedling for skin rejuvenation\nremoval of implants\nrhinoplasty, or nose reshaping\nscar revision\nskin peels to reduce the appearance of wrinkles, fine lines, and blemishes\nthigh lift\nVanquish noninvasive fat melting procedure",
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf371c"
+	},
+	"EXPERTISE": "Podiatrists",
+	"BIO": "Specializes in Feet Disorders and their Ailments (Also known as Chiropodist)",
+	"Symptoms": "Dry or cracked foot skin\ncalluses or hard foot skin\ncracked or dry toenails\ndiscolored toenails\na bad foot smell\nsharp or burning pain in foot\ntenderness in foot\nnumbness or tingling in foot\nsore or ulcer foot\npain in your calves (lower legs) when walking",
+	"COMMON DISEASE": "Athlete's foot,Bunions,Diabetic neuropathy,Ingrown toenails,Plantar fasciitis,Blisters,Corns,Heel spur.",
+	"Services": "Diabetic Foot Screening\nConducts minor surgery",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf371d"
+	},
+	"EXPERTISE": "Primatologist",
+	"BIO": "Primatologists study both Living and Extinct Primates in their Natural Habitats and in Laboratories by Conducting Field Studies and Experiments in Order to Understand Aspects of their Evolution and Behaviour.",
+	"Symptoms": "",
+	"COMMON DISEASE": "",
+	"Services": "biomedical and reproduction studies; ecology and conservation; and animal husbandry.",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf371e"
+	},
+	"EXPERTISE": "Psychiatrists",
+	"BIO": "Specializes in the Diagnosis and Treatment of Mental Ailments",
+	"Symptoms": "Confused thinking\nReduced ability to concentrate\nDeep, ongoing sadness, or feeling “down”\nInability to manage day-to-day stress and problems\nTrouble understanding situations and other people\nWithdrawal from others and from activities you used to enjoy\nExtreme tiredness, low energy, or sleeping problems\nStrong feelings of fear, worry, or guilt\nExtreme mood changes, from highs to lows, often shifting very quickly\nDetachment from reality (delusions), paranoia (belief that others are “out to get you,”) or hallucinations (seeing things that aren’t there)\nMarked changes in eating habits\nA change in sex drive\nDrug or alcohol abuse\nExcessive anger, hostility, and/or violence\nSuicidal thinking",
+	"COMMON DISEASE": "",
+	"Services": "psychological treatment, prescribe medications,electroconvulsive therapy",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf371f"
+	},
+	"EXPERTISE": "Psychologist",
+	"BIO": "Specializes in in the Diagnosis and Treatment of Mental illness",
+	"Symptoms": "Shock, denial, or disbelief\nConfusion, difficulty concentrating\nAnger, irritability, mood swings\nAnxiety and fear\nGuilt, shame, self-blame\nWithdrawing from others\nFeeling sad or hopeless\nFeeling disconnected or numb\nInsomnia or nightmares\nFatigue\nBeing startled easily\nDifficulty concentrating\nRacing heartbeat\nEdginess and agitation\nAches and pains\nMuscle tension",
+	"COMMON DISEASE": "",
+	"Services": "Evaluation and treatment for attention or behavioral problems. Evaluation and treatment for academic difficulties or developmental disorders, including autism. Evaluation and treatment for social and emotional difficulties, including depression and anxiety",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf3721"
+	},
+	"EXPERTISE": "Radiologists",
+	"BIO": "Specializes in Diagnosing and Treating Disease and Injury, Using Medical imaging Techniques",
+	"Symptoms": "",
+	"COMMON DISEASE": "x-rays, computed tomography (CT), magnetic resonance imaging (MRI), nuclear medicine, positron emission tomography (PET), fusion imaging, and ultrasound.",
+	"Services": "Biliary scans.\nBone scans.\nBone mineral analysis.\nNuclear cardiology.\nPositron emission tomography (PET)\nSentinel lymphoscintigraphy.\nThyroid scans",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf3722"
+	},
+	"EXPERTISE": "Reproductive Endocrinologist",
+	"BIO": "Obstetrician/Gynecologist (OB/GYN) Physician Specialist who has completed a Three-Year Fellowship of Intense Training in Various Aspects of Endocrine Disorders Related to the Reproductive System in Both Males and Females",
+	"Symptoms": "",
+	"COMMON DISEASE": "INFERTILITY,THYROID,REPRODUCTION,ENDOCRINE .",
+	"Services": "Adolescent endocrinology\nAndrology\nBlood tests to determine hormone levels, viral conditions, blood type and Rh factor\nCancer therapy and preserving fertility (oncofertility)\nClinical trials\nClomiphene citrate challenge test (CCCT)\nDirected (known) sperm donor\nDNA integrity (SCSA)\nDonor sperm bank - customerss purchase anonymous donor sperm\nDonor sperm list\nEgg donor program\nBecome an egg donor\nChoose an egg donor\nEgg preservation\nEmbryo cryopreservation and storage\nEmbryo freezing\nEndometriosis treatment\nEvaulation for fertility\nFertile hope – oncofertility program\nFertility lab\nFertility preservation\nFertility testing\nFertility treatment options\nFinancial services\nGenetic disorders\nGestational surrogacy\nHysterosalpingogram (HSG)\nHysteroscopy\nHysterosonogram\nIn vitro fertilization (IVF)\nIntegraMed shared-risk program for IVF\nIntracytoplasmic sperm Injection (ICSI)\nIntrauterine insemination (IUI)\nLab services\nLaparoscopic surgery\nM\nMenopause\nOncofertility: cancer threrapy and preserving fertility\nOptimized sperm penetration assay (SPA)\nOvulation induction\nPediatric and adolescent endocrinology\nPharmacy program\nPolycystic ovarian syndrom (PCOS)\nPreconception care\nPreimplantation genetic diagnosis\nQuantitative reproductive hormone assays\nRecurrent pregnancy loss\nReproductive endocrinology\nResearch programs\nSaline infusion sonography (SIS)\nSemen analysis\nSemen cryopreservation\nSperm bank\nSperm chromatin structure assay (SCSA)\nSperm donor (directed donor) program\nSperm preservation\nSurrogacy\nTesticular sperm aspiration (TESA)\nThird-party programs\nTubal sterilization reversal\nUltrasound",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf3723"
+	},
+	"EXPERTISE": "Rheumatologist",
+	"BIO": "Specializes in Diagnosis and Treatment of Musculoskeletal Disease and Systemic Autoimmune Conditions Commonly Referred to as Rheumatic Diseases",
+	"Symptoms": "Joint pain\nLoss of motion in a joint or joints\nInflammation -- swelling, redness, and warmth in a joint or affected area",
+	"COMMON DISEASE": "Osteoarthritis,Rheumatoid arthritis,Lupus,Spondyloarthropathies -- ankylosing spondylitis (AS) and psoriatic arthritis (PsA),Sjogren's syndrome,Gout,Scleroderma,Infectious arthritis.",
+	"Services": "Outpatient consultations.\nOutpatient specialty care for patients with chronic rheumatic diseases.\nHospital consultations.\nDiagnostic and therapeutic intra-articular and soft tissue injections and aspirations.\nOutpatient diagnostic arthroscopy.\nEducation on rheumatologic diseases and treatments.\nClinical trials",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf3724"
+	},
+	"EXPERTISE": "Sexologist",
+	"BIO": "Specializes in Sexual Relationships",
+	"Symptoms": "Low sex drive\nIntense sexual behavior\nUnmatching Sexual Needs\nobsessed and preoccupied with sexual thoughts\nfeel guilty about having sex\nbad sexual experience in the past\nunable to achieve an orgasm\nConfusion abouty sexual orientation\nunable to have an intercourse\nPainful sex",
+	"COMMON DISEASE": "diabetes,heart disease,neurological diseases,hormonal imbalances,menopause,chronic diseases such as kidney disease or liver failure,alcoholism,drug abuse, andside effects of medications, including antidepressant drugs",
+	"Services": "Relationship and Sex, Emotional Incompatibility, Sexual Incompatibility, Position, Posture, Movement Guidance, Erectile Dysfunction, Premature Ejaculation, Stress and Sex, Anorgasmia, Intimacy Issues feelings of inadequacy, performance anxiety, low sexual confidence, depression, nervousness, low self esteem",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf3725"
+	},
+	"EXPERTISE": "Surgeon",
+	"BIO": "Specializes in Medical Operations \u0026 Surgical Procedures",
+	"Symptoms": "",
+	"COMMON DISEASE": "Ambulatory Phlebectomy.Breast Biopsy, Core.Breast Biopsy, Open/Lumpetomy.Colon Cancer Surgery.Hemorrhoids.Laparoscopic Cholecystectomy.",
+	"Services": "",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf3726"
+	},
+	"EXPERTISE": "Thoracic Oncologist",
+	"BIO": "Specializes in Operating on Tumors found inside the Chest",
+	"Symptoms": "",
+	"COMMON DISEASE": "lung cancers, lung carcinoid tumors, thymic malignancies, and tracheal tumors",
+	"Services": "Lung cancer\nMediastinal cancer\nMesothelioma\nMetastatic tumors to the lungs\nNon-small cell lung cancer\nPleural cancer\nRespiratory system cancers\nSmall cell lung cancer\nTracheal cancer\nThymoma/thymic malignancies\nThymus/mediastinal cancer\nTumors of the chest wall",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d03298bc90fd1287fdf3727"
+	},
+	"EXPERTISE": "Urologist",
+	"BIO": "Specializes in Study, Treatment of the Function and Disorders of the Urinary System",
+	"Symptoms": "Blood in the urine\nPain when you urinate\nChanges in urinary pattern\nFrequent need to urinate\nInability to urinate\nWeak or hesitant urinary stream\nIncontinence (difficulty holding urine or leaking)\nPain in the lower abdomen\nFrequent urinary tract infections\nMale infertility\nMale impotence or erectile dysfunction\nMass in testicle",
+	"COMMON DISEASE": "proprostate cancer,bladder cancer,bladder prolapse.hematuria,erectile dysfunction ,nterstitial cystiti,overactive bladder,prostatitis.",
+	"Services": "Treatment for Enlarged Prostate (Benign Prostatic Hypertrophy)\nTreatment for Erectile Dysfunction\nFemale Urology Service\nreproductive endocrinologists ,\nMinimally Invasive Surgery\nPediatric Urology\nKidney (Renal) Transplant\nRenovascular Surgery\nUrodynamic Testing\nUrologic Cancer Care (Urologic Oncology)\nVasectomy",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3735"
+	},
+	"EXPERTISE": "Allergist",
+	"BIO": "Specializes in Hypersensitivity of Immune System to Substances in the Environment",
+	"Symptoms": "Runny Nose\nStuffy Nose\nSneezing\nWheezing\nShortness of Breath\nCough\nRashes\nFatigue\nHeadache\nNausea\nVomiting\nFever\nChest tightness\nCold",
+	"COMMON DISEASE": "Hay fever, Food allergies, Atopic Dermatitis, Allergic Asthma, and anaphylaxis. Symptoms may include red eyes, an itchy rash, sneezing, a runny nose, shortness of breath, or swelling..",
+	"Services": "Allergy testing,Prevention education,Prevention education,Immunotherapy,Allergy shots,Sublingual immunotherapy",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3736"
+	},
+	"EXPERTISE": "Andrologists",
+	"BIO": "Specializes in Male health, Male Reproductive System Problems, Urological Problems of Men",
+	"Symptoms": "pain in the genitals\nswellings of the testicles\nBending\nShortning\nbreast enlargement",
+	"COMMON DISEASE": "Infertility,Micropenis,Orchitis\n,Paraphimosis,Penile fracture,Peyronie's disease\nPhimosis,Post-vasectomy pain syndrome,Priapism,Prostate cancer\nProstatitis,Retrograde ejaculation\nSeminal vesiculitis,Spermatocele\nTesticular cancer,Testicular torsion\nVaricocele.",
+	"Services": "Consultation services,Semen analysis,Intrauterine insemination (IUI),Semen Cryopreservation,Sperm chromatin structure assay (SCSA),semen analysis, semen cryopreservation, and intrauterine inseminations,intracytoplasmic sperm injection (ICSI) ,surgical sperm harvest procedures,Semen Analysi,Semen Analysis with strict morphology,Antisperm Antibody Testing,Post-vasectomy Semen Analysis,Retrograde Ejaculation Evaluation,Testicular biopsy evaluation,Sperm Processing for A.R.T. Preparation Method,Semen and/or Testicular Tissue Cryopreservation and Thawing,Sperm banking",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3737"
+	},
+	"EXPERTISE": "Anesthesiologist",
+	"BIO": "Specializes in Preoperative Care-Anesthesia, Intensive Care Medicine, Critical Emergency Medicine and Pain Medicine",
+	"Symptoms": "",
+	"COMMON DISEASE": "",
+	"Services": "ANESTHESIA CONSULTING,PRACTICE MANAGEMENT,OFFICE-BASED SURGICAL FACILITIES,AMBULATORY SURGICAL CENTERS,HOSPITAL ANESTHESIA SERVICES",
+	"Symbolic": "",
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3738"
+	},
+	"EXPERTISE": "Audiologist",
+	"BIO": "Specializes in Hearing, Balance and related Disorders",
+	"Symptoms": "Constant Ringing\nBuzzing\nChirping\nHumming\nDizziness\nlight-headedness\nloss of balance\nfeelings of unsteadiness\ninner ear problem\nVertigo\nHearing Problem",
+	"COMMON DISEASE": "Tinnitus,Hearing loss,Hearing problem,sign language",
+	"Services": "Custom ear protection,Earwax removal,Tinnitus\nHearing aids\nHearing tests",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3739"
+	},
+	"EXPERTISE": "Ayurveda",
+	"BIO": "Ayurveda is a System of Medicine with Historical Roots in the Indian Subcontinent",
+	"Symptoms": "",
+	"COMMON DISEASE": "Home remedies, Consultations \u0026 treatments.",
+	"Services": "Pnchkarma,Daily warm oil massage (abhyanga)\nHerbal steam therapy (swedana)\nLymphatic massage\nHerbal enemas (basti)\nNasal administrations (nasya)\nOther special treatments\nAbhyanga,Shirodhara,Garshana,Swedana,Udvartana,Five Senses Therapy,Basti,Nasya,Pinda Swedana,Shiro-Abhyanga-Nasya",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf373a"
+	},
+	"EXPERTISE": "Cardiologist",
+	"BIO": "Specializes in Heart Diseases and Cardiovascular Diseases",
+	"Symptoms": "Heart Pain\nHigh Cholestrol\nHigh Blood Pressure\nSevere pressure in chest\nsqueezing in chest\npain in chest\ndiscomfort in the chest\nPain in Shoulders\nPain in Neck\nPain in Arms\nPain in Jaws\nChest Pain with Sweating\nChest Pain with Clammy skin\nChest Pain with Paleness\nChest Pain with Shortness of Breath\nChest Pain Nausea\nChest Pain with Vomiting\nHoarseness\nDifficulty swallowing\nHeart palpitations\nAnxiety\nLow blood pressure",
+	"COMMON DISEASE": "Heart Disorders,Circulatory system Disorders,congenital heart defects, coronary artery disease, heart failure, valvular heart disease, electrophysiology",
+	"Services": "interventional cardiology,male cardiovascular health clinic.\n,non-invasive testing,rapid access chest pain,stress echocardiography,structural intervention,valve disease",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf373b"
+	},
+	"EXPERTISE": "Cardiovascular Surgeon .",
+	"BIO": "Specializes in Surgical Procedures of the Heart, Lungs, Esophagus and Organs in the Chest",
+	"Symptoms": "",
+	"COMMON DISEASE": "coronary artery bypass surgery,heart valve surgery,aortic surgery,septal defects",
+	"Services": "· Aortic Valve Surgery\n· Coronary Artery Bypass Grafting (CABG)\n· Minimally Invasive Heart Surgery\n· Mitral Valve Surgery\n· ExtraCorporeal Membrane Oxygenation (ECMO)",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf373c"
+	},
+	"EXPERTISE": "Clinical Neurophysiologist",
+	"BIO": "Specializes in Nervous System Disorder",
+	"Symptoms": "",
+	"COMMON DISEASE": "",
+	"Services": "Intra-operative Spinal Cord Monitoring (SCM)Sensory Evoked Potentials (SEPs)Motor Evoked Potentials (MEPs)lectromyography Clinics (EMGs)Nerve Conduction Studies (NCS)Carpal Tunnel Diagnostic ClinicsKinesiological Electromyography Studies",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf373d"
+	},
+	"EXPERTISE": "Dentist",
+	"BIO": "Specializes in Conditions that affect the Teeth and Gums, Repair, Extraction of Teeth Artificia Insertion",
+	"Symptoms": "Tooth ache\nSensitive Teeth\nBleeding in Gums\nSore Gums\nMouth Sores\nBad Breath\nJaw Pain\nPopping/Clicking in the Jaw\nDry Mouth\nOral Piercing Infection\nCracked Teeth\nBroken Teeth\nStained Teeth\nDiscoloured teeth\nCosmetic Needs\nOral Cancer\ntooth erosion",
+	"COMMON DISEASE": "Dentist,Bonding,Braces,Bridges and Implants,Crowns and Caps,Dentures,Extractions,Fillngs and Repairs,Gum Surgery,Oral Cancer Examinations,Root Canals\n,Sealants,Teeth Whitening,Veneers",
+	"Services": "Complete exams, x-rays, and dental cleanings.\n· Fillings, root canals, and extractions.\n· Cosmetic dentistry, such as whitening, porcelain and composite veneers.\n· Implants - placement and restoration.\n· Crowns, bridges, full and partial dentures.\n· Implants.\n· Orthodontics.\n· Oral appliances for control of sleep apnea.\nOrthodontics\nOral appliances for control of sleep apneaman and woman smiling\nPreventive care, periodontal therapy, and nutritional counseling\nRelaxation techniques using nitrous oxide sedation",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf373e"
+	},
+	"EXPERTISE": "Dermatologist",
+	"BIO": "Specializes in Diagnose and Skin Disorders",
+	"Symptoms": "Acne\nEczema\nSwelling of Skin\nPsoriasis\nItchy Skin\nSigns of Aging\nSkin Cancer\nHair Loss\nItchy, red scalp\nSunburn\nNew Skin Growth\nChanging Mole\nChaning in Nale Growth\nPermanent Blushing\nRashes\nSore not healing\nExcessive Sweating",
+	"COMMON DISEASE": "Vitiligo, Acne,Dermatitis and eczema,Fungal infections,Psoriasis,Skin cancer,Warts,Biopsies,Chemical peels,Cosmetic injections,Hair removal and restoration,Laser surgery",
+	"Services": "CoolSculpting\nEyelash Enhancements\nFillers \u0026 Injections (BOTOX®, Juvederm®, Radiesse®)\nLaser Hair Removal\nLaser Treatments\nMicrodermabrasion \u0026 Chemical Peels\nPhotodynamic Therapy\nSkin Cancer Treatment – including Mohs’ Micrographic Surgery\nTattoo removal\nVein Therapy",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf373f"
+	},
+	"EXPERTISE": "Diabetologist",
+	"BIO": "Specializes in the Diabetes Diagnosis, Treatment and Follow-Up",
+	"Symptoms": "Dryness in the throat\nFrequent urination\nIncrease of appetite\nWeight loss\nExtreme tiredness\nIrritability\nVision problem\nSlow-healing sores\nFrequent infections",
+	"COMMON DISEASE": "HYPERBARIC OXYGEN THERAPY,GLUCOSE TOLERANCE TEST,A1C DIABETES TEST",
+	"Services": "diet, exercise, and medications",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3740"
+	},
+	"EXPERTISE": "Dietician",
+	"BIO": "Specializes in Diagnose and Treat Nutritional Problems",
+	"Symptoms": "Allergy\nIntolerence\nIrregular Bowel Movement\nBloating\nGas\nDiarrhoea\nLactose Intolerant\nExcessive Weight Loss\nExcessive Weight Gain\nHeartburn\nOver eating\nHigh Cholestrol\nDeit not working\nAlways tired",
+	"COMMON DISEASE": "",
+	"Services": "diet, exercise, and medications",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3741"
+	},
+	"EXPERTISE": "Emergency Doctors",
+	"BIO": "Specializes in illnesses or injuries requiring immediate Medical Attention",
+	"Symptoms": "",
+	"COMMON DISEASE": "Jackof all trades",
+	"Services": "",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3742"
+	},
+	"EXPERTISE": "Endocrinologist",
+	"BIO": "Specializes in Endocrine Glands and Hormones Disorders",
+	"Symptoms": "Dryness in the throat\nFrequent urination\nIncrease of appetite\nWeight loss\nExtreme tiredness\nIrritability\nVision problem\nSlow-healing sores\nFrequent infections\nHigh Sugar Level",
+	"COMMON DISEASE": "Adrenal disorders,Osteoporosis and bone health,Diabetes,Endocrine disorders in children- lack of growth, problems with puberty,high cholesterol, triglycerides, high blood pressure,infertility, testosterone levels",
+	"Services": "· Diabetes\n· Thyroid diseases\n· Metabolic disorders\n· Over or under production of hormones\n· Menopause\n· Osteoporosis\n· Hypertension\n· Cholesterol (lipid) disorders\n· InfertilityLack of growth (short statureCancers of the endocrine glands",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3743"
+	},
+	"EXPERTISE": "ENT Specialist",
+	"BIO": "Specializes in Ear, Nose and Throat Problems",
+	"Symptoms": "Sinus Pain\nSore Throat\nCongestion\nHearing loss\nAirway Blockage\nHeadaches\nDrainage in nose\nDifficulty breathing\nNosebleeds\nConstant Ringing\nBuzzing\nChirping\nHumming\nDizziness\nlight-headedness\nloss of balance\nfeelings of unsteadiness\ninner ear problem\nVertigo\nHearing Problem",
+	"COMMON DISEASE": "hearing loss, vertigo, acid reflux, cancers of the ear, nose and throat",
+	"Services": "sinus endoscopic unit, audiometry, tympanoplasty, rhinoplast,\nreatment of injuries and diseases of the ear, nose and throat disorder",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3744"
+	},
+	"EXPERTISE": "Epidemiologists",
+	"BIO": "$EXPERTISE",
+	"Symptoms": "",
+	"COMMON DISEASE": "",
+	"Services": "",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3745"
+	},
+	"EXPERTISE": "Family Practitioner",
+	"BIO": "Specializes in Minor or Chronic illnesses ",
+	"Symptoms": "",
+	"COMMON DISEASE": "Common problem,fever,cold,cough",
+	"Services": "Common medical problems acute",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3746"
+	},
+	"EXPERTISE": "Foetal Medicine",
+	"BIO": "Specializes in High-Risk Pregnancy ",
+	"Symptoms": "Vaginal bleeding during pregnancy\nSevere headaches during pregnancy\nPain or cramping in the lower abdomen during pregnancy\nWatery vaginal discharge — in a gush or a trickle during pregnancy\nRegular or frequent contractions — a tightening sensation in the abdomen during pregnancy\nDecreased fetal activity during pregnancy\nPain or burning with urination during pregnancy\nChanges in vision, including blurred vision during pregnancy",
+	"COMMON DISEASE": "",
+	"Services": "Multiple births. Maternal Fetal Assessment Unit (MFAU) Preterm Birth Clinic Service. Fetal medicineunit (FMU) Fetal surgery (Centre for Prenatal Therapy)",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3747"
+	},
+	"EXPERTISE": "Gastroenterologist",
+	"BIO": "Specializes in Stomach and Intestines Disorders",
+	"Symptoms": "Rectal bleeding.\nLeakage / underwear stains.\nBowel movement urges that are hard to control.\nDiarrhea.\nChanges in bowel habits.\nPale-colored stools.\nDark urine.",
+	"COMMON DISEASE": "Appendicitis,Alcoholic Hepatitis\n,Cirrhosis of the liver,Cholecystitis,Crohn's Disease,Diverticulosis,Esophageal Varices,Gallstones,Gastritis,Gastroenteritis,Hepatitis B,Hernia,Non-Alcoholic Fatty Liver Disease,Stomach Ulcers,Ulcerative Colitis",
+	"Services": "· Endoscopy\n· Radiology\n· Dietetics and Nutrition\n· 24hr PH manometry and anorectal physiology\n· Screening and surveillance\n· Open surgical procedures involve an appropriate sized incision made over the area of the body to be operated. The patient may require a post operative stay of minimal 5-7 days or more depending on the complexity of the procedure.\n· Oesophageal disorders: reflux, motility problems, malignancy\n· Peptic ulcer disease\n· Complex luminal disease: e.g. inflammatory bowel diseases like irritable bowel syndrome and gastrointestinal infections\n· liver transplant,Gall bladder: cholecystitis, stones, cancer\n· Complex liver disease, viral hepatitis, infection autoimmune disease\n· Acute and chronic pancreatitis\n· Pancreatic Cancer\nColonoscopy,Upper Endoscopy",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3748"
+	},
+	"EXPERTISE": "General Psychiatrist",
+	"BIO": "Specialize in Management and Treatment of Adults with Mental Health Problems",
+	"Symptoms": "impulsive\nmood swings\nworry excessively\nFeel Anxious\npast or recent traumatic events\nsuicidal Thoughts\nemotional pain\nanger management issues\nbad temper\nirrational fears\ntroubled relationship with food\nEating Disorders\nPersonality Disorders\nAddiction\nMood Disorders\nThought Disorders\nDevelopmental Disorders\nAnxiety",
+	"COMMON DISEASE": "Neurodevelopmental Disorders,Autism spectrum disorder,Attention-deficit hyperactivity disorder,Bipolar and Related Disorders,Anxiety Disorders",
+	"Services": "",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3749"
+	},
+	"EXPERTISE": "Genetic Counselor",
+	"BIO": "Specializes in Genetics and Genetic Counseling",
+	"Symptoms": "developmental delay\nmental retardation\ncongenital abnormalities\ngrowth problems\ndroopy eyes\nFlat Face\nShort Fingers\nTall Stature",
+	"COMMON DISEASE": "Down syndrome,Haemophilia",
+	"Services": "risk assessment and genetic test",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf374a"
+	},
+	"EXPERTISE": "Gynaecologist",
+	"BIO": "Specializes in Women Disease, Women Wellness",
+	"Symptoms": "Abnormal vaginal discharge\nChanges in menstrual cycle\nChanges in periods cycle\nSore in Genital region\ndifficulty urinating\nblood in urine\nurge to urinate\nCramps\nirritable bowel\nPainful sex\nSexual assault\nUnplanned, unprotected intercourse\nSpotting after sex\nBleeding after menopause\nlost tampon",
+	"COMMON DISEASE": "Hormone imbalance,Tubal or ectopic pregnancy,Molar pregnancy,Placenta previa - pregnancy where the placenta lies low near or over the cervix,Uterine fibroids, cysts and tumors,Endometriosis,Birth control pills, IUD (intrauterine device",
+	"Services": "General obstetric and gynecologic care\nHigh-risk obstetrics\nMaternal-Fetal Medicine\nFertility and reproductive services\nGynecologic Oncology\nMenopause treatment\nMinimally invasive surgery\nHysteroscopy\nLaparoscopy\nEndometrial ablation (NovaSure)\nUrogynocological services\nNon-incisional sterilization for permanent contraception (Essure)\nShared medical appointments\nOn-site imaging services including MRI, CT and ultrasound",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf374b"
+	},
+	"EXPERTISE": "Hematologist",
+	"BIO": "Specialize in Physiology, Pathology, Etiologyt, Prognosis, Blood-related disorders",
+	"Symptoms": "frequent infections\nwounds that do not heal or are slow to heal\nunexplained exhaustion\nunexplained weight loss\nshortness of breath\ndizziness or light-headedness\nrapid heartbeat\nmuscle weakness\ndifficulty concentrating and remembering\npaleness\nSlow Healing\nBruise\nNose Bleeding\nGum Bleeding",
+	"COMMON DISEASE": "blood clots, and blood cancers such as leukemia, lymphoma, and myeloma",
+	"Services": "Risk evaluation.\nBone marrow testing.\nImmunotherapy.\nMonoclonal antibody therapy.\nChemotherapy",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf374c"
+	},
+	"EXPERTISE": "Hepatologists",
+	"BIO": "Prevention, Diagnosis and Management of Diseases that affect the Liver, Gallbladder, Biliary Tree and Pancreas",
+	"Symptoms": "Weakness and fatigue\nWeight loss\nNausea\nVomiting\nJaundice (yellow skin and eyes)",
+	"COMMON DISEASE": "hepatitis B , hepatitis C",
+	"Services": "Alcohol related liver disease\n\nAssessment of abnormal liver function tests\n\nAutoimmune related liver disease including Primary Sclerosing Cholangitis, Primary Biliary Cholangitis, autoimmune hepatitis and IgG4 related disease\n\nBile duct abnormalities\n\nCongenital liver disease\n\nGall bladder disease\n\nInherited and metabolic liver disease including: Wilson’s disease, alpha-1-antitrysin deficiency, haemochromatosis and glycogen storage diseases\n\nLiver cirrhosis and its complications\n\nLiver tumours (benign and malignant)\n\nNon-alcohol related liver disease\n\nVascular liver disease e.g. Budd-Chiari syndrome\n\nViral hepatitis\n\n\n\nWe also provide specialist services for patients with:\nBiliary Disease\nComplex endoscopic retrograde cholangiopancreatography (ERCP)\n\nPercutaneous biliary drainage (PTC/PTD)\n\nLaparoscopic cholecystectomy / open cholecystectomy\n\nSurgical resection of intra- and extra-hepatic biliary malignancies\n\nLiver disease\nManagement of acute and sub-acute liver failure\n\nLiver transplant assessment and pre and post-operative care\n\nLiver resection for tumours using open and laparoscopic approaches\n\nTransarterial chemoembolisation (TACE)\n\nAblation of liver tumours using radiofrequency and microwave techniques\n\nHepatic venous wedge pressure (HVWP) measurements\n\nTransjugular intrahepatic portosystemic shunting (TIPS)",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf374d"
+	},
+	"EXPERTISE": "Homeopathy",
+	"BIO": "System of Alternative Medicine Ailments are treated by minute doses of Natural Substances that in larger amounts would produce Symptoms of the Ailment",
+	"Symptoms": "",
+	"COMMON DISEASE": "frequent colds, sore throats, and chest problems",
+	"Services": "",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf374e"
+	},
+	"EXPERTISE": "Immunologist",
+	"BIO": "Specializes in Diagnosis, Treatment of Allergies, Asthma and Immune Deficiency Disorders",
+	"Symptoms": "Runny Nose\nStuffy Nose\nSneezing\nWheezing\nShortness of Breath\nCough\nRashes\nFatigue\nHeadache\nNausea\nVomiting\nFever\nChest tightness\nCold",
+	"COMMON DISEASE": "ASTHMA,COLD,ALLERGIES.",
+	"Services": "Autoimmune disease\nHypersensitivity\nImmune disorder\nImmunodeficiency\nSignificant tests\nAgglutination\nImmunoassay\nImmunoprecipitation\nSerology",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf374f"
+	},
+	"EXPERTISE": "Infectious Disease Specialist",
+	"BIO": "Specializes in Diagnosis, Control and Treatment of Infections",
+	"Symptoms": "Fever\nDiarrhea\nFatigue\nMuscle aches\nCoughing\nAnimal Bitten\nTrouble breathing\nSevere headache with fever\nSwelling\nnexplained fever\nSudden Vision Problems",
+	"COMMON DISEASE": "HIV/AIDS,Herpes,Hepatitis B,Hepatitis C,Influenza",
+	"Services": "Infections, e.g. osteomyelitis, pneumonia, tuberculosis, HIV/AIDS, influenza, also public health issues e.g. epidemics, antimicrobial resistance, bioterrorism\nSignificant tests Gram staining, microbiological cultures (including blood cultures), serological tests, genotyping, polymerase chain reaction (PCR), medical imaging",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3750"
+	},
+	"EXPERTISE": "Internal Medicine Specialist",
+	"BIO": "Specializes in Prevention, Diagnosis and Treatment of Adult Diseases",
+	"Symptoms": "diabetes\nHigh Blood Pressure\nprimary care\nChanges in life\nmammograms\nCholestrol screening\nBlood pressure screening\nacute illness",
+	"COMMON DISEASE": "Acute respiratory infections,Asthma,Bronchitis.Chest pain,Diabetes,Fatigue,\nHigh blood cholesterol and triglycerides,Hypertension.",
+	"Services": "General medicine\nRespiratory disease\nVascular and heart disease\nBlood problems\nKidney problems\nJoint and rheumatologic problems\nDigestive problems\nEndocrine and hormonal problems\nUrinary problems\nNeurological problems\nInfectious disease\nMental health\nDiabetes",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3751"
+	},
+	"EXPERTISE": "Internist",
+	"BIO": "A physician who Specializes in the Diagnosis and Medical Treatment of Adults",
+	"Symptoms": "diabetes\nHigh Blood Pressure\nprimary care\nChanges in life\nmammograms\nCholestrol screening\nBlood pressure screening\nacute illness",
+	"COMMON DISEASE": "Acute respiratory infections,Asthma,Bronchitis,Chest pain,Diabetes,Fatigue,blood cholesterol and triglycerides,Hypertension (high blood pressure)",
+	"Services": "General medicine\nRespiratory disease\nVascular and heart disease\nBlood problems\nKidney problems\nJoint and rheumatologic problems\nDigestive problems\nEndocrine and hormonal problems\nUrinary problems\nNeurological problems\nInfectious disease\nMental health\nDiabetes",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3752"
+	},
+	"EXPERTISE": "Medical Geneticist",
+	"BIO": "Specializes in Genetics to Medical Care, Gentic Disorder Research",
+	"Symptoms": "",
+	"COMMON DISEASE": "cancer, diabetes, cardiovasculardiseases, mental health and asthma",
+	"Services": "Developmental delay\nIntellectual disability\nAutism spectrum disorders\nBirth defects\nKnown genetic syndromes in the family, such as neurofibromatosis, achondroplasia, or osteogenesis imperfecta\nSuspicion of a known genetic syndrome\nChromosome abnormality",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3753"
+	},
+	"EXPERTISE": "Microbiologist",
+	"BIO": "A Microbiologist is a Scientist who studies Microscopic Organisms including Bacteria, Algae and Fungi",
+	"Symptoms": "",
+	"COMMON DISEASE": "",
+	"Services": "Bioburden Analysis.\nEnvironmental Monitoring.\nMicroscopic Procedures.\nWater Testing.\nBacterial Endotoxin Testing.\nBacterial Retention Validation.\nParticulate Matter.\nSterility Testing",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3754"
+	},
+	"EXPERTISE": "Neonatologist",
+	"BIO": "Specializes in Pediatrics, Newborn Infants, ill or Premature Newborn Medical Care.",
+	"Symptoms": "Tremors (trembling)\nIrritability (excessive crying)\nSleep problems\nHigh-pitched crying\nTight muscle tone\nSeizures\nFever or unstable temperature\nSweating\nDehydration\nDiarrhea\nHyperactive reflexes\nVomiting\nPoor feeding and suck\nYawning, stuffy nose, and sneezing",
+	"COMMON DISEASE": "newborns born premature, critically ill, or in need of surgery",
+	"Services": "Complex Neonatal Surgery. Continuous Renal (Kidney) Replacement Therapy (CRRT) (Hemodialysis and Peritoneal Dialysis) Extracorporeal Membrane Oxygenation (ECMO) High-Frequency Ventilation. Hypothermia (Body Cooling)",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3755"
+	},
+	"EXPERTISE": "Nephrologists",
+	"BIO": "Specializes in Kidney Health and Kidney Disease.",
+	"Symptoms": "Severe swelling (edema), around eyes and in ankles and feet\nFoamy urine, by excess protein in your urine\nWeight gain due to excess fluid retention\nFatigue\nLoss of appetite",
+	"COMMON DISEASE": "Amyloidosis,Diabetic kidney disorder,Electrolyte disorders,Glomerulonephritis,Hypertension (chronic hypertension) ,Kidney disease.",
+	"Services": "Chronic kidney disease program.\nKidney stone management program.\nHereditary kidney disease program.\nKidney and kidney-pancreas transplantation.Kidney biopsies",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3756"
+	},
+	"EXPERTISE": "Neurologist",
+	"BIO": "Specializes in Anatomy, Functions and Organic Disorders of Nerves and the Nervous System",
+	"Symptoms": "Partial or complete paralysis\nMuscle weakness\nPartial or complete loss of sensation\nSeizures\nDifficulty reading and writing\nPoor cognitive abilities\nUnexplained pain\nDecreased alertness\nHeadaches\nBlurry vision\nFatigue\nChanges in behavior\nNumbness in the legs or arms\nChanges in coordination or balance\nWeakness\nSlurred speech\nTremors",
+	"COMMON DISEASE": "Neurological disorders mentioned on Wikipedia\nCluster headache\nDizziness\nNeuralgia\nNeurodegeneration\nCerebral palsy\nChronic fatigue syndrome\nComplex regional pain syndrome\nDemyelinating disease\nMeralgia paraesthetica\nArachnoid cyst\nAutism\nNeurofibromatosis type II\nPostherpetic neuralgia\nNeurofibromatosis type I\nKorsakoff syndrome\nOccipital neuralgia",
+	"Services": "Alzheimer's Disease \u0026 Dementia.\nAmyotrophic Lateral Sclerosis (ALS) \u0026 Neuromuscular Diseases Clinic.\nAtaxia.\nBrain Tumors.\nCerebral Cavernous Malformation (CCM)\nHereditary Hemorrhagic Telangiectasia (HHT)\nMigraines.\nNeurofibromatosis",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3757"
+	},
+	"EXPERTISE": "Neurosurgeons",
+	"BIO": "Specializes in Surgies of Disorders of the Brain and Spinal Cord",
+	"Symptoms": "Partial or complete paralysis\nMuscle weakness\nPartial or complete loss of sensation\nSeizures\nDifficulty reading and writing\nPoor cognitive abilities\nUnexplained pain\nDecreased alertness\nHeadaches\nBlurry vision\nFatigue\nChanges in behavior\nNumbness in the legs or arms\nChanges in coordination or balance\nWeakness\nSlurred speech\nTremors",
+	"COMMON DISEASE": "Minimally Invasive Spine Surgery,Microvascular Decompression,Peripheral Nerve Surgery,Base of Skull Surgery,Pituitary Surgery,Cervical Spine Surgery,Functional Neurosurgery,Brain Tumour Excision",
+	"Services": "Neurology \u0026 Neurosurgery.\nConditions \u0026 Services. Alzheimer's Disease \u0026 Dementia. Amyotrophic Lateral Sclerosis (ALS) \u0026 Neuromuscular Diseases Clinic. Ataxia. Brain Tumors. ...\nCongenital Anomalies of the Nervous System.\nEpilepsy \u0026 Seizures.\nMultiple Sclerosis.\nNeurosurgery.\nParkinson's Disease \u0026 Movement Disorders.\nResearch",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3758"
+	},
+	"EXPERTISE": "Obstetrician",
+	"BIO": "Specializes in Pregnancy, Childbirth and the Postpartum Period",
+	"Symptoms": "Abnormal vaginal discharge\nChanges in menstrual cycle\nChanges in periods cycle\nSore in Genital region\ndifficulty urinating\nblood in urine\nurge to urinate\nCramps\nirritable bowel\nPainful sex\nSexual assault\nUnplanned, unprotected intercourse\nSpotting after sex\nBleeding after menopause\nlost tampon",
+	"COMMON DISEASE": "· Damaged cervix,Adhesiolysis,Cervical (Cone) Biopsy,bolporrhaphy,Colposcopy,Dilation and Curettage (D\u0026C),Endometrial Ablation.\n,Endometrial or Uterine Biopsy,Fluid-Contrast Ultrasound .",
+	"Services": "Prenatal care.\nLabor and birth care.\nAnnual gynecologic exams, including Pap smear test and breast exam.\nContraceptive counseling.\nSexually transmitted disease treatment.\nAbnormal Pap test treatment, including colposcopy, cryosurgery and cone biopsy.",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3759"
+	},
+	"EXPERTISE": "Oncologist",
+	"BIO": "Specializes in Cancer ",
+	"Symptoms": "change in bowel habits or bladder function (colon, bladder or prostate cancers);\nsores that do not heal (skin or oral cancers);\nwhite patches inside the mouth or white spots on the tongue (leukoplakia; sometimes leading to oral cancer);\nunusual bleeding or discharge (lung, gastrointestinal, gynecologic or urologic cancers);\nthickening or lump in the breast or other parts of the body (breast, testicular, lymph node or soft tissue cancers);\nindigestion or trouble swallowing (gastrointestinal cancers);\nrecent change in a wart or mole; any new skin change (skin cancers); and\nnagging cough or hoarseness (voice box, thyroid or lung cancers).",
+	"COMMON DISEASE": "Chemotherapy,surgical, and radiation",
+	"Services": "Hormone therapy.\nInfusion therapy.\nHydration therapy.\nNutrition counseling.\nAncillary services \u0026 suppor",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf375a"
+	},
+	"EXPERTISE": "Ophthalmologist",
+	"BIO": "Specializes in the Study and Treatment of Disorders and Diseases of the Eye.",
+	"Symptoms": "Severe, sudden eye pain\nRecurrent pain in or around the eye\nHazy, blurred, or double vision\nSeeing flashes of light or sudden bright floating spots\nSeeing rainbows or halos around lights\nSeeing floating \"spider webs\"\nSeeing a \"curtain coming down\" over one eye\nSensing a \"cup filling up with ink\" in one eye\nUnusual, even painful, sensitivity to light or glare\nSwollen, red eyes\nChanges in the color of the iris\nWhite areas in the pupil of the eye\nSudden development of persistent floaters\nItching, burning, or a heavy discharge in the eyes\nAny sudden change in vision",
+	"COMMON DISEASE": "LASIK, photorefractive keratectomy,Cataract Surgery. Cataracts develop over the lens of your eye, making it cloudy,Glaucoma Surgery,Diabetic Retinopathy Surgery,Macular Degeneration Surgery",
+	"Services": "glaucoma.\ncataracts.\nmedical retina.\nsurgical retina.\neyelids and orbits. .\ncornea.\ninflammatory eye disease /uveitis.",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf375b"
+	},
+	"EXPERTISE": "Orthopedic Surgeon",
+	"BIO": "Specializes in Diagnosis, Preoperative, Operative and Postoperative Treatment of Diseases and Injuries of the Musculoskeletal System",
+	"Symptoms": "",
+	"COMMON DISEASE": "Hip replacement,Schilling tendon procedure,Shoulder replacementShoulder surgery,SmartToe,Spinal fusion,Sports medicine",
+	"Services": "Orthopedic Services.\nTypes of Services. Joint Replacement. Cartilage Transplantation. Foot and Ankle Surgery. Hand, Upper Extremity and Shoulder Surgery. Musculoskeletal Oncology. Orthopedic Trauma Program. Pediatric Orthopedic Surgery. Spine Surgery. ...\nDiagnostic Tests.\nRehabilitation.\nResearch",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf375c"
+	},
+	"EXPERTISE": "Orthopedist",
+	"BIO": "Specializes in Bones and Muscles Disorders, Injuries",
+	"Symptoms": "Swelling\nTenderness\nBleeding, but only if the break in the bone damages the skin\nMajor bruising\nInability to move the affected part without experiencing pain\nBone sticking out at an abnormal angle\nBone sticking out of the skin\nNumbness\nA pins and needles sensation if some nerves are injured\nInability to lift or rotate the injured part\nInability to put any weight (for leg injuries)\nSevere pain when breathing in (for broken ribs)\nShallow breathing\nA grinding, cracking, or snapping noise is heard at the time of the fall or accident",
+	"COMMON DISEASE": "ailments, injuries or diseases that cause knee problems, whiplash, dislocated shoulder, torn cartilages, foot pain and fibromyalgia",
+	"Services": "Amputation.\nArthroscopic surgeries.\nBunionectomy and hammer toe repair.\nCartilage repair or resurfacing procedures.\nCartilage surgery to knee.\nFracture care.\nArthroplasty.\nLigament reconstructions.",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf375d"
+	},
+	"EXPERTISE": "Pain Specialist",
+	"BIO": "Specializes in Evaluation, Treatment and Prevention of Pain.",
+	"Symptoms": "Anxiety\nDepression\nPoor sleep\nFeeling very tired or wiped out\nIrritability\nGuilt\nLoss of interest in sex",
+	"COMMON DISEASE": "Chronic pain,FYBERmyalgia,pain disorder,muscle strain,migraine,Pagets disease.",
+	"Services": "medications, physical therapy, and nerve blocks",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf375e"
+	},
+	"EXPERTISE": "Pale pathologist",
+	"BIO": "$EXPERTISE",
+	"Symptoms": "",
+	"COMMON DISEASE": "",
+	"Services": "",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf375f"
+	},
+	"EXPERTISE": "Parasitologist",
+	"BIO": "Specializes in Study of Parasites, their Hosts and the Relationship between them",
+	"Symptoms": "Digestive problems, including unexplained constipation, diarrhea, or persistent gas\nSkin issues, including unexplained rashes, eczema, hives, and itching\nMuscle and joint pain\nFatigue, even when you get enough sleep\nNever feeling full, even after eating a big meal\nConstant hunger, even when you are eating enough\nIron deficiency anemia (lab tests show abnormally low iron level)\nGrinding your teeth during sleep\nUnexplained feelings of anxiety\nRecurrent yeast infections\nItching of the anus or vagina",
+	"COMMON DISEASE": "Parasitosis,Helminths",
+	"Services": "",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf3760"
+	},
+	"EXPERTISE": "Pathologists",
+	"BIO": "Specializes in Study of causes and Effects of Diseases, Forensic Purposes",
+	"Symptoms": "",
+	"COMMON DISEASE": "·",
+	"Services": "·",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d032ac1c90fd1287fdf376a"
+	},
+	"EXPERTISE": "Pulmonologist",
+	"BIO": "Specializes in Diagnosis and Treatment of Pulmonary (Lung) Conditions and Diseases",
+	"Symptoms": "Shortness of breath (dyspnea), initially while exercising and eventually while at rest\nFatigue\nDizziness or fainting spells (syncope)\nChest pressure or pain\nSwelling (edema) in your ankles, legs and eventually in your abdomen (ascites)\nBluish color to your lips and skin (cyanosis)\nRacing pulse or heart palpitations",
+	"COMMON DISEASE": "Asthma,Bronchiectasis,Bronchitis,Chronic obstructive pulmonary disease,Interstitial lung disease,Occupational lung disease,Pulmonary fibrosis,Rheumatoid lung disease.",
+	"Services": "Pulmonary Rehabilitation Pulmonary Function Testing. Spirometry. Lung volume measurement (plethysmography) Diffusion capacity testing (DLCO) Cardiopulmonary exercise testing (CPET) VO2 max test. Anaerobic threshold test. Oximetry studies.",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5d0b4c0d3e7f18b2ba49d002"
+	},
+	"EXPERTISE": "Veterinary",
+	"BIO": "Specializes in the treatment of diseases, injuries \u0026 treatment of farm and domestic animals.",
+	"Symptoms": "Red eyes Lethargy/lack of energy Warm ears Warm, dry nose Shivering Loss of appetite Coughing Vomiting",
+	"COMMON DISEASE": "Rabies, Distemper, Parvovirus, Hepatitis, Parainfluenza, Bordetella, Lyme disease, Leptospirosis, Giardia, Cancer, Worms, Heart Worms",
+	"Services": "Veterinary Services Veterinary pharmacy Veterinary Dental Prophylaxis Services for Birds Veterinary crematorium Treatments for Birds Feline Medicine",
+	"Symbolic": null,
+	"type": "Doctor"
+},
+{
+	"_id": {
+		"$oid": "5da6c2261ef70511f8785b2b"
+	},
+	"EXPERTISE": "Aesthetics",
+	"BIO": "Aesthetics",
+	"Symptoms": "Aesthetics",
+	"COMMON DISEASE": "Aesthetics",
+	"Services": "Aesthetics",
+	"Symbolic": null,
+	"type": "Doctor"
+}]
+

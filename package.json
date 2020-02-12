@@ -1,0 +1,30 @@
+{
+  "name": "plunes-be",
+  "version": "1.0.0",
+  "description": "Plunes Backend 2.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikram Dhir",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fcm-node": "^1.5.2",
+    "file-type": "^12.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "log-timestamp": "^0.3.0",
+    "mongoose": "^5.7.8",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "node-xlsx": "^0.15.0",
+    "nodemailer": "^6.3.1",
+    "pdf-creator-node": "^1.4.0",
+    "pdf-thumbnail": "^1.0.6",
+    "request": "^2.88.0",
+    "validator": "^12.0.0"
+  }
+}

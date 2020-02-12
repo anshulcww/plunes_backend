@@ -1,0 +1,5492 @@
+[{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a17"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "718138001"
+	},
+	"6 digit Nappi Code": 718138,
+	"Product Name": "ACCORD OXALIPLATIN POWDER FOR INJECTION",
+	"Strength": "50MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a18"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "3000404001"
+	},
+	"6 digit Nappi Code": 3000404,
+	"Product Name": "ELOPLAT CONCENTRATE FOR SOLUTION VIAL 10",
+	"Strength": "50MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a19"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "707494001"
+	},
+	"6 digit Nappi Code": 707494,
+	"Product Name": "ELOXATIN",
+	"Strength": "50MG/10ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a1a"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716224001"
+	},
+	"6 digit Nappi Code": 716224,
+	"Product Name": "EXIPLAT POWDER FOR SOLUTION VIAL",
+	"Strength": "50MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a1b"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "717829001"
+	},
+	"6 digit Nappi Code": 717829,
+	"Product Name": "INTAS OXALIPLATIN POWDER FOR INJECTION V",
+	"Strength": "50MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a1c"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "723795001"
+	},
+	"6 digit Nappi Code": 723795,
+	"Product Name": "OXALIPLATIN KEY POWDER FOR INFUSION VIAL",
+	"Strength": "50MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a1d"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "723389001"
+	},
+	"6 digit Nappi Code": 723389,
+	"Product Name": "OPLAXIN CONCENTRATE FOR SOLUTION 1ML VIA",
+	"Strength": "50MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a1e"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "717567001"
+	},
+	"6 digit Nappi Code": 717567,
+	"Product Name": "OXALIPLATIN PCH 50 CONCENTRATE FOR SOLUT",
+	"Strength": "50MG/10ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a1f"
+	},
+	"MPL Code": 995000,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "710319001"
+	},
+	"6 digit Nappi Code": 710319,
+	"Product Name": "OXALIWIN RTU VIAL 10ML",
+	"Strength": "50MG/10ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 985.17,
+	"MPL (incl VAT)": 1132.94
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a20"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "718139001"
+	},
+	"6 digit Nappi Code": 718139,
+	"Product Name": "ACCORD OXALIPLATIN POWDER FOR INJECTION",
+	"Strength": "100MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a21"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "3000405001"
+	},
+	"6 digit Nappi Code": 3000405,
+	"Product Name": "ELOPLAT CONCENTRATE FOR SOLUTION VIAL 20",
+	"Strength": "100MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a22"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "707495001"
+	},
+	"6 digit Nappi Code": 707495,
+	"Product Name": "ELOXATIN",
+	"Strength": "100MG/20ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a23"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716225001"
+	},
+	"6 digit Nappi Code": 716225,
+	"Product Name": "EXIPLAT POWDER FOR SOLUTION VIAL",
+	"Strength": "100MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a24"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "717830001"
+	},
+	"6 digit Nappi Code": 717830,
+	"Product Name": "INTAS OXALIPLATIN POWDER FOR INJECTION V",
+	"Strength": "100MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a25"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "723796001"
+	},
+	"6 digit Nappi Code": 723796,
+	"Product Name": "OXALIPLATIN KEY POWDER FOR INFUSION VIAL",
+	"Strength": "100MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a26"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "723390001"
+	},
+	"6 digit Nappi Code": 723390,
+	"Product Name": "OPLAXIN CONCENTRATE FOR SOLUTION 1ML VIA",
+	"Strength": "100MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a27"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "717569001"
+	},
+	"6 digit Nappi Code": 717569,
+	"Product Name": "OXALIPLATIN PCH 100 CONCENTRATE SOLUTION",
+	"Strength": "100MG/20ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a28"
+	},
+	"MPL Code": 995001,
+	"MPL\nDescription": "OXALIPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "710317001"
+	},
+	"6 digit Nappi Code": 710317,
+	"Product Name": "OXALIWIN RTU VIAL 20ML",
+	"Strength": "100MG/20ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1945.78,
+	"MPL (incl VAT)": 2237.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a29"
+	},
+	"MPL Code": 995002,
+	"MPL\nDescription": "VINCRISTINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "753971003"
+	},
+	"6 digit Nappi Code": 753971,
+	"Product Name": "ABIC VINCRISTINE 1ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 348.11,
+	"MPL (incl VAT)": 400.32
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a2a"
+	},
+	"MPL Code": 995002,
+	"MPL\nDescription": "VINCRISTINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "840793006"
+	},
+	"6 digit Nappi Code": 840793,
+	"Product Name": "VINCRISTINE CSV 1ML (P\u0026U)",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 348.11,
+	"MPL (incl VAT)": 400.32
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a2b"
+	},
+	"MPL Code": 995003,
+	"MPL\nDescription": "VINCRISTINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "713432001"
+	},
+	"6 digit Nappi Code": 713432,
+	"Product Name": "ACCORD VINCRISTINE 2ML VIAL",
+	"Strength": "2MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 696.13,
+	"MPL (incl VAT)": 800.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a2c"
+	},
+	"MPL Code": 995003,
+	"MPL\nDescription": "VINCRISTINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "785202005"
+	},
+	"6 digit Nappi Code": 785202,
+	"Product Name": "ABIC VINCRISTINE 2ML",
+	"Strength": "2MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 696.13,
+	"MPL (incl VAT)": 800.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a2d"
+	},
+	"MPL Code": 995003,
+	"MPL\nDescription": "VINCRISTINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "840785003"
+	},
+	"6 digit Nappi Code": 840785,
+	"Product Name": "VINCRISTINE CSV 2ML (P\u0026U)",
+	"Strength": "2MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 696.13,
+	"MPL (incl VAT)": 800.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a2e"
+	},
+	"MPL Code": 995004,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "711367001"
+	},
+	"6 digit Nappi Code": 711367,
+	"Product Name": "ACCORD-CARBOPLATIN VIAL 15ML",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 265.93,
+	"MPL (incl VAT)": 305.82
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a2f"
+	},
+	"MPL Code": 995004,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "825069010"
+	},
+	"6 digit Nappi Code": 825069,
+	"Product Name": "CARBOSIN 150-5",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 265.93,
+	"MPL (incl VAT)": 305.82
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a30"
+	},
+	"MPL Code": 995004,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "720402001"
+	},
+	"6 digit Nappi Code": 720402,
+	"Product Name": "ASPEN CARBOPLATIN SOLUTION FOR INFUSION",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 265.93,
+	"MPL (incl VAT)": 305.82
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a31"
+	},
+	"MPL Code": 995004,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "840866003"
+	},
+	"6 digit Nappi Code": 840866,
+	"Product Name": "CARBOPLATIN CSV 15ML  (P\u0026U)",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 265.93,
+	"MPL (incl VAT)": 305.82
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a32"
+	},
+	"MPL Code": 995006,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715323001"
+	},
+	"6 digit Nappi Code": 715323,
+	"Product Name": "CYTIGEM POWDER FOR RECONTRUCTION 50ML VI",
+	"Strength": "1G",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1367.61,
+	"MPL (incl VAT)": 1572.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a33"
+	},
+	"MPL Code": 995006,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715252001"
+	},
+	"6 digit Nappi Code": 715252,
+	"Product Name": "GEMTAZ POWDER FOR RECONSTITUTION 25ML VI",
+	"Strength": "1G",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1367.61,
+	"MPL (incl VAT)": 1572.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a34"
+	},
+	"MPL Code": 995006,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "713873001"
+	},
+	"6 digit Nappi Code": 713873,
+	"Product Name": "ACCORD GEMCITABINE POWDER FOR RECONSTITU",
+	"Strength": "1G",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1367.61,
+	"MPL (incl VAT)": 1572.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a35"
+	},
+	"MPL Code": 995006,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716717001"
+	},
+	"6 digit Nappi Code": 716717,
+	"Product Name": "SANDOZ GEMCITABINE POWDER FOR SOLUTION V",
+	"Strength": "1G",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1367.61,
+	"MPL (incl VAT)": 1572.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a36"
+	},
+	"MPL Code": 995006,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "717964001"
+	},
+	"6 digit Nappi Code": 717964,
+	"Product Name": "MYLAN GEMCITABINE POWDER FOR SOLUTION VI",
+	"Strength": "1G",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1367.61,
+	"MPL (incl VAT)": 1572.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a37"
+	},
+	"MPL Code": 995006,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "718304001"
+	},
+	"6 digit Nappi Code": 718304,
+	"Product Name": "ONCOGEM VIAL POWDER FOR INJECTION",
+	"Strength": "1000MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1367.61,
+	"MPL (incl VAT)": 1572.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a38"
+	},
+	"MPL Code": 995006,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "815802005"
+	},
+	"6 digit Nappi Code": 815802,
+	"Product Name": "GEMZAR",
+	"Strength": "1G",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1367.61,
+	"MPL (incl VAT)": 1572.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a39"
+	},
+	"MPL Code": 995007,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715322001"
+	},
+	"6 digit Nappi Code": 715322,
+	"Product Name": "CYTIGEM POWDER FOR RECONSTITUTION 10ML V",
+	"Strength": "200MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 273.52,
+	"MPL (incl VAT)": 314.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a3a"
+	},
+	"MPL Code": 995007,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715251001"
+	},
+	"6 digit Nappi Code": 715251,
+	"Product Name": "GEMTAZ POWDER FOR RECONSTITUTION 5 ML VI",
+	"Strength": "200MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 273.52,
+	"MPL (incl VAT)": 314.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a3b"
+	},
+	"MPL Code": 995007,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716719001"
+	},
+	"6 digit Nappi Code": 716719,
+	"Product Name": "SANDOZ GEMCITABINE POWDER FOR SOLUTION V",
+	"Strength": "200MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 273.52,
+	"MPL (incl VAT)": 314.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a3c"
+	},
+	"MPL Code": 995007,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "713874001"
+	},
+	"6 digit Nappi Code": 713874,
+	"Product Name": "ACCORD GEMCITABINE POWDER FOR RECONSTITU",
+	"Strength": "200MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 273.52,
+	"MPL (incl VAT)": 314.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a3d"
+	},
+	"MPL Code": 995007,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "717963001"
+	},
+	"6 digit Nappi Code": 717963,
+	"Product Name": "MYLAN GEMCITABINE POWDER FOR SOLUTION VI",
+	"Strength": "200MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 273.52,
+	"MPL (incl VAT)": 314.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a3e"
+	},
+	"MPL Code": 995007,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "718303001"
+	},
+	"6 digit Nappi Code": 718303,
+	"Product Name": "ONCOGEM VIAL POWDER FOR INJECTION",
+	"Strength": "200MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 273.52,
+	"MPL (incl VAT)": 314.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a3f"
+	},
+	"MPL Code": 995007,
+	"MPL\nDescription": "GEMCITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "815799004"
+	},
+	"6 digit Nappi Code": 815799,
+	"Product Name": "GEMZAR",
+	"Strength": "200MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 273.52,
+	"MPL (incl VAT)": 314.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a40"
+	},
+	"MPL Code": 995008,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "714500001"
+	},
+	"6 digit Nappi Code": 714500,
+	"Product Name": "SANDOZ GRANISETRON VIAL 1ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 149.07,
+	"MPL (incl VAT)": 171.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a41"
+	},
+	"MPL Code": 995008,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "720942001"
+	},
+	"6 digit Nappi Code": 720942,
+	"Product Name": "GRANISETRON FRESENIUS AMPOULE 1ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 149.07,
+	"MPL (incl VAT)": 171.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a42"
+	},
+	"MPL Code": 995008,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "718524001"
+	},
+	"6 digit Nappi Code": 718524,
+	"Product Name": "GRANISETRON TEVA 1",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 149.07,
+	"MPL (incl VAT)": 171.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a43"
+	},
+	"MPL Code": 995008,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "721164001"
+	},
+	"6 digit Nappi Code": 721164,
+	"Product Name": "GRANTRYL AMPOULE 1ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 149.07,
+	"MPL (incl VAT)": 171.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a44"
+	},
+	"MPL Code": 995008,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "715706001"
+	},
+	"6 digit Nappi Code": 715706,
+	"Product Name": "GRANITRIL VIAL 1ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 149.07,
+	"MPL (incl VAT)": 171.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a45"
+	},
+	"MPL Code": 995008,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "712891001"
+	},
+	"6 digit Nappi Code": 712891,
+	"Product Name": "ADCO-GRANISETRON AMPOULE 1ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 149.07,
+	"MPL (incl VAT)": 171.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a46"
+	},
+	"MPL Code": 995008,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "861863003"
+	},
+	"6 digit Nappi Code": 861863,
+	"Product Name": "KYTRIL IV 1ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 149.07,
+	"MPL (incl VAT)": 171.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a47"
+	},
+	"MPL Code": 995009,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "714501001"
+	},
+	"6 digit Nappi Code": 714501,
+	"Product Name": "SANDOZ GRANISETRON VIAL 3ML",
+	"Strength": "3MG/3ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 447.19,
+	"MPL (incl VAT)": 514.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a48"
+	},
+	"MPL Code": 995009,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "720943001"
+	},
+	"6 digit Nappi Code": 720943,
+	"Product Name": "GRANISETRON FRESENIUS AMPOULE 3ML",
+	"Strength": "3MG/3ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 447.19,
+	"MPL (incl VAT)": 514.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a49"
+	},
+	"MPL Code": 995009,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "718525001"
+	},
+	"6 digit Nappi Code": 718525,
+	"Product Name": "GRANISETRON TEVA 3",
+	"Strength": "3MG/3ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 447.19,
+	"MPL (incl VAT)": 514.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a4a"
+	},
+	"MPL Code": 995009,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "721165001"
+	},
+	"6 digit Nappi Code": 721165,
+	"Product Name": "GRANTRYL AMPOULE 3ML",
+	"Strength": "3MG/3ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 447.19,
+	"MPL (incl VAT)": 514.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a4b"
+	},
+	"MPL Code": 995009,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "787019003"
+	},
+	"6 digit Nappi Code": 787019,
+	"Product Name": "KYTRIL IV",
+	"Strength": "3MG/3ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 447.19,
+	"MPL (incl VAT)": 514.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a4c"
+	},
+	"MPL Code": 995009,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "714109001"
+	},
+	"6 digit Nappi Code": 714109,
+	"Product Name": "MYLAN GRANISETRON AMPOULE 3ML",
+	"Strength": "3MG/3ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 447.19,
+	"MPL (incl VAT)": 514.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a4d"
+	},
+	"MPL Code": 995009,
+	"MPL\nDescription": "GRANISETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "712892001"
+	},
+	"6 digit Nappi Code": 712892,
+	"Product Name": "ADCO-GRANISETRON AMPOULE 3ML",
+	"Strength": "3MG/3ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 447.19,
+	"MPL (incl VAT)": 514.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a4e"
+	},
+	"MPL Code": 995010,
+	"MPL\nDescription": "ETOPOSIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "710402001"
+	},
+	"6 digit Nappi Code": 710402,
+	"Product Name": "ETOPOSIDE-HEXAL VIAL 5ML",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 173.43,
+	"MPL (incl VAT)": 199.44
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a4f"
+	},
+	"MPL Code": 995010,
+	"MPL\nDescription": "ETOPOSIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "850926010"
+	},
+	"6 digit Nappi Code": 850926,
+	"Product Name": "EPOSIN VIAL 5ML",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 173.43,
+	"MPL (incl VAT)": 199.44
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a50"
+	},
+	"MPL Code": 995010,
+	"MPL\nDescription": "ETOPOSIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "719861001"
+	},
+	"6 digit Nappi Code": 719861,
+	"Product Name": "ASPEN ETOPOSIDE SOLUTION FOR INFUSION VI",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 173.43,
+	"MPL (incl VAT)": 199.44
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a51"
+	},
+	"MPL Code": 995010,
+	"MPL\nDescription": "ETOPOSIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "775533009"
+	},
+	"6 digit Nappi Code": 775533,
+	"Product Name": "VEPESID AMPOULE 5ML",
+	"Strength": "100MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 173.43,
+	"MPL (incl VAT)": 199.44
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a52"
+	},
+	"MPL Code": 995010,
+	"MPL\nDescription": "ETOPOSIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "841021015"
+	},
+	"6 digit Nappi Code": 841021,
+	"Product Name": "P\u0026U ETOPOSIDE CSV VIAL 5ML",
+	"Strength": "100MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 173.43,
+	"MPL (incl VAT)": 199.44
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a53"
+	},
+	"MPL Code": 995011,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "718488001"
+	},
+	"6 digit Nappi Code": 718488,
+	"Product Name": "IRINOTECAN SAFELINE CONCENTRATE FOR SOLU",
+	"Strength": "40MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 360.45,
+	"MPL (incl VAT)": 414.52
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a54"
+	},
+	"MPL Code": 995011,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "712643001"
+	},
+	"6 digit Nappi Code": 712643,
+	"Product Name": "IRINOTAS VIAL 2ML",
+	"Strength": "40MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 360.45,
+	"MPL (incl VAT)": 414.52
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a55"
+	},
+	"MPL Code": 995011,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716182001"
+	},
+	"6 digit Nappi Code": 716182,
+	"Product Name": "CIPLA IRINOTECAN VIAL 2ML",
+	"Strength": "40MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 360.45,
+	"MPL (incl VAT)": 414.52
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a56"
+	},
+	"MPL Code": 995011,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "712603001"
+	},
+	"6 digit Nappi Code": 712603,
+	"Product Name": "ACCORD IRINOTECAN 2ML VIAL",
+	"Strength": "40MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 360.45,
+	"MPL (incl VAT)": 414.52
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a57"
+	},
+	"MPL Code": 995011,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "711903001"
+	},
+	"6 digit Nappi Code": 711903,
+	"Product Name": "SANDOZ IRINOTECAN VIAL 2ML",
+	"Strength": "40MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 360.45,
+	"MPL (incl VAT)": 414.52
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a58"
+	},
+	"MPL Code": 995011,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "717026001"
+	},
+	"6 digit Nappi Code": 717026,
+	"Product Name": "MYLAN IRINOTECAN VIAL 2ML",
+	"Strength": "40MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 360.45,
+	"MPL (incl VAT)": 414.52
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a59"
+	},
+	"MPL Code": 995011,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "829560009"
+	},
+	"6 digit Nappi Code": 829560,
+	"Product Name": "CAMPTO",
+	"Strength": "40MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 360.45,
+	"MPL (incl VAT)": 414.52
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a5a"
+	},
+	"MPL Code": 995012,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "718489001"
+	},
+	"6 digit Nappi Code": 718489,
+	"Product Name": "IRINOTECAN SAFELINE CONCENTRATE FOR SOLU",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 901.13,
+	"MPL (incl VAT)": 1036.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a5b"
+	},
+	"MPL Code": 995012,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "712873001"
+	},
+	"6 digit Nappi Code": 712873,
+	"Product Name": "IRINOTAS 5ML VIAL",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 901.13,
+	"MPL (incl VAT)": 1036.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a5c"
+	},
+	"MPL Code": 995012,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716183001"
+	},
+	"6 digit Nappi Code": 716183,
+	"Product Name": "CIPLA IRINOTECAN VIAL 5ML",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 901.13,
+	"MPL (incl VAT)": 1036.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a5d"
+	},
+	"MPL Code": 995012,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "712872001"
+	},
+	"6 digit Nappi Code": 712872,
+	"Product Name": "ACCORD IRINOTECAN 5ML VIAL",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 901.13,
+	"MPL (incl VAT)": 1036.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a5e"
+	},
+	"MPL Code": 995012,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "711902001"
+	},
+	"6 digit Nappi Code": 711902,
+	"Product Name": "SANDOZ IRINOTECAN VIAL 5ML",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 901.13,
+	"MPL (incl VAT)": 1036.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a5f"
+	},
+	"MPL Code": 995012,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "717027001"
+	},
+	"6 digit Nappi Code": 717027,
+	"Product Name": "MYLAN IRINOTECAN VIAL 5ML",
+	"Strength": "100MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 901.13,
+	"MPL (incl VAT)": 1036.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a60"
+	},
+	"MPL Code": 995012,
+	"MPL\nDescription": "IRINOTECAN",
+	"9 digit Nappi Code": {
+		"$numberLong": "829579001"
+	},
+	"6 digit Nappi Code": 829579,
+	"Product Name": "CAMPTO",
+	"Strength": "100MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 901.13,
+	"MPL (incl VAT)": 1036.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a61"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "721305001"
+	},
+	"6 digit Nappi Code": 721305,
+	"Product Name": "SANDOZ VINORELBINE VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a62"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715527001"
+	},
+	"6 digit Nappi Code": 715527,
+	"Product Name": "TEVA VINORELBINE CONCENTRATE FOR SOLUTIO",
+	"Strength": "50MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a63"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716185001"
+	},
+	"6 digit Nappi Code": 716185,
+	"Product Name": "CIPLA VINORELBINE VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a64"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "712611001"
+	},
+	"6 digit Nappi Code": 712611,
+	"Product Name": "VINOREL VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a65"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715783001"
+	},
+	"6 digit Nappi Code": 715783,
+	"Product Name": "VINORELBINE PIERRE FABRE VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a66"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716040001"
+	},
+	"6 digit Nappi Code": 716040,
+	"Product Name": "VINORELBIN EBEWE VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a67"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715821001"
+	},
+	"6 digit Nappi Code": 715821,
+	"Product Name": "ASPEN VINORELBIN CONCENTRATE FOR SOLUTIO",
+	"Strength": "50MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a68"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "713083001"
+	},
+	"6 digit Nappi Code": 713083,
+	"Product Name": "CARCYT VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a69"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "819263001"
+	},
+	"6 digit Nappi Code": 819263,
+	"Product Name": "NAVELBINE",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a6a"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "819263028"
+	},
+	"6 digit Nappi Code": 819263,
+	"Product Name": "NAVELBINE",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a6b"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715783002"
+	},
+	"6 digit Nappi Code": 715783,
+	"Product Name": "VINORELBINE PIERRE FABRE VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a6c"
+	},
+	"MPL Code": 995013,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "713083002"
+	},
+	"6 digit Nappi Code": 713083,
+	"Product Name": "CARCYT VIAL 5ML",
+	"Strength": "50MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1069.83,
+	"MPL (incl VAT)": 1230.3
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a6d"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "712613001"
+	},
+	"6 digit Nappi Code": 712613,
+	"Product Name": "VINOREL VIAL 1ML",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a6e"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715526001"
+	},
+	"6 digit Nappi Code": 715526,
+	"Product Name": "TEVA VINORELBINE CONCENTRATE FOR SOLUTIO",
+	"Strength": "10MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a6f"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716039001"
+	},
+	"6 digit Nappi Code": 716039,
+	"Product Name": "VINORELBIN EBEWE VIAL 1ML",
+	"Strength": "10MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a70"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "822655004"
+	},
+	"6 digit Nappi Code": 822655,
+	"Product Name": "NAVELBINE",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a71"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715784001"
+	},
+	"6 digit Nappi Code": 715784,
+	"Product Name": "VINORELBINE PIERRE FABRE VIAL 1ML",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a72"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715822001"
+	},
+	"6 digit Nappi Code": 715822,
+	"Product Name": "ASPEN VINOREBIN CONCENTRATE FOR SOLUTION",
+	"Strength": "10MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a73"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "721304001"
+	},
+	"6 digit Nappi Code": 721304,
+	"Product Name": "SANDOZ VINORELBINE VIAL 2ML",
+	"Strength": "10MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a74"
+	},
+	"MPL Code": 995014,
+	"MPL\nDescription": "VINORELBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "713081001"
+	},
+	"6 digit Nappi Code": 713081,
+	"Product Name": "CARCYT VIAL 1ML",
+	"Strength": "10MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 1976.39,
+	"MPL (incl VAT)": 2272.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a75"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705079001"
+	},
+	"6 digit Nappi Code": 705079,
+	"Product Name": "NAUSETRON 8MG",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a76"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "720788001"
+	},
+	"6 digit Nappi Code": 720788,
+	"Product Name": "EMISTOP AMPOULE 4ML",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a77"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "718558001"
+	},
+	"6 digit Nappi Code": 718558,
+	"Product Name": "ONDANSETRON FRESENIUS AMPOULE",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a78"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705538001"
+	},
+	"6 digit Nappi Code": 705538,
+	"Product Name": "MYLAN ONDANSETRON",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a79"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "717050001"
+	},
+	"6 digit Nappi Code": 717050,
+	"Product Name": "ALEPET AMPOULE 4ML",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a7a"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "710909001"
+	},
+	"6 digit Nappi Code": 710909,
+	"Product Name": "DANSET AMPOULE 4ML",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a7b"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705943001"
+	},
+	"6 digit Nappi Code": 705943,
+	"Product Name": "ZOFER 8MG/4ML",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a7c"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "710989001"
+	},
+	"6 digit Nappi Code": 710989,
+	"Product Name": "DANTRON VIAL 4ML",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a7d"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "708106001"
+	},
+	"6 digit Nappi Code": 708106,
+	"Product Name": "DANTRON",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a7e"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "710420001"
+	},
+	"6 digit Nappi Code": 710420,
+	"Product Name": "HEXAL-ONDANSETRON 8MG AMPOULE 4ML",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a7f"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "711533001"
+	},
+	"6 digit Nappi Code": 711533,
+	"Product Name": "VOMIZ AMPOULE 4ML",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a80"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "711907001"
+	},
+	"6 digit Nappi Code": 711907,
+	"Product Name": "ZYDUS-ONDANSETRON AMPOULE 4ML",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a81"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "785822003"
+	},
+	"6 digit Nappi Code": 785822,
+	"Product Name": "ZOFRAN 4ML",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a82"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "711905001"
+	},
+	"6 digit Nappi Code": 711905,
+	"Product Name": "SABAX ONDANSETRON AMPOULE 4ML",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a83"
+	},
+	"MPL Code": 995015,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705460001"
+	},
+	"6 digit Nappi Code": 705460,
+	"Product Name": "ASPEN ONDANSETRON",
+	"Strength": "8MG/4ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 84.54,
+	"MPL (incl VAT)": 97.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a84"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705078001"
+	},
+	"6 digit Nappi Code": 705078,
+	"Product Name": "NAUSETRON 4MG",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a85"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "720786001"
+	},
+	"6 digit Nappi Code": 720786,
+	"Product Name": "EMISTOP AMPOULE 2ML",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a86"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "718557001"
+	},
+	"6 digit Nappi Code": 718557,
+	"Product Name": "ONDANSETRON FRESENIUS AMPOULE",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a87"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "711906001"
+	},
+	"6 digit Nappi Code": 711906,
+	"Product Name": "ZYDUS-ONDANSETRON AMPOULE 2ML",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a88"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705537001"
+	},
+	"6 digit Nappi Code": 705537,
+	"Product Name": "MYLAN ONDANSETRON",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a89"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "717049001"
+	},
+	"6 digit Nappi Code": 717049,
+	"Product Name": "ALEPET AMPOULE 2ML",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a8a"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "716548001"
+	},
+	"6 digit Nappi Code": 716548,
+	"Product Name": "VOMIZ AMPOULE 2ML",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a8b"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "710908001"
+	},
+	"6 digit Nappi Code": 710908,
+	"Product Name": "DANSET AMPOULE 2ML",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a8c"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705941001"
+	},
+	"6 digit Nappi Code": 705941,
+	"Product Name": "ZOFER 4MG/2ML",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a8d"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "710988001"
+	},
+	"6 digit Nappi Code": 710988,
+	"Product Name": "DANTRON VIAL 2ML",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a8e"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "708105001"
+	},
+	"6 digit Nappi Code": 708105,
+	"Product Name": "DANTRON",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a8f"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "710419001"
+	},
+	"6 digit Nappi Code": 710419,
+	"Product Name": "HEXAL-ONDANSETRON 4MG AMPOULE 2ML",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a90"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "785806008"
+	},
+	"6 digit Nappi Code": 785806,
+	"Product Name": "ZOFRAN 2ML",
+	"Strength": "2MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a91"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "711904001"
+	},
+	"6 digit Nappi Code": 711904,
+	"Product Name": "SABAX ONDANSETRON AMPOULE 2ML",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a92"
+	},
+	"MPL Code": 995016,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "705458001"
+	},
+	"6 digit Nappi Code": 705458,
+	"Product Name": "ASPEN ONDANSETRON",
+	"Strength": "4MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 42.27,
+	"MPL (incl VAT)": 48.61
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a93"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "720614001"
+	},
+	"6 digit Nappi Code": 720614,
+	"Product Name": "ACCORD PACLITAXEL CONCENTRATE FOR INFUSI",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a94"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "704208001"
+	},
+	"6 digit Nappi Code": 704208,
+	"Product Name": "ANZATAX 30MG/5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a95"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716631001"
+	},
+	"6 digit Nappi Code": 716631,
+	"Product Name": "ASPEN PACLITAXEL VIAL 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a96"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "703386001"
+	},
+	"6 digit Nappi Code": 703386,
+	"Product Name": "BIOLYSE PACLITAXEL FOR INJ 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a97"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716178001"
+	},
+	"6 digit Nappi Code": 716178,
+	"Product Name": "CIPLA PACLITAXEL VIAL 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a98"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "715013001"
+	},
+	"6 digit Nappi Code": 715013,
+	"Product Name": "EBETAXEL CONCENTRATE FOR INFUSION VIAL 5",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a99"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716908001"
+	},
+	"6 digit Nappi Code": 716908,
+	"Product Name": "MYLAN PACLITAXEL VIAL 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a9a"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "717008001"
+	},
+	"6 digit Nappi Code": 717008,
+	"Product Name": "PAXITAS VIAL 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a9b"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "714756001"
+	},
+	"6 digit Nappi Code": 714756,
+	"Product Name": "PCH-PACLITAXEL 30 SOLUTION FOR INFUSION",
+	"Strength": "6MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a9c"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "711892001"
+	},
+	"6 digit Nappi Code": 711892,
+	"Product Name": "SANDOZ PACLITAXEL VIAL 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a9d"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "799777005"
+	},
+	"6 digit Nappi Code": 799777,
+	"Product Name": "TAXOL 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a9e"
+	},
+	"MPL Code": 995018,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "700427001"
+	},
+	"6 digit Nappi Code": 700427,
+	"Product Name": "TEVA PACLITAXEL 30 5ML",
+	"Strength": "30MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 117.73,
+	"MPL (incl VAT)": 135.39
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1a9f"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "711901001"
+	},
+	"6 digit Nappi Code": 711901,
+	"Product Name": "SANDOZ PACLITAXEL VIAL 50ML",
+	"Strength": "300MG/50ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa0"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "717011001"
+	},
+	"6 digit Nappi Code": 717011,
+	"Product Name": "PAXITAS 300MG VIAL 50ML",
+	"Strength": "300MG/50ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa1"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716180001"
+	},
+	"6 digit Nappi Code": 716180,
+	"Product Name": "CIPLA PACLITAXEL 50ML",
+	"Strength": "300MG/50ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa2"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "720617001"
+	},
+	"6 digit Nappi Code": 720617,
+	"Product Name": "ACCORD PACLITAXEL CONCENTRATE FOR INFUSI",
+	"Strength": "300MG/50ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa3"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "714758001"
+	},
+	"6 digit Nappi Code": 714758,
+	"Product Name": "PCH-PACLITAXEL 300 SOLUTION",
+	"Strength": "6MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa4"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "704126001"
+	},
+	"6 digit Nappi Code": 704126,
+	"Product Name": "TAXOL 300",
+	"Strength": "6MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa5"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "712754001"
+	},
+	"6 digit Nappi Code": 712754,
+	"Product Name": "ANZATAX VIAL 50ML",
+	"Strength": "300MG/50ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa6"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716910001"
+	},
+	"6 digit Nappi Code": 716910,
+	"Product Name": "MYLAN PACLITAXEL VIAL 50ML",
+	"Strength": "300MG/50ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa7"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716633001"
+	},
+	"6 digit Nappi Code": 716633,
+	"Product Name": "ASPEN PACLITAXEL VIAL 50ML",
+	"Strength": "300MG/50ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa8"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "700432001"
+	},
+	"6 digit Nappi Code": 700432,
+	"Product Name": "TEVA PACLITAXEL 300 50ML",
+	"Strength": "300MG/50ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aa9"
+	},
+	"MPL Code": 995019,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "715016001"
+	},
+	"6 digit Nappi Code": 715016,
+	"Product Name": "EBETAXEL CONCENTRATE FOR INFUSION VIAL 5",
+	"Strength": "300MG/50ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1207.59,
+	"MPL (incl VAT)": 1388.72
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aaa"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "711900001"
+	},
+	"6 digit Nappi Code": 711900,
+	"Product Name": "SANDOZ PACLITAXEL VIAL 20ML",
+	"Strength": "100MG/20ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aab"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "717009001"
+	},
+	"6 digit Nappi Code": 717009,
+	"Product Name": "PAXITAS VIAL 16.7ML",
+	"Strength": "100MG/16.7ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aac"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716179001"
+	},
+	"6 digit Nappi Code": 716179,
+	"Product Name": "CIPLA PACLITAXEL VIAL 16.7ML",
+	"Strength": "100MG/16.7ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aad"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "720616001"
+	},
+	"6 digit Nappi Code": 720616,
+	"Product Name": "ACCORD PACLITAXEL CONCENTRATE FOR INFUSI",
+	"Strength": "100MG/16.7ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aae"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "714757001"
+	},
+	"6 digit Nappi Code": 714757,
+	"Product Name": "PCH-PACLITAXEL 100 SOLUTION",
+	"Strength": "6MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aaf"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "841730008"
+	},
+	"6 digit Nappi Code": 841730,
+	"Product Name": "TAXOL",
+	"Strength": "100MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab0"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716950001"
+	},
+	"6 digit Nappi Code": 716950,
+	"Product Name": "GENEXOL CONCENTRATE FOR INFUSION VIAL 16",
+	"Strength": "100MG/16.7ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab1"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "712753001"
+	},
+	"6 digit Nappi Code": 712753,
+	"Product Name": "ANZATAX VIAL 16.7ML",
+	"Strength": "100MG/16.7ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab2"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716909001"
+	},
+	"6 digit Nappi Code": 716909,
+	"Product Name": "MYLAN PACLITAXEL VIAL 16.7ML",
+	"Strength": "100MG/16.7ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab3"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "716632001"
+	},
+	"6 digit Nappi Code": 716632,
+	"Product Name": "ASPEN PACLITAXEL VIAL 16.67ML",
+	"Strength": "100MG/16.67ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab4"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "700431001"
+	},
+	"6 digit Nappi Code": 700431,
+	"Product Name": "TEVA PACLITAXEL 100 16",
+	"Strength": "100MG/16.7ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab5"
+	},
+	"MPL Code": 995020,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "715014001"
+	},
+	"6 digit Nappi Code": 715014,
+	"Product Name": "EBETAXEL CONCENTRATE FOR INFUSION VIAL 1",
+	"Strength": "100MG/16.6ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 403.33,
+	"MPL (incl VAT)": 463.83
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab6"
+	},
+	"MPL Code": 995021,
+	"MPL\nDescription": "TAMOXIFEN",
+	"9 digit Nappi Code": {
+		"$numberLong": "735175004"
+	},
+	"6 digit Nappi Code": 735175,
+	"Product Name": "KESSAR",
+	"Strength": "20MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 122.2,
+	"MPL (incl VAT)": 140.53
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab7"
+	},
+	"MPL Code": 995021,
+	"MPL\nDescription": "TAMOXIFEN",
+	"9 digit Nappi Code": {
+		"$numberLong": "710403001"
+	},
+	"6 digit Nappi Code": 710403,
+	"Product Name": "TAMOXIHEXAL",
+	"Strength": "20MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 122.2,
+	"MPL (incl VAT)": 140.53
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab8"
+	},
+	"MPL Code": 995021,
+	"MPL\nDescription": "TAMOXIFEN",
+	"9 digit Nappi Code": {
+		"$numberLong": "712610001"
+	},
+	"6 digit Nappi Code": 712610,
+	"Product Name": "TAMOPLEX",
+	"Strength": "20MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 122.2,
+	"MPL (incl VAT)": 140.53
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ab9"
+	},
+	"MPL Code": 995021,
+	"MPL\nDescription": "TAMOXIFEN",
+	"9 digit Nappi Code": {
+		"$numberLong": "782165001"
+	},
+	"6 digit Nappi Code": 782165,
+	"Product Name": "NEOPHEDAN-20",
+	"Strength": "20MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 122.2,
+	"MPL (incl VAT)": 140.53
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aba"
+	},
+	"MPL Code": 995021,
+	"MPL\nDescription": "TAMOXIFEN",
+	"9 digit Nappi Code": {
+		"$numberLong": "747432007"
+	},
+	"6 digit Nappi Code": 747432,
+	"Product Name": "NOLVADEX-D",
+	"Strength": "20MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 122.2,
+	"MPL (incl VAT)": 140.53
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1abb"
+	},
+	"MPL Code": 995021,
+	"MPL\nDescription": "TAMOXIFEN",
+	"9 digit Nappi Code": {
+		"$numberLong": "712610002"
+	},
+	"6 digit Nappi Code": 712610,
+	"Product Name": "TAMOPLEX",
+	"Strength": "20MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 122.2,
+	"MPL (incl VAT)": 140.53
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1abc"
+	},
+	"MPL Code": 995022,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716241001"
+	},
+	"6 digit Nappi Code": 716241,
+	"Product Name": "EPICORD 50 VIAL 25ML",
+	"Strength": "50MG/25ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 574.64,
+	"MPL (incl VAT)": 660.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1abd"
+	},
+	"MPL Code": 995022,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "715148001"
+	},
+	"6 digit Nappi Code": 715148,
+	"Product Name": "EPIRUBICIN-LEMERY POWDER FOR INJECTION V",
+	"Strength": "50MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 574.64,
+	"MPL (incl VAT)": 660.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1abe"
+	},
+	"MPL Code": 995022,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716239001"
+	},
+	"6 digit Nappi Code": 716239,
+	"Product Name": "ACCORD EPIRUBICIN 50 VIAL 25ML",
+	"Strength": "50MG/25ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 574.64,
+	"MPL (incl VAT)": 660.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1abf"
+	},
+	"MPL Code": 995022,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "714220001"
+	},
+	"6 digit Nappi Code": 714220,
+	"Product Name": "ASPEN EPIRUBICIN VIAL 25ML",
+	"Strength": "50MG/25ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 574.64,
+	"MPL (incl VAT)": 660.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac0"
+	},
+	"MPL Code": 995022,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "710408001"
+	},
+	"6 digit Nappi Code": 710408,
+	"Product Name": "EPIRUBICIN-HEXAL VIAL 25ML",
+	"Strength": "50MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 574.64,
+	"MPL (incl VAT)": 660.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac1"
+	},
+	"MPL Code": 995022,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "714219001"
+	},
+	"6 digit Nappi Code": 714219,
+	"Product Name": "ASPEN EPIRUBICIN 50ML VIAL POWDER FOR RE",
+	"Strength": "50MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 574.64,
+	"MPL (incl VAT)": 660.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac2"
+	},
+	"MPL Code": 995022,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "725595019"
+	},
+	"6 digit Nappi Code": 725595,
+	"Product Name": "FARMORUBICIN VIAL POWDER FOR R",
+	"Strength": "50MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 574.64,
+	"MPL (incl VAT)": 660.84
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac3"
+	},
+	"MPL Code": 995023,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716240001"
+	},
+	"6 digit Nappi Code": 716240,
+	"Product Name": "EPICORD 10 VIAL 5ML",
+	"Strength": "10MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 120.05,
+	"MPL (incl VAT)": 138.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac4"
+	},
+	"MPL Code": 995023,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "716228001"
+	},
+	"6 digit Nappi Code": 716228,
+	"Product Name": "ACCORD EPIRUBICIN 10 VIAL 5ML",
+	"Strength": "10MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 120.05,
+	"MPL (incl VAT)": 138.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac5"
+	},
+	"MPL Code": 995023,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "714241001"
+	},
+	"6 digit Nappi Code": 714241,
+	"Product Name": "ASPEN EPIRUBICIN 5ML VIAL",
+	"Strength": "10MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 120.05,
+	"MPL (incl VAT)": 138.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac6"
+	},
+	"MPL Code": 995023,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "710406001"
+	},
+	"6 digit Nappi Code": 710406,
+	"Product Name": "EPIRUBICIN-HEXAL VIAL 5ML",
+	"Strength": "10MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 120.05,
+	"MPL (incl VAT)": 138.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac7"
+	},
+	"MPL Code": 995023,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "715147001"
+	},
+	"6 digit Nappi Code": 715147,
+	"Product Name": "EPIRUBICIN-LEMERY POWDER FOR INJECTION V",
+	"Strength": "10MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 120.05,
+	"MPL (incl VAT)": 138.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac8"
+	},
+	"MPL Code": 995023,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "714218001"
+	},
+	"6 digit Nappi Code": 714218,
+	"Product Name": "ASPEN EPIRUBICIN 10ML VIAL POWDER FOR RE",
+	"Strength": "10MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 120.05,
+	"MPL (incl VAT)": 138.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ac9"
+	},
+	"MPL Code": 995023,
+	"MPL\nDescription": "EPIRUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "725587008"
+	},
+	"6 digit Nappi Code": 725587,
+	"Product Name": "FARMORUBICIN VIAL POWDER FOR R",
+	"Strength": "10MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 120.05,
+	"MPL (incl VAT)": 138.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aca"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "718988001"
+	},
+	"6 digit Nappi Code": 718988,
+	"Product Name": "SPEC BICALUTAMIDE",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1acb"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716181001"
+	},
+	"6 digit Nappi Code": 716181,
+	"Product Name": "BICADEX",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1acc"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715721001"
+	},
+	"6 digit Nappi Code": 715721,
+	"Product Name": "CALOXA",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1acd"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "723247001"
+	},
+	"6 digit Nappi Code": 723247,
+	"Product Name": "ANANDROCA",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ace"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715705001"
+	},
+	"6 digit Nappi Code": 715705,
+	"Product Name": "ACCORD BICALUTAMIDE",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1acf"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "712506001"
+	},
+	"6 digit Nappi Code": 712506,
+	"Product Name": "BICALOX",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad0"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716660001"
+	},
+	"6 digit Nappi Code": 716660,
+	"Product Name": "TEVA BICALUTAMIDE",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad1"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "710996001"
+	},
+	"6 digit Nappi Code": 710996,
+	"Product Name": "SANDOZ BICALUTAMIDE",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad2"
+	},
+	"MPL Code": 995024,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "822566001"
+	},
+	"6 digit Nappi Code": 822566,
+	"Product Name": "CASODEX",
+	"Strength": "50MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 525.27,
+	"MPL (incl VAT)": 604.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad3"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "718266001"
+	},
+	"6 digit Nappi Code": 718266,
+	"Product Name": "TEVA ANASTROZOLE",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad4"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715720001"
+	},
+	"6 digit Nappi Code": 715720,
+	"Product Name": "STRADEXA",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad5"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715703001"
+	},
+	"6 digit Nappi Code": 715703,
+	"Product Name": "ACCORD ANASTROZOLE",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad6"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "719925001"
+	},
+	"6 digit Nappi Code": 719925,
+	"Product Name": "ANABREZ",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad7"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716226001"
+	},
+	"6 digit Nappi Code": 716226,
+	"Product Name": "ANASTROZOLE SANDOZ",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad8"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "723881001"
+	},
+	"6 digit Nappi Code": 723881,
+	"Product Name": "CASTRA",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ad9"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716573001"
+	},
+	"6 digit Nappi Code": 716573,
+	"Product Name": "MYLAN ANASTROZOLE",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ada"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "720035001"
+	},
+	"6 digit Nappi Code": 720035,
+	"Product Name": "MEDIVISION ANASTROZOLE",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1adb"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "717608001"
+	},
+	"6 digit Nappi Code": 717608,
+	"Product Name": "EVERDEX",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1adc"
+	},
+	"MPL Code": 995025,
+	"MPL\nDescription": "ANASTROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "824224019"
+	},
+	"6 digit Nappi Code": 824224,
+	"Product Name": "ARIMIDEX",
+	"Strength": "1MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 228.32,
+	"MPL (incl VAT)": 262.56
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1add"
+	},
+	"MPL Code": 995026,
+	"MPL\nDescription": "LETROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715718001"
+	},
+	"6 digit Nappi Code": 715718,
+	"Product Name": "LARADEX",
+	"Strength": "2.5MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 430.67,
+	"MPL (incl VAT)": 495.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ade"
+	},
+	"MPL Code": 995026,
+	"MPL\nDescription": "LETROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716696001"
+	},
+	"6 digit Nappi Code": 716696,
+	"Product Name": "FEMZOLE",
+	"Strength": "2.5MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 430.67,
+	"MPL (incl VAT)": 495.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1adf"
+	},
+	"MPL Code": 995026,
+	"MPL\nDescription": "LETROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "715704001"
+	},
+	"6 digit Nappi Code": 715704,
+	"Product Name": "ACCORD LETROZOLE",
+	"Strength": "2.5MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 430.67,
+	"MPL (incl VAT)": 495.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae0"
+	},
+	"MPL Code": 995026,
+	"MPL\nDescription": "LETROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "717971001"
+	},
+	"6 digit Nappi Code": 717971,
+	"Product Name": "TROZOLT",
+	"Strength": "2.5MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 430.67,
+	"MPL (incl VAT)": 495.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae1"
+	},
+	"MPL Code": 995026,
+	"MPL\nDescription": "LETROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "718349001"
+	},
+	"6 digit Nappi Code": 718349,
+	"Product Name": "CIPLA LETROZOLE",
+	"Strength": "2.5MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 430.67,
+	"MPL (incl VAT)": 495.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae2"
+	},
+	"MPL Code": 995026,
+	"MPL\nDescription": "LETROZOLE",
+	"9 digit Nappi Code": {
+		"$numberLong": "831468009"
+	},
+	"6 digit Nappi Code": 831468,
+	"Product Name": "FEMARA",
+	"Strength": "2.5MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 430.67,
+	"MPL (incl VAT)": 495.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae3"
+	},
+	"MPL Code": 995027,
+	"MPL\nDescription": "ZOLEDRONIC A",
+	"9 digit Nappi Code": {
+		"$numberLong": "3000601001"
+	},
+	"6 digit Nappi Code": 3000601,
+	"Product Name": "AUSTELL ZOLEDRONIC ACID IV CONCENTRATE F",
+	"Strength": "4MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 948.84,
+	"MPL (incl VAT)": 1091.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae4"
+	},
+	"MPL Code": 995027,
+	"MPL\nDescription": "ZOLEDRONIC A",
+	"9 digit Nappi Code": {
+		"$numberLong": "708533001"
+	},
+	"6 digit Nappi Code": 708533,
+	"Product Name": "ZOMETA AMPOULE POWDER FOR RECONSTITUTION",
+	"Strength": "4MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 948.84,
+	"MPL (incl VAT)": 1091.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae5"
+	},
+	"MPL Code": 995027,
+	"MPL\nDescription": "ZOLEDRONIC A",
+	"9 digit Nappi Code": {
+		"$numberLong": "719858001"
+	},
+	"6 digit Nappi Code": 719858,
+	"Product Name": "ZOMABON CONCENTRATED SOLUTION FOR INFUSI",
+	"Strength": "4MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 948.84,
+	"MPL (incl VAT)": 1091.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae6"
+	},
+	"MPL Code": 995027,
+	"MPL\nDescription": "ZOLEDRONIC A",
+	"9 digit Nappi Code": {
+		"$numberLong": "717192001"
+	},
+	"6 digit Nappi Code": 717192,
+	"Product Name": "ZOMEDRON POWDER FOR RECONSTITUTION VIAL",
+	"Strength": "4MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 948.84,
+	"MPL (incl VAT)": 1091.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae7"
+	},
+	"MPL Code": 995027,
+	"MPL\nDescription": "ZOLEDRONIC A",
+	"9 digit Nappi Code": {
+		"$numberLong": "720613001"
+	},
+	"6 digit Nappi Code": 720613,
+	"Product Name": "ZOLAPOR 4MG/5ML INF",
+	"Strength": "4MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 948.84,
+	"MPL (incl VAT)": 1091.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae8"
+	},
+	"MPL Code": 995027,
+	"MPL\nDescription": "ZOLEDRONIC A",
+	"9 digit Nappi Code": {
+		"$numberLong": "715952001"
+	},
+	"6 digit Nappi Code": 715952,
+	"Product Name": "ZOBONE POWDER FOR SOLUTION VIAL",
+	"Strength": "4MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 948.84,
+	"MPL (incl VAT)": 1091.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1ae9"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719395001"
+	},
+	"6 digit Nappi Code": 719395,
+	"Product Name": "AXTERE CONCENTRATED SOLUTION 5ML WITH DI",
+	"Strength": "20MG/.5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aea"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719959001"
+	},
+	"6 digit Nappi Code": 719959,
+	"Product Name": "ERIOX 20 CONCENTRATE FOR INFUSION WITH D",
+	"Strength": "20MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aeb"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "715749001"
+	},
+	"6 digit Nappi Code": 715749,
+	"Product Name": "CIPLA DOCETAXEL  VIAL 0.5ML",
+	"Strength": "20MG/.5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aec"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "723793001"
+	},
+	"6 digit Nappi Code": 723793,
+	"Product Name": "KEY DOCETAXEL CONCENTRATE SOL VIAL 0.5ML",
+	"Strength": "20MG/.5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aed"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "723381001"
+	},
+	"6 digit Nappi Code": 723381,
+	"Product Name": "DOCETAXEL ACCORD CONCENTRATE FOR SOLUTIO",
+	"Strength": "20MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aee"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719680001"
+	},
+	"6 digit Nappi Code": 719680,
+	"Product Name": "DOCEFREZ POWDER FOR SOLUTION VIAL WITH D",
+	"Strength": "20MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aef"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719389001"
+	},
+	"6 digit Nappi Code": 719389,
+	"Product Name": "DOCETERE VIAL RTU",
+	"Strength": "20MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af0"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "710737001"
+	},
+	"6 digit Nappi Code": 710737,
+	"Product Name": "DOCETERE (WITH SOLVENT) VIAL 0.5ML",
+	"Strength": "20MG/.5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af1"
+	},
+	"MPL Code": 995028,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "814768008"
+	},
+	"6 digit Nappi Code": 814768,
+	"Product Name": "TAXOTERE",
+	"Strength": "20MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 751.28,
+	"MPL (incl VAT)": 863.98
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af2"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "723388"
+	},
+	"6 digit Nappi Code": 723388,
+	"Product Name": "DOCETAXEL ACCORD CONCENTRATE FOR SOLUTIO",
+	"Strength": "160MG/8ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af3"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "710740001"
+	},
+	"6 digit Nappi Code": 710740,
+	"Product Name": "DOCETERE (WITH SOLVENT) VIAL 2ML",
+	"Strength": "80MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af4"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "715807001"
+	},
+	"6 digit Nappi Code": 715807,
+	"Product Name": "CIPLA DOCETAXEL VIAL 2ML",
+	"Strength": "80MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af5"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719390001"
+	},
+	"6 digit Nappi Code": 719390,
+	"Product Name": "DOCETERE VIAL RTU",
+	"Strength": "80MG/4ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af6"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719396001"
+	},
+	"6 digit Nappi Code": 719396,
+	"Product Name": "AXTERE CONCENTRATED SOLUTION VIAL 15ML W",
+	"Strength": "80MG/2ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af7"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719681001"
+	},
+	"6 digit Nappi Code": 719681,
+	"Product Name": "DOCEFREZ POWDER FOR SOLUTION VIAL WITH D",
+	"Strength": "80MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af8"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "719960001"
+	},
+	"6 digit Nappi Code": 719960,
+	"Product Name": "ERIOX 80 CONCENTRATE FOR INFUSION WITH D",
+	"Strength": "80MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1af9"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "723387001"
+	},
+	"6 digit Nappi Code": 723387,
+	"Product Name": "DOCETAXEL ACCORD CONCENTRATE FOR SOLUTIO",
+	"Strength": "80MG/4ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1afa"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "723794001"
+	},
+	"6 digit Nappi Code": 723794,
+	"Product Name": "KEY DOCETAXEL CONCENTRATE SOL VIAL 2ML (",
+	"Strength": "80MG/4ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1afb"
+	},
+	"MPL Code": 995029,
+	"MPL\nDescription": "DOCETAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "814741002"
+	},
+	"6 digit Nappi Code": 814741,
+	"Product Name": "TAXOTERE",
+	"Strength": "80MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 3005.14,
+	"MPL (incl VAT)": 3455.91
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1afc"
+	},
+	"MPL Code": 995030,
+	"MPL\nDescription": "FLUDARABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716356001"
+	},
+	"6 digit Nappi Code": 716356,
+	"Product Name": "TEVA FLUDARABINE CONCENTRATE FOR SOLUTIO",
+	"Strength": "50MG/2ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1928.75,
+	"MPL (incl VAT)": 2218.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1afd"
+	},
+	"MPL Code": 995030,
+	"MPL\nDescription": "FLUDARABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "820997005"
+	},
+	"6 digit Nappi Code": 820997,
+	"Product Name": "FLUDARA",
+	"Strength": "50MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1928.75,
+	"MPL (incl VAT)": 2218.06
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1afe"
+	},
+	"MPL Code": 995031,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "722149001"
+	},
+	"6 digit Nappi Code": 722149,
+	"Product Name": "TASDIAM",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 2675.65,
+	"MPL (incl VAT)": 3076.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1aff"
+	},
+	"MPL Code": 995031,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "723106001"
+	},
+	"6 digit Nappi Code": 723106,
+	"Product Name": "SPEC BICALUTAMIDE",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 2675.65,
+	"MPL (incl VAT)": 3076.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b00"
+	},
+	"MPL Code": 995031,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "716661001"
+	},
+	"6 digit Nappi Code": 716661,
+	"Product Name": "TEVA BICALUTAMIDE",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 2675.65,
+	"MPL (incl VAT)": 3076.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b01"
+	},
+	"MPL Code": 995031,
+	"MPL\nDescription": "BICALUTAMIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "869872001"
+	},
+	"6 digit Nappi Code": 869872,
+	"Product Name": "CASODEX",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 2675.65,
+	"MPL (incl VAT)": 3076.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b02"
+	},
+	"MPL Code": 995032,
+	"MPL\nDescription": "CLADRIBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "710351001"
+	},
+	"6 digit Nappi Code": 710351,
+	"Product Name": "LITAK VIAL 5ML",
+	"Strength": "10MG/5ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 5122.98,
+	"MPL (incl VAT)": 5891.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b03"
+	},
+	"MPL Code": 995032,
+	"MPL\nDescription": "CLADRIBINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "819409006"
+	},
+	"6 digit Nappi Code": 819409,
+	"Product Name": "LEUSTATIN 10ML",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 5122.98,
+	"MPL (incl VAT)": 5891.43
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b04"
+	},
+	"MPL Code": 995033,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718095001"
+	},
+	"6 digit Nappi Code": 718095,
+	"Product Name": "TEMINTAS",
+	"Strength": "5MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 99.7,
+	"MPL (incl VAT)": 114.66
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b05"
+	},
+	"MPL Code": 995033,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718133001"
+	},
+	"6 digit Nappi Code": 718133,
+	"Product Name": "ACCORD TEMOZOLOMIDE",
+	"Strength": "5MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 99.7,
+	"MPL (incl VAT)": 114.66
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b06"
+	},
+	"MPL Code": 995033,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "859931005"
+	},
+	"6 digit Nappi Code": 859931,
+	"Product Name": "TEMODAL (TEMOXOL)",
+	"Strength": "5MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 99.7,
+	"MPL (incl VAT)": 114.66
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b07"
+	},
+	"MPL Code": 995034,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718096001"
+	},
+	"6 digit Nappi Code": 718096,
+	"Product Name": "TEMINTAS",
+	"Strength": "20MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 398.94,
+	"MPL (incl VAT)": 458.78
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b08"
+	},
+	"MPL Code": 995034,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718134001"
+	},
+	"6 digit Nappi Code": 718134,
+	"Product Name": "ACCORD TEMOZOLOMIDE",
+	"Strength": "20MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 398.94,
+	"MPL (incl VAT)": 458.78
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b09"
+	},
+	"MPL Code": 995034,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "859958019"
+	},
+	"6 digit Nappi Code": 859958,
+	"Product Name": "TEMODAL (TEMOXOL)",
+	"Strength": "20MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 398.94,
+	"MPL (incl VAT)": 458.78
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b0a"
+	},
+	"MPL Code": 995035,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718097001"
+	},
+	"6 digit Nappi Code": 718097,
+	"Product Name": "TEMINTAS",
+	"Strength": "100MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 1962.39,
+	"MPL (incl VAT)": 2256.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b0b"
+	},
+	"MPL Code": 995035,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718135001"
+	},
+	"6 digit Nappi Code": 718135,
+	"Product Name": "ACCORD TEMOZOLOMIDE",
+	"Strength": "100MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 1962.39,
+	"MPL (incl VAT)": 2256.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b0c"
+	},
+	"MPL Code": 995035,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "859494004"
+	},
+	"6 digit Nappi Code": 859494,
+	"Product Name": "TEMODAL (TEMOXOL)",
+	"Strength": "100MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 1962.39,
+	"MPL (incl VAT)": 2256.75
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b0d"
+	},
+	"MPL Code": 995036,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718098001"
+	},
+	"6 digit Nappi Code": 718098,
+	"Product Name": "TEMINTAS",
+	"Strength": "250MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 4700.32,
+	"MPL (incl VAT)": 5405.37
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b0e"
+	},
+	"MPL Code": 995036,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "859966003"
+	},
+	"6 digit Nappi Code": 859966,
+	"Product Name": "TEMODAL (TEMOXOL)",
+	"Strength": "250MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 4700.32,
+	"MPL (incl VAT)": 5405.37
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b0f"
+	},
+	"MPL Code": 995036,
+	"MPL\nDescription": "TEMOZOLOMID",
+	"9 digit Nappi Code": {
+		"$numberLong": "718136001"
+	},
+	"6 digit Nappi Code": 718136,
+	"Product Name": "ACCORD TEMOZOLOMIDE",
+	"Strength": "250MG",
+	"Form_": "CAP",
+	"MPL QTY": 5,
+	"MPL (excl VAT)": 4700.32,
+	"MPL (incl VAT)": 5405.37
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b10"
+	},
+	"MPL Code": 995037,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "719926001"
+	},
+	"6 digit Nappi Code": 719926,
+	"Product Name": "IMALEK",
+	"Strength": "100MG",
+	"Form_": "TAB",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 6452.17,
+	"MPL (incl VAT)": 7419.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b11"
+	},
+	"MPL Code": 995037,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "722940001"
+	},
+	"6 digit Nappi Code": 722940,
+	"Product Name": "MIVESTA",
+	"Strength": "100MG",
+	"Form_": "TAB",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 6452.17,
+	"MPL (incl VAT)": 7419.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b12"
+	},
+	"MPL Code": 995037,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "722780001"
+	},
+	"6 digit Nappi Code": 722780,
+	"Product Name": "IMATINIB ACCORD",
+	"Strength": "100MG",
+	"Form_": "CAP",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 6452.17,
+	"MPL (incl VAT)": 7419.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b13"
+	},
+	"MPL Code": 995037,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "718595001"
+	},
+	"6 digit Nappi Code": 718595,
+	"Product Name": "IMAVEC",
+	"Strength": "100MG",
+	"Form_": "CAP",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 6452.17,
+	"MPL (incl VAT)": 7419.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b14"
+	},
+	"MPL Code": 995037,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "718477001"
+	},
+	"6 digit Nappi Code": 718477,
+	"Product Name": "VATIVIO",
+	"Strength": "100MG",
+	"Form_": "CAP",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 6452.17,
+	"MPL (incl VAT)": 7419.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b15"
+	},
+	"MPL Code": 995037,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "705491001"
+	},
+	"6 digit Nappi Code": 705491,
+	"Product Name": "GLEEVEC",
+	"Strength": "100MG",
+	"Form_": "TAB",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 6452.17,
+	"MPL (incl VAT)": 7419.99
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b16"
+	},
+	"MPL Code": 995038,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "711368001"
+	},
+	"6 digit Nappi Code": 711368,
+	"Product Name": "ACCORD-CARBOPLATIN VIAL 45ML",
+	"Strength": "450MG/45ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 797.87,
+	"MPL (incl VAT)": 917.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b17"
+	},
+	"MPL Code": 995038,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "704097001"
+	},
+	"6 digit Nappi Code": 704097,
+	"Product Name": "CARBOSIN VIAL 45ML",
+	"Strength": "450MG/45ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 797.87,
+	"MPL (incl VAT)": 917.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b18"
+	},
+	"MPL Code": 995038,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "720403001"
+	},
+	"6 digit Nappi Code": 720403,
+	"Product Name": "ASPEN CARBOPLATIN SOLUTION FOR INFUSION",
+	"Strength": "450MG/45ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 797.87,
+	"MPL (incl VAT)": 917.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b19"
+	},
+	"MPL Code": 995038,
+	"MPL\nDescription": "CARBOPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "840874006"
+	},
+	"6 digit Nappi Code": 840874,
+	"Product Name": "CARBOPLATIN CSV 45ML  (P\u0026U)",
+	"Strength": "450MG/45ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 797.87,
+	"MPL (incl VAT)": 917.55
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b1a"
+	},
+	"MPL Code": 995039,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "719927001"
+	},
+	"6 digit Nappi Code": 719927,
+	"Product Name": "IMALEK",
+	"Strength": "400MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 13200.09,
+	"MPL (incl VAT)": 15180.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b1b"
+	},
+	"MPL Code": 995039,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "722964001"
+	},
+	"6 digit Nappi Code": 722964,
+	"Product Name": "MIVESTA",
+	"Strength": "400MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 13200.09,
+	"MPL (incl VAT)": 15180.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b1c"
+	},
+	"MPL Code": 995039,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "723296001"
+	},
+	"6 digit Nappi Code": 723296,
+	"Product Name": "IMAVEC",
+	"Strength": "400MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 13200.09,
+	"MPL (incl VAT)": 15180.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b1d"
+	},
+	"MPL Code": 995039,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "722788001"
+	},
+	"6 digit Nappi Code": 722788,
+	"Product Name": "IMATINIB ACCORD",
+	"Strength": "400MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 13200.09,
+	"MPL (incl VAT)": 15180.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b1e"
+	},
+	"MPL Code": 995039,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "705490001"
+	},
+	"6 digit Nappi Code": 705490,
+	"Product Name": "GLEEVEC 400",
+	"Strength": "400MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 13200.09,
+	"MPL (incl VAT)": 15180.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b1f"
+	},
+	"MPL Code": 995039,
+	"MPL\nDescription": "IMATINIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "705490001"
+	},
+	"6 digit Nappi Code": 3000431,
+	"Product Name": "VATIVIO",
+	"Strength": "400MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 13200.09,
+	"MPL (incl VAT)": 15180.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b20"
+	},
+	"MPL Code": 995040,
+	"MPL\nDescription": "EXEMESTANE",
+	"9 digit Nappi Code": {
+		"$numberLong": "720023001"
+	},
+	"6 digit Nappi Code": 720023,
+	"Product Name": "EQUISIN",
+	"Strength": "25MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 1091.62,
+	"MPL (incl VAT)": 1255.36
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b21"
+	},
+	"MPL Code": 995040,
+	"MPL\nDescription": "EXEMESTANE",
+	"9 digit Nappi Code": {
+		"$numberLong": "722602001"
+	},
+	"6 digit Nappi Code": 722602,
+	"Product Name": "EXICAN",
+	"Strength": "25MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 1091.62,
+	"MPL (incl VAT)": 1255.36
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b22"
+	},
+	"MPL Code": 995040,
+	"MPL\nDescription": "EXEMESTANE",
+	"9 digit Nappi Code": {
+		"$numberLong": "721738001"
+	},
+	"6 digit Nappi Code": 721738,
+	"Product Name": "ASPEN EXEMESTANE",
+	"Strength": "25MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 1091.62,
+	"MPL (incl VAT)": 1255.36
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b23"
+	},
+	"MPL Code": 995040,
+	"MPL\nDescription": "EXEMESTANE",
+	"9 digit Nappi Code": {
+		"$numberLong": "700482003"
+	},
+	"6 digit Nappi Code": 700482,
+	"Product Name": "AROMASIN",
+	"Strength": "25MG",
+	"Form_": "TAB",
+	"MPL QTY": 30,
+	"MPL (excl VAT)": 1091.62,
+	"MPL (incl VAT)": 1255.36
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b24"
+	},
+	"MPL Code": 995041,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "723214001"
+	},
+	"6 digit Nappi Code": 723214,
+	"Product Name": "CAPECITABINE SPECPHARM",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 496.01,
+	"MPL (incl VAT)": 570.42
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b25"
+	},
+	"MPL Code": 995041,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "722783001"
+	},
+	"6 digit Nappi Code": 722783,
+	"Product Name": "CAPEXA",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 496.01,
+	"MPL (incl VAT)": 570.42
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b26"
+	},
+	"MPL Code": 995041,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "722962001"
+	},
+	"6 digit Nappi Code": 722962,
+	"Product Name": "PECASET",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 496.01,
+	"MPL (incl VAT)": 570.42
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b27"
+	},
+	"MPL Code": 995041,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "870072005"
+	},
+	"6 digit Nappi Code": 870072,
+	"Product Name": "XELODA 150",
+	"Strength": "150MG",
+	"Form_": "TAB",
+	"MPL QTY": 60,
+	"MPL (excl VAT)": 496.01,
+	"MPL (incl VAT)": 570.42
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b28"
+	},
+	"MPL Code": 995042,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "723225001"
+	},
+	"6 digit Nappi Code": 723225,
+	"Product Name": "CAPECITABINE SPECPHARM",
+	"Strength": "500MG",
+	"Form_": "TAB",
+	"MPL QTY": 120,
+	"MPL (excl VAT)": 3356.25,
+	"MPL (incl VAT)": 3859.68
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b29"
+	},
+	"MPL Code": 995042,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "722963001"
+	},
+	"6 digit Nappi Code": 722963,
+	"Product Name": "PECASET",
+	"Strength": "500MG",
+	"Form_": "TAB",
+	"MPL QTY": 120,
+	"MPL (excl VAT)": 3356.25,
+	"MPL (incl VAT)": 3859.68
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b2a"
+	},
+	"MPL Code": 995042,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "722784001"
+	},
+	"6 digit Nappi Code": 722784,
+	"Product Name": "CAPEXA",
+	"Strength": "500MG",
+	"Form_": "TAB",
+	"MPL QTY": 120,
+	"MPL (excl VAT)": 3356.25,
+	"MPL (incl VAT)": 3859.68
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b2b"
+	},
+	"MPL Code": 995042,
+	"MPL\nDescription": "CAPECITABINE",
+	"9 digit Nappi Code": {
+		"$numberLong": "870080008"
+	},
+	"6 digit Nappi Code": 870080,
+	"Product Name": "XELODA 500",
+	"Strength": "500MG",
+	"Form_": "TAB",
+	"MPL QTY": 120,
+	"MPL (excl VAT)": 3356.25,
+	"MPL (incl VAT)": 3859.68
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b2c"
+	},
+	"MPL Code": 995043,
+	"MPL\nDescription": "BORTEZOMIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "3000409001"
+	},
+	"6 digit Nappi Code": 3000409,
+	"Product Name": "MIBLEX VIAL POWDER FOR RECONSTITUTION",
+	"Strength": "3.5MG",
+	"Form_": "VIA",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 9962.88,
+	"MPL (incl VAT)": 11457.31
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b2d"
+	},
+	"MPL Code": 995043,
+	"MPL\nDescription": "BORTEZOMIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "722781001"
+	},
+	"6 digit Nappi Code": 722781,
+	"Product Name": "VALTIB POWDER FOR INJECTION VIAL",
+	"Strength": "3.5MG",
+	"Form_": "VIA",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 9962.88,
+	"MPL (incl VAT)": 11457.31
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b2e"
+	},
+	"MPL Code": 995043,
+	"MPL\nDescription": "BORTEZOMIB",
+	"9 digit Nappi Code": {
+		"$numberLong": "706787001"
+	},
+	"6 digit Nappi Code": 706787,
+	"Product Name": "VELCADE VIAL POWDER FOR RECONSTITUTION",
+	"Strength": "3.5MG",
+	"Form_": "VIA",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 9962.88,
+	"MPL (incl VAT)": 11457.31
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b2f"
+	},
+	"MPL Code": 995044,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "715015001"
+	},
+	"6 digit Nappi Code": 715015,
+	"Product Name": "EBETAXEL CONCENTRATE FOR INFUSION VIAL 2",
+	"Strength": "150MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 852.42,
+	"MPL (incl VAT)": 980.28
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b30"
+	},
+	"MPL Code": 995044,
+	"MPL\nDescription": "PACLITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "704209001"
+	},
+	"6 digit Nappi Code": 704209,
+	"Product Name": "ANZATAX VIAL 25ML",
+	"Strength": "150MG/25ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 852.42,
+	"MPL (incl VAT)": 980.28
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b31"
+	},
+	"MPL Code": 995045,
+	"MPL\nDescription": "PEMETREXED",
+	"9 digit Nappi Code": {
+		"$numberLong": "705833001"
+	},
+	"6 digit Nappi Code": 705833,
+	"Product Name": "ALIMTA VIAL POWDER FOR RECONSTITUTION",
+	"Strength": "500MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 9335.01,
+	"MPL (incl VAT)": 10735.26
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b32"
+	},
+	"MPL Code": 995045,
+	"MPL\nDescription": "PEMETREXED",
+	"9 digit Nappi Code": {
+		"$numberLong": "723384001"
+	},
+	"6 digit Nappi Code": 723384,
+	"Product Name": "PEMETREXED ACCORD POWDER FOR SOLUTION VI",
+	"Strength": "500MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 9335.01,
+	"MPL (incl VAT)": 10735.26
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b33"
+	},
+	"MPL Code": 995045,
+	"MPL\nDescription": "PEMETREXED",
+	"9 digit Nappi Code": {
+		"$numberLong": "723753001"
+	},
+	"6 digit Nappi Code": 723753,
+	"Product Name": "TEREXTA VIAL POWDER FOR SOLUTION",
+	"Strength": "500MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 9335.01,
+	"MPL (incl VAT)": 10735.26
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b34"
+	},
+	"MPL Code": 995046,
+	"MPL\nDescription": "ANAGRELIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "875112005"
+	},
+	"6 digit Nappi Code": 875112,
+	"Product Name": "AGRYLIN",
+	"Strength": "0.5MG",
+	"Form_": "CAP",
+	"MPL QTY": 100,
+	"MPL (excl VAT)": 4502.75,
+	"MPL (incl VAT)": 5178.17
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b35"
+	},
+	"MPL Code": 995046,
+	"MPL\nDescription": "ANAGRELIDE",
+	"9 digit Nappi Code": {
+		"$numberLong": "710080001"
+	},
+	"6 digit Nappi Code": 710080,
+	"Product Name": "THROMBOREDUCTIN",
+	"Strength": "0.5MG",
+	"Form_": "CAP",
+	"MPL QTY": 100,
+	"MPL (excl VAT)": 4502.75,
+	"MPL (incl VAT)": 5178.17
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b36"
+	},
+	"MPL Code": 995050,
+	"MPL\nDescription": "CABAZITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "3000147001"
+	},
+	"6 digit Nappi Code": 3000147,
+	"Product Name": "CABITAS VIAL 3ML RTU",
+	"Strength": "20MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 17641.56,
+	"MPL (incl VAT)": 20287.8
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b37"
+	},
+	"MPL Code": 995050,
+	"MPL\nDescription": "CABAZITAXEL",
+	"9 digit Nappi Code": {
+		"$numberLong": "715985001"
+	},
+	"6 digit Nappi Code": 715985,
+	"Product Name": "JEVTANA VIAL 1.5ML",
+	"Strength": "60MG/1.5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 17641.56,
+	"MPL (incl VAT)": 20287.8
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b38"
+	},
+	"MPL Code": 995051,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "720381001"
+	},
+	"6 digit Nappi Code": 720381,
+	"Product Name": "CISACOR 10ML VIAL",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 35.67,
+	"MPL (incl VAT)": 41.02
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b39"
+	},
+	"MPL Code": 995051,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "840858020"
+	},
+	"6 digit Nappi Code": 840858,
+	"Product Name": "P\u0026U Cisplatin",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 35.67,
+	"MPL (incl VAT)": 41.02
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b3a"
+	},
+	"MPL Code": 995051,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "825573010"
+	},
+	"6 digit Nappi Code": 825573,
+	"Product Name": "PLATOSIN RTU 1020 VIAL 20ML .5MG/1ML",
+	"Strength": "0.5MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 35.67,
+	"MPL (incl VAT)": 41.02
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b3b"
+	},
+	"MPL Code": 995051,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "782505007"
+	},
+	"6 digit Nappi Code": 782505,
+	"Product Name": "ABIPLATIN10 VIAL POWDER FOR RECONSTITUT",
+	"Strength": "10MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 35.67,
+	"MPL (incl VAT)": 41.02
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b3c"
+	},
+	"MPL Code": 995052,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "825581002"
+	},
+	"6 digit Nappi Code": 825581,
+	"Product Name": "PLATOSIN RTU 50100 VIAL 100ML .5MG/1ML",
+	"Strength": "0.5MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 138.5,
+	"MPL (incl VAT)": 159.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b3d"
+	},
+	"MPL Code": 995052,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "825581001"
+	},
+	"6 digit Nappi Code": 825581,
+	"Product Name": "PLATOSIN RTU 50100 VIAL 100ML .5MG/1ML",
+	"Strength": "0.5MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 138.5,
+	"MPL (incl VAT)": 159.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b3e"
+	},
+	"MPL Code": 995052,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "720382001"
+	},
+	"6 digit Nappi Code": 720382,
+	"Product Name": "CISACOR 50ML VIAL",
+	"Strength": "1MG/1ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 138.5,
+	"MPL (incl VAT)": 159.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b3f"
+	},
+	"MPL Code": 995052,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "840831005"
+	},
+	"6 digit Nappi Code": 840831,
+	"Product Name": "PU CISPLATIN VIAL 50ML",
+	"Strength": "50MG/50ML",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 138.5,
+	"MPL (incl VAT)": 159.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b40"
+	},
+	"MPL Code": 995052,
+	"MPL\nDescription": "CISPLATIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "782513018"
+	},
+	"6 digit Nappi Code": 782513,
+	"Product Name": "ABIPLATIN50 VIAL POWDER FOR RECONSTITUT",
+	"Strength": "50MG",
+	"Form_": "INJ",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 138.5,
+	"MPL (incl VAT)": 159.27
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b41"
+	},
+	"MPL Code": 995053,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "823635008"
+	},
+	"6 digit Nappi Code": 823635,
+	"Product Name": "DOXORUBICIN RTU 105 VIAL 5ML",
+	"Strength": "10MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 70.2,
+	"MPL (incl VAT)": 80.73
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b42"
+	},
+	"MPL Code": 995053,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "823635007"
+	},
+	"6 digit Nappi Code": 823635,
+	"Product Name": "DOXORUBICIN RTU 105 VIAL 5ML",
+	"Strength": "10MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 70.2,
+	"MPL (incl VAT)": 80.73
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b43"
+	},
+	"MPL Code": 995053,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "721800001"
+	},
+	"6 digit Nappi Code": 721800,
+	"Product Name": "RUBEXET RTU CONCENTRATED SOLUTION FOR IN",
+	"Strength": "10MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 70.2,
+	"MPL (incl VAT)": 80.73
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b44"
+	},
+	"MPL Code": 995053,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "718301001"
+	},
+	"6 digit Nappi Code": 718301,
+	"Product Name": "CIPLA DOXORUBICIN VIAL POWDER FOR INJECT",
+	"Strength": "10MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 70.2,
+	"MPL (incl VAT)": 80.73
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b45"
+	},
+	"MPL Code": 995053,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "721804001"
+	},
+	"6 digit Nappi Code": 721804,
+	"Product Name": "DOXORUBICIN ACCORD CONCENTRATE FOR INFUS",
+	"Strength": "10MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 70.2,
+	"MPL (incl VAT)": 80.73
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b46"
+	},
+	"MPL Code": 995053,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "713679001"
+	},
+	"6 digit Nappi Code": 713679,
+	"Product Name": "DOXORUBICIN EBEWE  SOLUTION FOR INFUSI",
+	"Strength": "10MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 70.2,
+	"MPL (incl VAT)": 80.73
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b47"
+	},
+	"MPL Code": 995053,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "710404001"
+	},
+	"6 digit Nappi Code": 710404,
+	"Product Name": "DOXORUBICINHEXAL VIAL 5ML",
+	"Strength": "10MG/5ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 70.2,
+	"MPL (incl VAT)": 80.73
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b48"
+	},
+	"MPL Code": 995054,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "823643019"
+	},
+	"6 digit Nappi Code": 823643,
+	"Product Name": "DOXORUBICIN RTU 5025 VIAL 25ML",
+	"Strength": "50MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 350.99,
+	"MPL (incl VAT)": 403.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b49"
+	},
+	"MPL Code": 995054,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "823643018"
+	},
+	"6 digit Nappi Code": 823643,
+	"Product Name": "DOXORUBICIN RTU 5025 VIAL 25ML",
+	"Strength": "50MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 350.99,
+	"MPL (incl VAT)": 403.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b4a"
+	},
+	"MPL Code": 995054,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "721801001"
+	},
+	"6 digit Nappi Code": 721801,
+	"Product Name": "RUBEXET RTU CONCENTRATED SOLUTION FOR IN",
+	"Strength": "50MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 350.99,
+	"MPL (incl VAT)": 403.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b4b"
+	},
+	"MPL Code": 995054,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "718302001"
+	},
+	"6 digit Nappi Code": 718302,
+	"Product Name": "CIPLA DOXORUBICIN VIAL POWDER FOR INJECT",
+	"Strength": "50MG",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 350.99,
+	"MPL (incl VAT)": 403.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b4c"
+	},
+	"MPL Code": 995054,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "721805001"
+	},
+	"6 digit Nappi Code": 721805,
+	"Product Name": "DOXORUBICIN ACCORD CONCENTRATE FOR INFUS",
+	"Strength": "50MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 350.99,
+	"MPL (incl VAT)": 403.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b4d"
+	},
+	"MPL Code": 995054,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "713680001"
+	},
+	"6 digit Nappi Code": 713680,
+	"Product Name": "DOXORUBICIN EBEWE SOLUTION FOR INFUSIO",
+	"Strength": "50MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 350.99,
+	"MPL (incl VAT)": 403.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b4e"
+	},
+	"MPL Code": 995054,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "710405001"
+	},
+	"6 digit Nappi Code": 710405,
+	"Product Name": "DOXORUBICINHEXAL VIAL 25ML",
+	"Strength": "50MG/25ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 350.99,
+	"MPL (incl VAT)": 403.64
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b4f"
+	},
+	"MPL Code": 995055,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "721802001"
+	},
+	"6 digit Nappi Code": 721802,
+	"Product Name": "RUBEXET RTU CONCENTRATED SOLUTION FOR IN",
+	"Strength": "200MG/100ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1377.58,
+	"MPL (incl VAT)": 1584.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b50"
+	},
+	"MPL Code": 995055,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "837008019"
+	},
+	"6 digit Nappi Code": 837008,
+	"Product Name": "DOXORUBICIN RTU 200100 VIAL 100ML",
+	"Strength": "200MG/100ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 1377.58,
+	"MPL (incl VAT)": 1584.22
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b51"
+	},
+	"MPL Code": 995056,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "719985001"
+	},
+	"6 digit Nappi Code": 719985,
+	"Product Name": "DOXOLIP CONCENTRATE FOR INFUSION VIAL 10",
+	"Strength": "20MG/10ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 5154.48,
+	"MPL (incl VAT)": 5927.65
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b52"
+	},
+	"MPL Code": 995056,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "720412001"
+	},
+	"6 digit Nappi Code": 720412,
+	"Product Name": "DOXOPEG 10ML VIAL",
+	"Strength": "2MG/1ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 5154.48,
+	"MPL (incl VAT)": 5927.65
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b53"
+	},
+	"MPL Code": 995056,
+	"MPL\nDescription": "DOXORUBICIN",
+	"9 digit Nappi Code": {
+		"$numberLong": "867411007"
+	},
+	"6 digit Nappi Code": 867411,
+	"Product Name": "CAELYX VIAL 10ML",
+	"Strength": "20MG/10ML",
+	"Form_": "INF",
+	"MPL QTY": 1,
+	"MPL (excl VAT)": 5154.48,
+	"MPL (incl VAT)": 5927.65
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b54"
+	},
+	"MPL Code": 995057,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "3000044001"
+	},
+	"6 digit Nappi Code": 3000044,
+	"Product Name": "VOMIZ D 4MG",
+	"Strength": "4MG",
+	"Form_": "DSP",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 405.36,
+	"MPL (incl VAT)": 466.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b55"
+	},
+	"MPL Code": 995057,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "713980001"
+	},
+	"6 digit Nappi Code": 713980,
+	"Product Name": "ZOFER RAPITAB 4MG",
+	"Strength": "4MG",
+	"Form_": "DSP",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 405.36,
+	"MPL (incl VAT)": 466.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b56"
+	},
+	"MPL Code": 995057,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "862223008"
+	},
+	"6 digit Nappi Code": 862223,
+	"Product Name": "ZOFRAN ZYDIS 4MG",
+	"Strength": "4MG",
+	"Form_": "DSP",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 405.36,
+	"MPL (incl VAT)": 466.16
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b57"
+	},
+	"MPL Code": 995058,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "3000045001"
+	},
+	"6 digit Nappi Code": 3000045,
+	"Product Name": "VOMIZ D 8MG",
+	"Strength": "8MG",
+	"Form_": "DSP",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 806.18,
+	"MPL (incl VAT)": 927.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b58"
+	},
+	"MPL Code": 995058,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "714957001"
+	},
+	"6 digit Nappi Code": 714957,
+	"Product Name": "ZOFER RAPITAB 8MG",
+	"Strength": "8MG",
+	"Form_": "DSP",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 806.18,
+	"MPL (incl VAT)": 927.11
+},
+{
+	"_id": {
+		"$oid": "5cf4c108358aba56959e1b59"
+	},
+	"MPL Code": 995058,
+	"MPL\nDescription": "ONDANSETRON",
+	"9 digit Nappi Code": {
+		"$numberLong": "862231019"
+	},
+	"6 digit Nappi Code": 862231,
+	"Product Name": "ZOFRAN ZYDIS 8MG",
+	"Strength": "8MG",
+	"Form_": "DSP",
+	"MPL QTY": 10,
+	"MPL (excl VAT)": 806.18,
+	"MPL (incl VAT)": 927.11
+}]
+

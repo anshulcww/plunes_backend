@@ -1,0 +1,17 @@
+[{
+	"_id": {
+		"$oid": "5d148e42af7171551d5cbb10"
+	},
+	"username": "plunes_admin_username",
+	"hash": "$2a$10$3S78mn.qulSUtu/x8Dlh1ebHEkeXwjm.EUwykT9GI0oO/QWy9XfZy",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5d15a722f73d21293d278c1b"
+	},
+	"username": "cpv076",
+	"hash": "$2a$10$s2IIms0ZeU2KJBD/mQdt4um1cyA39AzH8u/xkKT6NPy7SuEw5uPj.",
+	"__v": 0
+}]
+

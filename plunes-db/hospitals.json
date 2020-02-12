@@ -1,0 +1,139 @@
+[{
+	"_id": {
+		"$oid": "5d3057e75297ae1710146578"
+	},
+	"geolocation": {
+		"type": "Point",
+		"coordinates": [
+			28.4526156,
+			77.03781860000004
+		]
+	},
+	"username": "chetan",
+	"name": "Hope Multispeciality Clinic",
+	"hospital_location": "Sector 15 Part 1, Sector 15, Gurugram, Haryana 122001, India",
+	"admin_name": "Chetan",
+	"admin_ph_no": "9905013013",
+	"admin_email": "hopepharmacycare@gmail.com",
+	"createdDate": {
+		"$date": "2019-07-18T11:28:39.801Z"
+	},
+	"hash": "$2a$10$6Xva.nIwTVhETu7PD3fJ/Or3qoe4TWLgc2jEDT7LTy4Lk.5N6kQRi",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5d306a6a5297ae171014657a"
+	},
+	"geolocation": {
+		"type": "Point",
+		"coordinates": [
+			28.4710811,
+			77.04541440000003
+		]
+	},
+	"username": "Mahesh",
+	"name": "Bliss Dental Care",
+	"hospital_location": "Sector 14, Gurugram, Haryana 122022, India",
+	"admin_name": "Mahesh",
+	"admin_ph_no": "8700397723",
+	"admin_email": "maheshmandal87@gmail.com",
+	"createdDate": {
+		"$date": "2019-07-18T12:47:38.644Z"
+	},
+	"hash": "$2a$10$dRnIEQPF5AS.hfK/y8t4UumcUxkdmwx5sgLd4PdWlzw0cG4yoYNqK",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5d36db1c5297ae171014657d"
+	},
+	"geolocation": {
+		"type": "Point",
+		"coordinates": [
+			28.4634412,
+			77.07675569999992
+		]
+	},
+	"username": "ritika",
+	"name": "Dental Roots",
+	"hospital_location": "Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122022, India",
+	"admin_name": "Ritika",
+	"admin_ph_no": "9891255501",
+	"admin_email": "drdheerajsetia@yahoo.co.in",
+	"createdDate": {
+		"$date": "2019-07-23T10:02:04.107Z"
+	},
+	"hash": "$2a$10$LzKXN74MYeJYSxU/deyLGeLgywyuj7HpR/rQBX3R/nfCaIYZpkway",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5d3a88c35297ae1710146580"
+	},
+	"geolocation": {
+		"type": "Point",
+		"coordinates": [
+			28.4811116,
+			77.08435629999997
+		]
+	},
+	"username": "medicalshealthchek",
+	"name": "Plasma Healthchek Diagnostics Pvt Ltd",
+	"hospital_location": "K-5 Rd, DLF Phase 2, Sector 25, Gurugram, Haryana 122022, India",
+	"admin_name": "Admin",
+	"admin_ph_no": "9717993881",
+	"admin_email": "medicals@healthchek.in",
+	"createdDate": {
+		"$date": "2019-07-26T04:59:47.323Z"
+	},
+	"hash": "$2a$10$3Bv7z.PAEOjUR13LqNqxoeq0ZXQFgKjXanySCBIVBUPxEWOLU6h1C",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5d4290625297ae171014658c"
+	},
+	"geolocation": {
+		"type": "Point",
+		"coordinates": [
+			28.4945255,
+			77.09551999999996
+		]
+	},
+	"username": "ashamultispeciality",
+	"name": "ASHA MULTI SPECIALITY CLINIC DLF",
+	"hospital_location": "U14/1, Galli Number 14, U Block, DLF Phase 3, Sector 24, Gurugram, Haryana 122022, India",
+	"admin_name": "admin",
+	"admin_ph_no": "9999777222",
+	"admin_email": "ashahealthservices@gmail.com",
+	"createdDate": {
+		"$date": "2019-08-01T07:10:26.008Z"
+	},
+	"hash": "$2a$10$6Xva.nIwTVhETu7PD3fJ/Or3qoe4TWLgc2jEDT7LTy4Lk.5N6kQRi",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5d70f3dd5297ae17101465dc"
+	},
+	"geolocation": {
+		"type": "Point",
+		"coordinates": [
+			13.0628333,
+			80.25171279999995
+		]
+	},
+	"username": "fake",
+	"name": "fake hospital",
+	"hospital_location": "21, Off, Greams Ln, Thousand Lights West, Thousand Lights, Chennai, Tamil Nadu 600006, India",
+	"admin_name": "fake admin",
+	"admin_ph_no": "9999912345",
+	"admin_email": "fakeemail@fakeemail.com",
+	"createdDate": {
+		"$date": "2019-09-05T11:39:09.852Z"
+	},
+	"hash": "$2a$10$3buAE.A0XM.HkU7sMbjzY.WUAFVp0IN9wsv.anTNZlOW2FdruYLwa",
+	"__v": 0
+}]
+

@@ -1,0 +1,62 @@
+[
+  {
+    "service": "GENERAL HEALTH CHECK-UP",
+    "details": "(Complete Blood Count With ESR, Blood Group & Rh Factor, Blood sugar fasting, blood urea , urine routine & microscopic examination, ECG, x-ray chest)\n\nThis  health check-up is used for screening against diseases related to thyroid, heart as well as those related to diabetes and blood count.",
+    "dnd": "12 Hour Fasting Mandatory",
+    "tags": "health check up, general health check up, check up, general, health package, package, health panel check up, medical examination, health checkup, general health checkup, checkup"
+  },
+  {
+    "service": "WHOLE BODY CHECK-UP",
+    "details": "( CBC with ESR, Blood grouping/Rh Typing, Blood sugar (F&R), HbA1C, TSH, LIPID profile urine, USG incl. KUB, ECG, Blood urea, S. Creatinine, S.uric acid, SGOT, SGPT, PSA Total) \n\nThis  health check up is for a full body examination or an overall assessment of all the organs and systems of the body.",
+    "dnd": "12 hours overnight fasting is mandatory",
+    "tags": "health check up, check up, health package, package, health panel check up, medical examination, health checkup, checkup, whole body checkup, whole body check up, full body checkup, full body check up"
+  },
+  {
+    "service": "GENERAL DIABETES HEALTH CHECK-UP",
+    "details": "(Blood sugar fasting, HbA1C, S. Creatinine, S. Urea, Cholesterol, S. Triglycerides)\n\nThis is the procedure for general diabetes health check-up used for screening against diabetes and diseases related to blood count.",
+    "dnd": "12 hours fasting is mandatory",
+    "tags": "diabetes health check up, general diabetes health check up, sugar, sugar checkup, sugar check up, diabetes health package, diabetes package, health panel check up, medical examination, health checkup, diabetes checkup, diabetes"
+  },
+  {
+    "service": "HEALTHY CHILD PACKAGE",
+    "details": "(CBC with PS, TSH, Blood grouping/Rh typing, Blood sugar (F&R), SGOT, SGPT, Blood urea, S. Iron, S. Creatinine, Vit. D25 Hydroxy, LIPID profile)\n\nThis package is specially designed to assess child's overall health status and review his/her development. This package offers basic tests and advice on the diet and vaccination for the child.",
+    "dnd": "1) Once a year or as advised by Pediatrician\n2) For 2-12 years of age",
+    "tags": "healthy child check up, check up, health package, package, healthy child package, child, child package"
+  },
+  {
+    "service": "OBESITY PANEL",
+    "details": "(Glucose fasting, Cholesterol total, Triglycerides, HDL Cholesterol,  LDL Cholesterol, VLDL Cholesterol, TSH, Ultrasensitive, Leptin)\n\nObesity is related to a host of health diseases and it is thus vital to regularly check for disorders in order to treat them at an early stage before they become worse.",
+    "dnd": "Minimum 12 hours fasting is mandatory",
+    "tags": "obesity check up, check up, health package, package, obesity package, obesity"
+  },
+  {
+    "service": "REGULAR DIABETES HEALTH CHECK-UP",
+    "details": "(Blood sugar fasting, HbA1C, CBC, LIPID profile, Blood urea, S creatinine, SGOT, SGPT, TSH, Urine R/M)\n\nThis is the procedure for regular diabetes health check-up used for screening against diabetes and diseases related to blood count.",
+    "dnd": "12 hours fasting is mandatory",
+    "tags": "diabetes health check up, general diabetes health check up, sugar checkup, sugar check up, diabetes health package, diabetes package, health panel check up, medical examination, health checkup, diabetes checkup, diabetes"
+  },
+  {
+    "service": "HEALTHY HEART CHECK-UP",
+    "details": "(Calcium serum, Cholesterol total, Complete blood count, Creatinine serum, Glucose fasting, Urea serum, Uric acid serum, Urine examination, Alkaline phosphatase, Bilirubin total, Bilirubin direct, Bilirubin indirect, GGTP, Protein total, SGOT, SGPT, Albumin serum, Liver panel, LFT)\n\nThis is the basic health check up for heart examination or an overall assessment of its functioning.",
+    "dnd": "12 Hours Fasting Mandatory",
+    "tags": "heart, heart check up, heart checkup, heart package, heart, healthy heart checkup, healthy heart check up, health check up, health checkup"
+  },
+  {
+    "service": "INFERTILITY COMPREHENSIVE PANEL",
+    "details": "(Anti-Mullerian Hormone, Estradiol E2 serum, Follicle stimulating Hormone, Luteinizing Hormone, Prolactin serum, Thyroid stimulating hormone, Ultrasensitive)\n\nInfertility in females can be associated with amenorrhea.  A variety of clinical causes identified include use of certain medications, systemic disease states and endocrine abnormalities. A couple is considered infertile if they fail to conceive.",
+    "dnd": "1) Overnight fasting is preferred. \n2) Collect specimen 4 hours after the patient has awakened. \n3) In females, preferred sampling time is Day 2 / Day 3 of the menstrual cycle.",
+    "tags": "infertility, infertility panel, infertility package, infertility check up, infertility checkup"
+  },
+  {
+    "service": "PCOD PANEL",
+    "details": "(Glucose fasting, Testosterone total, FSH, LH, Prolactin serum, TSH, Ultrasensitive)\n\nPolycystic Ovarian Syndrome (PCOD) is a clinical entity associated with enlarged ovaries, infertility and amenorrhea. This syndrome is characterized by normal/low levels of Follicle-stimulating hormone (FSH) and Luteinizing Hormone (LH).",
+    "dnd": "1) Overnight fasting is mandatory. \n2) Collect specimen 4 hrs. after the patient has awakened.",
+    "tags": "infertility, infertility panel, infertility package, infertility check up, infertility checkup, pcod, pcod check up, pcod checkup, pcod panel, pcod package, heath checkup"
+  },
+  {
+    "service": "SENIOR CITIZEN HEALTH CHECK-UP",
+    "details": "(Calcium Serum, Cholesterol total, Complete blood count, Creatinine, Glucose fasting, Urea serum, Uric acid serum, Urine examination, Urine R/E, Alkaline phosphatase, Bilirubin total, Bilirubin direct, Bilirubin indirect, GGTP, Protein total, SGOT, SGPT, Albumin serum, Liver panel)\n\nThis is a basic health check-up used for screening against diseases related to Heart and Liver as well as those related to diabetes and blood count.",
+    "dnd": "12 Hour Fasting Mandatory",
+    "tags": "senior citizen panel, senior citizen package, health check up, health checkup, check up, checkup"
+  }
+]

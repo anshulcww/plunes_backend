@@ -1,0 +1,151 @@
+[{
+	"_id": {
+		"$oid": "5d885981d9053e6c5ddfd3d1"
+	},
+	"createdAt": {
+		"$date": "2019-09-21T08:20:25.113Z"
+	},
+	"professional_id": "5d19af7d99aa1b0bdbc99a8f",
+	"bank_name": "zjhssjk",
+	"account_number": "6166464-94994949",
+	"ifsc_code": "VABAJSJ2882",
+	"pan_number": "AHMPY9067H",
+	"account_holder_name": "shjsjsk",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da3485dc623006d7bda1f08"
+	},
+	"createdAt": {
+		"$date": "2019-10-13T15:46:48.071Z"
+	},
+	"professional_id": "5da32389b1675e30406a27f4",
+	"bank_name": "fjdkd",
+	"account_number": "1234567890",
+	"ifsc_code": "DKDKDK",
+	"pan_number": "ASXPT7762P",
+	"account_holder_name": "fjdjkd",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5da44335c623006d7bda1f1f"
+	},
+	"createdAt": {
+		"$date": "2019-10-13T15:46:48.071Z"
+	},
+	"professional_id": "5da40e098e65866d93cf0c96",
+	"bank_name": "sbi",
+	"account_number": "12345678974",
+	"ifsc_code": "HSFJJ134",
+	"pan_number": "AHMPY9086H",
+	"account_holder_name": "sahil saxena",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db18e7b8213a5319d2c45aa"
+	},
+	"createdAt": {
+		"$date": "2019-10-19T13:23:23.895Z"
+	},
+	"professional_id": "5db185156ff81c232b7009c3",
+	"bank_name": "ICICI bank ",
+	"account_number": "7854639999",
+	"ifsc_code": "ICICI0017",
+	"pan_number": "AHMPY9098J",
+	"account_holder_name": "Ranjeet Kumar yadav",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db67473550a9a17bd7128c9"
+	},
+	"createdAt": {
+		"$date": "2019-10-25T09:59:45.684Z"
+	},
+	"professional_id": "5db1aeaf24ca243670418c51",
+	"bank_name": "ICICI bank ",
+	"account_number": "663101536842",
+	"ifsc_code": "ICIC0006631",
+	"pan_number": "AHMPY9098H",
+	"account_holder_name": "Ranjeet Kumar yadav",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db82c7d1c43007a67e2e8f3"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T10:13:09.453Z"
+	},
+	"professional_id": "5db822b75ea63a2323019dda",
+	"bank_name": "Axis Bank",
+	"account_number": "5241780003730749",
+	"ifsc_code": "AXIS00045",
+	"pan_number": "AHMPY9098Y",
+	"account_holder_name": "vikram Pratap dhir",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db9890b6aba5d04b3f94bf1"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.868Z"
+	},
+	"professional_id": "5db981c95ea63a232301c153",
+	"bank_name": "ICICI bank ",
+	"account_number": "7845664664949",
+	"ifsc_code": "ICICI000727",
+	"pan_number": "AHMPY9098A",
+	"account_holder_name": "Ranjeet Kumar yadav ",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc40d2e6aba5d04b3f94c35"
+	},
+	"createdAt": {
+		"$date": "2019-10-29T14:36:43.868Z"
+	},
+	"professional_id": "5dab0731b702db0efa045b78",
+	"bank_name": "OBC",
+	"account_number": "00712151012398",
+	"ifsc_code": "ORBC0100071",
+	"pan_number": "AMTPB9845K",
+	"account_holder_name": "prashant Bhardwaj",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcbdfc317878d1d7af5bad6"
+	},
+	"createdAt": {
+		"$date": "2019-11-13T07:51:25.155Z"
+	},
+	"professional_id": "5dca44268c39b95fc9831f0e",
+	"bank_name": "ICICI bank ",
+	"account_number": "45237689452399",
+	"ifsc_code": "ICICI000223",
+	"pan_number": "AHMPY9098Y",
+	"account_holder_name": "ranjeet Kumar yadav",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcd5173f69a4210b6a21f03"
+	},
+	"createdAt": {
+		"$date": "2019-11-14T11:48:21.522Z"
+	},
+	"professional_id": "5dcd3114b0a4970d0486e6f3",
+	"bank_name": "dyjfjg",
+	"account_number": "55786366886835686",
+	"ifsc_code": "GHJFJH5970797",
+	"pan_number": "AHMPY9098Y",
+	"account_holder_name": "Ankit Kumar ",
+	"__v": 0
+}]
+

@@ -1,0 +1,3818 @@
+[
+  {
+    "PROCEDURE": "Cataract -Phaco With Iol Amo Tecnis Ak",
+    "GENERAL WARD": 22400,
+    "SEMI PRIVATE": 26000,
+    "PRIVATE": 27900,
+    "DELUXE": 31600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol Amo Sensar",
+    "GENERAL WARD": 19800,
+    "SEMI PRIVATE": 23100,
+    "PRIVATE": 24700,
+    "DELUXE": 28100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol Amo Tecnis 1",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol Amo Multifocal Silicon",
+    "GENERAL WARD": 39300,
+    "SEMI PRIVATE": 45700,
+    "PRIVATE": 48900,
+    "DELUXE": 55400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol Amo Multifocal Ak",
+    "GENERAL WARD": 45500,
+    "SEMI PRIVATE": 53000,
+    "PRIVATE": 56700,
+    "DELUXE": 64300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol B & L Akreos",
+    "GENERAL WARD": 19300,
+    "SEMI PRIVATE": 22500,
+    "PRIVATE": 24100,
+    "DELUXE": 27300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol B & L Ak Ao",
+    "GENERAL WARD": 22400,
+    "SEMI PRIVATE": 26000,
+    "PRIVATE": 27900,
+    "DELUXE": 31600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol B & L Mil 60",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract - Phaco With Iol B & L Crystalens",
+    "GENERAL WARD": 91300,
+    "SEMI PRIVATE": 106600,
+    "PRIVATE": 114300,
+    "DELUXE": 129500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Zeiss Multifocal",
+    "GENERAL WARD": 28600,
+    "SEMI PRIVATE": 33300,
+    "PRIVATE": 35700,
+    "DELUXE": 40400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Alcon Toric",
+    "GENERAL WARD": 30100,
+    "SEMI PRIVATE": 35000,
+    "PRIVATE": 37500,
+    "DELUXE": 42500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Alcon Multifocal Restore",
+    "GENERAL WARD": 45500,
+    "SEMI PRIVATE": 53000,
+    "PRIVATE": 56700,
+    "DELUXE": 64300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Alcon Iq",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract -Phaco With Iol Alcon Ma - 60",
+    "GENERAL WARD": 17900,
+    "SEMI PRIVATE": 20800,
+    "PRIVATE": 22400,
+    "DELUXE": 25400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Alconsingle Piece",
+    "GENERAL WARD": 19500,
+    "SEMI PRIVATE": 22900,
+    "PRIVATE": 24500,
+    "DELUXE": 27800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Hoya Pc",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Hoya Yellow",
+    "GENERAL WARD": 31800,
+    "SEMI PRIVATE": 37100,
+    "PRIVATE": 39700,
+    "DELUXE": 45000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Eurovision Aspheric",
+    "GENERAL WARD": 16380,
+    "SEMI PRIVATE": 23100,
+    "PRIVATE": 24700,
+    "DELUXE": 28100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract-Phaco With Iol Eurovision Plain",
+    "GENERAL WARD": 11400,
+    "SEMI PRIVATE": 13200,
+    "PRIVATE": 14100,
+    "DELUXE": 16000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco +Iol Akeros Adapt",
+    "GENERAL WARD": 19300,
+    "SEMI PRIVATE": 22500,
+    "PRIVATE": 24100,
+    "DELUXE": 27300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cataract Appa Lense Package Worth Int",
+    "GENERAL WARD": 6200,
+    "SEMI PRIVATE": 7100,
+    "PRIVATE": 7600,
+    "DELUXE": 8600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Amo Tecnis Ak",
+    "GENERAL WARD": 14900,
+    "SEMI PRIVATE": 17500,
+    "PRIVATE": 18600,
+    "DELUXE": 21200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Amo Sensar",
+    "GENERAL WARD": 12400,
+    "SEMI PRIVATE": 14500,
+    "PRIVATE": 15500,
+    "DELUXE": 17500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Amo Tecnis 1",
+    "GENERAL WARD": 19000,
+    "SEMI PRIVATE": 22100,
+    "PRIVATE": 23700,
+    "DELUXE": 26800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Amo Multifocal Silicon",
+    "GENERAL WARD": 31800,
+    "SEMI PRIVATE": 37100,
+    "PRIVATE": 39700,
+    "DELUXE": 45000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Amo Multifocal Ak",
+    "GENERAL WARD": 38000,
+    "SEMI PRIVATE": 44400,
+    "PRIVATE": 47500,
+    "DELUXE": 53800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange B & L Akreos",
+    "GENERAL WARD": 12000,
+    "SEMI PRIVATE": 14000,
+    "PRIVATE": 14900,
+    "DELUXE": 16900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange B & L Ak Ao",
+    "GENERAL WARD": 14900,
+    "SEMI PRIVATE": 17500,
+    "PRIVATE": 18600,
+    "DELUXE": 21200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange B & L Mil 60",
+    "GENERAL WARD": 21000,
+    "SEMI PRIVATE": 24500,
+    "PRIVATE": 26200,
+    "DELUXE": 29700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange B & L Crystalens",
+    "GENERAL WARD": 77300,
+    "SEMI PRIVATE": 90300,
+    "PRIVATE": 96600,
+    "DELUXE": 109500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Alcon Toric",
+    "GENERAL WARD": 22700,
+    "SEMI PRIVATE": 26400,
+    "PRIVATE": 28400,
+    "DELUXE": 32100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Alcon Multifocal Restore",
+    "GENERAL WARD": 38000,
+    "SEMI PRIVATE": 44400,
+    "PRIVATE": 47500,
+    "DELUXE": 53800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Alcon Iq",
+    "GENERAL WARD": 19300,
+    "SEMI PRIVATE": 22400,
+    "PRIVATE": 24000,
+    "DELUXE": 27200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Alcon Ma - 60",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12400,
+    "PRIVATE": 13200,
+    "DELUXE": 14900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Alcon Single Piece",
+    "GENERAL WARD": 12300,
+    "SEMI PRIVATE": 14300,
+    "PRIVATE": 15300,
+    "DELUXE": 17300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Anirida Ring",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Trabeculectomy With Mitomycin C",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Explant (Anterior Root)",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Iol Hoya Pc",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Hoya Yellow",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Eurovision Aspheric",
+    "GENERAL WARD": 12500,
+    "SEMI PRIVATE": 14600,
+    "PRIVATE": 15500,
+    "DELUXE": 17600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Exchange Eurovision Plain",
+    "GENERAL WARD": 11400,
+    "SEMI PRIVATE": 13200,
+    "PRIVATE": 14100,
+    "DELUXE": 16000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Amo Tecnis Ak",
+    "GENERAL WARD": 36400,
+    "SEMI PRIVATE": 42400,
+    "PRIVATE": 45500,
+    "DELUXE": 51600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Amo Sensar",
+    "GENERAL WARD": 33800,
+    "SEMI PRIVATE": 39400,
+    "PRIVATE": 42200,
+    "DELUXE": 47800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Amo Tecnis 1",
+    "GENERAL WARD": 42200,
+    "SEMI PRIVATE": 49200,
+    "PRIVATE": 52800,
+    "DELUXE": 59800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Amo Multifocal Silicon",
+    "GENERAL WARD": 53300,
+    "SEMI PRIVATE": 62100,
+    "PRIVATE": 66600,
+    "DELUXE": 75400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Amo Multifocal Ak",
+    "GENERAL WARD": 59600,
+    "SEMI PRIVATE": 69300,
+    "PRIVATE": 74400,
+    "DELUXE": 84300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) B & L Akreos",
+    "GENERAL WARD": 33300,
+    "SEMI PRIVATE": 38900,
+    "PRIVATE": 41800,
+    "DELUXE": 47300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) B & L Ak Ao",
+    "GENERAL WARD": 36400,
+    "SEMI PRIVATE": 42400,
+    "PRIVATE": 45500,
+    "DELUXE": 51600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) B & L Mil 60",
+    "GENERAL WARD": 42200,
+    "SEMI PRIVATE": 49200,
+    "PRIVATE": 52800,
+    "DELUXE": 59800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) B & L Crystalens",
+    "GENERAL WARD": 105300,
+    "SEMI PRIVATE": 123000,
+    "PRIVATE": 131700,
+    "DELUXE": 149300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Alcon Toric",
+    "GENERAL WARD": 44100,
+    "SEMI PRIVATE": 51400,
+    "PRIVATE": 55200,
+    "DELUXE": 62500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Alcon Multifocal Restore",
+    "GENERAL WARD": 59600,
+    "SEMI PRIVATE": 69300,
+    "PRIVATE": 74400,
+    "DELUXE": 84300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Alcon Iq",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Alcon Ma - 60",
+    "GENERAL WARD": 32000,
+    "SEMI PRIVATE": 37400,
+    "PRIVATE": 40100,
+    "DELUXE": 45400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Alcon Single Piece",
+    "GENERAL WARD": 33600,
+    "SEMI PRIVATE": 39300,
+    "PRIVATE": 42000,
+    "DELUXE": 47700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cyclo Cryopexy (Dlcp)",
+    "GENERAL WARD": 5800,
+    "SEMI PRIVATE": 6700,
+    "PRIVATE": 7100,
+    "DELUXE": 8000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Rop (Per Eye)",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Hoya Pc",
+    "GENERAL WARD": 42200,
+    "SEMI PRIVATE": 49200,
+    "PRIVATE": 52800,
+    "DELUXE": 59800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Hoya Yellow",
+    "GENERAL WARD": 45800,
+    "SEMI PRIVATE": 53500,
+    "PRIVATE": 57200,
+    "DELUXE": 64900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Eurovision Aspheric",
+    "GENERAL WARD": 33800,
+    "SEMI PRIVATE": 39400,
+    "PRIVATE": 42200,
+    "DELUXE": 47800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Phaco With Iol(A) + Trab(Comb.) Eurovision Plain",
+    "GENERAL WARD": 25400,
+    "SEMI PRIVATE": 29600,
+    "PRIVATE": 31800,
+    "DELUXE": 36000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Scleral Fixation With Iol With Glue",
+    "GENERAL WARD": 45800,
+    "SEMI PRIVATE": 53500,
+    "PRIVATE": 57200,
+    "DELUXE": 64900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lensectomy (Anterior Nerve)",
+    "GENERAL WARD": 14600,
+    "SEMI PRIVATE": 16900,
+    "PRIVATE": 18200,
+    "DELUXE": 20700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Intracameral Gas Injection",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Scleral Fixation With Iolany Other Iol Is Used",
+    "GENERAL WARD": 42200,
+    "SEMI PRIVATE": 49200,
+    "PRIVATE": 52800,
+    "DELUXE": 59800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Detachment ( Buckling)",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Buckle Removal",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Vitrectomy",
+    "GENERAL WARD": 31800,
+    "SEMI PRIVATE": 37100,
+    "PRIVATE": 39700,
+    "DELUXE": 45000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Vitero Retinal Surgery With Silicon Oil & Pfcl",
+    "GENERAL WARD": 38800,
+    "SEMI PRIVATE": 45300,
+    "PRIVATE": 48400,
+    "DELUXE": 54800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Complicated Vr",
+    "GENERAL WARD": 49200,
+    "SEMI PRIVATE": 57500,
+    "PRIVATE": 61500,
+    "DELUXE": 69700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Inj. Avastin (Single Patient)",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Inj. Lucentis (Single Patient)",
+    "GENERAL WARD": 45200,
+    "SEMI PRIVATE": 52700,
+    "PRIVATE": 56500,
+    "DELUXE": 63900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Inj. Macugen (Single Patient)",
+    "GENERAL WARD": 31800,
+    "SEMI PRIVATE": 37100,
+    "PRIVATE": 39700,
+    "DELUXE": 45000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Cryoprexy (Single)",
+    "GENERAL WARD": 4600,
+    "SEMI PRIVATE": 4600,
+    "PRIVATE": 4600,
+    "DELUXE": 4600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Cryoprexy (Multiple)",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Intra Viteral Injection (One Eye)",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Silicon Oil Removal (For Cfs Patients)",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Silicon Oil Removal (For Outside Patients)",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Surgery Horizontal Muscles (La)",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Surgery Vertical Muscles (La)",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Surgery Under Ga (0 To 30 Mins)",
+    "GENERAL WARD": 26800,
+    "SEMI PRIVATE": 31200,
+    "PRIVATE": 33500,
+    "DELUXE": 37900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Surgery Under Ga (30 To 1 Hr)",
+    "GENERAL WARD": 28600,
+    "SEMI PRIVATE": 33300,
+    "PRIVATE": 35700,
+    "DELUXE": 40400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Surgery Under Ga (1 Hr To 3 Hrs)",
+    "GENERAL WARD": 30300,
+    "SEMI PRIVATE": 35500,
+    "PRIVATE": 38000,
+    "DELUXE": 43100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Squint Surgery Under Ga (3 Hrs To 5 Hrs)",
+    "GENERAL WARD": 32300,
+    "SEMI PRIVATE": 37500,
+    "PRIVATE": 40200,
+    "DELUXE": 45500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Amo Tecnis Ak",
+    "GENERAL WARD": 50000,
+    "SEMI PRIVATE": 58400,
+    "PRIVATE": 62400,
+    "DELUXE": 70800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Amo Sensar",
+    "GENERAL WARD": 47500,
+    "SEMI PRIVATE": 55400,
+    "PRIVATE": 59300,
+    "DELUXE": 67300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Tecnis 1",
+    "GENERAL WARD": 54100,
+    "SEMI PRIVATE": 63100,
+    "PRIVATE": 67500,
+    "DELUXE": 76600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Amo Multifocal Ak",
+    "GENERAL WARD": 73100,
+    "SEMI PRIVATE": 85300,
+    "PRIVATE": 91300,
+    "DELUXE": 103500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol B & L Akreos",
+    "GENERAL WARD": 47100,
+    "SEMI PRIVATE": 54900,
+    "PRIVATE": 58800,
+    "DELUXE": 66600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol B & L Ak Ao",
+    "GENERAL WARD": 50000,
+    "SEMI PRIVATE": 58400,
+    "PRIVATE": 62400,
+    "DELUXE": 70800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol B & L Mil 60",
+    "GENERAL WARD": 56100,
+    "SEMI PRIVATE": 65300,
+    "PRIVATE": 70000,
+    "DELUXE": 79300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol B & L Crystalens",
+    "GENERAL WARD": 112400,
+    "SEMI PRIVATE": 131100,
+    "PRIVATE": 140400,
+    "DELUXE": 159200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Alcon Toric",
+    "GENERAL WARD": 57800,
+    "SEMI PRIVATE": 67500,
+    "PRIVATE": 72200,
+    "DELUXE": 81900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Alcon Multifocal Restore",
+    "GENERAL WARD": 73100,
+    "SEMI PRIVATE": 85300,
+    "PRIVATE": 91300,
+    "DELUXE": 103500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Alcon Iq",
+    "GENERAL WARD": 54400,
+    "SEMI PRIVATE": 63500,
+    "PRIVATE": 67900,
+    "DELUXE": 77000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Alcon Ma - 60",
+    "GENERAL WARD": 45800,
+    "SEMI PRIVATE": 53300,
+    "PRIVATE": 57200,
+    "DELUXE": 64900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Alcon Single Piece",
+    "GENERAL WARD": 47400,
+    "SEMI PRIVATE": 55200,
+    "PRIVATE": 59100,
+    "DELUXE": 66900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Therapeutic Penetrating Keratoplasty (Pk)",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lamellar Keratoplasty",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Penetrating Keratoplasty (Pk)",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tissue Adhesive + Bcl",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pterygium Excision +Conjunctival Autograft (Without Glue)",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pterygium Excision + Conjunctival Autograft (With Glue)",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Repair Of Corneal Tear , Ac Formation",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Scleral Tear Repair.",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Repair Of Corneal Scleral Tear & Lid",
+    "GENERAL WARD": 31800,
+    "SEMI PRIVATE": 37100,
+    "PRIVATE": 39700,
+    "DELUXE": 45000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Hoya Pc",
+    "GENERAL WARD": 52800,
+    "SEMI PRIVATE": 61700,
+    "PRIVATE": 66100,
+    "DELUXE": 74900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Hoya Yellow",
+    "GENERAL WARD": 56200,
+    "SEMI PRIVATE": 65600,
+    "PRIVATE": 70200,
+    "DELUXE": 79600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Eurovision Aspheric",
+    "GENERAL WARD": 47600,
+    "SEMI PRIVATE": 55400,
+    "PRIVATE": 59600,
+    "DELUXE": 67500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pk + Cataract Extraction With Iol Eurovision Plain",
+    "GENERAL WARD": 46500,
+    "SEMI PRIVATE": 54100,
+    "PRIVATE": 58000,
+    "DELUXE": 65800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Femtosecond Assisted Keratoplasty",
+    "GENERAL WARD": 52800,
+    "SEMI PRIVATE": 61700,
+    "PRIVATE": 66100,
+    "DELUXE": 74900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Penetrating Keratoplasty (Pk) With Trab",
+    "GENERAL WARD": 52800,
+    "SEMI PRIVATE": 61700,
+    "PRIVATE": 66100,
+    "DELUXE": 74900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Laser Package Per Eye For Dermoid Removal",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Anterior Stromal Puncture (Asp) + Bcl",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Edta Chelation One Eye",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dalk (One Eye)",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Photo Therapeutic Keratectomy",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "I- Lasik",
+    "GENERAL WARD": 66900,
+    "SEMI PRIVATE": 78000,
+    "PRIVATE": 83500,
+    "DELUXE": 94600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Amo Tecnis Ak",
+    "GENERAL WARD": 35900,
+    "SEMI PRIVATE": 42000,
+    "PRIVATE": 45000,
+    "DELUXE": 51000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Amo Sensar",
+    "GENERAL WARD": 33500,
+    "SEMI PRIVATE": 39000,
+    "PRIVATE": 41800,
+    "DELUXE": 47400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Amo Tecnis 1",
+    "GENERAL WARD": 40100,
+    "SEMI PRIVATE": 46700,
+    "PRIVATE": 50000,
+    "DELUXE": 56700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Amo Multifocal Ak",
+    "GENERAL WARD": 59100,
+    "SEMI PRIVATE": 68900,
+    "PRIVATE": 73900,
+    "DELUXE": 83800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant B & L Akreos",
+    "GENERAL WARD": 35900,
+    "SEMI PRIVATE": 42000,
+    "PRIVATE": 45000,
+    "DELUXE": 51000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant B & L Ak Ao",
+    "GENERAL WARD": 33500,
+    "SEMI PRIVATE": 39000,
+    "PRIVATE": 41800,
+    "DELUXE": 47400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant B & L Mil 60",
+    "GENERAL WARD": 39400,
+    "SEMI PRIVATE": 45900,
+    "PRIVATE": 49200,
+    "DELUXE": 55800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant B & L Crystalens",
+    "GENERAL WARD": 98300,
+    "SEMI PRIVATE": 114700,
+    "PRIVATE": 123000,
+    "DELUXE": 139400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Alcon Toric",
+    "GENERAL WARD": 43700,
+    "SEMI PRIVATE": 51100,
+    "PRIVATE": 54600,
+    "DELUXE": 62000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Alcon Multifocal Restore",
+    "GENERAL WARD": 52800,
+    "SEMI PRIVATE": 61700,
+    "PRIVATE": 66100,
+    "DELUXE": 74900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Alcon Iq",
+    "GENERAL WARD": 59100,
+    "SEMI PRIVATE": 68900,
+    "PRIVATE": 73900,
+    "DELUXE": 83800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Alcon Ma - 60",
+    "GENERAL WARD": 31800,
+    "SEMI PRIVATE": 37000,
+    "PRIVATE": 39600,
+    "DELUXE": 44800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Alcon Single Piece",
+    "GENERAL WARD": 33300,
+    "SEMI PRIVATE": 38800,
+    "PRIVATE": 41600,
+    "DELUXE": 47200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Hoya Pc",
+    "GENERAL WARD": 38800,
+    "SEMI PRIVATE": 45300,
+    "PRIVATE": 48400,
+    "DELUXE": 54800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Hoya Yellow",
+    "GENERAL WARD": 42200,
+    "SEMI PRIVATE": 49200,
+    "PRIVATE": 52800,
+    "DELUXE": 59800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Eurovision Aspheric",
+    "GENERAL WARD": 33600,
+    "SEMI PRIVATE": 39000,
+    "PRIVATE": 41900,
+    "DELUXE": 47400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cstr With Ce + Iol Implant Eurovision Plain",
+    "GENERAL WARD": 32400,
+    "SEMI PRIVATE": 37700,
+    "PRIVATE": 40300,
+    "DELUXE": 45700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Hyphema Drainage (One Eye)",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Laser Package Per Eye",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gas Injection (Inclusive Of Cost Of Injection)",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chalazion Under Ga (0 - 30 Mns)",
+    "GENERAL WARD": 9300,
+    "SEMI PRIVATE": 10800,
+    "PRIVATE": 11600,
+    "DELUXE": 13200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Barrage Laser/Cryo (Multiple Quadrant)",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Membranectomy / Surgical Puppiloplasty (Anterior Root)",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Custom Ocular Prosthesis",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Examination Under Anesthesia (0- 30 Mins)",
+    "GENERAL WARD": 5800,
+    "SEMI PRIVATE": 6700,
+    "PRIVATE": 7100,
+    "DELUXE": 8000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "General Anesthesia Charges (0-30 Min)",
+    "GENERAL WARD": 5800,
+    "SEMI PRIVATE": 6700,
+    "PRIVATE": 7100,
+    "DELUXE": 8000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "General Anesthesia Charges (30-60 Min)",
+    "GENERAL WARD": 7600,
+    "SEMI PRIVATE": 8900,
+    "PRIVATE": 9400,
+    "DELUXE": 10700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "General Anesthesia Charges (1 Hrs.)",
+    "GENERAL WARD": 9300,
+    "SEMI PRIVATE": 10800,
+    "PRIVATE": 11600,
+    "DELUXE": 13200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "General Anesthesia Charges (More Than 1 Hrs.)",
+    "GENERAL WARD": 11200,
+    "SEMI PRIVATE": 12900,
+    "PRIVATE": 13800,
+    "DELUXE": 15600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Examination Under Anesthesia (Eua)",
+    "GENERAL WARD": 5800,
+    "SEMI PRIVATE": 6700,
+    "PRIVATE": 7100,
+    "DELUXE": 8000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Prosthesis Acrylic",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Prosthesis Silicon",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chemotherapy",
+    "GENERAL WARD": 4600,
+    "SEMI PRIVATE": 4600,
+    "PRIVATE": 4600,
+    "DELUXE": 4600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chemoptherapy + Eua",
+    "GENERAL WARD": 4600,
+    "SEMI PRIVATE": 4600,
+    "PRIVATE": 4600,
+    "DELUXE": 4600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chemoptherapy + Eua + Ttt",
+    "GENERAL WARD": 6500,
+    "SEMI PRIVATE": 7600,
+    "PRIVATE": 8100,
+    "DELUXE": 9200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chemoptherapy + Eua + Ttt +Cryotherapy",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8200,
+    "PRIVATE": 8900,
+    "DELUXE": 10100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Trans Pupillary Thermo Therapy",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lasik",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Amniotic Membrane Graft Oculoplasty",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ectropion Correction (One Eye)",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Entropion Correction (One Eye)",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Epicanthus Repair",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lateral Canthplasty",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Medical Canthoplasty",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Symblepharon Release Oculoplasty",
+    "GENERAL WARD": 11400,
+    "SEMI PRIVATE": 13200,
+    "PRIVATE": 14100,
+    "DELUXE": 16000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Symblepharon Release Oculoplasty (Cost Of Amg Extra)",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsal Strip Procedure",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Entropion Correction (One Eye - Lower Lid)",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Aspheric Lasik",
+    "GENERAL WARD": 31800,
+    "SEMI PRIVATE": 37100,
+    "PRIVATE": 39700,
+    "DELUXE": 45000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Skin Graft",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cartilage Graft",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Hard Palate Graft",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Mucus Membrane Graft",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Skin Graft Two Eyelid",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Scleral Graft Oculoplasty",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Fold Formation",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Y-Plasty Or Z-Plasty",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Reconstruction Direct Repair",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Reconstruction Flap",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Repair",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Monocanalicular Stent (Additional Material Charge)",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bicanalicular Stent",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Reconstruction With Cuttler Beard Stage 1",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Reconstruction With Cuttler Beard Stage 2",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Epiblepharon Correction",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Reconstruction Tenzel",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbicularis Myectomy (Bilateral)",
+    "GENERAL WARD": 42200,
+    "SEMI PRIVATE": 49200,
+    "PRIVATE": 52800,
+    "DELUXE": 59800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbicularis Myectomy O/E",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Collagen Cross Linking (Single Eye)",
+    "GENERAL WARD": 20600,
+    "SEMI PRIVATE": 24000,
+    "PRIVATE": 25700,
+    "DELUXE": 29100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Collagen Cross Linking (Both Eye)",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Blepharophimosis Correction (Cu Plasty B/E)",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fasanella Servat Procedure",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lps Resection/Exploration/Reinsertion/ Aplication",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Adjustable Suture Lps Resection",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsofrontal Sling One Eye Ethibond",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsofrontal Sling Both Eyes Ethibond",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsofrontal Sling One Eye Silicone",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsofrontal Sling Both Eyes Silicone",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Correction Of Eye Lid Retraction/ Levator Recession",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lower Eyelid Retraction Correction",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Mullerectomy",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Canalicular Repair",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Canalicular Repair With Monocanalicular Stent",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fistulectomy - Cs",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Diverticulectomy",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dcr",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dcr Conjuctival With Jones Tube",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dcr With Mmc",
+    "GENERAL WARD": 13600,
+    "SEMI PRIVATE": 15900,
+    "PRIVATE": 16900,
+    "DELUXE": 19200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dcr With Mmc With Intubation",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dcr With Fistulectomy",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dct - Cs",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dct+Fistulectomy",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dcr With Fistulectomy With Intubation",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dcr With Fistulectomy With Intubation With Mmc",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Anterior Vitrectomy",
+    "GENERAL WARD": 16000,
+    "SEMI PRIVATE": 18600,
+    "PRIVATE": 19900,
+    "DELUXE": 22600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Recanalization Of Canaliculus + Bicanalicular Intubation",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Recanalization Of Canaliculus+ Monocanalicular Stent",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "C3R Surgery",
+    "GENERAL WARD": 20600,
+    "SEMI PRIVATE": 23800,
+    "PRIVATE": 25500,
+    "DELUXE": 28900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbitotomy",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Foriegn Body Removal (Large)",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Fracture Repair With Silastic Sheet",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Fracture Repair With Porex Sheet",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Decompression (Bone + Fat)",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Decompression (Fat Only)",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Floor Augmentation With Silastic Implant",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Fracture Repair (2 Wall, Silastic Sheet)",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Blepharoplasty (One Eye One Lid)",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Blepharoplasty - Cs",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Blepharoplasty (Both Lower)",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Blepharoplasty (Quad Bleph)",
+    "GENERAL WARD": 35100,
+    "SEMI PRIVATE": 41100,
+    "PRIVATE": 44100,
+    "DELUXE": 50000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Brow Lift",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Brow Lift (Transbleph) One Eye",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Brow Lift (Transbleph) Two Eye",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Mid Face Lift (Cable Suture0",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fat Transfer",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Brow Lift 2 Eyes",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fornix Formation Suture (Ffs)",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Socket Reconstruction",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Socket Reconstruction + Ffs",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dermis Fat Graft",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Evisceration",
+    "GENERAL WARD": 12800,
+    "SEMI PRIVATE": 14900,
+    "PRIVATE": 16000,
+    "DELUXE": 18100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Evisceration + Implant",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Enucleation",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Enucleation + Silicon Implant",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orbital Exenteration",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Implant Exchange With Silicon Implant",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Implant Removal",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Excision Biopsy 15 Min",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 4000,
+    "PRIVATE": 5000,
+    "DELUXE": 6000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Excision Or Incision Biopsy < 30 Min",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Excision Or Incision Biopsy < 1 Hour",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Excision Or Incision Biopsy < 2 Hour",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tumor Debulking",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eyelid Tumor Excission",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctival Tumor Excision",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctival Tumor Excision + Cryotherapy",
+    "GENERAL WARD": 14100,
+    "SEMI PRIVATE": 16400,
+    "PRIVATE": 17700,
+    "DELUXE": 20100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctival Tumor Excision + Amg",
+    "GENERAL WARD": 19200,
+    "SEMI PRIVATE": 22400,
+    "PRIVATE": 24000,
+    "DELUXE": 27200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctival Tumor Excision + Cryotherapy + Amg",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gold Weight Implant (Includes Cost Of Implants)",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gold Weight Implant + Scleral Graft",
+    "GENERAL WARD": 21100,
+    "SEMI PRIVATE": 24700,
+    "PRIVATE": 26400,
+    "DELUXE": 29900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gold Weight Implant +Lts",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gold Weight Implant + Scleral Graft + Lts",
+    "GENERAL WARD": 28100,
+    "SEMI PRIVATE": 32800,
+    "PRIVATE": 35100,
+    "DELUXE": 39800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gold Weight Implant + Lower Eyelid Spacer",
+    "GENERAL WARD": 24700,
+    "SEMI PRIVATE": 28900,
+    "PRIVATE": 31000,
+    "DELUXE": 35100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gold Weight Exchange",
+    "GENERAL WARD": 17700,
+    "SEMI PRIVATE": 20700,
+    "PRIVATE": 22100,
+    "DELUXE": 25100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tumor Cryotherapy",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1800,
+    "PRIVATE": 2500,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tumor Ttt Under Ga (0- 30 Mns)",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tumor Ttt (30Mns - 1 Hr)",
+    "GENERAL WARD": 9000,
+    "SEMI PRIVATE": 10400,
+    "PRIVATE": 11200,
+    "DELUXE": 12700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tumor Ttt (1 - 3 Hr)",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tumor Ttt (3 - 5 Hr)",
+    "GENERAL WARD": 12500,
+    "SEMI PRIVATE": 14600,
+    "PRIVATE": 15500,
+    "DELUXE": 17600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Silicon Glue",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Crutch Glasses",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Rubber Plunger",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bone Marrow Biopsy",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Excision Biopsy 15 Min",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Methlyprednisolone Inj 250 Mg Iv",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Methlyprednisolone Inj 500 Mg Iv",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Methlyprednisolone Inj 750 Mg Iv",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Methlyprednisolone Inj 1000 Mg Iv",
+    "GENERAL WARD": 2400,
+    "SEMI PRIVATE": 2400,
+    "PRIVATE": 2400,
+    "DELUXE": 2400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dexamethasone Injection Iv",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cyclophosphamide Inj 250 Mg Iv",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cyclophosphamide Inj 500 Mg Iv",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cyclophosphamide Inj 750 Mg Iv",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Cyclophosphamide Inj 1000 Mg Iv",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Injection Tricort (One Eye)",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Inj. Avastin",
+    "GENERAL WARD": 10700,
+    "SEMI PRIVATE": 12500,
+    "PRIVATE": 13300,
+    "DELUXE": 15100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Injection Lucents",
+    "GENERAL WARD": 33800,
+    "SEMI PRIVATE": 39400,
+    "PRIVATE": 42200,
+    "DELUXE": 47800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing Under Anesthesia - One Eye (La)",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing Under Anesthesia - One Eye (Ga) (0 To 30 Mns)",
+    "GENERAL WARD": 6500,
+    "SEMI PRIVATE": 7600,
+    "PRIVATE": 8100,
+    "DELUXE": 9200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing And Probing - One Eye (La)",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing And Probing - One Eye(Ga) (0 To 30 Mns)",
+    "GENERAL WARD": 9300,
+    "SEMI PRIVATE": 10800,
+    "PRIVATE": 11600,
+    "DELUXE": 13200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing And Probing With Silicon Tube-One Eye",
+    "GENERAL WARD": 4200,
+    "SEMI PRIVATE": 4200,
+    "PRIVATE": 4200,
+    "DELUXE": 4200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing And Probing With Silicon Tube- Both Eyes",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Therapeutic Probing",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Diagnostic Endoscopy",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Punctoplasty - One Eye",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Punctoplasty - Both Eyes",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctivoplasty Sp",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Canalicular Curettage",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Dacryosclerotherapy",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ethanolamine Oleate Sclerotherapy",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tensilon Test",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Neostigmine Test",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Everting Sutures",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Visual Evoked Potential",
+    "GENERAL WARD": 1600,
+    "SEMI PRIVATE": 1600,
+    "PRIVATE": 1600,
+    "DELUXE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "B Scan",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chalazion Incision & Curettage-One Eye",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chalazion Incision & Curettage- Both Eyes",
+    "GENERAL WARD": 7100,
+    "SEMI PRIVATE": 8400,
+    "PRIVATE": 9000,
+    "DELUXE": 10200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Electrolysis",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Incision And Drainage",
+    "GENERAL WARD": 5800,
+    "SEMI PRIVATE": 6700,
+    "PRIVATE": 7100,
+    "DELUXE": 8000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsorraphy",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Suture Tarsorraphy",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Tarsorraphy Release",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "3 Mirror Examination-Both Eye",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "3 Mirror Examination-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Amsler Grid Test-Both Eyes",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Amsler Grid Test-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Applanation Tension-Both Eyes",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Applanation Tension-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Applanation Tonometry (Atn)-Both Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Applanation Tonometry (Atn)-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Auto Keratometry-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Auto Keratometry-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Automated Keratometry (A.K.)-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Automated Keratometry (A.K.)-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Automated Perimetery O.A.P. (Gix)- Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Automated Perimetery O.A.P. (Gix)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Automated Perimetery O.A.P. (M2X)-Both Eyes",
+    "GENERAL WARD": 800,
+    "SEMI PRIVATE": 800,
+    "PRIVATE": 800,
+    "DELUXE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Automated Perimetery O.A.P. (M2X)-One Eye",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Autorefractometry-Both Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Autorefractometry-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bandage Lens Fittings (Bcl)-Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bandage Lens Fittings (Bcl)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bde Cleaning & Lm -Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bde Cleaning & Lm -One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "C.T.G (Corneal Topography) Pathfinder Analysis-Both Eyes",
+    "GENERAL WARD": 800,
+    "SEMI PRIVATE": 800,
+    "PRIVATE": 800,
+    "DELUXE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "C.T.G (Corneal Topography) Pathfinder Analysis-\nOne Eye",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "C.T.G Subsequent Scan And Change Analysis-Both Eyes",
+    "GENERAL WARD": 800,
+    "SEMI PRIVATE": 800,
+    "PRIVATE": 800,
+    "DELUXE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "C.T.G Subsequent Scan And Change Analysis-One Eye",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Carbolic Cautris ?Ulcer-Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Colour Vision (Ishihara)-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Colour Vision (Ishihara)-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Colour Vision (Ishihara)-Both Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Contact Lens Trial (Cl Trial)-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Contact Lens Trial (Cl Trial)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Contrast Sensitivity-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Contrast Sensitivity-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Epilation (Per Lid)-Both Eyes",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Epilation (Per Lid)-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Epithelial Debidement /Bde Cauterisation - Ulcer-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Epithelial Debidement /Bde Cauterisation - Ulcer-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Exophthalmometry-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Exophthalmometry-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eye Cap-Ant Segment Documentation- Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eye Cap-Ant Segment Documentation- One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fluorescein Angiography -Both Eyes",
+    "GENERAL WARD": 1500,
+    "SEMI PRIVATE": 1500,
+    "PRIVATE": 1500,
+    "DELUXE": 1500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fluorescein Angiography -One Eye",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fornix/Irrigation-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fornix/Irrigation-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fundus Colour Photo Each-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fundus Colour Photo Each-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gonioscopy-Both Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gonioscopy-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Grams Stain (Gm Smear) Each (Lab Charges)-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Hess Charting (H.C)-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Hess Charting (H.C)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "I.O. (Indirect Ophthalmoscopy)-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "I.O. (Indirect Ophthalmoscopy)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "I.O. (Indirect Ophthalmoscopy)-Both Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Master (Ak + Non Contact Biometry- Both Eyes",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iol Master (Ak + Non Contact Biometry-One Eye",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Koh Slide Prep. (Each) (Lab Charges)-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lva Trial (Lva)-Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lva Trial (Lva)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "O.C.T First Scan (Macula)-Both Eyes",
+    "GENERAL WARD": 1500,
+    "SEMI PRIVATE": 1500,
+    "PRIVATE": 1500,
+    "DELUXE": 1500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "O.C.T First Scan (Macula)-One Eye",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "O.C.T Subsequent Scan And Change Analysis-Both Eyes",
+    "GENERAL WARD": 1500,
+    "SEMI PRIVATE": 1500,
+    "PRIVATE": 1500,
+    "DELUXE": 1500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "O.C.T Subsequent Scan And Change Analysis-One Eye",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Oct /Rnfl (Glaucoma) First Scan- Both Eyes",
+    "GENERAL WARD": 1500,
+    "SEMI PRIVATE": 1500,
+    "PRIVATE": 1500,
+    "DELUXE": 1500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Oct /Rnfl (Glaucoma) First Scan-One Eye",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ophthal Consultation Including Fundus Exam-Both Eye",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orthoptic Check-Up-Both Eyes",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orthoptic Check-Up-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orthoptic Exercises (Each Visit)- Both Eyes",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Orthoptic Exercises (Each Visit)-One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pachymetry Corneal Thickness (Cct)- Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pachymetry Corneal Thickness (Cct)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pachymetry Map (Ultrasonic)-Both Eyes",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pachymetry Map (Ultrasonic)-One Eye",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "R.B Staining/Lg Staining -Both Eyes",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "R.B Staining/Lg Staining -One Eye",
+    "GENERAL WARD": 200,
+    "SEMI PRIVATE": 200,
+    "PRIVATE": 200,
+    "DELUXE": 200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Interferometry (L.T.)-Both Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Interferometry (L.T.)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Laser Interferometry-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Retinal Laser Interferometry-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Special Orthoptic -Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Special Orthoptic -One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Specular Microscopy (Manual)-Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Specular Microscopy (Manual)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Subconjunctival Injection-Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Subconjunctival Injection-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Swab For Culture/ Sensitivity Test (Each)-Both Eyes",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Swab For Culture/ Sensitivity Test (Each)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Swab For Culture/Sensitivity Test (Each)- Both Eye",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing (Lacrimal)-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing (Lacrimal)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Syringing (Lacrimal)-Both Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Titmus Comprehensive Screening (Tit)-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Titmus Comprehensive Screening (Tit)-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Usg B-Scan-Both Eyes",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Usg B-Scan-One Eye",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Usg A. Scan-Both Eyes",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Usg A. Scan-One Eye",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Video Clip-Both Eyes",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Video Clip-One Eye",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iris Retractors",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Endo Capsular Ring",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Glue",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Viscoat",
+    "GENERAL WARD": 1500,
+    "SEMI PRIVATE": 1500,
+    "PRIVATE": 1500,
+    "DELUXE": 1500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bss ++",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Healon Gv",
+    "GENERAL WARD": 2000,
+    "SEMI PRIVATE": 2000,
+    "PRIVATE": 2000,
+    "DELUXE": 2000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Bcl",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Comprehensive Eye Check Up",
+    "GENERAL WARD": 800,
+    "SEMI PRIVATE": 800,
+    "PRIVATE": 800,
+    "DELUXE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ver",
+    "GENERAL WARD": 1600,
+    "SEMI PRIVATE": 1600,
+    "PRIVATE": 1600,
+    "DELUXE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Erg",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eog",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Multifocal Erg",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Oct (Optical Coherence Tomography)",
+    "GENERAL WARD": 2000,
+    "SEMI PRIVATE": 2000,
+    "PRIVATE": 2000,
+    "DELUXE": 2000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Sub Tenon Injection (Per Eye)",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Posterior Sub Tenon Injection",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ffa (Both Eyes)",
+    "GENERAL WARD": 2000,
+    "SEMI PRIVATE": 2000,
+    "PRIVATE": 2000,
+    "DELUXE": 2000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Argon/Prp Laser Per Sitting Per Eye",
+    "GENERAL WARD": 2500,
+    "SEMI PRIVATE": 2500,
+    "PRIVATE": 2500,
+    "DELUXE": 2500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Barrage Laser / Cryo (Single Quadtrant)",
+    "GENERAL WARD": 4600,
+    "SEMI PRIVATE": 4600,
+    "PRIVATE": 4600,
+    "DELUXE": 4600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Gonioscopy",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Visual Fields(Both Eyes)",
+    "GENERAL WARD": 1000,
+    "SEMI PRIVATE": 1000,
+    "PRIVATE": 1000,
+    "DELUXE": 1000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Paralytic Work Up",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fundus Photography",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Diurnal Variation",
+    "GENERAL WARD": 800,
+    "SEMI PRIVATE": 800,
+    "PRIVATE": 800,
+    "DELUXE": 800,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Nd Yittrium-Aluminium-Garnet Capsulotomy",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Nd Yag Iridotomy ( Per Eye)",
+    "GENERAL WARD": 2300,
+    "SEMI PRIVATE": 2300,
+    "PRIVATE": 2300,
+    "DELUXE": 2300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Nd Yag Synecholysis/Sweeping ( Per Eye)",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Green Laser Trabeculoplasty ( Per Eye)",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Green (Fd-Nd Yag)Laser (Per Eye)",
+    "GENERAL WARD": 1600,
+    "SEMI PRIVATE": 1600,
+    "PRIVATE": 1600,
+    "DELUXE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Injection Manitol",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Scraping",
+    "GENERAL WARD": 400,
+    "SEMI PRIVATE": 400,
+    "PRIVATE": 400,
+    "DELUXE": 400,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Foreign Body Removal",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Excision Of Warts",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Eye Wash",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ac Wash",
+    "GENERAL WARD": 4200,
+    "SEMI PRIVATE": 4200,
+    "PRIVATE": 4200,
+    "DELUXE": 4200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Prone Dark Room Test",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Suture Removal",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Punctal Plug Both Eyes",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Paracentesis - Cs",
+    "GENERAL WARD": 3600,
+    "SEMI PRIVATE": 3600,
+    "PRIVATE": 3600,
+    "DELUXE": 3600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Lasik Workup",
+    "GENERAL WARD": 1600,
+    "SEMI PRIVATE": 1600,
+    "PRIVATE": 1600,
+    "DELUXE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Topography & Pachymetry",
+    "GENERAL WARD": 1600,
+    "SEMI PRIVATE": 1600,
+    "PRIVATE": 1600,
+    "DELUXE": 1600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Corneal Topography",
+    "GENERAL WARD": 1200,
+    "SEMI PRIVATE": 1200,
+    "PRIVATE": 1200,
+    "DELUXE": 1200,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Icg",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fundus Photography With Print Or Cd",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fundus Photography With Print And Cd",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Ecg - Diag",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Specular Microscopy Both Eyes",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Synaptophore Exercises (7 Sittings)",
+    "GENERAL WARD": 700,
+    "SEMI PRIVATE": 700,
+    "PRIVATE": 700,
+    "DELUXE": 700,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chalazion Under La",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Endocapsular (Ctr)",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Turbinectomy",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Conjunctivoplasty Lr",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Punctal Cautery",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Botox (Per Unit)",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Chemodenervation Of Medial Rectus",
+    "GENERAL WARD": 3000,
+    "SEMI PRIVATE": 3000,
+    "PRIVATE": 3000,
+    "DELUXE": 3000,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Fnac + Report",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Usg - Guided Fnac + Report",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Periocular Chemotherapy",
+    "GENERAL WARD": 1900,
+    "SEMI PRIVATE": 1900,
+    "PRIVATE": 1900,
+    "DELUXE": 1900,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Intrathecal Chemotherapy",
+    "GENERAL WARD": 1500,
+    "SEMI PRIVATE": 1500,
+    "PRIVATE": 1500,
+    "DELUXE": 1500,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Prosthesis Modification",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Polishing",
+    "GENERAL WARD": 300,
+    "SEMI PRIVATE": 300,
+    "PRIVATE": 300,
+    "DELUXE": 300,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Regular Conformer",
+    "GENERAL WARD": 600,
+    "SEMI PRIVATE": 600,
+    "PRIVATE": 600,
+    "DELUXE": 600,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Stem Conformer",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Pressure Conformer",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Iris Painted Conformer",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  },
+  {
+    "PROCEDURE": "Socket Expander",
+    "GENERAL WARD": 1100,
+    "SEMI PRIVATE": 1100,
+    "PRIVATE": 1100,
+    "DELUXE": 1100,
+    "VARIANCE": "25%"
+  }
+]

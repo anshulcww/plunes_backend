@@ -1,0 +1,973 @@
+[{
+	"_id": {
+		"$oid": "5daae716f7a40a7f916b52ec"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 56,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo@gmail.com",
+	"contact": "+918471040953",
+	"fee": "112",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571481337",
+	"createdAt": {
+		"$date": "2019-10-19T10:36:06.700Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T10:36:06.700Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab051ff7a40a7f916b52f6"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 10,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo@gmail.com",
+	"contact": "+918471040953",
+	"fee": "20",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571489019",
+	"createdAt": {
+		"$date": "2019-10-19T12:44:15.220Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T12:44:15.220Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0685f7a40a7f916b52fb"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 6,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo@gmail.com",
+	"contact": "+918471040953",
+	"fee": "12",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571489390",
+	"createdAt": {
+		"$date": "2019-10-19T12:50:13.582Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T12:50:13.582Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab09e4f7a40a7f916b5306"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 4,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo@gmail.com",
+	"contact": "+918471040953",
+	"fee": "8",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571490252",
+	"createdAt": {
+		"$date": "2019-10-19T13:04:36.985Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:04:36.985Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0c9bfa6bd4314e14fbff"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 5,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "upi",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": null,
+	"bank": null,
+	"wallet": null,
+	"vpa": "csrijeeta@oksbi",
+	"email": "csrijeeta@gmail.com",
+	"contact": "+919831263664",
+	"fee": "12",
+	"tax": "2",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571490907",
+	"createdAt": {
+		"$date": "2019-10-19T13:16:11.846Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:16:11.846Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab0ce3fa6bd4314e14fc03"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 1,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo@gmail.com",
+	"contact": "+918471040953",
+	"fee": "2",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571491018",
+	"createdAt": {
+		"$date": "2019-10-19T13:17:23.890Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:17:23.890Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab138a8213a5319d2c4584"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 5,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo@gmail.com",
+	"contact": "+918471040953",
+	"fee": "10",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571492671",
+	"createdAt": {
+		"$date": "2019-10-19T13:45:46.730Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T13:45:46.730Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dab17e88213a5319d2c4589"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 8,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo@gmail.com",
+	"contact": "+918471040953",
+	"fee": "16",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571493821",
+	"createdAt": {
+		"$date": "2019-10-19T14:04:24.774Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-19T14:04:24.774Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db17b6e8213a5319d2c4598"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 10,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "santosh@gmail.com",
+	"contact": "+918826417738",
+	"fee": "20",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571912512",
+	"createdAt": {
+		"$date": "2019-10-24T10:22:38.634Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T10:22:38.634Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db182e68213a5319d2c45a0"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 10,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "santosh@gmail.com",
+	"contact": "+918826417738",
+	"fee": "20",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571914443",
+	"createdAt": {
+		"$date": "2019-10-24T10:54:30.973Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T10:54:30.973Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db18cfd8213a5319d2c45a7"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 4,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test261@gmail.com",
+	"contact": "+918471040953",
+	"fee": "8",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571917015",
+	"createdAt": {
+		"$date": "2019-10-24T11:37:33.724Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-24T11:37:33.724Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2b7da8ec98d121d57b512"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 6,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test123@gmail.com",
+	"contact": "+918471040953",
+	"fee": "12",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571993534",
+	"createdAt": {
+		"$date": "2019-10-25T08:52:42.236Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T08:52:42.236Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2c4ea8ec98d121d57b51b"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 24,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test123@gmail.com",
+	"contact": "+918471040953",
+	"fee": "48",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1571996866",
+	"createdAt": {
+		"$date": "2019-10-25T09:48:26.133Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T09:48:26.133Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2d284550a9a17bd7128bd"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 24,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test123@gmail.com",
+	"contact": "+918471040953",
+	"fee": "48",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572000317",
+	"createdAt": {
+		"$date": "2019-10-25T10:46:28.486Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T10:46:28.486Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db2f1bd550a9a17bd7128c5"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 12,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVtjQIB52vyayz",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test123@gmail.com",
+	"contact": "+918471040953",
+	"fee": "24",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572008364",
+	"createdAt": {
+		"$date": "2019-10-25T12:59:41.942Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-25T12:59:41.942Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db82ae61c43007a67e2e8f0"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 24,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test127@gmail.com",
+	"contact": "+918471040953",
+	"fee": "48",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572350661",
+	"createdAt": {
+		"$date": "2019-10-29T12:04:54.628Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T12:04:54.628Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db8314f1c43007a67e2e8fa"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 10,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test127@gmail.com",
+	"contact": "+918471040953",
+	"fee": "20",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572352290",
+	"createdAt": {
+		"$date": "2019-10-29T12:32:15.595Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-29T12:32:15.595Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db983516aba5d04b3f94bef"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 600,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DUfQF285JDpqar",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "preksha4work@gmail.com",
+	"contact": "+919999791406",
+	"fee": "1200",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572438834",
+	"createdAt": {
+		"$date": "2019-10-30T12:34:25.656Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-30T12:34:25.656Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5db9890d6aba5d04b3f94bf5"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 24,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DUfJJW6NvGBLwu",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "test127@gmail.com",
+	"contact": "+918471040953",
+	"fee": "48",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572440313",
+	"createdAt": {
+		"$date": "2019-10-30T12:58:53.538Z"
+	},
+	"updatedAt": {
+		"$date": "2019-10-30T12:58:53.538Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc15b186aba5d04b3f94c10"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 200,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_Dcda7XNzhJw75c",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "geetika33328@gmail.com",
+	"contact": "+919205174128",
+	"fee": "400",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572952843",
+	"createdAt": {
+		"$date": "2019-11-05T11:20:56.434Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-05T11:20:56.434Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc175656aba5d04b3f94c1a"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 200,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "upi",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": null,
+	"bank": null,
+	"wallet": null,
+	"vpa": "csrijeeta@oksbi",
+	"email": "csrijeeta@gmail.com",
+	"contact": "+919831263664",
+	"fee": "472",
+	"tax": "72",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572959504",
+	"createdAt": {
+		"$date": "2019-11-05T13:13:09.604Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-05T13:13:09.604Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc18c036aba5d04b3f94c20"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 350,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "upi",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": null,
+	"bank": null,
+	"wallet": null,
+	"vpa": "Himani.p.kochar@okicici",
+	"email": "arpitadhingra1990@gmail.com",
+	"contact": "+918319234528",
+	"fee": "826",
+	"tax": "126",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1572965288",
+	"createdAt": {
+		"$date": "2019-11-05T14:49:39.448Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-05T14:49:39.448Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc25cbe6aba5d04b3f94c2a"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 200,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "upi",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": null,
+	"bank": null,
+	"wallet": null,
+	"vpa": "9711485445@ybl",
+	"email": "sanyatuli26@gmail.com",
+	"contact": "+919711485445",
+	"fee": "472",
+	"tax": "72",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1573018785",
+	"createdAt": {
+		"$date": "2019-11-06T05:40:14.784Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T05:40:14.784Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dc267f26aba5d04b3f94c31"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 31,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "netbanking",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": null,
+	"bank": "HDFC",
+	"wallet": null,
+	"vpa": null,
+	"email": "amit.singh9889@gmail.com",
+	"contact": "+917905500434",
+	"fee": "74",
+	"tax": "12",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1573021620",
+	"createdAt": {
+		"$date": "2019-11-06T06:28:02.991Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-06T06:28:02.991Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dcd3e8e87f4da1092c81d8a"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 4,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DVwwxXavKMXvyC",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "anshul4677@gmail.com",
+	"contact": "+917340448459",
+	"fee": "8",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1573731958",
+	"createdAt": {
+		"$date": "2019-11-14T11:46:22.066Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-14T11:46:22.066Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dce4d02f69a4210b6a21f09"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 12,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "card",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": "card_DUfJJW6NvGBLwu",
+	"bank": null,
+	"wallet": null,
+	"vpa": null,
+	"email": "demo78@gmail.com",
+	"contact": "+918471040953",
+	"fee": "24",
+	"tax": "0",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1573801174",
+	"createdAt": {
+		"$date": "2019-11-15T07:00:18.049Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-15T07:00:18.049Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5dd6153ff69a4210b6a21f12"
+	},
+	"notes": [],
+	"entity": "payment",
+	"amount": 600,
+	"currency": "INR",
+	"status": "captured",
+	"order_id": null,
+	"invoice_id": null,
+	"international": "false",
+	"method": "upi",
+	"amount_refunded": 0,
+	"refund_status": null,
+	"captured": "true",
+	"description": null,
+	"card_id": null,
+	"bank": null,
+	"wallet": null,
+	"vpa": "sonika.singh8@okaxis",
+	"email": "sonika.singh8@gmail.com",
+	"contact": "+919999397726",
+	"fee": "1416",
+	"tax": "216",
+	"error_code": null,
+	"error_description": null,
+	"created_at": "1574311179",
+	"createdAt": {
+		"$date": "2019-11-21T04:40:31.149Z"
+	},
+	"updatedAt": {
+		"$date": "2019-11-21T04:40:31.149Z"
+	},
+	"__v": 0
+}]
+

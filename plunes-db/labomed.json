@@ -1,0 +1,4498 @@
+[
+  {
+    "Test Name": "17- ALPHA- HYDROXY PROGESTERONE, SERUM",
+    "price": 1150
+  },
+  {
+    "Test Name": "17-ALPHA HYDROXYPROGESTERONE (17-OHP) NEONATAL SCREENING",
+    "price": 430
+  },
+  {
+    "Test Name": "17-KETOSTEROIDS,URINE 24H",
+    "price": 3330
+  },
+  {
+    "Test Name": "5-HYDROXY INDOLE ACETIC ACID (HIAA), URINE 24H",
+    "price": 2670
+  },
+  {
+    "Test Name": "ABNORMAL HEMOGLOBIN SCREEN (HB HPLC), BLOOD",
+    "price": 715
+  },
+  {
+    "Test Name": "ABSOLUTE CD3, CD4, CD8 COUNT, BLOOD",
+    "price": 2000
+  },
+  {
+    "Test Name": "ABSOLUTE CD4 COUNT, BLOOD",
+    "price": 1200
+  },
+  {
+    "Test Name": "ABSOLUTE EOSINOPHIL COUNT(AEC), BLOOD",
+    "price": 160
+  },
+  {
+    "Test Name": "ABSOLUTE LYMPHOCYTE COUNT (ALC), BLOOD",
+    "price": 145
+  },
+  {
+    "Test Name": "ABSOLUTE NEUTROPHIL COUNT (ANC), BLOOD",
+    "price": 145
+  },
+  {
+    "Test Name": "ACETONE, SERUM",
+    "price": 2960
+  },
+  {
+    "Test Name": "ACETONE, URINE",
+    "price": 100
+  },
+  {
+    "Test Name": "ACETYLCHOLINE RECEPTOR BINDING ANTIBODY,SERUM",
+    "price": 2960
+  },
+  {
+    "Test Name": "ACID FAST BACILLI STAIN, 3 - SAMPLES",
+    "price": 290
+  },
+  {
+    "Test Name": "ACTIVATED PROTEIN C RESISTANCE",
+    "price": 3900
+  },
+  {
+    "Test Name": "ADENOSINE DEAMINASE, FLUID (ADA)",
+    "price": 660
+  },
+  {
+    "Test Name": "ADENOSINE DEAMINASE, SERUM ADA",
+    "price": 660
+  },
+  {
+    "Test Name": "ADENOVIRUS DNA DETECTION, PCR",
+    "price": 5950
+  },
+  {
+    "Test Name": "ADENOVIRUS IGG, SERUM",
+    "price": 2130
+  },
+  {
+    "Test Name": "ADENOVIRUS IGM, SERUM",
+    "price": 2130
+  },
+  {
+    "Test Name": "ADRENALINE (EPINEPHRINE) URINE 24H",
+    "price": 2760
+  },
+  {
+    "Test Name": "ADRENO CORTICOTROPIC HORMONE (ACTH), PLASMA",
+    "price": 1470
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY,   RIFABUTIN",
+    "price": 2500
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, 5 DRUGS",
+    "price": 5000
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, AMIKACIN",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, CAPREOMYCIN",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, ETHAMBUTOL",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, ETHIONAMIDE",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, ISONIAZID",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, KANAMYCIN",
+    "price": 2100
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, LEVOFLOXACIN",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, LINEZOLID",
+    "price": 2500
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, OFLOXACIN",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, PYRAZINAMIDE",
+    "price": 2500
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, RIFAMPICIN",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  ANTIBIOTIC SUSCEPTIBILITY, STREPTOMYCIN",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB  SUSCEPTIBILITY, PAS",
+    "price": 2200
+  },
+  {
+    "Test Name": "AFB (ACID FAST BACILLI) STAIN",
+    "price": 210
+  },
+  {
+    "Test Name": "AFB ANTIBIOTIC SUSCEPTIBILITY, 10 DRUGS",
+    "price": 9500
+  },
+  {
+    "Test Name": "AFB ANTIBIOTIC SUSCEPTIBILITY, 15 DRUGS",
+    "price": 14190
+  },
+  {
+    "Test Name": "AFB CULTURE, BACTEC-MGIT",
+    "price": 1200
+  },
+  {
+    "Test Name": "AFB SUSCEPTIBILITY, MOXIFLOXACIN",
+    "price": 2500
+  },
+  {
+    "Test Name": "ALANINE AMINOTRANSFERASE (ALT/ SGPT), SERUM",
+    "price": 160
+  },
+  {
+    "Test Name": "ALBUMIN, FLUID",
+    "price": 130
+  },
+  {
+    "Test Name": "ALBUMIN,SERUM",
+    "price": 140
+  },
+  {
+    "Test Name": "ALCOHOL (ETHANOL), SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "ALCOHOL (ETHANOL), URINE",
+    "price": 1140
+  },
+  {
+    "Test Name": "ALDOLASE, SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "ALDOSTERONE / PLASMA RENIN DIRECT RATIO",
+    "price": 9210
+  },
+  {
+    "Test Name": "ALDOSTERONE, SERUM",
+    "price": 1860
+  },
+  {
+    "Test Name": "ALDOSTERONE, URINE 24H",
+    "price": 2100
+  },
+  {
+    "Test Name": "ALKALINE PHOSPHATASE ISOENZYMES, SERUM",
+    "price": 7090
+  },
+  {
+    "Test Name": "ALKALINE PHOSPHATASE, BONE-SPECIFIC (BSAP), SERUM",
+    "price": 1530
+  },
+  {
+    "Test Name": "ALKALINE PHOSPHATASE,SERUM",
+    "price": 160
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Cat Dander",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Chicken Feather",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Cow Dander",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Dog Dander",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Goat Epithelium",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Guinea Pig Epithelium",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Hamster Epithelium",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Horse Dander",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Mouse Epithelium",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Parrot Feather",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Pigeon feathers",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Rabbit epithelium",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Rat Epithelium",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Animal Swine Epithelium",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug ACTH",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Amoxicillin antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Ampicillin antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Azithromycin antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Cefuroxime antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Cephalosporin Mix antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Ciprofloxacin antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Diclofenac pain killer",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Disprin (Aspirin) pain killer",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Ibuprofen pain killer",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Insulin Bovine",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Insulin Human",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Insulin Porcine",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Mefenemic Acid pain killer",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Methyl Paraben Anaethesia",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Metronidazole antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Mono sodium glutamate",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Nimesulide pain killer",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Paracetamol AntiPyretic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Penicilloyl G antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Penicilloyl V antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Rifampicin antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Sulpha antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Tetracycline antibiotic",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Drug Xylocaine Anaesthetic drug",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Dust Dermatophagoides Farinae House Dust Mite",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Dust Dermatophagoides Pteronyssinus House Dust Mite",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Dust Flourdust",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Dust House Dust - Hollistier",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Dust House Dust Greer Labs",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Almond Badam (Amygdalus Communis)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Alpha Lactalbumin Milk protein",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Apple Safarchand (Malus X Domestica)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Apricot Prunus armeniaca",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Asparagus Asparagus officinalis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Baingan (Brinjal (Aubergine, eggplant / Solanum melongena)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Bakers Yeast Yeast ( Saccharomyces Cerevisiae)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Banana Kela (Musa Spp.)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Barley Hordeum vulgare",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Basil Ocimum basilicum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Bayleaf Laurus nobilis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Beef Cow meat (Bos spp.)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Beta Lactoglobulin Milk protein",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Black Pepper Piper nigrum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Blue Mussel Mytilus Edulis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Brazil Nut Bertholletia excelsa",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Broccoli Brassica oleracea var. italica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Buckwheat Fagopyrum esculentum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cabbage Gobi (Brassica Oleraceavar.Capitata)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cardamon (Ilaichi) Elettaria cardamomum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Carrot Daucus carota",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Casein (Milk Protein) Dahi",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cashew Nut Kaju ( Anacardium Occidentale)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cauliflower Brassica oleracea var. botrytis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Celery Apium Graveolens",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cheese Cheddar",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cherry Prunus avium",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Chick Pea Kabuli Chana (Cicer Arietinus)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Chicken Meat Murgi",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Chilipepper Capsicum frutescens",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cinnamon (Dalchini) Spice",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Clove (laung) (Syzygium aromaticum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cocoa Chocolate (Theobroma Cacao)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Coconut Narial (Cocos Nucifera)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cod Fish Machhli (Gadus Morhua)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Coffee",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Coriander (dhania) Spice",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Corn / Maize Makka (Zea Mays)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cow Milk Doodh",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Crab Cancer pagurus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cucumber kakdi (Cucumis sativus)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Cumin",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Curry Santa Maria",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Date khajur (Phoenix canariensis)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Egg White Anda",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Egg Yolk Anda",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Fennel Foeniculum vulgare",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Fig Ficus carica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Garlic Lehsoon (Allium Sativum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Ginger Adarakh (Zingiber officinale)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Gluten",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Grape Angoor (Vitis vinifera)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Grapefruit Citrus paradisi",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Green Bean Phaseolus vulgaris",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Green Pea",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Green pepper unripe seed / Piper nigrum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Hazelnut Corylus avellana",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Herring Clupea harengus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Kiwi Fruit Actinidia deliciosa",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Lady Finger bhindi",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Lamb",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Legume mix (Fx32) (Lentil, Pea, White Bean)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Lemon Nimbu (Citrus Limon)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Lentil Masoor Dal (Lens Esculenta)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Lettuce Lactuca sativa",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Lobster Homarus gammarus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Macerel Bangada (Scomber scombrus)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Malt",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Mango Mangifera Indica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Melon (Cucumis melo spp.)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Mint Mentha piperita",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Moong dal",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Mushroom champignon / Agaricus hortensis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Mustard Sarson (Brassica / Sinapsis Spp.)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Mutton Ovis Spp.",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Oat Avena sativa",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Olive Olea Europaea",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Onion Piaz (Allium Cepa)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Orange santra (Citrus sinensis)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Oyster Ostrea edulis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Papaya Carica Papaya",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Paprica Simla Mirchi (Capsicum Annuum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Parsley Petroselinum crispum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Peach Prunus persica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Peanut Moongfali (Arachis Hypogaea)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Pear Pyrus communis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Pecanut Carya illinoensis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Pineapple Ananas",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Pistachio",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Plaice Fish (Pleuronectes platessa)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Plum Prunus domestica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Poppy Seed Papaver somniferum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Pork Pig meat",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Potato Aaloo (Solanum Tuberosum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Pumpkin Cucurbita pepo",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Red Chilly",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Red Kidney Bean Phaseolus vulgaris",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Rice Chawal (Oryza Sativa)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Salmon Rawas fish (Salmo Salar)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Sardine Fish (Pleuronectes platessa)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Sesame Seed Sesamum indicum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Shrimp / Prawns",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Soyabean Glycine Max",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Spinach Palak ( Spinachia Oleracea)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Strawberry Fragaria vesca",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Sunflower Seed Helianthus annuus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Sweet Potato Ipomea batatas",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Tea Chai (Camellia sinensis)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Tomato Tamatar (Lycopersicon Lycopresicum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Tuna Fish (Pleuronectes platessa)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Turmeric",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Vanilla Vanilla planifolia",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Walnut Juglans californica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Water Melon Citrullus lanatus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Wheat Gehon (Triticum Aestivum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food White Bean Phaseolus Vulgaris",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Food Yogurt",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Bahia Grass Indian Rice Grass ( Paspalum Notatum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Bermuda Grass Durva (Cynodon Grass)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Common Reed Grass Phragmites communis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Cultivated RyeGrass Secale Cereale",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Cultivated Wheat Triticum Aestivum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Johnson Grass Jowar grass (Sorghum Grass)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Meadow Fescue Festuca elatior",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Meadow Grass Poa Pratensis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Orchard Grass",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Rye Grass Lolium Perene",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Sweet Vernal Anthoxanthum Odoratum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Timothy Grass Ghass (Phleum Pratense)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Velvet Holcus lanatus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Grass pollen Zea Mays Grass Maize(Corn )",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Insect Cockroach German Blatella Germanica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Insect Honey Bee Venom Madhu Makhhi (Apis Mellifera)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Insect Moth Bombyx mori",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Insect Paper wasp Venom Polistes spp.",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Metals Chromium",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Alternaria Tenius fungus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Aspergillus Fumigatus fungus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Candida Albicans fungus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Cladosporium Herbarum fungus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Heliminthosporium Halodes",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Mosquito Machhar (Aedes Communis)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Mucor Racemosus fungus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Penicillium Notatum fungus (Penicillium chrysogenum)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Rhizopus Nigricans fungus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Micro organism Trichophyton",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Occupational Isocynate Hdi",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Occupational Isocynate Mdi",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Occupational Isocynate Tdt",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Occupational Latex",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Occupational Silk",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Avocado",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Bupivacaine Anaesthesia",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Cotton kapus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Lidocaine (lignocaine) Anaesthesia",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Paietaria Officinatis",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Pityrosporum Orbiculare",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Pthalic Anhydride",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Stemphylium Botryosum",
+    "price": 1750
+  },
+  {
+    "Test Name": "Allergen, Individual-Others Wool",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Acasia Babool (Acasia Longifolia)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Alder Alnus Incana",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Birch Betula Verrucosa",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Cottonwood Populus deltoides",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Eucalyptus Nilgiri (Safeda )",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Hazel Corylus Avellana",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Japanese Cedar Cryptomeria japonica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Mesquite Pahadi Keekar (Prosopis Juliflora)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Mulberry Shahtoot (Morus alba)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Oak Quercus Alba",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Papdi Chibil / Elm",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen White Pine Pinus strobus",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Tree pollen Willow Salix Caprea",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Cocklebur Xanthium commune",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Common Pigweed Kaantewali Chauli ( Amaranthus Retroflexus)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Common Ragweed Close To Parthenium / Congress Grass (Ambrosia Elatior)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen English Plantain Plantago Lanceolata",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Golden Rod Solidago Virgaurea",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Goose Foot Chenopodium Album",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Mugwort Sita Bani (Artemisia Vulgaris / BanoBarna)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Nettle Urtica dioica",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Rape Pollen Sarson (Brassica Napus)",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergen, Individual-Weed pollen Saltwort (Salsola kali / pestifer) Serum",
+    "price": 1500
+  },
+  {
+    "Test Name": "Allergy monitoring Eosinophil cationic protein ECP",
+    "price": 2975
+  },
+  {
+    "Test Name": "Allergy panel-Food Fish Panel 6 parameters  (Cod Fish, Herring, Mackerel, Salmon, Tuna, Total IgE)",
+    "price": 3750
+  },
+  {
+    "Test Name": "Allergy panel-Food Fruit Panel 9 parameters\n(Mango, Kiwi, Banana, Papaya, Apple, Peach, Pear, Pineapple, Total IgE)",
+    "price": 5750
+  },
+  {
+    "Test Name": "Allergy panel-Food Fx 5 (For Infants) Panel 7 parameters (Egg White, Cod Fish,Wheat, Peanut,Soyabean, Cow Milk , Total IgE)",
+    "price": 4000
+  },
+  {
+    "Test Name": "Allergy panel-Food Milk & Milk Product Panel 6 parameters (Cow Milk ( Doodh), Casein ( Milk Protein / Dahi), Cheese Cheddar, Alpha Lactalbumin, Beta Lactoglolin, Total IgE)",
+    "price": 5000
+  },
+  {
+    "Test Name": "Allergy panel-Food Nonvegetarian Panel 11 parameters (Chicken meat, Beef, Salmon, Tuna, Shrimp, Pork, Cod Fish, Egg Yolk, Blue Mussel, egg white, Total IgE)",
+    "price": 6250
+  },
+  {
+    "Test Name": "Allergy panel-Food Nuts Panel 10 parameters (Almond, Brazil Nut, Hazelnut, Peanut, cashewnut, pecanut, walnut, Pistachio, Coconut, IgE)",
+    "price": 6000
+  },
+  {
+    "Test Name": "Allergy panel-Food Oil Panel 6 parameters (Mustard Seed, Peanut,Coconut,Soyabean, Olive, Total IgE)",
+    "price": 4375
+  },
+  {
+    "Test Name": "Allergy panel-Food Sea Food Panel 11 parameters (Cod Fish ( Gadus Morhua / Machhli ), Shrimp/Prawns, Blue Mussel (Mytilus Edulis ) , Tuna (Thunnus Albacares ) , Salmon ( Salmo Salar /Rawas ), Herring ( Clupea Harengus ),Mackerel ( Scomber Scombrus / Bangada ),Plaice ( Pleuronectes Platessa), Crab, Lobster,Total IgE",
+    "price": 6875
+  },
+  {
+    "Test Name": "Allergy panel-Food Spices Panel 11 parameters (Basil (Tulsi)(Ocimum Basilicum ),Black Pepper (Piper Nigrum), Cardamon ( Elettaria Cardamomum) , Chilipepper (Capsicum Frutescens), Cinnamon (Cinnamomum Spp. ), Clove ( Syzygium Aromaticum),\nCoriander(Coriandrum Sativum), Fennel Seed (Foeniculum Vulgare) , Ginger (Zingiber Officinale), Mustard (Brassica/Sinapis Spp.), Total IgE)",
+    "price": 10250
+  },
+  {
+    "Test Name": "Allergy panel-Food Vegetable-1 Panel 6 parameters Garlic , Onion, Celery, Tomato, Yeast, Total IgE",
+    "price": 3750
+  },
+  {
+    "Test Name": "Allergy panel-Food Vegetable-2 Panel 5 parameters Tomato, Paprika, Spinach, Cabbage, Total IgE",
+    "price": 3125
+  },
+  {
+    "Test Name": "Allergy panel-Food Vegetarian + Nonvegetarian Panel 22 parameters Egg White, Wheat, Peanut, Soyabean, Cow Milk,Chicken Meat, Beef, Pork,Egg Yolk,Cod Fish,Shrimp,Tuna,Salmon,Blue Mussel, Pineapple, Lemon,Rice, Lentil, olive,Tomato, garlic, onion, Total IgE",
+    "price": 11875
+  },
+  {
+    "Test Name": "Allergy panel-Food Vegetarians Panel 12 parameters Taken by Default. Cow Milk, Lemon, Pineapple, Peanut, Potato, Wheat, Rice,Soyabean, Lentils, Tomato, Olive, Total IgE",
+    "price": 7000
+  },
+  {
+    "Test Name": "Allergy panel-others Adult (Comprehensive) Panel 25 parameters Peanut, Wheat,Soyabean,Cow Milk,Egg White, Cod Fish,,Shrimp,Tuna,Salmon, Blue mussell,Dermatophagoides Farinae,Dermatophagoides Pteronyssinus,House Dust Greer,Cat Dander, Dog Dander,Alternaria Alternata,Aspergillus Fumigatus,Penicilliumnotatum,CladosporiumHerbarum, Cynodon grass, Meadow grass, Common ragweed, papdi chibil, Oak Total IgE",
+    "price": 11375
+  },
+  {
+    "Test Name": "Allergy panel-others Animal Panel 8 parameters Cat Dander,Dog Dander,Rat epithelium, Mouseepithelium, Guinea pig epithelium, Horse, cow dander, Total IgE",
+    "price": 4875
+  },
+  {
+    "Test Name": "Allergy panel-others Antibiotic profile 8 parametrs Amoxicillin, Ampicillin, Penicilloyl V, Penicilloyl G, Cephalosporin mix, Ciprofloxacin,Sulfametaxazole, Doxycycline, Total IgE",
+    "price": 9000
+  },
+  {
+    "Test Name": "Allergy panel-others Asthma Comprehensive Panel 19 parameters (Respiratory panel) Cynodon Grass, Mesquite, Common Ragweed, P. Notatum, Oak, Papdi Chibil, Common Pigweed,Cat Dander,Dog Dander, Dermatophagoides Farinae,Alternaria Alternata, Cladosporium Herbarum, Aspergillus Fumigatus, Cockroach German, Artemisia/mugwort, House Dust Greer, Dermatophagoides Pteronyssinus, Total IgE",
+    "price": 11250
+  },
+  {
+    "Test Name": "Allergy panel-others Asthma/ Rhinitis Panel - Adult 15 parameters Taken by Default. Cynodon Grass, Sorghum, Alder, Eucalytus, Papdi Chibil, Mesquite, Common Ragweed, Artemisia/ mugwort, Goosefoot, Common Pigweed, Dog Dander, Dermatophagoides Farinae, Cockroach German, Mold Mix (Alternaria Alternata, Cladosporium Herbarum, Aspergillus Fumigatus, P. Notatum),Total IgE. When mixespostive then individual test have to be orderedat extra charge of 1200 rs per allergen.",
+    "price": 8125
+  },
+  {
+    "Test Name": "Allergy panel-others Central India Region Panel 25 parameters Cynodon, Chick Pea,\nDermatophagoides Farinae,Dermatophagoides Pteronyssinus, Cockroach,Cat Dander, Dog Dander,Cow",
+    "price": 12500
+  },
+  {
+    "Test Name": "Allergy panel-others Child Panel 21 parameters Cow Milk,Soyabean,Peanut,Almond, hazelnut,brazilnut, coconut, cocoa, Wheat, Cod Fish,Egg-White,Corn,Cat Epithelium,Dog Dander,Dermatophagoides Farinae,Dermatophagoides Pteronyssinus,House Dust Greer, Aspergillus Fumigatus, Rice, Potato, Total IgE",
+    "price": 11875
+  },
+  {
+    "Test Name": "Allergy panel-others Drug Panel: ( Maxi ) 12 parameters Amoxcycillin, Ampicillin, ACTH, Penicillin V,Penicillin G, Human Insulin,Diclofenac,Ibuprufen,Paracetamol,Ciprofloxacin,Sulfa,Total IgE",
+    "price": 11375
+  },
+  {
+    "Test Name": "Allergy panel-others Drugs Panel 7 parameters Amoxcycillin, Ampicillin, Acth, Penicilloyl V,\nPenicilloyl G, Human Insulin Total IgE",
+    "price": 5125
+  },
+  {
+    "Test Name": "Allergy panel-others Dust Panel 5 parameters House Dust, D Farinae, D Pteronsysinus, Cockroach, Total IgE",
+    "price": 3500
+  },
+  {
+    "Test Name": "Allergy panel-others East India Region Panel: 24 parameters Common Ragweed, Alder, Birch, Cynodon,Mugwort,Cocklebur, DermatophagoidesFarinae,Dermatophagoides Pteronyssinus,Alternaria Alternata, Cladosporium Herbarum,Aspergillus Fumigatus,P. Notatum, Cat Dander,\nDog Dander, Horse Dander,Cow dander, Sorghum, Goosefoot, Cod Fish, Blue mussel, salmon, tuna, shrimp, Total IgE",
+    "price": 13750
+  },
+  {
+    "Test Name": "Allergy panel-others Eczema Maxi Panel 20 parameters (skin allergy-For Non Veg and Veg\npatients) Egg White,Cow Milk,Wheat,Rice,Peanut,Lentil Dals,Soyabean,Lemon,Banana,\nDermatophagoides Farinae, Dermatophagoides\nPteronyssinus ,Dog Dander,Chick Pea, Shrimp, Cod Fish,Cat Dander, house dust, horse dander, cow dander, Total IgE",
+    "price": 11375
+  },
+  {
+    "Test Name": "Allergy panel-others Eczema Mini Panel 14 parameters Taken by Default. Egg White,Cow Milk,Wheat, Rice,Peanut, Soyabean,Lemon, Banana, Chick Pea, Shrimp,Cod Fish, Dust Mix(Dermatophagoides Farinae,\nDermatophagoides Pteronyssinus ,house dust,Cockroach), Animal Mix (Dog Dander,Cat Dander, , horse dander, cow dander, Total IgE.When mixes postive then individual test have tobe ordered at extra charge of 1200 rs perallergen.",
+    "price": 8125
+  },
+  {
+    "Test Name": "Allergy panel-others Environmental Panel 29 parameters Phadiatop,Cat Dander, Dog Dander,\nHouse Dust, D Farinae, D Pteronsysinus, Cockroach, Alternaria,Cladsoporium, Aspergillus, P. Notatum,Candida Albicans,Cynodon Grass,  Timothy Grass,Johnson Grass,rye grass,\nmeadow grass, bahia grass, Common Ragweed,Mugwort,Cultivated Rye,Common Pigweed,Alder,Birch,Oak, Elm tree pollen,\nRape Pollen,Salwort, Total IgE",
+    "price": 15625
+  },
+  {
+    "Test Name": "Allergy panel-others GIT Panel -1 33 parameters (Veg) Wheat, Peanut, Soyabean, Cow Milk, Almond, Coconut, Cashew Nut, Tomato,Yeast,Garlic, Onion, Celery, Banana, Pineapple, Apple, Gluten, Spinach, cabbage, Caprica, Potato, Lentil, Rice,Corn, chick pea, casien, brinjal, lemon, olive, brazil nut, hazelnut, Pear, Peach,Total IgE",
+    "price": 15000
+  },
+  {
+    "Test Name": "Allergy panel-others GIT Panel-2 46 parameters (Veg + Non Veg) Egg White, Wheat, Peanut, Soyabean, Cow Milk, Cod Fish, Shrimp, Blue Mussel ,Salmon, Tuna,Almond, Coconut, Cashew Nut, Tomato, Yeast,Garlic, Onion, Celery, Pork, Egg Yolk, Chicken Meat, Banana, Pineapple, Apple, Gluten, Spinach, cabbage, Caprica, Potato, Lentil, Rice,Corn, chick pea, casien, brinjal, lemon, olive, Beef, herring , mackerel, plaice,brazil nut, hazelnut, Pear, Peach, Total IgE",
+    "price": 20625
+  },
+  {
+    "Test Name": "Allergy panel-others Grass Panel 7 parameters Cynodon Grass (Bermuda Grass/Durva), Sorghum Grass(Jhonson Grass/ Jowar),\nTimothy Grass(Phleum Pratense/Ghass), Rye Grass(Lolium Perene), Meadow Grass (Poa\nPratensis), Bahia Grass (Paspalum Notatum/ Indian Rice Grass), Total IgE",
+    "price": 4375
+  },
+  {
+    "Test Name": "Allergy panel-others Indoor Panel 4 parameters Dust Mix (House Dust, Dermatophagoides farinae, Dermatophagoides Pteronussinus,\nCockroach), Mold Mix (Aspergillus, Candida,\nAlternaria alternata, Cladrospoirum herbarum, Penicillium notatum), Animal mix(Cat Dander,Dog Dander, Guinea pig epithelium, Ratepithelium, Mouse epithelium), Total IgE. Whenmixes postive then individual test have to beordered at extra charge of 1200 rs per allergen.",
+    "price": 3500
+  },
+  {
+    "Test Name": "Allergy panel-others Inhalant Panel 17 parameters Timothy Grass, Rye Grass, Cynodon Grass,\nEucalyptus, Common Ragweed, D Farinae, D Pteryssinus, Cockroach, Cat Dander, Dog Dander, Aspergillus Fumigatus, House Dust\nGreer, P Notatum, Alternaria, Cladrosporium,\nTotal IgE",
+    "price": 11125
+  },
+  {
+    "Test Name": "Allergy panel-others Insects Panel 4 parameters Honey Bee Venom, Cockroach,Mosquito,\nTotal IgE",
+    "price": 3375
+  },
+  {
+    "Test Name": "Allergy panel-others Mold-1 Panel 5 parameters (fungus) Alternaria Alternata, Cladroporium Herbarum,Aspergillus Fumigatus, P. Notatum, Total IgE",
+    "price": 3250
+  },
+  {
+    "Test Name": "Allergy panel-others Mold-2 Panel 6 parameters (fungus)  Pencillium Notatum, Cladosporium, Herbarum, Aspergillus Fumigatus, Candida Albicans, Alternaria Tenius, Tota IgE",
+    "price": 3750
+  },
+  {
+    "Test Name": "Allergy panel-others North India Region Panel 23 parameters  Cynodon, Sorghum, Babool,\nGoosefoot, Common Ragweed,Alder,Sarson, Rape Pollen, Dermatophagoides Farinae,Dermatophagoides\nPteronyssinus, Cockroach, Cat Dander, Dog\nDander ,Cow Dander,Horse Dander,P Notatum, Cladosporium,Aspergillus Fumigatus, Alternaria Alternata,.Mesquite,Mugwort.Papdi Chibil,Total IgE",
+    "price": 13750
+  },
+  {
+    "Test Name": "Allergy panel-others Occupation Panel 9 parameters Abachi Wood Dust, Castor Bean, Cotton Seed,Ethylene Oxide, Formalin, Latex, Silk, Sunflower Seeds Total IgE. Plz enquire before\nsending sample.",
+    "price": 15000
+  },
+  {
+    "Test Name": "Allergy panel-others Outdoor Panel 9 parameters Rye Grass, Sweet Vernal, Golden Rod,\nEnglish, Plantain, Alder, Birch, Lambs Quarter, Nettle, Total IgE",
+    "price": 6500
+  },
+  {
+    "Test Name": "Allergy panel-others Pulses panel 6 parameters Lentil, Chick pea, White bean, green pea,\nSoyabean, total IgE",
+    "price": 4000
+  },
+  {
+    "Test Name": "Allergy panel-others Rhinitis/Wheeze Maxi panel 21 parameters  Cynodon Grass,Sorghum Grass ,Mesquite, Common ragweed P. Notatum,Aspergillus Fumigatus,Cow Milk,Rice,Lentil, Dermatophagoides Pteronyssinus,White Bean,\nPeanut,Cat Dander,Dog Dander,Alternaria\nAlternata,Cladosporium Herbarum,Egg White, Lemon, Dermatophagoides Farinae, House Dust Greer Total IgE",
+    "price": 12000
+  },
+  {
+    "Test Name": "Allergy panel-others Rhinitis/Wheeze Mini - (especially for Child) 15 parameters  Taken by Default. Grass mix (cynodon,\npaspalum, poa, phleum, sorghum), Elm/ papdichibil, ,mesquite, Common ragweed, goose foot, egg white, Cow Milk, Mold Mix(P.\nNotatum, Aspergillus Fumigatus, Alternaria\nAlternata,Cladosporium Herbarum) Legume mix (Lentil, pea, white bean),Peanut, Lemon, Dog Dander, Dermatophagoides Farinae, RiceTotal IgE. When mixes postive individual allergen can be ordered with extra charges 1200 rs perallergen",
+    "price": 9125
+  },
+  {
+    "Test Name": "Allergy panel-others Skin Allergy panel For vegetarians 23 parameters Cow Milk, Wheat, Rice, peanut, lentil,soyabean, chickpea, lemon, banana, D Petrysinus, D Farinae, House dust, cat dander,dog dander, brinjal, spinach, cashewnut, tomato, mango, papaya, horse dander, cow\ndander,IgE",
+    "price": 12375
+  },
+  {
+    "Test Name": "Allergy panel-others South India Region Panel 20 parameters  Coconut, Almond, Cashew Nut, Banana,Cat Dander, Dog Dander,Cynodon, Common Ragweed, Alternaria Alternata,Cladosporium Herbarum, Aspergillus Fumigatus,P. Notatum,\nCandida Albicans, Dermatophagoides Farinae, Dermatophagoides Pteronyssinus ,Eucalyptus, Mesquite,Mugwort,Pigweed Pollen,Total IgE",
+    "price": 12625
+  },
+  {
+    "Test Name": "Allergy panel-others Trees pollen Panel 6 parameters  Alnus Incana, Common Silver Birch, Corylus Avellana, Oak, Salix Caprea, Total IgE",
+    "price": 3875
+  },
+  {
+    "Test Name": "Allergy panel-others Weeds pollen Panel 6 parameters  Common Ragweed,Mugwort,Plantain English, Goosefoot,Salwort, Total IgE",
+    "price": 3875
+  },
+  {
+    "Test Name": "Allergy screening Group Panel 11 parameters (Inhalants/Phadiatop, Animals, Molds, Trees, Weeds, Grasses, Foods / Fx5, Nut, Fish, Non Veg Mixes ,Total IgE)",
+    "price": 8875
+  },
+  {
+    "Test Name": "Allergy screening IgE-total antibodies with Phadiatop (Adult & >5y)",
+    "price": 1875
+  },
+  {
+    "Test Name": "Allergy screening IgE-total antibodies with Phadiatop (Child < 5 y)",
+    "price": 3190
+  },
+  {
+    "Test Name": "Allergy screening Phadiatop Adult For > 5 years",
+    "price": 1375
+  },
+  {
+    "Test Name": "Allergy screening Phadiatop Infant For < 5 years",
+    "price": 1375
+  },
+  {
+    "Test Name": "Allergy screening Tryptase",
+    "price": 4250
+  },
+  {
+    "Test Name": "ALPHA FETO PROTEIN(AFP), CANCER MARKER,SERUM",
+    "price": 850
+  },
+  {
+    "Test Name": "ALPHA FETO PROTEIN(AFP),MATERNAL SERUM",
+    "price": 825
+  },
+  {
+    "Test Name": "ALPHA-1-ANTITRYPSIN",
+    "price": 2840
+  },
+  {
+    "Test Name": "Aluminium,  Spot Urine",
+    "price": 3540
+  },
+  {
+    "Test Name": "ALUMINIUM, 24 hrs URINE",
+    "price": 3540
+  },
+  {
+    "Test Name": "ALUMINIUM, SERUM",
+    "price": 3540
+  },
+  {
+    "Test Name": "AMENOHRREA PLUS\n(LH, FSH, PRL, E2, TSH)(ONLY FOR FEMALES)",
+    "price": 1500
+  },
+  {
+    "Test Name": "AMENORRHOEA SCREEN ( LH, FSH, PROLACTIN) (ONLY FOR FEMALES)",
+    "price": 1100
+  },
+  {
+    "Test Name": "AMH COMB0( LH.FSH,Prolactin,AMH)",
+    "price": 1700
+  },
+  {
+    "Test Name": "AMH PLUS\n(LH, FSH, PRL, E2, TESTOSTERONE, TESTOSTERONE FREE, TSH ULTRA, AMH, PRGE)",
+    "price": 2600
+  },
+  {
+    "Test Name": "AMINO ACID ANALYSIS, PLASMA",
+    "price": 3400
+  },
+  {
+    "Test Name": "AMINO ACID ANALYSIS, URINE RANDOM",
+    "price": 3400
+  },
+  {
+    "Test Name": "AMINOLEVULINIC ACID,URINE",
+    "price": 3900
+  },
+  {
+    "Test Name": "AMNIOTIC FLUID - PNDT KARYOTYPING",
+    "price": 12000
+  },
+  {
+    "Test Name": "AMNIOTIC FLUID CELLS FOR 13,18,21,X,Y - FISH PNDT",
+    "price": 13200
+  },
+  {
+    "Test Name": "AMNIOTIC FLUID FOR 13,21 CHROMOSOME –FISH PNDT",
+    "price": 12000
+  },
+  {
+    "Test Name": "AMYLASE,SERUM",
+    "price": 400
+  },
+  {
+    "Test Name": "ANA PROFILE, SERUM",
+    "price": 4760
+  },
+  {
+    "Test Name": "ANA, 17 ANTIGENS IMMUNOBLOT, SERUM",
+    "price": 3140
+  },
+  {
+    "Test Name": "ANA, IFA REFLEX 17 ANTIGENS IMMUNOBLOT, SERUM",
+    "price": 2710
+  },
+  {
+    "Test Name": "ANAEMIA SCREEN PANEL (CBC ,Vit B12, Iron &  TIBC)",
+    "price": 800
+  },
+  {
+    "Test Name": "ANAEROBIC FLUID CULTURE - BACTEC",
+    "price": 1200
+  },
+  {
+    "Test Name": "ANCA (ANTINEUTROPHIL CYTOPLASMIC ANTIBODIES), SERUM",
+    "price": 1760
+  },
+  {
+    "Test Name": "ANDROLOGY PANEL\n(LH, FSH, PROLACTIN) (ONLY FOR MALES)",
+    "price": 1100
+  },
+  {
+    "Test Name": "ANDROSTENEDIONE, SERUM",
+    "price": 1710
+  },
+  {
+    "Test Name": "ANEMIA PROFILE I\n(CBC, IRON, TIBC, % TRANSFERRIN SATURATION, CRP, RETICULOCYTE COUNT)",
+    "price": 1150
+  },
+  {
+    "Test Name": "ANEMIA PROFILE II  (CBC, IRON, TIBC, % TRANSFERRIN SATURATION, CRP, RETICULOCYTE\nCOUNT, FERRITIN)",
+    "price": 1500
+  },
+  {
+    "Test Name": "ANEMIA PROFILE III  (CBC, IRON, TIBC, TRANSFERRIN, % TRANSFERRIN SATURATION, FERRITIN, PROTEIN TOTAL, ALBUMIN, A:G RATION, CRP ,Vitamin B12)",
+    "price": 2000
+  },
+  {
+    "Test Name": "ANGIOTENSIN CONVERTING ENZYME (ACE), SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "*ANTENATAL PANEL - 1 SL (CBC,Blood Group, RBS, TSH, HIV, HBsAg, RPR, URINE ROUTINE)",
+    "price": 1100
+  },
+  {
+    "Test Name": "ANTENATAL PANEL 2\n( CBC, Blood Group,  Urine R/M, HIV-1&2, HBsAg, RPR (VDRL), Random Blood  Sugar, TSH,HCV)",
+    "price": 1600
+  },
+  {
+    "Test Name": "ANTI CENTROMERE ANTIBODIES",
+    "price": 1470
+  },
+  {
+    "Test Name": "ANTI CYCLIC CITRULLINATED PEPTIDE(ANTI CCP),SERUM",
+    "price": 1100
+  },
+  {
+    "Test Name": "ANTI DNASE B (ANTIDEOXYRIBONUCLEASE B), SERUM",
+    "price": 3400
+  },
+  {
+    "Test Name": "ANTI- DS DNA, SERUM",
+    "price": 1045
+  },
+  {
+    "Test Name": "ANTI HISTONE ANTIBODY",
+    "price": 1570
+  },
+  {
+    "Test Name": "ANTI INSULIN ANTIBODIES,",
+    "price": 1900
+  },
+  {
+    "Test Name": "ANTI MITOCHONDRIAL ANTIBODIES (AMA) WITH TITRE",
+    "price": 1710
+  },
+  {
+    "Test Name": "ANTI MULLERIAN HORMONE(AMH), SERUM",
+    "price": 1700
+  },
+  {
+    "Test Name": "ANTI NUCLEAR ANTIBODY / FACTOR, IFA, SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "ANTI NUCLEAR ANTIBODY(ANA), SERUM",
+    "price": 710
+  },
+  {
+    "Test Name": "ANTI OVARIAN ANTIBODIES",
+    "price": 3140
+  },
+  {
+    "Test Name": "ANTI PARIETAL CELL ANTIBODY (APCA)",
+    "price": 2000
+  },
+  {
+    "Test Name": "ANTI PHOSPHOLIPID ANTIBODY IGG, SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "ANTI PHOSPHOLIPID ANTIBODY IGM, SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "ANTI SACCHAROMYCES CEREVISIAE (ASCA), IGA ANTIBODY",
+    "price": 2000
+  },
+  {
+    "Test Name": "ANTI SACCHAROMYCES CEREVISIAE (ASCA), IGG ANTIBODY",
+    "price": 2000
+  },
+  {
+    "Test Name": "ANTI SMOOTH MUSCLE ANTIBODIES (ASMA)",
+    "price": 1810
+  },
+  {
+    "Test Name": "ANTI SPERM ANTIBODIES",
+    "price": 1040
+  },
+  {
+    "Test Name": "*ANTI STREPTOLYSIN O (QUALITATIVE),SERUM",
+    "price": 400
+  },
+  {
+    "Test Name": "ANTI STREPTOLYSIN O QUANTITATIVE,SERUM",
+    "price": 450
+  },
+  {
+    "Test Name": "ANTI THROMBIN III ACTIVITY (FUNCTIONAL)",
+    "price": 3430
+  },
+  {
+    "Test Name": "ANTI THROMBIN III ANTIGEN",
+    "price": 4570
+  },
+  {
+    "Test Name": "ANTI THYROID ANTIBODIES PANEL (ANTI TG, ANTI TPO)",
+    "price": 1800
+  },
+  {
+    "Test Name": "ANTI-MPO AB (ANTI- MYLEOPEROXIDASE ANTIBODIES)",
+    "price": 1290
+  },
+  {
+    "Test Name": "ANTINATEL BASIC  -\n(CBC,Glucose Random, Blood group(ABO&RH) , Urine-R/M,RPR (VDRL),HBsAg,HIV 1& 2 ,TSH\n,HCV)",
+    "price": 1000
+  },
+  {
+    "Test Name": "ANTINATEL Check -( Glucose Random, Blood group , Urine-R/M, RPR  (VDRL),HBsAg,HIV,HCV)",
+    "price": 800
+  },
+  {
+    "Test Name": "ANTI-PR3 ANTIBODIES",
+    "price": 1290
+  },
+  {
+    "Test Name": "APOLIPOPROTEIN- A1,SERUM",
+    "price": 990
+  },
+  {
+    "Test Name": "APOLIPOPROTEIN- B, SERUM",
+    "price": 990
+  },
+  {
+    "Test Name": "APOLIPOPROTEIN-A1 & B, INCLUDES APO A1 & B RATIO",
+    "price": 1540
+  },
+  {
+    "Test Name": "APTT, PLASMA",
+    "price": 550
+  },
+  {
+    "Test Name": "AQUAPORINE 4 SCREENING (NMO ANTIBODIES), SERUM",
+    "price": 4100
+  },
+  {
+    "Test Name": "ARSENIC, BLOOD",
+    "price": 3540
+  },
+  {
+    "Test Name": "ARSENIC, URINE RANDOM",
+    "price": 3540
+  },
+  {
+    "Test Name": "ARTHRITIS PANEL 1 (CBC, ESR, CRP, RA FACTOR, ANA, UREA, URIC ACID, SGPT, SGOT, URINE\nR/M)",
+    "price": 2300
+  },
+  {
+    "Test Name": "ARTHRITIS PANEL 2 ( CBC, ESR, CRP, RA FACTOR, ANA, URIC ACID, ASO, URINE R/M, ANTI CCP)",
+    "price": 2750
+  },
+  {
+    "Test Name": "Arthritis Screen Panel (CBC,RA Factor,Vit D & ESR,URIC ACID)",
+    "price": 1250
+  },
+  {
+    "Test Name": "ASCITIC/PERITONEAL FLUID, ROUTINE EXAMINATION",
+    "price": 390
+  },
+  {
+    "Test Name": "ASKA (STRIATED) MUSCLE ANTIBODY",
+    "price": 3240
+  },
+  {
+    "Test Name": "ASPARTATE AMINOTRANSFERASE (AST/SGOT), SERUM",
+    "price": 160
+  },
+  {
+    "Test Name": "ASPERGILLUS IGG ANTIBODIES, SERUM",
+    "price": 1890
+  },
+  {
+    "Test Name": "ASPERGILLUS IGM ANTIBODIES, SERUM",
+    "price": 2000
+  },
+  {
+    "Test Name": "AUTO IMMUNE HEPATITIS PANEL - (AMA, ANA, ASMA, LKM-1), IFA",
+    "price": 4400
+  },
+  {
+    "Test Name": "AUTOIMMUNE ENCEPHALITIS PANEL SERUM",
+    "price": 20000
+  },
+  {
+    "Test Name": "BACTERIAL ANTIGEN SCREEN, CSF",
+    "price": 3960
+  },
+  {
+    "Test Name": "BACTERIAL ANTIGEN SCREEN, SERUM",
+    "price": 3960
+  },
+  {
+    "Test Name": "BACTERIAL MENINGITIS PANEL 5 ANTIGEN, CSF",
+    "price": 2290
+  },
+  {
+    "Test Name": "BACTERIAL MENINGITIS PANEL 5 ANTIGENS, CSF",
+    "price": 4000
+  },
+  {
+    "Test Name": "BACTERIAL MENINGITIS PANEL 5 ANTIGENS, SERUM",
+    "price": 4000
+  },
+  {
+    "Test Name": "BARBITURATES, URINE",
+    "price": 610
+  },
+  {
+    "Test Name": "BASIC HEALTH CHECK PROFILE (CBC, ESR, URINE R/M, BLOOD GROUP,  FASTING BLOOD\nSUGAR, CHOLESTEROL, TRIGLYCERIDE, CREATININE, SGPT)",
+    "price": 935
+  },
+  {
+    "Test Name": "BASIC HEALTH SCREEN, BLOOD & URINE (HB, TLC, DLC, ESR, CHOLESTEROL TOTAL, BILIRUBIN\nTOTAL, CREATININE, RBS ,URINE R/M)",
+    "price": 500
+  },
+  {
+    "Test Name": "BCR ABL1 MUTATION ANALYSIS",
+    "price": 13890
+  },
+  {
+    "Test Name": "BCR-ABL QUANTITATIVE",
+    "price": 8500
+  },
+  {
+    "Test Name": "BENCE JONES PROTEIN, URINE",
+    "price": 930
+  },
+  {
+    "Test Name": "BENZODIAZEPINE, URINE",
+    "price": 610
+  },
+  {
+    "Test Name": "BETA 2 GLYCOPROTEIN IGG, SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "BETA 2 GLYCOPROTEIN IGM, SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "BETA 2 MICROGLOBULIN ( URINE )",
+    "price": 2260
+  },
+  {
+    "Test Name": "BETA 2 MICROGLOBULIN, SERUM",
+    "price": 1390
+  },
+  {
+    "Test Name": "BETA HCG FREE, SERUM",
+    "price": 920
+  },
+  {
+    "Test Name": "BETA HCG, TOTAL, SERUM",
+    "price": 550
+  },
+  {
+    "Test Name": "BICARBONATE",
+    "price": 470
+  },
+  {
+    "Test Name": "BILIRUBIN TOTAL, SERUM",
+    "price": 130
+  },
+  {
+    "Test Name": "BILIRUBIN, SERUM",
+    "price": 275
+  },
+  {
+    "Test Name": "Bio-T Plus : (CBC , Glucose Fasting, Lipid Profile, Blood Urea Nitrogen (BUN), Creatinine, Uric Acid, Calcium, LFT, Thyroid Profile, Total )",
+    "price": 800
+  },
+  {
+    "Test Name": "Bio-T Profile : Lipid Profile, Blood Urea Nitrogen (BUN), Creatinine, Uric Acid,Calcium, LFT, Iron Profile, Thyroid Profile, Total",
+    "price": 800
+  },
+  {
+    "Test Name": "Bio-T  D Plus :( CBC, HBA1C, Glucose Fasting, Lipid Profile, LFT, Blood Urea Nitrogen (BUN) Creatinine, Uric Acid, Calcium, Thyroid Profile Total )",
+    "price": 1000
+  },
+  {
+    "Test Name": "BISMUTH, BLOOD",
+    "price": 6380
+  },
+  {
+    "Test Name": "BK VIRUS (QUANTITATIVE)",
+    "price": 6380
+  },
+  {
+    "Test Name": "*BLEEDING TIME & CLOTTING TIME",
+    "price": 80
+  },
+  {
+    "Test Name": "BLOOD CULTURE - BACTEC",
+    "price": 900
+  },
+  {
+    "Test Name": "BLOOD CULTURE BACTEC - PEDIATRIC",
+    "price": 900
+  },
+  {
+    "Test Name": "BLOOD CULTURE-ANAEROBIC, BACTEC",
+    "price": 1400
+  },
+  {
+    "Test Name": "BLOOD FOR 13,21,18,X,Y  FISH TESTING –POST NATAL",
+    "price": 14100
+  },
+  {
+    "Test Name": "BLOOD FOR 13,21/18,X,Y  FISH TESTING –POST NATAL",
+    "price": 13710
+  },
+  {
+    "Test Name": "BLOOD GROUP (ABO & RH)",
+    "price": 100
+  },
+  {
+    "Test Name": "BLOOD UREA NITROGEN (BUN), SERUM",
+    "price": 130
+  },
+  {
+    "Test Name": "BODY FLUID CULTURE ( EXCEPT CSF )",
+    "price": 550
+  },
+  {
+    "Test Name": "BODY FLUIDS CYTOLOGY  FOR MALIGNANT CELLS",
+    "price": 700
+  },
+  {
+    "Test Name": "BOH PANEL-1 (ANTI PHOSPHOLIPID IGG, ANTI PHOSPHOLIPID IGM, TOXOPLASMA IGG, RUBELLA IGG, CMV IGG, HSV 1&2 IGG, TOXOPLASMA IGM, RUBELLA IGM, CMV IGM, HSV 1&2 IGM, ANA, TSH, FACTOR V LEIDEN MUTATION PCR) (ONLY FOR FEMALES)",
+    "price": 7200
+  },
+  {
+    "Test Name": "BOH PANEL-2 : (ANTI PHOSPHOLIPID IGG, ANTI PHOSPHOLIPID IGM, TOXOPLASMA IGG, RUBELLA IGG, CMV IGG, HSV 1&2 IGG, TOXOPLASMA IGM, RUBELLA IGM, CMV IGM, HSV 1&2\nIGM, ANA, TSH) (ONLY FOR FEMALES)",
+    "price": 3650
+  },
+  {
+    "Test Name": "BORDETELLA PERTUSSIS IGG - QUANTITATIVE",
+    "price": 2190
+  },
+  {
+    "Test Name": "BRAF V600E MUTATION DETECTION",
+    "price": 5240
+  },
+  {
+    "Test Name": "BREAST CANCER MONITOR I (CA 15.3, CEA)",
+    "price": 1700
+  },
+  {
+    "Test Name": "BRUCELLA ANTIBODY, IGG, SERUM",
+    "price": 1140
+  },
+  {
+    "Test Name": "BRUCELLA ANTIBODY, IGM, SERUM",
+    "price": 1140
+  },
+  {
+    "Test Name": "B-TYPE NATRIURETIC PEPTIDE, (BNP) PLASMA",
+    "price": 1860
+  },
+  {
+    "Test Name": "C DIPTHERIA, CULTURE & SENSITIVITY",
+    "price": 710
+  },
+  {
+    "Test Name": "C1 ESTRASE INHIBITOR, SERUM",
+    "price": 3540
+  },
+  {
+    "Test Name": "CA - 15.3, CANCER MARKER, SERUM",
+    "price": 1250
+  },
+  {
+    "Test Name": "CA-125, CANCER MARKER, SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "CA-19.9, CANCER MARKER, SERUM",
+    "price": 1300
+  },
+  {
+    "Test Name": "CA72.4, SERUM",
+    "price": 1610
+  },
+  {
+    "Test Name": "CADMIUM, 24 HRS URINE",
+    "price": 3540
+  },
+  {
+    "Test Name": "CADMIUM, BLOOD",
+    "price": 3540
+  },
+  {
+    "Test Name": "CADMIUM, URINE SPOT",
+    "price": 3540
+  },
+  {
+    "Test Name": "CALCITONIN, SERUM",
+    "price": 2000
+  },
+  {
+    "Test Name": "CALCIUM IONISED, SERUM",
+    "price": 500
+  },
+  {
+    "Test Name": "CALCIUM, 24 HRS URINE",
+    "price": 210
+  },
+  {
+    "Test Name": "CALCIUM, RANDOM URINE",
+    "price": 209
+  },
+  {
+    "Test Name": "CALCIUM, SERUM",
+    "price": 170
+  },
+  {
+    "Test Name": "CALCULUS (STONE) ANALYSIS, GALL BLADDER",
+    "price": 1040
+  },
+  {
+    "Test Name": "CANDIDA ALBICANS DNA DETECTION PCR",
+    "price": 7090
+  },
+  {
+    "Test Name": "CARCINO EMBRYONIC ANTIGEN (CEA), SERUM",
+    "price": 630
+  },
+  {
+    "Test Name": "CARDIAC RISK PROFILE-1, SERUM - (CHOLESTEROL TOTAL, CHOLESTEROL-HDL-DIRECT, CHOLESTEROL-LDL-DIRECT, TRIGLYCERIDE, VLDL-CALCULATED, CHOL/HDL RATIO, HSCRP,\nCKMB)",
+    "price": 1300
+  },
+  {
+    "Test Name": "CARDIOLIPIN (ACL) IGA ANTIBODIES",
+    "price": 860
+  },
+  {
+    "Test Name": "CARDIOLIPIN ANTIBODIES IGG, SERUM",
+    "price": 750
+  },
+  {
+    "Test Name": "CARDIOLIPIN ANTIBODIES IGM, SERUM",
+    "price": 750
+  },
+  {
+    "Test Name": "CATECHOLAMINES, PLASMA",
+    "price": 6470
+  },
+  {
+    "Test Name": "CATECHOLAMINES, URINE 24H",
+    "price": 4290
+  },
+  {
+    "Test Name": "CD10 (CALLA)",
+    "price": 2100
+  },
+  {
+    "Test Name": "CD103",
+    "price": 2100
+  },
+  {
+    "Test Name": "CEREBROSPINAL FLUID, ROUTINE EXAMINATION",
+    "price": 430
+  },
+  {
+    "Test Name": "CERULOPLASMIN, SERUM",
+    "price": 1040
+  },
+  {
+    "Test Name": "CHIKUNGUNYA IGM, RAPID, SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "CHIKUNGUNYA PCR, PLASMA",
+    "price": 3810
+  },
+  {
+    "Test Name": "CHLAMYDIA PNEUMONIAE IGA ANTIBODIES",
+    "price": 2630
+  },
+  {
+    "Test Name": "CHLAMYDIA PNEUMONIAE IGG ANTIBODIES",
+    "price": 1760
+  },
+  {
+    "Test Name": "CHLAMYDIA PNEUMONIAE IGM ANTIBODIES",
+    "price": 1760
+  },
+  {
+    "Test Name": "CHLAMYDIA TRACHOMATIS ANTIBODY, IGG, SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "CHLAMYDIA TRACHOMATIS ANTIBODY, IGM, SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "CHLAMYDIA TRACHOMATIS DNA DETECTION",
+    "price": 4960
+  },
+  {
+    "Test Name": "CHLORIDE, 24 HRS URINE",
+    "price": 220
+  },
+  {
+    "Test Name": "CHLORIDE, RANDOM URINE",
+    "price": 220
+  },
+  {
+    "Test Name": "CHLORIDE, SERUM",
+    "price": 170
+  },
+  {
+    "Test Name": "CHLORIDES, BODY FLUID",
+    "price": 240
+  },
+  {
+    "Test Name": "CHOLESTEROL HDL, SERUM",
+    "price": 230
+  },
+  {
+    "Test Name": "CHOLESTEROL LDL- DIRECT,SERUM",
+    "price": 280
+  },
+  {
+    "Test Name": "CHOLESTEROL TOTAL, SERUM",
+    "price": 135
+  },
+  {
+    "Test Name": "CHORIONIC VILLI CELLS FOR 13,18,21- FISH PNDT",
+    "price": 14100
+  },
+  {
+    "Test Name": "CHORIONIC VILLUS BIOPSY –PNDT KARYOTYPING",
+    "price": 13710
+  },
+  {
+    "Test Name": "CHROMIUM, 24 HRS URINE",
+    "price": 3540
+  },
+  {
+    "Test Name": "CHROMOGRANIN A",
+    "price": 5530
+  },
+  {
+    "Test Name": "CHROMOSOME BREAKAGE STUDY (FANCONI ANEMIA )",
+    "price": 13910
+  },
+  {
+    "Test Name": "CHROMOSOME BREAKAGE STUDY (FANCONI ANEMIA )",
+    "price": 12140
+  },
+  {
+    "Test Name": "CLOPIDOGREL CYP2C19 SENSITIVITY TEST",
+    "price": 9350
+  },
+  {
+    "Test Name": "CLOSTRIDIUM DIFFICILE TOXIN A & B & GDH, STOOL",
+    "price": 2100
+  },
+  {
+    "Test Name": "CMV DETECTION (QUALITATIVE) TEST",
+    "price": 6380
+  },
+  {
+    "Test Name": "CMV IGG & REFLEX AVIDITY",
+    "price": 970
+  },
+  {
+    "Test Name": "CMV IGG (CYTOMEGALOVIRUS IGG), SERUM",
+    "price": 590
+  },
+  {
+    "Test Name": "CMV VIRAL LOAD DETECTION TEST (QUANTITATIVE)",
+    "price": 6670
+  },
+  {
+    "Test Name": "Coagulation Panel-(PT,APTT, Platlet count )",
+    "price": 500
+  },
+  {
+    "Test Name": "Coagulation Profile Basic  -(PT,APTT)",
+    "price": 400
+  },
+  {
+    "Test Name": "COBALT, BLOOD",
+    "price": 3540
+  },
+  {
+    "Test Name": "COBALT, URINE (RANDOM)",
+    "price": 3540
+  },
+  {
+    "Test Name": "COCAINE URINE",
+    "price": 610
+  },
+  {
+    "Test Name": "COCCIDIAN PARASITES, MODIFIED ZN - STOOL",
+    "price": 210
+  },
+  {
+    "Test Name": "COMPLEMENT C3 & C4, SERUM",
+    "price": 1350
+  },
+  {
+    "Test Name": "COMPLEMENT C3, SERUM",
+    "price": 735
+  },
+  {
+    "Test Name": "COMPLEMENT C4, SERUM",
+    "price": 730
+  },
+  {
+    "Test Name": "COMPLETE BLOOD COUNT (CBC), BLOOD",
+    "price": 290
+  },
+  {
+    "Test Name": "COMPLETE HAEMOGRAM WITH PS",
+    "price": 310
+  },
+  {
+    "Test Name": "Complete Haemogram with PS (Complete Blood Count, ESR, PBS)",
+    "price": 310
+  },
+  {
+    "Test Name": "COOMBS DIRECT (DCT), BLOOD",
+    "price": 370
+  },
+  {
+    "Test Name": "COOMBS INDIRECT (ICT), SERUM",
+    "price": 490
+  },
+  {
+    "Test Name": "COPPER, 24 HRS URINE",
+    "price": 1810
+  },
+  {
+    "Test Name": "COPPER, SERUM",
+    "price": 1810
+  },
+  {
+    "Test Name": "COPPER, URINE SPOT",
+    "price": 1810
+  },
+  {
+    "Test Name": "CORD BLOOD KARYOTYPING",
+    "price": 6860
+  },
+  {
+    "Test Name": "CORTISOL EVENING, SERUM",
+    "price": 495
+  },
+  {
+    "Test Name": "CORTISOL MIDNIGHT, SERUM",
+    "price": 495
+  },
+  {
+    "Test Name": "CORTISOL MORNING, SERUM",
+    "price": 495
+  },
+  {
+    "Test Name": "C-PEPTIDE, SERUM",
+    "price": 1100
+  },
+  {
+    "Test Name": "CPK MM FRACTION, SERUM",
+    "price": 9210
+  },
+  {
+    "Test Name": "CPK, BB FRACTION, SERUM",
+    "price": 9210
+  },
+  {
+    "Test Name": "CPK, ISOENZYMES, SERUM",
+    "price": 9210
+  },
+  {
+    "Test Name": "CPK, MB FRACTION (MASS), SERUM",
+    "price": 610
+  },
+  {
+    "Test Name": "*C-REACTIVE PROTEIN (QUALITATIVE), SERUM",
+    "price": 350
+  },
+  {
+    "Test Name": "C-REACTIVE PROTEIN (QUANTITATIVE), SERUM",
+    "price": 450
+  },
+  {
+    "Test Name": "CREATINE KINASE (CK- NAC), SERUM",
+    "price": 270
+  },
+  {
+    "Test Name": "CREATINE PHOSPHOKINASE-MB,SERUM",
+    "price": 390
+  },
+  {
+    "Test Name": "CREATININE CLEARANCE, SERUM & URINE",
+    "price": 320
+  },
+  {
+    "Test Name": "CREATININE, 24 HRS URINE",
+    "price": 210
+  },
+  {
+    "Test Name": "CREATININE, RANDOM URINE",
+    "price": 220
+  },
+  {
+    "Test Name": "CREATININE, SERUM",
+    "price": 130
+  },
+  {
+    "Test Name": "CRYOGLOBULIN-QUALITATIVE",
+    "price": 900
+  },
+  {
+    "Test Name": "CRYPTOCOCCAL ANTIGEN, CSF",
+    "price": 2200
+  },
+  {
+    "Test Name": "CRYPTOCOCCAL ANTIGEN, SERUM",
+    "price": 1550
+  },
+  {
+    "Test Name": "CRYPTOCOCCUS ANTIGEN DETECTION, CSF",
+    "price": 1900
+  },
+  {
+    "Test Name": "CRYPTOCOCCUS ANTIGEN DETECTION, SERUM",
+    "price": 1900
+  },
+  {
+    "Test Name": "CRYPTOCOCCUS ANTIGEN DETECTION, STOOL",
+    "price": 1840
+  },
+  {
+    "Test Name": "CULTURE - AFB, MGIT (3 - SAMPLES)",
+    "price": 1290
+  },
+  {
+    "Test Name": "CULTURE AEROBIC & SUSCEPTIBILITY, CSF",
+    "price": 490
+  },
+  {
+    "Test Name": "CULTURE AEROBIC & SUSCEPTIBILITY, SPUTUM",
+    "price": 490
+  },
+  {
+    "Test Name": "CULTURE,  AEROBIC & SUSCEPTIBILITY, STOOL",
+    "price": 490
+  },
+  {
+    "Test Name": "CULTURE, AEROBIC & SUSCEPTIBILITY, MISCELLANEOUS",
+    "price": 490
+  },
+  {
+    "Test Name": "CULTURE, AEROBIC & SUSCEPTIBILITY,THROAT SWAB",
+    "price": 490
+  },
+  {
+    "Test Name": "CULTURE, AEROBIC & SUSCEPTIBILITY,VAGINAL SWAB",
+    "price": 490
+  },
+  {
+    "Test Name": "CULTURE, WATER, PRESUMPTIVE COLIFORM COUNT",
+    "price": 490
+  },
+  {
+    "Test Name": "CYSTATIN C",
+    "price": 1190
+  },
+  {
+    "Test Name": "CYSTICERCUS IGG ANTIBODIES, CSF",
+    "price": 1530
+  },
+  {
+    "Test Name": "CYSTICERCUS IGG ANTIBODIES, SERUM",
+    "price": 1430
+  },
+  {
+    "Test Name": "CYTOLOGY SECCOND OPINION SERVICES",
+    "price": 960
+  },
+  {
+    "Test Name": "CYTOMEGALOVIRUS IGM, SERUM",
+    "price": 580
+  },
+  {
+    "Test Name": "CYTOPLASMIC CD79A",
+    "price": 2100
+  },
+  {
+    "Test Name": "D-DIMER; SEMI QUANTITATIVE",
+    "price": 1140
+  },
+  {
+    "Test Name": "DEHYDROEPIANDROSTERONE (DHEA)",
+    "price": 2390
+  },
+  {
+    "Test Name": "DELETION 11Q ATM (CLL)",
+    "price": 6380
+  },
+  {
+    "Test Name": "DELETION 13Q MULTIPLE MYELOMA, CLL",
+    "price": 6380
+  },
+  {
+    "Test Name": "DELETION 17P, P53 (M MYELOMA, CLL) LEUKEMIC FISH",
+    "price": 6380
+  },
+  {
+    "Test Name": "DENGUE (RNA DETECTION) QUALITATIVE",
+    "price": 5240
+  },
+  {
+    "Test Name": "DENGUE COMBO SCREEN (NS1 ANTIGEN, IGM, IGG ANTIBODY), RAPID, SERUM",
+    "price": 1100
+  },
+  {
+    "Test Name": "DENGUE COMBO SCREEN, RAPID, SERUM",
+    "price": 1100
+  },
+  {
+    "Test Name": "DENGUE EARLY ANTIGEN (NS1 ANTIGEN), SERUM",
+    "price": 990
+  },
+  {
+    "Test Name": "DENGUE FEVER PROFILE, EIA, SERUM (DENGUE NS1 AG EIA, DENGUE IGM AB EIA, DENGUE IGG\nAB, EIA)",
+    "price": 2500
+  },
+  {
+    "Test Name": "DENGUE IGG ANTIBODIES, SERUM",
+    "price": 950
+  },
+  {
+    "Test Name": "DENGUE IGM ANTIBODIES, SERUM",
+    "price": 935
+  },
+  {
+    "Test Name": "DHEA-SULPHATE, SERUM",
+    "price": 950
+  },
+  {
+    "Test Name": "DHT- DI HYDRO TESTOSTERONE",
+    "price": 2190
+  },
+  {
+    "Test Name": "Diabeta  Screen  (Glucose Fasting & PP, HbA1c )",
+    "price": 400
+  },
+  {
+    "Test Name": "DIABETES COMPREHENSIVE CHECK (CBC, FASTING BLOOD SUGAR, CHOLESTEROL TOTAL,\nTRIGLYCERIDE, CREATININE, SODIUM, POTASSIUM, CHLORIDE, URINE R/M, INSULIN-F, MICROALBUMIN RANDOM URINE, C PEPTIDE, HBA1C)",
+    "price": 2600
+  },
+  {
+    "Test Name": "DIABETES MONITORING BASIC  - (FASTING BLOOD SUGAR, PP BLOOD SUGAR, HBA1C,\nCHOLESTEROL TOTAL, TRIGLYCERIDE, UREA, CREATININE)",
+    "price": 790
+  },
+  {
+    "Test Name": "DIABETES MONITORING PANEL  1 - (FASTING BLOOD SUGAR, PP BLOOD SUGAR, HBA1C, BUN, URIC ACID, MICROALBUMIN RANDOM URINE,CREATININE CHOLESTEROL TOTAL, CHOLESTEROL HDL DIRECT, CHOLESTEROL LDL DIRECT, TRIGLYCERIDE, URINE R/M)",
+    "price": 1400
+  },
+  {
+    "Test Name": "DIABETES MONITORING PANEL  2 - (FASTING BLOOD SUGAR, PP BLOOD SUGAR, HBA1C, CREATININE, URIC ACID, INSULIN FASTING, MICROALBUMIN RANDOM URINE, CHOLESTEROL TOTAL, CHOLESTEROL HDL DIRECT, CHOLESTEROL LDL DIRECT, TRIGLYCERIDE, URINE R/M)",
+    "price": 1900
+  },
+  {
+    "Test Name": "DIABETES PANEL BASIC (GLUCOSE FASTING, HBA1C)",
+    "price": 390
+  },
+  {
+    "Test Name": "DIABETES SCREEN (FASTING BLOOD SUGAR, PP BLOOD SUGAR, URINE SUGAR FASTING, URINE\nSUGAR PP)",
+    "price": 200
+  },
+  {
+    "Test Name": "Diarrohea Check : ( CBC, Stool R/M,  SODIUM, POTASSIUM, CHLORIDE,)",
+    "price": 650
+  },
+  {
+    "Test Name": "Diarrohea Microbe Confirm  : (CBC, Stool R/M, Stool culture  SGPT, SGOT)",
+    "price": 900
+  },
+  {
+    "Test Name": "DIARROHEA PROFILE 2 (STOOL R/M, SGPT, SGOT, TLC, DLC, STOOL CULTURE, CREATININE,\nSODIUM, POTASSIUM, CHLORIDE)",
+    "price": 940
+  },
+  {
+    "Test Name": "DIFFERENTIAL LEUKOCYTE COUNT, BLOOD",
+    "price": 145
+  },
+  {
+    "Test Name": "DIGOXIN (LANOXIN)",
+    "price": 860
+  },
+  {
+    "Test Name": "DOUBLE MARKER TEST, SERUM(PAPP-A & FREE B-HCG)",
+    "price": 1900
+  },
+  {
+    "Test Name": "DRUG OF ABUSE, 5 DRUGS - Qualitative(AMPHETAMINES, COCAINE, MARIJUANA, OPIATES\n(2000), PHENCYCLIDINE, URINE CREATININE)",
+    "price": 2500
+  },
+  {
+    "Test Name": "DRUG, CARBAMAZEPINE, SERUM",
+    "price": 810
+  },
+  {
+    "Test Name": "DRUG, SIROLIMUS (RAPAMYCIN), BLOOD",
+    "price": 4760
+  },
+  {
+    "Test Name": "DRUG, TACROLIMUS (FK-506), BLOOD (CMIA)",
+    "price": 3430
+  },
+  {
+    "Test Name": "DRUG, TACROLIMUS (FK-506), BLOOD (LCMS)",
+    "price": 3430
+  },
+  {
+    "Test Name": "DRUGS OF ABUSE PANEL-6 DRUG PANEL, QUANTITATIVE",
+    "price": 2570
+  },
+  {
+    "Test Name": "DRUGS OF ABUSE PANEL-9 DRUG PANEL, QUANTITATIVE",
+    "price": 3610
+  },
+  {
+    "Test Name": "DUCHENNE MUSCULAR DYSTROPHY (DMD)-PCR",
+    "price": 21250
+  },
+  {
+    "Test Name": "DUCHENNE MUSCULAR DYSTROPHY (DMD)-PCR (MLPA)",
+    "price": 21250
+  },
+  {
+    "Test Name": "ECHINOCOCCUS DETECTION",
+    "price": 670
+  },
+  {
+    "Test Name": "ELECTROLYTES (SODIUM,POTASSIUM,CHLORIDE), URINE",
+    "price": 390
+  },
+  {
+    "Test Name": "ELECTROLYTES , SERUM",
+    "price": 390
+  },
+  {
+    "Test Name": "ELECTROLYTES(SODIUM,POTASSIUM,CHLORIDE),24HR URINE",
+    "price": 390
+  },
+  {
+    "Test Name": "ENA PROFILE",
+    "price": 4290
+  },
+  {
+    "Test Name": "ENA SCREEN, SERUM",
+    "price": 1330
+  },
+  {
+    "Test Name": "ENDOMYSIAL ANTIBODY IGA, SERUM",
+    "price": 2000
+  },
+  {
+    "Test Name": "ENTAMOEBA HISTOLYTICA ANTIGEN, EIA",
+    "price": 3830
+  },
+  {
+    "Test Name": "ENTAMOEBA HISTOLYTICA IGG ANTIBODIES, SERUM",
+    "price": 1240
+  },
+  {
+    "Test Name": "ENTEROFEVER CHECK  PEDIATRIC, BLOOD (BLOOD CULTURE AEROBIC-BACTEC PEDIATRIC,\nTYPHOID IGM)",
+    "price": 1320
+  },
+  {
+    "Test Name": "ENTEROFEVER CHECK, BLOOD (BLOOD CULTURE AEROBIC-BACTEC TYPHOID IGM)",
+    "price": 1320
+  },
+  {
+    "Test Name": "ENVIORMENTAL MONITORING - 01 SWABS",
+    "price": 600
+  },
+  {
+    "Test Name": "ENVIORMENTAL MONITORING - 05 SWABS",
+    "price": 1200
+  },
+  {
+    "Test Name": "ENVIORMENTAL MONITORING - 10 SWABS",
+    "price": 2000
+  },
+  {
+    "Test Name": "EPSTEIN BARR VIRUS EARLY ANTIGEN IGG ANTIBODIES",
+    "price": 1710
+  },
+  {
+    "Test Name": "EPSTEIN BARR VIRUS NUCLEAR ANTIGEN IGG ANTIBODIES",
+    "price": 1710
+  },
+  {
+    "Test Name": "EPSTEIN BARR VIRUS NUCLEAR ANTIGEN IGM ANTIBODIES",
+    "price": 1710
+  },
+  {
+    "Test Name": "EPSTEIN BARR VIRUS VIRAL CAPSID ANTIGEN IGG",
+    "price": 1710
+  },
+  {
+    "Test Name": "EPSTEIN BARR VIRUS VIRAL CAPSID ANTIGEN IGM",
+    "price": 1530
+  },
+  {
+    "Test Name": "EPSTEIN-BARR  VIRUS (EBV) DNA PCR",
+    "price": 5530
+  },
+  {
+    "Test Name": "ERYTHROCYTE SEDIMENTATION RATE, BLOOD",
+    "price": 100
+  },
+  {
+    "Test Name": "ERYTHROPOIETIN-EPO",
+    "price": 1900
+  },
+  {
+    "Test Name": "ESTRADIOL (E2) , SERUM",
+    "price": 500
+  },
+  {
+    "Test Name": "ESTRIOL UNCONJUGATED (E3), SERUM",
+    "price": 990
+  },
+  {
+    "Test Name": "EVEROLIMUS",
+    "price": 4670
+  },
+  {
+    "Test Name": "FACTOR II (PROTHROMBIN) MUTATION DETECTION",
+    "price": 7090
+  },
+  {
+    "Test Name": "FACTOR IX ACTIVITY",
+    "price": 2840
+  },
+  {
+    "Test Name": "FACTOR V LEIDEN MUTATION ANALYSIS, BLOOD BY RT PCR",
+    "price": 6940
+  },
+  {
+    "Test Name": "FACTOR VIII ACTIVITY",
+    "price": 3110
+  },
+  {
+    "Test Name": "FACTOR XA ANTIBODY, CITRATE BLOOD",
+    "price": 7090
+  },
+  {
+    "Test Name": "FACTOR XIII  ACTIVITY, CITRATED PLASMA",
+    "price": 1840
+  },
+  {
+    "Test Name": "FATIGUE PANEL (CBC, ESR, RANDOM BLOOD SUGAR, CREATININE, CALCIUM, MAGNESIUM, SODIUM, POTASSIUM, CHLORIDE, SGPT, TSH, FOLIC ACID, URINE R/M)",
+    "price": 1800
+  },
+  {
+    "Test Name": "FECAL  CALPROTECTIN",
+    "price": 2470
+  },
+  {
+    "Test Name": "FERRITIN, SERUM",
+    "price": 690
+  },
+  {
+    "Test Name": "FERTILITY PLUS (FSH, LH PROLACTIN, ESTRADIOL, PROGESTERONE, AMH, TSH)",
+    "price": 2400
+  },
+  {
+    "Test Name": "Fever Panel-1 (CBC, WIDAL ESR, Malaria Parasite Smear,URINE R/M,SGPT &SGOT)",
+    "price": 550
+  },
+  {
+    "Test Name": "Fever Panel-2 (CBC, WIDAL ESR, Malaria Parasite Smear,URINE R/M,SGPT &SGOT  , Urine C/S)",
+    "price": 1300
+  },
+  {
+    "Test Name": "Fever Panel-3 (CBC, WIDAL ESR, Malaria Parasite Smear,URINE R/M, SGPT, SGOT  , Urine C/S.\nBlood Culture",
+    "price": 3000
+  },
+  {
+    "Test Name": "FEVER SCREENING PANEL, BLOOD & URINE (CBC, ESR, WIDAL, URINE R/M, SGPT, BLOOD\nCULTURE AEROBIC, MALARIA AG, TYPHOID IGM, CRP)",
+    "price": 1900
+  },
+  {
+    "Test Name": "FEVER SCREENING PANEL, PEDIATRIC, BLOOD & URINE (CBC, ESR, WIDAL, URINE R/M, SGPT, BLOOD CULTURE AEROBIC PEDIATRIC, MALARIA AG, TYPHOID IGM, CRP)",
+    "price": 1900
+  },
+  {
+    "Test Name": "FIBRINOGEN DEGRADATION PRODUCT (FDP)",
+    "price": 1040
+  },
+  {
+    "Test Name": "FIBRINOGEN,",
+    "price": 860
+  },
+  {
+    "Test Name": "FISH FOR BCR-ABL",
+    "price": 3710
+  },
+  {
+    "Test Name": "FISH FOR CLL (PANEL)",
+    "price": 13330
+  },
+  {
+    "Test Name": "FISH FOR  PML-RARA",
+    "price": 6940
+  },
+  {
+    "Test Name": "FISH LSI-1P&19Q CODELETION FOR OLIGODENDROGLIOMAS",
+    "price": 17710
+  },
+  {
+    "Test Name": "FISH, ETO/AML1",
+    "price": 5530
+  },
+  {
+    "Test Name": "FLT3 MUTATION DETECTION",
+    "price": 7790
+  },
+  {
+    "Test Name": "FLUID ROUTINE EXAMINATION, MISCELLANEOUS",
+    "price": 350
+  },
+  {
+    "Test Name": "FNAC (FINE NEEDLE ASPIRATION CYTOPATHOLOGY)",
+    "price": 700
+  },
+  {
+    "Test Name": "FOLATE, SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "FOLLICLE STIMULATING HORMONE, SERUM",
+    "price": 390
+  },
+  {
+    "Test Name": "FRAGILE X CHROMOSOME",
+    "price": 14290
+  },
+  {
+    "Test Name": "Free Androgen index -SHBG ,Total TESTOSTERONE",
+    "price": 2000
+  },
+  {
+    "Test Name": "FREE THYROXINE(FT4), SERUM",
+    "price": 390
+  },
+  {
+    "Test Name": "FREE TRI-IODOTHYRONINE(FT3), SERUM",
+    "price": 390
+  },
+  {
+    "Test Name": "FRUCTOSAMINE",
+    "price": 860
+  },
+  {
+    "Test Name": "FT4 & TSH (ULTRASENSITIVE), SERUM",
+    "price": 460
+  },
+  {
+    "Test Name": "FT4 & TSH, SERUM",
+    "price": 460
+  },
+  {
+    "Test Name": "FUNGAL CULTURE & STAIN (OTHER THAN BLOOD)",
+    "price": 1100
+  },
+  {
+    "Test Name": "FUNGAL CULTURE-BACTEC (BLOOD/BODY FLUID)",
+    "price": 1100
+  },
+  {
+    "Test Name": "FUNGAL DRUG SUSCEPTIBILITY -  (6 DRUGS)  (FOR YEASTS)",
+    "price": 1500
+  },
+  {
+    "Test Name": "FUNGAL SMEAR EXAMINATION",
+    "price": 180
+  },
+  {
+    "Test Name": "G-6-PD ACTIVITY QUALITATIVE, BLOOD",
+    "price": 700
+  },
+  {
+    "Test Name": "GAD ANTIBODY",
+    "price": 4860
+  },
+  {
+    "Test Name": "GALACTOMANNAN ASPERGILLUS ANTIGEN TEST",
+    "price": 7230
+  },
+  {
+    "Test Name": "GALACTOSEMIA CLASSICAL (TRANSFERASE), QUANTITATIVE",
+    "price": 2980
+  },
+  {
+    "Test Name": "GAMMA GLUTAMYL TRANSFERASE(GGT), SERUM",
+    "price": 250
+  },
+  {
+    "Test Name": "GASTRIN, SERUM",
+    "price": 1290
+  },
+  {
+    "Test Name": "GENEXPERT MTB/RIF",
+    "price": 3110
+  },
+  {
+    "Test Name": "GLIADIN ANTIBODY (IGA)",
+    "price": 1810
+  },
+  {
+    "Test Name": "GLIADIN ANTIBODY (IGG)",
+    "price": 1810
+  },
+  {
+    "Test Name": "GLOMERULAR BASEMENT MEMBRANE ANTIBODIES, SERUM",
+    "price": 1470
+  },
+  {
+    "Test Name": "GLOMERULAR FILTRATION RATE (EGFR)",
+    "price": 245
+  },
+  {
+    "Test Name": "GLUCOSE ( 2 HRS AFTER 75 G GLUCOSE), PLASMA",
+    "price": 140
+  },
+  {
+    "Test Name": "GLUCOSE (FASTING & PP), PLASMA",
+    "price": 160
+  },
+  {
+    "Test Name": "GLUCOSE (FASTING & PP), PLASMA",
+    "price": 160
+  },
+  {
+    "Test Name": "GLUCOSE CHALLENGE TEST(GCT),PLASMA",
+    "price": 180
+  },
+  {
+    "Test Name": "GLUCOSE FASTING, PLASMA",
+    "price": 80
+  },
+  {
+    "Test Name": "GLUCOSE POST-PRANDIAL, PLASMA",
+    "price": 80
+  },
+  {
+    "Test Name": "GLUCOSE RANDOM, PLASMA",
+    "price": 80
+  },
+  {
+    "Test Name": "GLUCOSE TOLERANCE TEST (5 SAMPLES)",
+    "price": 440
+  },
+  {
+    "Test Name": "GLUTAMIC ACID DECARBOXYLASE (GAD 65) ANTIBODY, SERUM",
+    "price": 6190
+  },
+  {
+    "Test Name": "GLYCOPHORIN A (ERYTHROID)",
+    "price": 2100
+  },
+  {
+    "Test Name": "GONOCOCCAL SMEAR EXAMINATION",
+    "price": 180
+  },
+  {
+    "Test Name": "GRAM STAIN",
+    "price": 210
+  },
+  {
+    "Test Name": "GROWTH HORMONE STIMULATION TEST",
+    "price": 2860
+  },
+  {
+    "Test Name": "GROWTH HORMONE, SERUM",
+    "price": 710
+  },
+  {
+    "Test Name": "GTT-2, GLUCOSE TOLERANCE TEST (MODIFIED GTT), WITH 75 GM GLUCOSE, PLASMA",
+    "price": 210
+  },
+  {
+    "Test Name": "GTT-2,GLUCOSE TOLERANCE TEST(MODIFIED GTT)",
+    "price": 210
+  },
+  {
+    "Test Name": "GTT-3, GLUCOSE TOLERANCE TEST, WITH 75 G GLUCOSE (FASTING AND 2 SAMPLES- 1 & 2 -\nHRS.AFTER GLUCOSE, PLASMA AND URINE",
+    "price": 240
+  },
+  {
+    "Test Name": "GTT-3,GLUCOSE TOLERANCE TEST, PLASMA & URINE",
+    "price": 240
+  },
+  {
+    "Test Name": "GTT-4, OBSTETRICAL GLUCOSE TOLERANCE TEST, WITH 100 GM GLUCOSE, PLASMA",
+    "price": 290
+  },
+  {
+    "Test Name": "GTT-5, GLUCOSE TOLERANCE TEST, WITH 75 GM GLUCOSE (FASTING AND  4 SAMPLES- 0.5,\n1,1.5,2 -HRS.AFTER GLUCOSE, PLASMA AND URINE",
+    "price": 440
+  },
+  {
+    "Test Name": "HAEMOGRAM",
+    "price": 340
+  },
+  {
+    "Test Name": "HAINS TEST MDR TB",
+    "price": 2550
+  },
+  {
+    "Test Name": "HAINS TEST XDR TB",
+    "price": 4760
+  },
+  {
+    "Test Name": "HAM TEST (ACIDIFIED SERUM LYSIS TEST)",
+    "price": 1140
+  },
+  {
+    "Test Name": "HAPTOGLOBIN, SERUM",
+    "price": 1900
+  },
+  {
+    "Test Name": "HAV IGM (HEPATITIS A VIRUS, IGM), SERUM",
+    "price": 975
+  },
+  {
+    "Test Name": "HB & HCT (HEMOGLOBIN  & HEMATOCRIT), BLOOD",
+    "price": 180
+  },
+  {
+    "Test Name": "HB, TLC, DLC, ESR",
+    "price": 230
+  },
+  {
+    "Test Name": "HB.TC.DC",
+    "price": 220
+  },
+  {
+    "Test Name": "HBA1C (GLYCOSYLATED HEMOGLOBIN), BLOOD",
+    "price": 450
+  },
+  {
+    "Test Name": "HBSAG (HEPATITIS B SURFACE ANTIGEN) , SERUM",
+    "price": 390
+  },
+  {
+    "Test Name": "HBV - GENOTYPE & DRUG RESISTANCE TEST",
+    "price": 7140
+  },
+  {
+    "Test Name": "HBV DETECTION (QUALITATIVE)",
+    "price": 3900
+  },
+  {
+    "Test Name": "HBV VIRAL LOAD DETECTION (QUANTIFICATION) TEST",
+    "price": 4800
+  },
+  {
+    "Test Name": "HCV (QUALITATIVE) DETECTION TEST",
+    "price": 4000
+  },
+  {
+    "Test Name": "HCV GENOTYPING",
+    "price": 9900
+  },
+  {
+    "Test Name": "HCV VIRAL LOAD (QUANTITATIVE) ASSAY",
+    "price": 4800
+  },
+  {
+    "Test Name": "HDV SCREEN",
+    "price": 1810
+  },
+  {
+    "Test Name": "HE4 WITH ROMA INDEX",
+    "price": 2390
+  },
+  {
+    "Test Name": "HEALTH KUNDLI FOR BRIDE & GROOM (BLOOD GROUP, RPR (VDRL), HBSAG, HIV 1&2, HB\nHPLC) - FOR 1 PERSON ONLY",
+    "price": 1800
+  },
+  {
+    "Test Name": "HEALTH WELLNESS PROFILE (CBC, ESR HBA1C, BSF, KFT, LFT, LIPID PROFILE, IRON PROFILE, TFT,\nMALB/CREAT RATIO, URINE R/M)",
+    "price": 1100
+  },
+  {
+    "Test Name": "HELICOBACTER  PYLORI  IGA ANTIBODIES",
+    "price": 1760
+  },
+  {
+    "Test Name": "HELICOBACTER  PYLORI  IGG ANTIBODIES",
+    "price": 1760
+  },
+  {
+    "Test Name": "HELICOBACTER PYLORI ANTIBODY, IGM, SERUM",
+    "price": 1760
+  },
+  {
+    "Test Name": "HEMATOCRIT, BLOOD",
+    "price": 130
+  },
+  {
+    "Test Name": "HEMATOLOGIC DISORDER KARYOTYPING(CML,AML,APML,ALL)",
+    "price": 6860
+  },
+  {
+    "Test Name": "HEMOGLOBIN, BLOOD",
+    "price": 90
+  },
+  {
+    "Test Name": "HEPATITIS  B VIRUS EVALUATION  (HBsAg, HBsAb, HBeAb, HBeAg, HBc TOTAL, HBc IgM)",
+    "price": 5000
+  },
+  {
+    "Test Name": "HEPATITIS  VIRUS, COMPREHENSIVE PROFILE (HAV IGM, HAV IGG, HBSAG, HBSAB, HBEAB,\nHBEAG, HBC TOTAL, HBC IGM, HCV AB, HEV IGG, HEV IGM)",
+    "price": 8800
+  },
+  {
+    "Test Name": "HEPATITIS A & B VIRUS EVALUATION  (HAV IGM, HAV IGG, HBSAG, HBSAB, HBEAB, HBEAG,\nHBC TOTAL, HBC IGM)",
+    "price": 6490
+  },
+  {
+    "Test Name": "HEPATITIS A VIRUS IGG (HAV IGG), SERUM",
+    "price": 1090
+  },
+  {
+    "Test Name": "HEPATITIS ACUTE VIRUS CONFIRMATION (HAV IGM,  HBSAG, HBEAB, HBEAG, HBC IGM, HCV\nAB, HEV IGM)",
+    "price": 5500
+  },
+  {
+    "Test Name": "HEPATITIS B CORE IGM ANTIBODY, SERUM",
+    "price": 990
+  },
+  {
+    "Test Name": "HEPATITIS B CORE TOTAL ANTIBODY,SERUM",
+    "price": 950
+  },
+  {
+    "Test Name": "HEPATITIS B ENVELOPE ANTIBODY (HBEAB), SERUM",
+    "price": 800
+  },
+  {
+    "Test Name": "HEPATITIS B ENVELOPE ANTIGEN (HBEAG), SERUM",
+    "price": 800
+  },
+  {
+    "Test Name": "HEPATITIS B FOLLOW-UP PROFILE (HBSAG, HBSAB)",
+    "price": 950
+  },
+  {
+    "Test Name": "HEPATITIS B SURFACE ANTIBODY (QUANTITATIVE), SERUM",
+    "price": 800
+  },
+  {
+    "Test Name": "*HEPATITIS B SURFACE ANTIGEN (CARD TEST)",
+    "price": 300
+  },
+  {
+    "Test Name": "HEPATITIS B SURFACE ANTIGEN, CONFIRMATION, SERUM",
+    "price": 1300
+  },
+  {
+    "Test Name": "HEPATITIS B VIRUS GENOTYPING",
+    "price": 14160
+  },
+  {
+    "Test Name": "*HEPATITIS C ANTIBODIES (CARD TEST)",
+    "price": 675
+  },
+  {
+    "Test Name": "HEPATITIS C ANTIBODY (ANTI HCV), SERUM",
+    "price": 825
+  },
+  {
+    "Test Name": "HEPATITIS C ANTIBODY (ANTI HCV), SERUM",
+    "price": 825
+  },
+  {
+    "Test Name": "HEPATITIS DELTA VIRUS (HDV) HDV-IGM",
+    "price": 6800
+  },
+  {
+    "Test Name": "HEPATITIS E VIRUS IGG ANTIBODY, SERUM",
+    "price": 1320
+  },
+  {
+    "Test Name": "HEPATITIS E VIRUS IGM, SERUM",
+    "price": 1350
+  },
+  {
+    "Test Name": "HEPATITIS SCREENING PANEL (CBC, SGOT, SGPT, BILIRUBIN TOTAL, DIRECT, INDIRECT, HBSAG,\nHAV IGM, HCV AB, HEV IGM)",
+    "price": 2000
+  },
+  {
+    "Test Name": "HER-2 NEU, FISH",
+    "price": 9530
+  },
+  {
+    "Test Name": "HERPES SIMPLEX 1+2 VIRUS (HSV), ANTIBODIES PANEL (HSV 1+2 IGG &IGM)",
+    "price": 750
+  },
+  {
+    "Test Name": "HERPES SIMPLEX VIRUS 1 IGG, SERUM",
+    "price": 600
+  },
+  {
+    "Test Name": "HERPES SIMPLEX VIRUS 1 IGM, SERUM",
+    "price": 600
+  },
+  {
+    "Test Name": "HERPES SIMPLEX VIRUS 1+2 IGG, SERUM",
+    "price": 550
+  },
+  {
+    "Test Name": "HERPES SIMPLEX VIRUS 1+2 IGM, SERUM",
+    "price": 550
+  },
+  {
+    "Test Name": "HERPES SIMPLEX VIRUS 2 IGG, SERUM",
+    "price": 600
+  },
+  {
+    "Test Name": "HERPES SIMPLEX VIRUS 2 IGM, SERUM",
+    "price": 600
+  },
+  {
+    "Test Name": "HIGH RISK HPV DNA DETECTION TEST",
+    "price": 2240
+  },
+  {
+    "Test Name": "HIGH SENSITIVE C-REACTIVE PROTEIN(HS_CRP), SERUM",
+    "price": 770
+  },
+  {
+    "Test Name": "HIRSUTISM EVALUATION PANEL (DHEAS, TESTOSTERONE TOTAL, TESTOSTERONE FREE, SHBG,\nLH, FSH, 17 ALPHA OHP) (ONLY FOR FEMALES)",
+    "price": 4840
+  },
+  {
+    "Test Name": "HIRSUTISM SCREEN (DHEAS, TESTOSTERONE TOTAL, TESTOSTERONE FREE) (ONLY FOR\nFEMALES)",
+    "price": 2800
+  },
+  {
+    "Test Name": "HISTAMINE, PLASMA",
+    "price": 8500
+  },
+  {
+    "Test Name": "HISTOPATHOLOGY, LARGE  SPECIMEN*",
+    "price": 1430
+  },
+  {
+    "Test Name": "HISTOPATHOLOGY, MEDIUM SPECIMEN*",
+    "price": 770
+  },
+  {
+    "Test Name": "HISTOPATHOLOGY, SMALL SPECIMEN*",
+    "price": 340
+  },
+  {
+    "Test Name": "HIV 1 RNA, DETECTION, QUALITATIVE",
+    "price": 2860
+  },
+  {
+    "Test Name": "*HIV DETECTION (CARD TEST)",
+    "price": 350
+  },
+  {
+    "Test Name": "HIV DETECTION (QUALITATIVE) TEST",
+    "price": 3430
+  },
+  {
+    "Test Name": "HIV I & II (HUMAN IMMUNODEFICIENCY VIRUS), ANTIBODIES SERUM",
+    "price": 430
+  },
+  {
+    "Test Name": "HIV MONITOR (HIV VIRAL LOAD, CD4 ABSOLUTE, CD8 ABSOLUTE)",
+    "price": 7150
+  },
+  {
+    "Test Name": "HIV WESTERN BLOT ASSAY, SERUM",
+    "price": 3190
+  },
+  {
+    "Test Name": "HIV-1 DRUG RESISTANCE",
+    "price": 13240
+  },
+  {
+    "Test Name": "HIV-2 RNA DETECTION BY REAL TIME PCR",
+    "price": 3610
+  },
+  {
+    "Test Name": "HLA B27 DETECTION, PCR",
+    "price": 2960
+  },
+  {
+    "Test Name": "HLA B27, BLOOD",
+    "price": 1900
+  },
+  {
+    "Test Name": "HOMOCYSTEINE, SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "HOMOGENTISIC ACID ALKAPTONURIA",
+    "price": 710
+  },
+  {
+    "Test Name": "HSV TYPE 1 AND 2 DETECTION TEST",
+    "price": 3810
+  },
+  {
+    "Test Name": "HTLV I & II  ANTIBODIES",
+    "price": 4190
+  },
+  {
+    "Test Name": "HYDATID SEROLOGY (ECHINOCOCCUS, IGG)",
+    "price": 1470
+  },
+  {
+    "Test Name": "HYPERTENSION PANEL (UREA, CREATININE, FASTING BLOOD SUGAR, SODIUM, POTASSIUM,\nCHLORIDE, LIPID PROFILE)",
+    "price": 1300
+  },
+  {
+    "Test Name": "IGD HEAVY CHAIN (FLOW CYTOMETRY)",
+    "price": 4250
+  },
+  {
+    "Test Name": "IGF BINDING PROTEIN-3",
+    "price": 3040
+  },
+  {
+    "Test Name": "IMMUNOFIXATION ELECTROPHORESIS, SERUM",
+    "price": 6760
+  },
+  {
+    "Test Name": "IMMUNOGLOBULIN A (IGA), SERUM",
+    "price": 450
+  },
+  {
+    "Test Name": "IMMUNOGLOBULIN G ( IGG ), SERUM",
+    "price": 440
+  },
+  {
+    "Test Name": "IMMUNOGLOBULIN M (IGM), SERUM",
+    "price": 440
+  },
+  {
+    "Test Name": "IMMUNOGLOBULIN PROFILE, SERUM\n(IMMUNOGLOBULIN IGG, IMMUNOGLOBULIN IGM, IMMUNOGLOBULIN IGA",
+    "price": 990
+  },
+  {
+    "Test Name": "INDIA INK STAIN",
+    "price": 220
+  },
+  {
+    "Test Name": "INFERTILITY PANEL FEMALE (LH, FSH, PROLACTIN, TSH, TESTOSTERONE, PROGESTERONE, E2)\n(ONLY FOR FEMALES)",
+    "price": 2530
+  },
+  {
+    "Test Name": "INFERTILITY PANEL, MALE (LH, FSH, PROLACTIN, TESTOSTERONE, SHBG) (ONLY FOR MALES)",
+    "price": 2400
+  },
+  {
+    "Test Name": "INFLUENZA VIRUS A IGG",
+    "price": 2410
+  },
+  {
+    "Test Name": "INFLUENZA VIRUS B IGG",
+    "price": 2410
+  },
+  {
+    "Test Name": "INHIBIN A, SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "INHIBIN B",
+    "price": 1810
+  },
+  {
+    "Test Name": "INSULIN FASTING, SERUM",
+    "price": 720
+  },
+  {
+    "Test Name": "INSULIN POST PRANDIAL, SERUM",
+    "price": 750
+  },
+  {
+    "Test Name": "INSULIN RANDOM, SERUM",
+    "price": 720
+  },
+  {
+    "Test Name": "INSULIN RESISTANCE (HOMA-IR)",
+    "price": 600
+  },
+  {
+    "Test Name": "INSULIN RESISTANCE (HOMA-IR) (FBS, INSULIN- FASTING)",
+    "price": 600
+  },
+  {
+    "Test Name": "INTRINSIC FACTOR ANTIBODY, SERUM",
+    "price": 2190
+  },
+  {
+    "Test Name": "IRON PROFILE(IRON,UIBC,TIBC, SATURATION %)",
+    "price": 450
+  },
+  {
+    "Test Name": "IRON, SERUM",
+    "price": 320
+  },
+  {
+    "Test Name": "ISLET CELL ANTIBODY SCREEN WITH REFLEX TO TITER",
+    "price": 2000
+  },
+  {
+    "Test Name": "JAK-2 MUTATION PANEL (EXON 12)",
+    "price": 5710
+  },
+  {
+    "Test Name": "JAK2 V617F MUTATION DETECTION",
+    "price": 5240
+  },
+  {
+    "Test Name": "JO-1 IGG ANTIBODIES",
+    "price": 1390
+  },
+  {
+    "Test Name": "JOINT PAIN PROFILE (CBC, CALCIUM, URIC ACID, ALKALINE PHOSPHATE, BUN, PHOSPHORUS)",
+    "price": 620
+  },
+  {
+    "Test Name": "KALA-AZAR",
+    "price": 2410
+  },
+  {
+    "Test Name": "KAPPA / LAMBDA LIGHT CHAINS, FREE, SERUM",
+    "price": 4860
+  },
+  {
+    "Test Name": "KIDNEY DIALYSIS PANEL (RANDOM BLOOD SUGAR, CREATININE, URIC ACID, CHOLESTEROL TOTAL, PROTEIN TOTAL, ALBUMIN, A:G RATIO, ALKALINE PHOSPHATASE, CALCIUM, PHOSPHORUS, SODIUM, POTASSIUM, CHLORIDE, BUN, CBC, URINE R/M)",
+    "price": 1450
+  },
+  {
+    "Test Name": "KIDNEY FUNCTION TEST, SERUM (URIC ACID, UREA, CREATININE, PROTEIN TOTAL, ALBUMIN, A:G RATIO, ALKALINE PHOSPHATASE, CALCIUM, PHOSPHORUS, SODIUM, POTASSIUM,\nCHLORIDE)",
+    "price": 700
+  },
+  {
+    "Test Name": "Kidney Screen Panel (Urea, Creatinine, Electrolytes)",
+    "price": 250
+  },
+  {
+    "Test Name": "KIDNEY STONE ANALYSIS",
+    "price": 1040
+  },
+  {
+    "Test Name": "KRAS MUTATION DETECTION",
+    "price": 5710
+  },
+  {
+    "Test Name": "LACTATE DEHYDROGENASE (LDH), FLUID",
+    "price": 320
+  },
+  {
+    "Test Name": "LACTATE DEHYDROGENASE(LDH), SERUM",
+    "price": 320
+  },
+  {
+    "Test Name": "LACTATE, PLASMA",
+    "price": 960
+  },
+  {
+    "Test Name": "LAMICTAL/LAMOTRIGINE,SERUM",
+    "price": 5810
+  },
+  {
+    "Test Name": "LAP (LEUCOCYTE ALKALINE PHOSPHATASE/NEUTROPHIL ALK",
+    "price": 1040
+  },
+  {
+    "Test Name": "LDH ISOENZYMES GEL ELECTROPHORESIS, SERUM",
+    "price": 3810
+  },
+  {
+    "Test Name": "LEAD, BLOOD",
+    "price": 1670
+  },
+  {
+    "Test Name": "LEAD, URINE",
+    "price": 1670
+  },
+  {
+    "Test Name": "LEISHMANIA ANTIBODY (KALAAZAR)",
+    "price": 1610
+  },
+  {
+    "Test Name": "LEISHMANIA DONOVANI BODIES DETECTION",
+    "price": 860
+  },
+  {
+    "Test Name": "*LEISHMANIAL ANTIBODY (KALAZAR)",
+    "price": 950
+  },
+  {
+    "Test Name": "LEPTIN",
+    "price": 5530
+  },
+  {
+    "Test Name": "LEPTOSPIRA ANTIBODY, IGG, SERUM",
+    "price": 1140
+  },
+  {
+    "Test Name": "LEPTOSPIRA ANTIBODY, IGM, SERUM",
+    "price": 1240
+  },
+  {
+    "Test Name": "LEVETIRACETAM",
+    "price": 7090
+  },
+  {
+    "Test Name": "LIPASE, SERUM",
+    "price": 600
+  },
+  {
+    "Test Name": "LIPID PROFILE CALCULATED, SERUM (CHOLESTEROL TOTAL, CHOLESTEROL-HDL-DIRECT,\nCHOLESTEROL-LDL-CALCULATED, TRIGLYCERIDE, VLDL-CALCULATED)",
+    "price": 600
+  },
+  {
+    "Test Name": "LIPID PROFILE COMPREHENSIVE, SERUM (CHOLESTEROL TOTAL, CHOLESTEROL-HDL-DIRECT, CHOLESTEROL-LDL-DIRECT, TRIGLYCERIDE, VLDL-CALCULATED, CHOL/HDL RATIO, APOLIPOPROTEIN A1, APOLIPOPROTEIN B, APO A1:B RATIO, LPA, HOMOCYSTEINE, URIC ACID,\nHSCRP)",
+    "price": 3900
+  },
+  {
+    "Test Name": "LIPID PROFILE DIRECT, SERUM (CHOLESTEROL TOTAL, CHOLESTEROL-HDL-DIRECT,\nCHOLESTEROL-LDL-DIRECT, TRIGLYCERIDE, VLDL-CALCULATED)",
+    "price": 720
+  },
+  {
+    "Test Name": "LIPID PROFILE EXTENDED, SERUM (CHOLESTEROL TOTAL, CHOLESTEROL-HDL-DIRECT, CHOLESTEROL-LDL-DIRECT, TRIGLYCERIDE, VLDL-CALCULATED, CHOL/HDL RATIO,\nAPOLIPOPROTEIN A1, APOLIPOPROTEIN B, APO A1:B RATIO, LPA)",
+    "price": 1980
+  },
+  {
+    "Test Name": "LIPID SCREEN, SERUM (CHOLESTEROL TOTAL, TRIGLYCERIDE)",
+    "price": 150
+  },
+  {
+    "Test Name": "LIPOPROTEIN A(LPA), SERUM",
+    "price": 940
+  },
+  {
+    "Test Name": "LITHIUM, SERUM",
+    "price": 430
+  },
+  {
+    "Test Name": "LIVER & KIDNEY PANEL (TOTAL BILIRUBIN, SGOT, SGPT, ALKALINE PHOSPHATASE, GGT, LDH, PROTEIN TOTAL, ALBUMIN, GLOBULIN, A:G RATIO, UREA CREATININE, URIC ACID, SODIUM,\nPOTASSIUM, CHLORIDE, CALCIUM, PHOSPHOROUS",
+    "price": 1200
+  },
+  {
+    "Test Name": "LIVER KIDNEY MICROSOME AUTOANTIBODIES",
+    "price": 1760
+  },
+  {
+    "Test Name": "LIVER PANEL EXTENDED (SGPT, SGOT, GGT, BILIRUBIN TOTAL, DIRECT, INDIRECT, PROTEIN TOTAL, ALBUMIN, A:G RATIO, ALKALINE PHOSPHATASE, PROTHROMBIN TIME, HBSAG)",
+    "price": 1100
+  },
+  {
+    "Test Name": "LIVER PROFILE, SERUM (ALKALINE PHOSPHATASE, BILIRUBIN (TOTAL, DIRECT, INDIRECT), LDH,\nALBUMIN, A:G RATIO, TOTAL PROTEIN, SGPT, SGOT, GGT)",
+    "price": 675
+  },
+  {
+    "Test Name": "Liver Screen Panel   (SGOT, ,ALP, Bilirubin , Total  Protien)",
+    "price": 200
+  },
+  {
+    "Test Name": "LPPLA2 (PLAC)",
+    "price": 2390
+  },
+  {
+    "Test Name": "LUPUS ANTICOAGULANT PROFILE- APTT, MIXING STUDIES, SCREENING (DRVVT),\nCONFIRMATION, PLASMA",
+    "price": 1810
+  },
+  {
+    "Test Name": "LUPUS ANTICOAGULANT SCREENING (DRVVT), PLASMA",
+    "price": 900
+  },
+  {
+    "Test Name": "LUTEINIZING HORMONE, SERUM",
+    "price": 385
+  },
+  {
+    "Test Name": "LYME DISEASE (BORRELIA BURGDORFERI) ANTIBODIES,IGM",
+    "price": 1610
+  },
+  {
+    "Test Name": "LYME DISEASE (BORRELIA BURGDORFERI)ANTIBODIES, IGG",
+    "price": 1610
+  },
+  {
+    "Test Name": "LYME DISEASE (BORRELIA BURGDORFERI)ANTIBODIES, IGG\nWESTERN BLOT",
+    "price": 5530
+  },
+  {
+    "Test Name": "LYME DISEASE (BORRELIA BURGDORFERI)ANTIBODIES, IGM\nWESTERN BLOT",
+    "price": 5530
+  },
+  {
+    "Test Name": "MAGNESIUM, 24 HRS URINE",
+    "price": 400
+  },
+  {
+    "Test Name": "MAGNESIUM, RANDOM URINE",
+    "price": 400
+  },
+  {
+    "Test Name": "MAGNESIUM, SERUM",
+    "price": 425
+  },
+  {
+    "Test Name": "MALARIA ANTIGEN, BLOOD",
+    "price": 590
+  },
+  {
+    "Test Name": "MALARIA PARASITE SMEAR, BLOOD",
+    "price": 130
+  },
+  {
+    "Test Name": "MANGANESE 24 HRS URINE",
+    "price": 3540
+  },
+  {
+    "Test Name": "MANGANESE BLOOD",
+    "price": 3540
+  },
+  {
+    "Test Name": "MANGANESE SPOT URINE",
+    "price": 3540
+  },
+  {
+    "Test Name": "*MANTOUX TEST",
+    "price": 100
+  },
+  {
+    "Test Name": "MARIJUANA METABOLITE (50) (CANNABINOIDS / THC)",
+    "price": 610
+  },
+  {
+    "Test Name": "MEASLES (RUBEOLA) ANTIBODY, IGG, SERUM",
+    "price": 1530
+  },
+  {
+    "Test Name": "MEASLES (RUBEOLA) ANTIBODY, IGM, SERUM",
+    "price": 1530
+  },
+  {
+    "Test Name": "MENOPAUSAL MONITORING PANEL (E2, FSH, TSH, FT4, LIPID PROFILE, CALCIUM,\nPHOSPHORUS) (ONLY FOR FEMALES)",
+    "price": 2255
+  },
+  {
+    "Test Name": "MERCURY, 24 HRS URINE",
+    "price": 4250
+  },
+  {
+    "Test Name": "MERCURY, URINE SPOT",
+    "price": 4250
+  },
+  {
+    "Test Name": "MERCURY,SERUM",
+    "price": 4250
+  },
+  {
+    "Test Name": "METABOLIC D PROFILE (HBA1C, GLUCOSE FASTING, TOTAL CHOLESTEROL, HDL CHOLESTEROL,\nTRIGLYCERIDE, LDL CHOLESTEROL, VLDL CHOLESTEROL, TC/HDL CHOLESTEROL RATIO, LDL/HDL RATIO,  BILIRUBIN TOTAL, DIRECT, INDIRECT, SGOT, SGPT, ALKALINE PHOSPHATASE, GGT, ALBUMIN, PROTEIN TOTAL, A:G RATIO, CALCIUM, URIC ACID, BUN, SERUM CREATININE, BUN/CREATININE RATIO, SERUM IRON, TIBC, % TRANSFERRIN SATURATION, T3, T4, TSH, VITAMIN D 25-OH)",
+    "price": 2000
+  },
+  {
+    "Test Name": "METAL, ZINC, WHOLE BLOOD",
+    "price": 1610
+  },
+  {
+    "Test Name": "METANEPHRINE - PLASMA",
+    "price": 3810
+  },
+  {
+    "Test Name": "METANEPHRINE, 24 HOURS URINE (HPLC)",
+    "price": 2390
+  },
+  {
+    "Test Name": "METHADONE, URINE",
+    "price": 610
+  },
+  {
+    "Test Name": "METHAEMOGLOBIN ESTIMATION",
+    "price": 900
+  },
+  {
+    "Test Name": "METHAQUALONE, URINE",
+    "price": 610
+  },
+  {
+    "Test Name": "METHYLMALONIC ACID, URINE",
+    "price": 610
+  },
+  {
+    "Test Name": "METHYLMALONIC ACID, URINE",
+    "price": 14160
+  },
+  {
+    "Test Name": "Microalbumin / Creatinine Ratio",
+    "price": 400
+  },
+  {
+    "Test Name": "MICROALBUMIN / CREATININE RATIO",
+    "price": 400
+  },
+  {
+    "Test Name": "MICROALBUMIN, 24 HRS URINE",
+    "price": 500
+  },
+  {
+    "Test Name": "MICROALBUMIN, RANDOM  URINE",
+    "price": 500
+  },
+  {
+    "Test Name": "MICROFILARIA  SMEAR, BLOOD",
+    "price": 120
+  },
+  {
+    "Test Name": "MICROFILARIA ANTIBODY",
+    "price": 960
+  },
+  {
+    "Test Name": "MICROFILARIA ANTIGEN DETECTION, BLOOD",
+    "price": 780
+  },
+  {
+    "Test Name": "MICROPROTEIN, CSF",
+    "price": 175
+  },
+  {
+    "Test Name": "MTB DETECTION TEST BY RT-PCR",
+    "price": 2200
+  },
+  {
+    "Test Name": "MTHFR MUTATION ANALYSIS TEST",
+    "price": 9210
+  },
+  {
+    "Test Name": "MUMPS VIRUS ANTIBODY, IGG, SERUM",
+    "price": 1530
+  },
+  {
+    "Test Name": "MUMPS VIRUS ANTIBODY, IGM, SERUM",
+    "price": 1530
+  },
+  {
+    "Test Name": "MUMPS, VARICELLA, DIPTHERIA & TETANUS IGG",
+    "price": 8500
+  },
+  {
+    "Test Name": "MUSK ANTIBODY MUSCLE SPECIFIC KINASE AB",
+    "price": 5900
+  },
+  {
+    "Test Name": "MYCOPLASMA PNEUMONIAE IGG ANTIBODIES",
+    "price": 1960
+  },
+  {
+    "Test Name": "MYCOPLASMA PNEUMONIAE IGM ANTIBODIES",
+    "price": 1960
+  },
+  {
+    "Test Name": "MYELOPEROXIDASE (MPO)  by Flow Cytometry",
+    "price": 2190
+  },
+  {
+    "Test Name": "MYELOPEROXIDASE (MPO) STAIN",
+    "price": 760
+  },
+  {
+    "Test Name": "MYOGLOBIN, URINE",
+    "price": 2000
+  },
+  {
+    "Test Name": "MYOGLOBIN,SERUM",
+    "price": 1140
+  },
+  {
+    "Test Name": "MYOSITIS PROFILE 11 ANTIGENS",
+    "price": 8100
+  },
+  {
+    "Test Name": "NEOSCREEN BASIC PANEL 3 A (TSH, 17-OHP & G6PD)",
+    "price": 1050
+  },
+  {
+    "Test Name": "NEOSCREEN BASIC PANEL 3 B (TSH, 17-OHP & Galactosemia)",
+    "price": 1050
+  },
+  {
+    "Test Name": "NEOSCREEN BASIC PANEL 4 (TSH, 17-OHP,  Galactosemia, G6PD deficiency)",
+    "price": 1350
+  },
+  {
+    "Test Name": "NEOSCREEN BASIC PANEL 5 & TMS (TSH, GALACTOSEMIA, 170HP, G6PD, BIOTINIDASE & TMS)",
+    "price": 5170
+  },
+  {
+    "Test Name": "NEOSCREEN BASIC PANEL 5 (TSH, GALACTOSEMIA, 170HP, G6PD, BIOTINIDASE)",
+    "price": 1650
+  },
+  {
+    "Test Name": "NEOSCREEN BASIC PANEL 7 (TSH, GALACTOSEMIA, 170HP, G6PD, BIOTINIDASE, CYSTIC\nFIBROSIS, PHENYLALANINE)",
+    "price": 1980
+  },
+  {
+    "Test Name": "NEOSCREEN BIOTINIDASE",
+    "price": 350
+  },
+  {
+    "Test Name": "NEOSCREEN CYSTIC FIBROSIS",
+    "price": 550
+  },
+  {
+    "Test Name": "NEOSCREEN G6PD",
+    "price": 330
+  },
+  {
+    "Test Name": "NEOSCREEN GALACTOSEMIA",
+    "price": 330
+  },
+  {
+    "Test Name": "NEOSCREEN PHENYLALANINE",
+    "price": 430
+  },
+  {
+    "Test Name": "NEOSCREEN TMS",
+    "price": 2700
+  },
+  {
+    "Test Name": "NEOSCREEN TSH",
+    "price": 330
+  },
+  {
+    "Test Name": "NICKEL, URINE",
+    "price": 3540
+  },
+  {
+    "Test Name": "NICKEL,SERUM",
+    "price": 3540
+  },
+  {
+    "Test Name": "NICOTINE METABOLITE QUANTITATIVE",
+    "price": 1240
+  },
+  {
+    "Test Name": "NICOTINE,SERUM",
+    "price": 1240
+  },
+  {
+    "Test Name": "NIPT TEST (MATERNAL BLOOD)",
+    "price": 30000
+  },
+  {
+    "Test Name": "Nirogyam D Max Plus : (CBC, ESR, HBA1C,Glucose Fasting, Lipid Profile Direct, Bilirubin Total, Direct, Indirect ;  SGPT, SGOT, ALP, GGT, Protein  Total, Albumin, Globulin, A:G Ratio, BUN, Creatinine,  Uric Acid, Calcium, Sodium, Potassium, Chloride, Iron Profile, Microalbumin/Creatinine Ratio,  FT3, FT4, TSH-Ultra, 25-Hydroxy  Vitamin D, Vitamin B12, HsCRP,Total IGE, ANA, Urine Routine Examination)",
+    "price": 3000
+  },
+  {
+    "Test Name": "NIROGYAM D PLUS (HBA1C, GLUCOSE FASTING, URINARY MICROALBUMIN, URINARY\nCREATININE, ALBUMIN/CREATININE RATIO, TOTAL CHOLESTEROL, HDL CHOLESTEROL, TRIGLYCERIDE, LDL CHOLESTEROL, VLDL CHOLESTEROL, TC/HDL CHOLESTEROL RATIO, LDL/HDL RATIO,  BILIRUBIN TOTAL, DIRECT, INDIRECT, SGOT, SGPT, ALKALINE PHOSPHATASE, GGT, ALBUMIN, PROTEIN TOTAL, A:G RATIO, CALCIUM, URIC ACID, BUN, SERUM CREATININE, BUN/CREATININE RATIO, SERUM IRON, TIBC, % TRANSFERRIN SATURATION, T3, T4, TSH (TOTAL), SODIUM, POTASSIUM, CHLORIDE, URINE R/M, CBC, ESR, VITAMIN D-25 OH, VITAMIN B12)",
+    "price": 2500
+  },
+  {
+    "Test Name": "NIROGYAM D PLUS HEART (URINE ROUTINE EXAMINATION,GLOBULIN ,ALBUMIN,CBC,APOL-A1 & B INCLUDES APO A1 & B RATIO,ALP,BILIRUBIN ,BUN,CALCIUM ,CHLORIDE ,CREATININE\n,GGT,FBS,IRON ,POTASSIUM ,PROTEIN TOTAL  ,SGOT,SGPT,SODIUM ,URIC ACID ,VIT D ,VIT B12\n,A:G RATIO,HBA1C,TFT,LIPID PROFILE",
+    "price": 2600
+  },
+  {
+    "Test Name": "NIROGYAM D PROFILE (HBA1C, GLUCOSE FASTING, URINARY MICROALBUMIN, URINARY CREATININE, ALBUMIN/CREATININE RATIO, TOTAL CHOLESTEROL, HDL CHOLESTEROL, TRIGLYCERIDE, LDL CHOLESTEROL, VLDL CHOLESTEROL, TC/HDL CHOLESTEROL RATIO, LDL/HDL RATIO,  BILIRUBIN TOTAL, DIRECT, INDIRECT, SGOT, SGPT, ALKALINE PHOSPHATASE, GGT, ALBUMIN, PROTEIN TOTAL, A:G RATIO, CALCIUM, URIC ACID, BUN, SERUM CREATININE, BUN/CREATININE RATIO, SERUM IRON, TIBC, % TRANSFERRIN SATURATION, T3, T4, TSH, SODIUM, POTASSIUM, CHLORIDE, URINE R/M, CBC, ESR, VITAMIN D-25 OH)",
+    "price": 2100
+  },
+  {
+    "Test Name": "Nirogyam D Supra (CBC,  HbA1c, FBS, LIPID, LFT, KFT, IRON PROFILE, TFT, VIT D, VIT B12, ESR)",
+    "price": 2000
+  },
+  {
+    "Test Name": "Nirogyam D2 Plus :(CBC,  ESR ,HBA1C, Glucose Fasting, Lipid Profile Direct, Bilirubin  Total,\nDirect, Indirect, SGPT, SGOT, ALP, GGT, Protein  Total Albumin, Globulin, A:G Ratio, Bun, Creatinine,Uric Acid, Calcium, Sodium, Potassium, Chloride, Iron Profile, Microalbumin/Creatinine Ratio,  FT3, FT4, TSH-ULTRA,  25-Hydroxy  Vitamin D, Vitamin B12, Urine Routine Examination)",
+    "price": 2700
+  },
+  {
+    "Test Name": "NIROGYAM E (CBC, DLC, ESR, HBA1C, FBS, LIPID, BLR, SGPT, SGOT, ALP, GGT, PROTEIN TOTAL, ALB, GLOBULIN, A:G RATIO, BUN, CREATININE, URIC ACID, CAL, SODIUM, POTASSIUM,\nCHLORIDE, TFT, VIT D, VIT B12)",
+    "price": 1050
+  },
+  {
+    "Test Name": "Nirogyam-D with Direct LDL (URINE ROUTINE, GLOBULIN, CBC, ALB, ALP, BLR, BUN, CAL, CHLORIDE, CREATININE, GGT, FBS, MALB, RANDOM, POTASSIUM, PROTEIN TOTAL, SGOT, SGPT, SODIUM, URIC ACID, VIT D, CREATININE, RANDOM, A:G RATIO, MALB/CREATININE RATIO, DLC, HBA1C, IRON PROFILE, THT, LIPID DIRECT)",
+    "price": 2500
+  },
+  {
+    "Test Name": "NMDA PROFILE, CSF",
+    "price": 5710
+  },
+  {
+    "Test Name": "NMDA PROFILE, SERUM",
+    "price": 5710
+  },
+  {
+    "Test Name": "NOR METANEPHRINE URINE",
+    "price": 1900
+  },
+  {
+    "Test Name": "N-TERMINAL PRO B TYPE NATRIURETIC PEPTIDE(NT-PROB)",
+    "price": 2390
+  },
+  {
+    "Test Name": "OBESITY PANEL (FASTING BLOOD SUGAR, PP BLOOD SUGAR, T3, T4, TSH, LIPID PROFILE CREATININE, PROTEIN TOTAL, SODIUM, POTASSIUM, CHLORIDE, CALCIUM, PHOSPHORUS,\nURINE R/M, URIC ACID)",
+    "price": 1750
+  },
+  {
+    "Test Name": "OLIGOCLONAL BANDS, CSF",
+    "price": 4100
+  },
+  {
+    "Test Name": "OPIATES / MORPHINE-URINE-RANDOM QUANTITATIVE",
+    "price": 610
+  },
+  {
+    "Test Name": "OSMOLALITY, SERUM",
+    "price": 860
+  },
+  {
+    "Test Name": "OSMOLALITY,URINE",
+    "price": 860
+  },
+  {
+    "Test Name": "OSTEOSCREEN PANEL-1 (CALCIUM, PHOSPHORUS, PTH INTACT, VITAMIN D-25 OH)",
+    "price": 2800
+  },
+  {
+    "Test Name": "PAP TEST BY LIQUID BASED CYTOLOGY",
+    "price": 960
+  },
+  {
+    "Test Name": "PAPANICOLAOU SMEAR (CONVENTIONAL)",
+    "price": 580
+  },
+  {
+    "Test Name": "PAPP-A, SERUM",
+    "price": 1050
+  },
+  {
+    "Test Name": "PARACETAMOL",
+    "price": 1040
+  },
+  {
+    "Test Name": "PARATHYROID HORMONE INTACT, SERUM",
+    "price": 1480
+  },
+  {
+    "Test Name": "PARVOVIRUS B19 DNA PCR",
+    "price": 4040
+  },
+  {
+    "Test Name": "PARVOVIRUS B19 IGG",
+    "price": 2290
+  },
+  {
+    "Test Name": "PARVOVIRUS B19 IGM",
+    "price": 2290
+  },
+  {
+    "Test Name": "PCOD PLUS (GLUCOSE F&PP, INSULIN F & PP, TSH, FSH, LH, PROLACTIN, TESTOSTERONE TOTAL,\nTESTOSTERONE FREE, VITAMIN D",
+    "price": 3000
+  },
+  {
+    "Test Name": "PCOD PROFILE (LH, FSH, PROLACTIN, TESTOSTERONE TOTAL, TESTOSTERONE FREE, GLUCOSE FASTING, GLUCOSE PP, INSULIN FASTING, INSULIN PP) (ONLY FOR FEMALES)",
+    "price": 2300
+  },
+  {
+    "Test Name": "PEPSINOGEN 1 & 2",
+    "price": 15590
+  },
+  {
+    "Test Name": "PERICARDIAL FLUID, ROUTINE EXAMINATION",
+    "price": 370
+  },
+  {
+    "Test Name": "PERIODIC ACID SCHIFF STAIN (PAS)",
+    "price": 670
+  },
+  {
+    "Test Name": "PERIPHERAL BLOOD (COUPLE KARYOTYPING)",
+    "price": 8960
+  },
+  {
+    "Test Name": "PERIPHERAL BLOOD (INDIVIDUAL KARYOTYPING)",
+    "price": 4670
+  },
+  {
+    "Test Name": "PERIPHERAL BLOOD SMEAR EXAMINATION, BLOOD",
+    "price": 130
+  },
+  {
+    "Test Name": "PHENCYCLIDINE (PCP), URINE (QUANTITATIVE)",
+    "price": 610
+  },
+  {
+    "Test Name": "PHENYTOIN, SERUM",
+    "price": 1100
+  },
+  {
+    "Test Name": "PHOSPHATYDIC ACID INCLUDED IN APA IGG ANTIBODY",
+    "price": 1040
+  },
+  {
+    "Test Name": "PHOSPHATYDIC ACID INCLUDED IN APA IGM ANTIBODY",
+    "price": 1040
+  },
+  {
+    "Test Name": "PHOSPHOLIPID ANTIBODIES (IGM & IGG), SERUM",
+    "price": 1430
+  },
+  {
+    "Test Name": "PHOSPHORUS (INORGANIC), RANDOM URINE",
+    "price": 210
+  },
+  {
+    "Test Name": "PHOSPHORUS INORGANIC, 24HRS URINE",
+    "price": 210
+  },
+  {
+    "Test Name": "PHOSPHORUS INORGANIC,SERUM",
+    "price": 200
+  },
+  {
+    "Test Name": "PLASMA RENIN",
+    "price": 2960
+  },
+  {
+    "Test Name": "PLASMA RENIN ACTIVITY",
+    "price": 3810
+  },
+  {
+    "Test Name": "PLATELET ANTIBODIES, INDIRECT (IGG)",
+    "price": 5710
+  },
+  {
+    "Test Name": "PLATELET COUNT, BLOOD",
+    "price": 140
+  },
+  {
+    "Test Name": "PLEURAL FLUID, ROUTINE EXAMINATION",
+    "price": 390
+  },
+  {
+    "Test Name": "POC FOR 13,21,18,X,Y",
+    "price": 14100
+  },
+  {
+    "Test Name": "PORPHOBILINOGEN URINE 24H",
+    "price": 3330
+  },
+  {
+    "Test Name": "PORPHYRINS, 24HRS URINE FOR IB",
+    "price": 5240
+  },
+  {
+    "Test Name": "POTASSIUM, 24 HRS URINE",
+    "price": 175
+  },
+  {
+    "Test Name": "POTASSIUM, RANDOM URINE",
+    "price": 180
+  },
+  {
+    "Test Name": "POTASSIUM, SERUM",
+    "price": 170
+  },
+  {
+    "Test Name": "PRADER-WILLI SYNDROME (CHROMOSOME 15Q DELETION)",
+    "price": 8360
+  },
+  {
+    "Test Name": "*PRE OPERATIVE PANEL - SL ( URINE ROUTINE,RPR,HCV,HBS AG,HIV CARD,GLUCOSE\nRANDOM,ABO & RH,CBC)",
+    "price": 2000
+  },
+  {
+    "Test Name": "PRE OPERATIVE PANEL ( CBC, BLOOD GROUP, RANDOM BLOOD SUGAR, HIV 1&2, HBSAG, HCV,\nRPR (VDRL), URINE R/M )",
+    "price": 1450
+  },
+  {
+    "Test Name": "PRE OPERATIVE PANEL-EXTENDED (CBC, Blood Group,  RPR, PT, APTT ,  URINE ROUTINE,  TSH ULTRA, CREATININE, HIV 1 & 2,HCV, HBSAG, UREA, SGPT, SGOT, RBS)",
+    "price": 2300
+  },
+  {
+    "Test Name": "PREALBUMIN",
+    "price": 4250
+  },
+  {
+    "Test Name": "PROCALCITONIN",
+    "price": 2100
+  },
+  {
+    "Test Name": "PRODUCT OF CONCEPTION (1ST TRIMESTER ABORTION)",
+    "price": 7430
+  },
+  {
+    "Test Name": "PROGESTERONE, SERUM",
+    "price": 550
+  },
+  {
+    "Test Name": "PROLACTIN, SERUM",
+    "price": 450
+  },
+  {
+    "Test Name": "PROPOXYPHENE, URINE",
+    "price": 610
+  },
+  {
+    "Test Name": "PROTEIN AND ALBUMIN, SERUM",
+    "price": 250
+  },
+  {
+    "Test Name": "PROTEIN C ACTIVITY",
+    "price": 3710
+  },
+  {
+    "Test Name": "PROTEIN C ANTIGEN",
+    "price": 4290
+  },
+  {
+    "Test Name": "PROTEIN ELECTROPHORESIS URINE 24H",
+    "price": 810
+  },
+  {
+    "Test Name": "PROTEIN S ACTIVITY",
+    "price": 3430
+  },
+  {
+    "Test Name": "PROTEIN S, FREE",
+    "price": 5240
+  },
+  {
+    "Test Name": "PROTEIN TOTAL , SERUM",
+    "price": 165
+  },
+  {
+    "Test Name": "PROTEIN, 24 HRS URINE",
+    "price": 200
+  },
+  {
+    "Test Name": "PROTEIN, RANDOM URINE",
+    "price": 175
+  },
+  {
+    "Test Name": "PROTEIN, TOTAL AND PROTEIN ELECTROPHORESIS",
+    "price": 770
+  },
+  {
+    "Test Name": "PROTEIN/CREATININE RATIO, 24 HRS. URINE",
+    "price": 250
+  },
+  {
+    "Test Name": "PROTEIN/CREATININE RATIO, RANDOM URINE",
+    "price": 250
+  },
+  {
+    "Test Name": "PROTHROMBIN TIME, PLASMA",
+    "price": 365
+  },
+  {
+    "Test Name": "PSA (PROSTATE SPECIFIC ANTIGEN) TOTAL, SERUM",
+    "price": 700
+  },
+  {
+    "Test Name": "PSA FREE(PROSTATE SPECIFIC ANTIGEN), SERUM",
+    "price": 1100
+  },
+  {
+    "Test Name": "PSA PROFILE - SERUM, ( PSA TOTAL, PSA FREE, PSA FREE: TOTAL %)",
+    "price": 1375
+  },
+  {
+    "Test Name": "PSEUDOCHOLINESTERASE, SERUM",
+    "price": 960
+  },
+  {
+    "Test Name": "QUADRUPLE MARKER TEST, SERUM((AFP, HCG & ESTRIOL UNCONJUGATED (E3), INHIBIN A,\nMATERNAL SERUM)",
+    "price": 2800
+  },
+  {
+    "Test Name": "RBC COUNT, BLOOD",
+    "price": 100
+  },
+  {
+    "Test Name": "RED CELL INDICES, BLOOD",
+    "price": 150
+  },
+  {
+    "Test Name": "RENAL FUNCTION MAXIMUM, BLOOD & URINE (CBC, URINE R/M, FASTING BLOOD SUGAR, BUN, CREATININE, URIC ACID, PROTEIN TOTAL, ALBUMIN, A:G RATIO, CALCIUM, ALKALINE\nPHOSPHATASE, SODIUM, POTASSIUM, CHLORIDE)",
+    "price": 1430
+  },
+  {
+    "Test Name": "RESPIRATORY SYNCYTIAL VIRUS (RSV) IGG ANTIBODY",
+    "price": 1810
+  },
+  {
+    "Test Name": "RESPIRATORY SYNCYTIAL VIRUS (RSV) IGM ANTIBODY",
+    "price": 1810
+  },
+  {
+    "Test Name": "RETICULOCYTE COUNT, BLOOD",
+    "price": 290
+  },
+  {
+    "Test Name": "RETT SYNDROME DNA SEQUENCING ( MECP2 MUTATION)",
+    "price": 7790
+  },
+  {
+    "Test Name": "RH ANTIBODY TITER",
+    "price": 715
+  },
+  {
+    "Test Name": "RHEUMATOID ARTHRITIS PANEL (RA FACTOR,ANA,ANTI CCP)",
+    "price": 1950
+  },
+  {
+    "Test Name": "*RHEUMATOID FACTOR (QUALITATIVE), SERUM",
+    "price": 290
+  },
+  {
+    "Test Name": "RHEUMATOID FACTOR QUANTITATIVE, SERUM",
+    "price": 450
+  },
+  {
+    "Test Name": "ROTAVIRUS ANTIGEN",
+    "price": 1240
+  },
+  {
+    "Test Name": "RPR-RAPID PLASMA REAGIN (SYPHILIS ANTIBODY), TEST",
+    "price": 180
+  },
+  {
+    "Test Name": "RUBELLA  IGM, SERUM",
+    "price": 500
+  },
+  {
+    "Test Name": "RUBELLA DETECTION TEST, RT PCR",
+    "price": 4250
+  },
+  {
+    "Test Name": "RUBELLA IGG & REFLEX AVIDITY",
+    "price": 990
+  },
+  {
+    "Test Name": "RUBELLA IGG, SERUM",
+    "price": 500
+  },
+  {
+    "Test Name": "SCL-70",
+    "price": 1470
+  },
+  {
+    "Test Name": "SCRUB TYPHUS IGM",
+    "price": 860
+  },
+  {
+    "Test Name": "SELENIUM, SERUM",
+    "price": 3540
+  },
+  {
+    "Test Name": "SENIOR CITIZEN PANEL(CBC, T-BIL,SGPT,SGOT,PROTEIN TOTAL,GGT,ALB,ALP,GLB,A:G RATIO,VIT B12,VIT D,URIC ACID,FBS,,CK,CAL,LIPID PROFILE,BUN, TFT, IRON PROFILE,HbA1c)",
+    "price": 1400
+  },
+  {
+    "Test Name": "SEROTONIN, SERUM",
+    "price": 4000
+  },
+  {
+    "Test Name": "SEX HORMONE BINDING GLOBULIN(SHBG),SERUM",
+    "price": 2100
+  },
+  {
+    "Test Name": "SICKLE CELL DNA PCR PND",
+    "price": 8500
+  },
+  {
+    "Test Name": "SICKLING TEST",
+    "price": 330
+  },
+  {
+    "Test Name": "SJOGRENS ANTIBODY (SS-B) / (ANTI-LA)",
+    "price": 1470
+  },
+  {
+    "Test Name": "SLIDE/BLOCK ISSUE -1",
+    "price": 100
+  },
+  {
+    "Test Name": "SLIDES FOR REVIEW (SECOND OPINION)*",
+    "price": 340
+  },
+  {
+    "Test Name": "SM ANTIBODY SMITH ANTIBODY SERUM",
+    "price": 1470
+  },
+  {
+    "Test Name": "SM/RNP ANTIBODY",
+    "price": 1530
+  },
+  {
+    "Test Name": "SODIUM, 24 HRS URINE",
+    "price": 175
+  },
+  {
+    "Test Name": "SODIUM, RANDOM URINE",
+    "price": 180
+  },
+  {
+    "Test Name": "SODIUM, SERUM",
+    "price": 170
+  },
+  {
+    "Test Name": "SPUTUM FOR EOSINOPHIL",
+    "price": 130
+  },
+  {
+    "Test Name": "SS-A (RO) IGG ANTIBODIES",
+    "price": 1470
+  },
+  {
+    "Test Name": "STOOL FOR REDUCING SUBSTANCES",
+    "price": 130
+  },
+  {
+    "Test Name": "STOOL OCCULT BLOOD",
+    "price": 100
+  },
+  {
+    "Test Name": "STOOL ROUTINE EXAMINATION",
+    "price": 120
+  },
+  {
+    "Test Name": "STREPTOCOCCUS GROUP B ANTIGEN DETECTION",
+    "price": 1140
+  },
+  {
+    "Test Name": "SWAB CULTURE (MISCELLANEOUS)",
+    "price": 490
+  },
+  {
+    "Test Name": "SYNOVIAL FLUID , ROUTINE EXAMINATION",
+    "price": 395
+  },
+  {
+    "Test Name": "SYPHILIS ANTIBODIES",
+    "price": 1040
+  },
+  {
+    "Test Name": "T4 TOTAL & TSH, SERUM",
+    "price": 400
+  },
+  {
+    "Test Name": "TB COMPREHENSIVE PANEL (AFB STAIN, AFB CULTURE MGIT, MYCO PCR)",
+    "price": 2500
+  },
+  {
+    "Test Name": "TB PLATINUM IGRA, BLOOD",
+    "price": 2600
+  },
+  {
+    "Test Name": "TERMINAL DEOXYNUCLEOTIDYL TRANSFERASE (TDT)",
+    "price": 2190
+  },
+  {
+    "Test Name": "TESTOSTERONE  FREE, SERUM",
+    "price": 1000
+  },
+  {
+    "Test Name": "TESTOSTERONE TOTAL (2ND GENERATION), SERUM",
+    "price": 630
+  },
+  {
+    "Test Name": "THALASSEMIA PROFILE (CBC, IRON, TIBC, % TRANSFERRIN SATURATION,  HB HPLC)",
+    "price": 1400
+  },
+  {
+    "Test Name": "THEOPHYLLINE",
+    "price": 940
+  },
+  {
+    "Test Name": "THROMBIN TIME",
+    "price": 860
+  },
+  {
+    "Test Name": "THROMBOPHILEA PANEL (ANA, ANTI DSDNA, C3, C4, ANTITHROMBIN III, CARDIOLIPIN IGM, CARDIOLIPIN IGG, PHOSPHOLIPID IGM, PHOSPHOLIPID IGG, FACTOR V LEIDEN, PROTEIN C,\nPROTEIN S, LUPUS ANTICOAGULANT)",
+    "price": 17000
+  },
+  {
+    "Test Name": "THYROGLOBULIN",
+    "price": 1470
+  },
+  {
+    "Test Name": "THYROGLOBULIN ANTIBODY (ANTI TG), SERUM",
+    "price": 1400
+  },
+  {
+    "Test Name": "THYROID PEROXIDASE ANTIBODIES (ANTI TPO) , SERUM",
+    "price": 1050
+  },
+  {
+    "Test Name": "THYROID PROFILE, FREE (FT3, FT4, TSH), SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "THYROID PROFILE, TOTAL (T3, T4, TSH), SERUM",
+    "price": 480
+  },
+  {
+    "Test Name": "THYROID STIMULATING HORMONE(TSH),SERUM",
+    "price": 250
+  },
+  {
+    "Test Name": "THYROXINE BINDING GLOBULIN (TBG)",
+    "price": 7090
+  },
+  {
+    "Test Name": "THYROXINE(T4), SERUM",
+    "price": 200
+  },
+  {
+    "Test Name": "TISSUE TRANSGLUTAMINASE IGA, SERUM",
+    "price": 850
+  },
+  {
+    "Test Name": "TNF ALPHA, SERUM",
+    "price": 3710
+  },
+  {
+    "Test Name": "TORCH IGG & REFLEX AVIDITY (TORCH IGG, TOXOPLASMA AVIDITY, RUBELLA AVIDITY, CMV\nAVIDITY)",
+    "price": 1600
+  },
+  {
+    "Test Name": "TORCH PANEL TEST, RT PCR",
+    "price": 10630
+  },
+  {
+    "Test Name": "TORCH PANEL WITH AVIDITY (INCLUDES IGM, IGG & REFLEX AVIDITY(TORCH IGG & IGM,\nTOXOPLASMA AVIDITY, RUBELLA AVIDITY, CMV AVIDITY)",
+    "price": 3200
+  },
+  {
+    "Test Name": "TORCH PANEL, IGG & IGM",
+    "price": 1900
+  },
+  {
+    "Test Name": "TORCH PANEL, IGG PANEL",
+    "price": 1000
+  },
+  {
+    "Test Name": "TORCH PANEL, IGM PANEL",
+    "price": 1100
+  },
+  {
+    "Test Name": "Total & Differential Leucocyte Count (TLC, DLC)",
+    "price": 210
+  },
+  {
+    "Test Name": "TOTAL BILE ACIDS",
+    "price": 1610
+  },
+  {
+    "Test Name": "TOTAL GALACTOSE (NEONATAL SCREENING)",
+    "price": 1140
+  },
+  {
+    "Test Name": "TOTAL IGE (IMMUNOGLOBULIN E), SERUM",
+    "price": 900
+  },
+  {
+    "Test Name": "TOTAL LEUCOCYTE COUNT, BLOOD",
+    "price": 150
+  },
+  {
+    "Test Name": "TOTAL P1NP",
+    "price": 1570
+  },
+  {
+    "Test Name": "TOXOPLASMA DNA DETECTION TEST",
+    "price": 4250
+  },
+  {
+    "Test Name": "TOXOPLASMA IGG & REFLEX AVIDITY",
+    "price": 880
+  },
+  {
+    "Test Name": "TOXOPLASMA IGG, SERUM",
+    "price": 520
+  },
+  {
+    "Test Name": "TOXOPLASMA IGM, SERUM",
+    "price": 500
+  },
+  {
+    "Test Name": "TPHA (TREPONEMA PALLIDUM) HAEMAGGLUTINATION, SERUM",
+    "price": 475
+  },
+  {
+    "Test Name": "TRANSFERRIN, SERUM",
+    "price": 1265
+  },
+  {
+    "Test Name": "TRIGLYCERIDES, SERUM",
+    "price": 240
+  },
+  {
+    "Test Name": "TRI-IODO THYRONINE(T3), SERUM",
+    "price": 180
+  },
+  {
+    "Test Name": "TRIPLE MARKER TEST, SERUM((AFP, HCG & ESTRIOL UNCONJUGATED (E3), MATERNAL SERUM)",
+    "price": 2350
+  },
+  {
+    "Test Name": "*TROPONIN I",
+    "price": 1000
+  },
+  {
+    "Test Name": "TROPONIN-T, SERUM",
+    "price": 1470
+  },
+  {
+    "Test Name": "TRYPANOSOMA CRUZI ANTIBODY IGG, SERUM",
+    "price": 2980
+  },
+  {
+    "Test Name": "TSH RECEPTOR ANTIBODIES LATS, TSI",
+    "price": 3900
+  },
+  {
+    "Test Name": "TSH ULTRASENSITIVE",
+    "price": 350
+  },
+  {
+    "Test Name": "TYPHI-D PEDIATRIC, BLOOD & URINE (CBC, ESR, Urine R/M, Widal, Blood Culture Aerobic\nPediatric)",
+    "price": 1320
+  },
+  {
+    "Test Name": "TYPHI-D, BLOOD & URINE (CBC, ESR, Urine R/M, Widal, Blood Culture Aerobic )",
+    "price": 1320
+  },
+  {
+    "Test Name": "TYPHOID IGM RAPID, SERUM",
+    "price": 390
+  },
+  {
+    "Test Name": "U1 SNRNP ANTIBODIES",
+    "price": 1470
+  },
+  {
+    "Test Name": "UREA, 24 HRS URINE",
+    "price": 200
+  },
+  {
+    "Test Name": "UREA, RANDOM URINE",
+    "price": 200
+  },
+  {
+    "Test Name": "UREA, SERUM",
+    "price": 125
+  },
+  {
+    "Test Name": "URIC ACID, 24HRS URINE",
+    "price": 210
+  },
+  {
+    "Test Name": "URIC ACID, RANDOM URINE",
+    "price": 200
+  },
+  {
+    "Test Name": "URIC ACID, SERUM",
+    "price": 145
+  },
+  {
+    "Test Name": "URINARY CORTISOL",
+    "price": 860
+  },
+  {
+    "Test Name": "URINARY OXALATE",
+    "price": 1760
+  },
+  {
+    "Test Name": "URINE BILE SALTS AND PIGMENTS",
+    "price": 90
+  },
+  {
+    "Test Name": "URINE BLOOD",
+    "price": 90
+  },
+  {
+    "Test Name": "URINE CULTURE & SUSCEPTIBILITY",
+    "price": 450
+  },
+  {
+    "Test Name": "URINE FOR REDUCING SUBSTANCES",
+    "price": 85
+  },
+  {
+    "Test Name": "URINE KETONE",
+    "price": 85
+  },
+  {
+    "Test Name": "URINE PREGNANCY TEST (UPT)",
+    "price": 200
+  },
+  {
+    "Test Name": "URINE PROTEIN",
+    "price": 85
+  },
+  {
+    "Test Name": "URINE ROUTINE EXAMINATION",
+    "price": 100
+  },
+  {
+    "Test Name": "URINE SUGAR, FASTING",
+    "price": 90
+  },
+  {
+    "Test Name": "URINE SUGAR,PP",
+    "price": 90
+  },
+  {
+    "Test Name": "URINE SUGAR,RANDOM",
+    "price": 90
+  },
+  {
+    "Test Name": "VALPROIC ACID, SERUM",
+    "price": 950
+  },
+  {
+    "Test Name": "VANCOMYCIN",
+    "price": 8500
+  },
+  {
+    "Test Name": "VANILMANDELIC ACID (VMA), 24 HOURS URINE",
+    "price": 3140
+  },
+  {
+    "Test Name": "VARICELLA ZOSTER VIRUS (VZV) ANTIBODY, IGG, SERUM",
+    "price": 1530
+  },
+  {
+    "Test Name": "VARICELLA ZOSTER VIRUS (VZV) IGM ANTIBODIES",
+    "price": 1530
+  },
+  {
+    "Test Name": "VARICELLA ZOSTER VIRUS, VZV PCR",
+    "price": 4250
+  },
+  {
+    "Test Name": "VGKC (LG1 AND CASPR2) ANTIBODY CSF",
+    "price": 11340
+  },
+  {
+    "Test Name": "VGKC (LG1 AND CASPR2) ANTIBODY SERUM",
+    "price": 11340
+  },
+  {
+    "Test Name": "VGKC PROFILE, CSF & SERUM",
+    "price": 17710
+  },
+  {
+    "Test Name": "VIT K1, SERUM",
+    "price": 5660
+  },
+  {
+    "Test Name": "VITAMIN A, RETINOL, SERUM",
+    "price": 3810
+  },
+  {
+    "Test Name": "VITAMIN B1",
+    "price": 3140
+  },
+  {
+    "Test Name": "VITAMIN B12, SERUM",
+    "price": 825
+  },
+  {
+    "Test Name": "VITAMIN B2",
+    "price": 2860
+  },
+  {
+    "Test Name": "VITAMIN B6, PYRIDOXINE, BLOOD",
+    "price": 2860
+  },
+  {
+    "Test Name": "VITAMIN C, ASCORBIC ACID, SERUM",
+    "price": 2860
+  },
+  {
+    "Test Name": "VITAMIN D (25-OH),Serum",
+    "price": 1100
+  },
+  {
+    "Test Name": "VITAMIN D, 1,25 DIHYDROXY SERUM",
+    "price": 3040
+  },
+  {
+    "Test Name": "VITAMIN E, ALPHA TOCOPHEROL, SERUM",
+    "price": 3810
+  },
+  {
+    "Test Name": "VON WILLEBRAND FACTOR ANTIGEN, PLASMA",
+    "price": 8100
+  },
+  {
+    "Test Name": "WARFARIN CYP2C9 & VKORC1 SENSITIVITY TEST",
+    "price": 17290
+  },
+  {
+    "Test Name": "WEAKNESS PROFILE 1 (CBC, ALKALINE PHOSPHATASE, CALCIUM, IRON, RETICULOCYTE COUNT)",
+    "price": 430
+  },
+  {
+    "Test Name": "WEAKNESS PROFILE FEMALE (SGOT, SGPT, GGT, BILIRUBIN TOTAL, PROTEIN TOTAL, ALKALINE PHOSPHATASE, CBC, RETICULOCYTE COUNT, CALCIUM, IRON, FERRITIN)",
+    "price": 990
+  },
+  {
+    "Test Name": "WEAKNESS PROFILE MALE (CRP, SGOT, SGPT, GGTP, BILIRUBIN TOTAL, PROTEIN TOTAL,\nALKALINE PHOSPHATASE, CBC, RETICULOCYTE COUNT, CALCIUM)",
+    "price": 950
+  },
+  {
+    "Test Name": "WEIL-FELIX TEST, SERUM",
+    "price": 810
+  },
+  {
+    "Test Name": "WIDAL TEST,  SERUM",
+    "price": 220
+  },
+  {
+    "Test Name": "Y CHROMOSOME MICRO DELETION  PCR",
+    "price": 3540
+  },
+  {
+    "Test Name": "ZAP-70",
+    "price": 7790
+  }
+]

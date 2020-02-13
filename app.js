@@ -53,15 +53,15 @@ mongoose.connect(Config.MONGODB_URL, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
-})
+}, () => console.log("MongoDB connected to", Config.MONGODB_URL))
 
 app.get('/', (req, res) => res.send('Plunes Backend 2.0'))
 
 const storage = multer.diskStorage({
-    destination: function(req, file, cb) {
+    destination: function (req, file, cb) {
         cb(null, 'public')
     },
-    filename: function(req, file, cb) {
+    filename: function (req, file, cb) {
         cb(null, Date.now() + '-' + file.originalname)
     }
 })
@@ -70,8 +70,8 @@ const upload = multer({
     storage: storage
 }).single('file')
 
-app.post('/upload', function(req, res) {
-    upload(req, res, function(err) {
+app.post('/upload', function (req, res) {
+    upload(req, res, function (err) {
         if (err instanceof multer.MulterError) {
             return res.status(500).json(err)
         } else if (err) {

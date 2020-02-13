@@ -171,7 +171,7 @@ const userSchema = mongoose.Schema({
         otherFields: [String]
     },
     coupons: [String]
-})
+}, {timestamp: true})
 
 userSchema.pre('save', async function (next) {
     const user = this

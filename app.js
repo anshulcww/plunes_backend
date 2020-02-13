@@ -62,6 +62,7 @@ const storage = multer.diskStorage({
         cb(null, 'public')
     },
     filename: function (req, file, cb) {
+        file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
         cb(null, Date.now() + '-' + file.originalname)
     }
 })

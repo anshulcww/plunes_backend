@@ -10,6 +10,8 @@ mongoose.connect(Config.MONGODB_URL, {
     useUnifiedTopology: true
 })
 
+const ObjectId = mongoose.Types.ObjectId
+
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 

@@ -37,6 +37,10 @@ const createServicesCollection = () => {
                     })
                 })
                 console.log("Got through it")
+                Services.insertMany(bigAssArray, (err, docs) => {
+                    if(err) console.log("Error", err)
+                    else console.log("Added docs", docs)
+                })
             }
         })
     })

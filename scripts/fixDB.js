@@ -509,7 +509,7 @@ const asyncForEach = async (array, callback) => {
 const loadXlsxLifeAid = async (f) => {
     const data = xlsx.parse(fs.readFileSync(f))
     let lifeAidRecord = await User.findOne({
-        name: "Sheetla Diagnostic Point"
+        name: "Dr. Royals Path Lab"
     })
     let specialitiesArray = []
 

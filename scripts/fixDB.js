@@ -474,7 +474,7 @@ const asyncForEach = async (array, callback) => {
 const loadXlsxLifeAid = async (f) => {
     const data = xlsx.parse(fs.readFileSync(f))
     let lifeAidRecord = await User.findOne({
-        name: "Sheetla Diagnostic Point"
+        name: "Dr. Royals Path Lab"
     })
     let specialitiesArray = []
 
@@ -653,7 +653,7 @@ const loadXlsxSpeciality = async (f) => {
 //loadXlsxServiceUpdates('./plunes-db/lab_data.xlsx')
 // loadXlsxSpeciality('./plunes-db/opthal.xlsx')
 // loadXlsxForHospitals('./plunes-db/doctors.xlsx')
- loadXlsxLifeAid('./plunes-db/sheetlalab.xlsx')
+ loadXlsxLifeAid('./plunes-db/royals.xlsx')
 // loadXlsx('./plunes-db/Hospital_data.xlsx')
 // loadXlsxServiceUpdates('./plunes-db/Shwetas.xlsx')
 // loadXlsx('./plunes-db/d/opthal.xlsx')

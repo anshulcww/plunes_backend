@@ -25,14 +25,14 @@ router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)
-        const skip = parseInt(req.body.page)*limit
+        const skip = parseInt(req.body.page) * limit
         try {
             const catalogue = await Catalogue.aggregate([{
                 $match: {
                     // $text: { $search: req.body.expression }
                     $or: [
-                        {"services.service": { $regex: req.body.expression }},
-                        {"services.tags": { $regex: req.body.expression }}
+                        { "services.service": { $regex: new RegExp(req.body.expression, "i") } },
+                        { "services.tags": { $regex: new RegExp(req.body.expression, "i") } }
                     ]
                 }
             },
@@ -43,7 +43,7 @@ router.post('/search', async (req, res) => {
                             input: '$services',
                             as: 'services',
                             cond: {
-                                "$regexMatch": { "input": '$$services.service', "regex": req.body.expression }
+                                "$regexMatch": { "input": '$$services.service', "regex": new RegExp(req.body.expression, "i") }
                             }
                         }
                     },
@@ -57,14 +57,13 @@ router.post('/search', async (req, res) => {
                 $project: {
                     _id: "$serviceName._id",
                     service: "$serviceName.service",
-                    category: "$serviceName.category"
+                    category: "$serviceName.category",
+                    details: "$serviceName.details",
+                    dnd: "$serviceName.dnd",
                 }
             },
             {
-                $sort: {_id : -1}
-            },
-            {
-                $sort: {service : 1}
+                $sort: { _id: 1 }
             },
             {
                 $skip: skip

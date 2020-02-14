@@ -71,7 +71,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({
     storage: storage
-}).array('file', 10)
+}).single('file', 10)
 
 app.post('/upload', function (req, res) {
     upload(req, res, function (err) {
@@ -80,15 +80,6 @@ app.post('/upload', function (req, res) {
         } else if (err) {
             return res.status(500).json(err)
         }
-        let result = "You have uploaded these images: <hr />";
-        const files = req.files;
-        let index, len;
-
-        // Loop through all the uploaded images and display them on frontend
-        for (index = 0, len = files.length; index < len; ++index) {
-            result += `<img src="${files[index].path}" width="300" style="margin-right: 20px;">`;
-        }
-        console.log(result)
         req.file.filename = req.file.filename.split('.')[0] + (req.file.filename.split('.')[1] ? "." + req.file.filename.split('.')[1].toLowerCase() : '')
         if (req.file.filename.endsWith('.pdf')) {
             console.log(execFileSync('/usr/bin/convert', ['./public/' + req.file.filename + '[0]', './public/' + req.file.filename + '.thumbnail.png']).toString('utf8'))

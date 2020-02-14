@@ -13,6 +13,7 @@ const Config = require('./config')
 
 const user = require('./routes/user')
 const catalogue = require('./routes/catalogue')
+// const catalogue_manager = require('./routes/catalogue_manager')
 const enquiry = require('./routes/enquiry')
 const solution = require('./routes/solution')
 const booking = require('./routes/booking')
@@ -37,6 +38,7 @@ app.use(morgan('dev'))
 
 app.use('/user', user)
 app.use('/catalogue', catalogue)
+// app.use('/catalogue_manager', catalogue_manager)
 app.use('/enquiry', enquiry)
 app.use('/solution', solution)
 app.use('/booking', booking)
@@ -69,7 +71,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({
     storage: storage
-}).single('file')
+}).single('file', 10)
 
 app.post('/upload', function (req, res) {
     upload(req, res, function (err) {
@@ -78,9 +80,7 @@ app.post('/upload', function (req, res) {
         } else if (err) {
             return res.status(500).json(err)
         }
-        //console.log("FILENAME", req.file.filename)
         req.file.filename = req.file.filename.split('.')[0] + (req.file.filename.split('.')[1] ? "." + req.file.filename.split('.')[1].toLowerCase() : '')
-        //console.log("NEW FILENAME", req.file.filename)
         if (req.file.filename.endsWith('.pdf')) {
             console.log(execFileSync('/usr/bin/convert', ['./public/' + req.file.filename + '[0]', './public/' + req.file.filename + '.thumbnail.png']).toString('utf8'))
         } else if (req.file.filename.endsWith('.jpg') || req.file.filename.endsWith('.jpeg') || req.file.filename.endsWith('.png')) {

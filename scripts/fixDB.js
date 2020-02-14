@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const fs = require('fs')
 const xlsx = require('node-xlsx')
-
+const ObjectId = mongoose.Types.ObjectId
 const Config = require('../config')
 
 mongoose.connect(Config.MONGODB_URL, {
@@ -14,6 +14,83 @@ const ObjectId = mongoose.Types.ObjectId
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
+const Services = require('../models/services')
+
+const createServicesCollection = () => {
+    return new Promise((resolve, reject) => {
+        Catalogue.find({}, (err, catalogueDocs) => {
+            if (err) console.log("Error", err)
+            else {
+                let bigAssArray = []
+                catalogueDocs.forEach(element => {
+                    element.services.forEach(element1 => {
+                        let smallObject = {
+                            speciality: element.speciality,
+                            specialityId: ObjectId(element._id),
+                            serviceId: ObjectId(element1._id),
+                            service: element1.service,
+                            details: element1.details,
+                            duration: element1.duration,
+                            sittings: element1.sittings,
+                            dnd: element1.dnd,
+                            tags: element1.tags,
+                            category: element1.category
+                        }
+                        bigAssArray.push(smallObject)
+                    })
+                })
+                console.log("Got through it")
+                Services.insertMany(bigAssArray, (err, docs) => {
+                    if (err) console.log("Error", err)
+                    else console.log("Added docs", docs)
+                })
+            }
+        })
+    })
+}
+
+createServicesCollection()
+
+const similarity = (s1, s2) => {
+    var longer = s1;
+    var shorter = s2;
+    if (s1.length < s2.length) {
+        longer = s2;
+        shorter = s1;
+    }
+    var longerLength = longer.length;
+    if (longerLength == 0) {
+        return 1.0;
+    }
+    return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
+}
+
+const editDistance = (s1, s2) => {
+    s1 = s1.toLowerCase();
+    s2 = s2.toLowerCase();
+
+    var costs = new Array();
+    for (var i = 0; i <= s1.length; i++) {
+        var lastValue = i;
+        for (var j = 0; j <= s2.length; j++) {
+            if (i == 0)
+                costs[j] = j;
+            else {
+                if (j > 0) {
+                    var newValue = costs[j - 1];
+                    if (s1.charAt(i - 1) != s2.charAt(j - 1))
+                        newValue = Math.min(Math.min(newValue, lastValue),
+                            costs[j]) + 1;
+                    costs[j - 1] = lastValue;
+                    lastValue = newValue;
+                }
+            }
+        }
+        if (i > 0)
+            costs[s2.length] = lastValue;
+    }
+    return costs[s2.length];
+}
 
 const createServicesCollection = () => {
     return new Promise((resolve, reject) => {
@@ -437,7 +514,7 @@ const loadXlsxServiceUpdates = async (f) => {
                                                 element1.category = ["Test"]
                                                 element1.price = [price]
                                                 await hospitalRecord.save()
-                                                console.log("Updated previous record", {hospitalName, speciality, newServiceName})
+                                                console.log("Updated previous record", { hospitalName, speciality, newServiceName })
                                                 flag = false
                                             }
                                         })
@@ -451,7 +528,7 @@ const loadXlsxServiceUpdates = async (f) => {
                                             }
                                             element.services.push(tempObj)
                                             await hospitalRecord.save()
-                                            console.log("Saved new record", {hospitalName, speciality, newServiceName})
+                                            console.log("Saved new record", { hospitalName, speciality, newServiceName })
                                         }
                                     }
                                 })

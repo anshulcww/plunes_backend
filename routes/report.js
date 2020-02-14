@@ -11,7 +11,7 @@ const router = express.Router()
 
 router.post('/', auth, async (req, res) => {
     try {
-        // console.log(req.body)
+        console.log(req.body)
         const report = new Report(req.body)
         console.log(req.body, 'body')
         report.createdTime = Date.now()

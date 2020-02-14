@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const fs = require('fs')
 const xlsx = require('node-xlsx')
-const ObjectId = mongoose.Schema.Types.ObjectId
+const ObjectId = mongoose.Types.ObjectId
 const Config = require('../config')
 
 mongoose.connect(Config.MONGODB_URL, {

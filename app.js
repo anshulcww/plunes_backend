@@ -13,7 +13,7 @@ const Config = require('./config')
 
 const user = require('./routes/user')
 const catalogue = require('./routes/catalogue')
-const catalogue_manager = require('./routes/catalogue_manager')
+// const catalogue_manager = require('./routes/catalogue_manager')
 const enquiry = require('./routes/enquiry')
 const solution = require('./routes/solution')
 const booking = require('./routes/booking')

@@ -13,6 +13,7 @@ router.post('/', auth, async (req, res) => {
     try {
         // console.log(req.body)
         const report = new Report(req.body)
+        console.log(req.body, 'body')
         report.createdTime = Date.now()
         report.reportUrl = report.reportUrl.replace(/ /g, '%20')
         await report.save()
@@ -25,6 +26,44 @@ router.post('/', auth, async (req, res) => {
             // console.log(user.name)
             await Notification.push(user.deviceIds, 'Plockr Report', message, 'plockr')
         }
+        res.status(201).send({
+            success: true
+        })
+    } catch (error) {
+        console.log(error)
+        res.status(400).send(error)
+    }
+})
+
+router.post('/test', auth, async (req, res) => {
+    const asyncForEach = async (array, callback) => {
+        for (let index = 0; index < array.length; index++) {
+            await callback(array[index], index, array);
+        }
+    }
+    try {
+        console.log(req.body)
+        if(req.body.reportUrl.length > 0) {
+            await asyncForEach(req.body.reportUrl, async element => {
+                const report = new Report({
+                    userId: req.body.userId,
+                    self: req.body.self,
+                    reportUrl: element.replace(/ /g, '%20'),
+                    createdTime: Date.now()
+                })
+                await report.save().then(docs => console.log("Saved report", docs))
+            })
+        }
+        // const speciality = await Catalogue.findSpecialityId(report.specialityId)
+        // const specialityName = speciality ? speciality.speciality : 'Plockr'
+        // const message = `Hi! Your prescription is now available in your PLOCKR account. Kindly open the Plunes app to view.`
+        // Send notifications -----
+        // await Notification.sms(report.patientMobileNumber, message)
+        // const user = await User.mobileNumberExists(report.patientMobileNumber)
+        // if (user && user.deviceIds && user.deviceIds.length > 0) {
+        //     // console.log(user.name)
+        //     await Notification.push(user.deviceIds, 'Plockr Report', message, 'plockr')
+        // }
         res.status(201).send({
             success: true
         })

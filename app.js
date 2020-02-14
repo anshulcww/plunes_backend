@@ -78,9 +78,9 @@ app.post('/upload', function (req, res) {
         } else if (err) {
             return res.status(500).json(err)
         }
-        console.log("FILENAME", req.file.filename)
+        //console.log("FILENAME", req.file.filename)
         req.file.filename = req.file.filename.split('.')[0] + (req.file.filename.split('.')[1] ? "." + req.file.filename.split('.')[1].toLowerCase() : '')
-        console.log("NEW FILENAME", req.file.filename)
+        //console.log("NEW FILENAME", req.file.filename)
         if (req.file.filename.endsWith('.pdf')) {
             console.log(execFileSync('/usr/bin/convert', ['./public/' + req.file.filename + '[0]', './public/' + req.file.filename + '.thumbnail.png']).toString('utf8'))
         } else if (req.file.filename.endsWith('.jpg') || req.file.filename.endsWith('.jpeg') || req.file.filename.endsWith('.png')) {

@@ -13,6 +13,41 @@ mongoose.connect(Config.MONGODB_URL, {
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 
+const createServicesCollection = () => {
+    return new Promise((resolve, reject) => {
+        Catalogue.find({}, (err, catalogueDocs) => {
+            if (err) console.log("Error", err)
+            else {
+                let bigAssArray = []
+                catalogueDocs.forEach(element => {
+                    element.services.forEach(element1 => {
+                        let smallObject = {
+                            speciality: element.speciality,
+                            specialityId: ObjectId(element._id),
+                            serviceId: ObjectId(element1._id),
+                            service: element1.service,
+                            details: element1.details,
+                            duration: element1.duration,
+                            sittings: element1.sittings,
+                            dnd: element1.dnd,
+                            tags: element1.tags,
+                            category: element1.category
+                        }
+                        bigAssArray.push(smallObject)
+                    })
+                })
+                console.log("Got through it")
+                Services.insertMany(bigAssArray, (err, docs) => {
+                    if (err) console.log("Error", err)
+                    else console.log("Added docs", docs)
+                })
+            }
+        })
+    })
+}
+
+createServicesCollection()
+
 const addService = async (m, sp, se, p, v) => {
     const u = await User.findOne({
         mobileNumber: m
@@ -653,7 +688,7 @@ const loadXlsxSpeciality = async (f) => {
 //loadXlsxServiceUpdates('./plunes-db/lab_data.xlsx')
 // loadXlsxSpeciality('./plunes-db/opthal.xlsx')
 // loadXlsxForHospitals('./plunes-db/doctors.xlsx')
- loadXlsxLifeAid('./plunes-db/sheetlalab.xlsx')
+//  loadXlsxLifeAid('./plunes-db/sheetlalab.xlsx')
 // loadXlsx('./plunes-db/Hospital_data.xlsx')
 // loadXlsxServiceUpdates('./plunes-db/Shwetas.xlsx')
 // loadXlsx('./plunes-db/d/opthal.xlsx')

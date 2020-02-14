@@ -38,7 +38,7 @@ app.use(morgan('dev'))
 
 app.use('/user', user)
 app.use('/catalogue', catalogue)
-app.use('/catalogue_manager', catalogue_manager)
+// app.use('/catalogue_manager', catalogue_manager)
 app.use('/enquiry', enquiry)
 app.use('/solution', solution)
 app.use('/booking', booking)

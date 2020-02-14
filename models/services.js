@@ -14,7 +14,7 @@ const servicesSchema = mongoose.Schema({
     dnd: String,
     tags: String,
     category: String
-}, {timestamp: true})
+}, { timestamp: true })
 
 const Services = mongoose.model('services', servicesSchema)
 

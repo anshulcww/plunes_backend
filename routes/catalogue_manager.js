@@ -5,7 +5,6 @@ const multer = require('multer')
 
 const Catalogue = require('../models/catalogue')
 const Services = require('../models/services')
-
 const User = require('../models/user')
 
 router = express.Router()
@@ -75,81 +74,6 @@ app.post('/upload', function (req, res) {
         }
     } else {
         res.status(400).send("Please upload valid xlsx file")
-    }
-})
-
-router.post('/search', async (req, res) => {
-    console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
-    if (req.body.limit && (req.body.page || req.body.page === 0)) {
-        const limit = parseInt(req.body.limit)
-        const skip = parseInt(req.body.page) * limit
-        try {
-            const catalogue = await Catalogue.aggregate([{
-                $match: {
-                    // $text: { $search: req.body.expression }
-                    $or: [
-                        { "services.service": { $regex: req.body.expression } },
-                        { "services.tags": { $regex: req.body.expression } }
-                    ]
-                }
-            },
-            {
-                $project: {
-                    serviceName: {
-                        $filter: {
-                            input: '$services',
-                            as: 'services',
-                            cond: {
-                                "$regexMatch": { "input": '$$services.service', "regex": req.body.expression }
-                            }
-                        }
-                    },
-                    _id: 0
-                }
-            },
-            {
-                $unwind: "$serviceName"
-            },
-            {
-                $project: {
-                    _id: "$serviceName._id",
-                    service: "$serviceName.service",
-                    category: "$serviceName.category"
-                }
-            },
-            {
-                $sort: { _id: -1 }
-            },
-            {
-                $sort: { service: 1 }
-            },
-            {
-                $skip: skip
-            },
-            {
-                $limit: limit
-            }
-            ])
-            res.status(200).send({
-                status: true,
-                data: catalogue,
-                count: catalogue.length,
-                msg: "success"
-            })
-        } catch (e) {
-            console.log("Error", e)
-            res.status(400).send({
-                status: false,
-                data: e,
-                msg: "error"
-            })
-        }
-    } else {
-        res.status(400).send({
-            status: false,
-            data: [],
-            msg: "specify limit/page"
-        })
     }
 })
 

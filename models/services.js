@@ -6,6 +6,7 @@ const ObjectId = mongoose.Types.ObjectId
 const servicesSchema = mongoose.Schema({
     speciality: String,
     specialityId: ObjectId,
+    serviceId: ObjectId,
     service: String,
     details: String,
     duration: Number,

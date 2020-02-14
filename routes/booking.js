@@ -43,7 +43,7 @@ router.post('/', auth, async (req, res) => {
     console.log("Booking - POST")
     try {
         console.log(req.body)
-        if (req.body.coupon === 'SPAZE10000' || req.body.coupon === 'NILE10000') {
+        if (req.body.coupon === 'SPAZE10000' || req.body.coupon === 'NILE10000' || req.body.coupon === 'GREEN10000') {
             req.body.creditsUsed = 0
         }
         const booking = new Booking(req.body)
@@ -52,15 +52,15 @@ router.post('/', auth, async (req, res) => {
         let couponUsed = false
         booking.referenceId = 'PLUNES-' + new Date().toISOString().substr(0, 10) + '-' +
             parseInt((1000 + Math.random() * 1000))
-        if (booking.coupon == 'SPAZE10000' || booking.coupon === 'NILE10000') {
+        if (booking.coupon == 'SPAZE10000' || booking.coupon === 'NILE10000' || booking.coupon === 'GREEN10000') {
             let user = await User.findById(booking.userId)
-            if (user.coupons.findIndex(c => c == 'SPAZE10000' || c == 'NILE10000') != -1) {
+            if (user.coupons.findIndex(c => c == 'SPAZE10000' || c == 'NILE10000' || c == 'GREEN10000') != -1) {
                 const bookings = await Booking.findBookingsOfUser(booking.userId, 'Confirmed')
                 let consultations = 0
                 let tests = 0
                 for (let b of bookings) {
                     let d = await Catalogue.findServiceData(b.serviceId)
-                    if (d && (b.coupon == 'SPAZE10000' || b.coupon == 'NILE10000')) {
+                    if (d && (b.coupon == 'SPAZE10000' || b.coupon == 'NILE10000' || b.coupon == 'GREEN10000')) {
                         if (d.service.search(/consultation/i) != -1) {
                             consultations++
                             continue
@@ -461,7 +461,7 @@ router.get('/info', auth, async (req, res) => {
             count: 0
         }
         for (let coupon of req.user.coupons) {
-            if (coupon == 'SPAZE10000' || coupon == 'NILE10000') {
+            if (coupon == 'SPAZE10000' || coupon == 'NILE10000' || coupon == 'GREEN10000') {
                 info.coupons = info.coupons.concat({
                     coupon: coupon,
                     consultations: 2,

@@ -49,8 +49,8 @@ router.post('/upload', async (req, res) => {
             console.log("Created new speciality", req.body.speciality)
         }
     })
-    console.log("Upload", req.body.type, req.file.filename)
-    if (req.filename.filename.split(".")[1] && req.filename.filename.split(".")[1].toLowerCase() === 'xlsx') {
+    console.log("Upload", req.body.type, req.filename)
+    if (req.filename.split(".")[1] && req.filename.split(".")[1].toLowerCase() === 'xlsx') {
         req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
         if (req.body.type === "hospital") {
             uploadHospital(req, res, function (err) {

@@ -39,7 +39,7 @@ const uploadCatalog = multer({
 
 router.post('/upload', async (req, res) => {
     console.log("Upload master catalog for speciality", req.body.speciality)
-    await Catalogue.findOne({speciality: req.body.speciality}, (err, speciality) => {
+    await Catalogue.findOne({speciality: req.body.speciality}, async (err, speciality) => {
         if(err) console.log(err)
         else if(!speciality) {
             await new Catalogue({

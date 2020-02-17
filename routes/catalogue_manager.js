@@ -37,7 +37,18 @@ const uploadCatalog = multer({
     storage: storageCatalog
 }).single('file')
 
-app.post('/upload', function (req, res) {
+router.post('/upload', (req, res) => {
+    console.log("Upload master catalog for speciality", req.body.speciality)
+    await Catalogue.findOne({speciality: req.body.speciality}, (err, speciality) => {
+        if(err) console.log(err)
+        else if(!speciality) {
+            await new Catalogue({
+                speciality: req.body.speciality,
+                services: []
+            }).save()
+            console.log("Created new speciality", req.body.speciality)
+        }
+    })
     console.log("Upload", req.body.type, req.file.filename)
     if (req.filename.filename.split(".")[1] && req.filename.filename.split(".")[1].toLowerCase() === 'xlsx') {
         req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
@@ -77,51 +88,33 @@ app.post('/upload', function (req, res) {
     }
 })
 
-// const similarity = (s1, s2) => {
-//     var longer = s1;
-//     var shorter = s2;
-//     if (s1.length < s2.length) {
-//         longer = s2;
-//         shorter = s1;
-//     }
-//     var longerLength = longer.length;
-//     if (longerLength == 0) {
-//         return 1.0;
-//     }
-//     return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
-// }
+router.get('/specialities', (req, res) => {
+    console.log("Get speciality list")
+    Catalogue.distinct('speciality').exec((err, docs) => {
+        if(err) {
+            console.log(err)
+            res.status(400).send({
+                status: 0,
+                data: err,
+                msg: ''
+            })
+        }
+        else {
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
+        }
+    })
+})
 
-// const editDistance = (s1, s2) => {
-//     s1 = s1.toLowerCase();
-//     s2 = s2.toLowerCase();
-
-//     var costs = new Array();
-//     for (var i = 0; i <= s1.length; i++) {
-//         var lastValue = i;
-//         for (var j = 0; j <= s2.length; j++) {
-//             if (i == 0)
-//                 costs[j] = j;
-//             else {
-//                 if (j > 0) {
-//                     var newValue = costs[j - 1];
-//                     if (s1.charAt(i - 1) != s2.charAt(j - 1))
-//                         newValue = Math.min(Math.min(newValue, lastValue),
-//                             costs[j]) + 1;
-//                     costs[j - 1] = lastValue;
-//                     lastValue = newValue;
-//                 }
-//             }
-//         }
-//         if (i > 0)
-//             costs[s2.length] = lastValue;
-//     }
-//     return costs[s2.length];
-// }
-
-const loadXlsx = async (f) => {
+const loadMasterSheet = async (f) => {
     console.log("Upload master sheet")
     let addedServices = []
+    let namesUpdated = []
     let notFoundSpecialities = []
+    let updatedServices = []
     const data = xlsx.parse(fs.readFileSync(f))
     await asyncForEach(data, async sheet => {
         await asyncForEach(sheet.data, async row => {
@@ -142,7 +135,7 @@ const loadXlsx = async (f) => {
                 speciality
             })
 
-            //Add/update service to DB
+            // Add/update service to DB
             if (catalogRecord) {
                 let j = catalogRecord.services.findIndex(x => x.service == service)
                 if (j == -1) {
@@ -157,13 +150,13 @@ const loadXlsx = async (f) => {
                         category
                     })
                     await catalogRecord.save()
+                    addedServices.push(service)
                 }
-
-                // Add skipped Details in catalogue
                 else if (j !== -1) {
                     console.log("Updating record")
                     if (updatedServiceName) {
                         catalogRecord.services[j].service = updatedServiceName
+                        namesUpdated.push(service + " -> " + updatedServiceName)
                     }
                     catalogRecord.services[j].details = details
                     catalogRecord.services[j].duration = duration
@@ -171,147 +164,14 @@ const loadXlsx = async (f) => {
                     catalogRecord.services[j].dnd = dnd
                     catalogRecord.services[j].tags = tags
                     catalogRecord.services[j].category = category
-
                     await catalogRecord.save()
+                    updatedServices.push(updatedServiceName || service)
                 }
             } else {
                 console.log('Speciality not found!')
+                notFoundSpecialities.push(speciality)
             }
         })
-    })
-    // for (var r of s.data) {
-    //     // console.log(r)
-    //     let m = r[1]
-    //     let sp = r[2]
-    //     let se = r[3]
-    //     let v = 25
-    //     let p = parseInt(r[6])
-    //     if (!p) {
-    //         continue
-    //     }
-    //     // console.log(m + '|' + sp + '|' + se + '|' + p + '|' + 25)
-    //     const c = await Catalogue.find({})
-    //     const u = await User.findOne({
-    //         mobileNumber: m
-    //     })
-    //     if (!u) {
-    //         continue
-    //     }
-    //     let i = c.findIndex(x => x.speciality == sp)
-    //     if (i != -1) {
-    //         let j = c[i].services.findIndex(x => x.service == se)
-    //         if (j != -1) {
-    //             console.log(c[i].services[j]._id.toString())
-    //             let k = u.specialities.findIndex(x => x.specialityId == c[i]._id.toString())
-    //             if (k != -1) {
-    //                 let l = u.specialities[k].services.findIndex(x => x.serviceId == c[i].services[j]._id.toString())
-    //                 if (l == -1) {
-    //                     u.specialities[k].services = u.specialities[k].services.concat({
-    //                         serviceId: c[i].services[j]._id.toString(),
-    //                         price: [p],
-    //                         variance: v,
-    //                         homeCollection: false,
-    //                         category: ['Basic']
-    //                     })
-    //                     await u.save()
-    //                 }
-    //             } else {
-    //                 u.specialities = u.specialities.concat({
-    //                     specialityId: c[i]._id.toString(),
-    //                     services: [{
-    //                         serviceId: c[i].services[j]._id.toString(),
-    //                         price: [p],
-    //                         variance: v,
-    //                         homeCollection: false,
-    //                         category: ['Basic']
-    //                     }]
-    //                 })
-    //                 await u.save()
-    //             }
-    //         } else {
-    //             console.log('Error:', sp, se)
-    //         }
-    //     } else {
-    //         console.log('Error:', sp)
-    //     }
-    // }
-}
-
-const loadXlsxServiceUpdates = async (f) => {
-    const data = xlsx.parse(fs.readFileSync(f))
-    var first = true
-    await asyncForEach(data, async sheet => {
-        if (first) {
-            first = false
-            await asyncForEach(sheet.data, async row => {
-                // console.log({ row })
-                let hospitalName = row[0]
-                let speciality = row[1]
-                let oldServiceName = row[2]
-                let newServiceName = row[2]
-                let price = parseInt(row[4])
-                let variance = parseInt(row[5])
-
-                let hospitalRecord = await User.findOne({
-                    name: hospitalName,
-                    userType: "Hospital"
-                })
-                if (hospitalRecord) {
-                    await Catalogue.updateMany({
-                        "services.service": oldServiceName
-                    }, {
-                        $set: {
-                            "services.$.service": newServiceName
-                        }
-                    })
-                    // console.log("Updated name", updateSpeciality)
-                    let catalogueRecord = await Catalogue.findOne({
-                        speciality
-                    })
-                    if (catalogueRecord) {
-                        const specialityId = catalogueRecord._id.toString()
-                        // console.log("Got speciality ID", specialityId)
-                        await asyncForEach(catalogueRecord.services, async element => {
-                            if (element.service === newServiceName || element.service === oldServiceName) {
-                                const serviceId = element._id.toString()
-                                await asyncForEach(hospitalRecord.specialities, async element => {
-                                    if (element.specialityId === specialityId) {
-                                        let flag = true
-                                        await asyncForEach(element.services, async element1 => {
-                                            if (element1.serviceId === serviceId) {
-                                                element1.homeCollection = false
-                                                element1.variance = variance
-                                                element1.category = ["Test"]
-                                                element1.price = [price]
-                                                await hospitalRecord.save()
-                                                console.log("Updated previous record", { hospitalName, speciality, newServiceName })
-                                                flag = false
-                                            }
-                                        })
-                                        if (flag) {
-                                            const tempObj = {
-                                                variance,
-                                                category: ["Test"],
-                                                serviceId,
-                                                price: [price],
-                                                homeCollection: false
-                                            }
-                                            element.services.push(tempObj)
-                                            await hospitalRecord.save()
-                                            console.log("Saved new record", { hospitalName, speciality, newServiceName })
-                                        }
-                                    }
-                                })
-                            }
-                        })
-                    } else {
-                        console.log("Speciality not found in catalogue", speciality)
-                    }
-                } else {
-                    console.log('Hospital not found in DB', hospitalName)
-                }
-            })
-        }
     })
 }
 
@@ -534,5 +394,46 @@ const loadXlsxSpeciality = async (f) => {
     console.log("Upload complete")
     process.exit(1)
 }
+
+// const similarity = (s1, s2) => {
+//     var longer = s1;
+//     var shorter = s2;
+//     if (s1.length < s2.length) {
+//         longer = s2;
+//         shorter = s1;
+//     }
+//     var longerLength = longer.length;
+//     if (longerLength == 0) {
+//         return 1.0;
+//     }
+//     return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
+// }
+
+// const editDistance = (s1, s2) => {
+//     s1 = s1.toLowerCase();
+//     s2 = s2.toLowerCase();
+
+//     var costs = new Array();
+//     for (var i = 0; i <= s1.length; i++) {
+//         var lastValue = i;
+//         for (var j = 0; j <= s2.length; j++) {
+//             if (i == 0)
+//                 costs[j] = j;
+//             else {
+//                 if (j > 0) {
+//                     var newValue = costs[j - 1];
+//                     if (s1.charAt(i - 1) != s2.charAt(j - 1))
+//                         newValue = Math.min(Math.min(newValue, lastValue),
+//                             costs[j]) + 1;
+//                     costs[j - 1] = lastValue;
+//                     lastValue = newValue;
+//                 }
+//             }
+//         }
+//         if (i > 0)
+//             costs[s2.length] = lastValue;
+//     }
+//     return costs[s2.length];
+// }
 
 module.exports = router

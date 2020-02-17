@@ -9,7 +9,8 @@ const prescriptionSchema = mongoose.Schema({
     patientName: String,
     prescriptionData: {},
     prescriptionUrl: String
-})
+
+}, {timestamp: true})
 
 prescriptionSchema.statics.getPrescriptionForUser = async (userId) => {
     const personalPrescriptions = await Prescription.find({

@@ -144,7 +144,10 @@ const userSchema = mongoose.Schema({
             practising: String,
             signatureUrl: String,
             address: String,
-            otherFields: [String]
+            otherFields: {
+                type: Array,
+                default: ['Diagnosis', 'Medicine', 'Test', 'Remarks']
+            }
         }
     }],
     referralCode: String,
@@ -168,10 +171,13 @@ const userSchema = mongoose.Schema({
         practising: String,
         signatureUrl: String,
         address: String,
-        otherFields: [String]
+        otherFields: {
+            type: Array,
+            default: ['Diagnosis', 'Medicine', 'Test', 'Remarks']
+        }
     },
     coupons: [String]
-}, {timestamp: true})
+}, { timestamp: true })
 
 userSchema.pre('save', async function (next) {
     const user = this

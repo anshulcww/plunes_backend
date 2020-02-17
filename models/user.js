@@ -144,10 +144,10 @@ const userSchema = mongoose.Schema({
             practising: String,
             signatureUrl: String,
             address: String,
-            otherFields: {
+            otherFields: [{
                 type: Array,
                 default: ['Diagnosis', 'Medicine', 'Test', 'Remarks']
-            }
+            }]
         }
     }],
     referralCode: String,
@@ -171,10 +171,10 @@ const userSchema = mongoose.Schema({
         practising: String,
         signatureUrl: String,
         address: String,
-        otherFields: {
+        otherFields: [{
             type: Array,
             default: ['Diagnosis', 'Medicine', 'Test', 'Remarks']
-        }
+        }]
     },
     coupons: [String]
 }, { timestamp: true })

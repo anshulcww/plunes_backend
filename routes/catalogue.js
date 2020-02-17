@@ -3,6 +3,7 @@ const fs = require('fs')
 const xlsx = require('node-xlsx')
 
 const Catalogue = require('../models/catalogue')
+const Services = require('../models/services')
 const User = require('../models/user')
 const auth = require('../middleware/auth')
 
@@ -25,46 +26,46 @@ router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)
-        const skip = parseInt(req.body.page)*limit
+        const skip = parseInt(req.body.page) * limit
+        const expression = new RegExp(req.body.expression, "i")
         try {
-            const catalogue = await Catalogue.aggregate([{
+            const catalogue = await Services.aggregate([{
                 $match: {
                     // $text: { $search: req.body.expression }
                     $or: [
-                        {"services.service": { $regex: req.body.expression }},
-                        {"services.tags": { $regex: req.body.expression }}
+                        { service: { $regex: expression } },
+                        { tags: { $regex: expression } }
                     ]
                 }
             },
+            // {
+            //     $project: {
+            //         serviceName: {
+            //             $filter: {
+            //                 input: '$services',
+            //                 as: 'services',
+            //                 cond: {
+            //                     "$regexMatch": { "input": '$$services.service', "regex": new RegExp(req.body.expression, "i") }
+            //                 }
+            //             }
+            //         },
+            //         _id: 0
+            //     }
+            // },
+            // {
+            //     $unwind: "$serviceName"
+            // },
             {
                 $project: {
-                    serviceName: {
-                        $filter: {
-                            input: '$services',
-                            as: 'services',
-                            cond: {
-                                "$regexMatch": { "input": '$$services.service', "regex": req.body.expression }
-                            }
-                        }
-                    },
-                    _id: 0
+                    _id: "$serviceId",
+                    service: "$service",
+                    category: "$category",
+                    details: "$details",
+                    dnd: "$dnd",
                 }
             },
             {
-                $unwind: "$serviceName"
-            },
-            {
-                $project: {
-                    _id: "$serviceName._id",
-                    service: "$serviceName.service",
-                    category: "$serviceName.category"
-                }
-            },
-            {
-                $sort: {_id : -1}
-            },
-            {
-                $sort: {service : 1}
+                $sort: { _id: 1 }
             },
             {
                 $skip: skip

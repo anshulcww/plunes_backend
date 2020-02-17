@@ -2,7 +2,6 @@ const express = require('express')
 const mongoose = require('mongoose')
 const fs = require('fs')
 const fileType = require('file-type')
-
 const User = require('../models/user')
 const Catalogue = require('../models/catalogue')
 const auth = require('../middleware/auth')
@@ -78,6 +77,7 @@ router.post('/login', async (req, res) => {
             user.deviceIds = user.deviceIds.filter((d) => d != deviceId)
             user.deviceIds = user.deviceIds.concat(deviceId)
         }
+        console.log(user)
         await user.save()
         res.status(201).json({
             success: true,
@@ -181,9 +181,9 @@ router.put('/', auth, async (req, res) => {
         }
 
         if (req.user.userType == 'Hospital' && data.doctors) {
-            data.doctors.forEach(function(doctor) {
+            data.doctors.forEach(function (doctor) {
                 if (doctor.doctorId) {
-                    req.user.doctors.forEach(function(d) {
+                    req.user.doctors.forEach(function (d) {
                         if (d._id.toString() == doctor.doctorId) {
                             d.name = doctor.name ? doctor.name : d.name
                             d.education = doctor.education ? doctor.education : d.education
@@ -222,11 +222,11 @@ router.put('/', auth, async (req, res) => {
         const specialities = req.user.specialities
 
         if (data.services) {
-            data.services.forEach(function(service) {
+            data.services.forEach(function (service) {
                 if (service.price == 0 || service.price.length == 0 || service.price[0] == 0) {
                     return
                 }
-                specialities.forEach(function(speciality) {
+                specialities.forEach(function (speciality) {
                     if (speciality.specialityId == service.specialityId) {
                         speciality.services = speciality.services.filter((s) => {
                             return s.serviceId != service.serviceId
@@ -245,7 +245,7 @@ router.put('/', auth, async (req, res) => {
         }
 
         if (data.specialityId && data.serviceId && data.price && data.variance) {
-            specialities.forEach(function(speciality) {
+            specialities.forEach(function (speciality) {
                 if (speciality.specialityId == data.specialityId) {
                     speciality.services = speciality.services.concat({
                         serviceId: data.serviceId,
@@ -260,7 +260,7 @@ router.put('/', auth, async (req, res) => {
             if (data.prescription.doctorId) {
                 let index = req.user.doctors.findIndex(d => d._id.toString() == data.prescription.doctorId)
                 if (index != -1) {
-                    req.user.doctors[index].prescription = data.prescription
+                    req.user.doctors[index].prescription = data.prescription  
                 }
             } else {
                 req.user.prescription = data.prescription
@@ -332,8 +332,8 @@ router.get('/', async (req, res) => {
                 success: true,
                 user: user
             } : {
-                success: false
-            }
+                    success: false
+                }
             // console.log(response)
             res.status(201).send(response)
         }
@@ -457,7 +457,7 @@ router.get('/:id/:field/:fieldId/:subField', async (req, res) => {
 
 router.delete('/:serviceId', auth, async (req, res) => {
     var deleted = false
-    req.user.specialities.forEach(function(speciality) {
+    req.user.specialities.forEach(function (speciality) {
         if (speciality.specialityId == service.specialityId) {
             speciality.services = speciality.services.filter((s) => {
                 if (s.serviceId == req.params.serviceId) {
@@ -472,7 +472,7 @@ router.delete('/:serviceId', auth, async (req, res) => {
     })
 })
 
-router.post('/upload', auth, async function(req, res) {
+router.post('/upload', auth, async function (req, res) {
     try {
         const buffer = new Buffer.from(req.body.data, 'base64')
         const ext = fileType(buffer).ext
@@ -591,9 +591,9 @@ router.put('/update', async (req, res) => {
         }
 
         if (user.userType == 'Hospital' && data.doctors) {
-            data.doctors.forEach(function(doctor) {
+            data.doctors.forEach(function (doctor) {
                 if (doctor.doctorId) {
-                    user.doctors.forEach(function(d) {
+                    user.doctors.forEach(function (d) {
                         if (d._id.toString() == doctor.doctorId) {
                             d.name = doctor.name ? doctor.name : d.name
                             d.education = doctor.education ? doctor.education : d.education
@@ -632,11 +632,11 @@ router.put('/update', async (req, res) => {
         const specialities = user.specialities
 
         if (data.services) {
-            data.services.forEach(function(service) {
+            data.services.forEach(function (service) {
                 if (service.price.length == 0 || service.price[0] == 0) {
                     return
                 }
-                specialities.forEach(function(speciality) {
+                specialities.forEach(function (speciality) {
                     if (speciality.specialityId == service.specialityId) {
                         speciality.services = speciality.services.filter((s) => {
                             return s.serviceId != service.serviceId
@@ -687,7 +687,7 @@ router.put('/update', async (req, res) => {
         }
 
         if (data.specialityId && data.serviceId && data.price && data.variance) {
-            specialities.forEach(function(speciality) {
+            specialities.forEach(function (speciality) {
                 if (speciality.specialityId == data.specialityId) {
                     speciality.services = speciality.services.concat({
                         serviceId: data.serviceId,

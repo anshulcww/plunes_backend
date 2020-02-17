@@ -41,6 +41,7 @@ router.post('/', auth, async (req, res) => {
             }
             const filename = '' + Date.now() + '-prescription.pdf'
             let fields = prescription.prescriptionData.fields.map(element => { return {key: Object.keys(element)[0], value: Object.values(element)[0]}})
+            console.log({fields})
             const document = {
                 html: html.toString(),
                 data: {

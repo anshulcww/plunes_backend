@@ -105,7 +105,7 @@ router.post('/test', auth, async (req, res) => {
 
         }
         if (prescriptionTemplate) {
-            console.log({prescriptionTemplate, prescriptionData})
+            console.log({prescriptionTemplate})
             const html = fs.readFileSync('./prescription_test.html')
             const options = {
                 format: 'A4',

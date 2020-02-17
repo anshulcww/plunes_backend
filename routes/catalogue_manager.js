@@ -77,293 +77,164 @@ app.post('/upload', function (req, res) {
     }
 })
 
-const similarity = (s1, s2) => {
-    var longer = s1;
-    var shorter = s2;
-    if (s1.length < s2.length) {
-        longer = s2;
-        shorter = s1;
-    }
-    var longerLength = longer.length;
-    if (longerLength == 0) {
-        return 1.0;
-    }
-    return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
-}
+// const similarity = (s1, s2) => {
+//     var longer = s1;
+//     var shorter = s2;
+//     if (s1.length < s2.length) {
+//         longer = s2;
+//         shorter = s1;
+//     }
+//     var longerLength = longer.length;
+//     if (longerLength == 0) {
+//         return 1.0;
+//     }
+//     return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
+// }
 
-const editDistance = (s1, s2) => {
-    s1 = s1.toLowerCase();
-    s2 = s2.toLowerCase();
+// const editDistance = (s1, s2) => {
+//     s1 = s1.toLowerCase();
+//     s2 = s2.toLowerCase();
 
-    var costs = new Array();
-    for (var i = 0; i <= s1.length; i++) {
-        var lastValue = i;
-        for (var j = 0; j <= s2.length; j++) {
-            if (i == 0)
-                costs[j] = j;
-            else {
-                if (j > 0) {
-                    var newValue = costs[j - 1];
-                    if (s1.charAt(i - 1) != s2.charAt(j - 1))
-                        newValue = Math.min(Math.min(newValue, lastValue),
-                            costs[j]) + 1;
-                    costs[j - 1] = lastValue;
-                    lastValue = newValue;
-                }
-            }
-        }
-        if (i > 0)
-            costs[s2.length] = lastValue;
-    }
-    return costs[s2.length];
-}
+//     var costs = new Array();
+//     for (var i = 0; i <= s1.length; i++) {
+//         var lastValue = i;
+//         for (var j = 0; j <= s2.length; j++) {
+//             if (i == 0)
+//                 costs[j] = j;
+//             else {
+//                 if (j > 0) {
+//                     var newValue = costs[j - 1];
+//                     if (s1.charAt(i - 1) != s2.charAt(j - 1))
+//                         newValue = Math.min(Math.min(newValue, lastValue),
+//                             costs[j]) + 1;
+//                     costs[j - 1] = lastValue;
+//                     lastValue = newValue;
+//                 }
+//             }
+//         }
+//         if (i > 0)
+//             costs[s2.length] = lastValue;
+//     }
+//     return costs[s2.length];
+// }
 
 const loadXlsx = async (f) => {
-    const d = xlsx.parse(fs.readFileSync(f))
-    var first = true
-    for (var s of d) {
-        if (first) {
-            first = false
-            for (var r of s.data) {
-                console.log({
-                    r
-                })
-                let sp = r[0]
-                let se = r[1]
-                let de = r[3]
-                let dn = r[6]
-                let ta = r[7]
-
-                const c = await Catalogue.findOne({
-                    speciality: sp
-                })
-                if (c) {
-                    let j = c.services.findIndex(x => x.service == se)
-                    if (j == -1) {
-                        console.log('Adding service:', se)
-                        c.services = c.services.concat({
-                            service: se,
-                            details: de,
-                            duration: 1,
-                            sittings: 1,
-                            dnd: dn,
-                            tags: ta,
-                            category: 'Basic'
-                        })
-                        await c.save()
-                    }
-                    // Add skipped Details in catalogue
-                    else if (j !== -1) {
-                        console.log("Updating record")
-                        Catalogue.updateOne({
-                            "services.service": se
-                        }, {
-                            $set: {
-                                "services.$.details": de,
-                                "services.$.tags": ta
-                            }
-                        }, (err, updated) => {
-                            if (err) console.log("Error", err)
-                            else console.log(updated)
-                        })
-                    }
-                } else {
-                    console.log('Speciality not found!')
-                }
-            }
-            continue
-        }
-        // for (var r of s.data) {
-        //     // console.log(r)
-        //     let m = r[1]
-        //     let sp = r[2]
-        //     let se = r[3]
-        //     let v = 25
-        //     let p = parseInt(r[6])
-        //     if (!p) {
-        //         continue
-        //     }
-        //     // console.log(m + '|' + sp + '|' + se + '|' + p + '|' + 25)
-        //     const c = await Catalogue.find({})
-        //     const u = await User.findOne({
-        //         mobileNumber: m
-        //     })
-        //     if (!u) {
-        //         continue
-        //     }
-        //     let i = c.findIndex(x => x.speciality == sp)
-        //     if (i != -1) {
-        //         let j = c[i].services.findIndex(x => x.service == se)
-        //         if (j != -1) {
-        //             console.log(c[i].services[j]._id.toString())
-        //             let k = u.specialities.findIndex(x => x.specialityId == c[i]._id.toString())
-        //             if (k != -1) {
-        //                 let l = u.specialities[k].services.findIndex(x => x.serviceId == c[i].services[j]._id.toString())
-        //                 if (l == -1) {
-        //                     u.specialities[k].services = u.specialities[k].services.concat({
-        //                         serviceId: c[i].services[j]._id.toString(),
-        //                         price: [p],
-        //                         variance: v,
-        //                         homeCollection: false,
-        //                         category: ['Basic']
-        //                     })
-        //                     await u.save()
-        //                 }
-        //             } else {
-        //                 u.specialities = u.specialities.concat({
-        //                     specialityId: c[i]._id.toString(),
-        //                     services: [{
-        //                         serviceId: c[i].services[j]._id.toString(),
-        //                         price: [p],
-        //                         variance: v,
-        //                         homeCollection: false,
-        //                         category: ['Basic']
-        //                     }]
-        //                 })
-        //                 await u.save()
-        //             }
-        //         } else {
-        //             console.log('Error:', sp, se)
-        //         }
-        //     } else {
-        //         console.log('Error:', sp)
-        //     }
-        // }
-    }
-}
-
-const loadXlsxForHospitals = async (f) => {
+    console.log("Upload master sheet")
+    let addedServices = []
+    let notFoundSpecialities = []
     const data = xlsx.parse(fs.readFileSync(f))
-    var first = true
-    for (var sheet of data) {
-        if (first) {
-            first = false
-            for (var row of sheet.data) {
-                console.log({
-                    row
-                })
-                let hospitalName = row[0]
-                let doctorName = row[1]
-                let speciality = row[2]
-                let education = row[3]
-                let consultationFee = row[4]
-                let experience = row[5]
-                let businessHours = "10:00 AM-08:00 PM"
-                let service = row[6]
+    await asyncForEach(data, async sheet => {
+        await asyncForEach(sheet.data, async row => {
+            console.log({ row })
+            let speciality = row[0]
+            let service = row[1]
+            let updatedServiceName = row[2]
+            let details = row[3]
+            let duration = row[4]
+            let sittings = row[5]
+            let dnd = row[6]
+            let tags = row[7]
+            let category = row[8]
+            let updated = row[9] === 'TRUE'
+            let deleted = row[10] === 'TRUE'
 
-                const hospitalRecord = await User.findOne({
-                    name: hospitalName,
-                    userType: "Hospital"
-                })
-                if (hospitalRecord) {
-                    let doctorExists = hospitalRecord.doctors.findIndex(x => x.name === doctorName)
-                    if (doctorExists === -1) {
-                        console.log("Doctor doesn't exist in DB, adding", doctorName, speciality)
-                        let catalogueRecord = await Catalogue.findOne({
-                            speciality
-                        })
-                        if (catalogueRecord) {
-                            console.log("Found speciality in DB", doctorName, speciality)
-                            let serviceExists = catalogueRecord.services.filter(x => x.service === service)
-                            if (serviceExists.length === 0) {
-                                console.log("Service doesn't exist in DB", service)
-                                // Add service to master catalogue
-                            } else {
-                                console.log("Service exists in DB", serviceExists, serviceExists[0]._id)
-                                let specialitiesRecord = {
-                                    specialityId: catalogueRecord._id,
-                                    services: [{
-                                        serviceId: serviceExists[0]._id,
-                                        price: [parseInt(consultationFee)],
-                                        variance: 25,
-                                        homeCollection: false,
-                                        category: 'Consultation'
-                                    }]
-                                }
-                                let newDoctorRecord = {
-                                    name: doctorName,
-                                    education,
-                                    designation: "Doctor",
-                                    experience: parseInt(experience),
-                                    specialities: [specialitiesRecord],
-                                    timeSlots: [{
-                                        slots: [businessHours],
-                                        day: 'monday',
-                                        closed: false
-                                    },
-                                    {
-                                        slots: [businessHours],
-                                        day: 'tuesday',
-                                        closed: false
-                                    },
-                                    {
-                                        slots: [businessHours],
-                                        day: 'wednesday',
-                                        closed: false
-                                    },
-                                    {
-                                        slots: [businessHours],
-                                        day: 'thursday',
-                                        closed: false
-                                    },
-                                    {
-                                        slots: [businessHours],
-                                        day: 'friday',
-                                        closed: false
-                                    },
-                                    {
-                                        slots: [businessHours],
-                                        day: 'saturday',
-                                        closed: false
-                                    },
-                                    {
-                                        slots: [businessHours],
-                                        day: 'sunday',
-                                        closed: true
-                                    }
-                                    ]
-                                    // No department, no imageUrl
-                                }
-                                console.log("New doctor record:", JSON.stringify(newDoctorRecord, undefined, 2))
-                                if (hospitalRecord.specialities.findIndex(x => x.specialityId === specialitiesRecord.specialityId) === -1) {
-                                    console.log("Speciality not in hospital record", specialitiesRecord)
-                                    hospitalRecord.specialities.push(specialitiesRecord)
-                                    hospitalRecord.doctors.push(newDoctorRecord)
-                                    console.log("CONCAT", hospitalRecord.doctors)
-                                    console.log("Save new record", hospitalRecord)
-                                    hospitalRecord.save().then(docs => {
-                                        console.log("New doctor saved")
-                                    })
-                                        .catch(e => console.error("Error", e))
-                                } else {
-                                    console.log("Speciality already in hospital record")
-                                    if (hospitalRecord.specialities.services.findIndex(x => x.serviceId === specialitiesRecord.services[0].serviceId) === -1) {
-                                        console.log("Service doesn't exist in speciality")
-                                        hospitalRecord.specialities.services.push(specialitiesRecord.services)
-                                        hospitalRecord.doctors.push(newDoctorRecord)
-                                        console.log("Save new record", hospitalRecord)
+            let catalogRecord = await Catalogue.findOne({
+                speciality
+            })
 
-                                        hospitalRecord.save().then(docs => {
-                                            console.log("New doctor saved")
-                                        })
-                                            .catch(e => console.error("Error", e))
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    // Add else in case doctor already exists, concat arrays
-                    else {
-                        console.log(`Doctor ${doctorName} already exists`)
-                    }
-                    // Add skipped Details in catalogue
-                } else {
-                    console.log('Speciality not found!')
+            //Add/update service to DB
+            if (catalogRecord) {
+                let j = catalogRecord.services.findIndex(x => x.service == service)
+                if (j == -1) {
+                    console.log('Adding service:', service)
+                    catalogRecord.services = catalogRecord.services.concat({
+                        service,
+                        details,
+                        duration: duration || 1,
+                        sittings: sittings || 1,
+                        dnd,
+                        tags,
+                        category
+                    })
+                    await catalogRecord.save()
                 }
+
+                // Add skipped Details in catalogue
+                else if (j !== -1) {
+                    console.log("Updating record")
+                    if (updatedServiceName) {
+                        catalogRecord.services[j].service = updatedServiceName
+                    }
+                    catalogRecord.services[j].details = details
+                    catalogRecord.services[j].duration = duration
+                    catalogRecord.services[j].sittings = sittings
+                    catalogRecord.services[j].dnd = dnd
+                    catalogRecord.services[j].tags = tags
+                    catalogRecord.services[j].category = category
+
+                    await catalogRecord.save()
+                }
+            } else {
+                console.log('Speciality not found!')
             }
-            continue
-        }
-    }
+        })
+    })
+    // for (var r of s.data) {
+    //     // console.log(r)
+    //     let m = r[1]
+    //     let sp = r[2]
+    //     let se = r[3]
+    //     let v = 25
+    //     let p = parseInt(r[6])
+    //     if (!p) {
+    //         continue
+    //     }
+    //     // console.log(m + '|' + sp + '|' + se + '|' + p + '|' + 25)
+    //     const c = await Catalogue.find({})
+    //     const u = await User.findOne({
+    //         mobileNumber: m
+    //     })
+    //     if (!u) {
+    //         continue
+    //     }
+    //     let i = c.findIndex(x => x.speciality == sp)
+    //     if (i != -1) {
+    //         let j = c[i].services.findIndex(x => x.service == se)
+    //         if (j != -1) {
+    //             console.log(c[i].services[j]._id.toString())
+    //             let k = u.specialities.findIndex(x => x.specialityId == c[i]._id.toString())
+    //             if (k != -1) {
+    //                 let l = u.specialities[k].services.findIndex(x => x.serviceId == c[i].services[j]._id.toString())
+    //                 if (l == -1) {
+    //                     u.specialities[k].services = u.specialities[k].services.concat({
+    //                         serviceId: c[i].services[j]._id.toString(),
+    //                         price: [p],
+    //                         variance: v,
+    //                         homeCollection: false,
+    //                         category: ['Basic']
+    //                     })
+    //                     await u.save()
+    //                 }
+    //             } else {
+    //                 u.specialities = u.specialities.concat({
+    //                     specialityId: c[i]._id.toString(),
+    //                     services: [{
+    //                         serviceId: c[i].services[j]._id.toString(),
+    //                         price: [p],
+    //                         variance: v,
+    //                         homeCollection: false,
+    //                         category: ['Basic']
+    //                     }]
+    //                 })
+    //                 await u.save()
+    //             }
+    //         } else {
+    //             console.log('Error:', sp, se)
+    //         }
+    //     } else {
+    //         console.log('Error:', sp)
+    //     }
+    // }
 }
 
 const loadXlsxServiceUpdates = async (f) => {
@@ -487,8 +358,8 @@ const asyncForEach = async (array, callback) => {
 const loadXlsxHospital = async (f) => {
     const data = xlsx.parse(fs.readFileSync(f))
     const hospitalName = data[0].sheet[0].row[1][0]
-    let lifeAidRecord = await User.findOne({
-        name: "Dr. Royals Path Lab"
+    let hospitalRecordMain = await User.findOne({
+        name: hospitalName
     })
     let specialitiesArray = []
 
@@ -541,8 +412,8 @@ const loadXlsxHospital = async (f) => {
         }
     })
     // console.log(JSON.stringify(specialitiesArray, undefined, 2))
-    lifeAidRecord.specialities = specialitiesArray
-    lifeAidRecord.save().then(docs => {
+    hospitalRecordMain.specialities = specialitiesArray
+    hospitalRecordMain.save().then(docs => {
         process.exit(1)
         // console.log("Data saved", docs)
     })

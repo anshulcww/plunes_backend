@@ -13,7 +13,7 @@ const Config = require('./config')
 
 const user = require('./routes/user')
 const catalogue = require('./routes/catalogue')
-// const catalogue_manager = require('./routes/catalogue_manager')
+const catalogue_manager = require('./routes/catalogue_manager')
 const enquiry = require('./routes/enquiry')
 const solution = require('./routes/solution')
 const booking = require('./routes/booking')
@@ -38,7 +38,7 @@ app.use(morgan('dev'))
 
 app.use('/user', user)
 app.use('/catalogue', catalogue)
-// app.use('/catalogue_manager', catalogue_manager)
+app.use('/catalogue_manager', catalogue_manager)
 app.use('/enquiry', enquiry)
 app.use('/solution', solution)
 app.use('/booking', booking)
@@ -74,6 +74,7 @@ const upload = multer({
 }).single('file', 10)
 
 app.post('/upload', function (req, res) {
+    console.log(req)
     upload(req, res, function (err) {
         if (err instanceof multer.MulterError) {
             return res.status(500).json(err)

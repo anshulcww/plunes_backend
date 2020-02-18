@@ -291,13 +291,15 @@ router.put('/', auth, async (req, res) => {
                     success: false,
                     message: 'This coupon has already been used!'
                 })
+            } else {
+                req.user.coupons = req.user.coupons.addToSet(data.coupon)
+                await req.user.save()
+                res.status(201).send({
+                    success: true
+                })
             }
-            req.user.coupons = req.user.coupons.addToSet(data.coupon)
-            await req.user.save()
-            res.status(201).send({
-                success: true
-            })
         } else {
+            console.log("No coupons added")
             await req.user.save()
             res.status(201).send({
                 success: true

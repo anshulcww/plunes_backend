@@ -257,6 +257,13 @@ router.put('/', auth, async (req, res) => {
         }
 
         if (data.prescription) {
+            if(data.prescription.logoUrl) {
+                req.user.logoUrl = data.prescription.logoUrl
+                req.user.logoText = ""
+            }
+            if(data.prescription.logoText) {
+                req.user.logoText = data.prescription.logoText
+            }
             if (data.prescription.doctorId) {
                 let index = req.user.doctors.findIndex(d => d._id.toString() == data.prescription.doctorId)
                 if (index != -1) {

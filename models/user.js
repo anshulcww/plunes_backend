@@ -148,6 +148,8 @@ const userSchema = mongoose.Schema({
         }
     }],
     referralCode: String,
+    logoUrl: String,
+    logoText: String,
     userReferralCode: {
         type: String,
         unique: true

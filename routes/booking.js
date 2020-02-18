@@ -9,6 +9,9 @@ const Solution = require('../models/solution')
 const Notification = require('../models/notification')
 const Catalogue = require('../models/catalogue')
 const auth = require('../middleware/auth')
+const { COUPON_CODES } = require('../config')
+
+const couponCodes = COUPON_CODES
 
 const router = express.Router()
 
@@ -38,8 +41,6 @@ If you want to reschedule/cancel your appointment, please visit the app.
 
 `
 }
-
-const couponCodes = ['SPAZE10000', 'NILE10000', 'UPPAL10000']
 
 router.post('/', auth, async (req, res) => {
     console.log("Booking - POST")

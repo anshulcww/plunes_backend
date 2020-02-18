@@ -5,6 +5,7 @@ const fileType = require('file-type')
 const User = require('../models/user')
 const Catalogue = require('../models/catalogue')
 const auth = require('../middleware/auth')
+const { COUPON_CODES } = require('../config')
 
 const router = express.Router()
 
@@ -275,9 +276,10 @@ router.put('/', auth, async (req, res) => {
             }
         }
 
-        const validCoupons = ['NILE10000']
+        const validCoupons = COUPON_CODES
         if (data.coupon && req.user.coupons.findIndex(c => c == data.coupon) != -1) {
-            if (validCoupons.findIndex(c => c == data.coupon) == -1) {
+            if (validCoupons.indexOf(data.coupon) === -1) {
+                console.log("Invalid coupon")
                 res.status(201).send({
                     success: false,
                     message: 'Please enter a valid coupon!'

@@ -11,7 +11,7 @@ router = express.Router()
 
 const storageHospital = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, 'public')
+        cb(null, 'public/hospitals')
     },
     filename: function (req, file, cb) {
         file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
@@ -21,7 +21,7 @@ const storageHospital = multer.diskStorage({
 
 const storageCatalog = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, 'public')
+        cb(null, 'public/catalogs')
     },
     filename: function (req, file, cb) {
         file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
@@ -39,89 +39,58 @@ const uploadCatalog = multer({
 
 router.post('/uploadCatalog', async (req, res) => {
     console.log("Upload master catalog for speciality")
-    console.log("Upload", req.body.type, req.filename)
-    await Catalogue.findOne({ speciality: req.body.speciality }, async (err, speciality) => {
-        if (err) console.log(err)
-        else if (!speciality) {
-            await new Catalogue({
-                speciality: req.body.speciality,
-                services: []
-            }).save()
-            console.log("Created new speciality", req.body.speciality)
+    uploadCatalog(req, res, async function (err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(500).json(err)
+        } else if (err) {
+            return res.status(500).json(err)
+        }
+        console.log("Catalog Filename Before", req.file.filename)
+        if(req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
+            req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
+            console.log("Catalog Filename After", req.file.filename)
+            await Catalogue.findOne({ speciality: req.body.speciality }, async (err, speciality) => {
+                if (err) console.log(err)
+                else if (!speciality) {
+                    console.log("New speciality")
+                    await new Catalogue({
+                        speciality: req.body.speciality,
+                        services: []
+                    }).save()
+                    console.log("Created new speciality", req.body.speciality)
+                }
+            })
+            return res.status(200).send({
+                status: 1,
+                data: req.file,
+                msg: "success"
+            })
+        } else {
+            return res.status(400).send({
+                status: 0,
+                data: [],
+                msg: "Please upload valid (*.xlsx) file"
+            })
         }
     })
-    if (req.filename.split(".")[1] && req.filename.split(".")[1].toLowerCase() === 'xlsx') {
-        req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
-        uploadCatalog(req, res, function (err) {
-            if (err instanceof multer.MulterError) {
-                return res.status(500).json(err)
-            } else if (err) {
-                return res.status(500).json(err)
-            }
-            console.log("FILENAME", req.file.filename)
-            req.file.filename = req.file.filename.split('.')[0] + (req.file.filename.split('.')[1] ? "." + req.file.filename.split('.')[1].toLowerCase() : '')
-            console.log("NEW FILENAME", req.file.filename)
-            if (req.file.filename.endsWith('.pdf')) {
-                console.log(execFileSync('/usr/bin/convert', ['./public/' + req.file.filename + '[0]', './public/' + req.file.filename + '.thumbnail.png']).toString('utf8'))
-            } else if (req.file.filename.endsWith('.jpg') || req.file.filename.endsWith('.jpeg') || req.file.filename.endsWith('.png')) {
-                console.log(execFileSync('/usr/bin/convert', ['./public/' + req.file.filename, '-resize', '260x168', './public/' + req.file.filename + '.thumbnail.png']).toString('utf8'))
-            }
-            return res.status(200).send(req.file)
-        })
-    } else {
-        res.status(400).send("Please upload valid xlsx file")
-    }
 })
 
 router.post('/uploadHospital', async (req, res) => {
-    console.log("Upload master catalog for speciality", req.file)
-    await Catalogue.findOne({ speciality: req.body.speciality }, async (err, speciality) => {
-        if (err) console.log(err)
-        else if (!speciality) {
-            await new Catalogue({
-                speciality: req.body.speciality,
-                services: []
-            }).save()
-            console.log("Created new speciality", req.body.speciality)
+    console.log("Upload hospital data")
+    uploadHospital(req, res, function (err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(500).json(err)
+        } else if (err) {
+            return res.status(500).json(err)
+        }
+        if(req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
+            req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
+            console.log("Hospital Filename", req.file.filename)
+            return res.status(200).send(req.file)
+        } else {
+            return res.status(400).send("Please upload valid (*.xlsx) file")
         }
     })
-    console.log("Upload", req.body.type, req.filename)
-    if (req.filename.split(".")[1] && req.filename.split(".")[1].toLowerCase() === 'xlsx') {
-        req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
-        if (req.body.type === "hospital") {
-            uploadHospital(req, res, function (err) {
-                if (err instanceof multer.MulterError) {
-                    return res.status(500).json(err)
-                } else if (err) {
-                    return res.status(500).json(err)
-                }
-                console.log("FILENAME", req.file.filename)
-                req.file.filename = req.file.filename.split('.')[0] + (req.file.filename.split('.')[1] ? "." + req.file.filename.split('.')[1].toLowerCase() : '')
-                console.log("NEW FILENAME", req.file.filename)
-
-                return res.status(200).send(req.file)
-            })
-        } else if (req.body.type === "catalog") {
-            uploadCatalog(req, res, function (err) {
-                if (err instanceof multer.MulterError) {
-                    return res.status(500).json(err)
-                } else if (err) {
-                    return res.status(500).json(err)
-                }
-                console.log("FILENAME", req.file.filename)
-                req.file.filename = req.file.filename.split('.')[0] + (req.file.filename.split('.')[1] ? "." + req.file.filename.split('.')[1].toLowerCase() : '')
-                console.log("NEW FILENAME", req.file.filename)
-                if (req.file.filename.endsWith('.pdf')) {
-                    console.log(execFileSync('/usr/bin/convert', ['./public/' + req.file.filename + '[0]', './public/' + req.file.filename + '.thumbnail.png']).toString('utf8'))
-                } else if (req.file.filename.endsWith('.jpg') || req.file.filename.endsWith('.jpeg') || req.file.filename.endsWith('.png')) {
-                    console.log(execFileSync('/usr/bin/convert', ['./public/' + req.file.filename, '-resize', '260x168', './public/' + req.file.filename + '.thumbnail.png']).toString('utf8'))
-                }
-                return res.status(200).send(req.file)
-            })
-        }
-    } else {
-        res.status(400).send("Please upload valid xlsx file")
-    }
 })
 
 router.get('/specialities', (req, res) => {

@@ -60,14 +60,14 @@ router.post('/', auth, async (req, res) => {
         if (couponCodes.indexOf(booking.coupon) !== -1) {
             let user = await User.findById(booking.userId)
             // If user has added coupon
-            if (couponCodes.findIndex(user.coupons[0]) !== -1) {
+            if (couponCodes.indexOf(user.coupons[0]) !== -1) {
                 const bookings = await Booking.findBookingsOfUser(booking.userId, 'Confirmed')
                 let consultations = 0
                 let tests = 0
                 // Calculate remaining free tests/consultations from previous bookings
                 for (let b of bookings) {
                     let d = await Catalogue.findServiceData(b.serviceId)
-                    if (d && (couponCodes.findIndex(b.coupon) !== -1)) {
+                    if (d && (couponCodes.indexOf(b.coupon) !== -1)) {
                         if (d.service.search(/consultation/i) != -1) {
                             consultations++
                         }
@@ -441,7 +441,7 @@ router.get('/info', auth, async (req, res) => {
         }
         for (let coupon of req.user.coupons) {
             console.log("User coupon", coupon)
-            if (couponCodes.findIndex(coupon) !== -1) {
+            if (couponCodes.indexOf(coupon) !== -1) {
                 info.coupons = info.coupons.concat({
                     coupon: coupon,
                     consultations: 2,

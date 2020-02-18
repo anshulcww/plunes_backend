@@ -277,6 +277,7 @@ router.put('/', auth, async (req, res) => {
         }
 
         const validCoupons = COUPON_CODES
+        console.log("STUFF", data.coupon, req.user.coupon, validCoupons)
         if (data.coupon && req.user.coupons.findIndex(c => c == data.coupon) != -1) {
             if (validCoupons.indexOf(data.coupon) === -1) {
                 console.log("Invalid coupon")

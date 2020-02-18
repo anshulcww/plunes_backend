@@ -145,8 +145,7 @@ const userSchema = mongoose.Schema({
             practising: String,
             signatureUrl: String,
             address: String,
-            otherFields: [String],
-            signatures: [String]
+            otherFields: [String]
         }
     }],
     referralCode: String,
@@ -171,8 +170,7 @@ const userSchema = mongoose.Schema({
         practising: String,
         signatureUrl: String,
         address: String,
-        otherFields: [String],
-        signatures: [String]
+        otherFields: [String]
     },
     coupons: [String]
 }, {timestamp: true})

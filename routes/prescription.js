@@ -105,12 +105,11 @@ router.post('/test', auth, async (req, res) => {
 
         }
         if (prescriptionTemplate) {
-            console.log({prescriptionTemplate}, req.body.logoUrl, req.body.logoText)
+            console.log({prescriptionTemplate}, prescriptionTemplate.logoUrl, prescriptionTemplate.logoText)
             let html
             if(prescriptionTemplate.logoUrl !== "") {
                 html = fs.readFileSync('./prescription_logo.html')
             } else {
-                prescriptionTemplate.logoUrl = req.body.logoText
                 html = fs.readFileSync('./prescription_text.html')
             }
             const options = {

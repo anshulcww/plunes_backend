@@ -258,18 +258,18 @@ router.put('/', auth, async (req, res) => {
         }
 
         if (data.prescription) {
-            if(data.prescription.logoUrl) {
+            if (data.prescription.logoUrl) {
                 req.user.logoUrl = data.prescription.logoUrl
                 req.user.logoText = ""
             }
-            if(data.prescription.logoText) {
+            if (data.prescription.logoText) {
                 console.log("Logo Text", data.prescription.logoText)
                 req.user.logoText = data.prescription.logoText
             }
             if (data.prescription.doctorId) {
                 let index = req.user.doctors.findIndex(d => d._id.toString() == data.prescription.doctorId)
                 if (index != -1) {
-                    req.user.doctors[index].prescription = data.prescription  
+                    req.user.doctors[index].prescription = data.prescription
                 }
             } else {
                 req.user.prescription = data.prescription
@@ -278,22 +278,26 @@ router.put('/', auth, async (req, res) => {
 
         const validCoupons = COUPON_CODES
         console.log("STUFF", data.coupon, req.user.coupons, validCoupons, req.user.coupons.findIndex(c => c === data.coupon))
-        if (data.coupon && (req.user.coupons.findIndex(c => c === data.coupon) === -1)) {
-            console.log("Inside stuff")
+        console.log("Inside stuff")
+        if (data.coupon) {
             if (validCoupons.indexOf(data.coupon) === -1) {
                 console.log("Invalid coupon")
                 res.status(201).send({
                     success: false,
                     message: 'Please enter a valid coupon!'
                 })
-            } else {
+            } else if ((req.user.coupons.findIndex(c => c === data.coupon) !== -1)) {
                 res.status(201).send({
                     success: false,
                     message: 'This coupon has already been used!'
                 })
             }
-        } else {
             req.user.coupons = req.user.coupons.addToSet(data.coupon)
+            await req.user.save()
+            res.status(201).send({
+                success: true
+            })
+        } else {
             await req.user.save()
             res.status(201).send({
                 success: true

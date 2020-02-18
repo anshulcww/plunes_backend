@@ -65,7 +65,7 @@ router.post('/', auth, async (req, res) => {
                             consultations++
                             continue
                         }
-                        if (d.service.search(/test/i) != -1 || d.service.category == 'Test') {
+                        if (d.service.search(/test/i) != -1 || d.category == 'Test') {
                             tests++
                         }
                     }
@@ -480,13 +480,14 @@ router.get('/info', auth, async (req, res) => {
                 continue
             }
             let d = await Catalogue.findServiceData(b.serviceId)
+            console.log("Catalogue record", d)
             if (d) {
-                console.log("Consultation/Test Check", d.service, d.service.category)
+                console.log("Consultation/Test Check", d.service, d.category)
                 if (d.service.search(/consultation/i) != -1) {
                     info.coupons[i].consultations--
                     continue
                 }
-                if (d.service.search(/test/i) != -1 || d.service.category == 'Test') {
+                if (d.service.search(/test/i) != -1 || d.category == 'Test') {
                     info.coupons[i].tests--
                 }
             }

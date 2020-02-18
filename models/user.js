@@ -134,6 +134,7 @@ const userSchema = mongoose.Schema({
         }],
         prescription: {
             logoUrl: String,
+            logoText: String,
             doctorName: String,
             qualification: String,
             speciality: String,
@@ -160,6 +161,7 @@ const userSchema = mongoose.Schema({
     },
     prescription: {
         logoUrl: String,
+        logoText: String,
         doctorName: String,
         qualification: String,
         speciality: String,

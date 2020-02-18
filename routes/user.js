@@ -262,6 +262,7 @@ router.put('/', auth, async (req, res) => {
                 req.user.logoText = ""
             }
             if(data.prescription.logoText) {
+                console.log("Logo Text", data.prescription.logoText)
                 req.user.logoText = data.prescription.logoText
             }
             if (data.prescription.doctorId) {

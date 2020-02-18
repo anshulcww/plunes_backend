@@ -2,6 +2,7 @@ const express = require('express')
 const fs = require('fs')
 const xlsx = require('node-xlsx')
 const multer = require('multer')
+const path = require('path')
 
 const Catalogue = require('../models/catalogue')
 const Services = require('../models/services')
@@ -93,6 +94,15 @@ router.post('/uploadHospital', async (req, res) => {
     })
 })
 
+router.post('/submit', (req, res) => {
+    console.log("Upload data submit", req.body.type)
+    if(req.body.type === 'catalog') {
+        loadMasterSheetTest(path.join(__dirname, '../public/catalogs/', req.body.filename))
+    } else if (req.body.type === 'hospital') {
+
+    }
+})
+
 router.get('/specialities', (req, res) => {
     console.log("Get speciality list")
     Catalogue.distinct('speciality').exec((err, docs) => {
@@ -113,6 +123,10 @@ router.get('/specialities', (req, res) => {
         }
     })
 })
+
+const loadMasterSheetTest = (f) => {
+    console.log("Check check", f)
+}
 
 const loadMasterSheet = async (f) => {
     console.log("Upload master sheet")

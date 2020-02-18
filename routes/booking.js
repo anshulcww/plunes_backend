@@ -39,37 +39,43 @@ If you want to reschedule/cancel your appointment, please visit the app.
 `
 }
 
+const couponCodes = ['SPAZE10000', 'NILE10000', 'UPPAL10000']
+
 router.post('/', auth, async (req, res) => {
     console.log("Booking - POST")
     try {
         console.log(req.body)
-        if (req.body.coupon === 'SPAZE10000' || req.body.coupon === 'NILE10000' || req.body.coupon === 'UPPAL10000') {
+        // Set credits to 0 if using coupons
+        if (couponCodes.indexOf(req.body.coupon) !== -1) {
             req.body.creditsUsed = 0
         }
         const booking = new Booking(req.body)
         booking.service = await Solution.findSolutionService(booking.solutionServiceId)
         console.log(booking.service)
         let couponUsed = false
-        booking.referenceId = 'PLUNES-' + new Date().toISOString().substr(0, 10) + '-' +
-            parseInt((1000 + Math.random() * 1000))
-        if (booking.coupon == 'SPAZE10000' || booking.coupon === 'NILE10000' || booking.coupon === 'UPPAL10000') {
+        booking.referenceId = 'PLUNES-' + new Date().toISOString().substr(0, 10) + '-' + parseInt((1000 + Math.random() * 1000))
+
+        // If there are coupons in the request
+        if (couponCodes.indexOf(booking.coupon) !== -1) {
             let user = await User.findById(booking.userId)
-    if (user.coupons.findIndex(c => c == 'SPAZE10000' || c == 'NILE10000' || c == 'UPPAL10000') != -1) {
+            // If user has added coupon
+            if (couponCodes.findIndex(user.coupons[0]) !== -1) {
                 const bookings = await Booking.findBookingsOfUser(booking.userId, 'Confirmed')
                 let consultations = 0
                 let tests = 0
+                // Calculate remaining free tests/consultations from previous bookings
                 for (let b of bookings) {
                     let d = await Catalogue.findServiceData(b.serviceId)
-                    if (d && (b.coupon == 'SPAZE10000' || b.coupon == 'NILE10000' || b.coupon == 'UPPAL10000')) {
+                    if (d && (couponCodes.findIndex(b.coupon) !== -1)) {
                         if (d.service.search(/consultation/i) != -1) {
                             consultations++
-                            continue
                         }
                         if (d.service.search(/test/i) != -1 || d.service.category == 'Test') {
                             tests++
                         }
                     }
                 }
+                // If there are free tests/consultations available, confirm booking
                 let serviceData = await Catalogue.findServiceData(booking.serviceId)
                 if (serviceData && serviceData.service.search(/consultation/i) != -1 && consultations < 2) {
                     booking.bookingStatus = 'Confirmed'
@@ -81,6 +87,7 @@ router.post('/', auth, async (req, res) => {
                 }
             }
         }
+        // If booking is not confirmed, no coupons used, only credits used
         if (booking.bookingStatus != 'Confirmed' && booking.paymentPercent == '100' && booking.service.newPrice[booking.service.index] == booking.creditsUsed) {
             booking.bookingStatus = 'Confirmed'
         }
@@ -88,6 +95,7 @@ router.post('/', auth, async (req, res) => {
             const user = await User.findById(booking.userId)
             const professional = await User.findById(booking.professionalId)
             if (user) {
+                // Decrement credits if no coupons used
                 if (!couponUsed) {
                     user.credits -= booking.creditsUsed
                 }
@@ -205,36 +213,6 @@ router.get('/', auth, async (req, res) => {
                 $sort: { _id: -1 }
             }
         ])
-        // let bookings = await Booking.find({
-        //     $or: [{
-        //         userId: req.user._id.toString()
-        //     }, {
-        //         professionalId: req.user._id.toString()
-        //     }],
-        //     bookingStatus: 'Confirmed'
-        // })
-        // for (var i = 0; i < bookings.length; i++) {
-        //     const booking = bookings[i]
-        //     const user = await User.findById(booking.userId)
-        //     if (user) {
-        //         booking.userName = user.name
-        //         booking.userLocation = user.geoLocation
-        //         booking.userImageUrl = user.imageUrl
-        //         booking.userAddress = user.address
-        //         booking.userEmail = user.email
-        //         booking.userMobileNumber = user.mobileNumber
-        //     }
-        //     const professional = await User.findById(booking.professionalId)
-        //     if (professional) {
-        //         booking.professionalName = professional.name
-        //         booking.professionalLocation = professional.geoLocation
-        //         booking.professionalImageUrl = professional.imageUrl
-        //         booking.professionalAddress = professional.address
-        //         booking.professionalEmail = professional.email
-        //         booking.professionalMobileNumber = professional.mobileNumber
-        //     }
-        // }
-        // console.log(bookings)
         res.status(201).send({
             success: true,
             bookings: bookings
@@ -461,7 +439,7 @@ router.get('/info', auth, async (req, res) => {
             count: 0
         }
         for (let coupon of req.user.coupons) {
-            if (coupon == 'SPAZE10000' || coupon == 'NILE10000' || coupon == 'UPPAL10000') {
+            if (couponCodes.findIndex(coupon) !== -1) {
                 info.coupons = info.coupons.concat({
                     coupon: coupon,
                     consultations: 2,

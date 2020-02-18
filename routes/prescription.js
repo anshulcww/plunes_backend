@@ -106,7 +106,12 @@ router.post('/test', auth, async (req, res) => {
         }
         if (prescriptionTemplate) {
             console.log({prescriptionTemplate})
-            const html = fs.readFileSync('./prescription_test.html')
+            let html
+            if(prescriptionTemplate.logoUrl !== "") {
+                html = fs.readFileSync('./prescription_logo.html')
+            } else {
+                html = fs.readFileSync('./prescription_text.html')
+            }
             const options = {
                 format: 'A4',
                 orientation: 'portrait',

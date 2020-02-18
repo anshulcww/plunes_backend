@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prescription</title>
+    <link rel = 'stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css'></link>
+    <style type='text/css'>
+        body {
+            margin: 0;
+            padding: 0px;
+            font-size: 9px;
+            line-height: 10px;
+            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+            color: gray;}
+        .logo{background-size: cover;
+        width:auto;
+        height:50px;}
+    .page{
+    width: 210mm
+    }
+    table{
+        width: 100%
+    }
+    td {
+          height: 35px;
+    }
+    
+    hr{
+     height:1px;
+     border-top:none;
+    
+    }
+
+    .paragraph{
+             word-spacing: 3px;
+    }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><img src="{{prescriptionTemplate.logoUrl}}" alt="" class="logo"></td>
+            
+            <td width="50%"><b>{{prescriptionTemplate.doctorName}}</b> <br></br>
+                {{prescriptionTemplate.qualification}}<br></br>{{prescriptionTemplate.speciality}}
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <p><b>Experience of Practice: </b>{{prescriptionTemplate.experience}} years</p>
+            </td>
+        
+            <td width="50%"> 
+                <p class="detail"><b>Tel : </b>{{prescriptionTemplate.mobileNumber}}<br><br><b>Email :
+                    </b>{{prescriptionTemplate.email}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>{{prescriptionTemplate.designation}}<br></br>{{prescriptionTemplate.practising}}
+                    <br></br>{{prescriptionTemplate.address}}
+                </p>
+            </td>
+        </tr>
+    </table>
+    <hr></hr>
+    <table>
+        <tr>
+            <td width="50%"><span><b>Name : </b></span><span>{{prescriptionData.patientName}}<br></br><br></br></span></td><br></br>
+            
+            <td width="50%"><span><b>Age : </b></span><span>{{prescriptionData.patientAge}} Years<br></br><br></br></span></td>
+        </tr>
+        
+        <tr>
+            <td class="50%" ><b>Gender : </b>{{prescriptionData.patientGender}}</td>
+        
+            <td width="50%"><b>Date : </b>{{prescriptionData.date}}</td>
+        </tr>
+    </table>
+    <table>
+        {{#each fields}}
+         <tr>
+             <td valign="top" width="15%"><b>{{this.key}}</b></td> <td valign="top" class="paragraph"  width="80%" > {{this.value}}</td>
+        </tr><br/>
+        {{/each}}
+    </table>
+    <br/>
+    <table>
+        <tr>
+            <td width="70%"></td>
+         <td width="30%"><b>{{prescriptionTemplate.doctorName}}</b> <br></br>
+         </td>
+        <tr>
+    </table>
+    <hr>
+    <footer style="text-align: center;">
+        <p><b>Address : </b>{{prescriptionTemplate.address}}</p>
+        <p><b>Phone Number : </b>{{prescriptionTemplate.mobileNumber}}</p>
+        <p><b>Email : </b>{{prescriptionTemplate.email}}</p>    
+    </footer>
+</body>
+
+</html>

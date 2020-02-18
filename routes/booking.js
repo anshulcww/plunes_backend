@@ -440,6 +440,7 @@ router.get('/info', auth, async (req, res) => {
             count: 0
         }
         for (let coupon of req.user.coupons) {
+            console.log("User coupon", coupon)
             if (couponCodes.findIndex(coupon) !== -1) {
                 info.coupons = info.coupons.concat({
                     coupon: coupon,

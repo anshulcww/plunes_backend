@@ -10,189 +10,7 @@ const User = require('../models/user')
 
 router = express.Router()
 
-const storageHospital = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, 'public/hospitals')
-    },
-    filename: function (req, file, cb) {
-        file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
-        cb(null, Date.now() + '-' + file.originalname)
-    }
-})
-
-const storageCatalog = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, 'public/catalogs')
-    },
-    filename: function (req, file, cb) {
-        file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
-        cb(null, Date.now() + '-' + file.originalname)
-    }
-})
-
-const uploadHospital = multer({
-    storage: storageHospital
-}).single('file')
-
-const uploadCatalog = multer({
-    storage: storageCatalog
-}).single('file')
-
-router.post('/uploadCatalog', async (req, res) => {
-    console.log("Upload master catalog for speciality")
-    uploadCatalog(req, res, async function (err) {
-        if (err instanceof multer.MulterError) {
-            return res.status(500).json(err)
-        } else if (err) {
-            return res.status(500).json(err)
-        }
-        console.log("Catalog Filename Before", req.file.filename)
-        if(req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
-            req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
-            console.log("Catalog Filename After", req.file.filename)
-            await Catalogue.findOne({ speciality: req.body.speciality }, async (err, speciality) => {
-                if (err) console.log(err)
-                else if (!speciality) {
-                    console.log("New speciality")
-                    await new Catalogue({
-                        speciality: req.body.speciality,
-                        services: []
-                    }).save()
-                    console.log("Created new speciality", req.body.speciality)
-                }
-            })
-            return res.status(200).send({
-                status: 1,
-                data: req.file,
-                msg: "success"
-            })
-        } else {
-            return res.status(400).send({
-                status: 0,
-                data: [],
-                msg: "Please upload valid (*.xlsx) file"
-            })
-        }
-    })
-})
-
-router.post('/uploadHospital', async (req, res) => {
-    console.log("Upload hospital data")
-    uploadHospital(req, res, function (err) {
-        if (err instanceof multer.MulterError) {
-            return res.status(500).json(err)
-        } else if (err) {
-            return res.status(500).json(err)
-        }
-        if(req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
-            req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
-            console.log("Hospital Filename", req.file.filename)
-            return res.status(200).send(req.file)
-        } else {
-            return res.status(400).send("Please upload valid (*.xlsx) file")
-        }
-    })
-})
-
-router.post('/submit', (req, res) => {
-    console.log("Upload data submit", req.body.type)
-    if(req.body.type === 'catalog') {
-        loadMasterSheetTest(path.join(__dirname, '../public/catalogs/', req.body.filename))
-    } else if (req.body.type === 'hospital') {
-
-    }
-})
-
-router.get('/specialities', (req, res) => {
-    console.log("Get speciality list")
-    Catalogue.distinct('speciality').exec((err, docs) => {
-        if (err) {
-            console.log(err)
-            res.status(400).send({
-                status: 0,
-                data: err,
-                msg: ''
-            })
-        }
-        else {
-            res.status(200).send({
-                status: 1,
-                data: docs,
-                msg: ''
-            })
-        }
-    })
-})
-
-const loadMasterSheetTest = (f) => {
-    console.log("Check check", f)
-}
-
-const loadMasterSheet = async (f) => {
-    console.log("Upload master sheet")
-    let addedServices = []
-    let namesUpdated = []
-    let notFoundSpecialities = []
-    let updatedServices = []
-    const data = xlsx.parse(fs.readFileSync(f))
-    await asyncForEach(data, async sheet => {
-        await asyncForEach(sheet.data, async row => {
-            console.log({ row })
-            let speciality = row[0]
-            let service = row[1]
-            let updatedServiceName = row[2]
-            let details = row[3]
-            let duration = row[4]
-            let sittings = row[5]
-            let dnd = row[6]
-            let tags = row[7]
-            let category = row[8]
-            let updated = row[9] === 'TRUE'
-            let deleted = row[10] === 'TRUE'
-
-            let catalogRecord = await Catalogue.findOne({
-                speciality
-            })
-
-            // Add/update service to DB
-            if (catalogRecord) {
-                let j = catalogRecord.services.findIndex(x => x.service == service)
-                if (j == -1) {
-                    console.log('Adding service:', service)
-                    catalogRecord.services = catalogRecord.services.concat({
-                        service,
-                        details,
-                        duration: duration || 1,
-                        sittings: sittings || 1,
-                        dnd,
-                        tags,
-                        category
-                    })
-                    await catalogRecord.save()
-                    addedServices.push(service)
-                }
-                else if (j !== -1) {
-                    console.log("Updating record")
-                    if (updatedServiceName) {
-                        catalogRecord.services[j].service = updatedServiceName
-                        namesUpdated.push(service + " -> " + updatedServiceName)
-                    }
-                    catalogRecord.services[j].details = details
-                    catalogRecord.services[j].duration = duration
-                    catalogRecord.services[j].sittings = sittings
-                    catalogRecord.services[j].dnd = dnd
-                    catalogRecord.services[j].tags = tags
-                    catalogRecord.services[j].category = category
-                    await catalogRecord.save()
-                    updatedServices.push(updatedServiceName || service)
-                }
-            } else {
-                console.log('Speciality not found!')
-                notFoundSpecialities.push(speciality)
-            }
-        })
-    })
-}
+let globalObject = {}
 
 const getServiceId = name => {
     return new Promise(async (resolve, reject) => {
@@ -234,25 +52,281 @@ const asyncForEach = async (array, callback) => {
     }
 }
 
-const loadXlsxHospital = async (f) => {
+const storageHospital = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'public/hospitals')
+    },
+    filename: function (req, file, cb) {
+        file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
+        cb(null, Date.now() + '-' + file.originalname)
+    }
+})
+
+const storageCatalog = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'public/catalogs')
+    },
+    filename: function (req, file, cb) {
+        file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
+        cb(null, Date.now() + '-' + file.originalname)
+    }
+})
+
+const uploadHospital = multer({
+    storage: storageHospital
+}).single('file')
+
+const uploadCatalog = multer({
+    storage: storageCatalog
+}).single('file')
+
+router.post('/uploadCatalog', async (req, res) => {
+    console.log("Upload master catalog for speciality")
+    uploadCatalog(req, res, async function (err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(500).json(err)
+        } else if (err) {
+            return res.status(500).json(err)
+        }
+        console.log("Catalog Filename Before", req.file.filename)
+        if (req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
+            req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
+            console.log("Catalog Filename After", req.file.filename)
+            await Catalogue.findOne({ speciality: req.body.speciality }, async (err, speciality) => {
+                if (err) console.log(err)
+                else if (!speciality) {
+                    console.log("New speciality")
+                    await new Catalogue({
+                        speciality: req.body.speciality,
+                        services: []
+                    }).save()
+                    console.log("Created new speciality", req.body.speciality)
+                }
+            })
+            return res.status(200).send({
+                status: 1,
+                data: req.file,
+                msg: "success"
+            })
+        } else {
+            return res.status(400).send({
+                status: 0,
+                data: [],
+                msg: "Please upload valid (*.xlsx) file"
+            })
+        }
+    })
+})
+
+router.post('/uploadHospital', async (req, res) => {
+    console.log("Upload hospital data")
+    uploadHospital(req, res, function (err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(500).json(err)
+        } else if (err) {
+            return res.status(500).json(err)
+        }
+        if (req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
+            req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
+            console.log("Hospital Filename", req.file.filename)
+            return res.status(200).send(req.file)
+        } else {
+            return res.status(400).send("Please upload valid (*.xlsx) file")
+        }
+    })
+})
+
+router.post('/submit', async (req, res) => {
+    console.log("Upload data submit", req.body.type, req.body.filename)
+    if (req.body.type === 'catalog') {
+        globalObject[req.body.filename] = {
+            addedServices: [],
+            namesUpdated: [],
+            notFoundSpecialities: [],
+            updatedServices: []
+        }
+        try {
+            const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
+            fs.writeFile(path.join(__dirname, '../public/catalogs/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                if (err) console.log("Error writing log", err)
+                else {
+                    delete globalObject[req.body.filename]
+                    console.log("Written to log file")
+                }
+            })
+            res.status(200).send({
+                status: 1,
+                data: result,
+                msg: 'success'
+            })
+        } catch (e) {
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: 'error'
+            })
+        }
+    } else if (req.body.type === 'hospital') {
+        globalObject[req.body.filename] = {
+            errors: [],
+            notFoundSpecialities: [],
+            notFoundServices: []
+        }
+        try {
+            const result = await loadHospitalData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
+            fs.writeFile(path.join(__dirname, '../public/hospitals/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                if (err) console.log("Error writing log", err)
+                else {
+                    delete globalObject[req.body.filename]
+                    console.log("Written to log file")
+                }
+            })
+            res.status(200).send({
+                status: 1,
+                data: result,
+                msg: 'success'
+            })
+        } catch (e) {
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: 'error'
+            })
+        }
+    }
+})
+
+router.get('/specialities', (req, res) => {
+    console.log("Get speciality list")
+    Catalogue.distinct('speciality').exec((err, docs) => {
+        if (err) {
+            console.log(err)
+            res.status(400).send({
+                status: 0,
+                data: err,
+                msg: ''
+            })
+        }
+        else {
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
+        }
+    })
+})
+
+router.get('/progress/:id', (req, res) => {
+    if (globalObject[req.params.id]) {
+        res.status(200).send({
+            status: 1,
+            data: globalObject[req.params.id],
+            msg: "success"
+        })
+    } else {
+        console.log("Reading from log file", req.params.id)
+        fs.readFile(path.join(__dirname, '../public/catalogs/', req.params.id), (err, data) => {
+            if (err) console.log("Error reading log file", err)
+            else {
+                res.status(200).send({
+                    status: 1,
+                    data: JSON.parse(data),
+                    msg: "success"
+                })
+            }
+        })
+    }
+})
+
+const loadMasterSheet = async (transactionId, f) => {
+    return new Promise(async (resolve, reject) => {
+        console.log("Upload master sheet", f)
+        const data = xlsx.parse(fs.readFileSync(f))
+        try {
+            await asyncForEach(data.slice(0, 1), async sheet => {
+                await asyncForEach(sheet.data.slice(1), async row => {
+                    if (row.length > 0) {
+                        // console.log({ row })
+                        let speciality = row[0]
+                        let service = row[1]
+                        let updatedServiceName = row[2]
+                        let details = row[3]
+                        let duration = row[4]
+                        let sittings = row[5]
+                        let dnd = row[6]
+                        let tags = row[7]
+                        let category = row[8]
+                        let updated = row[9] === 'TRUE'
+                        let deleted = row[10] === 'TRUE'
+
+                        let catalogRecord = await Catalogue.findOne({
+                            speciality
+                        })
+
+                        // Add/update service to DB
+                        if (catalogRecord) {
+                            let j = catalogRecord.services.findIndex(x => x.service == service)
+                            if (j == -1) {
+                                console.log('Adding service:', service)
+                                catalogRecord.services = catalogRecord.services.concat({
+                                    service,
+                                    details,
+                                    duration: duration || 1,
+                                    sittings: sittings || 1,
+                                    dnd,
+                                    tags,
+                                    category
+                                })
+                                await catalogRecord.save()
+                                globalObject[transactionId].addedServices.push(service)
+                            }
+                            else if (j !== -1) {
+                                // console.log("Updating record")
+                                if (updatedServiceName) {
+                                    catalogRecord.services[j].service = updatedServiceName
+                                    globalObject[transactionId].namesUpdated.push(service + " -> " + updatedServiceName)
+                                }
+                                catalogRecord.services[j].details = details
+                                catalogRecord.services[j].duration = duration
+                                catalogRecord.services[j].sittings = sittings
+                                catalogRecord.services[j].dnd = dnd
+                                catalogRecord.services[j].tags = tags
+                                catalogRecord.services[j].category = category
+                                await catalogRecord.save()
+                                globalObject[transactionId].updatedServices.push(updatedServiceName || service)
+                            }
+                        } else {
+                            console.log('Speciality not found', speciality)
+                            globalObject[transactionId].notFoundSpecialities.push(speciality)
+                        }
+                    }
+                })
+            })
+            resolve()
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+const loadHospitalData = async (transactionId, f) => {
     const data = xlsx.parse(fs.readFileSync(f))
     const hospitalName = data[0].sheet[0].row[1][0]
     let hospitalRecordMain = await User.findOne({
         name: hospitalName
     })
-    let specialitiesArray = []
-
-    await asyncForEach(data, async sheet => {
-        let tempObj = {
-            specialityId: '',
-            services: []
-        }
-        console.log("SHEET", sheet.name)
-        let first = true
-        await asyncForEach(sheet.data, async row => {
-            if (row.length > 0) {
-                // console.log({row})
-                if (!first) {
+    if (hospitalRecordMain) {
+        let specialitiesArray = []
+        await asyncForEach(data, async sheet => {
+            let tempObj = {
+                specialityId: '',
+                services: []
+            }
+            console.log("Sheet name:", sheet.name)
+            await asyncForEach(sheet.data, async row => {
+                if (row.length > 0) {
+                    // console.log({row})
                     let speciality = row[2]
                     const catalogueRecord = await Catalogue.findOne({
                         speciality: speciality
@@ -264,41 +338,44 @@ const loadXlsxHospital = async (f) => {
                         if (serviceId) {
                             let variance = parseInt(row[4])
                             let price = parseInt(row[6])
-
-                            tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
-                            tempObj.services = tempObj.services.concat({
-                                price: [price],
-                                category: speciality === "Pathologists" || speciality === "Radiologists" ? ["Test"] : ["Procedure"],
-                                serviceId: serviceId,
-                                variance: variance || 35,
-                                homeCollection: false
-                            })
+                            if (variance && price) {
+                                tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
+                                tempObj.services = tempObj.services.concat({
+                                    price: [price],
+                                    category: speciality === "Pathologists" || speciality === "Radiologists" ? ["Test"] : ["Procedure"],
+                                    serviceId: serviceId,
+                                    variance: variance || 35,
+                                    homeCollection: false
+                                })
+                            } else {
+                                console.log("Price/variance doesn't exist for", hospitalName, speciality, service)
+                                globalObject[transactionId].errors.push(`Price/variance doesn't exist for - ${hospitalName} : ${speciality} : ${service}`)
+                            }
                         } else {
                             console.log("Service doesn't exist in DB", service)
+                            globalObject[transactionId].notFoundServices.push(service)
                         }
                     } else {
-                        console.log("Speciality not in DB", speciality)
+                        console.log('Speciality not found', speciality)
+                        globalObject[transactionId].notFoundSpecialities.push(speciality)
                     }
-                } else {
-                    first = false
                 }
-            } else {
-                // console.log("Empty row")
+            })
+            if (tempObj.services.length > 0) {
+                specialitiesArray.push(tempObj)
             }
         })
-        if (tempObj.services.length > 0) {
-            specialitiesArray.push(tempObj)
-        }
-    })
-    // console.log(JSON.stringify(specialitiesArray, undefined, 2))
-    hospitalRecordMain.specialities = specialitiesArray
-    hospitalRecordMain.save().then(docs => {
-        process.exit(1)
-        // console.log("Data saved", docs)
-    })
-        .catch(e => {
-            console.log("Error", e)
+        hospitalRecordMain.specialities = specialitiesArray
+        hospitalRecordMain.save().then(docs => {
+            resolve()
         })
+            .catch(e => {
+                reject("Error")
+            })
+    } else {
+        console.log("Hospital not in DB")
+        reject("Hospital not in Database")
+    }
 }
 
 const loadXlsxSpeciality = async (f) => {

@@ -32,6 +32,7 @@ router.post('/', auth, async (req, res) => {
 
         }
         if (prescriptionTemplate) {
+            console.log({prescriptionTemplate, prescriptionData})
             const html = fs.readFileSync('./prescription.html')
             const options = {
                 format: 'A4',
@@ -39,11 +40,14 @@ router.post('/', auth, async (req, res) => {
                 border: '10mm'
             }
             const filename = '' + Date.now() + '-prescription.pdf'
+            let fields = prescription.prescriptionData.fields.map(element => { return {key: Object.keys(element)[0], value: Object.values(element)[0]}})
+            console.log({fields})
             const document = {
                 html: html.toString(),
                 data: {
                     prescriptionTemplate: prescriptionTemplate,
-                    prescriptionData: prescription.prescriptionData
+                    prescriptionData: prescription.prescriptionData,
+                    fields
                 },
                 path: './public/' + filename
             }

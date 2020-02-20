@@ -74,6 +74,7 @@ const upload = multer({
 }).single('file', 10)
 
 app.post('/upload', function (req, res) {
+    console.log(req)
     upload(req, res, function (err) {
         if (err instanceof multer.MulterError) {
             return res.status(500).json(err)

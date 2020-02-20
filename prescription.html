@@ -80,35 +80,11 @@
         </tr>
     </table>
     <table>
+        {{#each fields}}
          <tr>
-             <td valign="top" width="15%"><b>Prescription : </b></td> <td valign="top" class="paragraph"  width="80%" > {{prescriptionData.Prescription}}</td>
-        </tr>
-        <tr><br/>
-            <td valign="top" width="15%"><b>Diagnosis : </b></td> <td valign="top" class="paragraph"  width="80%" > {{prescriptionData.Diagnosis}}
-            </td>
-            <td></td>
+             <td valign="top" width="15%"><b>{{fields.key}}</b></td> <td valign="top" class="paragraph"  width="80%" > {{fields.value}}</td>
         </tr><br/>
-        
-        <tr>
-            <td valign="top" width="15%"><b>Medicine : </b></td> <td valign="top" class="paragraph" width="80%">{{prescriptionData.Medicine}}</td>
-            <td></td>
-        </tr><br/>
-        
-        <tr>
-            <td valign="top" width="15%"><b>Test : </b></td> <td valign="top" class="paragraph" width="80%"> {{prescriptionData.Test}}</td>
-            <td></td>
-   </tr>
-   
-        <tr>
-            <td valign="top" width="15%"><b>Remarks : </b></td> <td valign="top" class="paragraph" width="80%">{{prescriptionData.Remarks}}</td>
-            <td><br></br>
-                <br></br>
-                <br></br></td>
-            
-        </tr>
-        <br></br>
-        
-        
+        {{/each}}
     </table>
     <br/>
     <table>

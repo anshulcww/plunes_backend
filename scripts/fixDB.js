@@ -551,7 +551,7 @@ const asyncForEach = async (array, callback) => {
 const loadXlsxLifeAid = async (f) => {
     const data = xlsx.parse(fs.readFileSync(f))
     let lifeAidRecord = await User.findOne({
-        name: "Center Of Diabetes & Allied Sciences"
+        name: "Chirag Hospital"
     })
     let specialitiesArray = []
 
@@ -581,9 +581,10 @@ const loadXlsxLifeAid = async (f) => {
                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                             tempObj.services = tempObj.services.concat({
                                 price: [price],
-                                category: speciality === "Pathologists" || speciality === "Radiologists" ? ["Test"] : ["Procedure"],
-                                serviceId: serviceId,
-                                variance: variance || 35,
+                                category: speciality === "Pathologists" || speciality === "Radiologists"|| speciality === "Health Package" ? ["Test"] : ["Procedure"],
+
+                            serviceId: serviceId,
+                                variance: variance,
                                 homeCollection: false
                             })
                         } else {
@@ -730,7 +731,7 @@ const loadXlsxSpeciality = async (f) => {
 //loadXlsxServiceUpdates('./plunes-db/lab_data.xlsx')
 // loadXlsxSpeciality('./plunes-db/opthal.xlsx')
 // loadXlsxForHospitals('./plunes-db/doctors.xlsx')
-//   loadXlsxLifeAid('./plunes-db/cdas.xlsx')
+  loadXlsxLifeAid('./plunes-db/health_chirag.xlsx')
 // loadXlsx('./plunes-db/Hospital_data.xlsx')
 // loadXlsxServiceUpdates('./plunes-db/Shwetas.xlsx')
 // loadXlsx('./plunes-db/d/opthal.xlsx')

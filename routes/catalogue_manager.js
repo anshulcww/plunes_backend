@@ -5,7 +5,6 @@ const multer = require('multer')
 const path = require('path')
 
 const Catalogue = require('../models/catalogue')
-const Services = require('../models/services')
 const User = require('../models/user')
 
 router = express.Router()
@@ -206,8 +205,8 @@ router.post('/submit', async (req, res) => {
 
 router.get('/specialities', (req, res) => {
     console.log("Get speciality list")
-    Catalogue.distinct('speciality').exec((err, docs) => {
-        if (err) {
+    Catalogue.find({}, '_id speciality').exec((err, docs) => {
+        if(err) {
             console.log(err)
             res.status(400).send({
                 status: 0,

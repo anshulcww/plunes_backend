@@ -5,6 +5,7 @@ const fileType = require('file-type')
 const User = require('../models/user')
 const Catalogue = require('../models/catalogue')
 const auth = require('../middleware/auth')
+const { COUPON_CODES } = require('../config')
 
 const router = express.Router()
 
@@ -257,31 +258,48 @@ router.put('/', auth, async (req, res) => {
         }
 
         if (data.prescription) {
+            if (data.prescription.logoUrl) {
+                req.user.logoUrl = data.prescription.logoUrl
+                req.user.logoText = ""
+            }
+            if (data.prescription.logoText) {
+                console.log("Logo Text", data.prescription.logoText)
+                req.user.logoText = data.prescription.logoText
+            }
             if (data.prescription.doctorId) {
                 let index = req.user.doctors.findIndex(d => d._id.toString() == data.prescription.doctorId)
                 if (index != -1) {
-                    req.user.doctors[index].prescription = data.prescription  
+                    req.user.doctors[index].prescription = data.prescription
                 }
             } else {
                 req.user.prescription = data.prescription
             }
         }
 
-        const validCoupons = ['NILE10000']
-        if (data.coupon && req.user.coupons.findIndex(c => c == data.coupon) != -1) {
-            if (validCoupons.findIndex(c => c == data.coupon) == -1) {
+        const validCoupons = COUPON_CODES
+        console.log("STUFF", data.coupon, req.user.coupons, validCoupons, req.user.coupons.findIndex(c => c === data.coupon))
+        console.log("Inside stuff")
+        if (data.coupon) {
+            if (validCoupons.indexOf(data.coupon) === -1) {
+                console.log("Invalid coupon")
                 res.status(201).send({
                     success: false,
                     message: 'Please enter a valid coupon!'
                 })
-            } else {
+            } else if ((req.user.coupons.findIndex(c => c === data.coupon) !== -1)) {
                 res.status(201).send({
                     success: false,
                     message: 'This coupon has already been used!'
                 })
+            } else {
+                req.user.coupons = req.user.coupons.addToSet(data.coupon)
+                await req.user.save()
+                res.status(201).send({
+                    success: true
+                })
             }
         } else {
-            req.user.coupons = req.user.coupons.addToSet(data.coupon)
+            console.log("No coupons added")
             await req.user.save()
             res.status(201).send({
                 success: true

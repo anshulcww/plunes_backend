@@ -48,7 +48,8 @@ router.post('/test', auth, async (req, res) => {
                 const report = new Report({
                     userId: req.body.userId,
                     self: req.body.self,
-                    reportUrl: element.replace(/ /g, '%20'),
+                    reportName: element.reportName,
+                    reportUrl: element.reportUrl.replace(/ /g, '%20'),
                     createdTime: Date.now()
                 })
                 await report.save().then(docs => console.log("Saved report", docs))

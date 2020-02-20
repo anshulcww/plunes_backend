@@ -78,6 +78,7 @@ router.post('/', auth, async (req, res) => {
                 console.log("Previous tests", tests, "Previous consultations", consultations)
                 // If there are free tests/consultations available, confirm booking
                 let serviceData = await Catalogue.findServiceData(booking.serviceId)
+                console.log({serviceData})
                 if (serviceData && serviceData.service.search(/consultation/i) != -1 && consultations < 2) {
                     booking.bookingStatus = 'Confirmed'
                     couponUsed = true

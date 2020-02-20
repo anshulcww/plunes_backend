@@ -35,6 +35,7 @@ const reportSchema = mongoose.Schema({
     medicines: String,
     remarks: String,
     reportUrl: String,
+    reportName: String,
     createdTime: Number
 })
 

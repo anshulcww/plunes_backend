@@ -365,6 +365,7 @@ const loadHospitalData = (transactionId, f) => {
                                     let service = row[3]
                                     const serviceId = await getServiceId(service)
                                     if (serviceId) {
+                                        // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
                                         if (variance && price) {
@@ -382,11 +383,11 @@ const loadHospitalData = (transactionId, f) => {
                                         }
                                     } else {
                                         console.log("Service doesn't exist in DB", service)
-                                        globalObject[transactionId].notFoundServices.push(service)
+                                        globalObject[transactionId].notFoundServices.push(`${hospitalName} : ${speciality} : ${service}`)
                                     }
                                 } else {
                                     console.log('Speciality not found', speciality)
-                                    globalObject[transactionId].notFoundSpecialities.push(speciality)
+                                    globalObject[transactionId].notFoundSpecialities.push(`${hospitalName} : ${speciality}`)
                                 }
                             }
                         })
@@ -411,8 +412,8 @@ const loadHospitalData = (transactionId, f) => {
     })
 }
 
-const loadDoctors = async (transactionId, f) => {
-    return new Promise((resolve, reject) => {
+const loadDoctors = (transactionId, f) => {
+    return new Promise(async (resolve, reject) => {
         console.log("Load doctors", f)
         const data = xlsx.parse(fs.readFileSync(f))
         for (var sheet of data) {
@@ -515,7 +516,7 @@ const loadDoctors = async (transactionId, f) => {
                                         hospitalRecord.specialities.services.push(specialitiesRecord.services)
                                         hospitalRecord.doctors.push(newDoctorRecord)
                                         console.log("Save new record", hospitalRecord)
-    
+
                                         hospitalRecord.save().then(docs => {
                                             console.log("New doctor saved")
                                         })

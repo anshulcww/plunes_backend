@@ -145,6 +145,14 @@ router.post('/submit', async (req, res) => {
             notFoundSpecialities: [],
             updatedServices: []
         }
+        const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
+        res.status(200).send({
+            status: 1,
+            data: result,
+            msg: 'success'
+        })
+    } else if (req.body.type === 'hospital') {
+        loadMasterSheetTest(path.join(__dirname, '../public/catalogs/', req.body.filename))
         try {
             const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
             fs.writeFile(path.join(__dirname, '../public/catalogs/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {

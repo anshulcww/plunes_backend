@@ -1,6 +1,6 @@
 /data
 /public
-
+/plunes-db
 # Logs
 logs
 *.log

@@ -45,14 +45,13 @@ If you want to reschedule/cancel your appointment, please visit the app.
 router.post('/', auth, async (req, res) => {
     console.log("Booking - POST")
     try {
-        console.log(req.body)
+        // console.log(req.body)
         // Set credits to 0 if using coupons
         if (couponCodes.indexOf(req.body.coupon) !== -1) {
             req.body.creditsUsed = 0
         }
         const booking = new Booking(req.body)
         booking.service = await Solution.findSolutionService(booking.solutionServiceId)
-        console.log(booking.service)
         let couponUsed = false
         booking.referenceId = 'PLUNES-' + new Date().toISOString().substr(0, 10) + '-' + parseInt((1000 + Math.random() * 1000))
 
@@ -76,6 +75,7 @@ router.post('/', auth, async (req, res) => {
                         }
                     }
                 }
+                console.log("Previous tests", tests, "Previous consultations", consultations)
                 // If there are free tests/consultations available, confirm booking
                 let serviceData = await Catalogue.findServiceData(booking.serviceId)
                 if (serviceData && serviceData.service.search(/consultation/i) != -1 && consultations < 2) {
@@ -133,7 +133,7 @@ router.post('/', auth, async (req, res) => {
             }
         }
         await booking.save()
-        // console.log(booking)
+        console.log({booking})
         res.status(201).send({
             success: true,
             id: booking._id,

@@ -12,6 +12,46 @@ router = express.Router()
 
 let globalObject = {}
 
+const getServiceId = name => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            Catalogue.aggregate([{
+                $match: {
+                    'services.service': name
+                }
+            },
+            {
+                $project: {
+                    serviceId: {
+                        $filter: {
+                            input: '$services',
+                            as: 'services',
+                            cond: {
+                                $eq: ['$$services.service', name]
+                            }
+                        }
+                    },
+                    _id: 0
+                }
+            }
+            ], (err, serviceIdDocs) => {
+                if (err) console.log("Error", err)
+                else {
+                    resolve(serviceIdDocs[0] ? serviceIdDocs[0].serviceId[0]._id.toString() : null)
+                }
+            })
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+const asyncForEach = async (array, callback) => {
+    for (let index = 0; index < array.length; index++) {
+        await callback(array[index], index, array);
+    }
+}
+
 const storageHospital = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'public/hospitals')
@@ -113,6 +153,83 @@ router.post('/submit', async (req, res) => {
         })
     } else if (req.body.type === 'hospital') {
         loadMasterSheetTest(path.join(__dirname, '../public/catalogs/', req.body.filename))
+        try {
+            const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
+            fs.writeFile(path.join(__dirname, '../public/catalogs/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                if (err) console.log("Error writing log", err)
+                else {
+                    delete globalObject[req.body.filename]
+                    console.log("Written to log file")
+                }
+            })
+            res.status(200).send({
+                status: 1,
+                data: result,
+                msg: 'success'
+            })
+        } catch (e) {
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: 'error'
+            })
+        }
+    } else if (req.body.type === 'hospital') {
+        globalObject[req.body.filename] = {
+            errors: [],
+            notFoundSpecialities: [],
+            notFoundServices: []
+        }
+        try {
+            const result = await loadHospitalData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
+            fs.writeFile(path.join(__dirname, '../public/hospitals/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                if (err) console.log("Error writing log", err)
+                else {
+                    delete globalObject[req.body.filename]
+                    console.log("Written to log file")
+                }
+            })
+            res.status(200).send({
+                status: 1,
+                data: result,
+                msg: 'success'
+            })
+        } catch (e) {
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: 'error'
+            })
+        }
+    } else if (req.body.type === 'doctors') {
+        globalObject[req.body.filename] = {
+            errors: [],
+            addedDoctors: [],
+            updatedDoctors: [],
+            notFoundSpecialities: [],
+            notFoundHospitals: []
+        }
+        try {
+            const result = await loadDoctors(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
+            fs.writeFile(path.join(__dirname, '../public/hospitals/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                if (err) console.log("Error writing log", err)
+                else {
+                    delete globalObject[req.body.filename]
+                    console.log("Written to log file")
+                }
+            })
+            res.status(200).send({
+                status: 1,
+                data: result,
+                msg: 'success'
+            })
+        } catch (e) {
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: 'error'
+            })
+        }
     }
 })
 
@@ -138,16 +255,30 @@ router.get('/specialities', (req, res) => {
 })
 
 router.get('/progress/:id', (req, res) => {
-    res.status(200).send(globalObject[req.params.id])
+    if (globalObject[req.params.id]) {
+        res.status(200).send({
+            status: 1,
+            data: globalObject[req.params.id],
+            msg: "success"
+        })
+    } else {
+        console.log("Reading from log file", req.params.id)
+        fs.readFile(path.join(__dirname, '../public/catalogs/', req.params.id), (err, data) => {
+            if (err) console.log("Error reading log file", err)
+            else {
+                res.status(200).send({
+                    status: 1,
+                    data: JSON.parse(data),
+                    msg: "success"
+                })
+            }
+        })
+    }
 })
 
 const loadMasterSheet = async (transactionId, f) => {
     return new Promise(async (resolve, reject) => {
         console.log("Upload master sheet", f)
-        let addedServices = []
-        let namesUpdated = []
-        let notFoundSpecialities = []
-        let updatedServices = []
         const data = xlsx.parse(fs.readFileSync(f))
         try {
             await asyncForEach(data.slice(0, 1), async sheet => {
@@ -209,73 +340,30 @@ const loadMasterSheet = async (transactionId, f) => {
                     }
                 })
             })
-            console.log({ addedServices, namesUpdated, notFoundSpecialities, updatedServices })
-            resolve({ addedServices, namesUpdated, notFoundSpecialities, updatedServices })
+            resolve()
         } catch (e) {
             reject(e)
         }
     })
 }
 
-const getServiceId = name => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            Catalogue.aggregate([{
-                $match: {
-                    'services.service': name
-                }
-            },
-            {
-                $project: {
-                    serviceId: {
-                        $filter: {
-                            input: '$services',
-                            as: 'services',
-                            cond: {
-                                $eq: ['$$services.service', name]
-                            }
-                        }
-                    },
-                    _id: 0
-                }
-            }
-            ], (err, serviceIdDocs) => {
-                if (err) console.log("Error", err)
-                else {
-                    resolve(serviceIdDocs[0] ? serviceIdDocs[0].serviceId[0]._id.toString() : null)
-                }
-            })
-        } catch (e) {
-            reject(e)
-        }
-    })
-}
-
-const asyncForEach = async (array, callback) => {
-    for (let index = 0; index < array.length; index++) {
-        await callback(array[index], index, array);
-    }
-}
-
-const loadXlsxHospital = async (f) => {
+const loadHospitalData = async (transactionId, f) => {
     const data = xlsx.parse(fs.readFileSync(f))
     const hospitalName = data[0].sheet[0].row[1][0]
     let hospitalRecordMain = await User.findOne({
         name: hospitalName
     })
-    let specialitiesArray = []
-
-    await asyncForEach(data, async sheet => {
-        let tempObj = {
-            specialityId: '',
-            services: []
-        }
-        console.log("SHEET", sheet.name)
-        let first = true
-        await asyncForEach(sheet.data, async row => {
-            if (row.length > 0) {
-                // console.log({row})
-                if (!first) {
+    if (hospitalRecordMain) {
+        let specialitiesArray = []
+        await asyncForEach(data, async sheet => {
+            let tempObj = {
+                specialityId: '',
+                services: []
+            }
+            console.log("Sheet name:", sheet.name)
+            await asyncForEach(sheet.data.slice(1), async row => {
+                if (row.length > 0) {
+                    // console.log({row})
                     let speciality = row[2]
                     const catalogueRecord = await Catalogue.findOne({
                         speciality: speciality
@@ -287,155 +375,177 @@ const loadXlsxHospital = async (f) => {
                         if (serviceId) {
                             let variance = parseInt(row[4])
                             let price = parseInt(row[6])
-
-                            tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
-                            tempObj.services = tempObj.services.concat({
-                                price: [price],
-                                category: speciality === "Pathologists" || speciality === "Radiologists" ? ["Test"] : ["Procedure"],
-                                serviceId: serviceId,
-                                variance: variance || 35,
-                                homeCollection: false
-                            })
+                            if (variance && price) {
+                                tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
+                                tempObj.services = tempObj.services.concat({
+                                    price: [price],
+                                    category: speciality === "Pathologists" || speciality === "Radiologists" ? ["Test"] : ["Procedure"],
+                                    serviceId: serviceId,
+                                    variance: variance || 35,
+                                    homeCollection: false
+                                })
+                            } else {
+                                console.log("Price/variance doesn't exist for", hospitalName, speciality, service)
+                                globalObject[transactionId].errors.push(`Price/variance doesn't exist for - ${hospitalName} : ${speciality} : ${service}`)
+                            }
                         } else {
                             console.log("Service doesn't exist in DB", service)
+                            globalObject[transactionId].notFoundServices.push(service)
                         }
                     } else {
-                        console.log("Speciality not in DB", speciality)
+                        console.log('Speciality not found', speciality)
+                        globalObject[transactionId].notFoundSpecialities.push(speciality)
                     }
-                } else {
-                    first = false
                 }
-            } else {
-                // console.log("Empty row")
+            })
+            if (tempObj.services.length > 0) {
+                specialitiesArray.push(tempObj)
             }
         })
-        if (tempObj.services.length > 0) {
-            specialitiesArray.push(tempObj)
-        }
-    })
-    // console.log(JSON.stringify(specialitiesArray, undefined, 2))
-    hospitalRecordMain.specialities = specialitiesArray
-    hospitalRecordMain.save().then(docs => {
-        process.exit(1)
-        // console.log("Data saved", docs)
-    })
-        .catch(e => {
-            console.log("Error", e)
+        hospitalRecordMain.specialities = specialitiesArray
+        hospitalRecordMain.save().then(docs => {
+            resolve()
         })
+            .catch(e => {
+                reject("Error")
+            })
+    } else {
+        console.log("Hospital not in DB")
+        reject("Hospital not in Database")
+    }
 }
 
-const loadXlsxSpeciality = async (f) => {
-    console.log("Load Opthalmologists")
+const loadDoctors = async (transactionId, f) => {
     const data = xlsx.parse(fs.readFileSync(f))
-    await asyncForEach(data, async sheet => {
-        console.log("Got hospital name", sheet.data[1][0])
-        await asyncForEach(sheet.data, async row => {
-            // console.log({ row })
+    for (var sheet of data) {
+        for (var row of sheet.data.slice(1)) {
+            console.log({row})
             let hospitalName = row[0]
-            let speciality = row[2]
-            let oldServiceName = row[3]
-            let newServiceName = row[3]
-            let variance = parseInt(row[4])
-            let price = parseInt(row[6]) || 0
-
-            var hospitalRecord = await User.findOne({
+            const hospitalRecord = await User.findOne({
                 name: hospitalName,
                 userType: "Hospital"
             })
+            if (hospitalRecord) {
+                let doctorName = row[1]
+                let speciality = row[2]
+                let education = row[3]
+                let consultationFee = row[4]
+                let experience = row[5]
+                let businessHours = "10:00 AM-08:00 PM"
+                let service = row[6]
 
-            if (price > 100) {
-                if (hospitalRecord) {
-                    await Catalogue.updateMany({
-                        "services.service": oldServiceName
-                    }, {
-                        $set: {
-                            "services.$.service": newServiceName
-                        }
-                    })
-                    // console.log("Updated name", updateSpeciality)
+                let doctorExists = hospitalRecord.doctors.findIndex(x => x.name === doctorName)
+                if (doctorExists === -1) {
+                    console.log("Doctor doesn't exist in DB, adding", doctorName, speciality)
                     let catalogueRecord = await Catalogue.findOne({
                         speciality
                     })
                     if (catalogueRecord) {
-                        const specialityId = catalogueRecord._id.toString()
-                        // console.log("Got speciality ID", specialityId)
-                        const serviceId = await getServiceId(newServiceName)
-                        if (serviceId) {
-                            let specialityFlag = true
-                            await asyncForEach(hospitalRecord.specialities, async element => {
-                                if (element.specialityId === specialityId && element.services.length > 0) {
-                                    let flag = true
-                                    specialityFlag = false
-                                    await asyncForEach(element.services, async element1 => {
-                                        if (element1.serviceId === serviceId) {
-                                            // console.log("Found service", element1.serviceId, serviceId)
-                                            element1.homeCollection = false
-                                            element1.variance = variance
-                                            element1.category = ["Procedure"]
-                                            element1.price = [price]
-                                            // console.log("Saving record", { element, element1 })
-                                            try {
-                                                await hospitalRecord.save()
-                                            } catch (e) {
-                                                console.log("--")
-                                            }
-                                            flag = false
-                                        }
-                                    })
-                                    if (flag) {
-                                        const tempObj = {
-                                            variance,
-                                            category: ["Procedure"],
-                                            serviceId,
-                                            price: [price],
-                                            homeCollection: false
-                                        }
-                                        element.services.push(tempObj)
-                                        try {
-                                            await hospitalRecord.save()
-                                            console.log("Added service to record", newServiceName)
-                                        }
-                                        catch (e) { console.log("Error adding", e) }
-                                    }
+                        let serviceExists = catalogueRecord.services.filter(x => x.service === service)
+                        if (serviceExists.length === 0) {
+                            console.log("Service doesn't exist in DB", service)
+                            // Add service to master catalogue
+                        } else {
+                            console.log("Service exists in DB", serviceExists, serviceExists[0]._id)
+                            let specialitiesRecord = {
+                                specialityId: catalogueRecord._id,
+                                services: [{
+                                    serviceId: serviceExists[0]._id,
+                                    price: [parseInt(consultationFee)],
+                                    variance: 25,
+                                    homeCollection: false,
+                                    category: 'Consultation'
+                                }]
+                            }
+                            let newDoctorRecord = {
+                                name: doctorName,
+                                education,
+                                designation: "Doctor",
+                                experience: parseInt(experience),
+                                specialities: [specialitiesRecord],
+                                timeSlots: [{
+                                    slots: [businessHours],
+                                    day: 'monday',
+                                    closed: false
+                                },
+                                {
+                                    slots: [businessHours],
+                                    day: 'tuesday',
+                                    closed: false
+                                },
+                                {
+                                    slots: [businessHours],
+                                    day: 'wednesday',
+                                    closed: false
+                                },
+                                {
+                                    slots: [businessHours],
+                                    day: 'thursday',
+                                    closed: false
+                                },
+                                {
+                                    slots: [businessHours],
+                                    day: 'friday',
+                                    closed: false
+                                },
+                                {
+                                    slots: [businessHours],
+                                    day: 'saturday',
+                                    closed: false
+                                },
+                                {
+                                    slots: [businessHours],
+                                    day: 'sunday',
+                                    closed: true
                                 }
-                            })
-                            if (specialityFlag) {
-                                console.log("Speciality not in hospital record", speciality)
-                                hospitalRecord.specialities.push({
-                                    specialityId,
-                                    services: [
-                                        {
-                                            variance,
-                                            category: ["Procedure"],
-                                            serviceId,
-                                            price: [price],
-                                            homeCollection: false
-                                        }
-                                    ]
+                                ]
+                                // No department, no imageUrl
+                            }
+                            console.log("New doctor record:", JSON.stringify(newDoctorRecord, undefined, 2))
+                            if (hospitalRecord.specialities.findIndex(x => x.specialityId === specialitiesRecord.specialityId) === -1) {
+                                console.log("Speciality not in hospital record", specialitiesRecord)
+                                hospitalRecord.specialities.push(specialitiesRecord)
+                                hospitalRecord.doctors.push(newDoctorRecord)
+                                console.log("CONCAT", hospitalRecord.doctors)
+                                console.log("Save new record", hospitalRecord)
+                                hospitalRecord.save().then(docs => {
+                                    console.log("New doctor saved")
                                 })
-                                try {
-                                    await hospitalRecord.save()
-                                } catch (e) {
-                                    console.log("Error1", e)
+                                    .catch(e => console.error("Error", e))
+                            } else {
+                                console.log("Speciality already in hospital record")
+                                if (hospitalRecord.specialities.services.findIndex(x => x.serviceId === specialitiesRecord.services[0].serviceId) === -1) {
+                                    console.log("Service doesn't exist in speciality")
+                                    hospitalRecord.specialities.services.push(specialitiesRecord.services)
+                                    hospitalRecord.doctors.push(newDoctorRecord)
+                                    console.log("Save new record", hospitalRecord)
+
+                                    hospitalRecord.save().then(docs => {
+                                        console.log("New doctor saved")
+                                    })
+                                        .catch(e => console.error("Error", e))
                                 }
                             }
-                        } else {
-                            console.log("Service not found in catalogue", newServiceName)
                         }
                     } else {
-                        console.log("Speciality not found in catalogue", speciality)
+                        console.log("Speciality not in DB", speciality)
+                        globalObject[transactionId].notFoundSpecialities.push(speciality)
                     }
                 } else {
-                    console.log('Hospital not found in DB', hospitalName, row)
+                    console.log("Doctor alread in DB, updating", doctorName)
+
                 }
+                // Add else in case doctor already exists, concat arrays
+                // Add skipped Details in catalogue
             } else {
-                console.log("Price less than threshold value", price)
+                console.log('Hospital not found', hospitalName)
+                globalObject[transactionId].notFoundHospitals.push(hospitalName)
             }
-        })
-    })
-    console.log("Upload complete")
-    process.exit(1)
+        }
+    }
 }
+
+
 
 // const similarity = (s1, s2) => {
 //     var longer = s1;

@@ -10,6 +10,8 @@ const User = require('../models/user')
 
 router = express.Router()
 
+let globalObject = {}
+
 const storageHospital = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'public/hospitals')
@@ -47,7 +49,7 @@ router.post('/uploadCatalog', async (req, res) => {
             return res.status(500).json(err)
         }
         console.log("Catalog Filename Before", req.file.filename)
-        if(req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
+        if (req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
             req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
             console.log("Catalog Filename After", req.file.filename)
             await Catalogue.findOne({ speciality: req.body.speciality }, async (err, speciality) => {
@@ -84,7 +86,7 @@ router.post('/uploadHospital', async (req, res) => {
         } else if (err) {
             return res.status(500).json(err)
         }
-        if(req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
+        if (req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
             req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
             console.log("Hospital Filename", req.file.filename)
             return res.status(200).send(req.file)
@@ -94,12 +96,23 @@ router.post('/uploadHospital', async (req, res) => {
     })
 })
 
-router.post('/submit', (req, res) => {
-    console.log("Upload data submit", req.body.type)
-    if(req.body.type === 'catalog') {
-        loadMasterSheetTest(path.join(__dirname, '../public/catalogs/', req.body.filename))
+router.post('/submit', async (req, res) => {
+    console.log("Upload data submit", req.body.type, req.body.filename)
+    if (req.body.type === 'catalog') {
+        globalObject[req.body.filename] = {
+            addedServices: [],
+            namesUpdated: [],
+            notFoundSpecialities: [],
+            updatedServices: []
+        }
+        const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
+        res.status(200).send({
+            status: 1,
+            data: result,
+            msg: 'success'
+        })
     } else if (req.body.type === 'hospital') {
-
+        loadMasterSheetTest(path.join(__dirname, '../public/catalogs/', req.body.filename))
     }
 })
 
@@ -124,73 +137,83 @@ router.get('/specialities', (req, res) => {
     })
 })
 
-const loadMasterSheetTest = (f) => {
-    console.log("Check check", f)
-}
+router.get('/progress/:id', (req, res) => {
+    res.status(200).send(globalObject[req.params.id])
+})
 
-const loadMasterSheet = async (f) => {
-    console.log("Upload master sheet")
-    let addedServices = []
-    let namesUpdated = []
-    let notFoundSpecialities = []
-    let updatedServices = []
-    const data = xlsx.parse(fs.readFileSync(f))
-    await asyncForEach(data, async sheet => {
-        await asyncForEach(sheet.data, async row => {
-            console.log({ row })
-            let speciality = row[0]
-            let service = row[1]
-            let updatedServiceName = row[2]
-            let details = row[3]
-            let duration = row[4]
-            let sittings = row[5]
-            let dnd = row[6]
-            let tags = row[7]
-            let category = row[8]
-            let updated = row[9] === 'TRUE'
-            let deleted = row[10] === 'TRUE'
+const loadMasterSheet = async (transactionId, f) => {
+    return new Promise(async (resolve, reject) => {
+        console.log("Upload master sheet", f)
+        let addedServices = []
+        let namesUpdated = []
+        let notFoundSpecialities = []
+        let updatedServices = []
+        const data = xlsx.parse(fs.readFileSync(f))
+        try {
+            await asyncForEach(data.slice(0, 1), async sheet => {
+                await asyncForEach(sheet.data.slice(1), async row => {
+                    if (row.length > 0) {
+                        // console.log({ row })
+                        let speciality = row[0]
+                        let service = row[1]
+                        let updatedServiceName = row[2]
+                        let details = row[3]
+                        let duration = row[4]
+                        let sittings = row[5]
+                        let dnd = row[6]
+                        let tags = row[7]
+                        let category = row[8]
+                        let updated = row[9] === 'TRUE'
+                        let deleted = row[10] === 'TRUE'
 
-            let catalogRecord = await Catalogue.findOne({
-                speciality
-            })
+                        let catalogRecord = await Catalogue.findOne({
+                            speciality
+                        })
 
-            // Add/update service to DB
-            if (catalogRecord) {
-                let j = catalogRecord.services.findIndex(x => x.service == service)
-                if (j == -1) {
-                    console.log('Adding service:', service)
-                    catalogRecord.services = catalogRecord.services.concat({
-                        service,
-                        details,
-                        duration: duration || 1,
-                        sittings: sittings || 1,
-                        dnd,
-                        tags,
-                        category
-                    })
-                    await catalogRecord.save()
-                    addedServices.push(service)
-                }
-                else if (j !== -1) {
-                    console.log("Updating record")
-                    if (updatedServiceName) {
-                        catalogRecord.services[j].service = updatedServiceName
-                        namesUpdated.push(service + " -> " + updatedServiceName)
+                        // Add/update service to DB
+                        if (catalogRecord) {
+                            let j = catalogRecord.services.findIndex(x => x.service == service)
+                            if (j == -1) {
+                                console.log('Adding service:', service)
+                                catalogRecord.services = catalogRecord.services.concat({
+                                    service,
+                                    details,
+                                    duration: duration || 1,
+                                    sittings: sittings || 1,
+                                    dnd,
+                                    tags,
+                                    category
+                                })
+                                await catalogRecord.save()
+                                globalObject[transactionId].addedServices.push(service)
+                            }
+                            else if (j !== -1) {
+                                // console.log("Updating record")
+                                if (updatedServiceName) {
+                                    catalogRecord.services[j].service = updatedServiceName
+                                    globalObject[transactionId].namesUpdated.push(service + " -> " + updatedServiceName)
+                                }
+                                catalogRecord.services[j].details = details
+                                catalogRecord.services[j].duration = duration
+                                catalogRecord.services[j].sittings = sittings
+                                catalogRecord.services[j].dnd = dnd
+                                catalogRecord.services[j].tags = tags
+                                catalogRecord.services[j].category = category
+                                await catalogRecord.save()
+                                globalObject[transactionId].updatedServices.push(updatedServiceName || service)
+                            }
+                        } else {
+                            console.log('Speciality not found', speciality)
+                            globalObject[transactionId].notFoundSpecialities.push(speciality)
+                        }
                     }
-                    catalogRecord.services[j].details = details
-                    catalogRecord.services[j].duration = duration
-                    catalogRecord.services[j].sittings = sittings
-                    catalogRecord.services[j].dnd = dnd
-                    catalogRecord.services[j].tags = tags
-                    catalogRecord.services[j].category = category
-                    await catalogRecord.save()
-                    updatedServices.push(updatedServiceName || service)
-                }
-            } else {
-                console.log('Speciality not found!')
-                notFoundSpecialities.push(speciality)
-            }
-        })
+                })
+            })
+            console.log({ addedServices, namesUpdated, notFoundSpecialities, updatedServices })
+            resolve({ addedServices, namesUpdated, notFoundSpecialities, updatedServices })
+        } catch (e) {
+            reject(e)
+        }
     })
 }
 

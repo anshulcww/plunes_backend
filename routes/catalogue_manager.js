@@ -4,7 +4,6 @@ const xlsx = require('node-xlsx')
 const multer = require('multer')
 
 const Catalogue = require('../models/catalogue')
-const Services = require('../models/services')
 const User = require('../models/user')
 
 router = express.Router()
@@ -90,7 +89,7 @@ router.post('/upload', async (req, res) => {
 
 router.get('/specialities', (req, res) => {
     console.log("Get speciality list")
-    Catalogue.distinct('speciality').exec((err, docs) => {
+    Catalogue.find({}, '_id speciality').exec((err, docs) => {
         if(err) {
             console.log(err)
             res.status(400).send({

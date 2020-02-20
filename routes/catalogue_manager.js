@@ -154,7 +154,7 @@ router.post('/submit', async (req, res) => {
         loadMasterSheetTest(path.join(__dirname, '../public/catalogs/', req.body.filename))
         try {
             const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
-            fs.writeFile(path.join(__dirname, '../public/catalogs/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+            fs.writeFile(path.join(__dirname, '../public/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
                 if (err) console.log("Error writing log", err)
                 else {
                     delete globalObject[req.body.filename]
@@ -181,7 +181,7 @@ router.post('/submit', async (req, res) => {
         }
         try {
             const result = await loadHospitalData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
-            fs.writeFile(path.join(__dirname, '../public/hospitals/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+            fs.writeFile(path.join(__dirname, '../public/upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
                 if (err) console.log("Error writing log", err)
                 else {
                     delete globalObject[req.body.filename]
@@ -233,13 +233,19 @@ router.get('/progress/:id', (req, res) => {
         })
     } else {
         console.log("Reading from log file", req.params.id)
-        fs.readFile(path.join(__dirname, '../public/catalogs/', req.params.id), (err, data) => {
+        fs.readFile(path.join(__dirname, '../public/upload_status.log'), (err, data) => {
             if (err) console.log("Error reading log file", err)
-            else {
+            else if(data) {
                 res.status(200).send({
                     status: 1,
                     data: JSON.parse(data),
                     msg: "success"
+                })
+            } else {
+                res.status(200).send({
+                    status: 1,
+                    data: [],
+                    msg: "no log file"
                 })
             }
         })

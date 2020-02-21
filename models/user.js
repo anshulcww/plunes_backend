@@ -117,6 +117,7 @@ const userSchema = mongoose.Schema({
         experience: Number,
         availability: String,
         imageUrl: String,
+        consultationFee: Number,
         specialities: [{
             specialityId: String,
             services: [{

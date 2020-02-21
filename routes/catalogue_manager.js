@@ -128,16 +128,24 @@ router.post('/uploadHospital', async (req, res) => {
         if (req.file.filename.split('.')[1] && req.file.filename.split('.')[1].toLowerCase() === 'xlsx') {
             req.file.filename = req.file.filename.split('.')[0] + "." + req.file.filename.split('.')[1].toLowerCase()
             console.log("Hospital Filename", req.file.filename)
-            return res.status(200).send(req.file)
+            return res.status(200).send({
+                status: 1,
+                data: req.file,
+                msg: "success"
+            })
         } else {
-            return res.status(400).send("Please upload valid (*.xlsx) file")
+            return res.status(400).send({
+                status: 0,
+                data: [],
+                msg: "Please upload valid (*.xlsx) file"
+            })
         }
     })
 })
 
 router.post('/submit', async (req, res) => {
     console.log("Upload data submit", req.body.type, req.body.filename)
-    if (req.body.type === 'catalog') {
+    if (req.body.type === 'Catalogue') {
         globalObject[req.body.filename] = {
             addedServices: [],
             namesUpdated: [],
@@ -145,12 +153,19 @@ router.post('/submit', async (req, res) => {
             updatedServices: []
         }
         const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
+        fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+            if (err) console.log("Error writing log", err)
+            else {
+                delete globalObject[req.body.filename]
+                console.log("Written to log file")
+            }
+        })
         res.status(200).send({
             status: 1,
             data: result,
             msg: 'success'
         })
-    } else if (req.body.type === 'hospital') {
+    } else if (req.body.type === 'Hospital') {
         globalObject[req.body.filename] = {
             errors: [],
             notFoundSpecialities: [],
@@ -250,13 +265,13 @@ router.get('/progress/:id', (req, res) => {
                 })
             } else if (data) {
                 res.status(200).send({
-                    status: 1,
+                    status: 2,
                     data: JSON.parse(data),
                     msg: "success"
                 })
             } else {
                 res.status(200).send({
-                    status: 1,
+                    status: 2,
                     data: [],
                     msg: "no log file"
                 })
@@ -336,13 +351,14 @@ const loadMasterSheet = (transactionId, f) => {
     })
 }
 
+// Iterate excel sheet for one hospital, creates array for 
+// each speciality with services and replaces them in the user DB
 const loadHospitalData = (transactionId, f) => {
     return new Promise(async (resolve, reject) => {
         console.log("Load hospital data", f)
         const data = xlsx.parse(fs.readFileSync(f))
         if (data) {
             try {
-                let specialitiesArray = []
                 await asyncForEach(data, async sheet => {
                     let tempObj = {
                         specialityId: '',
@@ -354,6 +370,85 @@ const loadHospitalData = (transactionId, f) => {
                         name: hospitalName
                     })
                     if (hospitalRecordMain) {
+                        let specialitiesArray = []
+                        await asyncForEach(sheet.data.slice(1), async row => {
+                            if (row.length > 0) {
+                                let speciality = row[2]
+                                const catalogueRecord = await Catalogue.findOne({
+                                    speciality: speciality
+                                })
+                                if (catalogueRecord) {
+                                    let specialityId = catalogueRecord._id.toString()
+                                    let service = row[3]
+                                    const serviceId = await getServiceId(service)
+                                    if (serviceId) {
+                                        // console.log(row[4], row[6])
+                                        let variance = parseInt(row[4])
+                                        let price = parseInt(row[6])
+                                        if (variance && price) {
+                                            tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
+                                            tempObj.services = tempObj.services.concat({
+                                                price: [price],
+                                                category: speciality === "Pathologists" || speciality === "Radiologists" ? ["Test"] : ["Procedure"],
+                                                serviceId: serviceId,
+                                                variance: variance || 35,
+                                                homeCollection: false
+                                            })
+                                        } else {
+                                            console.log("Price/variance doesn't exist for", hospitalName, speciality, service)
+                                            globalObject[transactionId].errors.push(`Price/variance doesn't exist for - ${hospitalName} : ${speciality} : ${service}`)
+                                        }
+                                    } else {
+                                        console.log("Service doesn't exist in DB", service)
+                                        globalObject[transactionId].notFoundServices.push(`${hospitalName} : ${speciality} : ${service}`)
+                                    }
+                                } else {
+                                    console.log('Speciality not found', speciality)
+                                    globalObject[transactionId].notFoundSpecialities.push(`${hospitalName} : ${speciality}`)
+                                }
+                            }
+                        })
+                        if (tempObj.services.length > 0) {
+                            specialitiesArray.push(tempObj)
+                        }
+                        hospitalRecordMain.specialities = specialitiesArray
+                        await hospitalRecordMain.save()
+                    } else {
+                        console.log("Hospital not in database", hospitalName)
+                        globalObject.notFoundHospitals.push(hospitalName)
+                    }
+                })
+                resolve()
+            } catch (e) {
+                reject(e)
+            }
+        } else {
+            console.log("No data")
+            reject()
+        }
+    })
+}
+
+// Iterate excel sheet for one hospital, creates array for 
+// each speciality with services and replaces them in the user DB
+const loadSpecialityData = (transactionId, f) => {
+    return new Promise(async (resolve, reject) => {
+        console.log("Load speciality data", f)
+        const data = xlsx.parse(fs.readFileSync(f))
+        if (data) {
+            try {
+                await asyncForEach(data, async sheet => {
+                    let tempObj = {
+                        specialityId: '',
+                        services: []
+                    }
+                    const hospitalName = sheet.data[1][0]
+                    console.log("Hospital name:", hospitalName)
+                    let hospitalRecordMain = await User.findOne({
+                        name: hospitalName
+                    })
+                    if (hospitalRecordMain) {
+                        let specialitiesArray = []
                         await asyncForEach(sheet.data.slice(1), async row => {
                             if (row.length > 0) {
                                 let speciality = row[2]

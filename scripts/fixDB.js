@@ -3,6 +3,21 @@ const fs = require('fs')
 const xlsx = require('node-xlsx')
 const ObjectId = mongoose.Types.ObjectId
 const Config = require('../config')
+const elasticsearch = require('elasticsearch')
+
+let client = new elasticsearch.Client({
+    hosts: ['localhost']
+})
+
+client.ping({
+    requestTimeout: 30000,
+}, function(error) {
+    if (error) {
+        console.error('elasticsearch cluster is down!');
+    } else {
+        console.log('Everything is ok');
+    }
+});
 
 mongoose.connect(Config.MONGODB_URL, {
     useNewUrlParser: true,
@@ -731,7 +746,7 @@ const loadXlsxSpeciality = async (f) => {
 //loadXlsxServiceUpdates('./plunes-db/lab_data.xlsx')
 // loadXlsxSpeciality('./plunes-db/opthal.xlsx')
 // loadXlsxForHospitals('./plunes-db/doctors.xlsx')
-  loadXlsxLifeAid('./plunes-db/health_chirag.xlsx')
+//   loadXlsxLifeAid('./plunes-db/health_chirag.xlsx')
 // loadXlsx('./plunes-db/Hospital_data.xlsx')
 // loadXlsxServiceUpdates('./plunes-db/Shwetas.xlsx')
 // loadXlsx('./plunes-db/d/opthal.xlsx')

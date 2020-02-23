@@ -110,11 +110,33 @@ router.post('/newsearch', async (req, res) => {
                 "index": "services",
                 "from": skip,
                 "size": limit,
-                "query": {
-                    "query_string": {
-                        "query": `*${req.body.expression}*`,
-                        "fields": ["service", "tags"]
-                    }
+                "body": {
+                    "query": {
+                        "bool": {
+                          "should": [
+                            {
+                              "fuzzy": {
+                                "service": {
+                                  "fuzziness": "AUTO", 
+                                  "boost": 1,
+                                  "value": `*${req.body.expression}*`,
+                                  "prefix_length": 0
+                                }
+                              }
+                            },
+                            {
+                              "fuzzy": {
+                                "tags": {
+                                  "fuzziness": "AUTO", 
+                                  "boost": 2,
+                                  "value": `*${req.body.expression}*`,
+                                  "prefix_length": 1
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
                 }
             })
             res.status(200).send({

@@ -32,7 +32,6 @@ router.post('/search', async (req, res) => {
             const catalogue = await Services.aggregate([{
                 $match: {
                     $or: [
-                        {$text: { $search: req.body.expression }},
                         { service: { $regex: expression } },
                         { tags: { $regex: expression } }
                     ]

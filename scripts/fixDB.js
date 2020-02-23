@@ -21,15 +21,15 @@ client.ping({
 });
 
 const sendServicesToES = () => {
-    Services.find({}, (err, servicesDocs) => {
-        servicesDocs.forEach(element => {
-            client.index({
+    Services.find({}, async (err, servicesDocs) => {
+        await asyncForEach(servicesDocs, async element => {
+            delete element._id
+            let a = await client.index({
                 index: "services",
                 type: "service",
                 body: element
-            }, (err, resp, status) => {
-                console.log("Add doc", { err, resp, status })
             })
+            console.log(a)
         })
     })
 }

@@ -11,18 +11,28 @@ let client = new elasticsearch.Client({
 
 client.ping({
     requestTimeout: 30000,
-}, function(error) {
+}, function (error) {
     if (error) {
         console.error('elasticsearch cluster is down!');
     } else {
         console.log('Connected to elasticsearch');
-        client.indices.create({
-            index: "services"
-        }, (err, resp, status) => {
-            console.log("Create index", {err, resp, status})
-        })
+        sendServicesToES()
     }
 });
+
+const sendServicesToES = () => {
+    Services.find({}, (err, servicesDocs) => {
+        servicesDocs.forEach(element => {
+            client.index({
+                index: "services",
+                type: "service",
+                body: element
+            }, (err, resp, status) => {
+                console.log("Add doc", { err, resp, status })
+            })
+        })
+    })
+}
 
 mongoose.connect(Config.MONGODB_URL, {
     useNewUrlParser: true,
@@ -601,9 +611,9 @@ const loadXlsxLifeAid = async (f) => {
                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                             tempObj.services = tempObj.services.concat({
                                 price: [price],
-                                category: speciality === "Pathologists" || speciality === "Radiologists"|| speciality === "Health Package" ? ["Test"] : ["Procedure"],
+                                category: speciality === "Pathologists" || speciality === "Radiologists" || speciality === "Health Package" ? ["Test"] : ["Procedure"],
 
-                            serviceId: serviceId,
+                                serviceId: serviceId,
                                 variance: variance,
                                 homeCollection: false
                             })

@@ -1,7 +1,7 @@
 const express = require('express')
 const fs = require('fs')
 const xlsx = require('node-xlsx')
-
+const elasticsearch = require('elasticsearch')
 const Catalogue = require('../models/catalogue')
 const Services = require('../models/services')
 const User = require('../models/user')
@@ -10,6 +10,10 @@ const auth = require('../middleware/auth')
 router = express.Router()
 
 var catalogue = undefined
+
+var client = new elasticsearch.Client({
+    hosts: ["localhost:9200"]
+})
 
 router.get('/', async (req, res) => {
     try {
@@ -77,6 +81,47 @@ router.post('/search', async (req, res) => {
                 status: true,
                 data: catalogue,
                 count: catalogue.length,
+                msg: "success"
+            })
+        } catch (e) {
+            console.log("Error", e)
+            res.status(400).send({
+                status: false,
+                data: e,
+                msg: "error"
+            })
+        }
+    } else {
+        res.status(400).send({
+            status: false,
+            data: [],
+            msg: "specify limit/page"
+        })
+    }
+})
+
+router.post('/newsearch', async (req, res) => {
+    console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
+    if (req.body.limit && (req.body.page || req.body.page === 0)) {
+        const limit = parseInt(req.body.limit)
+        const skip = parseInt(req.body.page) * limit
+        const expression = new RegExp(req.body.expression, "i")
+        try {
+            const catalogue = await client.search({
+                "index": "services",
+                "from": skip,
+                "size": limit,
+                "query": {
+                    "query_string": {
+                        "query": expression,
+                        "fields": ["service", "tags"]
+                    }
+                }
+            })
+            res.status(200).send({
+                status: true,
+                data: catalogue.hits.hits,
+                count: catalogue.hits.hits.length,
                 msg: "success"
             })
         } catch (e) {

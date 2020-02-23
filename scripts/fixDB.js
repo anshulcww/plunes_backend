@@ -21,7 +21,7 @@ client.ping({
 });
 
 const sendServicesToES = () => {
-    Services.find({}, async (err, servicesDocs) => {
+    Services.find({}, '-_id', async (err, servicesDocs) => {
         await asyncForEach(servicesDocs, async element => {
             delete element._id
             let a = await client.index({

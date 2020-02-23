@@ -105,7 +105,6 @@ router.post('/newsearch', async (req, res) => {
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)
         const skip = parseInt(req.body.page) * limit
-        const expression = new RegExp(req.body.expression, "i")
         try {
             const catalogue = await client.search({
                 "index": "services",
@@ -113,7 +112,7 @@ router.post('/newsearch', async (req, res) => {
                 "size": limit,
                 "query": {
                     "query_string": {
-                        "query": expression,
+                        "query": `*${req.body.expression}*`,
                         "fields": ["service", "tags"]
                     }
                 }

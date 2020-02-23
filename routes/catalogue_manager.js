@@ -567,7 +567,7 @@ const loadDoctors = (transactionId, f) => {
                             name: doctorName,
                             education,
                             designation: "Doctor",
-                            consultationFee: [parseInt(consultationFee)],
+                            consultationFee: parseInt(consultationFee),
                             experience: parseInt(experience),
                             specialities: [],
                             timeSlots: [{

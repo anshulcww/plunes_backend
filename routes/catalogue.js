@@ -120,7 +120,8 @@ router.post('/newsearch', async (req, res) => {
                                 "tags^2",
                                 "speciality"
                             ],
-                            "fuzziness": 5
+                            "fuzziness": 3,
+                            "prefix_length": 2
                         }
                     }
                 }

@@ -15,9 +15,15 @@ client.ping({
     if (error) {
         console.error('elasticsearch cluster is down!');
     } else {
-        console.log('Everything is ok');
+        console.log('Connected to elasticsearch');
     }
 });
+
+client.indices.create({
+    index: "services"
+}, (err, resp, status) => {
+    console.log("Create index", {err, resp, status})
+})
 
 mongoose.connect(Config.MONGODB_URL, {
     useNewUrlParser: true,

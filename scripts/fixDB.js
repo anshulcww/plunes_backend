@@ -20,17 +20,14 @@ client.ping({
     }
 });
 
-const sendServicesToES = () => {
-    Services.find({}, '-_id', async (err, servicesDocs) => {
-        await asyncForEach(servicesDocs, async element => {
-            delete element._id
-            let a = await client.index({
-                index: "services",
-                type: "service",
-                body: element
-            })
-            console.log(a)
+const sendServicesToES = serviceArray => {
+    await asyncForEach(serviceArray, async element => {
+        let a = await client.index({
+            index: "services",
+            type: "service",
+            body: element
         })
+        console.log(a)
     })
 }
 
@@ -68,16 +65,17 @@ const createServicesCollection = () => {
                     })
                 })
                 console.log("Got through it")
-                Services.insertMany(bigAssArray, (err, docs) => {
-                    if (err) console.log("Error", err)
-                    else console.log("Added docs", docs)
-                })
+                sendServicesToES(bigAssArray)
+                // Services.insertMany(bigAssArray, (err, docs) => {
+                //     if (err) console.log("Error", err)
+                //     else console.log("Added docs", docs)
+                // })
             }
         })
     })
 }
 
-// createServicesCollection()
+createServicesCollection()
 
 const similarity = (s1, s2) => {
     var longer = s1;

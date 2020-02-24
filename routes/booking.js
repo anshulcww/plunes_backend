@@ -7,6 +7,7 @@ const Booking = require('../models/booking')
 const User = require('../models/user')
 const Solution = require('../models/solution')
 const Notification = require('../models/notification')
+const Service = require('../models/services')
 const Catalogue = require('../models/catalogue')
 const auth = require('../middleware/auth')
 const { COUPON_CODES } = require('../config')
@@ -184,13 +185,30 @@ router.get('/', auth, async (req, res) => {
                 }
             },
             {
+                $addFields: {
+                    "serviceId": { "$toObjectId": "$serviceId" }
+                }
+            },
+            {
+                $lookup: {
+                    "from": Service.collection.name,
+                    "localField": "serviceId",
+                    "foreignField": "serviceId",
+                    "as": "service"
+                }
+            },
+            {
                 $unwind: "$user"
+            },
+            {
+                $unwind: "$service"
             },
             {
                 $unwind: "$professional"
             },
             {
                 $addFields: {
+                    serviceName: "$service.service",
                     userName: "$user.name",
                     userLocation: "$user.geoLocation",
                     userImageUrl: "$user.imageUrl",
@@ -209,6 +227,7 @@ router.get('/', auth, async (req, res) => {
                 $project: {
                     "user": 0,
                     "professional": 0,
+                    "service": 0
                 }
             },
             {

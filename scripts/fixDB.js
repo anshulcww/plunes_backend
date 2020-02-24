@@ -20,7 +20,7 @@ client.ping({
     }
 });
 
-const sendServicesToES = serviceArray => {
+const sendServicesToES = async serviceArray => {
     await asyncForEach(serviceArray, async element => {
         let a = await client.index({
             index: "services",

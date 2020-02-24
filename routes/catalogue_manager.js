@@ -445,6 +445,7 @@ const loadHospitalData = (transactionId, f) => {
                         }
                         hospitalRecordMain.specialities = specialitiesArray
                         await hospitalRecordMain.save()
+                        console.log("Updated", hospitalName)
                         globalObject[transactionId].updatedHospitals.push(hospitalName)
                     } else {
                         console.log("Hospital not in database", hospitalName)

@@ -170,7 +170,8 @@ router.post('/submit', async (req, res) => {
             errors: [],
             notFoundSpecialities: [],
             notFoundServices: [],
-            notFoundHospitals: []
+            notFoundHospitals: [],
+            updatedHospitals: []
         }
         try {
             const result = await loadHospitalData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
@@ -443,6 +444,7 @@ const loadHospitalData = (transactionId, f) => {
                         }
                         hospitalRecordMain.specialities = specialitiesArray
                         await hospitalRecordMain.save()
+                        globalObject.updatedHospitals.push(hospitalName)
                     } else {
                         console.log("Hospital not in database", hospitalName)
                         globalObject.notFoundHospitals.push(hospitalName)

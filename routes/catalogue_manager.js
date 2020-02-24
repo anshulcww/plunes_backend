@@ -188,6 +188,7 @@ router.post('/submit', async (req, res) => {
                 msg: 'success'
             })
         } catch (e) {
+            console.log("Error", e)
             res.status(400).send({
                 status: 0,
                 data: e,

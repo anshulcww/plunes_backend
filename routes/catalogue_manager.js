@@ -152,6 +152,11 @@ router.post('/submit', async (req, res) => {
             notFoundSpecialities: [],
             updatedServices: []
         }
+        res.status(200).send({
+            status: 1,
+            data: [],
+            msg: 'success'
+        })
         const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
         fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
             if (err) console.log("Error writing log", err)
@@ -159,11 +164,6 @@ router.post('/submit', async (req, res) => {
                 delete globalObject[req.body.filename]
                 console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
             }
-        })
-        res.status(200).send({
-            status: 1,
-            data: result,
-            msg: 'success'
         })
     } else if (req.body.type === 'Hospital') {
         globalObject[req.body.filename] = {
@@ -174,6 +174,11 @@ router.post('/submit', async (req, res) => {
             updatedHospitals: []
         }
         try {
+            res.status(200).send({
+                status: 1,
+                data: [],
+                msg: 'success'
+            })
             const result = await loadHospitalData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
             fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
                 if (err) console.log("Error writing log", err)
@@ -181,11 +186,6 @@ router.post('/submit', async (req, res) => {
                     delete globalObject[req.body.filename]
                     console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                 }
-            })
-            res.status(200).send({
-                status: 1,
-                data: result,
-                msg: 'success'
             })
         } catch (e) {
             console.log("Error", e)
@@ -205,6 +205,11 @@ router.post('/submit', async (req, res) => {
             addedSpecialities: []
         }
         try {
+            res.status(200).send({
+                status: 1,
+                data: [],
+                msg: 'success'
+            })
             const result = await loadSpecialityData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
             fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
                 if (err) console.log("Error writing log", err)
@@ -212,11 +217,6 @@ router.post('/submit', async (req, res) => {
                     delete globalObject[req.body.filename]
                     console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                 }
-            })
-            res.status(200).send({
-                status: 1,
-                data: result,
-                msg: 'success'
             })
         } catch (e) {
             res.status(400).send({
@@ -234,6 +234,11 @@ router.post('/submit', async (req, res) => {
             addedDoctors: []
         }
         try {
+            res.status(200).send({
+                status: 1,
+                data: [],
+                msg: 'success'
+            })
             const result = await loadDoctors(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
             fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
                 if (err) console.log("Error writing log", err)
@@ -241,11 +246,6 @@ router.post('/submit', async (req, res) => {
                     delete globalObject[req.body.filename]
                     console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                 }
-            })
-            res.status(200).send({
-                status: 1,
-                data: result,
-                msg: 'success'
             })
         } catch (e) {
             res.status(400).send({

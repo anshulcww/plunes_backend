@@ -445,10 +445,10 @@ const loadHospitalData = (transactionId, f) => {
                         }
                         hospitalRecordMain.specialities = specialitiesArray
                         await hospitalRecordMain.save()
-                        globalObject.updatedHospitals.push(hospitalName)
+                        globalObject[transactionId].updatedHospitals.push(hospitalName)
                     } else {
                         console.log("Hospital not in database", hospitalName)
-                        globalObject.notFoundHospitals.push(hospitalName)
+                        globalObject[transactionId].notFoundHospitals.push(hospitalName)
                     }
                 })
                 resolve()
@@ -532,7 +532,7 @@ const loadSpecialityData = (transactionId, f) => {
                         }
                     } else {
                         console.log("Hospital not in database", hospitalName)
-                        globalObject.notFoundHospitals.push(hospitalName)
+                        globalObject[transactionId].notFoundHospitals.push(hospitalName)
                     }
                 })
                 resolve()

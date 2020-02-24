@@ -16,7 +16,6 @@ client.ping({
         console.error('elasticsearch cluster is down!');
     } else {
         console.log('Connected to elasticsearch');
-        sendServicesToES()
     }
 });
 

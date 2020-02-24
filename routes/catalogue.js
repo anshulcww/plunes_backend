@@ -112,18 +112,28 @@ router.post('/newsearch', async (req, res) => {
                 "size": limit,
                 "_source": ["service", "category", "serviceId", "details", "dnd"],
                 "body": {
-                    "query": {
-                        "multi_match": {
-                            "query": req.body.expression,
-                            "fields": [
-                                "service^3",
-                                "tags^2",
-                                "speciality"
-                            ],
-                            "fuzziness": 3,
-                            "prefix_length": 2
+                    "sort": [
+                        {
+                            "_score": {
+                                "order": "desc"
+                            }
                         }
-                    }
+                    ],
+                    "query": {
+                        "bool": {
+                            "must": [
+                                {
+                                    "query_string": {
+                                        "query": req.body.expression + "~1",
+                                        "analyze_wildcard": true,
+                                    }
+                                }
+                            ],
+                            "filter": [],
+                            "should": [],
+                            "must_not": []
+                        }
+                    },
                 }
             })
             catalogue.hits.hits.forEach(element => {

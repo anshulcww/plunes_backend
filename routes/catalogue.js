@@ -124,7 +124,7 @@ router.post('/newsearch', async (req, res) => {
                             "must": [
                                 {
                                     "query_string": {
-                                        "query": req.body.expression + "~1",
+                                        "query": req.body.expression + "~2",
                                         "analyze_wildcard": true,
                                     }
                                 }

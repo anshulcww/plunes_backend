@@ -194,21 +194,21 @@ router.get('/', auth, async (req, res) => {
                     "from": Service.collection.name,
                     "localField": "serviceId",
                     "foreignField": "serviceId",
-                    "as": "service"
+                    "as": "serviceDoc"
                 }
             },
             {
                 $unwind: "$user"
             },
             {
-                $unwind: "$service"
+                $unwind: "$serviceDoc"
             },
             {
                 $unwind: "$professional"
             },
             {
                 $addFields: {
-                    serviceName: "$service.service",
+                    serviceName: "$serviceDoc.service",
                     userName: "$user.name",
                     userLocation: "$user.geoLocation",
                     userImageUrl: "$user.imageUrl",
@@ -227,7 +227,7 @@ router.get('/', auth, async (req, res) => {
                 $project: {
                     "user": 0,
                     "professional": 0,
-                    "service": 0
+                    "serviceDoc": 0
                 }
             },
             {

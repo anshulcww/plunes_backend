@@ -23,7 +23,7 @@ const sendServicesToES = async serviceArray => {
     await asyncForEach(serviceArray, async element => {
         let a = await client.index({
             index: "services",
-            type: "service",
+            // type: "service",
             body: element
         })
         console.log(a)

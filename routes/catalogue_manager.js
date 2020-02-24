@@ -415,7 +415,7 @@ const loadHospitalData = (transactionId, f) => {
                                         // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
-                                        if (variance && price) {
+                                        if (variance && (price || price === 0)) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],
@@ -493,7 +493,7 @@ const loadSpecialityData = (transactionId, f) => {
                                         // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
-                                        if (variance && price) {
+                                        if (variance && (price || price === 0)) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],

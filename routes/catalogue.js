@@ -124,8 +124,11 @@ router.post('/newsearch', async (req, res) => {
                             "must": [
                                 {
                                     "query_string": {
-                                        "query": req.body.expression + "~2",
+                                        "query": req.body.expression,
                                         "analyze_wildcard": true,
+                                        "fields": ["service^3", "tags^2", "speciality"],
+                                        "fuzziness": "AUTO",
+                                        "fuzzy_prefix_length": 3,
                                     }
                                 }
                             ],

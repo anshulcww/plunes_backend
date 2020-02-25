@@ -77,13 +77,10 @@ const sendServicesToES = async serviceArray => {
 
 const addServicesCollection = async serviceArray => {
     await Services.collection.drop();
-    await asyncForEach(serviceArray, async element => {
-        console.log({ element })
-        let a = new Services({
-            element
-        })
-        await a.save()
-        console.log(a)
+    console.log("Dropped collection")
+    Services.insertMany(serviceArray, (err, docs) => {
+        if (err) console.log("Error", err)
+        else console.log("Added docs", docs)
     })
 }
 

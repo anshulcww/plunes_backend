@@ -53,7 +53,7 @@ const createServicesCollection = () => {
                     })
                 })
                 console.log("Got through it")
-                sendServicesToES(bigAssArray)
+                // sendServicesToES(bigAssArray)
                 addServicesCollection(bigAssArray)
                 // Services.insertMany(bigAssArray, (err, docs) => {
                 //     if (err) console.log("Error", err)
@@ -78,6 +78,7 @@ const sendServicesToES = async serviceArray => {
 const addServicesCollection = async serviceArray => {
     await Services.collection.drop();
     await asyncForEach(serviceArray, async element => {
+        console.log({ element })
         let a = new Services({
             element
         })
@@ -622,8 +623,8 @@ const loadXlsxLifeAid = async (f) => {
                                 price: [price],
                                 category: speciality === "Pathologists" || speciality === "Radiologists" || speciality === "Health Package" ? ["Test"] : ["Procedure"],
 
-                            serviceId: serviceId,
-                                variance: variance||45,
+                                serviceId: serviceId,
+                                variance: variance || 45,
                                 homeCollection: false
                             })
                         } else {

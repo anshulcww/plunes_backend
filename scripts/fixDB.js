@@ -3,6 +3,32 @@ const fs = require('fs')
 const xlsx = require('node-xlsx')
 const ObjectId = mongoose.Types.ObjectId
 const Config = require('../config')
+const elasticsearch = require('elasticsearch')
+
+let client = new elasticsearch.Client({
+    hosts: ['localhost:9200']
+})
+
+client.ping({
+    requestTimeout: 30000,
+}, function (error) {
+    if (error) {
+        console.error('elasticsearch cluster is down!');
+    } else {
+        console.log('Connected to elasticsearch');
+    }
+});
+
+const sendServicesToES = async serviceArray => {
+    await asyncForEach(serviceArray, async element => {
+        let a = await client.index({
+            index: "services",
+            // type: "service",
+            body: element
+        })
+        console.log(a)
+    })
+}
 
 mongoose.connect(Config.MONGODB_URL, {
     useNewUrlParser: true,
@@ -38,10 +64,11 @@ const createServicesCollection = () => {
                     })
                 })
                 console.log("Got through it")
-                Services.insertMany(bigAssArray, (err, docs) => {
-                    if (err) console.log("Error", err)
-                    else console.log("Added docs", docs)
-                })
+                sendServicesToES(bigAssArray)
+                // Services.insertMany(bigAssArray, (err, docs) => {
+                //     if (err) console.log("Error", err)
+                //     else console.log("Added docs", docs)
+                // })
             }
         })
     })
@@ -581,7 +608,7 @@ const loadXlsxLifeAid = async (f) => {
                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                             tempObj.services = tempObj.services.concat({
                                 price: [price],
-                                category: speciality === "Pathologists" || speciality === "Radiologists"|| speciality === "Health Package" ? ["Test"] : ["Procedure"],
+                                category: speciality === "Pathologists" || speciality === "Radiologists" || speciality === "Health Package" ? ["Test"] : ["Procedure"],
 
                             serviceId: serviceId,
                                 variance: variance||45,

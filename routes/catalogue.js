@@ -110,7 +110,7 @@ router.post('/newsearch', async (req, res) => {
                 "index": "services",
                 "from": skip,
                 "size": limit,
-                "_source": ["service", "category", "serviceId", "details", "dnd"],
+                "_source": ["service", "category", "serviceId", "details", "dnd", "tags"],
                 "body": {
                     "sort": [
                         {
@@ -123,12 +123,11 @@ router.post('/newsearch', async (req, res) => {
                         "bool": {
                             "must": [
                                 {
-                                    "query_string": {
+                                    "multi_match": {
                                         "query": req.body.expression,
                                         "analyze_wildcard": true,
-                                        "fields": ["service", "tags"]
-                                        // "fuzziness": "AUTO:6,7",
-                                        // "fuzzy_prefix_length": 3
+                                        "fuzziness": "AUTO:6,7",
+                                        "fuzzy_prefix_length": 3
                                     }
                                 }
                             ],

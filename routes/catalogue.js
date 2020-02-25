@@ -123,7 +123,7 @@ router.post('/newsearch', async (req, res) => {
                         "bool": {
                             "must": [
                                 {
-                                    "multi_match": {
+                                    "query_string": {
                                         "query": req.body.expression,
                                         "analyze_wildcard": true,
                                         "fuzziness": "AUTO:6,7",

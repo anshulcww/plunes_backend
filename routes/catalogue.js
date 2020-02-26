@@ -110,7 +110,7 @@ router.post('/newsearch', async (req, res) => {
                 "index": "services",
                 "from": skip,
                 "size": limit,
-                "_source": ["service", "category", "serviceId", "details", "dnd", "tags"],
+                // "_source": ["service", "category", "serviceId", "details", "dnd", "tags"],
                 "body": {
                     "sort": [
                         {

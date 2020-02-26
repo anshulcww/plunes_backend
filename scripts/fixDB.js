@@ -43,12 +43,12 @@ const createServicesCollection = () => {
                             specialityId: ObjectId(element._id),
                             serviceId: ObjectId(element1._id),
                             service: element1.service,
-                            service_lowercase: element1.service.toLowerCase(),
+                            service_lowercase: element1.service ? element1.service.toLowerCase() : '',
                             details: element1.details,
                             duration: element1.duration,
                             sittings: element1.sittings,
                             dnd: element1.dnd,
-                            tags: element1.tags.toLowerCase(),
+                            tags: element1.tags ? element1.tags.toLowerCase() : '',
                             category: element1.category
                         }
                         bigAssArray.push(smallObject)

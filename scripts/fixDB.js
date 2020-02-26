@@ -4,9 +4,10 @@ const xlsx = require('node-xlsx')
 const ObjectId = mongoose.Types.ObjectId
 const Config = require('../config')
 const elasticsearch = require('elasticsearch')
+const { ELASTIC_URL } = require('../config')
 
 let client = new elasticsearch.Client({
-    hosts: ['172.31.41.184:9200']
+    hosts: [ELASTIC_URL]
 })
 
 client.ping({

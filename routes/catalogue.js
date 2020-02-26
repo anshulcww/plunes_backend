@@ -6,13 +6,14 @@ const Catalogue = require('../models/catalogue')
 const Services = require('../models/services')
 const User = require('../models/user')
 const auth = require('../middleware/auth')
+const { ELASTIC_URL } = require('../config')
 
 router = express.Router()
 
 var catalogue = undefined
 
 var client = new elasticsearch.Client({
-    hosts: ["http://172.31.41.184:9200"]
+    hosts: [ELASTIC_URL]
 })
 
 router.get('/', async (req, res) => {
@@ -140,7 +141,7 @@ router.post('/search', async (req, res) => {
                     },
                 }
             })
-            let resultArray = catalogue.hits.hits.map(element => 
+            let resultArray = catalogue.hits.hits.map(element =>
                 element["_source"]
             )
             res.status(200).send({

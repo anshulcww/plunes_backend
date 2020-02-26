@@ -53,7 +53,7 @@ const createServicesCollection = () => {
                     })
                 })
                 console.log("Got through it")
-                // sendServicesToES(bigAssArray)
+                sendServicesToES(bigAssArray)
                 addServicesCollection(bigAssArray)
                 // Services.insertMany(bigAssArray, (err, docs) => {
                 //     if (err) console.log("Error", err)

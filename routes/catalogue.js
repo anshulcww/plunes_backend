@@ -138,9 +138,9 @@ router.post('/newsearch', async (req, res) => {
                     },
                 }
             })
-            let resultArray = catalogue.hits.hits.map(element => {
-                element._source
-            })
+            let resultArray = catalogue.hits.hits.map(element => 
+                element["_source"]
+            )
             res.status(200).send({
                 status: true,
                 data: resultArray,

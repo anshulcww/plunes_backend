@@ -105,6 +105,7 @@ router.post('/newsearch', async (req, res) => {
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)
         const skip = parseInt(req.body.page) * limit
+        req.body.expression = req.body.expression.toLowerCase()
         try {
             const catalogue = await client.search({
                 "index": "services",

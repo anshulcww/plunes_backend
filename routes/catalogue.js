@@ -12,7 +12,7 @@ router = express.Router()
 var catalogue = undefined
 
 var client = new elasticsearch.Client({
-    hosts: ["localhost:9200"]
+    hosts: ["http://172.31.41.184:9200"]
 })
 
 router.get('/', async (req, res) => {

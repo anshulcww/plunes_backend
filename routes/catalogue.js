@@ -26,7 +26,7 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.post('/search', async (req, res) => {
+router.post('/search_old', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)
@@ -100,7 +100,7 @@ router.post('/search', async (req, res) => {
     }
 })
 
-router.post('/newsearch', async (req, res) => {
+router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)

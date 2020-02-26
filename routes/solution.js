@@ -45,7 +45,7 @@ router.get('/', auth, async (req, res) => {
                     const percentage = ((service.newPrice[0] - averagePrice) / service.newPrice[0]) * 100
                     service.recommendation = parseInt(percentage / 5) * 5
                 }
-                if (((service.newPrice[0] - averagePrice) / averagePrice) > 0.25) {
+                if (((service.newPrice[0] - averagePrice) / averagePrice) > 0.05) {
                     service.negotiating = true
                     const professional = await User.findById(service.professionalId)
                     if (professional) {

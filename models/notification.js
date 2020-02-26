@@ -64,6 +64,7 @@ notificationSchema.pre('save', async function(next) {
 const Notification = mongoose.model('notification', notificationSchema)
 
 Notification.sms = async function(mobileNumber, sms) {
+    console.log(sms, 'sms')
     const url = `https://api.msg91.com/api/sendhttp.php?mobiles=${mobileNumber}&authkey=278069AIdfPwGj5ce79990&route=4&sender=PLUNES&message=${sms}&country=91`
     request.get({
         headers: {},
@@ -72,13 +73,14 @@ Notification.sms = async function(mobileNumber, sms) {
 }
 
 Notification.email = async function(recipient, subject, text) {
+   // console.log(recipient);
     const transporter = nodemailer.createTransport({
         host: "smtp.zoho.in",
         port: 465,
         secure: true,
         auth: {
             user: "info@plunes.com",
-            pass: "Plato#45"
+            pass: "Ch@nder123"
         }
     })
     const mailOptions = {

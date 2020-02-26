@@ -115,7 +115,8 @@ router.post('/', auth, async (req, res) => {
                 }
                 const procedure = await Catalogue.findServiceName(booking.serviceId)
                 if (professional) {
-                    const email = confirmationEmail(user.name, professional.name, procedure[1], professional.address, booking.appointmentTime.substr(11), booking.appointmentTime.substr(0, 10), professional.mobileNumber)
+                   console.log(procedure, 'procedure');
+                    const email = confirmationEmail(user.name, professional.name, procedure, professional.address, booking.appointmentTime.substr(11), booking.appointmentTime.substr(0, 10), professional.mobileNumber)
                     await Notification.email(user.email, 'Plunes: Booking confirmation', email)
                     await Notification.sms(professional.mobileNumber, `${user.name} (${user.mobileNumber}) has booked an appointment for ${procedure[1]} at ${booking.appointmentTime}. Please check the details in the App.`)
                 }
@@ -135,7 +136,7 @@ router.post('/', auth, async (req, res) => {
             }
         }
         await booking.save()
-        console.log({booking})
+        //console.log({booking})
         res.status(201).send({
             success: true,
             id: booking._id,
@@ -262,7 +263,7 @@ router.put('/', auth, async (req, res) => {
                 booking.appointmentTime = appointmentTime
             }
             await booking.save()
-            console.log('Sending notifications ...')
+           // console.log('Sending notifications ...')
             const user = await User.findById(booking.userId)
             if (user) {
                 console.log('User:', user.name)
@@ -279,7 +280,7 @@ router.put('/', auth, async (req, res) => {
             }
             const professional = await User.findById(booking.professionalId)
             if (professional) {
-                console.log('Professional:', professional.name)
+             //   console.log('Professional:', professional.name)
                 const notification = new Notification({
                     userId: booking.professionalId,
                     senderUserId: booking.userId,

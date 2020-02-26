@@ -6,7 +6,7 @@ const Config = require('../config')
 const elasticsearch = require('elasticsearch')
 
 let client = new elasticsearch.Client({
-    hosts: ['localhost:9200']
+    hosts: ['172.31.41.184:9200']
 })
 
 client.ping({

@@ -110,7 +110,7 @@ router.post('/newsearch', async (req, res) => {
                 "index": "services",
                 "from": skip,
                 "size": limit,
-                "_source": ["service", "category", "serviceId", "details", "dnd"],
+                "_source": ["service", "category", "serviceId", "details", "dnd", "tags"],
                 "body": {
                     "sort": [
                         {
@@ -126,9 +126,8 @@ router.post('/newsearch', async (req, res) => {
                                     "query_string": {
                                         "query": req.body.expression,
                                         "analyze_wildcard": true,
-                                        "fields": ["service", "tags"]
-                                        // "fuzziness": "AUTO:6,7",
-                                        // "fuzzy_prefix_length": 3
+                                        "fuzziness": "AUTO:6,7",
+                                        "fuzzy_prefix_length": 3
                                     }
                                 }
                             ],
@@ -139,12 +138,12 @@ router.post('/newsearch', async (req, res) => {
                     },
                 }
             })
-            catalogue.hits.hits.forEach(element => {
-                element = element._source
-            })
+            let resultArray = catalogue.hits.hits.map(element => 
+                element["_source"]
+            )
             res.status(200).send({
                 status: true,
-                data: catalogue.hits.hits,
+                data: resultArray,
                 count: catalogue.hits.hits.length,
                 msg: "success"
             })

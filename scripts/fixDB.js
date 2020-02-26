@@ -19,17 +19,6 @@ client.ping({
     }
 });
 
-const sendServicesToES = async serviceArray => {
-    await asyncForEach(serviceArray, async element => {
-        let a = await client.index({
-            index: "services",
-            // type: "service",
-            body: element
-        })
-        console.log(a)
-    })
-}
-
 mongoose.connect(Config.MONGODB_URL, {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -65,12 +54,33 @@ const createServicesCollection = () => {
                 })
                 console.log("Got through it")
                 sendServicesToES(bigAssArray)
+                addServicesCollection(bigAssArray)
                 // Services.insertMany(bigAssArray, (err, docs) => {
                 //     if (err) console.log("Error", err)
                 //     else console.log("Added docs", docs)
                 // })
             }
         })
+    })
+}
+
+const sendServicesToES = async serviceArray => {
+    await asyncForEach(serviceArray, async element => {
+        let a = await client.index({
+            index: "services",
+            // type: "service",
+            body: element
+        })
+        console.log(a)
+    })
+}
+
+const addServicesCollection = async serviceArray => {
+    await Services.collection.drop();
+    console.log("Dropped collection")
+    Services.insertMany(serviceArray, (err, docs) => {
+        if (err) console.log("Error", err)
+        else console.log("Added docs", docs)
     })
 }
 
@@ -610,8 +620,8 @@ const loadXlsxLifeAid = async (f) => {
                                 price: [price],
                                 category: speciality === "Pathologists" || speciality === "Radiologists" || speciality === "Health Package" ? ["Test"] : ["Procedure"],
 
-                            serviceId: serviceId,
-                                variance: variance||45,
+                                serviceId: serviceId,
+                                variance: variance || 45,
                                 homeCollection: false
                             })
                         } else {

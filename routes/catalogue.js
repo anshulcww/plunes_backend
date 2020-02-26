@@ -138,12 +138,12 @@ router.post('/newsearch', async (req, res) => {
                     },
                 }
             })
-            catalogue.hits.hits.forEach(element => {
-                element = element._source
+            let resultArray = catalogue.hits.hits.map(element => {
+                element._source
             })
             res.status(200).send({
                 status: true,
-                data: catalogue.hits.hits,
+                data: resultArray,
                 count: catalogue.hits.hits.length,
                 msg: "success"
             })

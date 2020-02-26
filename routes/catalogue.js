@@ -128,7 +128,8 @@ router.post('/newsearch', async (req, res) => {
                                         "query": req.body.expression,
                                         "analyze_wildcard": true,
                                         "fuzziness": "AUTO:6,7",
-                                        "fuzzy_prefix_length": 3
+                                        "fuzzy_prefix_length": 3,
+                                        "fields": ["service_lowercase^2", "tags"]
                                     }
                                 }
                             ],

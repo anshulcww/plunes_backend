@@ -38,7 +38,7 @@ const createServicesCollection = () => {
                 let bigAssArray = []
                 catalogueDocs.forEach(element => {
                     element.services.forEach(element1 => {
-                        console.log(element1.service ? element1.service.toLowerCase() : '')
+                        // console.log(element1.service ? element1.service.toLowerCase() : '')
                         let smallObject = {
                             speciality: element.speciality,
                             specialityId: ObjectId(element._id),

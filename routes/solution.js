@@ -20,7 +20,7 @@ router.get('/', auth, async (req, res) => {
             userId: user._id.toString()
         })
         console.log({ solution })
-        if (solution && (Date.now() - solution.createdTime) > 600000) {
+        if (solution && (Date.now() - solution.createdTime) > 3600000) {
             console.log("Negotiation timeout 1:", (Date.now() - solution.createdTime), Date.now(), solution.createdTime)
             solution.services.forEach((service) => {
                 service.negotiating = false

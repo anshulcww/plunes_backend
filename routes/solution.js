@@ -14,12 +14,12 @@ const ObjectId = mongoose.Types.ObjectId
 router.get('/', auth, async (req, res) => {
     try {
         const serviceId = req.query.serviceId
-        // console.log('ServiceId:', serviceId)
         const user = req.user
         var solution = await Solution.findOne({
             serviceId: serviceId,
             userId: user._id.toString()
         })
+        console.log({ solution })
         if (solution && (Date.now() - solution.createdTime) > 600000) {
             console.log("Negotiation timeout 1:", (Date.now() - solution.createdTime), Date.now(), solution.createdTime)
             solution.services.forEach((service) => {

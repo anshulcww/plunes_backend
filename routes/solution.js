@@ -45,7 +45,7 @@ router.get('/', auth, async (req, res) => {
                     const percentage = ((service.newPrice[0] - averagePrice) / service.newPrice[0]) * 100
                     service.recommendation = parseInt(percentage / 5) * 5
                 }
-                if (((service.newPrice[0] - averagePrice) / averagePrice) > 0.05) {
+                if (((service.newPrice[0] - averagePrice) / averagePrice) > 0.15) {
                     service.negotiating = true
                     const professional = await User.findById(service.professionalId)
                     if (professional) {
@@ -96,7 +96,7 @@ router.get('/search', auth, async (req, res) => {
         personalSolutions = personalSolutions.filter((s) => (Date.now() - s.createdTime) < 3600000)
         personalSolutions.forEach(function(solution) {
             // console.log('Search ServiceId:', solution.serviceId)
-            if ((Date.now() - solution.createdTime) > 600000) {
+            if ((Date.now() - solution.createdTime) > 60000000) {
                 solution.services.forEach(function(service) {
                     service.negotiating = false
                 })

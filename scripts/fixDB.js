@@ -57,7 +57,7 @@ const createServicesCollection = () => {
                 })
                 console.log("Got through it")
                 sendServicesToES(bigAssArray)
-                // addServicesCollection(bigAssArray)
+                addServicesCollection(bigAssArray)
                 // Services.insertMany(bigAssArray, (err, docs) => {
                 //     if (err) console.log("Error", err)
                 //     else console.log("Added docs", docs)
@@ -68,7 +68,7 @@ const createServicesCollection = () => {
 }
 
 const sendServicesToES = async serviceArray => {
-    // await client.indices.delete({ index: ES_INDEX })
+    await client.indices.delete({ index: ES_INDEX })
     console.log("Deleted index")
     await client.indices.create({
         index: ES_INDEX,
@@ -139,7 +139,7 @@ const addServicesCollection = async serviceArray => {
     console.log("Dropped collection")
     Services.insertMany(serviceArray, (err, docs) => {
         if (err) console.log("Error", err)
-        else console.log("Added docs", docs)
+        else console.log("Added docs")
     })
 }
 

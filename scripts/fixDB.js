@@ -68,6 +68,7 @@ const createServicesCollection = () => {
 }
 
 const sendServicesToES = async serviceArray => {
+    await client.indices.delete({ index: 'services' })
     await asyncForEach(serviceArray, async element => {
         let a = await client.index({
             index: "services",

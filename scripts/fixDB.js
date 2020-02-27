@@ -68,7 +68,60 @@ const createServicesCollection = () => {
 }
 
 const sendServicesToES = async serviceArray => {
-    await client.indices.delete({ index: 'services' })
+    await client.indices.delete({ index: 'services_development' })
+    await client.indices.create({
+        index: "services_development",
+        body: {
+            "settings": {
+              "analysis": {
+                "analyzer": {
+                  "my_analyzer": {
+                    "tokenizer": "my_tokenizer"
+                  }
+                },
+                "tokenizer": {
+                  "my_tokenizer": {
+                    "type": "edge_ngram",
+                    "token_chars": [
+                      "letter",
+                      "digit"
+                    ]
+                  }
+                }
+              }
+            },
+            "mappings": {
+              "properties": {
+                "tags": {
+                  "type": "text"
+                },
+                "service_lowercase": {
+                  "type": "text"
+                },
+                "details": {
+                  "type": "text",
+                  "index": false
+                },
+                "service": {
+                  "type": "text",
+                  "index": false
+                },
+                "dnd": {
+                  "type": "text",
+                  "index": false
+                },
+                "category": {
+                  "type": "text",
+                  "index": false
+                },
+                "speciality": {
+                  "type": "text",
+                  "index": false
+                }
+              }
+            }
+          }
+    })
     await asyncForEach(serviceArray, async element => {
         let a = await client.index({
             index: "services_development",

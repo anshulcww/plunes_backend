@@ -11,6 +11,8 @@ router = express.Router()
 
 let globalObject = {}
 
+var uploading = false
+
 const getServiceId = name => {
     return new Promise(async (resolve, reject) => {
         try {
@@ -145,115 +147,152 @@ router.post('/uploadHospital', async (req, res) => {
 
 router.post('/submit', async (req, res) => {
     console.log("Upload data submit", req.body.type, req.body.filename)
-    if (req.body.type === 'Catalogue') {
-        globalObject[req.body.filename] = {
-            addedServices: [],
-            namesUpdated: [],
-            notFoundSpecialities: [],
-            updatedServices: []
-        }
-        res.status(200).send({
-            status: 1,
-            data: [],
-            msg: 'success'
-        })
-        const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
-        fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
-            if (err) console.log("Error writing log", err)
-            else {
-                delete globalObject[req.body.filename]
-                console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
+    if(!uploading) {
+        if (req.body.type === 'Catalogue') {
+            globalObject[req.body.filename] = {
+                addedServices: [],
+                namesUpdated: [],
+                notFoundSpecialities: [],
+                updatedServices: []
             }
+            res.status(200).send({
+                status: 1,
+                data: [],
+                msg: 'success'
+            })
+            try {
+                uploading = true
+                const result = await loadMasterSheet(req.body.filename, path.join(__dirname, '../public/catalogs/', req.body.filename))
+                uploading = false
+                fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                    if (err) console.log("Error writing log", err)
+                    else {
+                        delete globalObject[req.body.filename]
+                        console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
+                    }
+                })
+            } catch (e) {
+                uploading = false
+                console.log("Error uploading", e)
+            }
+        } else if (req.body.type === 'Hospital') {
+            globalObject[req.body.filename] = {
+                errors: [],
+                notFoundSpecialities: [],
+                notFoundServices: [],
+                notFoundHospitals: [],
+                updatedHospitals: []
+            }
+            try {
+                res.status(200).send({
+                    status: 1,
+                    data: [],
+                    msg: 'success'
+                })
+                try {
+                    uploading = true
+                    const result = await loadHospitalData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
+                    uploading = false
+                    fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                        if (err) console.log("Error writing log", err)
+                        else {
+                            delete globalObject[req.body.filename]
+                            console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
+                        }
+                    })
+                } catch(e) {
+                    uploading = false
+                    console.log("Error", e)
+                }
+            } catch (e) {
+                console.log("Error", e)
+                res.status(400).send({
+                    status: 0,
+                    data: e,
+                    msg: 'error'
+                })
+            }
+        } else if (req.body.type === 'Speciality') {
+            globalObject[req.body.filename] = {
+                errors: [],
+                notFoundSpecialities: [],
+                notFoundServices: [],
+                notFoundHospitals: [],
+                updatedSpecialities: [],
+                addedSpecialities: []
+            }
+            try {
+                res.status(200).send({
+                    status: 1,
+                    data: [],
+                    msg: 'success'
+                })
+                try {
+                    uploading = true
+                    const result = await loadSpecialityData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
+                    uploading = false
+                    fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                        if (err) console.log("Error writing log", err)
+                        else {
+                            delete globalObject[req.body.filename]
+                            console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
+                        }
+                    })
+                } catch(e) {
+                    console.log("Error", e)
+                    uploading = false
+                }
+            } catch (e) {
+                res.status(400).send({
+                    status: 0,
+                    data: e,
+                    msg: 'error'
+                })
+            }
+        } else if (req.body.type === 'Doctors') {
+            globalObject[req.body.filename] = {
+                notFoundSpecialities: [],
+                errors: [],
+                notFoundHospitals: [],
+                updatedDoctors: [],
+                addedDoctors: []
+            }
+            try {
+                res.status(200).send({
+                    status: 1,
+                    data: [],
+                    msg: 'success'
+                })
+                try {
+                    uploading = true
+                    const result = await loadDoctors(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
+                    uploading = false
+                    fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                        if (err) console.log("Error writing log", err)
+                        else {
+                            delete globalObject[req.body.filename]
+                            console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
+                        }
+                    })
+                } catch(e) {
+                    uploading = false
+                    console.log("Error", e)
+                }
+            } catch (e) {
+                res.status(400).send({
+                    status: 0,
+                    data: e,
+                    msg: 'error'
+                })
+            }
+        }
+    } else {
+        console.log("Another upload in progress")
+        res.status(400).send({
+            status: 0,
+            data: [],
+            msg: "Another upload in progress"
         })
-    } else if (req.body.type === 'Hospital') {
-        globalObject[req.body.filename] = {
-            errors: [],
-            notFoundSpecialities: [],
-            notFoundServices: [],
-            notFoundHospitals: [],
-            updatedHospitals: []
-        }
-        try {
-            res.status(200).send({
-                status: 1,
-                data: [],
-                msg: 'success'
-            })
-            const result = await loadHospitalData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
-            fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
-                if (err) console.log("Error writing log", err)
-                else {
-                    delete globalObject[req.body.filename]
-                    console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
-                }
-            })
-        } catch (e) {
-            console.log("Error", e)
-            res.status(400).send({
-                status: 0,
-                data: e,
-                msg: 'error'
-            })
-        }
-    } else if (req.body.type === 'Speciality') {
-        globalObject[req.body.filename] = {
-            errors: [],
-            notFoundSpecialities: [],
-            notFoundServices: [],
-            notFoundHospitals: [],
-            updatedSpecialities: [],
-            addedSpecialities: []
-        }
-        try {
-            res.status(200).send({
-                status: 1,
-                data: [],
-                msg: 'success'
-            })
-            const result = await loadSpecialityData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
-            fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
-                if (err) console.log("Error writing log", err)
-                else {
-                    delete globalObject[req.body.filename]
-                    console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
-                }
-            })
-        } catch (e) {
-            res.status(400).send({
-                status: 0,
-                data: e,
-                msg: 'error'
-            })
-        }
-    } else if (req.body.type === 'Doctors') {
-        globalObject[req.body.filename] = {
-            notFoundSpecialities: [],
-            errors: [],
-            notFoundHospitals: [],
-            updatedDoctors: [],
-            addedDoctors: []
-        }
-        try {
-            res.status(200).send({
-                status: 1,
-                data: [],
-                msg: 'success'
-            })
-            const result = await loadDoctors(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
-            fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
-                if (err) console.log("Error writing log", err)
-                else {
-                    delete globalObject[req.body.filename]
-                    console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
-                }
-            })
-        } catch (e) {
-            res.status(400).send({
-                status: 0,
-                data: e,
-                msg: 'error'
-            })
-        }
     }
 })
 
@@ -567,7 +606,7 @@ const loadDoctors = (transactionId, f) => {
                     let consultationFee = row[4]
                     let experience = row[5]
                     let businessHours = row[6] | "10:00 AM-08:00 PM"
-                    if(parseInt(experience) && parseInt(consultationFee)) {
+                    if (parseInt(experience) && parseInt(consultationFee)) {
                         let newDoctorRecord = {
                             name: doctorName,
                             education,
@@ -638,7 +677,7 @@ const loadDoctors = (transactionId, f) => {
                             globalObject[transactionId].notFoundSpecialities.push(speciality)
                         }
                     } else {
-                        console.log("Error in parsing experience/fee", {consultationFee, experience})
+                        console.log("Error in parsing experience/fee", { consultationFee, experience })
                         globalObject[transactionId].errors.push(`${hospitalName} : ${doctorName} has invalid experience/consultation fees`)
                     }
                 } else {

@@ -20,21 +20,20 @@ router.get('/', auth, async (req, res) => {
             userId: user._id.toString()
         })
         console.log({ solution }, (Date.now() - solution.createdTime))
-        if (solution && (Date.now() - solution.createdTime) > 3600000) {
+        if (solution && (Date.now() - solution.createdTime) > 600000) {
             console.log("Negotiation timeout 1:", (Date.now() - solution.createdTime), Date.now(), solution.createdTime)
             solution.services.forEach((service) => {
                 service.negotiating = false
             })
-            solution.createdTime = Date.now()
-            await solution.save()
-            console.log("Created time updated")
         }
         if (!solution || (Date.now() - solution.createdTime) > 3600000) {
             if (solution && (Date.now() - solution.createdTime) > 3600000) {
-                Solution.deleteOne({
+                await Solution.deleteOne({
                     _id: solution._id
                 })
+                console.log("Deleted previous solution")
             }
+            console.log("Timeout")
             const services = await User.findServices(serviceId, user)
             var totalPrice = 0
             services.forEach((service) => {

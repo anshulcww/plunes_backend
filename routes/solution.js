@@ -25,6 +25,9 @@ router.get('/', auth, async (req, res) => {
             solution.services.forEach((service) => {
                 service.negotiating = false
             })
+            solution.createdTime = Date.now()
+            await solution.save()
+            console.log("Created time updated")
         }
         if (!solution || (Date.now() - solution.createdTime) > 3600000) {
             if (solution && (Date.now() - solution.createdTime) > 3600000) {

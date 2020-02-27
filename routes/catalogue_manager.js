@@ -537,17 +537,18 @@ const loadSpecialityData = (transactionId, f) => {
                                         // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
-                                        if (variance && (price || price === 0)) {
+                                        let category = row[7]
+                                        if (variance && (price || price === 0) && category) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],
-                                                category: speciality === "Pathologists" || speciality === "Radiologists" ? ["Test"] : ["Procedure"],
+                                                category: category,
                                                 serviceId: serviceId,
                                                 variance: variance || 35,
                                                 homeCollection: false
                                             })
                                         } else {
-                                            console.log("Price/variance doesn't exist for", hospitalName, speciality, service)
+                                            console.log("Price/variance/category doesn't exist for", hospitalName, speciality, service)
                                             globalObject[transactionId].errors.push(`Price/variance doesn't exist for - ${hospitalName} : ${speciality} : ${service}`)
                                         }
                                     } else {

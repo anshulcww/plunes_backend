@@ -69,6 +69,7 @@ const createServicesCollection = () => {
 
 const sendServicesToES = async serviceArray => {
     await client.indices.delete({ index: ES_INDEX })
+    console.log("Deleted index")
     await client.indices.create({
         index: ES_INDEX,
         body: {
@@ -122,6 +123,7 @@ const sendServicesToES = async serviceArray => {
             }
           }
     })
+    console.log("Created index", ES_INDEX)
     await asyncForEach(serviceArray, async element => {
         let a = await client.index({
             index: ES_INDEX,

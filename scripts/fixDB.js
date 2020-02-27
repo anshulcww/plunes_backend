@@ -4,7 +4,7 @@ const xlsx = require('node-xlsx')
 const ObjectId = mongoose.Types.ObjectId
 const Config = require('../config')
 const elasticsearch = require('elasticsearch')
-const { ELASTIC_URL } = require('../config')
+const { ELASTIC_URL, ES_INDEX } = require('../config')
 
 let client = new elasticsearch.Client({
     hosts: [ELASTIC_URL]
@@ -68,9 +68,9 @@ const createServicesCollection = () => {
 }
 
 const sendServicesToES = async serviceArray => {
-    await client.indices.delete({ index: 'services_development' })
+    await client.indices.delete({ index: ES_INDEX })
     await client.indices.create({
-        index: "services_development",
+        index: ES_INDEX,
         body: {
             "settings": {
               "analysis": {
@@ -124,7 +124,7 @@ const sendServicesToES = async serviceArray => {
     })
     await asyncForEach(serviceArray, async element => {
         let a = await client.index({
-            index: "services_development",
+            index: ES_INDEX,
             // type: "service",
             body: element
         })

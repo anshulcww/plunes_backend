@@ -6,7 +6,7 @@ const Catalogue = require('../models/catalogue')
 const Services = require('../models/services')
 const User = require('../models/user')
 const auth = require('../middleware/auth')
-const { ELASTIC_URL } = require('../config')
+const { ELASTIC_URL, ES_INDEX } = require('../config')
 
 router = express.Router()
 
@@ -109,7 +109,7 @@ router.post('/search', async (req, res) => {
         req.body.expression = req.body.expression.toLowerCase()
         try {
             const catalogue = await client.search({
-                "index": "services_development",
+                "index": ES_INDEX,
                 "from": skip,
                 "size": limit,
                 "_source": ["service", "category", "serviceId", "details", "dnd"],

@@ -109,7 +109,7 @@ router.post('/search', async (req, res) => {
         req.body.expression = req.body.expression.toLowerCase()
         try {
             const catalogue = await client.search({
-                "index": "services",
+                "index": "services_development",
                 "from": skip,
                 "size": limit,
                 "_source": ["service", "category", "serviceId", "details", "dnd"],

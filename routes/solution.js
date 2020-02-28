@@ -42,13 +42,14 @@ router.get('/', auth, async (req, res) => {
             const averagePrice = parseInt(totalPrice / services.length)
             for (var i = 0; i < services.length; i++) {
                 const service = services[i]
+                const percentage = ((service.newPrice[0] - averagePrice) / service.newPrice[0]) * 100
                 if (service.newPrice[0] <= averagePrice) {
                     service.recommendation = 0
                 } else {
-                    const percentage = ((service.newPrice[0] - averagePrice) / service.newPrice[0]) * 100
                     service.recommendation = parseInt(percentage / 5) * 5
                 }
-                if (((service.newPrice[0] - averagePrice) / averagePrice) > 0.15) {
+                console.log("Percentage" ,percentage, service.recommendation)
+                if (percentage > 15) {
                     service.negotiating = true
                     const professional = await User.findById(service.professionalId)
                     if (professional) {
@@ -64,7 +65,7 @@ router.get('/', auth, async (req, res) => {
                             await notification.save()
                             await Notification.sms(professional.mobileNumber, `${user.name} is looking for ${serviceName} near you. We recommend you to update the fee at the earliest.`)
                             if (professional.deviceIds.length > 0) {
-                                await Notification.push(professional.deviceIds, 'Fee alert', `${user.name} is looking for ${serviceName} near you. We recommend you to update the fee at the earliest.`, 'solution')
+                                await Notification.push(professional.deviceIds, 'Fee alert', `${user.name} is looking for ${serviceName} near you. We recommend you to update your fee up to ${percentage}% to maximize number of bookings.`, 'solution')
                             }
                         }
                     }

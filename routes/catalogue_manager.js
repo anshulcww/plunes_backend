@@ -457,7 +457,7 @@ const loadHospitalData = (transactionId, f) => {
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
                                         let category = row[7]
-                                        if (variance && (price || price === 0) && category) {
+                                        if ((variance || variance === 0) && (price || price === 0) && category) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],

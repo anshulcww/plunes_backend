@@ -141,7 +141,30 @@ const addServicesCollection = async serviceArray => {
     })
 }
 
-createServicesCollection()
+// createServicesCollection()
+removeDuplicates()
+
+const removeDuplicates = () => {
+    return new Promise( async (resolve, reject) => {
+        console.log("Remove duplicates")
+        let serviceCollection = await Services.find()
+        let catalogue = await Catalogue.find()
+        let users = await User.find()
+
+        let servicesArray = []
+        serviceCollection.forEach(element => {
+            const index = servicesArray.findIndex(value => value.service === element.service)
+            if(index === -1) {
+                servicesArray.push({service: element.service, id: element.serviceId})
+            } else {
+                const removeElement = await Services.deleteOne({_id: element._id})
+                console.log("Removed duplicate from services collection", removeElement)
+            }
+        })
+        await serviceCollection.save()
+        console.log("Saved unique service collection")
+    })
+}
 
 const similarity = (s1, s2) => {
     var longer = s1;

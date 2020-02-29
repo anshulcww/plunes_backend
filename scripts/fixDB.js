@@ -152,7 +152,7 @@ const removeDuplicates = () => {
         let users = await User.find()
 
         let servicesArray = []
-        serviceCollection.forEach(element => {
+        serviceCollection.forEach(async element => {
             const index = servicesArray.findIndex(value => value.service === element.service)
             if(index === -1) {
                 servicesArray.push({service: element.service, id: element.serviceId})

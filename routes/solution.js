@@ -42,13 +42,13 @@ router.get('/', auth, async (req, res) => {
             const averagePrice = parseInt(totalPrice / services.length)
             for (var i = 0; i < services.length; i++) {
                 const service = services[i]
-                const percentage = ((service.newPrice[0] - averagePrice) / service.newPrice[0]) * 100
+                const percentage = (((service.newPrice[0] - averagePrice) / service.newPrice[0]) * 100).toFixed(0)
                 if (service.newPrice[0] <= averagePrice) {
                     service.recommendation = 0
                 } else {
                     service.recommendation = parseInt(percentage / 5) * 5
                 }
-                console.log("Percentage" ,percentage, service.recommendation)
+                console.log("Percentage", percentage, service.recommendation)
                 if (percentage > 15) {
                     service.negotiating = true
                     const professional = await User.findById(service.professionalId)

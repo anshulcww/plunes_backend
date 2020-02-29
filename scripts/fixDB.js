@@ -153,7 +153,7 @@ const removeDuplicates = () => {
         let servicesArray = []
         serviceCollection.forEach(async element => {
             const index = servicesArray.findIndex(value => value.service === element.service)
-            console.log(index)
+            // console.log(index)
             if(index === -1) {
                 servicesArray.push({service: element.service, id: element.serviceId})
             } else {
@@ -161,7 +161,6 @@ const removeDuplicates = () => {
                 console.log("Removed duplicate from services collection", removeElement)
             }
         })
-        await serviceCollection.save()
         console.log("Saved unique service collection")
     })
 }

@@ -146,13 +146,14 @@ const addServicesCollection = async serviceArray => {
 const removeDuplicates = () => {
     return new Promise( async (resolve, reject) => {
         console.log("Remove duplicates")
-        let serviceCollection = await Services.find()
+        let serviceCollection = await Services.find({})
         let catalogue = await Catalogue.find()
         let users = await User.find()
 
         let servicesArray = []
         serviceCollection.forEach(async element => {
             const index = servicesArray.findIndex(value => value.service === element.service)
+            console.log(index)
             if(index === -1) {
                 servicesArray.push({service: element.service, id: element.serviceId})
             } else {

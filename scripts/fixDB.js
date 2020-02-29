@@ -142,7 +142,6 @@ const addServicesCollection = async serviceArray => {
 }
 
 // createServicesCollection()
-removeDuplicates()
 
 const removeDuplicates = () => {
     return new Promise( async (resolve, reject) => {
@@ -165,6 +164,9 @@ const removeDuplicates = () => {
         console.log("Saved unique service collection")
     })
 }
+
+removeDuplicates()
+
 
 const similarity = (s1, s2) => {
     var longer = s1;

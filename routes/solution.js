@@ -50,6 +50,7 @@ router.get('/', auth, async (req, res) => {
                 }
                 console.log("Percentage", percentage, service.recommendation)
                 if (percentage > 15) {
+                    console.log("Negotiating true")
                     service.negotiating = true
                     const professional = await User.findById(service.professionalId)
                     if (professional) {
@@ -82,8 +83,9 @@ router.get('/', auth, async (req, res) => {
                 services: services
             })
             await solution.save()
+            console.log("Saved solution")
         }
-        // console.log(solution)
+        console.log("Sending response")
         res.status(201).send({
             success: true,
             solution

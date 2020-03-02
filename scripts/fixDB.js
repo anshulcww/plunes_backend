@@ -30,7 +30,102 @@ const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
 
+const removeExtraServices = async () => {
+    let catalogue = await Catalogue.find()
+    await asyncForEach(catalogue, async speciality => {
+        // console.log({ speciality })
+        await asyncForEach(speciality.services, async service => {
+            const serviceId = service._id.toString()
+            let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
+            // console.log({ userRecords })
+            if (userRecords) {
+                console.log("Service mapped to user")
+            } else {
+                console.log("Service not mapped to user")
+                let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { services: { _id: mongoose.Types.ObjectId(service._id) } } })
+                console.log("Pulled services", result)
+            }
+        })
+    })
+}
+
 const createServicesCollection = () => {
+
+    const sendServicesToES = async serviceArray => {
+        await client.indices.delete({ index: ES_INDEX })
+        console.log("Deleted index")
+        await client.indices.create({
+            index: ES_INDEX,
+            body: {
+                "settings": {
+                    "analysis": {
+                        "analyzer": {
+                            "my_analyzer": {
+                                "tokenizer": "my_tokenizer"
+                            }
+                        },
+                        "tokenizer": {
+                            "my_tokenizer": {
+                                "type": "edge_ngram",
+                                "token_chars": [
+                                    "letter",
+                                    "digit"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "mappings": {
+                    "properties": {
+                        "tags": {
+                            "type": "text"
+                        },
+                        "service_lowercase": {
+                            "type": "text"
+                        },
+                        "details": {
+                            "type": "text",
+                            "index": false
+                        },
+                        "service": {
+                            "type": "text",
+                            "index": false
+                        },
+                        "dnd": {
+                            "type": "text",
+                            "index": false
+                        },
+                        "category": {
+                            "type": "text",
+                            "index": false
+                        },
+                        "speciality": {
+                            "type": "text",
+                            "index": false
+                        }
+                    }
+                }
+            }
+        })
+        await asyncForEach(serviceArray, async element => {
+            let a = await client.index({
+                index: ES_INDEX,
+                // type: "service",
+                body: element
+            })
+            console.log(a)
+        })
+    }
+
+    const addServicesCollection = async serviceArray => {
+        await Services.collection.drop();
+        console.log("Dropped collection")
+        Services.insertMany(serviceArray, (err, docs) => {
+            if (err) console.log("Error", err)
+            else console.log("Added docs")
+        })
+    }
+
     return new Promise((resolve, reject) => {
         Catalogue.find({}, (err, catalogueDocs) => {
             if (err) console.log("Error", err)
@@ -67,82 +162,8 @@ const createServicesCollection = () => {
     })
 }
 
-const sendServicesToES = async serviceArray => {
-    await client.indices.delete({ index: ES_INDEX })
-    console.log("Deleted index")
-    await client.indices.create({
-        index: ES_INDEX,
-        body: {
-            "settings": {
-                "analysis": {
-                    "analyzer": {
-                        "my_analyzer": {
-                            "tokenizer": "my_tokenizer"
-                        }
-                    },
-                    "tokenizer": {
-                        "my_tokenizer": {
-                            "type": "edge_ngram",
-                            "token_chars": [
-                                "letter",
-                                "digit"
-                            ]
-                        }
-                    }
-                }
-            },
-            "mappings": {
-                "properties": {
-                    "tags": {
-                        "type": "text"
-                    },
-                    "service_lowercase": {
-                        "type": "text"
-                    },
-                    "details": {
-                        "type": "text",
-                        "index": false
-                    },
-                    "service": {
-                        "type": "text",
-                        "index": false
-                    },
-                    "dnd": {
-                        "type": "text",
-                        "index": false
-                    },
-                    "category": {
-                        "type": "text",
-                        "index": false
-                    },
-                    "speciality": {
-                        "type": "text",
-                        "index": false
-                    }
-                }
-            }
-        }
-    })
-    await asyncForEach(serviceArray, async element => {
-        let a = await client.index({
-            index: ES_INDEX,
-            // type: "service",
-            body: element
-        })
-        console.log(a)
-    })
-}
-
-const addServicesCollection = async serviceArray => {
-    await Services.collection.drop();
-    console.log("Dropped collection")
-    Services.insertMany(serviceArray, (err, docs) => {
-        if (err) console.log("Error", err)
-        else console.log("Added docs")
-    })
-}
-
 // createServicesCollection()
+// removeExtraServices()
 
 const removeDuplicateServices = () => {
     return new Promise(async (resolve, reject) => {
@@ -173,25 +194,6 @@ const removeDuplicateUserServices = (servicesArray) => {
 }
 
 // removeDuplicateServices()
-
-const removeExtraServices = async () => {
-    let catalogue = await Catalogue.find()
-    await asyncForEach(catalogue, async speciality => {
-        let serviceArray = []
-        await asyncForEach(speciality, async service => {
-            const serviceId = service._id.toString()
-            let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
-            if (userRecords) {
-                console.log("Service mapped to user")
-            } else {
-                console.log("Service not mapped to user")
-                serviceArray.push(service._id)
-            }
-        })
-        let result = await Catalogue.updateOne({ _id: speciality._id }, { $pullAll: { _id: serviceArray } })
-        console.log("Pulled services", result)
-    })
-}
 
 const similarity = (s1, s2) => {
     var longer = s1;
@@ -760,19 +762,19 @@ const loadXlsxLifeAid = async (f) => {
 }
 
 const removeDuplicates = () => {
-    return new Promise( async (resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         console.log("Remove duplicates")
         let serviceCollection = await Services.find()
         let catalogue = await Catalogue.find()
         let users = await User.find()
 
         let servicesArray = []
-        serviceCollection.forEach(element => {
+        serviceCollection.forEach(async element => {
             const index = servicesArray.findIndex(value => value.service === element.service)
-            if(index === -1) {
-                servicesArray.push({service: element.service, id: element.serviceId})
+            if (index === -1) {
+                servicesArray.push({ service: element.service, id: element.serviceId })
             } else {
-                const removeElement = await Services.deleteOne({_id: element._id})
+                const removeElement = await Services.deleteOne({ _id: element._id })
                 console.log("Removed duplicate from services collection", removeElement)
             }
         })

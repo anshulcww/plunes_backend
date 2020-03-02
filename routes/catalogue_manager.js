@@ -430,18 +430,18 @@ const loadHospitalData = (transactionId, f) => {
         const data = xlsx.parse(fs.readFileSync(f))
         if (data) {
             try {
-                await asyncForEach(data, async sheet => {
-                    let tempObj = {
-                        specialityId: '',
-                        services: []
-                    }
-                    const hospitalName = sheet.data[1][0]
-                    console.log("Hospital name:", hospitalName)
-                    let hospitalRecordMain = await User.findOne({
-                        name: hospitalName
-                    })
-                    if (hospitalRecordMain) {
-                        let specialitiesArray = []
+                const hospitalName = data[0].data[1][0]
+                console.log("Hospital name:", hospitalName)
+                let hospitalRecordMain = await User.findOne({
+                    name: hospitalName
+                })
+                if (hospitalRecordMain) {
+                    let specialitiesArray = []
+                    await asyncForEach(data, async sheet => {
+                        let tempObj = {
+                            specialityId: '',
+                            services: []
+                        }
                         await asyncForEach(sheet.data.slice(1), async row => {
                             if (row.length > 0) {
                                 let speciality = row[2]
@@ -483,16 +483,16 @@ const loadHospitalData = (transactionId, f) => {
                         if (tempObj.services.length > 0) {
                             specialitiesArray.push(tempObj)
                         }
-                        hospitalRecordMain.specialities = specialitiesArray
-                        await hospitalRecordMain.save()
-                        console.log("Updated", hospitalName)
-                        globalObject[transactionId].updatedHospitals.push(hospitalName)
-                    } else {
-                        console.log("Hospital not in database", hospitalName)
-                        globalObject[transactionId].notFoundHospitals.push(hospitalName)
-                    }
-                })
-                resolve()
+                    })
+                    hospitalRecordMain.specialities = specialitiesArray
+                    await hospitalRecordMain.save()
+                    console.log("Updated", hospitalName)
+                    globalObject[transactionId].updatedHospitals.push(hospitalName)
+                    resolve()
+                } else {
+                    console.log("Hospital not in database", hospitalName)
+                    globalObject[transactionId].notFoundHospitals.push(hospitalName)
+                }
             } catch (e) {
                 reject(e)
             }

@@ -193,6 +193,8 @@ const removeExtraServices = async () => {
     })
 }
 
+removeExtraServices()
+
 const similarity = (s1, s2) => {
     var longer = s1;
     var shorter = s2;

@@ -186,7 +186,7 @@ const removeExtraServices = async () => {
                 console.log("Service mapped to user")
             } else {
                 console.log("Service not mapped to user")
-                let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { "services.service": service.service } })
+                let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { services: { service: services.service } } })
                 console.log("Pulled services", result)
             }
         })

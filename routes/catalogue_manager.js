@@ -147,7 +147,7 @@ router.post('/uploadHospital', async (req, res) => {
 
 router.post('/submit', async (req, res) => {
     console.log("Upload data submit", req.body.type, req.body.filename)
-    if(!uploading) {
+    if (!uploading) {
         if (req.body.type === 'Catalogue') {
             globalObject[req.body.filename] = {
                 addedServices: [],
@@ -200,7 +200,7 @@ router.post('/submit', async (req, res) => {
                             console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                         }
                     })
-                } catch(e) {
+                } catch (e) {
                     uploading = false
                     console.log("Error", e)
                 }
@@ -238,7 +238,7 @@ router.post('/submit', async (req, res) => {
                             console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                         }
                     })
-                } catch(e) {
+                } catch (e) {
                     console.log("Error", e)
                     uploading = false
                 }
@@ -274,7 +274,7 @@ router.post('/submit', async (req, res) => {
                             console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                         }
                     })
-                } catch(e) {
+                } catch (e) {
                     uploading = false
                     console.log("Error", e)
                 }
@@ -378,7 +378,7 @@ const loadMasterSheet = (transactionId, f) => {
 
                         // Add/update service to DB
                         if (catalogRecord) {
-                            let j = catalogRecord.services.findIndex(x => x.service == service)
+                            let j = catalogRecord.services.findIndex(x => x.service == service || x.service == updatedServiceName)
                             if (j == -1) {
                                 console.log('Adding service:', service)
                                 catalogRecord.services = catalogRecord.services.concat({
@@ -457,7 +457,7 @@ const loadHospitalData = (transactionId, f) => {
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
                                         let category = row[7]
-                                        if (variance && (price || price === 0) && category) {
+                                        if ((variance || variance === 0) && (price || price === 0) && category) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],
@@ -538,7 +538,7 @@ const loadSpecialityData = (transactionId, f) => {
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
                                         let category = row[7]
-                                        if (variance && (price || price === 0) && category) {
+                                        if ((variance || variance === 0) && (price || price === 0) && category) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],

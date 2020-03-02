@@ -38,7 +38,7 @@ const createServicesCollection = () => {
                 let bigAssArray = []
                 catalogueDocs.forEach(element => {
                     element.services.forEach(element1 => {
-                        console.log(element1.service ? element1.service.toLowerCase() : '')
+                        // console.log(element1.service ? element1.service.toLowerCase() : '')
                         let smallObject = {
                             speciality: element.speciality,
                             specialityId: ObjectId(element._id),
@@ -69,6 +69,7 @@ const createServicesCollection = () => {
 
 const sendServicesToES = async serviceArray => {
     await client.indices.delete({ index: ES_INDEX })
+    console.log("Deleted index")
     await client.indices.create({
         index: ES_INDEX,
         body: {
@@ -137,7 +138,7 @@ const addServicesCollection = async serviceArray => {
     console.log("Dropped collection")
     Services.insertMany(serviceArray, (err, docs) => {
         if (err) console.log("Error", err)
-        else console.log("Added docs", docs)
+        else console.log("Added docs")
     })
 }
 
@@ -758,6 +759,30 @@ const loadXlsxLifeAid = async (f) => {
         })
 }
 
+const removeDuplicates = () => {
+    return new Promise( async (resolve, reject) => {
+        console.log("Remove duplicates")
+        let serviceCollection = await Services.find()
+        let catalogue = await Catalogue.find()
+        let users = await User.find()
+
+        let servicesArray = []
+        serviceCollection.forEach(element => {
+            const index = servicesArray.findIndex(value => value.service === element.service)
+            if(index === -1) {
+                servicesArray.push({service: element.service, id: element.serviceId})
+            } else {
+                const removeElement = await Services.deleteOne({_id: element._id})
+                console.log("Removed duplicate from services collection", removeElement)
+            }
+        })
+        await serviceCollection.save()
+        console.log("Saved unique service collection")
+
+
+    })
+}
+
 const loadXlsxSpeciality = async (f) => {
     console.log("Load Opthalmologists")
     const data = xlsx.parse(fs.readFileSync(f))
@@ -870,22 +895,6 @@ const loadXlsxSpeciality = async (f) => {
     console.log("Upload complete")
     process.exit(1)
 }
-
-//loadXlsxServiceUpdates('./plunes-db/lab_data.xlsx')
-// loadXlsxSpeciality('./plunes-db/opthal.xlsx')
-// loadXlsxForHospitals('./plunes-db/doctors.xlsx')
-//   loadXlsxLifeAid('./plunes-db/clcd.xlsx')
-// loadXlsx('./plunes-db/Hospital_data.xlsx')
-// loadXlsxServiceUpdates('./plunes-db/Shwetas.xlsx')
-// loadXlsx('./plunes-db/d/opthal.xlsx')
-// loadXlsx('./plunes-db/d/Pathology.xlsx')
-// loadXlsx('./plunes-db/d/Pediatric.xlsx')
-// loadXlsx('./plunes-db/d/PHYSIO.xlsx')
-// loadXlsx('./plunes-db/d/RADIO.xlsx')
-
-// const data = xlsx.parse(fs.readFileSync('./plunes-db/ENT.xlsx'))
-
-// fixDB()
 
 const fixMisc = async (filename) => {
     const misc = await Catalogue.findOne({

@@ -48,9 +48,6 @@ const removeExtraServices = async () => {
     })
 }
 
-removeExtraServices()
-removeDuplicateServices()
-
 const removeDuplicateServices = () => {
     return new Promise(async (resolve, reject) => {
         console.log("Remove duplicates")
@@ -70,6 +67,10 @@ const removeDuplicateServices = () => {
         resolve(servicesArray)
     })
 }
+
+removeExtraServices()
+removeDuplicateServices()
+
 
 const removeDuplicateUserServices = (servicesArray) => {
     return new Promise(async (resolve, reject) => {

@@ -188,7 +188,7 @@ const removeExtraServices = async () => {
                 serviceArray.push(service._id)
             }
         })
-        console.log(speciality._id)
+        console.log({ speciality })
         let result = await Catalogue.updateOne({ _id: speciality._id }, { $pullAll: { _id: serviceArray } })
         console.log("Pulled services", result)
     })
@@ -763,19 +763,19 @@ const loadXlsxLifeAid = async (f) => {
 }
 
 const removeDuplicates = () => {
-    return new Promise( async (resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         console.log("Remove duplicates")
         let serviceCollection = await Services.find()
         let catalogue = await Catalogue.find()
         let users = await User.find()
 
         let servicesArray = []
-        serviceCollection.forEach( async element => {
+        serviceCollection.forEach(async element => {
             const index = servicesArray.findIndex(value => value.service === element.service)
-            if(index === -1) {
-                servicesArray.push({service: element.service, id: element.serviceId})
+            if (index === -1) {
+                servicesArray.push({ service: element.service, id: element.serviceId })
             } else {
-                const removeElement = await Services.deleteOne({_id: element._id})
+                const removeElement = await Services.deleteOne({ _id: element._id })
                 console.log("Removed duplicate from services collection", removeElement)
             }
         })

@@ -178,8 +178,8 @@ const removeExtraServices = async () => {
     let catalogue = await Catalogue.find()
     await asyncForEach(catalogue, async speciality => {
         let serviceArray = []
-        console.log({ speciality })
-        await asyncForEach(speciality, async service => {
+        // console.log({ speciality })
+        await asyncForEach(speciality.services, async service => {
             const serviceId = service._id.toString()
             let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
             console.log({ userRecords })

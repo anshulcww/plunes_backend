@@ -177,7 +177,6 @@ const removeDuplicateUserServices = (servicesArray) => {
 const removeExtraServices = async () => {
     let catalogue = await Catalogue.find()
     await asyncForEach(catalogue, async speciality => {
-        let serviceArray = []
         // console.log({ speciality })
         await asyncForEach(speciality.services, async service => {
             const serviceId = service._id.toString()
@@ -187,14 +186,10 @@ const removeExtraServices = async () => {
                 console.log("Service mapped to user")
             } else {
                 console.log("Service not mapped to user")
-                serviceArray.push(service.service)
+                let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { "services.service": service.service } })
+                console.log("Pulled services", result)
             }
         })
-        console.log({ serviceArray })
-        if (serviceArray.length > 0) {
-            let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pullAll: { "services.service": serviceArray } })
-            console.log("Pulled services", result)
-        }
     })
 }
 

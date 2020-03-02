@@ -30,6 +30,25 @@ const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
 
+const removeExtraServices = async () => {
+    let catalogue = await Catalogue.find()
+    await asyncForEach(catalogue, async speciality => {
+        // console.log({ speciality })
+        await asyncForEach(speciality.services, async service => {
+            const serviceId = service._id.toString()
+            let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
+            // console.log({ userRecords })
+            if (userRecords) {
+                console.log("Service mapped to user")
+            } else {
+                console.log("Service not mapped to user")
+                let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { services: { _id: mongoose.Types.ObjectId(service._id) } } })
+                console.log("Pulled services", result)
+            }
+        })
+    })
+}
+
 const createServicesCollection = () => {
     return new Promise((resolve, reject) => {
         Catalogue.find({}, (err, catalogueDocs) => {
@@ -143,6 +162,7 @@ const addServicesCollection = async serviceArray => {
 }
 
 // createServicesCollection()
+// removeExtraServices()
 
 const removeDuplicateServices = () => {
     return new Promise(async (resolve, reject) => {
@@ -173,27 +193,6 @@ const removeDuplicateUserServices = (servicesArray) => {
 }
 
 // removeDuplicateServices()
-
-const removeExtraServices = async () => {
-    let catalogue = await Catalogue.find()
-    await asyncForEach(catalogue, async speciality => {
-        // console.log({ speciality })
-        await asyncForEach(speciality.services, async service => {
-            const serviceId = service._id.toString()
-            let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
-            // console.log({ userRecords })
-            if (userRecords) {
-                console.log("Service mapped to user")
-            } else {
-                console.log("Service not mapped to user")
-                let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { services: { _id: mongoose.Types.ObjectId(service._id) } } })
-                console.log("Pulled services", result)
-            }
-        })
-    })
-}
-
-removeExtraServices()
 
 const similarity = (s1, s2) => {
     var longer = s1;

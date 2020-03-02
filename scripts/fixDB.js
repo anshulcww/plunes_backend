@@ -192,7 +192,7 @@ const removeExtraServices = async () => {
         })
         console.log({ serviceArray })
         if (serviceArray.length > 0) {
-            let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pullAll: { "services._id": serviceArray } })
+            let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pullAll: { services: { _id: serviceArray } } })
             console.log("Pulled services", result)
         }
     })

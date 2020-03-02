@@ -49,6 +49,7 @@ const removeExtraServices = async () => {
 }
 
 removeExtraServices()
+removeDuplicateServices()
 
 const removeDuplicateServices = () => {
     return new Promise(async (resolve, reject) => {

@@ -189,7 +189,7 @@ const removeExtraServices = async () => {
             }
         })
         console.log({ speciality })
-        let result = await Catalogue.updateOne({ _id: speciality._id }, { $pullAll: { _id: serviceArray } })
+        let result = await Catalogue.updateOne({ _id: mongoose.SchemaType.ObjectId(speciality._id) }, { $pullAll: { _id: serviceArray } })
         console.log("Pulled services", result)
     })
 }

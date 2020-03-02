@@ -188,6 +188,7 @@ const removeExtraServices = async () => {
                 serviceArray.push(service._id)
             }
         })
+        console.log(speciality._id)
         let result = await Catalogue.updateOne({ _id: speciality._id }, { $pullAll: { _id: serviceArray } })
         console.log("Pulled services", result)
     })

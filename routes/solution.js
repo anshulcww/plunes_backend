@@ -98,8 +98,10 @@ router.get('/', auth, async (req, res) => {
 
 router.get('/search', auth, async (req, res) => {
     try {
+        let negotiating = false
         var personalSolutions = await Solution.findSolutionsByUserId(req.user._id.toString())
         personalSolutions = personalSolutions.filter((s) => (Date.now() - s.createdTime) < 3600000)
+
         personalSolutions.forEach(function (solution) {
             // console.log('Search ServiceId:', solution.serviceId)
             if ((Date.now() - solution.createdTime) > 600000) {
@@ -108,6 +110,9 @@ router.get('/search', auth, async (req, res) => {
                     service.negotiating = false
                 })
             }
+            solution.services.forEach(function (service) {
+                if (service.negotiating) negotiating = true
+            })
         })
         // console.log(personalSolutions)
         var businessSolutions = []
@@ -137,7 +142,8 @@ router.get('/search', auth, async (req, res) => {
         res.status(201).send({
             success: true,
             personal: personalSolutions,
-            business: businessSolutions
+            business: businessSolutions,
+            negotiating: negotiating
         })
     } catch (error) {
         console.log(error)

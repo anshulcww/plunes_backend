@@ -38,7 +38,7 @@ const getServiceId = name => {
             ], (err, serviceIdDocs) => {
                 if (err) console.log("Error", err)
                 else {
-                    resolve(serviceIdDocs[0] ? serviceIdDocs[0].serviceId[0]._id.toString() : null)
+                    resolve(serviceIdDocs[0] && serviceIdDocs[0].serviceId[0] ? serviceIdDocs[0].serviceId[0]._id.toString() : null)
                 }
             })
         } catch (e) {

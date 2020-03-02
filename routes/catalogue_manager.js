@@ -466,6 +466,7 @@ const loadHospitalData = (transactionId, f) => {
                                                 variance: variance || 35,
                                                 homeCollection: false
                                             })
+                                            console.log("Added/updated service", tempObj.services)
                                         } else {
                                             console.log("Price/variance/category doesn't exist for", hospitalName, speciality, service)
                                             globalObject[transactionId].errors.push(`Price/variance/category doesn't exist for - ${hospitalName} : ${speciality} : ${service}`)

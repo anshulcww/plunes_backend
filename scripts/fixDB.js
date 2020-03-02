@@ -48,6 +48,8 @@ const removeExtraServices = async () => {
     })
 }
 
+removeExtraServices()
+
 const removeDuplicateServices = () => {
     return new Promise(async (resolve, reject) => {
         console.log("Remove duplicates")

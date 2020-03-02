@@ -436,12 +436,12 @@ const loadHospitalData = (transactionId, f) => {
                     name: hospitalName
                 })
                 if (hospitalRecordMain) {
+                    let specialitiesArray = []
                     await asyncForEach(data, async sheet => {
                         let tempObj = {
                             specialityId: '',
                             services: []
                         }
-                        let specialitiesArray = []
                         await asyncForEach(sheet.data.slice(1), async row => {
                             if (row.length > 0) {
                                 let speciality = row[2]
@@ -466,7 +466,6 @@ const loadHospitalData = (transactionId, f) => {
                                                 variance: variance || 35,
                                                 homeCollection: false
                                             })
-                                            console.log("Added/updated service", tempObj.services)
                                         } else {
                                             console.log("Price/variance/category doesn't exist for", hospitalName, speciality, service)
                                             globalObject[transactionId].errors.push(`Price/variance/category doesn't exist for - ${hospitalName} : ${speciality} : ${service}`)

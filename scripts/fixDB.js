@@ -182,6 +182,7 @@ const removeExtraServices = async () => {
         await asyncForEach(speciality, async service => {
             const serviceId = service._id.toString()
             let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
+            console.log({ userRecords })
             if (userRecords) {
                 console.log("Service mapped to user")
             } else {
@@ -190,8 +191,10 @@ const removeExtraServices = async () => {
             }
         })
         console.log({ serviceArray })
-        let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pullAll: { _id: serviceArray } })
-        console.log("Pulled services", result)
+        if (serviceArray.length > 0) {
+            let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pullAll: { _id: serviceArray } })
+            console.log("Pulled services", result)
+        }
     })
 }
 

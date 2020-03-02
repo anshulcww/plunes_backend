@@ -178,6 +178,7 @@ const removeExtraServices = async () => {
     let catalogue = await Catalogue.find()
     await asyncForEach(catalogue, async speciality => {
         let serviceArray = []
+        console.log({ speciality })
         await asyncForEach(speciality, async service => {
             const serviceId = service._id.toString()
             let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
@@ -188,8 +189,7 @@ const removeExtraServices = async () => {
                 serviceArray.push(service._id)
             }
         })
-        console.log({ speciality })
-        let result = await Catalogue.updateOne({ _id: mongoose.SchemaType.ObjectId(speciality._id) }, { $pullAll: { _id: serviceArray } })
+        let result = await Catalogue.updateOne({ _id: speciality._id }, { $pullAll: { _id: serviceArray } })
         console.log("Pulled services", result)
     })
 }

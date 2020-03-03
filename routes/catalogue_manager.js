@@ -89,8 +89,12 @@ router.post('/login', (req, res) => {
     if (req.body.password === PASSWORD) {
         console.log("Authenticated User")
         jwt.sign({ user: "Admin" }, JWT_KEY, (err, token) => {
+            if(err) res.status(403).send()
             res.json({ token })
         })
+    } else {
+        console.log("User not authenticated", req.body.password)
+        res.status(403).send()
     }
 })
 

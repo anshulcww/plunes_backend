@@ -15,12 +15,13 @@ let globalObject = {}
 
 var uploading = false
 
-const getServiceId = name => {
+const getServiceId = (name, speciality) => {
     return new Promise(async (resolve, reject) => {
         try {
             Catalogue.aggregate([{
                 $match: {
-                    'services.service': name
+                    'services.service': name,
+                    speciality: speciality
                 }
             },
             {
@@ -513,7 +514,7 @@ const loadHospitalData = (transactionId, f) => {
                                 if (catalogueRecord) {
                                     let specialityId = catalogueRecord._id.toString()
                                     let service = row[3]
-                                    const serviceId = await getServiceId(service)
+                                    const serviceId = await getServiceId(service, speciality)
                                     if (serviceId) {
                                         // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])
@@ -595,7 +596,7 @@ const loadSpecialityData = (transactionId, f) => {
                                 if (catalogueRecord) {
                                     let specialityId = catalogueRecord._id.toString()
                                     let service = row[3]
-                                    const serviceId = await getServiceId(service)
+                                    const serviceId = await getServiceId(service, speciality)
                                     if (serviceId) {
                                         // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])

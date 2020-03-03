@@ -174,6 +174,11 @@ router.post('/submit', async (req, res) => {
             } catch (e) {
                 uploading = false
                 console.log("Error uploading", e)
+                res.status(400).send({
+                    status: 0,
+                    data: e,
+                    msg: 'error'
+                })
             }
         } else if (req.body.type === 'Hospital') {
             globalObject[req.body.filename] = {
@@ -203,6 +208,11 @@ router.post('/submit', async (req, res) => {
                 } catch (e) {
                     uploading = false
                     console.log("Error", e)
+                    res.status(400).send({
+                        status: 0,
+                        data: e,
+                        msg: 'error'
+                    })
                 }
             } catch (e) {
                 console.log("Error", e)
@@ -241,6 +251,11 @@ router.post('/submit', async (req, res) => {
                 } catch (e) {
                     console.log("Error", e)
                     uploading = false
+                    res.status(400).send({
+                        status: 0,
+                        data: e,
+                        msg: 'error'
+                    })
                 }
             } catch (e) {
                 res.status(400).send({
@@ -277,6 +292,11 @@ router.post('/submit', async (req, res) => {
                 } catch (e) {
                     uploading = false
                     console.log("Error", e)
+                    res.status(400).send({
+                        status: 0,
+                        data: e,
+                        msg: 'error'
+                    })
                 }
             } catch (e) {
                 res.status(400).send({

@@ -3,6 +3,8 @@ const fs = require('fs')
 const xlsx = require('node-xlsx')
 const multer = require('multer')
 const path = require('path')
+const jwt = require('jsonwebtoken')
+const bcrypt = require("bcryptjs")
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
@@ -81,6 +83,11 @@ const uploadCatalog = multer({
     storage: storageCatalog
 }).single('file')
 
+router.post('/login', (req, res) => {
+    console.log("Login")
+    
+})
+
 router.post('/uploadCatalog', async (req, res) => {
     console.log("Upload master catalog for speciality")
     uploadCatalog(req, res, async function (err) {
@@ -153,7 +160,8 @@ router.post('/submit', async (req, res) => {
                 addedServices: [],
                 namesUpdated: [],
                 notFoundSpecialities: [],
-                updatedServices: []
+                updatedServices: [],
+                errors: []
             }
             res.status(200).send({
                 status: 1,
@@ -426,8 +434,12 @@ const loadMasterSheet = (transactionId, f) => {
                                 catalogRecord.services[j].dnd = dnd
                                 catalogRecord.services[j].tags = tags
                                 catalogRecord.services[j].category = category
-                                await catalogRecord.save()
-                                globalObject[transactionId].updatedServices.push(updatedServiceName || service)
+                                try {
+                                    await catalogRecord.save()
+                                    globalObject[transactionId].updatedServices.push(updatedServiceName || service)
+                                } catch(e) {
+                                    globalObject[transactionId].errors.push(JSON.stringify(e))
+                                }
                             }
                         } else {
                             console.log('Speciality not found', speciality)

@@ -57,6 +57,7 @@ const asyncForEach = async (array, callback) => {
 
 const verifyToken = (req, res, next) => {
     const bearerHead = req.headers['authorization']
+    console.log({bearerHead})
     if(typeof bearerHead !== undefined) {
         const token = bearerHead.split(' ')[1]
         jwt.verify(token, JWT_KEY, (err, authData) => {

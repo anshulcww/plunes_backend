@@ -34,8 +34,8 @@ const asyncForEach = async (array, callback) => {
 
 const createServicesCollection = () => {
 
-    const sendServicesToES = async serviceArray => {
-        return new Promise((resolve, reject) => {
+    const sendServicesToES = serviceArray => {
+        return new Promise( async (resolve, reject) => {
             await client.indices.delete({ index: ES_INDEX })
             console.log("Deleted index")
             await client.indices.create({
@@ -102,8 +102,8 @@ const createServicesCollection = () => {
         })
     }
 
-    const addServicesCollection = async serviceArray => {
-        return new Promise((resolve, reject) => {
+    const addServicesCollection = serviceArray => {
+        return new Promise( async (resolve, reject) => {
             await Services.collection.drop();
             console.log("Dropped collection")
             Services.insertMany(serviceArray, (err, docs) => {
@@ -117,7 +117,7 @@ const createServicesCollection = () => {
     }
 
     return new Promise((resolve, reject) => {
-        Catalogue.find({}, (err, catalogueDocs) => {
+        Catalogue.find({}, async (err, catalogueDocs) => {
             if (err) console.log("Error", err)
             else {
                 let bigAssArray = []
@@ -143,6 +143,7 @@ const createServicesCollection = () => {
                 await addServicesCollection(bigAssArray)
                 await sendServicesToES(bigAssArray)
                 console.log("Done")
+                resolve()
             }
         })
     })

@@ -54,10 +54,10 @@ const removeDuplicateServices = () => {
         let serviceCollection = await Services.find({})
         let servicesArray = []
         await asyncForEach(serviceCollection, async element => {
-            const index = servicesArray.findIndex(value => value.service === element.service)
+            const index = servicesArray.findIndex(value => value.service.toLowerCase() === element.service)
             // console.log(index)
             if (index === -1) {
-                servicesArray.push({ service: element.service, id: element.serviceId })
+                servicesArray.push({ service: element.service.toLowerCase(), id: element.serviceId })
             } else {
                 Services.deleteOne({ _id: element._id })
                 console.log("Removed duplicate from services collection", element)
@@ -68,15 +68,24 @@ const removeDuplicateServices = () => {
     })
 }
 
+const getServiceName = id => {
+    return new Promise((resolve, reject) => {
+        console.log("Get service name", id)
+        Services.findOne({serviceId: mongoose.Types.ObjectId(id)}, 'service')
+    })
+}
+
 const removeDuplicateUserServices = (servicesArray) => {
     return new Promise(async (resolve, reject) => {
         console.log("Remove duplicate user services")
         let catalogue = await Catalogue.find()
         let users = await User.find()
+
     })
 }
 
-// removeDuplicateServices()
+removeExtraServices()
+removeDuplicateServices()
 
 const similarity = (s1, s2) => {
     var longer = s1;

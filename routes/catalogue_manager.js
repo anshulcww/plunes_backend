@@ -4,7 +4,7 @@ const xlsx = require('node-xlsx')
 const multer = require('multer')
 const path = require('path')
 const jwt = require('jsonwebtoken')
-const bcrypt = require("bcryptjs")
+const { PASSWORD, JWT_KEY } = require('../config')
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
@@ -55,6 +55,26 @@ const asyncForEach = async (array, callback) => {
     }
 }
 
+const verifyToken = (req, res, next) => {
+    const bearerHead = req.headers['authorization']
+    if(typeof bearerHead !== undefined) {
+        const token = bearerHead.split(' ')[1]
+        jwt.verify(token, JWT_KEY, (err, authData) => {
+            if(err) res.sendStatus(400)
+            else {
+                const data = JSON.stringify(authData)
+                if(data.user === "Admin") {
+                    next()
+                } else {
+                    res.sendStatus(403)
+                }
+            }
+        })
+    } else {
+        res.sendStatus(403)
+    }
+}
+
 const storageHospital = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'public/hospitals')
@@ -85,10 +105,19 @@ const uploadCatalog = multer({
 
 router.post('/login', (req, res) => {
     console.log("Login")
-    
+    if (req.body.password === PASSWORD) {
+        console.log("Authenticated User")
+        jwt.sign({ user: "Admin" }, JWT_KEY, (err, token) => {
+            if(err) res.status(403).send()
+            res.json({ token })
+        })
+    } else {
+        console.log("User not authenticated", req.body.password)
+        res.status(403).send()
+    }
 })
 
-router.post('/uploadCatalog', async (req, res) => {
+router.post('/uploadCatalog', verifyToken, async (req, res) => {
     console.log("Upload master catalog for speciality")
     uploadCatalog(req, res, async function (err) {
         if (err instanceof multer.MulterError) {
@@ -126,7 +155,7 @@ router.post('/uploadCatalog', async (req, res) => {
     })
 })
 
-router.post('/uploadHospital', async (req, res) => {
+router.post('/uploadHospital', verifyToken, async (req, res) => {
     console.log("Upload hospital data")
     uploadHospital(req, res, function (err) {
         if (err instanceof multer.MulterError) {
@@ -152,7 +181,7 @@ router.post('/uploadHospital', async (req, res) => {
     })
 })
 
-router.post('/submit', async (req, res) => {
+router.post('/submit', verifyToken, async (req, res) => {
     console.log("Upload data submit", req.body.type, req.body.filename)
     if (!uploading) {
         if (req.body.type === 'Catalogue') {
@@ -345,7 +374,7 @@ router.get('/specialities', (req, res) => {
     })
 })
 
-router.get('/progress/:id', (req, res) => {
+router.get('/progress/:id', verifyToken, (req, res) => {
     if (globalObject[req.params.id]) {
         res.status(200).send({
             status: 1,
@@ -437,7 +466,7 @@ const loadMasterSheet = (transactionId, f) => {
                                 try {
                                     await catalogRecord.save()
                                     globalObject[transactionId].updatedServices.push(updatedServiceName || service)
-                                } catch(e) {
+                                } catch (e) {
                                     globalObject[transactionId].errors.push(JSON.stringify(e))
                                 }
                             }

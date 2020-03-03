@@ -5,6 +5,7 @@ const multer = require('multer')
 const path = require('path')
 const jwt = require('jsonwebtoken')
 const bcrypt = require("bcryptjs")
+const { PASSWORD, JWT_KEY } = require('../config')
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
@@ -85,7 +86,12 @@ const uploadCatalog = multer({
 
 router.post('/login', (req, res) => {
     console.log("Login")
-    
+    if (req.body.password === PASSWORD) {
+        console.log("Authenticated User")
+        jwt.sign({ user: "Admin" }, JWT_KEY, (err, token) => {
+            res.json({ token })
+        })
+    }
 })
 
 router.post('/uploadCatalog', async (req, res) => {
@@ -437,7 +443,7 @@ const loadMasterSheet = (transactionId, f) => {
                                 try {
                                     await catalogRecord.save()
                                     globalObject[transactionId].updatedServices.push(updatedServiceName || service)
-                                } catch(e) {
+                                } catch (e) {
                                     globalObject[transactionId].errors.push(JSON.stringify(e))
                                 }
                             }

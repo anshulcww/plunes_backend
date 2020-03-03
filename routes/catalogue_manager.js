@@ -63,7 +63,7 @@ const verifyToken = (req, res, next) => {
         jwt.verify(token, JWT_KEY, (err, authData) => {
             if(err) res.sendStatus(400)
             else {
-                const data = JSON.parse(authData)
+                const data = authData
                 console.log({data})
                 if(data.user === "Admin") {
                     next()

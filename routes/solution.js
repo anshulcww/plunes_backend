@@ -66,7 +66,7 @@ router.get('/', auth, async (req, res) => {
                             await notification.save()
                             await Notification.sms(professional.mobileNumber, `${user.name} is looking for ${serviceName} near you. We recommend you to update the fee at the earliest.`)
                             if (professional.deviceIds.length > 0) {
-                                await Notification.push(professional.deviceIds, 'Fee alert', `${user.name} is looking for ${serviceName} near you. We recommend you to update your fee up to ${percentage}% to maximize number of bookings.`, 'solution')
+                                await Notification.push(professional.deviceIds, 'Fee alert', `${user.name} is looking for ${serviceName} near you. We recommend you to update your fee at the earliest to maximize number of bookings.`, 'solution')
                             }
                         }
                     }

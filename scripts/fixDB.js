@@ -38,11 +38,11 @@ const removeExtraServices = async () => {
             let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
             // console.log({ userRecords })
             if (userRecords) {
-                console.log("Service mapped to user")
+                // console.log("Service mapped to user")
             } else {
-                console.log("Service not mapped to user")
+                console.log("Service not mapped to user", service.service)
                 let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { services: { _id: mongoose.Types.ObjectId(service._id) } } })
-                console.log("Pulled services", result)
+                console.log("Pulled services", result, service.service)
             }
         })
     })
@@ -71,7 +71,7 @@ const removeDuplicateServices = () => {
 const getServiceName = id => {
     return new Promise((resolve, reject) => {
         console.log("Get service name", id)
-        Services.findOne({serviceId: mongoose.Types.ObjectId(id)}, 'service')
+        Services.findOne({ serviceId: mongoose.Types.ObjectId(id) }, 'service')
     })
 }
 

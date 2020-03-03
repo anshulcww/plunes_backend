@@ -6,5 +6,6 @@ module.exports = {
     RAZORPAY_APP_URL: 'https://plunes.co',
     COUPON_CODES: ['SPAZE10000', 'NILE10000', 'UPPAL10000', 'FEB10000', 'CAREERS360'],
     ES_INDEX: "services",
-    ENVIRONMENT: "production"
+    ENVIRONMENT: "production",
+    PASSWORD: "PlunesAdmin"
 }

@@ -4,7 +4,6 @@ const xlsx = require('node-xlsx')
 const multer = require('multer')
 const path = require('path')
 const jwt = require('jsonwebtoken')
-const bcrypt = require("bcryptjs")
 const { PASSWORD, JWT_KEY } = require('../config')
 
 const Catalogue = require('../models/catalogue')
@@ -56,6 +55,26 @@ const asyncForEach = async (array, callback) => {
     }
 }
 
+const verifyToken = (req, res, next) => {
+    const bearerHead = req.headers['authorization']
+    if(typeof bearerHead !== undefined) {
+        const token = bearerHead.split(' ')[1]
+        jwt.verify(token, JWT_KEY, (err, authData) => {
+            if(err) res.sendStatus(400)
+            else {
+                const data = JSON.stringify(authData)
+                if(data.user === "Admin") {
+                    next()
+                } else {
+                    res.sendStatus(403)
+                }
+            }
+        })
+    } else {
+        res.sendStatus(403)
+    }
+}
+
 const storageHospital = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'public/hospitals')
@@ -98,7 +117,7 @@ router.post('/login', (req, res) => {
     }
 })
 
-router.post('/uploadCatalog', async (req, res) => {
+router.post('/uploadCatalog', verifyToken, async (req, res) => {
     console.log("Upload master catalog for speciality")
     uploadCatalog(req, res, async function (err) {
         if (err instanceof multer.MulterError) {
@@ -136,7 +155,7 @@ router.post('/uploadCatalog', async (req, res) => {
     })
 })
 
-router.post('/uploadHospital', async (req, res) => {
+router.post('/uploadHospital', verifyToken, async (req, res) => {
     console.log("Upload hospital data")
     uploadHospital(req, res, function (err) {
         if (err instanceof multer.MulterError) {
@@ -162,7 +181,7 @@ router.post('/uploadHospital', async (req, res) => {
     })
 })
 
-router.post('/submit', async (req, res) => {
+router.post('/submit', verifyToken, async (req, res) => {
     console.log("Upload data submit", req.body.type, req.body.filename)
     if (!uploading) {
         if (req.body.type === 'Catalogue') {
@@ -355,7 +374,7 @@ router.get('/specialities', (req, res) => {
     })
 })
 
-router.get('/progress/:id', (req, res) => {
+router.get('/progress/:id', verifyToken, (req, res) => {
     if (globalObject[req.params.id]) {
         res.status(200).send({
             status: 1,

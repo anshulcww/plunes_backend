@@ -64,6 +64,7 @@ const verifyToken = (req, res, next) => {
             if(err) res.sendStatus(400)
             else {
                 const data = JSON.stringify(authData)
+                console.log({data})
                 if(data.user === "Admin") {
                     next()
                 } else {

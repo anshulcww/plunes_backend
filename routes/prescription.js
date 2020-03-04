@@ -95,7 +95,7 @@ router.post('/test', auth, async (req, res) => {
     try {
         const user = req.user
         console.log(req.body);
-        req.body.prescriptionData.fields = req.body.prescriptionData.fields.filter(element => !element.showLogoText)
+        // req.body.prescriptionData.fields = req.body.prescriptionData.fields.filter(element => !element.showLogoText)
         const prescription = new Prescription(req.body)
         let prescriptionTemplate = user.prescription
         if (prescription.doctorId) {

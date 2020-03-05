@@ -191,6 +191,7 @@ router.post('/submit', verifyToken, async (req, res) => {
                 namesUpdated: [],
                 notFoundSpecialities: [],
                 updatedServices: [],
+                updatedServiceName: [],
                 errors: []
             }
             res.status(200).send({

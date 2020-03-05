@@ -505,6 +505,7 @@ const loadMasterSheet = (transactionId, f) => {
                                 globalObject[transactionId].addedServices.push(service)
                             }
                             else if (j !== -1) {
+                                console.log(j)
                                 if (updatedServiceName) {
                                     console.log("Updated name", updatedServiceName)
                                     catalogRecord.services[j].service = updatedServiceName

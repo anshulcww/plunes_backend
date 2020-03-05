@@ -487,7 +487,7 @@ const loadMasterSheet = (transactionId, f) => {
                                     console.log("Service name already updated", updatedServiceName)
                                     globalObject[transactionId].updatedServiceName.push(updatedServiceName)
                                 }
-                            } if (j === -1) {
+                            } if (!j || j === -1) {
                                 j = catalogRecord.services.findIndex(x => (x.service == service))
                             }
                             if (j === -1) {

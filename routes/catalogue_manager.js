@@ -508,7 +508,7 @@ const loadMasterSheet = (transactionId, f) => {
                                 catalogRecord.services[j].category = category
                                 try {
                                     await catalogRecord.save()
-                                    console.log("Updating record", service)
+                                    console.log("Updating record", service, j)
                                     globalObject[transactionId].updatedServices.push(updatedServiceName || service)
                                 } catch (e) {
                                     globalObject[transactionId].errors.push(JSON.stringify(e))

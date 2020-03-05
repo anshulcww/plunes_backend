@@ -464,7 +464,7 @@ const loadMasterSheet = (transactionId, f) => {
                         // console.log({ row })
                         let speciality = row[0]
                         let service = row[1]
-                        let updatedServiceName = row[2]
+                        let updatedServiceName = row[2] === '' ? null : row[2]
                         let details = row[3]
                         let duration = row[4]
                         let sittings = row[5]
@@ -497,6 +497,7 @@ const loadMasterSheet = (transactionId, f) => {
                             }
                             else if (j !== -1) {
                                 if (updatedServiceName) {
+                                    console.log("Updated name", updatedServiceName)
                                     catalogRecord.services[j].service = updatedServiceName
                                     globalObject[transactionId].namesUpdated.push(service + " -> " + updatedServiceName)
                                 }

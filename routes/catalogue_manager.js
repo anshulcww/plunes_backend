@@ -496,7 +496,6 @@ const loadMasterSheet = (transactionId, f) => {
                                 globalObject[transactionId].addedServices.push(service)
                             }
                             else if (j !== -1) {
-                                // console.log("Updating record")
                                 if (updatedServiceName) {
                                     catalogRecord.services[j].service = updatedServiceName
                                     globalObject[transactionId].namesUpdated.push(service + " -> " + updatedServiceName)
@@ -509,6 +508,7 @@ const loadMasterSheet = (transactionId, f) => {
                                 catalogRecord.services[j].category = category
                                 try {
                                     await catalogRecord.save()
+                                    console.log("Updating record", service)
                                     globalObject[transactionId].updatedServices.push(updatedServiceName || service)
                                 } catch (e) {
                                     globalObject[transactionId].errors.push(JSON.stringify(e))

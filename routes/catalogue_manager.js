@@ -480,8 +480,17 @@ const loadMasterSheet = (transactionId, f) => {
 
                         // Add/update service to DB
                         if (catalogRecord) {
-                            let j = catalogRecord.services.findIndex(x => (x.service == service || x.service == updatedServiceName))
-                            if (j == -1) {
+                            let j
+                            if (updatedServiceName) {
+                                j = catalogRecord.services.findIndex(x => (x.service == updatedServiceName))
+                                if (j !== -1) {
+                                    console.log("Service name already updated", updatedServiceName)
+                                    globalObject[transactionId].updatedServiceName.push(updatedServiceName)
+                                }
+                            } if (j === -1) {
+                                j = catalogRecord.services.findIndex(x => (x.service == service))
+                            }
+                            if (j === -1) {
                                 console.log('Adding service:', service)
                                 catalogRecord.services = catalogRecord.services.concat({
                                     service,

@@ -685,7 +685,7 @@ const loadMiscellaneousData = (transactionId, f) => {
                             } else {
                                 console.log("Hospital not in database", hospitalName)
                                 globalObject[transactionId].notFoundHospitals.push(hospitalName)
-                                reject("Hospital not in DB")
+                                resolve("Hospital not in DB")
                             }
                         }
                     })

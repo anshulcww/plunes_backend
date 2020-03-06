@@ -14,7 +14,8 @@ const notificationSchema = mongoose.Schema({
     senderImageUrl: String,
     notification: String,
     notificationType: String,
-    createdTime: Number
+    createdTime: Number,
+    read : Boolean
 })
 
 notificationSchema.pre('save', async function(next) {

@@ -48,6 +48,7 @@ app.use('/load', load)
 app.use('/report', report)
 app.use('/analytics', analytics)
 app.use('/prescription', prescription)
+app.use('/payment', payment)
 app.use('/data', express.static('data'))
 app.use('/public', express.static('public'))
 

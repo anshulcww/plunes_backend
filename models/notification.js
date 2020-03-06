@@ -4,6 +4,7 @@ const nodemailer = require('nodemailer')
 const FCM = require('fcm-node')
 const serverKey = require('../firebase.json')
 const fcm = new FCM(serverKey)
+const { ENVIRONMENT } = require('../config')
 
 const User = require('./user')
 
@@ -18,7 +19,7 @@ const notificationSchema = mongoose.Schema({
     read : Boolean
 })
 
-notificationSchema.pre('save', async function(next) {
+notificationSchema.pre('save', async function (next) {
     const notification = this
 
     notification.createdTime = Date.now()
@@ -64,66 +65,72 @@ notificationSchema.pre('save', async function(next) {
 
 const Notification = mongoose.model('notification', notificationSchema)
 
-Notification.sms = async function(mobileNumber, sms) {
-    console.log(sms, 'sms')
-    const url = `https://api.msg91.com/api/sendhttp.php?mobiles=${mobileNumber}&authkey=278069AIdfPwGj5ce79990&route=4&sender=PLUNES&message=${sms}&country=91`
-    request.get({
-        headers: {},
-        url: url
-    })
+Notification.sms = async function (mobileNumber, sms) {
+    console.log("Send SMS notification", { sms, mobileNumber })
+    if (ENVIRONMENT === "production") {
+        const url = `https://api.msg91.com/api/sendhttp.php?mobiles=${mobileNumber}&authkey=278069AIdfPwGj5ce79990&route=4&sender=PLUNES&message=${sms}&country=91`
+        request.get({
+            headers: {},
+            url: url
+        })
+    }
 }
 
-Notification.email = async function(recipient, subject, text) {
-   // console.log(recipient);
-    const transporter = nodemailer.createTransport({
-        host: "smtp.zoho.in",
-        port: 465,
-        secure: true,
-        auth: {
-            user: "info@plunes.com",
-            pass: "Ch@nder123"
+Notification.email = async function (recipient, subject, text) {
+    console.log("Send Email Notification", { recipient, subject, text });
+    if (ENVIRONMENT === "production") {
+        const transporter = nodemailer.createTransport({
+            host: "smtp.zoho.in",
+            port: 465,
+            secure: true,
+            auth: {
+                user: "info@plunes.com",
+                pass: "Ch@nder123"
+            }
+        })
+        const mailOptions = {
+            from: "info@plunes.com",
+            to: recipient,
+            subject: subject,
+            text: text
         }
-    })
-    const mailOptions = {
-        from: "info@plunes.com",
-        to: recipient,
-        subject: subject,
-        text: text
+        transporter.sendMail(mailOptions, function (error, info) {
+            if (error) {
+                console.log(error);
+            } else {
+                console.log("Email sent: " + info.response);
+            }
+        })
     }
-    transporter.sendMail(mailOptions, function(error, info) {
-        if (error) {
-            console.log(error);
-        } else {
-            console.log("Email sent: " + info.response);
-        }
-    })
 }
 
-Notification.push = async function(deviceIds, title, body, screen) {
-    console.log(deviceIds, title, body, screen)
-    const message = {
-        registration_ids: deviceIds,
+Notification.push = async function (deviceIds, title, body, screen) {
+    console.log("Send push notification", { deviceIds, title, body, screen })
+    if (ENVIRONMENT === "production") {
+        const message = {
+            registration_ids: deviceIds,
 
-        notification: {
-            title: title,
-            body: body,
-            sound: "default"
-        },
-        data: {
-            title: title,
-            body: body,
-            screen: screen,
-            click_action: "FLUTTER_NOTIFICATION_CLICK"
+            notification: {
+                title: title,
+                body: body,
+                sound: "default"
+            },
+            data: {
+                title: title,
+                body: body,
+                screen: screen,
+                click_action: "FLUTTER_NOTIFICATION_CLICK"
+            }
         }
+
+        fcm.send(message, function (err, response) {
+            if (err) {
+                console.log('FCM Error:', JSON.stringify(err));
+            } else {
+                console.log('FCM Response:', JSON.stringify(response));
+            }
+        })
     }
-
-    fcm.send(message, function(err, response) {
-        if (err) {
-            console.log('FCM Error:', JSON.stringify(err));
-        } else {
-            console.log('FCM Response:', JSON.stringify(response));
-        }
-    })
 }
 
 module.exports = Notification

@@ -2,9 +2,8 @@ const mongoose = require('mongoose')
 const fs = require('fs')
 const xlsx = require('node-xlsx')
 const ObjectId = mongoose.Types.ObjectId
-const Config = require('../config')
 const elasticsearch = require('elasticsearch')
-const { ELASTIC_URL } = require('../config')
+const { ELASTIC_URL, ES_INDEX, MONGODB_URL } = require('../config')
 
 let client = new elasticsearch.Client({
     hosts: [ELASTIC_URL]
@@ -20,7 +19,7 @@ client.ping({
     }
 });
 
-mongoose.connect(Config.MONGODB_URL, {
+mongoose.connect(MONGODB_URL, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
@@ -30,118 +29,63 @@ const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
 
-const createServicesCollection = () => {
+const removeExtraServices = async () => {
+    let catalogue = await Catalogue.find()
+    await asyncForEach(catalogue, async speciality => {
+        // console.log({ speciality })
+        await asyncForEach(speciality.services, async service => {
+            const serviceId = service._id.toString()
+            let userRecords = await User.findOne({ $or: [{ "specialities.services.serviceId": serviceId.toString() }, { "doctors.specialities.services.serviceId": serviceId.toString() }] })
+            // console.log({ userRecords })
+            if (userRecords) {
+                // console.log("Service mapped to user")
+            } else {
+                console.log("Service not mapped to user", service.service)
+                let result = await Catalogue.updateOne({ _id: mongoose.Types.ObjectId(speciality._id) }, { $pull: { services: { _id: mongoose.Types.ObjectId(service._id) } } })
+                console.log("Pulled services", result, service.service)
+            }
+        })
+    })
+}
+
+const removeDuplicateServices = () => {
+    return new Promise(async (resolve, reject) => {
+        console.log("Remove duplicates")
+        let serviceCollection = await Services.find({})
+        let servicesArray = []
+        await asyncForEach(serviceCollection, async element => {
+            const index = servicesArray.findIndex(value => value.service.toLowerCase() === element.service)
+            // console.log(index)
+            if (index === -1) {
+                servicesArray.push({ service: element.service.toLowerCase(), id: element.serviceId })
+            } else {
+                Services.deleteOne({ _id: element._id })
+                console.log("Removed duplicate from services collection", element)
+            }
+        })
+        console.log("Saved unique service collection")
+        resolve(servicesArray)
+    })
+}
+
+const getServiceName = id => {
     return new Promise((resolve, reject) => {
-        Catalogue.find({}, (err, catalogueDocs) => {
-            if (err) console.log("Error", err)
-            else {
-                let bigAssArray = []
-                catalogueDocs.forEach(element => {
-                    element.services.forEach(element1 => {
-                        console.log(element1.service ? element1.service.toLowerCase() : '')
-                        let smallObject = {
-                            speciality: element.speciality,
-                            specialityId: ObjectId(element._id),
-                            serviceId: ObjectId(element1._id),
-                            service: element1.service,
-                            service_lowercase: element1.service ? element1.service.toLowerCase() : '',
-                            details: element1.details,
-                            duration: element1.duration,
-                            sittings: element1.sittings,
-                            dnd: element1.dnd,
-                            tags: element1.tags ? element1.tags.toLowerCase() : '',
-                            category: element1.category
-                        }
-                        bigAssArray.push(smallObject)
-                    })
-                })
-                console.log("Got through it")
-                sendServicesToES(bigAssArray)
-                addServicesCollection(bigAssArray)
-                // Services.insertMany(bigAssArray, (err, docs) => {
-                //     if (err) console.log("Error", err)
-                //     else console.log("Added docs", docs)
-                // })
-            }
-        })
+        console.log("Get service name", id)
+        Services.findOne({ serviceId: mongoose.Types.ObjectId(id) }, 'service')
     })
 }
 
-const sendServicesToES = async serviceArray => {
-    await client.indices.delete({ index: 'services' })
-    await client.indices.create({
-        index: "services",
-        body: {
-            "settings": {
-              "analysis": {
-                "analyzer": {
-                  "my_analyzer": {
-                    "tokenizer": "my_tokenizer"
-                  }
-                },
-                "tokenizer": {
-                  "my_tokenizer": {
-                    "type": "edge_ngram",
-                    "token_chars": [
-                      "letter",
-                      "digit"
-                    ]
-                  }
-                }
-              }
-            },
-            "mappings": {
-              "properties": {
-                "tags": {
-                  "type": "text"
-                },
-                "service_lowercase": {
-                  "type": "text"
-                },
-                "details": {
-                  "type": "text",
-                  "index": false
-                },
-                "service": {
-                  "type": "text",
-                  "index": false
-                },
-                "dnd": {
-                  "type": "text",
-                  "index": false
-                },
-                "category": {
-                  "type": "text",
-                  "index": false
-                },
-                "speciality": {
-                  "type": "text",
-                  "index": false
-                }
-              }
-            }
-          }
-    })
-    await asyncForEach(serviceArray, async element => {
-        let a = await client.index({
-            index: "services",
-            // type: "service",
-            body: element
-        })
-        console.log(a)
+const removeDuplicateUserServices = (servicesArray) => {
+    return new Promise(async (resolve, reject) => {
+        console.log("Remove duplicate user services")
+        let catalogue = await Catalogue.find()
+        let users = await User.find()
+
     })
 }
 
-const addServicesCollection = async serviceArray => {
-    await Services.collection.drop();
-    console.log("Dropped collection")
-    Services.insertMany(serviceArray, (err, docs) => {
-        if (err) console.log("Error", err)
-        else console.log("Added docs", docs)
-    })
-}
-
-createServicesCollection()
+removeExtraServices()
+removeDuplicateServices()
 
 const similarity = (s1, s2) => {
     var longer = s1;
@@ -709,6 +653,30 @@ const loadXlsxLifeAid = async (f) => {
         })
 }
 
+const removeDuplicates = () => {
+    return new Promise(async (resolve, reject) => {
+        console.log("Remove duplicates")
+        let serviceCollection = await Services.find()
+        let catalogue = await Catalogue.find()
+        let users = await User.find()
+
+        let servicesArray = []
+        serviceCollection.forEach(async element => {
+            const index = servicesArray.findIndex(value => value.service === element.service)
+            if (index === -1) {
+                servicesArray.push({ service: element.service, id: element.serviceId })
+            } else {
+                const removeElement = await Services.deleteOne({ _id: element._id })
+                console.log("Removed duplicate from services collection", removeElement)
+            }
+        })
+        await serviceCollection.save()
+        console.log("Saved unique service collection")
+
+
+    })
+}
+
 const loadXlsxSpeciality = async (f) => {
     console.log("Load Opthalmologists")
     const data = xlsx.parse(fs.readFileSync(f))
@@ -821,22 +789,6 @@ const loadXlsxSpeciality = async (f) => {
     console.log("Upload complete")
     process.exit(1)
 }
-
-//loadXlsxServiceUpdates('./plunes-db/lab_data.xlsx')
-// loadXlsxSpeciality('./plunes-db/opthal.xlsx')
-// loadXlsxForHospitals('./plunes-db/doctors.xlsx')
-//   loadXlsxLifeAid('./plunes-db/clcd.xlsx')
-// loadXlsx('./plunes-db/Hospital_data.xlsx')
-// loadXlsxServiceUpdates('./plunes-db/Shwetas.xlsx')
-// loadXlsx('./plunes-db/d/opthal.xlsx')
-// loadXlsx('./plunes-db/d/Pathology.xlsx')
-// loadXlsx('./plunes-db/d/Pediatric.xlsx')
-// loadXlsx('./plunes-db/d/PHYSIO.xlsx')
-// loadXlsx('./plunes-db/d/RADIO.xlsx')
-
-// const data = xlsx.parse(fs.readFileSync('./plunes-db/ENT.xlsx'))
-
-// fixDB()
 
 const fixMisc = async (filename) => {
     const misc = await Catalogue.findOne({

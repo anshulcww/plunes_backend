@@ -32,7 +32,7 @@ router.post('/', auth, async (req, res) => {
 
         }
         if (prescriptionTemplate) {
-            console.log({prescriptionTemplate, prescriptionData})
+            console.log({ prescriptionTemplate, prescriptionData })
             const html = fs.readFileSync('./prescription.html')
             const options = {
                 format: 'A4',
@@ -40,8 +40,8 @@ router.post('/', auth, async (req, res) => {
                 border: '10mm'
             }
             const filename = '' + Date.now() + '-prescription.pdf'
-            let fields = prescription.prescriptionData.fields.map(element => { return {key: Object.keys(element)[0], value: Object.values(element)[0]}})
-            console.log({fields})
+            let fields = prescription.prescriptionData.fields.map(element => { return { key: Object.keys(element)[0], value: Object.values(element)[0] } })
+            console.log({ fields })
             const document = {
                 html: html.toString(),
                 data: {
@@ -95,6 +95,7 @@ router.post('/test', auth, async (req, res) => {
     try {
         const user = req.user
         console.log(req.body);
+        // req.body.prescriptionData.fields = req.body.prescriptionData.fields.filter(element => !element.showLogoText)
         const prescription = new Prescription(req.body)
         let prescriptionTemplate = user.prescription
         if (prescription.doctorId) {
@@ -109,9 +110,9 @@ router.post('/test', auth, async (req, res) => {
 
         }
         if (prescriptionTemplate) {
-            console.log({prescriptionTemplate}, prescriptionTemplate.logoUrl, prescriptionTemplate.logoText)
+            console.log({ prescriptionTemplate }, prescriptionTemplate.logoUrl, prescriptionTemplate.logoText)
             let html
-            if(prescriptionTemplate.logoUrl !== "") {
+            if (prescriptionTemplate.logoUrl !== "") {
                 html = fs.readFileSync('./prescription_logo.html')
             } else {
                 html = fs.readFileSync('./prescription_text.html')
@@ -122,8 +123,8 @@ router.post('/test', auth, async (req, res) => {
                 border: '10mm'
             }
             const filename = '' + Date.now() + '-prescription_test.pdf'
-            let fields = prescription.prescriptionData.fields.map(element => { return {key: Object.keys(element)[0], value: Object.values(element)[0]}})
-            console.log({fields})
+            let fields = prescription.prescriptionData.fields.map(element => { return { key: Object.keys(element)[0], value: Object.values(element)[0] } })
+            console.log({ fields })
             const document = {
                 html: html.toString(),
                 data: {

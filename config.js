@@ -4,5 +4,8 @@ module.exports = {
     MONGODB_URL: 'mongodb://3.5.212.85:27017/plunesdb2',
     ELASTIC_URL: "http://172.31.41.184:9200",
     RAZORPAY_APP_URL: 'https://plunes.co',
-    COUPON_CODES: ['SPAZE10000', 'NILE10000', 'UPPAL10000', 'FEB10000', 'GREENS10000']
+    COUPON_CODES: ['SPAZE10000', 'NILE10000', 'UPPAL10000', 'FEB10000', 'CAREERS360'],
+    ES_INDEX: "services",
+    ENVIRONMENT: "production",
+    PASSWORD: "PlunesAdmin"
 }

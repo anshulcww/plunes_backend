@@ -42,7 +42,7 @@ router.post('/test', auth, async (req, res) => {
         }
     }
     try {
-        console.log(req.body)
+        // console.log(req.body)
         if(req.body.report.length > 0) {
             await asyncForEach(req.body.report, async element => {
                 console.log({element})

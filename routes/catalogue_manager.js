@@ -3,6 +3,8 @@ const fs = require('fs')
 const xlsx = require('node-xlsx')
 const multer = require('multer')
 const path = require('path')
+const jwt = require('jsonwebtoken')
+const { PASSWORD, JWT_KEY } = require('../config')
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
@@ -13,12 +15,13 @@ let globalObject = {}
 
 var uploading = false
 
-const getServiceId = name => {
+const getServiceId = (name, speciality) => {
     return new Promise(async (resolve, reject) => {
         try {
             Catalogue.aggregate([{
                 $match: {
-                    'services.service': name
+                    'services.service': name,
+                    speciality: speciality
                 }
             },
             {
@@ -38,7 +41,7 @@ const getServiceId = name => {
             ], (err, serviceIdDocs) => {
                 if (err) console.log("Error", err)
                 else {
-                    resolve(serviceIdDocs[0] ? serviceIdDocs[0].serviceId[0]._id.toString() : null)
+                    resolve(serviceIdDocs[0] && serviceIdDocs[0].serviceId[0] ? serviceIdDocs[0].serviceId[0]._id.toString() : null)
                 }
             })
         } catch (e) {
@@ -50,6 +53,26 @@ const getServiceId = name => {
 const asyncForEach = async (array, callback) => {
     for (let index = 0; index < array.length; index++) {
         await callback(array[index], index, array);
+    }
+}
+
+const verifyToken = (req, res, next) => {
+    const bearerHead = req.headers['authorization']
+    if (typeof bearerHead !== undefined) {
+        const token = bearerHead.split(' ')[1]
+        jwt.verify(token, JWT_KEY, (err, authData) => {
+            if (err) res.sendStatus(400)
+            else {
+                const data = authData
+                if (data.user === "Admin") {
+                    next()
+                } else {
+                    res.sendStatus(403)
+                }
+            }
+        })
+    } else {
+        res.sendStatus(403)
     }
 }
 
@@ -81,7 +104,21 @@ const uploadCatalog = multer({
     storage: storageCatalog
 }).single('file')
 
-router.post('/uploadCatalog', async (req, res) => {
+router.post('/login', (req, res) => {
+    console.log("Login")
+    if (req.body.password === PASSWORD) {
+        console.log("Authenticated User")
+        jwt.sign({ user: "Admin" }, JWT_KEY, (err, token) => {
+            if (err) res.status(403).send()
+            res.json({ token })
+        })
+    } else {
+        console.log("User not authenticated", req.body.password)
+        res.status(403).send()
+    }
+})
+
+router.post('/uploadCatalog', verifyToken, async (req, res) => {
     console.log("Upload master catalog for speciality")
     uploadCatalog(req, res, async function (err) {
         if (err instanceof multer.MulterError) {
@@ -119,7 +156,7 @@ router.post('/uploadCatalog', async (req, res) => {
     })
 })
 
-router.post('/uploadHospital', async (req, res) => {
+router.post('/uploadHospital', verifyToken, async (req, res) => {
     console.log("Upload hospital data")
     uploadHospital(req, res, function (err) {
         if (err instanceof multer.MulterError) {
@@ -145,15 +182,17 @@ router.post('/uploadHospital', async (req, res) => {
     })
 })
 
-router.post('/submit', async (req, res) => {
+router.post('/submit', verifyToken, async (req, res) => {
     console.log("Upload data submit", req.body.type, req.body.filename)
-    if(!uploading) {
+    if (!uploading) {
         if (req.body.type === 'Catalogue') {
             globalObject[req.body.filename] = {
                 addedServices: [],
                 namesUpdated: [],
                 notFoundSpecialities: [],
-                updatedServices: []
+                updatedServices: [],
+                updatedServiceName: [],
+                errors: []
             }
             res.status(200).send({
                 status: 1,
@@ -174,6 +213,11 @@ router.post('/submit', async (req, res) => {
             } catch (e) {
                 uploading = false
                 console.log("Error uploading", e)
+                res.status(400).send({
+                    status: 0,
+                    data: e,
+                    msg: 'error'
+                })
             }
         } else if (req.body.type === 'Hospital') {
             globalObject[req.body.filename] = {
@@ -200,9 +244,14 @@ router.post('/submit', async (req, res) => {
                             console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                         }
                     })
-                } catch(e) {
+                } catch (e) {
                     uploading = false
                     console.log("Error", e)
+                    res.status(400).send({
+                        status: 0,
+                        data: e,
+                        msg: 'error'
+                    })
                 }
             } catch (e) {
                 console.log("Error", e)
@@ -238,9 +287,14 @@ router.post('/submit', async (req, res) => {
                             console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                         }
                     })
-                } catch(e) {
+                } catch (e) {
                     console.log("Error", e)
                     uploading = false
+                    res.status(400).send({
+                        status: 0,
+                        data: e,
+                        msg: 'error'
+                    })
                 }
             } catch (e) {
                 res.status(400).send({
@@ -274,9 +328,57 @@ router.post('/submit', async (req, res) => {
                             console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
                         }
                     })
-                } catch(e) {
+                } catch (e) {
                     uploading = false
                     console.log("Error", e)
+                    res.status(400).send({
+                        status: 0,
+                        data: e,
+                        msg: 'error'
+                    })
+                }
+            } catch (e) {
+                res.status(400).send({
+                    status: 0,
+                    data: e,
+                    msg: 'error'
+                })
+            }
+        } else if (req.body.type === 'Miscellaneous') {
+            globalObject[req.body.filename] = {
+                notFoundSpecialities: [],
+                errors: [],
+                notFoundHospitals: [],
+                notFoundServices: [],
+                addedSpecialities: [],
+                addedServices: [],
+                updatedHospitals: []
+            }
+            try {
+                res.status(200).send({
+                    status: 1,
+                    data: [],
+                    msg: 'success'
+                })
+                try {
+                    uploading = true
+                    const result = await loadMiscellaneousData(req.body.filename, path.join(__dirname, '../public/hospitals/', req.body.filename))
+                    uploading = false
+                    fs.writeFile(path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'), JSON.stringify(globalObject[req.body.filename]), err => {
+                        if (err) console.log("Error writing log", err)
+                        else {
+                            delete globalObject[req.body.filename]
+                            console.log("Written to log file", path.join(__dirname, '../public/' + req.body.filename.split('.')[0] + '_upload_status.log'))
+                        }
+                    })
+                } catch (e) {
+                    uploading = false
+                    console.log("Error", e)
+                    res.status(400).send({
+                        status: 0,
+                        data: e,
+                        msg: 'error'
+                    })
                 }
             } catch (e) {
                 res.status(400).send({
@@ -317,7 +419,7 @@ router.get('/specialities', (req, res) => {
     })
 })
 
-router.get('/progress/:id', (req, res) => {
+router.get('/progress/:id', verifyToken, (req, res) => {
     if (globalObject[req.params.id]) {
         res.status(200).send({
             status: 1,
@@ -326,6 +428,7 @@ router.get('/progress/:id', (req, res) => {
         })
     } else {
         console.log("Reading from log file", req.params.id)
+        uploading = false
         fs.readFile(path.join(__dirname, '../public/' + req.params.id.split('.')[0] + '_upload_status.log'), (err, data) => {
             if (err) {
                 console.log("Error reading log file", err)
@@ -362,7 +465,7 @@ const loadMasterSheet = (transactionId, f) => {
                         // console.log({ row })
                         let speciality = row[0]
                         let service = row[1]
-                        let updatedServiceName = row[2]
+                        let updatedServiceName = row[2] === '' ? null : row[2]
                         let details = row[3]
                         let duration = row[4]
                         let sittings = row[5]
@@ -378,8 +481,17 @@ const loadMasterSheet = (transactionId, f) => {
 
                         // Add/update service to DB
                         if (catalogRecord) {
-                            let j = catalogRecord.services.findIndex(x => x.service == service)
-                            if (j == -1) {
+                            let j
+                            if (updatedServiceName) {
+                                j = catalogRecord.services.findIndex(x => (x.service == updatedServiceName))
+                                if (j !== -1) {
+                                    console.log("Service name already updated", updatedServiceName)
+                                    globalObject[transactionId].updatedServiceName.push(updatedServiceName)
+                                }
+                            } if (!j || j === -1) {
+                                j = catalogRecord.services.findIndex(x => (x.service == service))
+                            }
+                            if (j === -1) {
                                 console.log('Adding service:', service)
                                 catalogRecord.services = catalogRecord.services.concat({
                                     service,
@@ -394,8 +506,9 @@ const loadMasterSheet = (transactionId, f) => {
                                 globalObject[transactionId].addedServices.push(service)
                             }
                             else if (j !== -1) {
-                                // console.log("Updating record")
+                                console.log(j)
                                 if (updatedServiceName) {
+                                    console.log("Updated name", updatedServiceName)
                                     catalogRecord.services[j].service = updatedServiceName
                                     globalObject[transactionId].namesUpdated.push(service + " -> " + updatedServiceName)
                                 }
@@ -405,8 +518,13 @@ const loadMasterSheet = (transactionId, f) => {
                                 catalogRecord.services[j].dnd = dnd
                                 catalogRecord.services[j].tags = tags
                                 catalogRecord.services[j].category = category
-                                await catalogRecord.save()
-                                globalObject[transactionId].updatedServices.push(updatedServiceName || service)
+                                try {
+                                    await catalogRecord.save()
+                                    console.log("Updating record", service, j)
+                                    globalObject[transactionId].updatedServices.push(updatedServiceName || service)
+                                } catch (e) {
+                                    globalObject[transactionId].errors.push(JSON.stringify(e))
+                                }
                             }
                         } else {
                             console.log('Speciality not found', speciality)
@@ -430,18 +548,18 @@ const loadHospitalData = (transactionId, f) => {
         const data = xlsx.parse(fs.readFileSync(f))
         if (data) {
             try {
-                await asyncForEach(data, async sheet => {
-                    let tempObj = {
-                        specialityId: '',
-                        services: []
-                    }
-                    const hospitalName = sheet.data[1][0]
-                    console.log("Hospital name:", hospitalName)
-                    let hospitalRecordMain = await User.findOne({
-                        name: hospitalName
-                    })
-                    if (hospitalRecordMain) {
-                        let specialitiesArray = []
+                const hospitalName = data[0].data[1][0]
+                console.log("Hospital name:", hospitalName)
+                let hospitalRecordMain = await User.findOne({
+                    name: hospitalName
+                })
+                if (hospitalRecordMain) {
+                    let specialitiesArray = []
+                    await asyncForEach(data, async sheet => {
+                        let tempObj = {
+                            specialityId: '',
+                            services: []
+                        }
                         await asyncForEach(sheet.data.slice(1), async row => {
                             if (row.length > 0) {
                                 let speciality = row[2]
@@ -451,13 +569,13 @@ const loadHospitalData = (transactionId, f) => {
                                 if (catalogueRecord) {
                                     let specialityId = catalogueRecord._id.toString()
                                     let service = row[3]
-                                    const serviceId = await getServiceId(service)
+                                    const serviceId = await getServiceId(service, speciality)
                                     if (serviceId) {
                                         // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
                                         let category = row[7]
-                                        if (variance && (price || price === 0) && category) {
+                                        if ((variance || variance === 0) && (price || price === 0) && category) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],
@@ -483,14 +601,105 @@ const loadHospitalData = (transactionId, f) => {
                         if (tempObj.services.length > 0) {
                             specialitiesArray.push(tempObj)
                         }
-                        hospitalRecordMain.specialities = specialitiesArray
-                        await hospitalRecordMain.save()
-                        console.log("Updated", hospitalName)
-                        globalObject[transactionId].updatedHospitals.push(hospitalName)
-                    } else {
-                        console.log("Hospital not in database", hospitalName)
-                        globalObject[transactionId].notFoundHospitals.push(hospitalName)
-                    }
+                    })
+                    hospitalRecordMain.specialities = specialitiesArray
+                    await hospitalRecordMain.save()
+                    console.log("Updated", hospitalName)
+                    globalObject[transactionId].updatedHospitals.push(hospitalName)
+                    resolve()
+                } else {
+                    console.log("Hospital not in database", hospitalName)
+                    globalObject[transactionId].notFoundHospitals.push(hospitalName)
+                    reject("Hospital not in DB")
+                }
+            } catch (e) {
+                reject(e)
+            }
+        } else {
+            console.log("No data")
+            reject()
+        }
+    })
+}
+
+// Iterate excel sheet for miscellaneous doctors for multiple specialities. 
+// Super slow, one row at a time
+const loadMiscellaneousData = (transactionId, f) => {
+    return new Promise(async (resolve, reject) => {
+        console.log("Load miscellaneous data", f)
+        const data = xlsx.parse(fs.readFileSync(f))
+        if (data) {
+            try {
+                let specialitiesArray = []
+                await asyncForEach(data, async sheet => {
+                    await asyncForEach(sheet.data.slice(1), async row => {
+                        if (row.length > 0) {
+                            const hospitalName = row[0]
+                            console.log("Hospital name:", hospitalName)
+                            let hospitalRecordMain = await User.findOne({
+                                name: hospitalName
+                            })
+                            if (hospitalRecordMain) {
+                                let speciality = row[2]
+                                const catalogueRecord = await Catalogue.findOne({
+                                    speciality: speciality
+                                })
+                                if (catalogueRecord) {
+                                    let specialityId = catalogueRecord._id.toString()
+                                    let service = row[3]
+                                    const serviceId = await getServiceId(service, speciality)
+                                    if (serviceId) {
+                                        // console.log(row[4], row[6])
+                                        let variance = parseInt(row[4])
+                                        let price = parseInt(row[6])
+                                        let category = row[7]
+                                        if ((variance || variance === 0) && (price || price === 0) && category) {
+                                            let specialityIndex = hospitalRecordMain.specialities.findIndex(element => element.specialityId === specialityId)
+                                            if (specialityIndex !== -1) {
+                                                console.log("Speciality already added to doctor, adding service")
+                                                let serviceIndex = hospitalRecordMain.specialities[specialityIndex].services.findIndex(element => element.serviceId === serviceId)
+                                                if (serviceIndex !== -1) {
+                                                    console.log("Service already added to doctor")
+                                                } else {
+                                                    console.log("Adding service to doctor", `${hospitalName} : ${speciality} : ${service}`)
+                                                    hospitalRecordMain.specialities[specialityIndex].services.push({
+                                                        price: [price],
+                                                        category: [category],
+                                                        serviceId: serviceId,
+                                                        variance: variance,
+                                                        homeCollection: false
+                                                    })
+                                                    globalObject[transactionId].addedServices.push(`${hospitalName} : ${speciality} : ${service}`)
+                                                }
+                                            } else {
+                                                console.log("Speciality not in doctor", speciality, hospitalName)
+                                                hospitalRecordMain.specialities.push({
+                                                    specialityId: specialityId,
+                                                    services: []
+                                                })
+                                                globalObject[transactionId].addedSpecialities.push(`${hospitalName} : ${speciality}`)
+                                            }
+                                            await hospitalRecordMain.save()
+                                            console.log("Updated", hospitalName)
+                                            globalObject[transactionId].updatedHospitals.push(hospitalName)
+                                        } else {
+                                            console.log("Price/variance/category doesn't exist for", hospitalName, speciality, service)
+                                            globalObject[transactionId].errors.push(`Price/variance/category doesn't exist for - ${hospitalName} : ${speciality} : ${service}`)
+                                        }
+                                    } else {
+                                        console.log("Service doesn't exist in DB", service)
+                                        globalObject[transactionId].notFoundServices.push(`${hospitalName} : ${speciality} : ${service}`)
+                                    }
+                                } else {
+                                    console.log('Speciality not found', speciality)
+                                    globalObject[transactionId].notFoundSpecialities.push(`${hospitalName} : ${speciality}`)
+                                }
+                            } else {
+                                console.log("Hospital not in database", hospitalName)
+                                globalObject[transactionId].notFoundHospitals.push(hospitalName)
+                            }
+                        }
+                    })
                 })
                 resolve()
             } catch (e) {
@@ -532,13 +741,13 @@ const loadSpecialityData = (transactionId, f) => {
                                 if (catalogueRecord) {
                                     let specialityId = catalogueRecord._id.toString()
                                     let service = row[3]
-                                    const serviceId = await getServiceId(service)
+                                    const serviceId = await getServiceId(service, speciality)
                                     if (serviceId) {
                                         // console.log(row[4], row[6])
                                         let variance = parseInt(row[4])
                                         let price = parseInt(row[6])
                                         let category = row[7]
-                                        if (variance && (price || price === 0) && category) {
+                                        if ((variance || variance === 0) && (price || price === 0) && category) {
                                             tempObj.specialityId = tempObj.specialityId === '' ? specialityId : tempObj.specialityId
                                             tempObj.services = tempObj.services.concat({
                                                 price: [price],
@@ -690,46 +899,5 @@ const loadDoctors = (transactionId, f) => {
         resolve()
     })
 }
-
-// const similarity = (s1, s2) => {
-//     var longer = s1;
-//     var shorter = s2;
-//     if (s1.length < s2.length) {
-//         longer = s2;
-//         shorter = s1;
-//     }
-//     var longerLength = longer.length;
-//     if (longerLength == 0) {
-//         return 1.0;
-//     }
-//     return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
-// }
-
-// const editDistance = (s1, s2) => {
-//     s1 = s1.toLowerCase();
-//     s2 = s2.toLowerCase();
-
-//     var costs = new Array();
-//     for (var i = 0; i <= s1.length; i++) {
-//         var lastValue = i;
-//         for (var j = 0; j <= s2.length; j++) {
-//             if (i == 0)
-//                 costs[j] = j;
-//             else {
-//                 if (j > 0) {
-//                     var newValue = costs[j - 1];
-//                     if (s1.charAt(i - 1) != s2.charAt(j - 1))
-//                         newValue = Math.min(Math.min(newValue, lastValue),
-//                             costs[j]) + 1;
-//                     costs[j - 1] = lastValue;
-//                     lastValue = newValue;
-//                 }
-//             }
-//         }
-//         if (i > 0)
-//             costs[s2.length] = lastValue;
-//     }
-//     return costs[s2.length];
-// }
 
 module.exports = router

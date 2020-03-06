@@ -41,7 +41,7 @@ router.get('/:since', auth, async (req, res) => {
             }
         }).sort({
             createdTime: -1
-        })
+        }).limit(30)
         // console.log(notifications)
         res.status(201).send({
             success: true,

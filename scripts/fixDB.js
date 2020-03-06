@@ -4,9 +4,10 @@ const xlsx = require('node-xlsx')
 const ObjectId = mongoose.Types.ObjectId
 const Config = require('../config')
 const elasticsearch = require('elasticsearch')
+const { ELASTIC_URL } = require('../config')
 
 let client = new elasticsearch.Client({
-    hosts: ['localhost:9200']
+    hosts: [ELASTIC_URL]
 })
 
 client.ping({
@@ -37,16 +38,18 @@ const createServicesCollection = () => {
                 let bigAssArray = []
                 catalogueDocs.forEach(element => {
                     element.services.forEach(element1 => {
+                        console.log(element1.service ? element1.service.toLowerCase() : '')
                         let smallObject = {
                             speciality: element.speciality,
                             specialityId: ObjectId(element._id),
                             serviceId: ObjectId(element1._id),
                             service: element1.service,
+                            service_lowercase: element1.service ? element1.service.toLowerCase() : '',
                             details: element1.details,
                             duration: element1.duration,
                             sittings: element1.sittings,
                             dnd: element1.dnd,
-                            tags: element1.tags,
+                            tags: element1.tags ? element1.tags.toLowerCase() : '',
                             category: element1.category
                         }
                         bigAssArray.push(smallObject)
@@ -65,6 +68,60 @@ const createServicesCollection = () => {
 }
 
 const sendServicesToES = async serviceArray => {
+    await client.indices.delete({ index: 'services' })
+    await client.indices.create({
+        index: "services",
+        body: {
+            "settings": {
+              "analysis": {
+                "analyzer": {
+                  "my_analyzer": {
+                    "tokenizer": "my_tokenizer"
+                  }
+                },
+                "tokenizer": {
+                  "my_tokenizer": {
+                    "type": "edge_ngram",
+                    "token_chars": [
+                      "letter",
+                      "digit"
+                    ]
+                  }
+                }
+              }
+            },
+            "mappings": {
+              "properties": {
+                "tags": {
+                  "type": "text"
+                },
+                "service_lowercase": {
+                  "type": "text"
+                },
+                "details": {
+                  "type": "text",
+                  "index": false
+                },
+                "service": {
+                  "type": "text",
+                  "index": false
+                },
+                "dnd": {
+                  "type": "text",
+                  "index": false
+                },
+                "category": {
+                  "type": "text",
+                  "index": false
+                },
+                "speciality": {
+                  "type": "text",
+                  "index": false
+                }
+              }
+            }
+          }
+    })
     await asyncForEach(serviceArray, async element => {
         let a = await client.index({
             index: "services",

@@ -21,6 +21,7 @@ router.get('/', auth, async (req, res) => {
             userId: user._id.toString()
         })
         if (solution && (Date.now() - solution.createdTime) > 600000) {
+            console.log("Negotiation timeout 1:", (Date.now() - solution.createdTime), Date.now(), solution.createdTime)
             solution.services.forEach((service) => {
                 service.negotiating = false
             })
@@ -45,7 +46,7 @@ router.get('/', auth, async (req, res) => {
                     const percentage = ((service.newPrice[0] - averagePrice) / service.newPrice[0]) * 100
                     service.recommendation = parseInt(percentage / 5) * 5
                 }
-                if (((service.newPrice[0] - averagePrice) / averagePrice) > 0.05) {
+                if (((service.newPrice[0] - averagePrice) / averagePrice) > 0.15) {
                     service.negotiating = true
                     const professional = await User.findById(service.professionalId)
                     if (professional) {
@@ -94,10 +95,11 @@ router.get('/search', auth, async (req, res) => {
     try {
         var personalSolutions = await Solution.findSolutionsByUserId(req.user._id.toString())
         personalSolutions = personalSolutions.filter((s) => (Date.now() - s.createdTime) < 3600000)
-        personalSolutions.forEach(function(solution) {
+        personalSolutions.forEach(function (solution) {
             // console.log('Search ServiceId:', solution.serviceId)
             if ((Date.now() - solution.createdTime) > 600000) {
-                solution.services.forEach(function(service) {
+                console.log("Negotiation timeout", (Date.now() - solution.createdTime), Date.now(), solution.createdTime)
+                solution.services.forEach(function (service) {
                     service.negotiating = false
                 })
             }

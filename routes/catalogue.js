@@ -6,13 +6,14 @@ const Catalogue = require('../models/catalogue')
 const Services = require('../models/services')
 const User = require('../models/user')
 const auth = require('../middleware/auth')
+const { ELASTIC_URL } = require('../config')
 
 router = express.Router()
 
 var catalogue = undefined
 
 var client = new elasticsearch.Client({
-    hosts: ["localhost:9200"]
+    hosts: [ELASTIC_URL]
 })
 
 router.get('/', async (req, res) => {
@@ -26,7 +27,7 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.post('/search', async (req, res) => {
+router.post('/search_old', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)
@@ -100,17 +101,18 @@ router.post('/search', async (req, res) => {
     }
 })
 
-router.post('/newsearch', async (req, res) => {
+router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
         const limit = parseInt(req.body.limit)
         const skip = parseInt(req.body.page) * limit
+        req.body.expression = req.body.expression.toLowerCase()
         try {
             const catalogue = await client.search({
                 "index": "services",
                 "from": skip,
                 "size": limit,
-                "_source": ["service", "category", "serviceId", "details", "dnd", "tags"],
+                "_source": ["service", "category", "serviceId", "details", "dnd"],
                 "body": {
                     "sort": [
                         {
@@ -124,10 +126,11 @@ router.post('/newsearch', async (req, res) => {
                             "must": [
                                 {
                                     "query_string": {
-                                        "query": req.body.expression,
+                                        "query": `${req.body.expression}*`,
                                         "analyze_wildcard": true,
-                                        "fuzziness": "AUTO:6,7",
-                                        "fuzzy_prefix_length": 3
+                                        "fuzziness": "AUTO",
+                                        "fuzzy_prefix_length": 3,
+                                        "fields": ["service_lowercase^2", "tags^0.5"]
                                     }
                                 }
                             ],
@@ -138,8 +141,11 @@ router.post('/newsearch', async (req, res) => {
                     },
                 }
             })
-            let resultArray = catalogue.hits.hits.map(element => 
-                element["_source"]
+            let resultArray = catalogue.hits.hits.map(element => {
+                element["_source"]._id = element["_source"].serviceId
+                delete element["_source"].serviceId
+                return element["_source"]
+            }
             )
             res.status(200).send({
                 status: true,

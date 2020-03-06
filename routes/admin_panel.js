@@ -148,3 +148,5 @@ router.put('/modifySpeciality', (req, res) => {
             }
         })
 })
+
+module.exports = router

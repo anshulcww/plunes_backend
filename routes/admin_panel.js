@@ -107,11 +107,11 @@ router.post('/serviceData', (req, res) => {
         }
     ], (err, serviceData) => {
         if (err) res.status(400).send(err)
-        else if (serviceData) {
+        else if (serviceData.length > 0) {
             console.log({serviceData})
             res.status(200).send({
                 status: 1,
-                data: serviceData.service[0],
+                data: serviceData[0].service[0],
                 msg: ``
             })
         } else {

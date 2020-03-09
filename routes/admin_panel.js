@@ -155,6 +155,7 @@ router.post('/getServices', (req, res) => {
     Catalogue.findOne({ speciality: req.body.speciality }, 'services', (err, serviceDocs) => {
         if (err) res.status(400).send(err)
         else {
+            console.log(serviceDocs.services)
             serviceDocs.services.forEach(element => {
                 element._id = element._id.slice(element._id.length - 5, element._id.length)
             });

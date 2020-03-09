@@ -157,6 +157,7 @@ router.post('/getServices', (req, res) => {
         else {
             console.log(serviceDocs.services)
             serviceDocs.services.forEach(element => {
+                element._id = element._id.toString()
                 element._id = element._id.slice(element._id.length - 5, element._id.length)
             });
             res.status(200).send({

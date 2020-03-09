@@ -152,7 +152,7 @@ router.put('/modifyService', (req, res) => {
 
 router.post('/getServices', (req, res) => {
     console.log("Get services for", req.body.speciality)
-    Catalogue.findOne({ speciality: req.body.speciality }, 'services', (err, serviceDocs) => {
+    Catalogue.findOne({ speciality: req.body.speciality }, 'services').lean().exec((err, serviceDocs) => {
         if (err) res.status(400).send(err)
         else {
             console.log(serviceDocs.services)

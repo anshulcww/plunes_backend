@@ -108,7 +108,7 @@ router.post('/serviceData', (req, res) => {
     ], (err, serviceData) => {
         if (err) res.status(400).send(err)
         else if (serviceData.length > 0) {
-            console.log({serviceData})
+            console.log({ serviceData })
             res.status(200).send({
                 status: 1,
                 data: serviceData[0].service[0],
@@ -152,8 +152,8 @@ router.put('/modifyService', (req, res) => {
 
 router.post('/getServices', (req, res) => {
     console.log("Get services for ", req.body.speciality)
-    Catalogue.findOne({speciality: req.body.speciality}, 'services', (err, serviceDocs) => {
-        if(err) res.status(400).send(err)
+    Catalogue.findOne({ speciality: req.body.speciality }, { services: { $slice: [req.body.skip, req.body.limit] } }, (err, serviceDocs) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send({
                 status: 1,

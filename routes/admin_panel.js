@@ -124,7 +124,7 @@ router.post('/serviceData', (req, res) => {
     })
 })
 
-router.put('/modifySpeciality', (req, res) => {
+router.put('/modifyService', (req, res) => {
     console.log("Edit service", req.body)
     Catalogue.updateOne(
         { speciality: req.body.speciality, "services.service": req.body.service },

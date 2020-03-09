@@ -89,17 +89,17 @@ router.post('/addService', (req, res) => {
     })
 })
 
-router.get('/serviceData/:speciality/:serviceName', (req, res) => {
-    console.log("Get service data", req.params.speciality, req.params.serviceName)
+router.post('/serviceData', (req, res) => {
+    console.log("Get service data", req.body.speciality, req.body.serviceName)
     Catalogue.aggregate([
-        { $match: { 'speciality': req.params.speciality, 'services.service': req.params.serviceName } },
+        { $match: { 'speciality': req.body.speciality, 'services.service': req.body.serviceName } },
         {
             $project: {
                 service: {
                     $filter: {
                         input: '$services',
                         as: 'services',
-                        cond: { $eq: ['$$services.service', req.params.serviceName] }
+                        cond: { $eq: ['$$services.service', req.body.serviceName] }
                     }
                 },
                 _id: 0
@@ -117,7 +117,7 @@ router.get('/serviceData/:speciality/:serviceName', (req, res) => {
             res.status(200).send({
                 status: 0,
                 data: [],
-                msg: `Service ${req.params.serviceName} not found`
+                msg: `Service ${req.body.serviceName} not found`
             })
         }
     })

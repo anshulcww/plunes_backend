@@ -217,7 +217,18 @@ router.post('/getServices', (req, res) => {
 
 router.post('/addHospital', (req, res) => {
     console.log("Add Hospital")
-
+    const newHospital = new User({
+        ...req.body, userType: "Hospital"
+    })
+    newHospital.save().then(docs => {
+        res.status(201).send({
+            status: 1,
+            data: [],
+            msg: "Success"
+        })
+    }).catch(e => {
+        res.status(400).send(e)
+    })
 })
 
 module.exports = router

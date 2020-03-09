@@ -5,7 +5,6 @@ const multer = require('multer')
 const path = require('path')
 const jwt = require('jsonwebtoken')
 const { PASSWORD, JWT_KEY } = require('../config')
-const multer = require('multer')
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')

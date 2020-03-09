@@ -5,12 +5,45 @@ const multer = require('multer')
 const path = require('path')
 const jwt = require('jsonwebtoken')
 const { PASSWORD, JWT_KEY } = require('../config')
+const multer = require('multer')
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
 
 router = express.Router()
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'public')
+    },
+    filename: function (req, file, cb) {
+        file.originalname = file.originalname.split('.')[0] + (file.originalname.split('.')[1] ? "." + file.originalname.split('.')[1].toLowerCase() : '')
+        cb(null, Date.now() + '-' + file.originalname)
+    }
+})
+
+const upload = multer({
+    storage: storage
+}).single('file')
+
+router.post('/uploadLogo', async (req, res) => {
+    console.log("Upload")
+    upload(req, res, function (err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(500).json(err)
+        } else if (err) {
+            return res.status(500).json(err)
+        }
+        console.log("Filename", req.file.filename)
+        return res.status(200).send({
+            status: 1,
+            data: req.file,
+            msg: "success"
+        })
+    })
+})
+
 
 router.post('/login', (req, res) => {
     console.log("Login")
@@ -180,6 +213,11 @@ router.post('/getServices', (req, res) => {
             })
         }
     })
+})
+
+router.post('/addHospital', (req, res) => {
+    console.log("Add Hospital")
+
 })
 
 module.exports = router

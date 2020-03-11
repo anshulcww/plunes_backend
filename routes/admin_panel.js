@@ -265,26 +265,30 @@ const asyncForEach = async (array, callback) => {
 }
 
 const getSpecialityName = id => {
-    console.log("Speciality", id)
     return new Promise((resolve, reject) => {
-        if(typeof a !== 'object') id = mongoose.Types.ObjectId(id) 
-        Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
-            if (err) reject(err)
-            else if(specialityName) resolve(specialityName.speciality)
-            else resolve(id)
-        })
+        if(id) {
+            if(typeof a !== 'object') id = mongoose.Types.ObjectId(id) 
+            Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
+                if (err) reject(err)
+                else if(specialityName) resolve(specialityName.speciality)
+                else resolve(id)
+            })
+        } else resolve('')
     })
 }
 
 const getServiceName = id => {
-    console.log("Service", id)
     return new Promise((resolve, reject) => {
-        if(typeof a !== 'object') id = mongoose.Types.ObjectId(id) 
-        Services.findOne({ serviceId: id }, 'service', (err, serviceName) => {
-            if (err) reject(err)
-            else if(serviceName) resolve(serviceName.service)
-            else resolve(id)
-        })
+        if(id) {
+            if(typeof a !== 'object') id = mongoose.Types.ObjectId(id) 
+            Services.findOne({ serviceId: id }, 'service', (err, serviceName) => {
+                if (err) reject(err)
+                else if(serviceName) resolve(serviceName.service)
+                else resolve(id)
+            })
+        } else {
+            resolve('')
+        }
     })
 }
 

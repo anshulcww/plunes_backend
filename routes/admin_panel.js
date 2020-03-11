@@ -231,4 +231,30 @@ router.post('/addHospital', (req, res) => {
     })
 })
 
+router.get('/getHospitals', (req, res) => {
+    User.find({userType: 'Hospital'}, (err, userDocs) => {
+        if(err) res.status(400).send(err)
+        else {
+            res.status(200).send({
+                status: 1,
+                data: userDocs,
+                msg: ''
+            })
+        }
+    })
+})
+
+router.get('/getDoctors', (req, res) => {
+    User.find({userType: 'Doctor'}, (err, userDocs) => {
+        if(err) res.status(400).send(err)
+        else {
+            res.status(200).send({
+                status: 1,
+                data: userDocs,
+                msg: ''
+            })
+        }
+    })
+})
+
 module.exports = router

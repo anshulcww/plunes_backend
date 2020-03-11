@@ -268,7 +268,8 @@ const getSpecialityName = id => {
     return new Promise((resolve, reject) => {
         Services.findOne({ specialityId: mongoose.Types.ObjectId(id) }, 'speciality', (err, specialityName) => {
             if (err) reject(err)
-            else resolve(specialityName.speciality)
+            else if(specialityName) resolve(specialityName.speciality)
+            else resolve(id)
         })
     })
 }
@@ -277,7 +278,8 @@ const getServiceName = id => {
     return new Promise((resolve, reject) => {
         Services.findOne({ serviceId: mongoose.Types.ObjectId(id) }, 'service', (err, serviceName) => {
             if (err) reject(err)
-            else resolve(serviceName.service)
+            else if(serviceName) resolve(serviceName.service)
+            else resolve(id)
         })
     })
 }

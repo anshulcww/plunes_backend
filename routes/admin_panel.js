@@ -233,8 +233,8 @@ router.post('/addHospital', (req, res) => {
 })
 
 router.get('/getHospitals', (req, res) => {
-    User.find({userType: 'Hospital'}, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
-        if(err) res.status(400).send(err)
+    User.find({ userType: 'Hospital' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send({
                 status: 1,
@@ -246,8 +246,8 @@ router.get('/getHospitals', (req, res) => {
 })
 
 router.get('/getDoctors', (req, res) => {
-    User.find({userType: 'Doctor'}, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
-        if(err) res.status(400).send(err)
+    User.find({ userType: 'Doctor' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send({
                 status: 1,
@@ -258,11 +258,35 @@ router.get('/getDoctors', (req, res) => {
     })
 })
 
+const getSpecialityName = id => {
+    return new Promise((resolve, reject) => {
+        Services.findOne({ specialityId: mongoose.Types.ObjectId(id) }, 'speciality', (err, specialityName) => {
+            if (err) reject(err)
+            else resolve(specialityName.speciality)
+        })
+    })
+}
+
+const getServiceName = id => {
+    return new Promise((resolve, reject) => {
+        Services.findOne({ serviceId: mongoose.Types.ObjectId(id) }, 'service', (err, serviceName) => {
+            if (err) reject(err)
+            else resolve(serviceName.service)
+        })
+    })
+}
+
 router.get('/getUser/:id', (req, res) => {
     console.log("Get user", req.params.id)
-    User.findOne({_id: mongoose.Types.ObjectId(req.params.id)}, (err, docs) =>  {
-        if(err) res.status(400).send(err)
+    User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }, (err, docs) => {
+        if (err) res.status(400).send(err)
         else {
+            docs.specialities.forEach(async element => {
+                element.speciality = await getSpecialityName(element.specialityId)
+                element.services.forEach(async subElement => {
+                    subElement.service = await getServiceName(subElement.serviceId)
+                })
+            })
             res.status(200).send({
                 status: 1,
                 data: docs,

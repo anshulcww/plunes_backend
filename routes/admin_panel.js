@@ -227,6 +227,7 @@ router.post('/addHospital', (req, res) => {
         })
     }).catch(e => {
         res.status(400).send(e)
+        console.log(e)
     })
 })
 

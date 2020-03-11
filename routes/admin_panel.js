@@ -258,6 +258,12 @@ router.get('/getDoctors', (req, res) => {
     })
 })
 
+const asyncForEach = async (array, callback) => {
+    for (let index = 0; index < array.length; index++) {
+        await callback(array[index], index, array);
+    }
+}
+
 const getSpecialityName = id => {
     return new Promise((resolve, reject) => {
         Services.findOne({ specialityId: mongoose.Types.ObjectId(id) }, 'speciality', (err, specialityName) => {
@@ -278,12 +284,12 @@ const getServiceName = id => {
 
 router.get('/getUser/:id', (req, res) => {
     console.log("Get user", req.params.id)
-    User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }, (err, docs) => {
+    User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }).lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
-            docs.specialities.forEach(async element => {
+            await asyncForEach(docs.specialities, async element => {
                 element.speciality = await getSpecialityName(element.specialityId)
-                element.services.forEach(async subElement => {
+                await asyncForEach(element.services, async subElement => {
                     subElement.service = await getServiceName(subElement.serviceId)
                 })
             })

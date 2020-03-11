@@ -4,6 +4,7 @@ const xlsx = require('node-xlsx')
 const multer = require('multer')
 const path = require('path')
 const jwt = require('jsonwebtoken')
+const mongoose = require('mongoose')
 const { PASSWORD, JWT_KEY } = require('../config')
 
 const Catalogue = require('../models/catalogue')
@@ -251,6 +252,20 @@ router.get('/getDoctors', (req, res) => {
             res.status(200).send({
                 status: 1,
                 data: userDocs,
+                msg: ''
+            })
+        }
+    })
+})
+
+router.get('/getUser/:id', (req, res) => {
+    console.log("Get user", req.params.id)
+    User.findOne({_id: mongoose.Types.ObjectId(req.params.id)}, (err, docs) =>  {
+        if(err) res.status(400).send(err)
+        else {
+            res.status(200).send({
+                status: 1,
+                data: docs,
                 msg: ''
             })
         }

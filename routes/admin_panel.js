@@ -44,6 +44,10 @@ router.post('/uploadLogo', async (req, res) => {
     })
 })
 
+router.patch('/updatePrice', (req, res) => {
+    console.log("Update price")
+    
+})
 
 router.post('/login', (req, res) => {
     console.log("Login")

@@ -10,6 +10,7 @@ const { PASSWORD, JWT_KEY } = require('../config')
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
+const auth = require('../middleware/auth')
 
 router = express.Router()
 
@@ -44,7 +45,7 @@ router.post('/uploadLogo', async (req, res) => {
     })
 })
 
-router.patch('/updatePrice', (req, res) => {
+router.patch('/updatePrice', auth, (req, res) => {
     console.log("Update price")
     
 })

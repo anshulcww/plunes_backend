@@ -45,9 +45,33 @@ router.post('/uploadLogo', async (req, res) => {
     })
 })
 
-router.patch('/updatePrice', auth, (req, res) => {
-    console.log("Update price")
-    
+router.patch('/updatePrice', auth, async (req, res) => {
+    console.log("Update price", req.body.newPrice)
+    await asyncForEach(req.user.specialities, async element => {
+        if (element.specialityId === req.body.specialityId) {
+            await asyncForEach(element.services, async subElement => {
+                if (subElement.serviceId === req.body.serviceId) {
+                    subElement.price = [req.body.newPrice]
+                }
+            })
+        }
+    })
+    req.user.save().then(docs => {
+        console.log("Saved User")
+        res.status(200).send({
+            status: 1,
+            data: docs,
+            msg: ''
+        })
+    })
+    .catch(e => {
+        console.log(e)
+        res.status(400).send({
+            status: 0,
+            data: e,
+            msg: ''
+        })
+    })
 })
 
 router.post('/login', (req, res) => {

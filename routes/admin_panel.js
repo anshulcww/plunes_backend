@@ -294,7 +294,7 @@ const getServiceName = id => {
 
 router.get('/getUser/:id', (req, res) => {
     console.log("Get user", req.params.id)
-    User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }).lean().exec(async (err, docs) => {
+    User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }, '-password -deviceIds -userType -verifiedUser -imageUrl -achievements -tokens -workTimings -creditsEarned').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
             await asyncForEach(docs.specialities, async element => {

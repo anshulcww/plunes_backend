@@ -266,11 +266,11 @@ const asyncForEach = async (array, callback) => {
 
 const getSpecialityName = id => {
     return new Promise((resolve, reject) => {
-        if(id) {
-            if(typeof a !== 'object') id = mongoose.Types.ObjectId(id) 
+        if (id) {
+            if (typeof a !== 'object') id = mongoose.Types.ObjectId(id)
             Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
                 if (err) reject(err)
-                else if(specialityName) resolve(specialityName.speciality)
+                else if (specialityName) resolve(specialityName.speciality)
                 else resolve(id)
             })
         } else resolve('')
@@ -279,11 +279,11 @@ const getSpecialityName = id => {
 
 const getServiceName = id => {
     return new Promise((resolve, reject) => {
-        if(id) {
-            if(typeof a !== 'object') id = mongoose.Types.ObjectId(id) 
+        if (id) {
+            if (typeof a !== 'object') id = mongoose.Types.ObjectId(id)
             Services.findOne({ serviceId: id }, 'service', (err, serviceName) => {
                 if (err) reject(err)
-                else if(serviceName) resolve(serviceName.service)
+                else if (serviceName) resolve(serviceName.service)
                 else resolve(id)
             })
         } else {
@@ -313,11 +313,11 @@ router.get('/getUser/:id', (req, res) => {
 })
 
 router.post("/updateUser", (req, res) => {
-    console.log("Update user", req.body)
     const userId = mongoose.Types.ObjectId(req.body.id)
     const updateValues = req.body
-    User.updateOne({_id: userId}, {$set: updateValues}, (err, updateUser) => {
-        if(err) res.status(400).send(err)
+    console.log("Update user", updateValues)
+    User.updateOne({ _id: userId }, { $set: updateValues }, (err, updateUser) => {
+        if (err) res.status(400).send(err)
         else res.status(200).send(updateUser)
     })
 })

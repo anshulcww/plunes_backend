@@ -312,4 +312,11 @@ router.get('/getUser/:id', (req, res) => {
     })
 })
 
+router.post("/updateUser", (req, res) => {
+    console.log("Update user", req.body)
+    const userId = mongoose.Types.ObjectId(req.body.id)
+    const updateValues = req.body
+    // User.updateOne({_id: userId}, {$set: req.body})
+})
+
 module.exports = router

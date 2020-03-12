@@ -7,7 +7,7 @@ const Booking = require('../models/booking')
 const Solution = require('../models/solution')
 const Notification = require('../models/notification')
 const Catalogue = require('../models/catalogue')
-
+const Redeem =  require('../models/redeem')
 const router = express.Router()
 
 const ObjectId = mongoose.Types.ObjectId
@@ -104,6 +104,7 @@ router.post("/capture/:bookingId", async (req, res) => {
 
 router.post("/", async (req, res) => {
     try {
+        // console.log('anshul postman')
         const bookingId = req.body.payment_id
         const booking = await Booking.findBooking(bookingId)
         if (booking) {
@@ -156,5 +157,24 @@ router.get("/cancelled/:bookingId", async (req, res) => {
         res.status(400).send(error)
     }
 })
+
+router.post("/redeem" , async (req, res) => {
+    try{
+        //console.log(req.body, 'body');
+        const redeem = new Redeem(req.body)
+        console.log(redeem, 'redeem')
+        await redeem.save()
+        res.status(201).send({
+            success: true,
+            message: 'Redeem Initiated'
+        })
+
+    }catch(error){
+        console.log(error);
+        res.status(400).send(error)
+    }
+})
+
+
 
 module.exports = router

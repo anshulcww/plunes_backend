@@ -53,7 +53,10 @@ router.get('/insight', auth, async (req, res) => {
                                     'percent' :  Math.floor(percent),
                                     'bookingPrice' : bPrice,
                                     'userPriceVariance' : uPrice,
-                                    'serviceName' : b.serviceName
+                                    'serviceName' : b.serviceName,
+                                    'specialityId' : sp.specialityId,
+                                    'seviceId' : se.serviceId,
+                                    'userPrice' : se.price[0]
                                 }
                                 insights.push(obj);
                             }

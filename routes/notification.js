@@ -10,15 +10,15 @@ const ObjectId = mongoose.Types.ObjectId
 
 router.put('/', auth, async (req, res) => {
     try {
-        console.log(req.body , 'body');
+        //console.log(req.body , 'body');
         let notification = req.body;
         notification.forEach(async (n) => {
             n._id = ObjectId(n._id)
-            console.log(n._id)
+            //console.log(n._id)
             let unread = await Notification.updateOne({
                _id : ObjectId(n._id) 
             }, {$set : {read : true}})
-            console.log(unread, 'unread')
+            //console.log(unread, 'unread')
         })
 
         res.status(201).send({

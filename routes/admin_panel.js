@@ -316,7 +316,10 @@ router.post("/updateUser", (req, res) => {
     console.log("Update user", req.body)
     const userId = mongoose.Types.ObjectId(req.body.id)
     const updateValues = req.body
-    // User.updateOne({_id: userId}, {$set: req.body})
+    User.updateOne({_id: userId}, {$set: updateValues}, (err, updateUser) => {
+        if(err) res.status(400).send(err)
+        else res.status(200).send(updateUser)
+    })
 })
 
 module.exports = router

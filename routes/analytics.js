@@ -55,7 +55,8 @@ router.get('/insight', auth, async (req, res) => {
                                     'userPriceVariance' : uPrice,
                                     'serviceName' : b.serviceName,
                                     'specialityId' : sp.specialityId,
-                                    'serviceId' : se.serviceId
+                                    'serviceId' : se.serviceId,
+                                    'userPrice' : se.price[0]
                                 }
                                 insights.push(obj);
                             }

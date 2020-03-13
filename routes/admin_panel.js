@@ -52,6 +52,9 @@ router.patch('/updatePrice', auth, async (req, res) => {
             await asyncForEach(element.services, async subElement => {
                 if (subElement.serviceId === req.body.serviceId) {
                     subElement.price = [req.body.newPrice]
+                    if(req.body.newVariance) {
+                        subElement.variance = req.body.newVariance
+                    }
                 }
             })
         }

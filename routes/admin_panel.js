@@ -76,6 +76,7 @@ router.patch('/updatePrice', auth, async (req, res) => {
 
 router.patch('/updatePriceVariance', async (req, res) => {
     console.log("Update price/variance", req.body.newPrice, req.body.newVariance)
+    req.user = await User.findOne({_id: mongoose.Types.ObjectId(req.body.userId)}) 
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {
             await asyncForEach(element.services, async subElement => {

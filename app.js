@@ -105,7 +105,7 @@ app.get('/installer/:id', (req, res) => {
 })
 
 const server = app.listen(Config.PORT, () => {
-    console.log(`server running on port ${Config.PORT}`)
+    console.log(`Server running on port ${Config.PORT} : Environment [${process.env.NODE_ENV}]`)
 })
 
 server.timeout = 600000

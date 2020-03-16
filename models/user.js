@@ -161,6 +161,9 @@ const userSchema = mongoose.Schema({
         type: Number,
         default: 0
     },
+    creditCoupon: {
+        type: Boolean
+    },
     prescription: {
         logoUrl: String,
         logoText: String,

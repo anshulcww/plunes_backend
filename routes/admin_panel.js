@@ -10,9 +10,28 @@ const { PASSWORD, JWT_KEY } = require('../config')
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
-const auth = require('../middleware/auth')
 
 router = express.Router()
+
+const auth = (req, res, next) => {
+    const bearerHead = req.headers['authorization']
+    if (typeof bearerHead !== undefined) {
+        const token = bearerHead.split(' ')[1]
+        jwt.verify(token, JWT_KEY, (err, authData) => {
+            if (err) res.sendStatus(400)
+            else {
+                const data = authData
+                if (data.user === "Admin") {
+                    next()
+                } else {
+                    res.sendStatus(403)
+                }
+            }
+        })
+    } else {
+        res.sendStatus(403)
+    }
+}
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -28,7 +47,7 @@ const upload = multer({
     storage: storage
 }).single('file')
 
-router.post('/uploadLogo', async (req, res) => {
+router.post('/uploadLogo', auth, async (req, res) => {
     console.log("Upload")
     upload(req, res, function (err) {
         if (err instanceof multer.MulterError) {
@@ -47,6 +66,36 @@ router.post('/uploadLogo', async (req, res) => {
 
 router.patch('/updatePrice', auth, async (req, res) => {
     console.log("Update price", req.body.newPrice)
+    await asyncForEach(req.user.specialities, async element => {
+        if (element.specialityId === req.body.specialityId) {
+            await asyncForEach(element.services, async subElement => {
+                if (subElement.serviceId === req.body.serviceId) {
+                    subElement.price = [req.body.newPrice]
+                }
+            })
+        }
+    })
+    req.user.save().then(docs => {
+        console.log("Saved User")
+        res.status(200).send({
+            status: 1,
+            data: docs,
+            msg: ''
+        })
+    })
+    .catch(e => {
+        console.log(e)
+        res.status(400).send({
+            status: 0,
+            data: e,
+            msg: ''
+        })
+    })
+})
+
+router.patch('/updatePriceVariance', auth, async (req, res) => {
+    console.log("Update price/variance", req.body.newPrice, req.body.newVariance)
+    req.user = await User.findOne({_id: mongoose.Types.ObjectId(req.body.userId)}) 
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {
             await asyncForEach(element.services, async subElement => {
@@ -107,7 +156,7 @@ router.get('/specialities', (req, res) => {
     })
 })
 
-router.post('/addSpeciality', (req, res) => {
+router.post('/addSpeciality', auth, (req, res) => {
     console.log("Add speciality", req.body.specialityName)
     Catalogue.findOne({ speciality: req.body.specialityName }, (err, docs) => {
         if (err) res.status(400).send(err)
@@ -133,7 +182,7 @@ router.post('/addSpeciality', (req, res) => {
     })
 })
 
-router.put('/updateSpecialityName', (req, res) => {
+router.put('/updateSpecialityName', auth, (req, res) => {
     console.log("Update speciality name", req.body.oldName, req.body.newName)
     Catalogue.updateOne({ speciality: req.body.oldName }, { $set: { speciality: req.body.newName } }, (err, updateDocs) => {
         if (err) res.status(400).send(err)
@@ -147,7 +196,7 @@ router.put('/updateSpecialityName', (req, res) => {
     })
 })
 
-router.post('/addService', (req, res) => {
+router.post('/addService', auth, (req, res) => {
     console.log("Add service", req.body)
     const newService = {
         service: req.body.service,
@@ -168,7 +217,7 @@ router.post('/addService', (req, res) => {
     })
 })
 
-router.post('/serviceData', (req, res) => {
+router.post('/serviceData', auth, (req, res) => {
     console.log("Get service data", req.body.speciality, req.body.serviceName)
     Catalogue.aggregate([
         { $match: { 'speciality': req.body.speciality, 'services.service': req.body.serviceName } },
@@ -203,7 +252,7 @@ router.post('/serviceData', (req, res) => {
     })
 })
 
-router.put('/modifyService', (req, res) => {
+router.put('/modifyService', auth, (req, res) => {
     console.log("Edit service", req.body)
     Catalogue.updateOne(
         { speciality: req.body.speciality, "services.service": req.body.service },
@@ -229,7 +278,7 @@ router.put('/modifyService', (req, res) => {
         })
 })
 
-router.post('/getServices', (req, res) => {
+router.post('/getServices', auth, (req, res) => {
     console.log("Get services for", req.body.speciality)
     Catalogue.findOne({ speciality: req.body.speciality }, 'services').lean().exec((err, serviceDocs) => {
         if (err) res.status(400).send(err)
@@ -247,7 +296,7 @@ router.post('/getServices', (req, res) => {
     })
 })
 
-router.post('/addHospital', (req, res) => {
+router.post('/addHospital', auth, (req, res) => {
     console.log("Add Hospital")
     const newHospital = new User({
         ...req.body, userType: "Hospital"
@@ -264,7 +313,7 @@ router.post('/addHospital', (req, res) => {
     })
 })
 
-router.get('/getHospitals', (req, res) => {
+router.get('/getHospitals', auth, (req, res) => {
     User.find({ userType: 'Hospital' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
         if (err) res.status(400).send(err)
         else {
@@ -277,7 +326,7 @@ router.get('/getHospitals', (req, res) => {
     })
 })
 
-router.get('/getDoctors', (req, res) => {
+router.get('/getDoctors', auth, (req, res) => {
     User.find({ userType: 'Doctor' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
         if (err) res.status(400).send(err)
         else {
@@ -324,9 +373,9 @@ const getServiceName = id => {
     })
 }
 
-router.get('/getUser/:id', (req, res) => {
+router.get('/getUser/:id', auth, (req, res) => {
     console.log("Get user", req.params.id)
-    User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }, '-password -deviceIds -userType -verifiedUser -imageUrl -achievements -tokens -workTimings -creditsEarned').lean().exec(async (err, docs) => {
+    User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }, '-password -deviceIds -userType -verifiedUser -imageUrl -achievements -workTimings -creditsEarned').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
             await asyncForEach(docs.specialities, async element => {
@@ -344,7 +393,7 @@ router.get('/getUser/:id', (req, res) => {
     })
 })
 
-router.post("/updateUser", (req, res) => {
+router.post("/updateUser", auth, (req, res) => {
     const userId = mongoose.Types.ObjectId(req.body.id)
     const updateValues = req.body
     console.log("Update user", updateValues)

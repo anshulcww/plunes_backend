@@ -10,6 +10,8 @@ const { PASSWORD, JWT_KEY } = require('../config')
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
+const Redeem = require('../models/redeem')
+const Booking = require('../models/booking')
 
 router = express.Router()
 
@@ -47,6 +49,99 @@ const upload = multer({
     storage: storage
 }).single('file')
 
+router.get('/payments', auth, (req, res) => {
+    console.log("Get payments", req.body.page, req.body.limit)
+    Redeem.aggregate([
+        {
+            $sort: {
+                _id: -1
+            }
+        },
+        {
+            $skip: req.body.page * req.body.limit
+        },
+        {
+            $limit: req.body.limit
+        },
+        {
+            $lookup: {
+                "from": Booking.collection.name,
+                "localField": "bookingId",
+                "foreignField": "referenceId",
+                "as": "bookingDetails"
+            }
+        },
+        {
+            $unwind: "$bookingDetails"
+        },
+        {
+            $addFields: {
+                "serviceId": { "$toObjectId": "$bookingDetails.serviceId" },
+                "userId": { "$toObjectId": "$bookingDetails.userId" },
+                "professionalId": { "$toObjectId": "$bookingDetails.professionalId" }
+            }
+        },
+        {
+            $lookup: {
+                "from": Services.collection.name,
+                "localField": "serviceId",
+                "foreignField": "serviceId",
+                "as": "serviceDetails"
+            }
+        },
+        {
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "professionalId",
+                "foreignField": "_id",
+                "as": "professionalDetails"
+            }
+        },
+        {
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "userId",
+                "foreignField": "_id",
+                "as": "userDetails"
+            }
+        },
+        {
+            $unwind: "$serviceDetails"
+        },
+        {
+            $unwind: "$userDetails"
+        },
+        {
+            $unwind: "$professionalDetails"
+        },
+        {
+            $addFields: {
+                "serviceName": "$serviceDetails.service",
+                "specialityName": "$serviceDetails.speciality",
+                "bookingStatus": "$bookingDetails.bookingStatus",
+                "paymentPercent": "$serviceDetails.paymentPercent",
+                "timeSlot": "$serviceDetails.timeSlot",
+                "paymentPercent": "$serviceDetails.paymentPercent"
+            }
+        },
+    ], (err, docs) => {
+        if (err) {
+            console.log("Error", err)
+            res.status(400).send({
+                status: 0,
+                data: err,
+                msg: ''
+            })
+        } else {
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
+        }
+    })
+})
+
 router.post('/uploadLogo', auth, async (req, res) => {
     console.log("Upload")
     upload(req, res, function (err) {
@@ -83,25 +178,25 @@ router.patch('/updatePrice', auth, async (req, res) => {
             msg: ''
         })
     })
-    .catch(e => {
-        console.log(e)
-        res.status(400).send({
-            status: 0,
-            data: e,
-            msg: ''
+        .catch(e => {
+            console.log(e)
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: ''
+            })
         })
-    })
 })
 
 router.patch('/updatePriceVariance', auth, async (req, res) => {
     console.log("Update price/variance", req.body.newPrice, req.body.newVariance)
-    req.user = await User.findOne({_id: mongoose.Types.ObjectId(req.body.userId)}) 
+    req.user = await User.findOne({ _id: mongoose.Types.ObjectId(req.body.userId) })
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {
             await asyncForEach(element.services, async subElement => {
                 if (subElement.serviceId === req.body.serviceId) {
                     subElement.price = [req.body.newPrice]
-                    if(req.body.newVariance) {
+                    if (req.body.newVariance) {
                         subElement.variance = req.body.newVariance
                     }
                 }
@@ -116,14 +211,14 @@ router.patch('/updatePriceVariance', auth, async (req, res) => {
             msg: ''
         })
     })
-    .catch(e => {
-        console.log(e)
-        res.status(400).send({
-            status: 0,
-            data: e,
-            msg: ''
+        .catch(e => {
+            console.log(e)
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: ''
+            })
         })
-    })
 })
 
 router.post('/login', (req, res) => {

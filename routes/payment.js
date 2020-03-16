@@ -160,7 +160,6 @@ router.get("/cancelled/:bookingId", async (req, res) => {
 
 router.post("/redeem" , async (req, res) => {
     try{
-        //console.log(req.body, 'body');
         const redeem = new Redeem(req.body)
         console.log(redeem, 'redeem')
         await redeem.save()
@@ -168,7 +167,6 @@ router.post("/redeem" , async (req, res) => {
             success: true,
             message: 'Redeem Initiated'
         })
-
     }catch(error){
         console.log(error);
         res.status(400).send(error)

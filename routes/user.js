@@ -293,19 +293,17 @@ router.put('/', auth, async (req, res) => {
                     success: false,
                     message: 'This coupon has already been used!'
                 })
-            }
-            else {
-                console.log("Else")
-                if(validCoupons.indexOf(data.coupon) !== -1) {
+            } else {
+                if (validCoupons.indexOf(data.coupon) !== -1) {
                     console.log("Free text/consultation coupon")
                     req.user.coupons = req.user.coupons.addToSet(data.coupon)
                     await req.user.save()
                     res.status(201).send({
                         success: true
                     })
-                } else if(creditCoupons.indexOf(data.coupon) === -1) {
+                } else if (creditCoupons.indexOf(data.coupon) !== -1) {
                     console.log("300 credits coupon")
-                    req.user.credits += 300 
+                    req.user.credits += 300
                     req.user.creditCoupon = true
                     await req.user.save()
                     res.status(201).send({

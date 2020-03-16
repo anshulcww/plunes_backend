@@ -49,8 +49,8 @@ const upload = multer({
     storage: storage
 }).single('file')
 
-router.get('/payments', auth, (req, res) => {
-    console.log("Get payments", req.body.page, req.body.limit)
+router.get('/payments/:page', auth, (req, res) => {
+    console.log("Get payments", req.params.page)
     Redeem.aggregate([
         {
             $sort: {
@@ -58,10 +58,10 @@ router.get('/payments', auth, (req, res) => {
             }
         },
         {
-            $skip: req.body.page * req.body.limit
+            $skip: req.body.page * 50
         },
         {
-            $limit: req.body.limit
+            $limit: 50
         },
         {
             $lookup: {

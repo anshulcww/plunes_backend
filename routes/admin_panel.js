@@ -17,7 +17,7 @@ router = express.Router()
 
 const auth = (req, res, next) => {
     const bearerHead = req.headers['authorization']
-    if (typeof bearerHead !== undefined) {
+    if (typeof bearerHead !== undefined && bearerHead) {
         const token = bearerHead.split(' ')[1]
         jwt.verify(token, JWT_KEY, (err, authData) => {
             if (err) res.sendStatus(400)

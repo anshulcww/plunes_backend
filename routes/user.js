@@ -66,7 +66,6 @@ router.post('/register', async (req, res) => {
 // Login request
 router.post('/login', async (req, res) => {
     try {
-        // console.log(req.body)
         const {
             mobileNumber,
             password,

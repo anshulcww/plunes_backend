@@ -28,7 +28,7 @@ const upload = multer({
     storage: storage
 }).single('file')
 
-router.post('/uploadLogo', async (req, res) => {
+router.post('/uploadLogo', auth, async (req, res) => {
     console.log("Upload")
     upload(req, res, function (err) {
         if (err instanceof multer.MulterError) {
@@ -74,7 +74,7 @@ router.patch('/updatePrice', auth, async (req, res) => {
     })
 })
 
-router.patch('/updatePriceVariance', async (req, res) => {
+router.patch('/updatePriceVariance', auth, async (req, res) => {
     console.log("Update price/variance", req.body.newPrice, req.body.newVariance)
     req.user = await User.findOne({_id: mongoose.Types.ObjectId(req.body.userId)}) 
     await asyncForEach(req.user.specialities, async element => {
@@ -137,7 +137,7 @@ router.get('/specialities', (req, res) => {
     })
 })
 
-router.post('/addSpeciality', (req, res) => {
+router.post('/addSpeciality', auth, (req, res) => {
     console.log("Add speciality", req.body.specialityName)
     Catalogue.findOne({ speciality: req.body.specialityName }, (err, docs) => {
         if (err) res.status(400).send(err)
@@ -163,7 +163,7 @@ router.post('/addSpeciality', (req, res) => {
     })
 })
 
-router.put('/updateSpecialityName', (req, res) => {
+router.put('/updateSpecialityName', auth, (req, res) => {
     console.log("Update speciality name", req.body.oldName, req.body.newName)
     Catalogue.updateOne({ speciality: req.body.oldName }, { $set: { speciality: req.body.newName } }, (err, updateDocs) => {
         if (err) res.status(400).send(err)
@@ -177,7 +177,7 @@ router.put('/updateSpecialityName', (req, res) => {
     })
 })
 
-router.post('/addService', (req, res) => {
+router.post('/addService', auth, (req, res) => {
     console.log("Add service", req.body)
     const newService = {
         service: req.body.service,
@@ -198,7 +198,7 @@ router.post('/addService', (req, res) => {
     })
 })
 
-router.post('/serviceData', (req, res) => {
+router.post('/serviceData', auth, (req, res) => {
     console.log("Get service data", req.body.speciality, req.body.serviceName)
     Catalogue.aggregate([
         { $match: { 'speciality': req.body.speciality, 'services.service': req.body.serviceName } },
@@ -233,7 +233,7 @@ router.post('/serviceData', (req, res) => {
     })
 })
 
-router.put('/modifyService', (req, res) => {
+router.put('/modifyService', auth, (req, res) => {
     console.log("Edit service", req.body)
     Catalogue.updateOne(
         { speciality: req.body.speciality, "services.service": req.body.service },
@@ -259,7 +259,7 @@ router.put('/modifyService', (req, res) => {
         })
 })
 
-router.post('/getServices', (req, res) => {
+router.post('/getServices', auth, (req, res) => {
     console.log("Get services for", req.body.speciality)
     Catalogue.findOne({ speciality: req.body.speciality }, 'services').lean().exec((err, serviceDocs) => {
         if (err) res.status(400).send(err)
@@ -277,7 +277,7 @@ router.post('/getServices', (req, res) => {
     })
 })
 
-router.post('/addHospital', (req, res) => {
+router.post('/addHospital', auth, (req, res) => {
     console.log("Add Hospital")
     const newHospital = new User({
         ...req.body, userType: "Hospital"
@@ -294,7 +294,7 @@ router.post('/addHospital', (req, res) => {
     })
 })
 
-router.get('/getHospitals', (req, res) => {
+router.get('/getHospitals', auth, (req, res) => {
     User.find({ userType: 'Hospital' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
         if (err) res.status(400).send(err)
         else {
@@ -307,7 +307,7 @@ router.get('/getHospitals', (req, res) => {
     })
 })
 
-router.get('/getDoctors', (req, res) => {
+router.get('/getDoctors', auth, (req, res) => {
     User.find({ userType: 'Doctor' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
         if (err) res.status(400).send(err)
         else {
@@ -354,7 +354,7 @@ const getServiceName = id => {
     })
 }
 
-router.get('/getUser/:id', (req, res) => {
+router.get('/getUser/:id', auth, (req, res) => {
     console.log("Get user", req.params.id)
     User.findOne({ _id: mongoose.Types.ObjectId(req.params.id) }, '-password -deviceIds -userType -verifiedUser -imageUrl -achievements -workTimings -creditsEarned').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
@@ -374,7 +374,7 @@ router.get('/getUser/:id', (req, res) => {
     })
 })
 
-router.post("/updateUser", (req, res) => {
+router.post("/updateUser", auth, (req, res) => {
     const userId = mongoose.Types.ObjectId(req.body.id)
     const updateValues = req.body
     console.log("Update user", updateValues)

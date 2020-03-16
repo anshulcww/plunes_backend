@@ -155,7 +155,7 @@ const userSchema = mongoose.Schema({
     logoText: String,
     userReferralCode: {
         type: String,
-        unique: true
+        // unique: true
     },
     credits: {
         type: Number,

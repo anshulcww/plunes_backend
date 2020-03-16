@@ -10,9 +10,28 @@ const { PASSWORD, JWT_KEY } = require('../config')
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
-const auth = require('../middleware/auth')
 
 router = express.Router()
+
+const auth = (req, res, next) => {
+    const bearerHead = req.headers['authorization']
+    if (typeof bearerHead !== undefined) {
+        const token = bearerHead.split(' ')[1]
+        jwt.verify(token, JWT_KEY, (err, authData) => {
+            if (err) res.sendStatus(400)
+            else {
+                const data = authData
+                if (data.user === "Admin") {
+                    next()
+                } else {
+                    res.sendStatus(403)
+                }
+            }
+        })
+    } else {
+        res.sendStatus(403)
+    }
+}
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {

@@ -288,12 +288,14 @@ router.put('/', auth, async (req, res) => {
                     message: 'Please enter a valid coupon!'
                 })
             } else if ((req.user.coupons.findIndex(c => c === data.coupon) !== -1) || req.user.creditCoupon) {
+                console.log("Coupon not used before")
                 res.status(201).send({
                     success: false,
                     message: 'This coupon has already been used!'
                 })
             }
             else {
+                console.log("Else")
                 if(validCoupons.indexOf(data.coupon) !== -1) {
                     console.log("Free text/consultation coupon")
                     req.user.coupons = req.user.coupons.addToSet(data.coupon)

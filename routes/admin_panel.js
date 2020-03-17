@@ -112,13 +112,7 @@ router.get('/payments/:page', auth, (req, res) => {
                 "timeSlot": "$serviceDetails.timeSlot",
                 "paymentPercent": "$serviceDetails.paymentPercent"
             }
-        },
-        {
-            $skip: skip * 50
-        },
-        {
-            $limit: 50
-        },
+        }
     ], (err, docs) => {
         if (err) {
             console.log("Error", err)
@@ -128,11 +122,10 @@ router.get('/payments/:page', auth, (req, res) => {
                 msg: ''
             })
         } else {
-            docs.skip(10)
             res.status(200).send({
                 status: 1,
-                data: docs,
-                pages: parseInt(count / 50),
+                data: docs.slice(skip*50, skip*50 + 50),
+                pages: docs.length,
                 msg: ''
             })
         }

@@ -64,12 +64,6 @@ router.get('/payments/:page', auth, (req, res) => {
             }
         },
         {
-            $skip: skip * 50
-        },
-        {
-            $limit: 50
-        },
-        {
             $addFields: {
                 "serviceId": { "$toObjectId": "$serviceId" },
                 "userId": { "$toObjectId": "$userId" },
@@ -119,6 +113,12 @@ router.get('/payments/:page', auth, (req, res) => {
                 "paymentPercent": "$serviceDetails.paymentPercent"
             }
         },
+        {
+            $skip: skip * 50
+        },
+        {
+            $limit: 50
+        }
     ], (err, docs) => {
         if (err) {
             console.log("Error", err)

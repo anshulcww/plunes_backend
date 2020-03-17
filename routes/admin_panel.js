@@ -484,7 +484,7 @@ router.post('/addHospital', auth, (req, res) => {
 })
 
 router.get('/getHospitals', auth, (req, res) => {
-    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience', (err, docs) => {
+    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience', async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
             if (docs.specialities) {

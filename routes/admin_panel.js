@@ -497,7 +497,7 @@ router.get('/getHospitals', auth, (req, res) => {
 })
 
 router.get('/getDoctors', auth, (req, res) => {
-    User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience', (err, docs) => {
+    User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience', async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
             await asyncForEach(docs.specialities, async element => {

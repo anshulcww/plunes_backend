@@ -497,12 +497,15 @@ router.get('/getHospitals', auth, (req, res) => {
 })
 
 router.get('/getDoctors', auth, (req, res) => {
-    User.find({ userType: 'Doctor' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
+    User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience', (err, docs) => {
         if (err) res.status(400).send(err)
         else {
+            await asyncForEach(docs.specialities, async element => {
+                element.speciality = element.speciality + ", " + await getSpecialityName(element.specialityId)
+            })
             res.status(200).send({
                 status: 1,
-                data: userDocs,
+                data: docs,
                 msg: ''
             })
         }

@@ -541,7 +541,7 @@ const getSpecialityName = id => {
             Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
                 if (err) reject(err)
                 else if (specialityName) resolve(specialityName.speciality)
-                else resolve(id)
+                else resolve('')
             })
         } else resolve('')
     })

@@ -124,7 +124,7 @@ router.get('/payments/:page', auth, (req, res) => {
     Booking.aggregate([
         {
             $match: {
-                redeemStatus: { $in: ['Initiated', 'Rejected', 'Processed'] }
+                redeemStatus: { $in: ['Requested', 'Rejected', 'Processed'] }
             }
         },
         {

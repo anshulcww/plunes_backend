@@ -131,7 +131,7 @@ router.get('/payments/:page', auth, (req, res) => {
                 res.status(200).send({
                     status: 1,
                     data: docs,
-                    pages: Math.ceil(count / 50),
+                    pages: parseInt(count / 50),
                     msg: ''
                 })
             })

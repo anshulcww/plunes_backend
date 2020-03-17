@@ -184,7 +184,7 @@ router.get('/payments/:page', auth, (req, res) => {
             }
         },
         {
-            $skip: skip*100
+            $skip: skip * 100
         },
         {
             $limit: 100
@@ -500,16 +500,16 @@ router.get('/getDoctors', auth, (req, res) => {
     User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience', async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
-            if(docs.specialities) {
+            if (docs.specialities) {
                 await asyncForEach(docs.specialities, async element => {
                     element.speciality = element.speciality + ", " + await getSpecialityName(element.specialityId)
                 })
-                res.status(200).send({
-                    status: 1,
-                    data: docs,
-                    msg: ''
-                })
             }
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
         }
     })
 })

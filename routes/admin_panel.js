@@ -60,6 +60,8 @@ router.get('/paymentCount', auth, (req, res) => {
         {
             $addFields: {
                 "serviceId": { "$toObjectId": "$serviceId" },
+                "userId": { "$toObjectId": "$userId" },
+                "professionalId": { "$toObjectId": "$professionalId" }
             }
         },
         {
@@ -71,7 +73,23 @@ router.get('/paymentCount', auth, (req, res) => {
             }
         },
         {
-            $count: "docCount"
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "professionalId",
+                "foreignField": "_id",
+                "as": "professionalDetails"
+            }
+        },
+        {
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "userId",
+                "foreignField": "_id",
+                "as": "userDetails"
+            }
+        },
+        {
+            $count: "count"
         }
     ], (err, docs) => {
         if (err) {

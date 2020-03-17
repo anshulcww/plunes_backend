@@ -12,6 +12,7 @@ const User = require('../models/user')
 const Services = require('../models/services')
 const Redeem = require('../models/redeem')
 const Booking = require('../models/booking')
+const oldAuth = require('../middleware/auth')
 
 router = express.Router()
 
@@ -233,7 +234,7 @@ router.post('/uploadLogo', auth, async (req, res) => {
     })
 })
 
-router.patch('/updatePrice', async (req, res) => {
+router.patch('/updatePrice', oldAuth, async (req, res) => {
     console.log("Update price", req.body.newPrice)
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {

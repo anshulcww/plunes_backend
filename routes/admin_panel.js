@@ -49,6 +49,48 @@ const upload = multer({
     storage: storage
 }).single('file')
 
+router.get('/paymentCount', auth, (req, res) => {
+    console.log("Get pages count")
+    Booking.aggregate([
+        {
+            $match: {
+                redeemStatus: { $in: ['Initiated', 'Rejected', 'Processed'] }
+            }
+        },
+        {
+            $addFields: {
+                "serviceId": { "$toObjectId": "$serviceId" },
+            }
+        },
+        {
+            $lookup: {
+                "from": Services.collection.name,
+                "localField": "serviceId",
+                "foreignField": "serviceId",
+                "as": "serviceDetails"
+            }
+        },
+        {
+            $count: "docCount"
+        }
+    ], (err, docs) => {
+        if (err) {
+            console.log("Error", err)
+            res.status(400).send({
+                status: 0,
+                data: err,
+                msg: ''
+            })
+        } else {
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
+        }
+    })
+})
+
 router.get('/payments/:page', auth, (req, res) => {
     console.log("Get payments", req.params.page)
     const skip = req.params.page - 1
@@ -112,9 +154,6 @@ router.get('/payments/:page', auth, (req, res) => {
                 "timeSlot": "$serviceDetails.timeSlot",
                 "paymentPercent": "$serviceDetails.paymentPercent"
             }
-        },
-        {
-            $count: "docCount"
         },
         {
             $skip: skip*50

@@ -134,7 +134,7 @@ router.get('/payments/:page', auth, (req, res) => {
 
 router.patch('/paymentStatus', auth, (req, res) => {
     console.log("Update payment status")
-    Booking.updateOne({ _id: req.body.bookingId }, { $set: { bookingStatus: req.body.bookingStatus } }, (err, docs) => {
+    Booking.updateOne({ _id: req.body.bookingId }, { $set: { redeemStatus: req.body.bookingStatus } }, (err, docs) => {
         if (err) res.status(400).send(err)
         else {
             res.status(200).send(docs)

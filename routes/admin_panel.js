@@ -51,7 +51,12 @@ const upload = multer({
 
 router.get('/payments/:page', auth, (req, res) => {
     console.log("Get payments", req.params.page)
-    Redeem.aggregate([
+    Booking.aggregate([
+        {
+            $match: {
+                redeemStatus: {$in: ['Initiated', 'Rejected', 'Processed']}
+            }
+        },
         {
             $sort: {
                 _id: -1
@@ -62,17 +67,6 @@ router.get('/payments/:page', auth, (req, res) => {
         },
         {
             $limit: 50
-        },
-        {
-            $lookup: {
-                "from": Booking.collection.name,
-                "localField": "bookingId",
-                "foreignField": "referenceId",
-                "as": "bookingDetails"
-            }
-        },
-        {
-            $unwind: "$bookingDetails"
         },
         {
             $addFields: {

@@ -59,6 +59,9 @@ const bookingSchema = mongoose.Schema({
         type: Boolean,
         default: false
     },
+    redeemStatus: {
+        type: String
+    },
     creditsUsed: Number,
     referenceId: String,
     invoice: Boolean,

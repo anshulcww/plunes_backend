@@ -125,7 +125,7 @@ router.get('/payments/:page', auth, (req, res) => {
             res.status(200).send({
                 status: 1,
                 data: docs.slice(skip*50, skip*50 + 50),
-                pages: parseInt(docs.length/50),
+                pages: Math.ceil(docs.length/50),
                 msg: ''
             })
         }

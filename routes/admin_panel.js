@@ -51,6 +51,7 @@ const upload = multer({
 
 router.get('/payments/:page', auth, (req, res) => {
     console.log("Get payments", req.params.page)
+    const skip = req.params.page - 1
     Booking.aggregate([
         {
             $match: {
@@ -63,7 +64,7 @@ router.get('/payments/:page', auth, (req, res) => {
             }
         },
         {
-            $skip: req.params.page * 50
+            $skip: skip * 50
         },
         {
             $limit: 50

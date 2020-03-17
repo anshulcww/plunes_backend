@@ -89,6 +89,15 @@ router.get('/paymentCount', auth, (req, res) => {
             }
         },
         {
+            $unwind: "$serviceDetails"
+        },
+        {
+            $unwind: "$userDetails"
+        },
+        {
+            $unwind: "$professionalDetails"
+        },
+        {
             $count: "count"
         }
     ], (err, docs) => {

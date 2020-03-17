@@ -5,7 +5,7 @@ const fileType = require('file-type')
 const User = require('../models/user')
 const Catalogue = require('../models/catalogue')
 const auth = require('../middleware/auth')
-const { COUPON_CODES } = require('../config')
+const { COUPON_CODES, CREDIT_COUPONS } = require('../config')
 
 const router = express.Router()
 
@@ -66,7 +66,6 @@ router.post('/register', async (req, res) => {
 // Login request
 router.post('/login', async (req, res) => {
     try {
-        // console.log(req.body)
         const {
             mobileNumber,
             password,
@@ -277,25 +276,39 @@ router.put('/', auth, async (req, res) => {
         }
 
         const validCoupons = COUPON_CODES
+        const creditCoupons = CREDIT_COUPONS
+
         console.log("Coupons", data.coupon, req.user.coupons, validCoupons, req.user.coupons.findIndex(c => c === data.coupon))
         if (data.coupon) {
-            if (validCoupons.indexOf(data.coupon) === -1) {
+            if (validCoupons.indexOf(data.coupon) === -1 && creditCoupons.indexOf(data.coupon) === -1) {
                 console.log("Invalid coupon")
                 res.status(201).send({
                     success: false,
                     message: 'Please enter a valid coupon!'
                 })
-            } else if ((req.user.coupons.findIndex(c => c === data.coupon) !== -1)) {
+            } else if ((req.user.coupons.findIndex(c => c === data.coupon) !== -1) || req.user.creditCoupon) {
+                console.log("Coupon used before")
                 res.status(201).send({
                     success: false,
                     message: 'This coupon has already been used!'
                 })
             } else {
-                req.user.coupons = req.user.coupons.addToSet(data.coupon)
-                await req.user.save()
-                res.status(201).send({
-                    success: true
-                })
+                if (validCoupons.indexOf(data.coupon) !== -1) {
+                    console.log("Free text/consultation coupon")
+                    req.user.coupons = req.user.coupons.addToSet(data.coupon)
+                    await req.user.save()
+                    res.status(201).send({
+                        success: true
+                    })
+                } else if (creditCoupons.indexOf(data.coupon) !== -1) {
+                    console.log("300 credits coupon")
+                    req.user.credits += 300
+                    req.user.creditCoupon = true
+                    await req.user.save()
+                    res.status(201).send({
+                        success: true
+                    })
+                }
             }
         } else {
             console.log("No coupons added")

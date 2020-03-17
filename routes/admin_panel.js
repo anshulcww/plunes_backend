@@ -506,8 +506,10 @@ router.get('/getDoctors', auth, (req, res) => {
         if (err) res.status(400).send(err)
         else {
             if (docs.specialities) {
+                console.log("lol")
                 await asyncForEach(docs.specialities, async element => {
                     element.speciality = element.speciality + ", " + await getSpecialityName(element.specialityId)
+                    console.log(element.speciality)
                 })
             }
             res.status(200).send({

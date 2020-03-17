@@ -206,7 +206,7 @@ router.get('/payments/:page', auth, (req, res) => {
     })
 })
 
-router.patch('/paymentStatus', auth, (req, res) => {
+router.patch('/paymentStatus', (req, res) => {
     console.log("Update payment status")
     Booking.updateOne({ _id: req.body.bookingId }, { $set: { redeemStatus: req.body.bookingStatus } }, (err, docs) => {
         if (err) res.status(400).send(err)

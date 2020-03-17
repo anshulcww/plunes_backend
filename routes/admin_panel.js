@@ -70,9 +70,9 @@ router.get('/payments/:page', auth, (req, res) => {
         },
         {
             $addFields: {
-                "serviceId": { "$toObjectId": "$bookingDetails.serviceId" },
-                "userId": { "$toObjectId": "$bookingDetails.userId" },
-                "professionalId": { "$toObjectId": "$bookingDetails.professionalId" }
+                "serviceId": { "$toObjectId": "$serviceId" },
+                "userId": { "$toObjectId": "$userId" },
+                "professionalId": { "$toObjectId": "$professionalId" }
             }
         },
         {

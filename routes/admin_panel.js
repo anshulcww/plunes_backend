@@ -183,10 +183,10 @@ router.get('/payments/:page', auth, (req, res) => {
             }
         },
         {
-            $skip: skip*50
+            $skip: skip*100
         },
         {
-            $limit: 50
+            $limit: 100
         }
     ], (err, docs) => {
         if (err) {

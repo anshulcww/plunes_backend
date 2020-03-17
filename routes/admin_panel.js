@@ -54,7 +54,7 @@ router.get('/payments/:page', auth, (req, res) => {
     Booking.aggregate([
         {
             $match: {
-                redeemStatus: {$in: ['Initiated', 'Rejected', 'Processed']}
+                redeemStatus: { $in: ['Initiated', 'Rejected', 'Processed'] }
             }
         },
         {
@@ -127,19 +127,29 @@ router.get('/payments/:page', auth, (req, res) => {
                 msg: ''
             })
         } else {
-            res.status(200).send({
-                status: 1,
-                data: docs,
-                msg: ''
+            Booking.estimatedDocumentCount().then(count => {
+                res.status(200).send({
+                    status: 1,
+                    data: docs,
+                    pages: Math.ceil(count / 50),
+                    msg: ''
+                })
             })
+                .catch(err => {
+                    res.status(400).send({
+                        status: 0,
+                        data: err,
+                        msg: ''
+                    })
+                })
         }
     })
 })
 
 router.patch('/paymentStatus', auth, (req, res) => {
     console.log("Update payment status")
-    Booking.updateOne({_id: req.body.bookingId}, {$set: {bookingStatus: req.body.bookingStatus}}, (err, docs) => {
-        if(err) res.status(400).send(err)
+    Booking.updateOne({ _id: req.body.bookingId }, { $set: { bookingStatus: req.body.bookingStatus } }, (err, docs) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send(docs)
         }

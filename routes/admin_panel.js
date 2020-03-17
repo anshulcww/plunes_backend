@@ -487,11 +487,15 @@ router.get('/getHospitals', auth, (req, res) => {
     User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience', async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
-            if (docs.specialities) {
-                await asyncForEach(docs.specialities, async element => {
-                    element.speciality = element.speciality ? element.speciality + ", " + await getSpecialityName(element.specialityId) : await getSpecialityName(element.specialityId)
-                })
-            }
+            await asyncForEach(docs, async rootElement => {
+                if (rootElement.specialities) {
+                    console.log("lol")
+                    await asyncForEach(rootElement.specialities, async element => {
+                        element.speciality = element.speciality + ", " + await getSpecialityName(element.specialityId)
+                        console.log(element.speciality)
+                    })
+                }
+            })
             res.status(200).send({
                 status: 1,
                 data: docs,
@@ -505,13 +509,15 @@ router.get('/getDoctors', auth, (req, res) => {
     User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience', async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
-            if (docs.specialities) {
-                console.log("lol")
-                await asyncForEach(docs.specialities, async element => {
-                    element.speciality = element.speciality + ", " + await getSpecialityName(element.specialityId)
-                    console.log(element.speciality)
-                })
-            }
+            await asyncForEach(docs, async rootElement => {
+                if (rootElement.specialities) {
+                    console.log("lol")
+                    await asyncForEach(rootElement.specialities, async element => {
+                        element.speciality = element.speciality + ", " + await getSpecialityName(element.specialityId)
+                        console.log(element.speciality)
+                    })
+                }
+            })
             res.status(200).send({
                 status: 1,
                 data: docs,

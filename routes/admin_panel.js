@@ -118,7 +118,7 @@ router.get('/payments/:page', auth, (req, res) => {
         },
         {
             $limit: 50
-        }
+        },
     ], (err, docs) => {
         if (err) {
             console.log("Error", err)
@@ -128,21 +128,13 @@ router.get('/payments/:page', auth, (req, res) => {
                 msg: ''
             })
         } else {
-            Booking.estimatedDocumentCount().then(count => {
-                res.status(200).send({
-                    status: 1,
-                    data: docs,
-                    pages: parseInt(count / 50),
-                    msg: ''
-                })
+            docs.skip(10)
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                pages: parseInt(count / 50),
+                msg: ''
             })
-                .catch(err => {
-                    res.status(400).send({
-                        status: 0,
-                        data: err,
-                        msg: ''
-                    })
-                })
         }
     })
 })

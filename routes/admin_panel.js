@@ -496,8 +496,8 @@ router.get('/getHospitals', auth, (req, res) => {
                         if (specialityName) {
                             specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
-                        console.log(specialities)
                     })
+                    console.log(specialities)
                 }
             })
             res.status(200).send({
@@ -522,8 +522,8 @@ router.get('/getDoctors', auth, (req, res) => {
                         if (specialityName) {
                             specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
-                        console.log(specialities)
                     })
+                    console.log(specialities)
                 }
             })
             res.status(200).send({

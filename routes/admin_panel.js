@@ -513,7 +513,7 @@ router.get('/getDoctors', auth, (req, res) => {
     User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience', async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
-            await asyncForEach(docs, async rootElement => {
+            await asyncForEach(docs, async (rootElement, index) => {
                 let specialities = ''
                 if (rootElement.specialities) {
                     await asyncForEach(rootElement.specialities, async element => {
@@ -524,7 +524,7 @@ router.get('/getDoctors', auth, (req, res) => {
                     })
                 }
                 rootElement.specialityList = specialities
-                console.log({ rootElement })
+                console.log({ rootElement }, index)
             })
             res.status(200).send({
                 status: 1,

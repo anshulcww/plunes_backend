@@ -521,9 +521,9 @@ router.get('/getDoctors', auth, (req, res) => {
                         if (specialityName) {
                             specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
+                        rootElement.specialityList = specialities
+                        console.log({ rootElement })
                     })
-                    docs.specialityList = specialities
-                    console.log({ docs })
                 }
             })
             res.status(200).send({

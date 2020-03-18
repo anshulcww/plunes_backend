@@ -492,7 +492,10 @@ router.get('/getHospitals', auth, (req, res) => {
                     let specialities = ''
                     await asyncForEach(rootElement.specialities, async element => {
                         console.log(element.specialityId)
-                        specialities = specialities ? specialities + ", " + await getSpecialityName(element.specialityId) : await getSpecialityName(element.specialityId)
+                        let specialityName = await getSpecialityName(element.specialityId)
+                        if (specialityName) {
+                            specialities = specialities + ", " + specialityName
+                        }
                         console.log(specialities)
                     })
                 }
@@ -512,11 +515,14 @@ router.get('/getDoctors', auth, (req, res) => {
         else {
             await asyncForEach(docs, async rootElement => {
                 if (rootElement.specialities) {
-                    console.log("lol")
+                    let specialities = ''
                     await asyncForEach(rootElement.specialities, async element => {
                         console.log(element.specialityId)
-                        rootElement.speciality = rootElement.speciality ? rootElement.speciality + ", " + await getSpecialityName(element.specialityId) : await getSpecialityName(element.specialityId)
-                        console.log(rootElement.speciality)
+                        let specialityName = await getSpecialityName(element.specialityId)
+                        if (specialityName) {
+                            specialities = specialities + ", " + specialityName
+                        }
+                        console.log(specialities)
                     })
                 }
             })

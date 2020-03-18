@@ -484,7 +484,7 @@ router.post('/addHospital', auth, (req, res) => {
 })
 
 router.get('/getHospitals', auth, (req, res) => {
-    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience').exec(async (err, docs) => {
+    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
             await asyncForEach(docs, async (rootElement, index) => {

@@ -523,8 +523,8 @@ router.get('/getDoctors', auth, (req, res) => {
                         }
                     })
                 }
-                rootElement.specialityList = specialities
-                console.log({ rootElement }, index)
+                docs[index].specialityList = specialities
+                console.log(docs[index])
             })
             res.status(200).send({
                 status: 1,

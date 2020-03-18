@@ -489,10 +489,11 @@ router.get('/getHospitals', auth, (req, res) => {
         else {
             await asyncForEach(docs, async rootElement => {
                 if (rootElement.specialities) {
+                    let specialities = ''
                     await asyncForEach(rootElement.specialities, async element => {
                         console.log(element.specialityId)
-                        rootElement.speciality = rootElement.speciality ? rootElement.speciality + ", " + await getSpecialityName(element.specialityId) : await getSpecialityName(element.specialityId)
-                        console.log(rootElement.speciality)
+                        specialities = specialities ? specialities + ", " + await getSpecialityName(element.specialityId) : await getSpecialityName(element.specialityId)
+                        console.log(specialities)
                     })
                 }
             })

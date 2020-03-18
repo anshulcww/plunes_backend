@@ -12,6 +12,7 @@ const User = require('../models/user')
 const Services = require('../models/services')
 const Redeem = require('../models/redeem')
 const Booking = require('../models/booking')
+const oldAuth = require('../middleware/auth')
 
 router = express.Router()
 
@@ -183,7 +184,7 @@ router.get('/payments/:page', auth, (req, res) => {
             }
         },
         {
-            $skip: skip*100
+            $skip: skip * 100
         },
         {
             $limit: 100
@@ -233,7 +234,7 @@ router.post('/uploadLogo', auth, async (req, res) => {
     })
 })
 
-router.patch('/updatePrice', auth, async (req, res) => {
+router.patch('/updatePrice', oldAuth, async (req, res) => {
     console.log("Update price", req.body.newPrice)
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {
@@ -483,12 +484,26 @@ router.post('/addHospital', auth, (req, res) => {
 })
 
 router.get('/getHospitals', auth, (req, res) => {
-    User.find({ userType: 'Hospital' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
+    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
+            await asyncForEach(docs, async (rootElement, index) => {
+                let specialities = ''
+                if (rootElement.specialities) {
+                    await asyncForEach(rootElement.specialities, async element => {
+                        let specialityName = await getSpecialityName(element.specialityId)
+                        if (specialityName) {
+                            specialities = specialities ? specialities + ", " + specialityName : specialityName
+                        }
+                    })
+                }
+                console.log({specialities})
+                docs[index]["specialityList"] = specialities
+                console.log(docs[index])
+            })
             res.status(200).send({
                 status: 1,
-                data: userDocs,
+                data: docs,
                 msg: ''
             })
         }
@@ -496,12 +511,26 @@ router.get('/getHospitals', auth, (req, res) => {
 })
 
 router.get('/getDoctors', auth, (req, res) => {
-    User.find({ userType: 'Doctor' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
+    User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
+            await asyncForEach(docs, async (rootElement, index) => {
+                let specialities = ''
+                if (rootElement.specialities) {
+                    await asyncForEach(rootElement.specialities, async element => {
+                        let specialityName = await getSpecialityName(element.specialityId)
+                        if (specialityName) {
+                            specialities = specialities ? specialities + ", " + specialityName : specialityName
+                        }
+                    })
+                }
+                console.log({specialities})
+                docs[index]["specialityList"] = specialities
+                console.log(docs[index])
+            })
             res.status(200).send({
                 status: 1,
-                data: userDocs,
+                data: docs,
                 msg: ''
             })
         }
@@ -521,7 +550,7 @@ const getSpecialityName = id => {
             Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
                 if (err) reject(err)
                 else if (specialityName) resolve(specialityName.speciality)
-                else resolve(id)
+                else resolve('')
             })
         } else resolve('')
     })

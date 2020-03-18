@@ -494,7 +494,7 @@ router.get('/getHospitals', auth, (req, res) => {
                         console.log(element.specialityId)
                         let specialityName = await getSpecialityName(element.specialityId)
                         if (specialityName) {
-                            specialities = specialities + ", " + specialityName
+                            specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
                         console.log(specialities)
                     })
@@ -520,7 +520,7 @@ router.get('/getDoctors', auth, (req, res) => {
                         console.log(element.specialityId)
                         let specialityName = await getSpecialityName(element.specialityId)
                         if (specialityName) {
-                            specialities = specialities + ", " + specialityName
+                            specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
                         console.log(specialities)
                     })

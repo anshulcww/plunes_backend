@@ -178,9 +178,7 @@ router.get('/payments/:page', auth, (req, res) => {
                 "serviceName": "$serviceDetails.service",
                 "specialityName": "$serviceDetails.speciality",
                 "bookingStatus": "$bookingDetails.bookingStatus",
-                "paymentPercent": "$serviceDetails.paymentPercent",
-                "timeSlot": "$serviceDetails.timeSlot",
-                "paymentPercent": "$serviceDetails.paymentPercent"
+                "timeSlot": "$serviceDetails.timeSlot"
             }
         },
         {

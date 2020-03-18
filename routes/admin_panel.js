@@ -491,13 +491,13 @@ router.get('/getHospitals', auth, (req, res) => {
                 if (rootElement.specialities) {
                     let specialities = ''
                     await asyncForEach(rootElement.specialities, async element => {
-                        console.log(element.specialityId)
                         let specialityName = await getSpecialityName(element.specialityId)
                         if (specialityName) {
                             specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
                     })
-                    console.log(specialities)
+                    docs.specialityList = specialities
+                    console.log({ docs })
                 }
             })
             res.status(200).send({
@@ -517,13 +517,13 @@ router.get('/getDoctors', auth, (req, res) => {
                 if (rootElement.specialities) {
                     let specialities = ''
                     await asyncForEach(rootElement.specialities, async element => {
-                        console.log(element.specialityId)
                         let specialityName = await getSpecialityName(element.specialityId)
                         if (specialityName) {
                             specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
                     })
-                    console.log(specialities)
+                    docs.specialityList = specialities
+                    console.log({ docs })
                 }
             })
             res.status(200).send({

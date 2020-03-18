@@ -469,7 +469,7 @@ router.post('/getServices', auth, (req, res) => {
 router.post('/addHospital', auth, (req, res) => {
     console.log("Add Hospital")
     const newHospital = new User({
-        ...req.body, userType: "Hospital"
+        ...req.body
     })
     newHospital.save().then(docs => {
         res.status(201).send({

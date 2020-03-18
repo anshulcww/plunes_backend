@@ -484,21 +484,22 @@ router.post('/addHospital', auth, (req, res) => {
 })
 
 router.get('/getHospitals', auth, (req, res) => {
-    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience', async (err, docs) => {
+    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience').exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
-            await asyncForEach(docs, async rootElement => {
+            await asyncForEach(docs, async (rootElement, index) => {
+                let specialities = ''
                 if (rootElement.specialities) {
-                    let specialities = ''
                     await asyncForEach(rootElement.specialities, async element => {
                         let specialityName = await getSpecialityName(element.specialityId)
                         if (specialityName) {
                             specialities = specialities ? specialities + ", " + specialityName : specialityName
                         }
                     })
-                    docs.specialityList = specialities
-                    console.log({ docs })
                 }
+                console.log({specialities})
+                docs[index]["specialityList"] = specialities
+                console.log(docs[index])
             })
             res.status(200).send({
                 status: 1,

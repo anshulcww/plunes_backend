@@ -338,7 +338,7 @@ router.post('/getDoctorInfo', (req, res) => {
     console.log("Get doctor info", req.body)
     User.findOne({name: req.body.hospitalName, 'doctors.name': req.body.doctorName}, 'doctors', (err, doctorRecord) => {
         if(err) res.status(400).send(err)
-        else {
+        else if(doctorRecord) {
             let tempObj = {}
             doctorRecord.doctors.forEach(element => {
                 if(element.name === req.body.doctorName) {
@@ -346,6 +346,8 @@ router.post('/getDoctorInfo', (req, res) => {
                 }
             })
             res.status(200).send(tempObj)
+        } else {
+            res.status(200).send()
         }
     })
 })

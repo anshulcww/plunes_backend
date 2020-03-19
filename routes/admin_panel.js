@@ -334,6 +334,10 @@ router.get('/specialities', (req, res) => {
     })
 })
 
+router.patch('/addHospitalDoctor', (req, res) => {
+    console.log("Add doctor to hospital", req.body)
+})
+
 router.get('/specialityConsultation/:speciality', (req, res) => {
     console.log("Get consultations", req.params.speciality)
     Services.find({speciality: req.params.speciality, category: "Consultation"}, 'service serviceId specialityId').lean().exec((err, consultation) => {

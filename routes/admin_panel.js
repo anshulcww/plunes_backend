@@ -337,7 +337,7 @@ router.get('/specialities', (req, res) => {
 router.patch('/addHospitalDoctor', (req, res) => {
     console.log("Add doctor to hospital", req.body)
     User.updateOne({userType: "Hospital", name: req.body.hospitalName}, {
-        $push: {doctors: req.body}
+        $addToSet: {doctors: req.body}
     }, (err, docs) => {
         if(err) res.status(400).send(err)
         else {

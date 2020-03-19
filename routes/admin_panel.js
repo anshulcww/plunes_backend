@@ -50,6 +50,16 @@ const upload = multer({
     storage: storage
 }).single('file')
 
+router.get('/hospitalList', (req, res) => {
+    console.log("Get hospitals")
+    User.distinct({userType: "Hospital"}, (err, hospitalList) => {
+        if(err) res.status(400).send(err)
+        else {
+            res.status(200).send(hospitalList)
+        }
+    })
+})
+
 router.get('/paymentCount', auth, (req, res) => {
     console.log("Get pages count")
     Booking.aggregate([

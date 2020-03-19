@@ -52,8 +52,8 @@ const upload = multer({
 
 router.get('/hospitalList', (req, res) => {
     console.log("Get hospitals")
-    User.find({userType: "Hospital"}).distinct('name', (err, hospitalList) => {
-        if(err) res.status(400).send(err)
+    User.find({ userType: "Hospital" }).distinct('name', (err, hospitalList) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send(hospitalList)
         }
@@ -336,8 +336,8 @@ router.get('/specialities', (req, res) => {
 
 router.patch('/addHospitalDoctor', (req, res) => {
     console.log("Add doctor to hospital", req.body)
-    User.updateOne({name:req.body.hospitalName, userType: "Hospital", "doctors._id": req.body.doctorId}, {$set: {"doctors.$": req.body}}, (err, docs) => {
-        if(err) res.status(400).send(err)
+    User.updateOne({ name: req.body.hospitalName, userType: "Hospital", "doctors._id": req.body.doctorId }, { $set: { "doctors.$": req.body } }, { upsert: true }, (err, docs) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send(docs)
         }
@@ -346,12 +346,12 @@ router.patch('/addHospitalDoctor', (req, res) => {
 
 router.get('/specialityConsultation/:speciality', (req, res) => {
     console.log("Get consultations", req.params.speciality)
-    Services.find({speciality: req.params.speciality, category: "Consultation"}, 'service serviceId specialityId').lean().exec((err, consultation) => {
-        if(err) res.status(400).send(err)
+    Services.find({ speciality: req.params.speciality, category: "Consultation" }, 'service serviceId specialityId').lean().exec((err, consultation) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send(consultation)
         }
-    }) 
+    })
 })
 
 router.post('/addSpeciality', auth, (req, res) => {

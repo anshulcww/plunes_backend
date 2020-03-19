@@ -350,7 +350,7 @@ router.post('/getDoctorInfo', (req, res) => {
     })
 })
 
-router.patch('/addHospitalDoctor', (req, res) => {
+router.patch('/addHospitalDoctor', async (req, res) => {
     console.log("Add doctor to hospital", req.body)
     if(req.body.doctorId) {
         console.log("Update doctor")

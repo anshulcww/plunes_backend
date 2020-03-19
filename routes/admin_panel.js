@@ -52,7 +52,7 @@ const upload = multer({
 
 router.get('/hospitalList', (req, res) => {
     console.log("Get hospitals")
-    User.distinct({userType: "Hospital"}, (err, hospitalList) => {
+    User.find({userType: "Hospital"}).distinct('name', (err, hospitalList) => {
         if(err) res.status(400).send(err)
         else {
             res.status(200).send(hospitalList)

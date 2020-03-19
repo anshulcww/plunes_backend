@@ -334,16 +334,14 @@ router.get('/specialities', (req, res) => {
     })
 })
 
-router.get('/specialityList', auth, (req, res) => {
-    console.log("Get specialities")
-    Catalogue.find({}, 'speciality').exec((err, specialities) => {
-        if (err) {
-            console.log(err)
-            res.status(400).send(err)
-        } else {
-            res.status(200).send({specialities})
+router.get('/specialityConsultation/:speciality', (req, res) => {
+    console.log("Get consultations", req.params.speciality)
+    Services.find({speciality: req.params.speciality, category: "Consultation"}, 'service serviceId specialityId').lean().exec((err, consultation) => {
+        if(err) res.status(400).send(err)
+        else {
+            res.status(200).send(consultation)
         }
-    })
+    }) 
 })
 
 router.post('/addSpeciality', auth, (req, res) => {

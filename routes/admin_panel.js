@@ -334,6 +334,18 @@ router.get('/specialities', (req, res) => {
     })
 })
 
+router.get('/specialityList', auth, (req, res) => {
+    console.log("Get specialities")
+    Catalogue.find({}, 'speciality').exec((err, specialities) => {
+        if (err) {
+            console.log(err)
+            res.status(400).send(err)
+        } else {
+            res.status(200).send({specialities})
+        }
+    })
+})
+
 router.post('/addSpeciality', auth, (req, res) => {
     console.log("Add speciality", req.body.specialityName)
     Catalogue.findOne({ speciality: req.body.specialityName }, (err, docs) => {

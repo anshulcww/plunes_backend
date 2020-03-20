@@ -362,7 +362,7 @@ router.patch('/addHospitalDoctor', async (req, res) => {
         try {
             let hospitalRecord = await User.findOne({userType: "Hospital", name: req.body.hospitalName})
             hospitalRecord.doctors.forEach(element => {
-                if(element._id === req.body.doctorId) {
+                if(element._id.toString() === req.body.doctorId) {
                     element.name = req.body.name
                     element.education = req.body.education
                     element.designation = req.body.designation

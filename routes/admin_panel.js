@@ -343,6 +343,7 @@ router.post('/getDoctorInfo', (req, res) => {
             doctorRecord.doctors.forEach(async element => {
                 if(element.name === req.body.doctorName) {
                     tempObj = element
+                    console.log(element.specialities[0].specialityId, element.specialities[0].services[0].serviceId)
                     tempObj.speciality = await getSpecialityName(element.specialities[0].specialityId)
                     tempObj.service = await getServiceName(element.specialities[0].services[0].serviceId)
                 }

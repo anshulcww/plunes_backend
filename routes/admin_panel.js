@@ -368,6 +368,7 @@ router.patch('/addHospitalDoctor', async (req, res) => {
                     element.designation = req.body.designation
                     element.department = req.body.department
                     element.experience = req.body.experience
+                    console.log(element.specialities[0].services[0].price[0])
                     element.specialities[0].services[0].price[0] = req.body.price
                 }
             })

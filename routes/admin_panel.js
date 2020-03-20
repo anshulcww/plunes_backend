@@ -10,12 +10,15 @@ const { PASSWORD, JWT_KEY } = require('../config')
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
+const Redeem = require('../models/redeem')
+const Booking = require('../models/booking')
+const oldAuth = require('../middleware/auth')
 
 router = express.Router()
 
 const auth = (req, res, next) => {
     const bearerHead = req.headers['authorization']
-    if (typeof bearerHead !== undefined) {
+    if (typeof bearerHead !== undefined && bearerHead) {
         const token = bearerHead.split(' ')[1]
         jwt.verify(token, JWT_KEY, (err, authData) => {
             if (err) res.sendStatus(400)
@@ -47,6 +50,181 @@ const upload = multer({
     storage: storage
 }).single('file')
 
+router.get('/hospitalList', (req, res) => {
+    console.log("Get hospitals")
+    User.find({ userType: "Hospital" }).distinct('name', (err, hospitalList) => {
+        if (err) res.status(400).send(err)
+        else {
+            res.status(200).send(hospitalList)
+        }
+    })
+})
+
+router.get('/paymentCount', auth, (req, res) => {
+    console.log("Get pages count")
+    Booking.aggregate([
+        {
+            $match: {
+                redeemStatus: { $in: ['Requested', 'Rejected', 'Processed'] }
+            }
+        },
+        {
+            $addFields: {
+                "serviceId": { "$toObjectId": "$serviceId" },
+                "userId": { "$toObjectId": "$userId" },
+                "professionalId": { "$toObjectId": "$professionalId" }
+            }
+        },
+        {
+            $lookup: {
+                "from": Services.collection.name,
+                "localField": "serviceId",
+                "foreignField": "serviceId",
+                "as": "serviceDetails"
+            }
+        },
+        {
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "professionalId",
+                "foreignField": "_id",
+                "as": "professionalDetails"
+            }
+        },
+        {
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "userId",
+                "foreignField": "_id",
+                "as": "userDetails"
+            }
+        },
+        {
+            $unwind: "$serviceDetails"
+        },
+        {
+            $unwind: "$userDetails"
+        },
+        {
+            $unwind: "$professionalDetails"
+        },
+        {
+            $count: "count"
+        }
+    ], (err, docs) => {
+        if (err) {
+            console.log("Error", err)
+            res.status(400).send({
+                status: 0,
+                data: err,
+                msg: ''
+            })
+        } else {
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
+        }
+    })
+})
+
+router.get('/payments/:page', auth, (req, res) => {
+    console.log("Get payments", req.params.page)
+    const skip = req.params.page - 1
+    Booking.aggregate([
+        {
+            $match: {
+                redeemStatus: { $in: ['Requested', 'Rejected', 'Processed'] }
+            }
+        },
+        {
+            $sort: {
+                _id: -1
+            }
+        },
+        {
+            $addFields: {
+                "serviceId": { "$toObjectId": "$serviceId" },
+                "userId": { "$toObjectId": "$userId" },
+                "professionalId": { "$toObjectId": "$professionalId" }
+            }
+        },
+        {
+            $lookup: {
+                "from": Services.collection.name,
+                "localField": "serviceId",
+                "foreignField": "serviceId",
+                "as": "serviceDetails"
+            }
+        },
+        {
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "professionalId",
+                "foreignField": "_id",
+                "as": "professionalDetails"
+            }
+        },
+        {
+            $lookup: {
+                "from": User.collection.name,
+                "localField": "userId",
+                "foreignField": "_id",
+                "as": "userDetails"
+            }
+        },
+        {
+            $unwind: "$serviceDetails"
+        },
+        {
+            $unwind: "$userDetails"
+        },
+        {
+            $unwind: "$professionalDetails"
+        },
+        {
+            $addFields: {
+                "serviceName": "$serviceDetails.service",
+                "specialityName": "$serviceDetails.speciality",
+                "bookingStatus": "$bookingDetails.bookingStatus",
+                "timeSlot": "$serviceDetails.timeSlot"
+            }
+        },
+        {
+            $skip: skip * 100
+        },
+        {
+            $limit: 100
+        }
+    ], (err, docs) => {
+        if (err) {
+            console.log("Error", err)
+            res.status(400).send({
+                status: 0,
+                data: err,
+                msg: ''
+            })
+        } else {
+            res.status(200).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
+        }
+    })
+})
+
+router.patch('/paymentStatus', (req, res) => {
+    console.log("Update payment status")
+    Booking.updateOne({ _id: req.body.bookingId }, { $set: { redeemStatus: req.body.bookingStatus } }, (err, docs) => {
+        if (err) res.status(400).send(err)
+        else {
+            res.status(200).send(docs)
+        }
+    })
+})
+
 router.post('/uploadLogo', auth, async (req, res) => {
     console.log("Upload")
     upload(req, res, function (err) {
@@ -64,7 +242,7 @@ router.post('/uploadLogo', auth, async (req, res) => {
     })
 })
 
-router.patch('/updatePrice', auth, async (req, res) => {
+router.patch('/updatePrice', oldAuth, async (req, res) => {
     console.log("Update price", req.body.newPrice)
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {
@@ -83,25 +261,25 @@ router.patch('/updatePrice', auth, async (req, res) => {
             msg: ''
         })
     })
-    .catch(e => {
-        console.log(e)
-        res.status(400).send({
-            status: 0,
-            data: e,
-            msg: ''
+        .catch(e => {
+            console.log(e)
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: ''
+            })
         })
-    })
 })
 
 router.patch('/updatePriceVariance', auth, async (req, res) => {
     console.log("Update price/variance", req.body.newPrice, req.body.newVariance)
-    req.user = await User.findOne({_id: mongoose.Types.ObjectId(req.body.userId)}) 
+    req.user = await User.findOne({ _id: mongoose.Types.ObjectId(req.body.userId) })
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {
             await asyncForEach(element.services, async subElement => {
                 if (subElement.serviceId === req.body.serviceId) {
                     subElement.price = [req.body.newPrice]
-                    if(req.body.newVariance) {
+                    if (req.body.newVariance) {
                         subElement.variance = req.body.newVariance
                     }
                 }
@@ -116,14 +294,14 @@ router.patch('/updatePriceVariance', auth, async (req, res) => {
             msg: ''
         })
     })
-    .catch(e => {
-        console.log(e)
-        res.status(400).send({
-            status: 0,
-            data: e,
-            msg: ''
+        .catch(e => {
+            console.log(e)
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: ''
+            })
         })
-    })
 })
 
 router.post('/login', (req, res) => {
@@ -152,6 +330,92 @@ router.get('/specialities', (req, res) => {
                 data: specialities,
                 msg: ''
             })
+        }
+    })
+})
+
+router.post('/getDoctorInfo', (req, res) => {
+    console.log("Get doctor info", req.body)
+    User.findOne({ name: req.body.hospitalName, 'doctors.name': req.body.doctorName }, 'doctors', (err, doctorRecord) => {
+        if (err) res.status(400).send(err)
+        else if (doctorRecord) {
+            let tempObj = {}
+            doctorRecord.doctors.forEach(async element => {
+                if (element.name === req.body.doctorName) {
+                    tempObj = element
+                    console.log(element.specialities[0].specialityId, element.specialities[0].services[0].serviceId)
+                    tempObj.speciality = await getSpecialityName(element.specialities[0].specialityId)
+                    tempObj.service = await getServiceName(element.specialities[0].services[0].serviceId)
+                }
+            })
+            res.status(200).send(tempObj)
+        } else {
+            res.status(200).send()
+        }
+    })
+})
+
+router.patch('/deleteDoctor', (req, res) => {
+    console.log("Delete doctor", req.body.id)
+    User.updateOne({ "doctors._id": mongoose.Types.ObjectId(req.body.id) }, { $pull: { doctors: { _id: mongoose.Types.ObjectId(req.body.id) } } }, (err, updated) => {
+        if (err) res.status(400).send(err)
+        else {
+            res.status(200).send(updated)
+        }
+    })
+})
+
+router.patch('/addHospitalDoctor', async (req, res) => {
+    console.log("Add doctor to hospital", req.body)
+    if (req.body.doctorId) {
+        console.log("Update doctor")
+        try {
+            let hospitalRecord = await User.findOne({ userType: "Hospital", name: req.body.hospitalName })
+            hospitalRecord.doctors.forEach(element => {
+                if (element._id.toString() === req.body.doctorId) {
+                    element.name = req.body.name
+                    element.education = req.body.education
+                    element.designation = req.body.designation
+                    element.department = req.body.department
+                    element.experience = req.body.experience
+                    req.body.price ?
+                        (element.specialities[0].services[0] ?
+                            element.specialities[0].services[0].price = [parseInt(req.body.price)] :
+                            element.specialities[0].services = [{ price: [parseInt(req.body.price)] }]) : null
+                    req.body.variance ?
+                        (element.specialities[0].services[0] ?
+                            element.specialities[0].services[0].variance = [parseInt(req.body.variance)] :
+                            element.specialities[0].services = [{ price: [parseInt(req.body.price)], variance: parseInt(req.body.variance) }]) : null
+                }
+            })
+            hospitalRecord.save().then(docs => {
+                res.status(200).send(docs)
+            }).catch(err => {
+                res.status(400).send(err)
+            })
+        } catch (e) {
+            console.log(e)
+            res.status(400).send(e)
+        }
+    } else {
+        console.log("Add new doctor")
+        User.updateOne({ userType: "Hospital", name: req.body.hospitalName }, {
+            $addToSet: { doctors: req.body }
+        }, (err, docs) => {
+            if (err) res.status(400).send(err)
+            else {
+                res.status(200).send(docs)
+            }
+        })
+    }
+})
+
+router.get('/specialityConsultation/:speciality', (req, res) => {
+    console.log("Get consultations", req.params.speciality)
+    Services.find({ speciality: req.params.speciality, category: "Consultation" }, 'service serviceId specialityId').lean().exec((err, consultation) => {
+        if (err) res.status(400).send(err)
+        else {
+            res.status(200).send(consultation)
         }
     })
 })
@@ -299,7 +563,7 @@ router.post('/getServices', auth, (req, res) => {
 router.post('/addHospital', auth, (req, res) => {
     console.log("Add Hospital")
     const newHospital = new User({
-        ...req.body, userType: "Hospital"
+        ...req.body
     })
     newHospital.save().then(docs => {
         res.status(201).send({
@@ -314,12 +578,24 @@ router.post('/addHospital', auth, (req, res) => {
 })
 
 router.get('/getHospitals', auth, (req, res) => {
-    User.find({ userType: 'Hospital' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
+    User.find({ userType: 'Hospital' }, 'name email mobileNumber address specialities registrationNumber experience').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
+            await asyncForEach(docs, async (rootElement, index) => {
+                let specialities = ''
+                if (rootElement.specialities) {
+                    await asyncForEach(rootElement.specialities, async element => {
+                        let specialityName = await getSpecialityName(element.specialityId)
+                        if (specialityName) {
+                            specialities = specialities ? specialities + ", " + specialityName : specialityName
+                        }
+                    })
+                }
+                docs[index]["specialityList"] = specialities
+            })
             res.status(200).send({
                 status: 1,
-                data: userDocs,
+                data: docs,
                 msg: ''
             })
         }
@@ -327,12 +603,24 @@ router.get('/getHospitals', auth, (req, res) => {
 })
 
 router.get('/getDoctors', auth, (req, res) => {
-    User.find({ userType: 'Doctor' }, 'name email mobileNumber address registrationNumber experience', (err, userDocs) => {
+    User.find({ userType: 'Doctor' }, 'name email mobileNumber address specialities registrationNumber experience').lean().exec(async (err, docs) => {
         if (err) res.status(400).send(err)
         else {
+            await asyncForEach(docs, async (rootElement, index) => {
+                let specialities = ''
+                if (rootElement.specialities) {
+                    await asyncForEach(rootElement.specialities, async element => {
+                        let specialityName = await getSpecialityName(element.specialityId)
+                        if (specialityName) {
+                            specialities = specialities ? specialities + ", " + specialityName : specialityName
+                        }
+                    })
+                }
+                docs[index]["specialityList"] = specialities
+            })
             res.status(200).send({
                 status: 1,
-                data: userDocs,
+                data: docs,
                 msg: ''
             })
         }
@@ -352,7 +640,7 @@ const getSpecialityName = id => {
             Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
                 if (err) reject(err)
                 else if (specialityName) resolve(specialityName.speciality)
-                else resolve(id)
+                else resolve('')
             })
         } else resolve('')
     })

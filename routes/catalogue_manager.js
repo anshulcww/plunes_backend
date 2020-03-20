@@ -523,7 +523,7 @@ const loadMasterSheet = (transactionId, f) => {
                                     console.log("Updating record", service, j)
                                     globalObject[transactionId].updatedServices.push(updatedServiceName || service)
                                 } catch (e) {
-                                    globalObject[transactionId].errors.push(JSON.stringify(e))
+                                    globalObject[transactionId].errors.push(JSON.stringify(e.errmsg || e.message))
                                 }
                             }
                         } else {

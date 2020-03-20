@@ -52,8 +52,8 @@ const upload = multer({
 
 router.get('/hospitalList', (req, res) => {
     console.log("Get hospitals")
-    User.find({userType: "Hospital"}).distinct('name', (err, hospitalList) => {
-        if(err) res.status(400).send(err)
+    User.find({ userType: "Hospital" }).distinct('name', (err, hospitalList) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send(hospitalList)
         }
@@ -336,12 +336,12 @@ router.get('/specialities', (req, res) => {
 
 router.post('/getDoctorInfo', (req, res) => {
     console.log("Get doctor info", req.body)
-    User.findOne({name: req.body.hospitalName, 'doctors.name': req.body.doctorName}, 'doctors', (err, doctorRecord) => {
-        if(err) res.status(400).send(err)
-        else if(doctorRecord) {
+    User.findOne({ name: req.body.hospitalName, 'doctors.name': req.body.doctorName }, 'doctors', (err, doctorRecord) => {
+        if (err) res.status(400).send(err)
+        else if (doctorRecord) {
             let tempObj = {}
             doctorRecord.doctors.forEach(async element => {
-                if(element.name === req.body.doctorName) {
+                if (element.name === req.body.doctorName) {
                     tempObj = element
                     console.log(element.specialities[0].specialityId, element.specialities[0].services[0].serviceId)
                     tempObj.speciality = await getSpecialityName(element.specialities[0].specialityId)
@@ -355,21 +355,36 @@ router.post('/getDoctorInfo', (req, res) => {
     })
 })
 
+router.patch('/deleteDoctor', (req, res) => {
+    console.log("Delete doctor", req.body.id)
+    User.updateOne({ "doctors._id": mongoose.Types.ObjectId(req.body.id), { $pull: { doctors: { _id: mongoose.Types.ObjectId(req.body.id) } } }, (err, updated) => {
+        if (err) res.status(400).send(err)
+        else {
+            res.status(200).send(docs)
+        }
+    })
+})
+
 router.patch('/addHospitalDoctor', async (req, res) => {
     console.log("Add doctor to hospital", req.body)
-    if(req.body.doctorId) {
+    if (req.body.doctorId) {
         console.log("Update doctor")
         try {
-            let hospitalRecord = await User.findOne({userType: "Hospital", name: req.body.hospitalName})
+            let hospitalRecord = await User.findOne({ userType: "Hospital", name: req.body.hospitalName })
             hospitalRecord.doctors.forEach(element => {
-                if(element._id.toString() === req.body.doctorId) {
+                if (element._id.toString() === req.body.doctorId) {
                     element.name = req.body.name
                     element.education = req.body.education
                     element.designation = req.body.designation
                     element.department = req.body.department
                     element.experience = req.body.experience
                     console.log(element.specialities[0].services[0].price[0], parseInt(req.body.price))
-                    element.specialities[0].services[0].price = [parseInt(req.body.price)]
+                    element.specialities[0].services[0] ?
+                        element.specialities[0].services[0].price = [parseInt(req.body.price)] :
+                        element.specialities[0].services = [{ price: [parseInt(req.body.price)] }]
+                    element.specialities[0].services[0] ?
+                        element.specialities[0].services[0].variance = [parseInt(req.body.variance)] :
+                        element.specialities[0].services = [{ price: [parseInt(req.body.price)], variance: parseInt(req.body.variance) }]
                 }
             })
             hospitalRecord.save().then(docs => {
@@ -377,16 +392,16 @@ router.patch('/addHospitalDoctor', async (req, res) => {
             }).catch(err => {
                 res.status(400).send(err)
             })
-        } catch(e) {
+        } catch (e) {
             console.log(e)
             res.status(400).send(e)
         }
     } else {
         console.log("Add new doctor")
-        User.updateOne({userType: "Hospital", name: req.body.hospitalName}, {
-            $addToSet: {doctors: req.body}
+        User.updateOne({ userType: "Hospital", name: req.body.hospitalName }, {
+            $addToSet: { doctors: req.body }
         }, (err, docs) => {
-            if(err) res.status(400).send(err)
+            if (err) res.status(400).send(err)
             else {
                 res.status(200).send(docs)
             }
@@ -396,12 +411,12 @@ router.patch('/addHospitalDoctor', async (req, res) => {
 
 router.get('/specialityConsultation/:speciality', (req, res) => {
     console.log("Get consultations", req.params.speciality)
-    Services.find({speciality: req.params.speciality, category: "Consultation"}, 'service serviceId specialityId').lean().exec((err, consultation) => {
-        if(err) res.status(400).send(err)
+    Services.find({ speciality: req.params.speciality, category: "Consultation" }, 'service serviceId specialityId').lean().exec((err, consultation) => {
+        if (err) res.status(400).send(err)
         else {
             res.status(200).send(consultation)
         }
-    }) 
+    })
 })
 
 router.post('/addSpeciality', auth, (req, res) => {

@@ -360,7 +360,7 @@ router.patch('/deleteDoctor', (req, res) => {
     User.updateOne({ "doctors._id": mongoose.Types.ObjectId(req.body.id) }, { $pull: { doctors: { _id: mongoose.Types.ObjectId(req.body.id) } } }, (err, updated) => {
         if (err) res.status(400).send(err)
         else {
-            res.status(200).send(docs)
+            res.status(200).send(updated)
         }
     })
 })

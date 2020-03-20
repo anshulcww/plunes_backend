@@ -368,9 +368,7 @@ router.patch('/addHospitalDoctor', async (req, res) => {
                     element.designation = req.body.designation
                     element.department = req.body.department
                     element.experience = req.body.experience
-                    element.imageUrl = req.body.imageUrl
-                    element.prescription = req.body.prescription
-                    element.specialities = req.body.specialities
+                    element.specialities[0].services[0].price[0] = req.body.price
                 }
             })
             hospitalRecord.save().then(docs => {

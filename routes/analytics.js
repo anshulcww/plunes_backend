@@ -36,7 +36,7 @@ router.get('/solutionInsight',auth, async(req, res) => {
             }
         },
         {$sort: {_id: -1}},
-        { $limit : 1 }
+        { $limit : 20 }
     ])
     let insights = []
     let price = []
@@ -51,7 +51,7 @@ router.get('/solutionInsight',auth, async(req, res) => {
                     sp.services.forEach((se) => {
                         // console.log(s.serviceId , se.serviceId)
                         if(s.serviceId.toString() === se.serviceId){
-                            console.log('true')
+                            //console.log('true')
                             s.services.forEach((s) => {
                                 if(s.professionalId !== user._id.toString()){
                                     price.push(s.price[0])
@@ -65,10 +65,10 @@ router.get('/solutionInsight',auth, async(req, res) => {
                             }
                             let uPrice = se.price[0] - (se.price[0])*se.variance/100 ;
                             let percent = (uPrice - avgPrice)/uPrice * 100
-                            console.log(percent, 'percent' );
+                            //console.log(percent, 'percent' );
                             if(uPrice > avgPrice){
                                 //console.log('asnhul')
-                                let percent = (uPrice - avgPrice)/uPrice * 100
+                                //let percent = (uPrice - avgPrice)/uPrice * 100
                                 //console.log(s.serviceName, 'service name')
                                 let obj = {
                                     'serviceName' : s.serviceName,

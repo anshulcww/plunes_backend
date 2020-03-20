@@ -340,9 +340,11 @@ router.post('/getDoctorInfo', (req, res) => {
         if(err) res.status(400).send(err)
         else if(doctorRecord) {
             let tempObj = {}
-            doctorRecord.doctors.forEach(element => {
+            doctorRecord.doctors.forEach(async element => {
                 if(element.name === req.body.doctorName) {
                     tempObj = element
+                    tempObj.speciality = await getSpecialityName(element.specialities[0].specialityId)
+                    tempObj.service = await getServiceName(element.specialities[0].services[0].serviceId)
                 }
             })
             res.status(200).send(tempObj)

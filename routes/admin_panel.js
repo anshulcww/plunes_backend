@@ -368,8 +368,8 @@ router.patch('/addHospitalDoctor', async (req, res) => {
                     element.designation = req.body.designation
                     element.department = req.body.department
                     element.experience = req.body.experience
-                    console.log(element.specialities[0].services[0].price[0])
-                    element.specialities[0].services[0].price[0] = parseInt(req.body.price)
+                    console.log(element.specialities[0].services[0].price[0], parseInt(req.body.price))
+                    element.specialities[0].services[0].price = [parseInt(req.body.price)]
                 }
             })
             hospitalRecord.save().then(docs => {

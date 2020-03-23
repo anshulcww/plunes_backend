@@ -29,11 +29,11 @@ const loadDictionary = () => {
 
 let dictionary = {}
 
-try {
-    dictionary = await loadDictionary()
-} catch (e) {
+loadDictionary().then(docs => {
+    dictionary = docs
+}).catch(e => {
     console.log(e)
-}
+})
 
 const getServiceId = (name, speciality) => {
     return new Promise(async (resolve, reject) => {

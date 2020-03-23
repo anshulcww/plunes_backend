@@ -444,6 +444,13 @@ router.get('/all/:days?', async (req, res) => {
                 }
             })
         })
+        if(booking.length === 0) {
+            res.status(201).send({
+                success: true,
+                booking: [],
+                count: 0
+            }
+        }
     } catch (error) {
         console.log(error)
         res.status(400).send({

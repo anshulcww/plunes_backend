@@ -406,9 +406,10 @@ router.get('/all/:days?', async (req, res) => {
     console.log(`Get bookings for last ${req.params.days} days`)
     try {
         const days = req.params.days ? parseInt(req.params.days) : 200
+        console.log(days)
         var objIdMin = ObjectId.createFromTime(new Date(new Date().setDate(new Date().getDate() - days)) / 1000)
         var objIdMax = ObjectId.createFromTime(Date.now() / 1000)
-        var bookings = await Booking.find().sort({ _id: -1 }).lean()
+        var bookings = await Booking.find({ _id: { $gt: objIdMin, $lt: objIdMax } }).sort({ _id: -1 }).lean()
         var count = 0
         bookings.forEach(async (bookingRecord, index) => {
             const userId = bookingRecord.userId

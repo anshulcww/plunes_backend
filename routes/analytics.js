@@ -6,6 +6,74 @@ const Solution = require('../models/solution');
 const router = express.Router()
 const auth = require('../middleware/auth')
 
+router.get('/solutionSearch', auth, async(req, res) => {
+    //console.log('Anshul')
+    const user = req.user
+    const solution = await Solution.aggregate([
+        {
+            $addFields: {
+                "serviceId": { "$toObjectId": "$serviceId" }
+            }
+        },
+        {
+            $lookup: {
+                "from": Service.collection.name,
+                "localField": "serviceId",
+                "foreignField": "serviceId",
+                "as": "serviceDoc"
+            }
+        },
+        {
+            $unwind: "$serviceDoc"
+        },
+        {
+            $addFields: {
+                "serviceName": "$serviceDoc.service"
+            }
+        },
+        {
+            $project: {
+                "serviceDoc" : 0
+            }
+        },
+        {$sort: {_id: -1}},
+        {$limit: 30}
+    ])
+    console.log('Anshul 2')
+    //console.log(solution, 'solution')
+    let solInsights = []
+    solution.forEach((s) => {
+        //console.log(s.serviceName, 'service name')
+        s.services.forEach((se) => {
+            if(se.professionalId === user._id.toString()){
+                //console.log(true, {se})
+                let negotiating = se.negotiating
+                if(negotiating){
+                    if((Date.now() - s.createdTime) < 600000){
+                     negotiating = true
+                    }else{
+                     negotiating = false
+                    }
+                }
+                
+                let obj  = {
+                    "solutionId" : s._id,
+                    "serviceId" : se._id,
+                    "userName" : s.name,
+                    "profName" : se.name,
+                    "serviceName" : s.serviceName,
+                    "negotiating" : negotiating
+                }
+                solInsights.push(obj)
+            }
+        })
+    })
+    res.status(201).send({
+        success: true,
+        data: solInsights
+    })
+})
+
 router.get('/solutionInsight',auth, async(req, res) => {
     const user = req.user
     const solution = await Solution.aggregate([
@@ -94,6 +162,8 @@ router.get('/solutionInsight',auth, async(req, res) => {
         data: insights
     })
 })
+
+
 
 router.get('/insight', auth, async (req, res) => {
     const user = req.user

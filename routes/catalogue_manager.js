@@ -8,12 +8,34 @@ const { PASSWORD, JWT_KEY } = require('../config')
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
+const Dictionary = require('../models/dictionary')
 
 router = express.Router()
 
 let globalObject = {}
 
 var uploading = false
+
+const loadDictionary = () => {
+    return new Promise((resolve, reject) => {
+        try {
+            let result = await Dictionary.getCollection()
+            resolve(result)
+        } catch(e) {
+            reject(e)
+        }
+    })
+}
+
+let dictionary = {} 
+
+(async () => {
+    try{
+        dictionary = await loadDictionary()
+    } catch(e) {
+        console.log(e)
+    }
+})
 
 const getServiceId = (name, speciality) => {
     return new Promise(async (resolve, reject) => {
@@ -103,6 +125,56 @@ const uploadHospital = multer({
 const uploadCatalog = multer({
     storage: storageCatalog
 }).single('file')
+
+router.get('/getDictionary', auth, (req, res) => {
+    console.log("Get dictionary")
+    Dictionary.getDictionary().then(docs => {
+        res.status(200).send({
+            status: 1,
+            data: docs,
+            msg: ''
+        })
+    }).catch(e => {
+        res.status(400).send({
+            status: 0,
+            data: e,
+            msg: 'error'
+        })
+    })
+})
+
+router.put('/addTag', auth, (req, res) => {
+    console.log("Add to dictionary", req.body.keyword, req.body.tag)
+    Dictionary.addTag(req.body.keyword, req.body.tag).then(docs => {
+        console.log("Tag added")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
+
+router.path('/removeTag', auth, (req, res) => {
+    console.log("Remove tag", req.body.tag)
+    Dictionary.deleteTag(req.body.tag).then(docs => {
+        console.log("Tag deleted")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
+
+router.path('/removeKeyword', auth, (req, res) => {
+    console.log("Remove keyword", req.body.keyword)
+    Dictionary.deleteKeyword(req.body.keyword).then(docs => {
+        console.log("Keyword deleted")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
 
 router.post('/login', (req, res) => {
     console.log("Login")

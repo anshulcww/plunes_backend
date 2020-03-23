@@ -82,6 +82,6 @@ dictionarySchema.statics.getCollection = () => {
     })
 }
 
-const Dictionary = mongoose.model('redeem', dictionarySchema)
+const Dictionary = mongoose.model('dictionary', dictionarySchema)
 
 module.exports = Dictionary

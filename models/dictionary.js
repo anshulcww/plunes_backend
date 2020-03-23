@@ -50,7 +50,7 @@ dictionarySchema.statics.getKeyword = tag => {
 }
 
 dictionarySchema.statics.getDictionary = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         try {
             let result = await Dictionary.aggregate([
                 {
@@ -68,7 +68,7 @@ dictionarySchema.statics.getDictionary = () => {
 }
 
 dictionarySchema.statics.getCollection = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise( async (resolve, reject) => {
         try {
             let result = await Dictionary.find()
             let tempObj = {}

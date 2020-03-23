@@ -17,7 +17,7 @@ let globalObject = {}
 var uploading = false
 
 const loadDictionary = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         try {
             let result = await Dictionary.getCollection()
             resolve(result)

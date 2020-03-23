@@ -21,21 +21,19 @@ const loadDictionary = () => {
         try {
             let result = await Dictionary.getCollection()
             resolve(result)
-        } catch(e) {
+        } catch (e) {
             reject(e)
         }
     })
 }
 
-let dictionary = {} 
+let dictionary = {}
 
-(async () => {
-    try{
-        dictionary = await loadDictionary()
-    } catch(e) {
-        console.log(e)
-    }
-})()
+try {
+    dictionary = await loadDictionary()
+} catch (e) {
+    console.log(e)
+}
 
 const getServiceId = (name, speciality) => {
     return new Promise(async (resolve, reject) => {

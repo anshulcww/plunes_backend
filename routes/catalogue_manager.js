@@ -35,7 +35,7 @@ let dictionary = {}
     } catch(e) {
         console.log(e)
     }
-})
+})()
 
 const getServiceId = (name, speciality) => {
     return new Promise(async (resolve, reject) => {

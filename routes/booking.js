@@ -449,7 +449,7 @@ router.get('/all/:days?', async (req, res) => {
                 success: true,
                 booking: [],
                 count: 0
-            }
+            })
         }
     } catch (error) {
         console.log(error)

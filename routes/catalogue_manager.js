@@ -124,7 +124,7 @@ const uploadCatalog = multer({
     storage: storageCatalog
 }).single('file')
 
-router.get('/getDictionary', auth, (req, res) => {
+router.get('/getDictionary', verifyToken, (req, res) => {
     console.log("Get dictionary")
     Dictionary.getDictionary().then(docs => {
         res.status(200).send({
@@ -141,7 +141,7 @@ router.get('/getDictionary', auth, (req, res) => {
     })
 })
 
-router.put('/addTag', auth, (req, res) => {
+router.put('/addTag', verifyToken, (req, res) => {
     console.log("Add to dictionary", req.body.keyword, req.body.tag)
     Dictionary.addTag(req.body.keyword, req.body.tag).then(docs => {
         console.log("Tag added")
@@ -152,7 +152,7 @@ router.put('/addTag', auth, (req, res) => {
     })
 })
 
-router.path('/removeTag', auth, (req, res) => {
+router.path('/removeTag', verifyToken, (req, res) => {
     console.log("Remove tag", req.body.tag)
     Dictionary.deleteTag(req.body.tag).then(docs => {
         console.log("Tag deleted")
@@ -163,7 +163,7 @@ router.path('/removeTag', auth, (req, res) => {
     })
 })
 
-router.path('/removeKeyword', auth, (req, res) => {
+router.path('/removeKeyword', verifyToken, (req, res) => {
     console.log("Remove keyword", req.body.keyword)
     Dictionary.deleteKeyword(req.body.keyword).then(docs => {
         console.log("Keyword deleted")

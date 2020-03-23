@@ -56,19 +56,22 @@ dictionarySchema.statics.getDictionary = () => {
                 {
                     $group: {
                         _id: "$keyword",
-                        tags: {$addToSet: "$tag"}
+                        tags: { $addToSet: "$tag" }
                     }
+                },
+                {
+                    $sort: { _id: 1 }
                 }
             ])
             resolve(result)
-        } catch(e) {
+        } catch (e) {
             reject(e)
         }
     })
 }
 
 dictionarySchema.statics.getCollection = () => {
-    return new Promise( async (resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         try {
             let result = await Dictionary.find()
             let tempObj = {}
@@ -76,7 +79,7 @@ dictionarySchema.statics.getCollection = () => {
                 tempObj[element.tag] = element.keyword
             })
             resolve(tempObj)
-        } catch(e) {
+        } catch (e) {
             reject(e)
         }
     })

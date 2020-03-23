@@ -420,7 +420,7 @@ router.get('/all/:days?', async (req, res) => {
                 await User.findMobileNumber(userId, "User"),
                 await User.findMobileNumber(doctorId, "Doctor", "Hospital")
             ]).then(resolution => {
-                console.log("Got details", { resolution, serviceId})
+                // console.log("Got details", { resolution, serviceId})
                 if (resolution[1]) {
                     bookings[index].serviceName = resolution[0] ? resolution[0] : null
                     bookings[index]["userMobileNumber"] = resolution[1].mobileNumber

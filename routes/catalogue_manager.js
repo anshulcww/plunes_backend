@@ -152,7 +152,7 @@ router.put('/addTag', verifyToken, (req, res) => {
     })
 })
 
-router.path('/removeTag', verifyToken, (req, res) => {
+router.patch('/removeTag', verifyToken, (req, res) => {
     console.log("Remove tag", req.body.tag)
     Dictionary.deleteTag(req.body.tag).then(docs => {
         console.log("Tag deleted")
@@ -163,7 +163,7 @@ router.path('/removeTag', verifyToken, (req, res) => {
     })
 })
 
-router.path('/removeKeyword', verifyToken, (req, res) => {
+router.patch('/removeKeyword', verifyToken, (req, res) => {
     console.log("Remove keyword", req.body.keyword)
     Dictionary.deleteKeyword(req.body.keyword).then(docs => {
         console.log("Keyword deleted")

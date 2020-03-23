@@ -96,6 +96,7 @@ router.get('/', auth, async (req, res) => {
     }
 })
 
+
 router.get('/search', auth, async (req, res) => {
     try {
         let negotiating = false

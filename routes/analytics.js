@@ -6,6 +6,44 @@ const Solution = require('../models/solution');
 const router = express.Router()
 const auth = require('../middleware/auth')
 
+router.get('/solutionUsers', auth, async(req, res) => {
+    const solution = await Solution.aggregate([{
+        
+            $match : {
+                "services" : { $elemMatch : {"professionalId"  : req.user._id.toString()}},
+
+            }
+        }
+    ,
+    
+    {$sort: {_id: -1}}
+    ])
+    var map = new Map()
+    let i = 1
+    solution.forEach((s)=>{
+        var date = new Date(s.createdTime);
+        var month = date.getMonth();
+        if(map.has(month)){
+            let prevValue = map.get(month)
+            //console.log(prevValue, prevValue++)
+            map.set(month, prevValue+1);
+        }else{
+            map.set(month, 1)
+        }
+    })
+    var result = [];
+map.forEach(function(val, key) {
+    result.push({ month: key, count: val });
+});
+console.log(result, 'res')
+    //let x = Object.fromEntries(map);
+    res.status(201).send({
+        success: true,
+        data: result
+    })
+})
+
+
 router.get('/solutionSearch', auth, async(req, res) => {
     //console.log('Anshul')
     const user = req.user
@@ -39,7 +77,7 @@ router.get('/solutionSearch', auth, async(req, res) => {
         {$sort: {_id: -1}},
         {$limit: 30}
     ])
-    console.log('Anshul 2')
+    //console.log('Anshul 2')
     //console.log(solution, 'solution')
     let solInsights = []
     solution.forEach((s) => {

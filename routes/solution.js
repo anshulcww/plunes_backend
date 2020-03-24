@@ -61,7 +61,8 @@ router.get('/', auth, async (req, res) => {
                             const notification = new Notification({
                                 userId: service.professionalId,
                                 senderUserId: user._id.toString(),
-                                notificationType: 'solution'
+                                notificationType: 'solution',
+                                serviceName : serviceName
                             })
                             await notification.save()
                             await Notification.sms(professional.mobileNumber, `${user.name} is looking for ${serviceName} near you. We recommend you to update the fee at the earliest.`)

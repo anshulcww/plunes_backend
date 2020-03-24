@@ -31,6 +31,7 @@ let dictionary = {}
 
 loadDictionary().then(docs => {
     dictionary = docs
+    console.log(dictionary)
 }).catch(e => {
     console.log(e)
 })
@@ -141,15 +142,20 @@ router.get('/getDictionary', verifyToken, (req, res) => {
     })
 })
 
-router.put('/addTag', verifyToken, (req, res) => {
+router.put('/addTag', verifyToken, async (req, res) => {
     console.log("Add to dictionary", req.body.keyword, req.body.tag)
-    Dictionary.addTag(req.body.keyword, req.body.tag).then(docs => {
-        console.log("Tag added")
+    try {
+        const tags = req.body.tag.replace(' ', '')
+        const tagList = tags.split(',')
+        await asyncForEach(tagList, async element => {
+            await Dictionary.addTag(req.body.keyword, element)
+        })
+        console.log("Tags added")
         res.status(200).send()
-    }).catch(err => {
+    } catch (e) {
         console.log(err)
         res.status(400).send(err)
-    })
+    }
 })
 
 router.put('/addKeyword', verifyToken, (req, res) => {

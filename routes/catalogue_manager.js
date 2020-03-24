@@ -174,9 +174,9 @@ router.delete('/removeTag/:tag', verifyToken, (req, res) => {
     })
 })
 
-router.patch('/removeKeyword', verifyToken, (req, res) => {
-    console.log("Remove keyword", req.body.keyword)
-    Dictionary.deleteKeyword(req.body.keyword).then(docs => {
+router.delete('/removeKeyword/:keyword', verifyToken, (req, res) => {
+    console.log("Remove keyword", req.params.keyword)
+    Dictionary.deleteKeyword(req.params.keyword).then(docs => {
         console.log("Keyword deleted")
         res.status(200).send()
     }).catch(err => {

@@ -152,9 +152,9 @@ router.put('/addTag', verifyToken, (req, res) => {
     })
 })
 
-router.patch('/removeTag', verifyToken, (req, res) => {
-    console.log("Remove tag", req.body.tag)
-    Dictionary.deleteTag(req.body.tag).then(docs => {
+router.delete('/removeTag/:tag', verifyToken, (req, res) => {
+    console.log("Remove tag", req.params.tag)
+    Dictionary.deleteTag(req.params.tag).then(docs => {
         console.log("Tag deleted")
         res.status(200).send()
     }).catch(err => {

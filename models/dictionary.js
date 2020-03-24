@@ -16,6 +16,17 @@ dictionarySchema.statics.addTag = (keyword, tag) => {
     })
 }
 
+dictionarySchema.statics.addKeyword = (keyword) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const result = await Dictionary.updateOne({ keyword }, { $set: { keyword } }, { upsert: true })
+            resolve(result)
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 dictionarySchema.statics.deleteTag = tag => {
     return new Promise(async (resolve, reject) => {
         try {

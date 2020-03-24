@@ -152,6 +152,17 @@ router.put('/addTag', verifyToken, (req, res) => {
     })
 })
 
+router.put('/addKeyword', verifyToken, (req, res) => {
+    console.log("Add to dictionary", req.body.keyword)
+    Dictionary.addKeyword(req.body.keyword).then(docs => {
+        console.log("Keyword added")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
+
 router.delete('/removeTag/:tag', verifyToken, (req, res) => {
     console.log("Remove tag", req.params.tag)
     Dictionary.deleteTag(req.params.tag).then(docs => {

@@ -274,7 +274,8 @@ router.post('/submit', verifyToken, async (req, res) => {
                 notFoundSpecialities: [],
                 updatedServices: [],
                 updatedServiceName: [],
-                errors: []
+                errors: [],
+                replacedServiceNames: []
             }
             res.status(200).send({
                 status: 1,
@@ -563,6 +564,27 @@ const loadMasterSheet = (transactionId, f) => {
 
                         // Add/update service to DB
                         if (catalogRecord) {
+                            let serviceTokens = service.split(' ')
+                            let updatedServiceTokens = []
+
+                            if (updatedServiceName) {
+                                updatedServiceTokens = updatedServiceName.split(' ')
+                            }
+
+                            serviceTokens.forEach(element => {
+                                if(dictionary[element]) {
+                                    globalObject[transactionId].replacedServiceNames.push(`${service} - ${dictionary[element]}`)
+                                    service.replace(element, dictionary[element])
+                                }
+                            })
+
+                            updatedServiceTokens.forEach(element => {
+                                if(dictionary[element]) {
+                                    globalObject[transactionId].replacedServiceNames.push(`${service} - ${dictionary[element]}`)
+                                    service.replace(element, dictionary[element])
+                                }
+                            })
+
                             let j
                             if (updatedServiceName) {
                                 j = catalogRecord.services.findIndex(x => (x.service == updatedServiceName))

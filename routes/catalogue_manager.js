@@ -144,9 +144,9 @@ router.get('/getDictionary', verifyToken, (req, res) => {
 router.put('/addTag', verifyToken, async (req, res) => {
     console.log("Add to dictionary", req.body.keyword, req.body.tag)
     try {
-        const keywords = req.body.keyword.replace(' ', '')
-        const keywordList = keywords.split(',')
-        await asyncForEach(keywordList, async element => {
+        const tags = req.body.tag.replace(' ', '')
+        const tagList = tags.split(',')
+        await asyncForEach(tagList, async element => {
             await Dictionary.addTag(req.body.keyword, element)
         })
         console.log("Tags added")

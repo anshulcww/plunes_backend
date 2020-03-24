@@ -8,12 +8,32 @@ const { PASSWORD, JWT_KEY } = require('../config')
 
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
+const Dictionary = require('../models/dictionary')
 
 router = express.Router()
 
 let globalObject = {}
 
 var uploading = false
+
+const loadDictionary = () => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let result = await Dictionary.getCollection()
+            resolve(result)
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+let dictionary = {}
+
+loadDictionary().then(docs => {
+    dictionary = docs
+}).catch(e => {
+    console.log(e)
+})
 
 const getServiceId = (name, speciality) => {
     return new Promise(async (resolve, reject) => {
@@ -103,6 +123,67 @@ const uploadHospital = multer({
 const uploadCatalog = multer({
     storage: storageCatalog
 }).single('file')
+
+router.get('/getDictionary', verifyToken, (req, res) => {
+    console.log("Get dictionary")
+    Dictionary.getDictionary().then(docs => {
+        res.status(200).send({
+            status: 1,
+            data: docs,
+            msg: ''
+        })
+    }).catch(e => {
+        res.status(400).send({
+            status: 0,
+            data: e,
+            msg: 'error'
+        })
+    })
+})
+
+router.put('/addTag', verifyToken, (req, res) => {
+    console.log("Add to dictionary", req.body.keyword, req.body.tag)
+    Dictionary.addTag(req.body.keyword, req.body.tag).then(docs => {
+        console.log("Tag added")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
+
+router.put('/addKeyword', verifyToken, (req, res) => {
+    console.log("Add to dictionary", req.body.keyword)
+    Dictionary.addKeyword(req.body.keyword).then(docs => {
+        console.log("Keyword added")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
+
+router.delete('/removeTag/:tag', verifyToken, (req, res) => {
+    console.log("Remove tag", req.params.tag)
+    Dictionary.deleteTag(req.params.tag).then(docs => {
+        console.log("Tag deleted")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
+
+router.delete('/removeKeyword/:keyword', verifyToken, (req, res) => {
+    console.log("Remove keyword", req.params.keyword)
+    Dictionary.deleteKeyword(req.params.keyword).then(docs => {
+        console.log("Keyword deleted")
+        res.status(200).send()
+    }).catch(err => {
+        console.log(err)
+        res.status(400).send(err)
+    })
+})
 
 router.post('/login', (req, res) => {
     console.log("Login")

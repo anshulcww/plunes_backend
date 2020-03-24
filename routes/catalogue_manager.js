@@ -141,7 +141,7 @@ router.get('/getDictionary', verifyToken, (req, res) => {
     })
 })
 
-router.put('/addTag', verifyToken, (req, res) => {
+router.put('/addTag', verifyToken, async (req, res) => {
     console.log("Add to dictionary", req.body.keyword, req.body.tag)
     try {
         const keywords = req.body.keyword.replace(' ', '')

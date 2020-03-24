@@ -143,13 +143,18 @@ router.get('/getDictionary', verifyToken, (req, res) => {
 
 router.put('/addTag', verifyToken, (req, res) => {
     console.log("Add to dictionary", req.body.keyword, req.body.tag)
-    Dictionary.addTag(req.body.keyword, req.body.tag).then(docs => {
-        console.log("Tag added")
+    try {
+        const keywords = req.body.keyword.replace(' ', '')
+        const keywordList = keywords.split(',')
+        await asyncForEach(keywordList, async element => {
+            await Dictionary.addTag(req.body.keyword, element)
+        })
+        console.log("Tags added")
         res.status(200).send()
-    }).catch(err => {
+    } catch (e) {
         console.log(err)
         res.status(400).send(err)
-    })
+    }
 })
 
 router.put('/addKeyword', verifyToken, (req, res) => {

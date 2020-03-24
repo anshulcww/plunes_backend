@@ -31,6 +31,7 @@ let dictionary = {}
 
 loadDictionary().then(docs => {
     dictionary = docs
+    console.log(dictionary)
 }).catch(e => {
     console.log(e)
 })

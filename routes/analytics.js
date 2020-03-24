@@ -49,6 +49,13 @@ router.get('/solutionSearch', auth, async(req, res) => {
     const user = req.user
     const solution = await Solution.aggregate([
         {
+        
+            $match : {
+                "services" : { $elemMatch : {"professionalId"  : req.user._id.toString()}},
+
+            }
+        },
+        {
             $addFields: {
                 "serviceId": { "$toObjectId": "$serviceId" }
             }
@@ -75,7 +82,8 @@ router.get('/solutionSearch', auth, async(req, res) => {
             }
         },
         {$sort: {_id: -1}},
-        {$limit: 30}
+        {$limit: 30
+        }
     ])
     //console.log('Anshul 2')
     //console.log(solution, 'solution')

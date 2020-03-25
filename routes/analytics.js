@@ -93,23 +93,30 @@ router.get('/solutionSearch', auth, async(req, res) => {
         s.services.forEach((se) => {
             if(se.professionalId === user._id.toString()){
                 //console.log(true, {se})
-                let negotiating = se.negotiating
+                let negotiating = se.negotiating;
+                let timeRemaining = null;
                 if(negotiating){
-                    if((Date.now() - s.createdTime) < 600000){
+                    if((Date.now() - s.createdTime) < 1000000){
+                        console.log(Date.now() - s.createdTime)
+                        let objTime = Date.now() - s.createdTime
+                        timeRemaining = 1000000 - objTime
+                        //console.log(timeRemaining)
                      negotiating = true
                     }else{
                      negotiating = false
                     }
                 }
-                
                 let obj  = {
                     "solutionId" : s._id,
                     "serviceId" : se._id,
                     "userName" : s.name,
                     "profName" : se.name,
                     "serviceName" : s.serviceName,
-                    "negotiating" : negotiating
+                    "negotiating" : negotiating,
+                    "createdTime": s.createdTime,
+                    "timeRemaining" : timeRemaining
                 }
+                console.log(obj)
                 solInsights.push(obj)
             }
         })

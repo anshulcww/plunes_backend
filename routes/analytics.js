@@ -82,8 +82,7 @@ router.get('/solutionSearch', auth, async(req, res) => {
             }
         },
         {$sort: {_id: -1}},
-        {$limit: 30
-        }
+        {$limit: 5}
     ])
     //console.log('Anshul 2')
     //console.log(solution, 'solution')
@@ -106,6 +105,7 @@ router.get('/solutionSearch', auth, async(req, res) => {
                      negotiating = false
                     }
                 }
+                
                 let obj  = {
                     "solutionId" : s._id,
                     "serviceId" : se._id,
@@ -114,7 +114,8 @@ router.get('/solutionSearch', auth, async(req, res) => {
                     "serviceName" : s.serviceName,
                     "negotiating" : negotiating,
                     "createdTime": s.createdTime,
-                    "timeRemaining" : timeRemaining
+                    "timeRemaining" : timeRemaining,
+                    "userPrice" : se.newPrice[0]
                 }
                 console.log(obj)
                 solInsights.push(obj)

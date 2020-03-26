@@ -35,6 +35,7 @@ router.post('/addPost', async (req, res) => {
         console.log("New blog post added", req.body, result)
         res.status(200).send(result)
     } catch (e) {
+        console.log(e)
         res.status(400).send(e)
     }
 })

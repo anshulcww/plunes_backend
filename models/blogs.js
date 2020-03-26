@@ -37,7 +37,7 @@ blogSchema.statics.addPost = newPost => {
 blogSchema.statics.getPost = uriTag => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await Dictionary.findOne({ uriTag })
+            const result = await Blog.findOne({ uriTag })
             resolve(result)
         } catch (e) {
             reject(e)
@@ -48,7 +48,7 @@ blogSchema.statics.getPost = uriTag => {
 blogSchema.statics.deletePost = title => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await Dictionary.deleteOne({ title })
+            const result = await Blog.deleteOne({ title })
             resolve(result)
         } catch (e) {
             reject(e)

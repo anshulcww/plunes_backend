@@ -28,6 +28,7 @@ const auth = (req, res, next) => {
 }
 
 router.post('/addPost', async (req, res) => {
+    console.log("Add post", req.body)
     try {
         req.body.uriTag = req.body.title.toLowerCase().replace(" ", '-').replace(/[^\w\s]/gi, '')
         let result = await Blog.addPost(req.body)

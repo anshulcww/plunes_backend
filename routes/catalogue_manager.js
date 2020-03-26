@@ -12,6 +12,26 @@ const Dictionary = require('../models/dictionary')
 
 router = express.Router()
 
+const verifyToken = (req, res, next) => {
+    const bearerHead = req.headers['authorization']
+    if (typeof bearerHead !== undefined) {
+        const token = bearerHead.split(' ')[1]
+        jwt.verify(token, JWT_KEY, (err, authData) => {
+            if (err) res.sendStatus(400)
+            else {
+                const data = authData
+                if (data.user === "Admin") {
+                    next()
+                } else {
+                    res.sendStatus(403)
+                }
+            }
+        })
+    } else {
+        res.sendStatus(403)
+    }
+}
+
 let globalObject = {}
 
 var uploading = false
@@ -74,26 +94,6 @@ const getServiceId = (name, speciality) => {
 const asyncForEach = async (array, callback) => {
     for (let index = 0; index < array.length; index++) {
         await callback(array[index], index, array);
-    }
-}
-
-const verifyToken = (req, res, next) => {
-    const bearerHead = req.headers['authorization']
-    if (typeof bearerHead !== undefined) {
-        const token = bearerHead.split(' ')[1]
-        jwt.verify(token, JWT_KEY, (err, authData) => {
-            if (err) res.sendStatus(400)
-            else {
-                const data = authData
-                if (data.user === "Admin") {
-                    next()
-                } else {
-                    res.sendStatus(403)
-                }
-            }
-        })
-    } else {
-        res.sendStatus(403)
     }
 }
 
@@ -189,20 +189,6 @@ router.delete('/removeKeyword/:keyword', verifyToken, (req, res) => {
         console.log(err)
         res.status(400).send(err)
     })
-})
-
-router.post('/login', (req, res) => {
-    console.log("Login")
-    if (req.body.password === PASSWORD) {
-        console.log("Authenticated User")
-        jwt.sign({ user: "Admin" }, JWT_KEY, (err, token) => {
-            if (err) res.status(403).send()
-            res.json({ token })
-        })
-    } else {
-        console.log("User not authenticated", req.body.password)
-        res.status(403).send()
-    }
 })
 
 router.post('/uploadCatalog', verifyToken, async (req, res) => {

@@ -7,7 +7,7 @@ const blogSchema = mongoose.Schema({
     },
     tags: [String],
     description: String,
-    body: String,
+    body: [String],
     uriTag: {
         type: String,
         unique: true
@@ -22,6 +22,7 @@ const blogSchema = mongoose.Schema({
 
 blogSchema.statics.addPost = newPost => {
     return new Promise(async (resolve, reject) => {
+        newPost.body = newPost.body.split('\n')
         try {
             const newPost = await Blog.updateOne({ title: newPost.title }, {
                 $set: {

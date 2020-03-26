@@ -38,7 +38,7 @@ router.post('/addPost', async (req, res) => {
     }
 })
 
-router.delete('/deletePost/:uriTag', (req, res) => {
+router.delete('/deletePost/:uriTag', async (req, res) => {
     try {
         let result = await Blog.deletePost(req.params.uriTag)
         console.log("Deleted post", req.params.uriTag, result)
@@ -48,7 +48,7 @@ router.delete('/deletePost/:uriTag', (req, res) => {
     }
 })
 
-router.get('/post/:uriTag', (req, res) => {
+router.get('/post/:uriTag', async (req, res) => {
     console.log("Get post", req.params.uriTag)
     try {
         let post = await Blog.getPost(req.params.uriTag)

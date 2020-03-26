@@ -17,10 +17,10 @@ const blogSchema = mongoose.Schema({
     author: {
         type: String
     }
-}, {timestamp: true})
+}, { timestamp: true })
 
 blogSchema.statics.addPost = newPost => {
-    return new Promise((resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         try {
             const newPost = await Blog.updateOne({ title: newPost.title }, {
                 $set: {
@@ -57,9 +57,9 @@ blogSchema.statics.deletePost = title => {
 }
 
 blogSchema.statics.getPostList = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
         try {
-            let result = await Blog.find().sort({_id: -1})
+            let result = await Blog.find().sort({ _id: -1 })
             resolve(result)
         } catch (e) {
             reject(e)

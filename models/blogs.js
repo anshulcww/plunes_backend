@@ -18,7 +18,7 @@ const blogSchema = mongoose.Schema({
     author: {
         type: String
     }
-}, { timestamp: true })
+}, { timestamps: true })
 
 blogSchema.statics.addPost = newPost => {
     return new Promise(async (resolve, reject) => {

@@ -58,4 +58,14 @@ router.get('/post/:uriTag', async (req, res) => {
     }
 })
 
+router.get('/getPosts', async (req, res) => {
+    console.log("Get posts")
+    try {
+        let post = await Blog.getPostList()
+        res.status(200).send(post)
+    } catch (e) {
+        res.status(400).send(e)
+    }
+})
+
 module.exports = router

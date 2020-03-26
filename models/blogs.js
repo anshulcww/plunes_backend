@@ -6,6 +6,7 @@ const blogSchema = mongoose.Schema({
         unique: true
     },
     tags: [String],
+    description: String,
     body: String,
     uriTag: {
         type: String,

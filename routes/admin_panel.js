@@ -46,6 +46,23 @@ const upload = multer({
     storage: storage
 }).single('file')
 
+router.post('/uploadLogo', auth, async (req, res) => {
+    console.log("Upload")
+    upload(req, res, function (err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(500).json(err)
+        } else if (err) {
+            return res.status(500).json(err)
+        }
+        console.log("Filename", req.file.filename)
+        return res.status(200).send({
+            status: 1,
+            data: req.file,
+            msg: "success"
+        })
+    })
+})
+
 router.get('/hospitalList', (req, res) => {
     console.log("Get hospitals")
     User.find({ userType: "Hospital" }).distinct('name', (err, hospitalList) => {
@@ -218,23 +235,6 @@ router.patch('/paymentStatus', (req, res) => {
         else {
             res.status(200).send(docs)
         }
-    })
-})
-
-router.post('/uploadLogo', auth, async (req, res) => {
-    console.log("Upload")
-    upload(req, res, function (err) {
-        if (err instanceof multer.MulterError) {
-            return res.status(500).json(err)
-        } else if (err) {
-            return res.status(500).json(err)
-        }
-        console.log("Filename", req.file.filename)
-        return res.status(200).send({
-            status: 1,
-            data: req.file,
-            msg: "success"
-        })
     })
 })
 

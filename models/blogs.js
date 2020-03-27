@@ -61,7 +61,7 @@ blogSchema.statics.deletePost = title => {
 blogSchema.statics.getPostList = () => {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await Blog.find().sort({ _id: -1 })
+            let result = await Blog.find({}, '_id title createdAt description imageUrl').sort({ _id: -1 })
             resolve(result)
         } catch (e) {
             reject(e)

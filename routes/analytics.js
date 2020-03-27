@@ -87,7 +87,7 @@ router.get('/solutionSearch', auth, async(req, res) => {
     //console.log('Anshul 2')
     //console.log(solution, 'solution')
     let solInsights = []
-    solution.forEach((s) => {
+    solution.forEach((s, index) => {
         //console.log(s.serviceName, 'service name')
         s.services.forEach((se) => {
             if(se.professionalId === user._id.toString()){
@@ -100,10 +100,13 @@ router.get('/solutionSearch', auth, async(req, res) => {
                         let objTime = Date.now() - s.createdTime
                         timeRemaining = 1000000 - objTime
                         //console.log(timeRemaining)
-                     negotiating = true
+                        negotiating = true
                     }else{
                      negotiating = false
                     }
+                }
+                if(index == 0){
+                    negotiating = true
                 }
                 
                 let obj  = {

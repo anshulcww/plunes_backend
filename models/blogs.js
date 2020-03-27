@@ -47,10 +47,10 @@ blogSchema.statics.getPost = uriTag => {
     })
 }
 
-blogSchema.statics.deletePost = title => {
+blogSchema.statics.deletePost = id => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await Blog.deleteOne({ title })
+            const result = await Blog.deleteOne({ _id: mongoose.Types.ObjectId(id) })
             resolve(result)
         } catch (e) {
             reject(e)

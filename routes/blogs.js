@@ -30,7 +30,7 @@ const auth = (req, res, next) => {
 router.post('/addPost', async (req, res) => {
     console.log("Add post", req.body)
     try {
-        req.body.uriTag = req.body.title.toLowerCase().replace(" ", '-').replace(/[^\w\s]/gi, '')
+        req.body.uriTag = req.body.title.toLowerCase().replace(/[^\w\s]/gi, '').replace(/ /gi, '-')
         let result
         if(req.body.id) {
             console.log("Update post")

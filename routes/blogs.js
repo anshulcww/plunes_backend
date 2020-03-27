@@ -69,7 +69,7 @@ router.get('/post/:id', async (req, res) => {
 router.get('/blogPost/:uriTag', async (req, res) => {
     console.log("Get post", req.params.uriTag)
     try {
-        let post = await Blog.getPost(req.params.uriTag)
+        let post = await Blog.getBlogPost(req.params.uriTag)
         res.status(200).send(post)
     } catch (e) {
         res.status(400).send(e)

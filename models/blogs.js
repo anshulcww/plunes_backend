@@ -63,7 +63,7 @@ blogSchema.statics.getPost = id => {
     })
 }
 
-blogSchema.statics.getPost = uriTag => {
+blogSchema.statics.getBlogPost = uriTag => {
     return new Promise(async (resolve, reject) => {
         try {
             const result = await Blog.findOne({ uriTag })

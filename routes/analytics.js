@@ -105,10 +105,10 @@ router.get('/solutionSearch', auth, async(req, res) => {
                      negotiating = false
                     }
                 }
-                if(index == 0){
-                    negotiating = true,
-                    timeRemaining = 10000
-                }
+                // if(index == 0){
+                //     negotiating = true,
+                //     timeRemaining = 10000
+                // }
                 
                 let obj  = {
                     "solutionId" : s._id,

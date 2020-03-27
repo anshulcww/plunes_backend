@@ -31,8 +31,14 @@ router.post('/addPost', async (req, res) => {
     console.log("Add post", req.body)
     try {
         req.body.uriTag = req.body.title.toLowerCase().replace(" ", '-').replace(/[^\w\s]/gi, '')
-        let result = await Blog.addPost(req.body)
-        console.log("New blog post added", req.body, result)
+        let result
+        if(req.body.id) {
+            console.log("Update post")
+            result = await Blog.addPost(req.body.id, req.body)
+        } else {
+            result = await Blog.addPost(req.body)
+            console.log("New blog post added", req.body, result)
+        }
         res.status(200).send(result)
     } catch (e) {
         console.log(e)

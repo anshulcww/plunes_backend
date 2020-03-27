@@ -36,6 +36,22 @@ blogSchema.statics.addPost = newPost => {
     })
 }
 
+blogSchema.statics.addPost = (id, newPost) => {
+    return new Promise(async (resolve, reject) => {
+        newPost.body = newPost.body.split('\n')
+        try {
+            const result = await Blog.updateOne({ _id: mongoose.Types.ObjectId(id) }, {
+                $set: {
+                    ...newPost
+                }
+            })
+            resolve(result)
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 blogSchema.statics.getPost = id => {
     return new Promise(async (resolve, reject) => {
         try {

@@ -79,8 +79,9 @@ router.get('/blogPost/:uriTag', async (req, res) => {
 router.get('/getPosts/:page', async (req, res) => {
     console.log("Get posts", req.params.page)
     try {
-        let post = await Blog.getPostList(parseInt(req.params.page) - 1)
-        res.status(200).send(post)
+        let posts = await Blog.getPostList(parseInt(req.params.page) - 1)
+        let count = await Blog.estimatedDocumentCount()
+        res.status(200).send({posts, count})
     } catch (e) {
         res.status(400).send(e)
     }

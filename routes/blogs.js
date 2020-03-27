@@ -34,7 +34,7 @@ router.post('/addPost', async (req, res) => {
         let result
         if(req.body.id) {
             console.log("Update post")
-            result = await Blog.addPost(req.body.id, req.body)
+            result = await Blog.editPost(req.body.id, req.body)
         } else {
             result = await Blog.addPost(req.body)
             console.log("New blog post added", req.body, result)
@@ -60,6 +60,16 @@ router.get('/post/:id', async (req, res) => {
     console.log("Get post", req.params.id)
     try {
         let post = await Blog.getPost(req.params.id)
+        res.status(200).send(post)
+    } catch (e) {
+        res.status(400).send(e)
+    }
+})
+
+router.get('/blogPost/:uriTag', async (req, res) => {
+    console.log("Get post", req.params.uriTag)
+    try {
+        let post = await Blog.getPost(req.params.uriTag)
         res.status(200).send(post)
     } catch (e) {
         res.status(400).send(e)

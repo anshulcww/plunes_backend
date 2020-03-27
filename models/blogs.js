@@ -36,7 +36,7 @@ blogSchema.statics.addPost = newPost => {
     })
 }
 
-blogSchema.statics.addPost = (id, newPost) => {
+blogSchema.statics.editPost = (id, newPost) => {
     return new Promise(async (resolve, reject) => {
         newPost.body = newPost.body.split('\n')
         try {
@@ -62,6 +62,18 @@ blogSchema.statics.getPost = id => {
         }
     })
 }
+
+blogSchema.statics.getPost = uriTag => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const result = await Blog.findOne({ uriTag })
+            resolve(result)
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 
 blogSchema.statics.deletePost = id => {
     return new Promise(async (resolve, reject) => {

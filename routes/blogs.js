@@ -50,10 +50,10 @@ router.delete('/deletePost/:id', async (req, res) => {
     }
 })
 
-router.get('/post/:uriTag', async (req, res) => {
-    console.log("Get post", req.params.uriTag)
+router.get('/post/:id', async (req, res) => {
+    console.log("Get post", req.params.id)
     try {
-        let post = await Blog.getPost(req.params.uriTag)
+        let post = await Blog.getPost(req.params.id)
         res.status(200).send(post)
     } catch (e) {
         res.status(400).send(e)

@@ -36,10 +36,10 @@ blogSchema.statics.addPost = newPost => {
     })
 }
 
-blogSchema.statics.getPost = uriTag => {
+blogSchema.statics.getPost = id => {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await Blog.findOne({ uriTag })
+            const result = await Blog.findOne({ _id: mongoose.Types.ObjectId(id) })
             resolve(result)
         } catch (e) {
             reject(e)

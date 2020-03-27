@@ -1,8 +1,5 @@
 const express = require('express')
-const fs = require('fs')
-const xlsx = require('node-xlsx')
 const multer = require('multer')
-const path = require('path')
 const jwt = require('jsonwebtoken')
 const mongoose = require('mongoose')
 const { PASSWORD, JWT_KEY } = require('../config')
@@ -10,7 +7,6 @@ const { PASSWORD, JWT_KEY } = require('../config')
 const Catalogue = require('../models/catalogue')
 const User = require('../models/user')
 const Services = require('../models/services')
-const Redeem = require('../models/redeem')
 const Booking = require('../models/booking')
 const oldAuth = require('../middleware/auth')
 
@@ -49,6 +45,23 @@ const storage = multer.diskStorage({
 const upload = multer({
     storage: storage
 }).single('file')
+
+router.post('/uploadLogo', auth, async (req, res) => {
+    console.log("Upload")
+    upload(req, res, function (err) {
+        if (err instanceof multer.MulterError) {
+            return res.status(500).json(err)
+        } else if (err) {
+            return res.status(500).json(err)
+        }
+        console.log("Filename", req.file.filename)
+        return res.status(200).send({
+            status: 1,
+            data: req.file,
+            msg: "success"
+        })
+    })
+})
 
 router.get('/hospitalList', (req, res) => {
     console.log("Get hospitals")
@@ -225,25 +238,8 @@ router.patch('/paymentStatus', (req, res) => {
     })
 })
 
-router.post('/uploadLogo', auth, async (req, res) => {
-    console.log("Upload")
-    upload(req, res, function (err) {
-        if (err instanceof multer.MulterError) {
-            return res.status(500).json(err)
-        } else if (err) {
-            return res.status(500).json(err)
-        }
-        console.log("Filename", req.file.filename)
-        return res.status(200).send({
-            status: 1,
-            data: req.file,
-            msg: "success"
-        })
-    })
-})
-
 router.patch('/updatePrice', oldAuth, async (req, res) => {
-    console.log("Update price", req.body.newPrice)
+    console.log("Update price", req.body.newPrice, typeof req.body.newPrice)
     await asyncForEach(req.user.specialities, async element => {
         if (element.specialityId === req.body.specialityId) {
             await asyncForEach(element.services, async subElement => {

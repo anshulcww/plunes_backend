@@ -26,7 +26,6 @@ const blogSchema = mongoose.Schema({
 
 blogSchema.statics.addPost = newPost => {
     return new Promise(async (resolve, reject) => {
-        newPost.body = newPost.body.split('\n')
         try {
             const result = await Blog.updateOne({ title: newPost.title }, {
                 $set: {

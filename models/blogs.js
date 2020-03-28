@@ -17,12 +17,15 @@ const blogSchema = mongoose.Schema({
     },
     author: {
         type: String
+    },
+    createdAt: {
+        type: Date,
+        default: new Date()
     }
-}, { timestamps: true })
+})
 
 blogSchema.statics.addPost = newPost => {
     return new Promise(async (resolve, reject) => {
-        newPost.body = newPost.body.split('\n')
         try {
             const result = await Blog.updateOne({ title: newPost.title }, {
                 $set: {
@@ -89,7 +92,7 @@ blogSchema.statics.deletePost = id => {
 blogSchema.statics.getPostList = (skip) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await Blog.find({}, '_id title createdAt uriTag description imageUrl').sort({ _id: -1 }).skip(skip*20).limit(20)
+            let result = await Blog.find({}, '_id title createdAt uriTag description imageUrl').sort({ createdAt: -1 }).skip(skip*20).limit(20)
             resolve(result)
         } catch (e) {
             reject(e)

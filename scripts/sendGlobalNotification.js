@@ -57,7 +57,7 @@ const sendNotifications = () => {
                     await sendPush(pushNotificationTitle, pushNotificationBody, 'solution', element.deviceIds)
                 }
                 if (element.mobileNumber) {
-                    await sendSms(mobileNumber, textMessage)
+                    await sendSms(element.mobileNumber, textMessage)
                 }
             })
             resolve()

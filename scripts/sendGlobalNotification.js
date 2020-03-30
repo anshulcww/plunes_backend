@@ -23,7 +23,7 @@ const sendPush = (title, body, screen, deviceIds) => {
     return new Promise(async (resolve, reject) => {
         console.log("Sending push notificaiton", { title, body, screen, deviceIds })
         try {
-            // await Notification.push(deviceIds, title, body, screen)
+            await Notification.push(deviceIds, title, body, screen)
             console.log("Sent push notifications")
             resolve()
         } catch (e) {
@@ -37,7 +37,7 @@ const sendSms = (mobileNumber, sms) => {
     return new Promise(async (resolve, reject) => {
         console.log("Sending sms notificaiton", { mobileNumber, sms })
         try {
-            // await Notification.sms(mobileNumber, sms)
+            await Notification.sms(mobileNumber, sms)
             console.log("Sent sms notification")
             resolve()
         } catch (e) {
@@ -50,7 +50,7 @@ const sendSms = (mobileNumber, sms) => {
 const sendNotifications = () => {
     return new Promise(async (resolve, reject) => {
         try {
-            const userList = await User.find({ userType: "User" }, 'mobileNumber email deviceIds').lean()
+            const userList = await User.find({ userType: "User", name: { $or: ["Divyanshu Sharma", "Sanya"] } }, 'mobileNumber email deviceIds').lean()
             await asyncForEach(userList, async element => {
                 console.log({ element })
                 if (element.deviceIds.length > 0) {

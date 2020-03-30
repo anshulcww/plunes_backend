@@ -13,29 +13,53 @@ const asyncForEach = async (array, callback) => {
 }
 
 const sendPush = async (title, body, screen, deviceIds) => {
-    console.log("Sending push notificaiton", { title, body, screen, deviceIds })
-    // await Notification.push(deviceIds, title, body, screen)
-    console.log("Sent push notifications")
+    return new Promise((resolve, reject) => {
+        console.log("Sending push notificaiton", { title, body, screen, deviceIds })
+        try {
+            // await Notification.push(deviceIds, title, body, screen)
+            console.log("Sent push notifications")
+            resolve()
+        } catch(e) {
+            console.log("Error sending push", e)
+            reject(e)
+        }
+    })
 }
 
 const sendSms = async (mobileNumber, sms) => {
-    console.log("Sending sms notificaiton", { mobileNumber, sms })
-    // await Notification.sms(mobileNumber, sms)
-    console.log("Sent sms notification")
+    return new Promise((resolve, reject) => {
+        console.log("Sending sms notificaiton", { mobileNumber, sms })
+        try{
+            // await Notification.sms(mobileNumber, sms)
+            console.log("Sent sms notification")
+            resolve()
+        } catch(e) {
+            console.log("Error sending SMS", e)
+            reject(e)
+        }
+    })
 }
 
 const sendNotifications = async () => {
-    try {
-        const userList = await User.find({userType: "User"}, 'mobileNumber email deviceIds').lean()
-        await asyncForEach(userList, async element => {
-            await sendPush(pushNotificationTitle, pushNotificationBody, 'solution', element.deviceIds)
-            await sendSms(mobileNumber, textMessage)
-        })
-        console.log("Sent all notifications")
-        process.exit(0)
-    } catch(e) {
-        console.log("Error", e)
-    }
+    return new Promise((resolve, reject) => {
+        try {
+            const userList = await User.find({userType: "User"}, 'mobileNumber email deviceIds').lean()
+            await asyncForEach(userList, async element => {
+                await sendPush(pushNotificationTitle, pushNotificationBody, 'solution', element.deviceIds)
+                await sendSms(mobileNumber, textMessage)
+            })
+            console.log("Sent all notifications")
+            resolve()
+        } catch(e) {
+            console.log("Error", e)
+            reject(e)
+        }
+    })
 }
 
-sendNotifications()
+try{
+    await sendNotifications()
+    process.exit(0)
+} catch(err) {
+    console.log("Error", err)
+}

@@ -50,7 +50,7 @@ const sendSms = (mobileNumber, sms) => {
 const sendNotifications = () => {
     return new Promise(async (resolve, reject) => {
         try {
-            const userList = await User.find({ userType: "User", name: { $in: ["Divyanshu Sharma", "Sanya"] } }, 'mobileNumber email deviceIds').lean()
+            const userList = await User.find({ userType: "User" }, 'mobileNumber email deviceIds').lean()
             await asyncForEach(userList, async element => {
                 console.log({ element })
                 if (element.deviceIds.length > 0) {

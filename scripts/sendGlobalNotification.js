@@ -52,8 +52,13 @@ const sendNotifications = () => {
         try {
             const userList = await User.find({ userType: "User" }, 'mobileNumber email deviceIds').lean()
             await asyncForEach(userList, async element => {
-                await sendPush(pushNotificationTitle, pushNotificationBody, 'solution', element.deviceIds)
-                await sendSms(mobileNumber, textMessage)
+                console.log({ element })
+                if (element.deviceIds.length > 0) {
+                    await sendPush(pushNotificationTitle, pushNotificationBody, 'solution', element.deviceIds)
+                }
+                if (element.mobileNumber) {
+                    await sendSms(mobileNumber, textMessage)
+                }
             })
             resolve()
         } catch (e) {

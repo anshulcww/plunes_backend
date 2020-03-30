@@ -23,7 +23,7 @@ const sendPush = (title, body, screen, deviceIds) => {
     return new Promise(async (resolve, reject) => {
         console.log("Sending push notificaiton", { title, body, screen, deviceIds })
         try {
-            // await Notification.push(deviceIds, title, body, screen)
+            await Notification.push(deviceIds, title, body, screen)
             console.log("Sent push notifications")
             resolve()
         } catch (e) {
@@ -37,7 +37,7 @@ const sendSms = (mobileNumber, sms) => {
     return new Promise(async (resolve, reject) => {
         console.log("Sending sms notificaiton", { mobileNumber, sms })
         try {
-            // await Notification.sms(mobileNumber, sms)
+            await Notification.sms(mobileNumber, sms)
             console.log("Sent sms notification")
             resolve()
         } catch (e) {

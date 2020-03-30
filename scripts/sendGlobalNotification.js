@@ -12,54 +12,54 @@ const asyncForEach = async (array, callback) => {
     }
 }
 
-const sendPush = async (title, body, screen, deviceIds) => {
-    return new Promise((resolve, reject) => {
+const sendPush = (title, body, screen, deviceIds) => {
+    return new Promise(async (resolve, reject) => {
         console.log("Sending push notificaiton", { title, body, screen, deviceIds })
         try {
             // await Notification.push(deviceIds, title, body, screen)
             console.log("Sent push notifications")
             resolve()
-        } catch(e) {
+        } catch (e) {
             console.log("Error sending push", e)
             reject(e)
         }
     })
 }
 
-const sendSms = async (mobileNumber, sms) => {
-    return new Promise((resolve, reject) => {
+const sendSms = (mobileNumber, sms) => {
+    return new Promise(async (resolve, reject) => {
         console.log("Sending sms notificaiton", { mobileNumber, sms })
-        try{
+        try {
             // await Notification.sms(mobileNumber, sms)
             console.log("Sent sms notification")
             resolve()
-        } catch(e) {
+        } catch (e) {
             console.log("Error sending SMS", e)
             reject(e)
         }
     })
 }
 
-const sendNotifications = async () => {
-    return new Promise((resolve, reject) => {
+const sendNotifications = () => {
+    return new Promise(async (resolve, reject) => {
         try {
-            const userList = await User.find({userType: "User"}, 'mobileNumber email deviceIds').lean()
+            const userList = await User.find({ userType: "User" }, 'mobileNumber email deviceIds').lean()
             await asyncForEach(userList, async element => {
                 await sendPush(pushNotificationTitle, pushNotificationBody, 'solution', element.deviceIds)
                 await sendSms(mobileNumber, textMessage)
             })
             console.log("Sent all notifications")
             resolve()
-        } catch(e) {
+        } catch (e) {
             console.log("Error", e)
             reject(e)
         }
     })
 }
 
-try{
+try {
     await sendNotifications()
     process.exit(0)
-} catch(err) {
+} catch (err) {
     console.log("Error", err)
 }

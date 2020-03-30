@@ -48,7 +48,6 @@ const sendNotifications = () => {
                 await sendPush(pushNotificationTitle, pushNotificationBody, 'solution', element.deviceIds)
                 await sendSms(mobileNumber, textMessage)
             })
-            console.log("Sent all notifications")
             resolve()
         } catch (e) {
             console.log("Error", e)
@@ -57,9 +56,10 @@ const sendNotifications = () => {
     })
 }
 
-try {
-    await sendNotifications()
+sendNotifications().then(res => {
+    console.log("Sent notifications")
     process.exit(0)
-} catch (err) {
-    console.log("Error", err)
-}
+})
+    .catch(err => {
+        console.log("Error", err)
+    })

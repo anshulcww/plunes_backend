@@ -70,7 +70,7 @@ const sendNotifications = () => {
 
 sendNotifications().then(res => {
     console.log("Sent notifications")
-    process.exit(0)
+    // process.exit(0)
 })
     .catch(err => {
         console.log("Error", err)

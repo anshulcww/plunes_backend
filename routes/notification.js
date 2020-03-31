@@ -11,7 +11,9 @@ const ObjectId = mongoose.Types.ObjectId
 
 router.post('/covidInfo', async (req, res) => {
     try{
-        const {name, mobileNumber, message} = req.body
+        const {name,
+               mobileNumber, message} = req.body;
+               
         const covid = new Covid({
             name: name,
             mobileNumber: mobileNumber,

@@ -3,7 +3,7 @@ const Notification = require('../models/notification')
 const User = require('../models/user')
 const Config = require('../config')
 
-const textMessage = `ICMR Approved COVID-19 TEST NOW AVAILABLE IN GURGAON. Download PLUNES & BOOK for safe and hygienic collection at home. Up to 50% off. Contact us: 7701805081`
+const textMessage = `ICMR Approved COVID-19 TEST NOW AVAILABLE IN GURGAON. Download PLUNES and BOOK for safe and hygienic collection at home. Up to 50% off. Contact us: 7701805081`
 const pushNotificationBody = `Upto 50% OFF in Public Interest. Home Collection Available, No Hassle`
 const pushNotificationTitle = `COVID-19 TEST NOW AVAILABLE ON PLUNES!`
 
@@ -70,7 +70,7 @@ const sendNotifications = () => {
 
 sendNotifications().then(res => {
     console.log("Sent notifications")
-    process.exit(0)
+    // process.exit(0)
 })
     .catch(err => {
         console.log("Error", err)

@@ -103,7 +103,7 @@ router.post('/search_old', async (req, res) => {
 
 router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
-    if (req.body.limit && (req.body.page || req.body.page === 0)) {
+    if (req.body.page || req.body.page === 0) {
         const limit = parseInt(req.body.limit) || 10
         const skip = parseInt(req.body.page) * limit
         req.body.expression = req.body.expression.toLowerCase()

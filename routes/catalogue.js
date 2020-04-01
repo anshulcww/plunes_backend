@@ -112,7 +112,7 @@ router.post('/search', async (req, res) => {
                 "index": ES_INDEX,
                 "from": skip,
                 "size": limit,
-                "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration"],
+                "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration", "speciality"],
                 "body": {
                     "sort": [
                         {

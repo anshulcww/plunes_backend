@@ -157,6 +157,42 @@ router.post('/search', async (req, res) => {
     }
 })
 
+router.get('/category/:category', (req, res) => {
+    console.log("Get category list", req.params.category)
+    if(req.params.category) {
+        if(req.params.category === "Consultation") {
+            Services.find({category: "Consultation"}, '-specialityId -tags', (err, consultationList) => {
+                if(err) {
+                    res.status(400).send()
+                    console.log(err)
+                } else {
+                    res.status(200).send(consultationList)
+                }
+            })
+        }
+        else if(req.params.category === "Test") {
+            Services.aggregate([{ $match: {category: "Test"}}, {$group: {_id: '$speciality', specialityId: { $addToSet: '$specialityId'}}}, {$unwind: "$specialityId"}], (err, testList) => {
+                if(err) {
+                    res.status(400).send()
+                    console.log(err)
+                } else {
+                    res.status(200).send(testList)
+                }
+            })
+        }
+        else if(req.params.category === "Procedure") {
+            Services.aggregate([{ $match: {category: "Procedure"}}, {$group: {_id: '$speciality', specialityId: { $addToSet: '$specialityId'}}}, {$unwind: "$specialityId"}], (err, procedureList) => {
+                if(err) {
+                    res.status(400).send()
+                    console.log(err)
+                } else {
+                    res.status(200).send(procedureList)
+                }
+            })
+        }
+    }
+})
+
 const addService = async (user, specialityId, serviceId, price, variance, homeCollection, category) => {
     console.log(specialityId, serviceId, price, variance, homeCollection, category)
     var index = user.specialities.findIndex(s => s.specialityId == specialityId)

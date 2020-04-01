@@ -190,6 +190,9 @@ router.get('/category/:category', (req, res) => {
                 }
             })
         }
+        else {
+            res.status(400).send("Please specify valid category")
+        }
     }
 })
 

@@ -1,4 +1,5 @@
 const express = require('express')
+const mongoose = require('mongoose')
 const fs = require('fs')
 const xlsx = require('node-xlsx')
 const elasticsearch = require('elasticsearch')
@@ -103,7 +104,7 @@ router.post('/search_old', async (req, res) => {
 
 router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
-    if (req.body.limit && (req.body.page || req.body.page === 0)) {
+    if (req.body.page || req.body.page === 0) {
         const limit = parseInt(req.body.limit) || 10
         const skip = parseInt(req.body.page) * limit
         req.body.expression = req.body.expression.toLowerCase()
@@ -112,7 +113,7 @@ router.post('/search', async (req, res) => {
                 "index": ES_INDEX,
                 "from": skip,
                 "size": limit,
-                "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration"],
+                "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration", "speciality"],
                 "body": {
                     "sort": [
                         {
@@ -154,6 +155,69 @@ router.post('/search', async (req, res) => {
         }
     } else {
         res.status(400).send()
+    }
+})
+
+router.get('/category/:category', (req, res) => {
+    console.log("Get category list", req.params.category)
+    if (req.params.category) {
+        if (req.params.category === "consultations") {
+            Services.find({ category: "Consultation" }, '-specialityId -tags', (err, consultationList) => {
+                if (err) {
+                    res.status(400).send()
+                    console.log(err)
+                } else {
+                    res.status(200).send(consultationList)
+                }
+            })
+        }
+        else if (req.params.category === "tests") {
+            Services.aggregate([{ $match: { category: "Test" } }, { $group: { _id: '$speciality', specialityId: { $addToSet: '$specialityId' } } }, { $unwind: "$specialityId" }], (err, testList) => {
+                if (err) {
+                    res.status(400).send()
+                    console.log(err)
+                } else {
+                    res.status(200).send(testList)
+                }
+            })
+        }
+        else if (req.params.category === "procedures") {
+            Services.aggregate([{ $match: { category: "Procedure" } }, { $group: { _id: '$speciality', specialityId: { $addToSet: '$specialityId' } } }, { $unwind: "$specialityId" }], (err, procedureList) => {
+                if (err) {
+                    res.status(400).send()
+                    console.log(err)
+                } else {
+                    res.status(200).send(procedureList)
+                }
+            })
+        }
+        else {
+            res.status(400).send("Please specify valid category")
+        }
+    }
+})
+
+router.get('/serviceList/:specialityId/:type', (req, res) => {
+    console.log(`Get list of ${req.params.type} for ${req.params.specialityId}`)
+    if (req.params.type && req.params.specialityId) {
+        let category = ''
+        if (req.params.type === 'tests') {
+            category = "Test"
+        } else if (req.params.type === 'procedures') {
+            category = "Procedure"
+        }
+        if (category) {
+            Services.find({ specialityId: mongoose.Types.ObjectId(req.params.specialityId), category }, '-specialityId -tags', (err, serviceList) => {
+                if (err) {
+                    res.status(400).send()
+                    console.log(err)
+                } else {
+                    res.status(200).send(serviceList)
+                }
+            })
+        } else {
+            res.status(400).send("Please specify valid category")
+        }
     }
 })
 

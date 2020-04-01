@@ -71,6 +71,8 @@ router.post('/login', async (req, res) => {
             password,
             deviceId
         } = req.body
+        console.log('Abs')
+        console.log(req.body)
         const user = await User.findByCredentials(mobileNumber, password)
         const token = await user.generateAuthToken()
         if (deviceId != null) {

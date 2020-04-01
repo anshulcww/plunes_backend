@@ -5,6 +5,64 @@ const Booking = require('../models/booking')
 const Solution = require('../models/solution');
 const router = express.Router()
 const auth = require('../middleware/auth')
+const mongoose = require('mongoose')
+const Services = require('../models/services')
+
+
+const asyncForEach = async (array, callback) => {
+    for (let index = 0; index < array.length; index++) {
+        await callback(array[index], index, array);
+    }
+}
+
+const getSpecialityName = id => {
+    return new Promise((resolve, reject) => {
+        if (id) {
+            if (typeof a !== 'object') id = mongoose.Types.ObjectId(id)
+            Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
+                if (err) reject(err)
+                else if (specialityName) resolve(specialityName.speciality)
+                else resolve('')
+            })
+        } else resolve('')
+    })
+}
+const getServiceName = id => {
+    return new Promise((resolve, reject) => {
+        if (id) {
+            if (typeof a !== 'object') id = mongoose.Types.ObjectId(id)
+            Services.findOne({ serviceId: id }, 'service', (err, serviceName) => {
+                if (err) reject(err)
+                else if (serviceName) resolve(serviceName.service)
+                else resolve(id)
+            })
+        } else {
+            resolve('')
+        }
+    })
+}
+
+router.get('/getServices', auth, (req, res) => {
+    //console.log("Get user", req.params.id)
+    const user = req.user
+    User.findOne({ _id: mongoose.Types.ObjectId(user._id)  }, {specialities : 1}).lean().exec(async (err, docs) => {
+        if (err) res.status(400).send(err)
+        else {
+            await asyncForEach(docs.specialities, async element => {
+                //element.speciality = await getSpecialityName(element.specialityId)
+                await asyncForEach(element.services, async subElement => {
+                    subElement.service = await getServiceName(subElement.serviceId)
+                })
+            })
+            res.status(201).send({
+                status: 1,
+                data: docs,
+                msg: ''
+            })
+        }
+    })
+})
+
 
 router.get('/solutionUsers', auth, async(req, res) => {
     const solution = await Solution.aggregate([{
@@ -13,9 +71,7 @@ router.get('/solutionUsers', auth, async(req, res) => {
                 "services" : { $elemMatch : {"professionalId"  : req.user._id.toString()}},
 
             }
-        }
-    ,
-    
+        },
     {$sort: {_id: -1}}
     ])
     var map = new Map()

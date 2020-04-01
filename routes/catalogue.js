@@ -147,26 +147,13 @@ router.post('/search', async (req, res) => {
                 return element["_source"]
             }
             )
-            res.status(200).send({
-                status: true,
-                data: resultArray,
-                count: catalogue.hits.hits.length,
-                msg: "success"
-            })
+            res.status(200).send(resultArray)
         } catch (e) {
             console.log("Error", e)
-            res.status(400).send({
-                status: false,
-                data: e,
-                msg: "error"
-            })
+            res.status(400).send()
         }
     } else {
-        res.status(400).send({
-            status: false,
-            data: [],
-            msg: "specify limit/page"
-        })
+        res.status(400).send()
     }
 })
 

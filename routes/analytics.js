@@ -3,64 +3,60 @@ const Service = require('../models/services')
 const User = require('../models/user');
 const Booking = require('../models/booking')
 const Solution = require('../models/solution');
+const Covid = require('../models/covid');
 const router = express.Router()
 const auth = require('../middleware/auth')
 const mongoose = require('mongoose')
-const Services = require('../models/services')
 
 
-const asyncForEach = async (array, callback) => {
-    for (let index = 0; index < array.length; index++) {
-        await callback(array[index], index, array);
+router.get('/getCovidBooking', async (req, res) => {
+    try{
+        let covid = await Covid.find({})
+        res.status(201).send({
+            success : true,
+            data: covid
+        })
+    }catch(error){
+        res.status(400).send({
+            success : false,
+        })
     }
-}
+})
 
-const getSpecialityName = id => {
-    return new Promise((resolve, reject) => {
-        if (id) {
-            if (typeof a !== 'object') id = mongoose.Types.ObjectId(id)
-            Services.findOne({ specialityId: id }, 'speciality', (err, specialityName) => {
-                if (err) reject(err)
-                else if (specialityName) resolve(specialityName.speciality)
-                else resolve('')
-            })
-        } else resolve('')
-    })
-}
-const getServiceName = id => {
-    return new Promise((resolve, reject) => {
-        if (id) {
-            if (typeof a !== 'object') id = mongoose.Types.ObjectId(id)
-            Services.findOne({ serviceId: id }, 'service', (err, serviceName) => {
-                if (err) reject(err)
-                else if (serviceName) resolve(serviceName.service)
-                else resolve(id)
-            })
-        } else {
-            resolve('')
-        }
-    })
-}
 
-router.get('/getServices', auth, (req, res) => {
+router.get('/getServices', auth, async (req, res) => {
     //console.log("Get user", req.params.id)
-    const user = req.user
-    User.findOne({ _id: mongoose.Types.ObjectId(user._id)  }, {specialities : 1}).lean().exec(async (err, docs) => {
-        if (err) res.status(400).send(err)
-        else {
-            await asyncForEach(docs.specialities, async element => {
-                //element.speciality = await getSpecialityName(element.specialityId)
-                await asyncForEach(element.services, async subElement => {
-                    subElement.service = await getServiceName(subElement.serviceId)
-                })
-            })
-            res.status(201).send({
-                status: 1,
-                data: docs,
-                msg: ''
-            })
+    const user = req.user;
+    console.log(user._id)
+     let result = await User.aggregate([
+        {$match: { '_id': user._id}},
+        {$unwind:"$specialities"},
+        {$unwind:"$specialities.services"},
+          {
+                $addFields: {
+                    "serviceId": { "$toObjectId": "$specialities.services.serviceId" }
+                }
+            },
+        {$lookup: {
+            from: Service.collection.name, 
+            localField: 'serviceId', 
+            foreignField: 'serviceId', 
+            as: 'schoolInfo'}},
+        {$unwind:"$schoolInfo"},
+        {
+             $project: {
+                         "_id":1,
+                    "service" : "$schoolInfo.service",
+                    "serviceId" : "$schoolInfo.serviceId"
+                }
         }
+    ])
+    res.status(201).send({
+        status: 1,
+        data: result,
+        msg: ''
     })
+  
 })
 
 
@@ -111,11 +107,11 @@ router.get('/solutionSearch', auth, async(req, res) => {
 
             }
         },
-        {
-            $addFields: {
-                "serviceId": { "$toObjectId": "$serviceId" }
-            }
-        },
+            {
+                $addFields: {
+                    "serviceId": { "$toObjectId": "$serviceId" }
+                }
+            },
         {
             $lookup: {
                 "from": Service.collection.name,

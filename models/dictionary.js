@@ -6,58 +6,68 @@ const dictionarySchema = mongoose.Schema({
 })
 
 dictionarySchema.statics.addTag = (keyword, tag) => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            const result = await Dictionary.updateOne({ tag }, { $set: { keyword } }, { upsert: true })
-            resolve(result)
-        } catch (e) {
-            reject(e)
-        }
-    })
+    if(keyword && tag) {
+        return new Promise(async (resolve, reject) => {
+            try {
+                const result = await Dictionary.updateOne({ tag }, { $set: { keyword } }, { upsert: true })
+                resolve(result)
+            } catch (e) {
+                reject(e)
+            }
+        })
+    }
 }
 
 dictionarySchema.statics.addKeyword = (keyword) => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            const result = await Dictionary.updateOne({ keyword }, { $set: { keyword } }, { upsert: true })
-            resolve(result)
-        } catch (e) {
-            reject(e)
-        }
-    })
+    if(keyword) {
+        return new Promise(async (resolve, reject) => {
+            try {
+                const result = await Dictionary.updateOne({ keyword }, { $set: { keyword } }, { upsert: true })
+                resolve(result)
+            } catch (e) {
+                reject(e)
+            }
+        })
+    }
 }
 
 dictionarySchema.statics.deleteTag = tag => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            const result = await Dictionary.deleteOne({ tag })
-            resolve(result)
-        } catch (e) {
-            reject(e)
-        }
-    })
+    if(tag) {
+        return new Promise(async (resolve, reject) => {
+            try {
+                const result = await Dictionary.deleteOne({ tag })
+                resolve(result)
+            } catch (e) {
+                reject(e)
+            }
+        })
+    }
 }
 
 dictionarySchema.statics.deleteKeyword = keyword => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            const result = await Dictionary.deleteMany({ keyword })
-            resolve(result)
-        } catch (e) {
-            reject(e)
-        }
-    })
+    if(keyword) {
+        return new Promise(async (resolve, reject) => {
+            try {
+                const result = await Dictionary.deleteMany({ keyword })
+                resolve(result)
+            } catch (e) {
+                reject(e)
+            }
+        })
+    }
 }
 
 dictionarySchema.statics.getKeyword = tag => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            let result = await Dictionary.findOne({ tag }, 'keyword')
-            resolve(result.keyword)
-        } catch (e) {
-            reject(e)
-        }
-    })
+    if(tag) {
+        return new Promise(async (resolve, reject) => {
+            try {
+                let result = await Dictionary.findOne({ tag }, 'keyword')
+                resolve(result.keyword)
+            } catch (e) {
+                reject(e)
+            }
+        })
+    }
 }
 
 dictionarySchema.statics.getDictionary = () => {

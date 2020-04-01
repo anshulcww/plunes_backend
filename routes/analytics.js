@@ -15,9 +15,10 @@ router.get('/getCovidBooking', async (req, res) => {
         let result = []
         covid.forEach((c) =>{
             var date = new Date(c.createdAt);
+            
             let obj  = {
                 "name" : c.name,
-                "createdAt" : date.toLocaleString(),
+                "createdAt" : date.toLocaleString("en-US", {timeZone: "Asia/Kolkata"}),
                 "message" : c.message,
                 "mobileNumber" : c.mobileNumber
             }

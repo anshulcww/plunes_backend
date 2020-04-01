@@ -12,9 +12,21 @@ const mongoose = require('mongoose')
 router.get('/getCovidBooking', async (req, res) => {
     try{
         let covid = await Covid.find({}).sort({_id:-1})
+        let result = []
+        covid.forEach((c) =>{
+            var date = new Date(c.createdAt);
+            let obj  = {
+                "name" : c.name,
+                "createdAt" : date.toLocaleString(),
+                "message" : c.message,
+                "mobileNumber" : c.mobileNumber
+            }
+            result.push(obj)
+        })
+        // console.log(covid)
         res.status(201).send({
             success : true,
-            data: covid
+            data: result
         })
     }catch(error){
         res.status(400).send({

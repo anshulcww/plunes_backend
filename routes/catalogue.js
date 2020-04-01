@@ -104,7 +104,7 @@ router.post('/search_old', async (req, res) => {
 router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.limit && (req.body.page || req.body.page === 0)) {
-        const limit = parseInt(req.body.limit)
+        const limit = parseInt(req.body.limit) || 10
         const skip = parseInt(req.body.page) * limit
         req.body.expression = req.body.expression.toLowerCase()
         try {
@@ -112,7 +112,7 @@ router.post('/search', async (req, res) => {
                 "index": ES_INDEX,
                 "from": skip,
                 "size": limit,
-                "_source": ["service", "category", "serviceId", "details", "dnd"],
+                "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration"],
                 "body": {
                     "sort": [
                         {

@@ -1,5 +1,6 @@
 const express = require('express')
 const Notification = require('../models/notification')
+const Covid = require('../models/covid')
 const auth = require('../middleware/auth')
 const router = express.Router()
 const mongoose = require('mongoose')
@@ -7,6 +8,24 @@ const applinkSms = `To download from the App Store, visit: https://apps.apple.co
 To download from the Play Store, visit: https://play.google.com/store/apps/details?id=com.plunes&hl=en_IN`
 
 const ObjectId = mongoose.Types.ObjectId
+
+router.post('/covidInfo', async (req, res) => {
+    try{
+        const {name,
+               mobileNumber, message} = req.body;
+               
+        const covid = new Covid({
+            name: name,
+            mobileNumber: mobileNumber,
+            message: message })
+        await covid.save()
+        res.status(201).send({
+            success: true,
+        })
+    }catch(e){
+        res.status(400).send(e)
+    }
+})
 
 router.put('/', auth, async (req, res) => {
     try {

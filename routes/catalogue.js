@@ -160,7 +160,7 @@ router.post('/search', async (req, res) => {
 router.get('/category/:category', (req, res) => {
     console.log("Get category list", req.params.category)
     if(req.params.category) {
-        if(req.params.category === "Consultation") {
+        if(req.params.category === "consultations") {
             Services.find({category: "Consultation"}, '-specialityId -tags', (err, consultationList) => {
                 if(err) {
                     res.status(400).send()
@@ -170,7 +170,7 @@ router.get('/category/:category', (req, res) => {
                 }
             })
         }
-        else if(req.params.category === "Test") {
+        else if(req.params.category === "tests") {
             Services.aggregate([{ $match: {category: "Test"}}, {$group: {_id: '$speciality', specialityId: { $addToSet: '$specialityId'}}}, {$unwind: "$specialityId"}], (err, testList) => {
                 if(err) {
                     res.status(400).send()
@@ -180,7 +180,7 @@ router.get('/category/:category', (req, res) => {
                 }
             })
         }
-        else if(req.params.category === "Procedure") {
+        else if(req.params.category === "procedures") {
             Services.aggregate([{ $match: {category: "Procedure"}}, {$group: {_id: '$speciality', specialityId: { $addToSet: '$specialityId'}}}, {$unwind: "$specialityId"}], (err, procedureList) => {
                 if(err) {
                     res.status(400).send()

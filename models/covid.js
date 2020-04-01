@@ -13,6 +13,10 @@ const covidSchema = mongoose.Schema({
         type: String,
         required :  true
     },
+    createdAt: {
+        type: Date,
+        default: new Date()
+    }
 })
 
 const Covid = mongoose.model('covid', covidSchema)

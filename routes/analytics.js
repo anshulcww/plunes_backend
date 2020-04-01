@@ -11,7 +11,7 @@ const mongoose = require('mongoose')
 
 router.get('/getCovidBooking', async (req, res) => {
     try{
-        let covid = await Covid.find({})
+        let covid = await Covid.find({}).sort({_id:-1})
         res.status(201).send({
             success : true,
             data: covid

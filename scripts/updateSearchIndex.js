@@ -80,12 +80,10 @@ const createServicesCollection = () => {
                                 "index": false
                             },
                             "category": {
-                                "type": "text",
-                                "index": false
+                                "type": "text"
                             },
                             "speciality": {
-                                "type": "text",
-                                "index": false
+                                "type": "text"
                             }
                         }
                     }

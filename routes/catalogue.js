@@ -142,12 +142,7 @@ router.post('/search', async (req, res) => {
                     },
                 }
             })
-            let resultArray = catalogue.hits.hits.map(element => {
-                element["_source"]._id = element["_source"].serviceId
-                delete element["_source"].serviceId
-                return element["_source"]
-            }
-            )
+            let resultArray = catalogue.hits.hits.map(element => element["_source"])
             res.status(200).send(resultArray)
         } catch (e) {
             console.log("Error", e)
@@ -252,7 +247,8 @@ router.post('/serviceList', async (req, res) => {
                         },
                     }
                 })
-                res.status(200).send(catalogue.hits.hits)
+                let resultArray = catalogue.hits.hits.map(element => element["_source"])
+                res.status(200).send(resultArray)
             } catch (e) {
                 res.status(400).send()
                 console.log(e)

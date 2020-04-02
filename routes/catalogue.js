@@ -197,21 +197,22 @@ router.get('/category/:category', (req, res) => {
     }
 })
 
-router.get('/serviceList/:specialityId/:type/:expression?', async (req, res) => {
-    console.log(`Get list of ${req.params.type} for ${req.params.specialityId}`)
-    if (req.params.type && req.params.specialityId) {
+router.post('/serviceList', async (req, res) => {
+    console.log(`Get list of ${req.body.type} for ${req.body.specialityId}, filter ${req.body.expression}, page ${req.body.page}`)
+    if (req.body.type && req.body.specialityId) {
         let category = ''
-        if (req.params.type === 'tests') {
+        let skip = req.body.page || 0
+        if (req.body.type === 'tests') {
             category = "Test"
-        } else if (req.params.type === 'procedures') {
+        } else if (req.body.type === 'procedures') {
             category = "Procedure"
         }
-        if (category && req.params.specialityId) {
+        if (category && req.body.specialityId) {
             try {
                 const catalogue = await client.search({
                     "index": ES_INDEX,
-                    "from": skip,
-                    "size": limit,
+                    "from": skip*10,
+                    "size": 10,
                     "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration", "speciality"],
                     "body": {
                         "sort": [
@@ -226,7 +227,7 @@ router.get('/serviceList/:specialityId/:type/:expression?', async (req, res) => 
                                 "must": [
                                     {
                                         "query_string": {
-                                            "query": `${req.params.expression}*`,
+                                            "query": `${req.body.expression}*`,
                                             "analyze_wildcard": true,
                                             "fuzziness": "AUTO",
                                             "fuzzy_prefix_length": 3,
@@ -236,7 +237,7 @@ router.get('/serviceList/:specialityId/:type/:expression?', async (req, res) => 
                                     {
                                         "match": {
                                             "category": category,
-                                            "specialityId": req.params.specialityId
+                                            "specialityId": req.body.specialityId
                                         }
                                     }
                                 ],

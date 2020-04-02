@@ -211,7 +211,7 @@ router.post('/serviceList', async (req, res) => {
             try {
                 const catalogue = await client.search({
                     "index": ES_INDEX,
-                    "from": skip*10,
+                    "from": skip * 10,
                     "size": 10,
                     "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration", "speciality"],
                     "body": {
@@ -236,8 +236,12 @@ router.post('/serviceList', async (req, res) => {
                                     },
                                     {
                                         "match": {
-                                            "category": category,
                                             "specialityId": req.body.specialityId
+                                        }
+                                    },
+                                    {
+                                        "match": {
+                                            "category": category
                                         }
                                     }
                                 ],

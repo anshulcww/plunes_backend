@@ -82,6 +82,9 @@ const createServicesCollection = () => {
                             "category": {
                                 "type": "text"
                             },
+                            "specialityId": {
+                                "type": "text"
+                            },
                             "speciality": {
                                 "type": "text"
                             }

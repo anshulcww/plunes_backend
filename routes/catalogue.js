@@ -162,7 +162,7 @@ router.get('/category/:category', (req, res) => {
     console.log("Get category list", req.params.category)
     if (req.params.category) {
         if (req.params.category === "consultations") {
-            Services.find({ category: "Consultation" }, '-specialityId -tags', (err, consultationList) => {
+            Services.find({ category: "Consultation" }, '-tags', (err, consultationList) => {
                 if (err) {
                     res.status(400).send()
                     console.log(err)

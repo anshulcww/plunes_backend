@@ -197,7 +197,7 @@ router.get('/category/:category', (req, res) => {
     }
 })
 
-router.get('/serviceList/:specialityId/:type/:expression?', (req, res) => {
+router.get('/serviceList/:specialityId/:type/:expression?', async (req, res) => {
     console.log(`Get list of ${req.params.type} for ${req.params.specialityId}`)
     if (req.params.type && req.params.specialityId) {
         let category = ''

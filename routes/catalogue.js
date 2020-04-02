@@ -252,7 +252,7 @@ router.post('/serviceList', async (req, res) => {
                         },
                     }
                 })
-                res.status(200).send(catalogue)
+                res.status(200).send(catalogue.hits.hits)
             } catch (e) {
                 res.status(400).send()
                 console.log(e)

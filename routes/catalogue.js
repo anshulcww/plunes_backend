@@ -197,7 +197,7 @@ router.get('/category/:category', (req, res) => {
     }
 })
 
-router.get('/serviceList/:specialityId/:type', (req, res) => {
+router.get('/serviceList/:specialityId/:type/:expression?', (req, res) => {
     console.log(`Get list of ${req.params.type} for ${req.params.specialityId}`)
     if (req.params.type && req.params.specialityId) {
         let category = ''
@@ -206,15 +206,52 @@ router.get('/serviceList/:specialityId/:type', (req, res) => {
         } else if (req.params.type === 'procedures') {
             category = "Procedure"
         }
-        if (category) {
-            Services.find({ specialityId: mongoose.Types.ObjectId(req.params.specialityId), category }, '-specialityId -tags', (err, serviceList) => {
-                if (err) {
-                    res.status(400).send()
-                    console.log(err)
-                } else {
-                    res.status(200).send(serviceList)
-                }
-            })
+        if (category && req.params.specialityId) {
+            try {
+                const catalogue = await client.search({
+                    "index": ES_INDEX,
+                    "from": skip,
+                    "size": limit,
+                    "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration", "speciality"],
+                    "body": {
+                        "sort": [
+                            {
+                                "_score": {
+                                    "order": "desc"
+                                }
+                            }
+                        ],
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "query_string": {
+                                            "query": `${req.params.expression}*`,
+                                            "analyze_wildcard": true,
+                                            "fuzziness": "AUTO",
+                                            "fuzzy_prefix_length": 3,
+                                            "fields": ["service_lowercase^2", "tags^0.5"]
+                                        }
+                                    },
+                                    {
+                                        "match": {
+                                            "category": category,
+                                            "specialityId": req.params.specialityId
+                                        }
+                                    }
+                                ],
+                                "filter": [],
+                                "should": [],
+                                "must_not": []
+                            }
+                        },
+                    }
+                })
+                res.status(200).send(catalogue)
+            } catch (e) {
+                res.status(400).send()
+                console.log(e)
+            }
         } else {
             res.status(400).send("Please specify valid category")
         }

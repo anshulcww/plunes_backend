@@ -28,80 +28,6 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.post('/search_old', async (req, res) => {
-    console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
-    if (req.body.limit && (req.body.page || req.body.page === 0)) {
-        const limit = parseInt(req.body.limit)
-        const skip = parseInt(req.body.page) * limit
-        const expression = new RegExp(req.body.expression, "i")
-        try {
-            const catalogue = await Services.aggregate([{
-                $match: {
-                    $or: [
-                        { service: { $regex: expression } },
-                        { tags: { $regex: expression } }
-                    ]
-                }
-            },
-            // {
-            //     $project: {
-            //         serviceName: {
-            //             $filter: {
-            //                 input: '$services',
-            //                 as: 'services',
-            //                 cond: {
-            //                     "$regexMatch": { "input": '$$services.service', "regex": new RegExp(req.body.expression, "i") }
-            //                 }
-            //             }
-            //         },
-            //         _id: 0
-            //     }
-            // },
-            // {
-            //     $unwind: "$serviceName"
-            // },
-            {
-                $project: {
-                    _id: "$serviceId",
-                    service: "$service",
-                    category: "$category",
-                    details: "$details",
-                    dnd: "$dnd",
-                }
-            },
-            {
-                $sort: { _id: 1 }
-            },
-            {
-                $skip: skip
-            },
-            {
-                $limit: limit
-            }
-            ])
-            res.status(200).send({
-                status: true,
-                data: catalogue,
-                count: catalogue.length,
-                msg: "success"
-            })
-        } catch (e) {
-            console.log("Error", e)
-            res.status(400).send({
-                status: false,
-                data: e,
-                msg: "error"
-            })
-        }
-    } else {
-        res.status(400).send({
-            status: false,
-            data: [],
-            msg: "specify limit/page"
-        })
-    }
-})
-
 router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.page || req.body.page === 0) {
@@ -258,6 +184,8 @@ router.post('/serviceList', async (req, res) => {
         }
     }
 })
+
+// ----------------------------------- OLD APIs BELOW THIS --------------------------------------------------
 
 const addService = async (user, specialityId, serviceId, price, variance, homeCollection, category) => {
     console.log(specialityId, serviceId, price, variance, homeCollection, category)

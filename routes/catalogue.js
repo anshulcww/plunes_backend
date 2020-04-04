@@ -28,80 +28,6 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.post('/search_old', async (req, res) => {
-    console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
-    if (req.body.limit && (req.body.page || req.body.page === 0)) {
-        const limit = parseInt(req.body.limit)
-        const skip = parseInt(req.body.page) * limit
-        const expression = new RegExp(req.body.expression, "i")
-        try {
-            const catalogue = await Services.aggregate([{
-                $match: {
-                    $or: [
-                        { service: { $regex: expression } },
-                        { tags: { $regex: expression } }
-                    ]
-                }
-            },
-            // {
-            //     $project: {
-            //         serviceName: {
-            //             $filter: {
-            //                 input: '$services',
-            //                 as: 'services',
-            //                 cond: {
-            //                     "$regexMatch": { "input": '$$services.service', "regex": new RegExp(req.body.expression, "i") }
-            //                 }
-            //             }
-            //         },
-            //         _id: 0
-            //     }
-            // },
-            // {
-            //     $unwind: "$serviceName"
-            // },
-            {
-                $project: {
-                    _id: "$serviceId",
-                    service: "$service",
-                    category: "$category",
-                    details: "$details",
-                    dnd: "$dnd",
-                }
-            },
-            {
-                $sort: { _id: 1 }
-            },
-            {
-                $skip: skip
-            },
-            {
-                $limit: limit
-            }
-            ])
-            res.status(200).send({
-                status: true,
-                data: catalogue,
-                count: catalogue.length,
-                msg: "success"
-            })
-        } catch (e) {
-            console.log("Error", e)
-            res.status(400).send({
-                status: false,
-                data: e,
-                msg: "error"
-            })
-        }
-    } else {
-        res.status(400).send({
-            status: false,
-            data: [],
-            msg: "specify limit/page"
-        })
-    }
-})
-
 router.post('/search', async (req, res) => {
     console.log("Search", `/${req.body.expression}/`, req.body.expression.length)
     if (req.body.page || req.body.page === 0) {
@@ -142,18 +68,8 @@ router.post('/search', async (req, res) => {
                     },
                 }
             })
-            let resultArray = catalogue.hits.hits.map(element => {
-                element["_source"]._id = element["_source"].serviceId
-                delete element["_source"].serviceId
-                return element["_source"]
-            }
-            )
-            res.status(200).send({
-                status: true,
-                data: resultArray,
-                count: catalogue.hits.hits.length,
-                msg: "success"
-            })
+            let resultArray = catalogue.hits.hits.map(element => element["_source"])
+            res.status(200).send(resultArray)
         } catch (e) {
             console.log("Error", e)
             res.status(400).send({
@@ -175,7 +91,7 @@ router.get('/category/:category', (req, res) => {
     console.log("Get category list", req.params.category)
     if (req.params.category) {
         if (req.params.category === "consultations") {
-            Services.find({ category: "Consultation" }, '-specialityId -tags', (err, consultationList) => {
+            Services.find({ category: "Consultation" }, '-tags -_id', (err, consultationList) => {
                 if (err) {
                     res.status(400).send()
                     console.log(err)
@@ -210,29 +126,74 @@ router.get('/category/:category', (req, res) => {
     }
 })
 
-router.get('/serviceList/:specialityId/:type', (req, res) => {
-    console.log(`Get list of ${req.params.type} for ${req.params.specialityId}`)
-    if (req.params.type && req.params.specialityId) {
+router.post('/serviceList', async (req, res) => {
+    console.log(`Get list of ${req.body.type} for ${req.body.specialityId}, filter ${req.body.expression}, page ${req.body.page}`)
+    if (req.body.type && req.body.specialityId) {
         let category = ''
-        if (req.params.type === 'tests') {
+        let skip = req.body.page || 0
+        if (req.body.type === 'tests') {
             category = "Test"
-        } else if (req.params.type === 'procedures') {
+        } else if (req.body.type === 'procedures') {
             category = "Procedure"
         }
-        if (category) {
-            Services.find({ specialityId: mongoose.Types.ObjectId(req.params.specialityId), category }, '-specialityId -tags', (err, serviceList) => {
-                if (err) {
-                    res.status(400).send()
-                    console.log(err)
-                } else {
-                    res.status(200).send(serviceList)
-                }
-            })
+        if (category && req.body.specialityId) {
+            try {
+                const catalogue = await client.search({
+                    "index": ES_INDEX,
+                    "from": skip * 10,
+                    "size": 10,
+                    "_source": ["service", "category", "serviceId", "details", "dnd", "sittings", "duration", "speciality"],
+                    "body": {
+                        "sort": [
+                            {
+                                "_score": {
+                                    "order": "desc"
+                                }
+                            }
+                        ],
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "query_string": {
+                                            "query": `${req.body.expression}*`,
+                                            "analyze_wildcard": true,
+                                            "fuzziness": "AUTO",
+                                            "fuzzy_prefix_length": 3,
+                                            "fields": ["service_lowercase^2", "tags^0.5"]
+                                        }
+                                    },
+                                    {
+                                        "match": {
+                                            "specialityId": req.body.specialityId
+                                        }
+                                    },
+                                    {
+                                        "match": {
+                                            "category": category
+                                        }
+                                    }
+                                ],
+                                "filter": [],
+                                "should": [],
+                                "must_not": []
+                            }
+                        },
+                    }
+                })
+                let resultArray = catalogue.hits.hits.map(element => element["_source"])
+                res.status(200).send(resultArray)
+            } catch (e) {
+                res.status(400).send()
+                console.log(e)
+            }
         } else {
             res.status(400).send("Please specify valid category")
         }
     }
 })
+
+// ----------------------------------- OLD APIs BELOW THIS --------------------------------------------------
 
 const addService = async (user, specialityId, serviceId, price, variance, homeCollection, category) => {
     console.log(specialityId, serviceId, price, variance, homeCollection, category)

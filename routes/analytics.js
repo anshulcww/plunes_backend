@@ -15,21 +15,23 @@ router.get('/getCovidBooking', async (req, res) => {
         let result = []
         covid.forEach((c) =>{
             var date = new Date(c.createdAt);
-            
+            let dateFormat = date.toLocaleString("en-US", {timeZone: "Asia/Kolkata"})
+            //console.log(dateFormat)
             let obj  = {
                 "name" : c.name,
-                "createdAt" : date.toLocaleString("en-US", {timeZone: "Asia/Kolkata"}),
+                "createdAt" : dateFormat ,
                 "message" : c.message,
                 "mobileNumber" : c.mobileNumber
             }
             result.push(obj)
         })
-        // console.log(covid)
+        // console.log(result)
         res.status(201).send({
             success : true,
             data: result
         })
     }catch(error){
+        console.log(error)
         res.status(400).send({
             success : false,
         })
@@ -54,13 +56,16 @@ router.get('/getServices', auth, async (req, res) => {
             from: Service.collection.name, 
             localField: 'serviceId', 
             foreignField: 'serviceId', 
-            as: 'schoolInfo'}},
-        {$unwind:"$schoolInfo"},
+            as: 'serviceInfo'}},
+        {$unwind:"$serviceInfo"},
         {
              $project: {
                          "_id":1,
-                    "service" : "$schoolInfo.service",
-                    "serviceId" : "$schoolInfo.serviceId"
+                    "service" : "$serviceInfo.service",
+                    "serviceId" : "$serviceInfo.serviceId",
+                    "price" : "$specialities.services.price",
+                    "variance" : "$specialities.services.variance"
+                    // "price" : 
                 }
         }
     ])

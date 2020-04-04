@@ -14,8 +14,8 @@ const covidSchema = mongoose.Schema({
         required :  true
     },
     createdAt: {
-        type: Date,
-        default: new Date()
+        type: Number,
+        // default: new Date()
     }
 })
 

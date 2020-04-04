@@ -17,7 +17,9 @@ router.post('/covidInfo', async (req, res) => {
         const covid = new Covid({
             name: name,
             mobileNumber: mobileNumber,
-            message: message })
+            message: message,
+            createdAt : Date.now()
+        })
         await covid.save()
         res.status(201).send({
             success: true,

@@ -8,6 +8,40 @@ const router = express.Router()
 const auth = require('../middleware/auth')
 const mongoose = require('mongoose')
 
+router.patch('/updatePriceVariance', auth, async (req, res) => {
+    //console.log("Update price/variance", req.body.newPrice, req.body.newVariance)
+    const user = req.user;
+    req.user = await User.findOne({'_id': user._id })
+    await asyncForEach(req.user.specialities, async element => {
+        if (element.specialityId === req.body.specialityId) {
+            await asyncForEach(element.services, async subElement => {
+                if (subElement.serviceId === req.body.serviceId) {
+                    subElement.price = [req.body.newPrice]
+                    if (req.body.newVariance) {
+                        subElement.variance = req.body.newVariance
+                    }
+                }
+            })
+        }
+    })
+    req.user.save().then(docs => {
+        console.log("Saved User")
+        res.status(200).send({
+            status: 1,
+            data: docs,
+            msg: ''
+        })
+    })
+        .catch(e => {
+            console.log(e)
+            res.status(400).send({
+                status: 0,
+                data: e,
+                msg: ''
+            })
+        })
+})
+
 
 router.get('/getCovidBooking', async (req, res) => {
     try{

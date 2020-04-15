@@ -43,6 +43,7 @@ router.patch('/updatePriceVariance', auth, async (req, res) => {
 })
 
 
+
 router.get('/getCovidBooking', async (req, res) => {
     try{
         let covid = await Covid.find({}).sort({_id:-1})

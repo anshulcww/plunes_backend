@@ -27,6 +27,6 @@
     "pdf-creator-node": "^1.4.0",
     "pdf-thumbnail": "^1.0.6",
     "request": "^2.88.0",
-    "validator": "^12.0.0"
+    "validator": "^13.7.0"
   }
 }

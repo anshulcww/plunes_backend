@@ -15,7 +15,7 @@
     "elasticsearch": "^16.6.0",
     "express": "^4.17.1",
     "fcm-node": "^1.5.2",
-    "file-type": "^12.4.0",
+    "file-type": "^16.5.4",
     "jsonwebtoken": "^8.5.1",
     "log-timestamp": "^0.3.0",
     "mongoose": "^5.7.8",
